@@ -88,6 +88,20 @@ for (const s of data.allSpecialties) {
   if (ep.kind === 'officer' && ep.usesAsvab) bad(`${s.name} is officer but marked usesAsvab`);
 }
 
+// 6. EVERY surface that shows a non-enlisted job must show the entry gate.
+//    The specialty PAGE carried an officer warning and the POPUP carried none, so a
+//    reader clicking "Naval Aviator" from their results saw pay and bonuses with no
+//    hint it needs a degree. Two surfaces, one truth — asserted, not remembered.
+for (const s of data.allSpecialties) {
+  const ep = entryPath(s);
+  if (ep.openToHighSchool && ep.kind === 'enlisted') continue;
+  const html = render(`/specialty/${s.id}`);
+  if (!html.includes('entrybanner')) bad(`${s.name} (${ep.kind}) renders NO entry gate on its page`);
+  // The gate must name the real requirement, not just say "officer".
+  if (ep.kind === 'officer' && !/degree|JD|BSN|licen/i.test(html))
+    bad(`${s.name} is officer but the page never names the degree requirement`);
+}
+
 console.log(`\ninvariants: ${inv} failed (must be 0)`);
 console.log(`\n${pass}/${routes.length} routes rendered, ${fail} failed`);
 if (inv) process.exitCode = 1;

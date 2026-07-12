@@ -5,8 +5,8 @@ import { BRANCH_THEME, money } from '../lib/types';
 import { Chip, Note, SectionHead, SourceNote, Value } from '../components/Bits';
 import { MarkDisclaimer } from '../components/Disclaimer';
 import { PayForSpecialty } from '../components/PayForSpecialty';
-import { entryPath } from '../lib/entry';
 import { shortCode, trainingWeeks } from '../lib/format';
+import { EntryGate } from '../components/EntryGate';
 
 /** Renders any of the loosely-typed lifecycle blocks as a definition list. */
 function Block({ obj }: { obj: Record<string, unknown> }) {
@@ -99,23 +99,7 @@ export default function Specialty() {
       </header>
       <MarkDisclaimer />
 
-      {/* The single most important thing on the page for an officer record:
-          you cannot enter this from high school. Stated before anything else. */}
-      {(() => {
-        const ep = entryPath(s);
-        if (ep.openToHighSchool && ep.kind === 'enlisted') return null;
-        return (
-          <div className={`entrybanner ${ep.kind}`}>
-            <div className="eb-tag">{ep.label}</div>
-            <p>{ep.reality}</p>
-            {ep.kind === 'officer' ? (
-              <Link to="/prep" className="inline-link">
-                How officer pathways actually work — academies, ROTC, OCS →
-              </Link>
-            ) : null}
-          </div>
-        );
-      })()}
+      <EntryGate s={s} />
 
       {/* ---------------------------------------------------- qualify */}
       <SectionHead title="What it takes to qualify" />

@@ -2060,16 +2060,543 @@
           "retrieved_date": "2026-07-12"
         }
       ]
+    },
+    {
+      "id": "coast-guard-aviator-officer",
+      "name": "Coast Guard Aviator (Pilot)",
+      "branch": "Coast Guard",
+      "track": "officer",
+      "code": "UNVERIFIED \u2014 the Coast Guard's official aviation career page (gocoastguard.com/careers/officer/aviation) describes the aviator career path and its Aeronautical Engineering specialty sub-track in narrative terms but did not display a numeric officer specialty/designator code on this session's fetch. Not guessed; reported here generically as 'Coast Guard Aviator.'",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "education": "Bachelor's degree required \u2014 this is a hard gate before commissioning, NOT something a high-school graduate can walk directly into. Per the official Coast Guard officer-applications page (gocoastguard.com, fetched 2026-07-12) and data/branch-profiles.json, the paths to a Coast Guard commission are: (1) the U.S. Coast Guard Academy (New London, CT \u2014 a 4-year, tuition-free commissioning path awarding a Bachelor of Science degree, with no congressional nomination required, unlike the other four federal service academies); (2) Officer Candidate School (OCS, also New London, CT, 17 weeks) for those who already hold a bachelor's degree; or (3) the College Student Pre-Commissioning Initiative (CSPI), a scholarship covering tuition plus military pay/benefits during college, culminating in OCS after the bachelor's degree is earned. A high-school diploma alone qualifies a candidate for enlisted AMT/AST/AET aviation-maintenance ratings in this file, but NOT for the Coast Guard Aviator officer track.",
+        "age_range": "UNVERIFIED \u2014 not independently confirmed this session. General Coast Guard officer-commissioning age limits apply (not independently detailed for this specific path); verify with a recruiter or Officer Selection contact.",
+        "physical": "Must meet Naval Aviation medical standards (administered through the same Naval Aerospace Medical Institute (NAMI) process used for Navy/Marine Corps aviators, since Coast Guard aviators train at Naval Air Station Pensacola) \u2014 materially more stringent than general Coast Guard officer accession physicals. Specific vision/anthropometric standards were not independently detailed this session.",
+        "security_clearance": "UNVERIFIED \u2014 not independently confirmed this session.",
+        "other": "THE ASTB, NOT THE ASVAB, IS THE REAL APTITUDE GATE FOR THIS OFFICER TRACK. This session directly retrieved and read the official Aviation Selection Test Battery (ASTB) overview document (officer.marines.com/docs/oso/aviation/ASTB_Overview.pdf, fetched 2026-07-12), which states explicitly: 'The Coast Guard currently uses the ASTB to select pilot candidates for training, and uses a subcomponent score from the ASTB for its non-aviation officer commissioning program.' The ASTB is a 6-subtest, ~2.5-hour battery yielding an Officer Aptitude Rating (OAR, scored 20-80 as a t-score) plus, for the full battery, an Academic Qualification Rating (AQR) and Pilot Flight Aptitude Rating (PFAR), each scored as a 1-9 stanine. The document states plainly that 'minimum score requirements differ by program and service' and are governed by Program Authorizations 106/107 and MCO 1542.1I \u2014 it does NOT itself publish the current numeric cutoffs, and no specific AQR/PFAR minimum is stated here as settled fact. Verify current Coast Guard-specific ASTB cutoffs with an Officer Selection contact before relying on any secondary-site number."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Officer Candidate School (OCS)",
+          "location": "New London, CT (on the grounds of the Coast Guard Academy)",
+          "length_weeks": 17,
+          "description": "Primary commissioning path for bachelor's-degree holders (data/branch-profiles.json). Alternative commissioning paths are the U.S. Coast Guard Academy (4-year) and CSPI (scholarship-to-OCS)."
+        },
+        {
+          "stage": "Naval Flight School",
+          "location": "Naval Air Station Pensacola, FL",
+          "length_weeks": 104,
+          "description": "Coast Guard aviators train through the same Navy-run flight-school pipeline used by Navy and Marine Corps student aviators (Initial Flight Screening, Aviation Pre-flight Indoctrination, Primary Flight Training, then a fixed-wing or helicopter Secondary Phase). The official Coast Guard aviation career page (gocoastguard.com, fetched 2026-07-12) states this 'takes approximately two years' to earn wings; 104 weeks (2 years) is used here as that stated approximate total, not a phase-by-phase confirmed breakdown \u2014 see the companion 'navy-1310-naval-aviator' record in this file for the detailed, separately-flagged API/Primary/Advanced phase lengths, which are UNVERIFIED at the phase level in both records."
+        },
+        {
+          "stage": "Airframe-Specific Qualification Course",
+          "location": "Aviation Training Center, Mobile, AL",
+          "length_weeks": 8,
+          "description": "After winging, aviators attend an airframe-specific course to qualify for the MH-60 Jayhawk, MH-65 Dolphin, HC-130 Hercules, or HC-144 Ocean Sentry; length reported here as a flagged, approximate figure by analogy to comparable single-airframe qualification courses elsewhere in this project (e.g., the Army aircraft-specific AIFT course), NOT independently confirmed for the Coast Guard's course this session. Aviators return annually for a one-week proficiency course in their airframe (gocoastguard.com)."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "O-1",
+        "base_pay_monthly_usd": 4150.2,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 328.48,
+        "total_compensation_estimate_annual_usd": 53744.16,
+        "methodology_note": "Computed, not authoritative: (O-1, <2 YOS basic pay $4,150.20/mo + officer BAS $328.48/mo) x 12 = $53,744.16/yr. The Coast Guard uses the same DFAS officer basic-pay/BAS tables as the DoD branches. BAH is intentionally EXCLUDED (duty-station-specific). Also excludes Aviation Career Incentive Pay ('flight pay') and Hazardous Duty Incentive Pay, which apply once winged and were not quantified this session \u2014 total compensation for a designated Coast Guard aviator is materially higher once flight pay is added.",
+        "source": "data/pay-tables.json (RUN COMPENSATION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "Not applicable in the enlistment-bonus sense \u2014 this is a commissioned-officer accession path. Aviation-specific officer retention/incentive pay programs may exist but no current, verifiable figure was located within this session's tool budget; per this project's binding constraint, such figures are revised quarterly and are not quoted here rather than risk a stale number.",
+        "source": "No current figure located this session",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "O-1\u2192O-2 generally after ~2 years, O-2\u2192O-3 after ~4 years \u2014 the general company-grade officer promotion pattern used elsewhere in this project for DoD officers; not independently confirmed as Coast Guard-specific this session.",
+        "reenlistment_decision_points": [
+          "Post-winging active-duty service obligation (length UNVERIFIED \u2014 not independently sourced this session; the Navy's analogous 8-year obligation, cited in this file's navy-1310-naval-aviator record, is itself flagged UNVERIFIED and should not be assumed to apply identically to the Coast Guard)",
+          "Selection for aeronautical-engineering graduate school (a distinct specialty sub-track that maintains flying status) versus a pure operational-flying career track",
+          "Command of an air station (senior career milestone, per gocoastguard.com)",
+          "The 20-year retention decision (pension cliff \u2014 see retirement block)"
+        ],
+        "advanced_schools_or_certs": [
+          "Sponsored graduate school programs: Aeronautical Engineering \u2013 Avionics/Project Management, Aeronautical Engineering \u2013 STEM MBA, Aeronautical Engineering \u2013 Structures, Aviation Safety Systems, Aviation Technology (all named on the official Coast Guard aviation career page, gocoastguard.com, fetched 2026-07-12)",
+          "Airframe-specific requalification if reassigned to a different platform"
+        ],
+        "officer_conversion_path": null,
+        "source": "https://www.gocoastguard.com/careers/officer/aviation (fetched 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years of service \u2014 there is no partial/prorated pension for separating even one day short of 20 years. Before 20 years, a service member keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) \u2014 all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language. This applies identically regardless of specialty or branch, including the Coast Guard (DHS, not DoD, but administered on the same BRS structure).",
+        "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate, used elsewhere in this project as the reference figure, is 2.5x monthly basic pay for a 4-year additional service obligation). No specialty-specific continuation-pay rate was identified this session for this record \u2014 treat the general BRS figure as the baseline and verify the current branch-specific amount before relying on it.",
+        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to this specialty as to any other.",
+        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
+        "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide SkillBridge eligibility (up to 180 days of permissive duty in the final window before separation) is not specialty-restricted, so a member near separation is as eligible as any other rating/MOS in principle \u2014 subject to the same real gate as everyone else: unit commander approval, which is discretionary based on unit staffing/operational needs (data/transition.json). Coast Guard-specific variances in SkillBridge administration (DHS component, not DoD) were not independently verified this session per data/transition.json's own flagged caveat; DoD-wide policy is applied here and may differ in Coast Guard-specific instructions.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty.",
+        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below \u2014 VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No specialty-specific significance beyond the general rule.",
+        "va_disability_common_claims": [
+          "Tinnitus",
+          "Hearing loss",
+          "Cervical and lumbar spine conditions (from vibration/repetitive flight loading over a flying career) \u2014 reused by direct analogy from this file's Army/Navy aviator records' sourced VA disability claims pattern for aircrew"
+        ],
+        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No specialty-specific eligibility variance.",
+        "source": "data/transition.json (RUN TRANSITION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "53-2011.00 \u2014 Airline Pilots, Copilots, and Flight Engineers",
+          "53-2012.00 \u2014 Commercial Pilots"
+        ],
+        "example_civilian_titles": [
+          "Helicopter EMS (HEMS) pilot",
+          "Corporate/charter helicopter or fixed-wing pilot",
+          "Offshore/utility helicopter pilot",
+          "Regional or cargo airline pilot (with additional rating/experience)"
+        ],
+        "relevant_certifications": [
+          "FAA Commercial Pilot Certificate (rotorcraft or airplane category, as applicable)",
+          "FAA Instrument Rating",
+          "FAA Airline Transport Pilot (ATP) Certificate \u2014 required for Part 121 airline duty",
+          "FAA medical certificate (class per role)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          59330,
+          239200
+        ],
+        "credential_gap_note": "PER THIS PROJECT'S BINDING CONSTRAINT, STATED PRECISELY AS IN THIS FILE'S OTHER PILOT RECORDS: a Coast Guard aviator does NOT hold a civilian FAA pilot certificate automatically upon winging or by virtue of military flight hours alone. To fly civilian aircraft, a former Coast Guard aviator must separately hold the applicable FAA certificate and rating (at minimum Commercial Pilot; ATP for Part 121 airline flying) and meet FAA medical-certificate standards, administered separately from military flight-physical clearance. Military flight hours can often be credited toward FAA civilian flight-time requirements, and some testing accommodations exist for military-trained pilots, but this is an individually-evaluated, documented conversion process, not an automatic transfer. The specific regulatory mechanism (commonly cited as 14 CFR \u00a7 61.73, 'Military pilots or former military pilots: Special rules') was NOT independently re-verified against a primary FAA source this session \u2014 same flagged gap as this file's Army/Navy/Air Force pilot records; confirm at faa.gov before publishing procedural claims to end users.",
+        "source": "BLS OEWS \u2014 Commercial Pilots (53-2012), May 2024 reference period, figures reused from this file's Army/Navy pilot records for the same occupation codes; https://www.gocoastguard.com/careers/officer/aviation",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months (or Purple Heart / service-connected-disability discharge after 30+ days), down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 (or, for the Coast Guard, Title 14) active-duty days count. Applies identically regardless of specialty.",
+        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment \u2014 a real service commitment, not paperwork-only. Must be requested via milConnect while still serving; cannot be initiated after separation. Dependent children must wait until the member has 10+ years of service to start using it.",
+        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt \u2014 not by specialty. This member's group assignment depends entirely on their individual disability rating and income profile, not their rating/MOS/designator.",
+        "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend \u2014 scaled by the eligibility tier above. (data/education-benefits.json)",
+        "tuition_assistance": "DoD-wide Tuition Assistance rate ($250/semester-hour, capped at $4,500/fiscal year, while still serving) applies the same across all six branches per data/education-benefits.json.",
+        "credentialing_assistance": "Coast Guard Credentialing Opportunities On-Line (COOL): specific dollar cap NOT confirmed this session. Coast Guard TA/CA is DHS-funded, not DoD-funded. (data/education-benefits.json)",
+        "coop_or_apprenticeship_notes": "No civilian FAA pilot-certificate pathway is automatically funded the way the AMT/AET aviation-technology degree pathway is documented in this file's enlisted Coast Guard aviation records. A separating Coast Guard aviator's most direct routes toward a civilian flying job are typically (a) using GI Bill/VR&E funding toward FAA certificate add-ons at a civilian flight school, or (b) direct hire by employers who count logged military flight hours toward company minimums \u2014 neither independently verified to primary-source confidence this session."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Flight-hour currency requirements mean Coast Guard aviators fly regularly even in garrison; missions include search-and-rescue, law-enforcement, and other Coast Guard statutory missions rather than combat-deployment rotations. No specific deployment-frequency figure was sourced this session.",
+        "family_considerations": "Assignments are tied to a specific air station and airframe; flight status requires recurring medical recertification, which can affect career/assignment timeline if not maintained."
+      },
+      "visual_assets": {
+        "branch_logo_id": "coast-guard-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": [
+          "Coast Guard aviator cockpit MH-60",
+          "Coast Guard HC-130 flight crew",
+          "Coast Guard aviation training center Mobile Alabama"
+        ],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {
+          "title": "Aviation | United States Coast Guard (official)",
+          "url": "https://www.gocoastguard.com/careers/officer/aviation",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Officer Applications | United States Coast Guard (official)",
+          "url": "https://www.gocoastguard.com/get-started/officer-applications",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Aviation Selection Test Battery (ASTB) overview (official, jointly used by Navy/Marine Corps/Coast Guard)",
+          "url": "https://officer.marines.com/docs/oso/aviation/ASTB_Overview.pdf",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "BLS OEWS \u2014 Commercial Pilots (53-2012)",
+          "url": "https://www.bls.gov/oes/2023/may/oes532012.htm",
+          "retrieved_date": "2026-07-12"
+        }
+      ]
+    },
+    {
+      "id": "usmc-6116-tiltrotor-mechanic-mv22",
+      "name": "Tiltrotor Mechanic, MV-22",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "code": "6116",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "entry_requirements": {
+        "asvab_line_score": "Reported by a secondary ASVAB-prep aggregator as MM (Mechanical Maintenance) \u2265 105, or alternatively EL (Electronics) \u2265 105. UNVERIFIED at primary-source level \u2014 not independently confirmed against a primary marines.com/marines.mil source this session.",
+        "education": "High school diploma (Tier 1) generally required; GED (Tier 2) accepted in a capped share of accessions, per data/branch-profiles.json. No 6116-specific deviation found this session.",
+        "age_range": "17 (with parental consent) to 28 for standard active-duty enlistment \u2014 the most restrictive maximum age of the six branches \u2014 with waivers reportedly available to 35 for prior-service applicants (data/branch-profiles.json; not independently confirmed on marines.com this session).",
+        "physical": "Standard Marine Corps accession medical/fitness standards, plus normal color perception (reported by a secondary source, UNVERIFIED at primary level) given flightline/electrical-system work. Must pass the Marine Corps Physical Fitness Test (PFT) and Combat Fitness Test (CFT).",
+        "security_clearance": "UNVERIFIED \u2014 not independently confirmed this session. Flightline/technical-manual access commonly requires at least a Secret clearance for equivalent aviation-maintenance MOSs in the other branches covered by this file.",
+        "other": "6116 sits within the Marine Corps aviation occupational field (6000 series): the first two digits designate primary-position mechanic (60), helicopter mechanic (61), or fixed-wing mechanic (62) \u2014 per the official Marine Corps aircraft-maintenance careers page (marines.com, fetched 2026-07-12), which lists dozens of specific airframe MOSs in this field, including 6113 (Helicopter Mechanic, CH-53), 6116 (Tiltrotor Mechanic, MV-22), 6217/6218 (Fixed-Wing Aircraft Mechanic, F/A-18 and F-35), and the crew-chief/aircrew MOSs (617X series). 6116 was selected for this record as a genuinely distinctive, current, high-profile Marine Corps airframe (the MV-22B Osprey tiltrotor) rather than an arbitrary pick. A secondary source (UNVERIFIED) reports a five-year minimum enlistment term for this MOS."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13,
+          "description": "Standard 13-week Marine Corps recruit training, common to all MOSs. (data/branch-profiles.json)"
+        },
+        {
+          "stage": "Marine Combat Training (MCT)",
+          "location": "School of Infantry-East (Camp Lejeune, NC) or School of Infantry-West (Camp Pendleton, CA)",
+          "length_weeks": 4,
+          "description": "Basic common-combat-skills training all non-infantry Marines attend after boot camp, before MOS school. Length reported as an approximation (~4 weeks, commonly cited elsewhere in this project, e.g. the Marine Corps culinary-cluster record); not independently confirmed to primary-source level this session."
+        },
+        {
+          "stage": "V-22 Tiltrotor Mechanic Course (combined 'A' and 'C' school)",
+          "location": "CNATT (Center for Naval Aviation Technical Training) MAR Unit, Marine Corps Air Station New River, NC",
+          "length_weeks": 12,
+          "description": "Combined initial-qualification and advanced course covering tiltrotor airframe inspection, maintenance, and flight-line operations for the MV-22B Osprey (marines.com; beforethecorps.com, fetched 2026-07-12, corroborates the school's existence and location but not its exact length). 12 WEEKS IS A FLAGGED, NOT-SOURCED ESTIMATE \u2014 an explicit INFERENCE by analogy to comparable single-airframe CNATT mechanic-qualification courses referenced elsewhere in this project, NOT a confirmed 6116-specific figure. No primary or secondary source located this session stated the exact course length; verify with a recruiter or MCAS New River before relying on this number."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.2,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.8,
+        "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. BAH is intentionally EXCLUDED (duty-station-specific). Excludes any Hazardous Duty Incentive Pay for Marines who also qualify as aircrew, and the DoD TSP contribution.",
+        "source": "data/pay-tables.json (RUN COMPENSATION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "No current, verifiable 6116 enlistment or reenlistment bonus figure was found this session. Aviation maintenance MOSs have historically carried enlistment/reenlistment bonuses during periods of maintainer shortage across the services (per this file's Army 15T record), but per this project's binding constraint, bonus tables are revised quarterly and no current-quarter 6116 figure was located within this session's tool budget. Verify current 6116 bonus eligibility and amount directly with a recruiter.",
+        "source": "No current figure located this session",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "General Marine Corps enlisted promotion pattern (E-1\u2192E-4 in roughly 2-3 years is the cross-service norm used elsewhere in this project); no 6116-specific timeline deviation was found this session.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract (a five-year initial term is reported for this MOS, UNVERIFIED)",
+          "Reclassification/advancement to airframe crew-chief MOSs (e.g., 6176 Tiltrotor Crew Chief, MV-22) or other 61XX/62XX airframe-specific MOSs, per the official Marine Corps aircraft-maintenance MOS list (marines.com)",
+          "The 20-year retention decision (pension cliff \u2014 see retirement block)"
+        ],
+        "advanced_schools_or_certs": [
+          "FAA Airframe & Powerplant (A&P) certificate eligibility pathway via the Joint Service Aviation Maintenance Technician Certification Council (JSAMTCC) process and Marine Corps COOL's Gap Analysis tool \u2014 NOT automatic; see credential_gap_note below",
+          "Advanced/collateral-duty qualifications (e.g., Collateral Duty Inspector, MOS 6016; Collateral Duty Quality Assurance Representative, MOS 6017) per the official MOS list"
+        ],
+        "officer_conversion_path": "Not a direct MOS reclassification. A Marine could separately pursue an enlisted-to-officer commissioning program (e.g., the Marine Enlisted Commissioning Education Program, MECEP, which funds a bachelor's degree en route to commissioning) and, once commissioned, separately compete for aviation officer selection via the ASTB \u2014 this is a distinct, multi-year commissioning-then-selection pathway, not an automatic conversion, and was NOT independently confirmed as 6116-specific this session. See the companion 'usmc-naval-aviator-officer' record in this file for the officer/pilot path.",
+        "source": "https://www.marines.com/resources/aircraft-maintenance---occupational-fields-60-61-62 ; https://www.marines.com/mission/roles/aircraft-maintenance.html (both fetched 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years of service \u2014 there is no partial/prorated pension for separating even one day short of 20 years. Before 20 years, a service member keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) \u2014 all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language. This applies identically regardless of specialty or branch, including the Coast Guard (DHS, not DoD, but administered on the same BRS structure).",
+        "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate, used elsewhere in this project as the reference figure, is 2.5x monthly basic pay for a 4-year additional service obligation). No specialty-specific continuation-pay rate was identified this session for this record \u2014 treat the general BRS figure as the baseline and verify the current branch-specific amount before relying on it.",
+        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to this specialty as to any other.",
+        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
+        "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide SkillBridge eligibility (up to 180 days of permissive duty in the final window before separation) is not specialty-restricted, so a member near separation is as eligible as any other rating/MOS in principle \u2014 subject to the same real gate as everyone else: unit commander approval, which is discretionary based on unit staffing/operational needs (data/transition.json). Coast Guard-specific variances in SkillBridge administration (DHS component, not DoD) were not independently verified this session per data/transition.json's own flagged caveat; DoD-wide policy is applied here and may differ in Coast Guard-specific instructions.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty.",
+        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below \u2014 VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No specialty-specific significance beyond the general rule.",
+        "va_disability_common_claims": [
+          "Tinnitus",
+          "Hearing loss",
+          "Cervical and lumbar spine conditions (for Marines who also qualify as aircrew, from vibration/repetitive loading) \u2014 reused by direct analogy from this file's 'Aviation \u2014 aircrew and ground crew' specialty-linked claims entry in data/transition.json, which covers flightline mechanics generally"
+        ],
+        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No specialty-specific eligibility variance.",
+        "source": "data/transition.json (RUN TRANSITION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "49-3011.00 \u2014 Aircraft Mechanics and Service Technicians"
+        ],
+        "example_civilian_titles": [
+          "Aircraft mechanic",
+          "Airframe and powerplant (A&P) mechanic",
+          "Airline/MRO (maintenance, repair, and overhaul) technician",
+          "Tiltrotor/rotorcraft maintenance technician (a narrow but real civilian niche given the MV-22's limited civilian-analog fleet \u2014 mostly government/defense-contractor MRO work rather than commercial airline work, since no commercial airline currently operates tiltrotor aircraft)"
+        ],
+        "relevant_certifications": [
+          "FAA Airframe & Powerplant (A&P) certificate \u2014 NOT automatic; requires the JSAMTCC-documented military OJT-hours evaluation process plus separate FAA written, oral, and practical exams"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          47790,
+          120080
+        ],
+        "credential_gap_note": "Same acute gap documented elsewhere in this file: a Marine does NOT automatically hold an FAA A&P certificate upon completing 6116 training or a maintenance career. The FAA evaluates military experience individually under FAA Order 8900.1 (Form 8610-2), crediting only documented hands-on WORKING time, and the applicant must still pass separate FAA exams. AN ADDITIONAL, MOS-SPECIFIC NOTE: because the MV-22 Osprey has a very limited civilian/commercial fleet (no commercial airline currently operates tiltrotor aircraft), a 6116 Marine's most directly transferable civilian opportunities skew toward government and defense-contractor MRO work on military or quasi-military tiltrotor/rotorcraft programs, rather than a straightforward move into commercial airline maintenance \u2014 worth stating honestly rather than implying the same broad civilian-aviation-industry demand that a more common airframe (e.g., the CH-53, UH-60, or F/A-18/F-35 fighter lines, which have closer commercial or larger-fleet analogs) would carry.",
+        "source": "FAA, 'Experience Requirements to Become an Aircraft Mechanic' (faa.gov/mechanics/become/experience); BLS OEWS \u2014 Aircraft Mechanics and Service Technicians (49-3011), May 2024, figures reused from this file's Army 15T/Navy AD/Coast Guard AMT records for the same occupation code",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months (or Purple Heart / service-connected-disability discharge after 30+ days), down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 (or, for the Coast Guard, Title 14) active-duty days count. Applies identically regardless of specialty.",
+        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment \u2014 a real service commitment, not paperwork-only. Must be requested via milConnect while still serving; cannot be initiated after separation. Dependent children must wait until the member has 10+ years of service to start using it.",
+        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt \u2014 not by specialty. This member's group assignment depends entirely on their individual disability rating and income profile, not their rating/MOS/designator.",
+        "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend \u2014 scaled by the eligibility tier above. (data/education-benefits.json)",
+        "tuition_assistance": "Marine Corps Tuition Assistance: $4,500/fiscal-year cap at $250/semester-hour, aligned with Department of the Navy policy (data/education-benefits.json).",
+        "credentialing_assistance": "Marine Corps Credentialing Opportunities On-Line (COOL): specific dollar cap UNVERIFIED \u2014 a direct fetch to cool.osd.mil failed with a certificate error in this project's EDU-BENEFITS pass (data/education-benefits.json).",
+        "coop_or_apprenticeship_notes": "The JSAMTCC/COOL A&P Gap Analysis process (described in the credential_gap_note above) is this MOS's primary civilian-credentialing bridge; it is NOT automatic and requires the Marine to proactively initiate the gap-analysis and OJT-hours-documentation process before separating."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Deploys and trains with the supported Marine Aviation Combat Element (ACE) unit; maintenance operational tempo tracks the squadron's flight-hour program and deployment schedule (e.g., as part of a Marine Expeditionary Unit (MEU) embarked aboard Navy amphibious shipping) rather than a fixed MOS-specific rotation. No sourced deployment-frequency figure specific to 6116 was found this session.",
+        "family_considerations": "Assignments are tied to MV-22-equipped squadrons; deployments follow the supported squadron/MEU's schedule, which can include extended shipboard periods as well as land-based rotations."
+      },
+      "visual_assets": {
+        "branch_logo_id": "marine-corps-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": [
+          "Marine Corps MV-22 Osprey maintenance",
+          "Marine Corps tiltrotor mechanic New River",
+          "Marine aviation maintenance flight line"
+        ],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {
+          "title": "Aircraft Maintenance Marine \u2014 marines.com (official)",
+          "url": "https://www.marines.com/mission/roles/aircraft-maintenance.html",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Aircraft Maintenance \u2013 Occupational Fields 60/61/62 \u2014 marines.com (official)",
+          "url": "https://www.marines.com/resources/aircraft-maintenance---occupational-fields-60-61-62",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "MOS 6116, Tiltrotor Mechanic, MV-22 \u2014 mosroadmap.com (secondary)",
+          "url": "https://mosroadmap.com/mos/6116/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Marine Aviation Training Squadron New River \u2014 beforethecorps.com (secondary)",
+          "url": "https://www.beforethecorps.com/mosschoolpage/marine-aviation-training-squadron-new-river",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "FAA \u2014 Experience Requirements to Become an Aircraft Mechanic",
+          "url": "https://www.faa.gov/mechanics/become/experience",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "BLS OEWS \u2014 Aircraft Mechanics and Service Technicians (49-3011)",
+          "url": "https://www.bls.gov/oes/2023/may/oes493011.htm",
+          "retrieved_date": "2026-07-12"
+        }
+      ]
+    },
+    {
+      "id": "usmc-naval-aviator-officer",
+      "name": "Marine Corps Naval Aviator (Pilot)",
+      "branch": "Marine Corps",
+      "track": "officer",
+      "code": "7599 (Student Naval Aviator) during flight training, per a secondary source (usmcofficer.com) corroborated by an official Marine Corps recruiting service-agreement form (mcrc.marines.mil) titled 'Service Agreement \u2014 Officer Candidate Class Student Naval Aviator.' The platform-specific winged Naval Aviator MOS assigned after completing training is airframe-dependent and was NOT independently confirmed to a single current primary-source code this session \u2014 legacy platform-specific codes such as 7501 (A-4 Skyhawk) and 7509 (AV-8B Harrier) found via secondary MOS databases relate to retired or retiring aircraft and are not necessarily current designators for today's F-35B/MV-22/CH-53K fleet. Reported generically here as 'Marine Corps Naval Aviator' rather than guessing a current platform-specific code.",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "education": "Bachelor's degree from an accredited four-year institution is required to commission as a Marine Corps officer \u2014 the Marine Corps has no service academy of its own, so commissioning is via the U.S. Naval Academy, the NROTC Marine option, the Platoon Leaders Course (PLC, summer sessions during college), or Officer Candidates School (OCS, for those who already hold a degree) \u2014 per marines.com and data/branch-profiles.json. A high-school diploma alone qualifies a candidate for enlisted aviation-maintenance MOSs in this file (e.g., 6116), but NOT for the Naval Aviator officer track: this is a real and important distinction the app must state plainly.",
+        "age_range": "Reported by secondary sources (operationmilitarykids.org, marineofficer.org) as at least 19-20 years old, with OCS applicants specifically required to be at least 19 and not have passed their 32nd birthday upon commissioning. UNVERIFIED at primary-source level \u2014 not independently confirmed against marines.com this session; waivers reported case-by-case.",
+        "physical": "Must meet Naval Aviation medical standards, administered through the Naval Aerospace Medical Institute (NAMI) \u2014 materially more stringent than general Marine Corps officer accession physicals \u2014 in addition to the standard Marine Corps officer Physical Fitness Test (PFT) and Combat Fitness Test (CFT). Specific vision/anthropometric standards were not independently detailed this session.",
+        "security_clearance": "UNVERIFIED \u2014 not independently confirmed this session, though flight-status and aircraft-systems access commonly requires at least a Secret clearance.",
+        "other": "THE ASTB, NOT THE ASVAB, IS THE REAL APTITUDE GATE. Marine officers are commissioned first (via USNA, NROTC, PLC, or OCS \u2014 all requiring a bachelor's degree) and only afterward selected into the aviation pipeline using the Aviation Selection Test Battery (ASTB), administered jointly for Navy, Marine Corps, and Coast Guard pilot/flight-officer selection. This session directly retrieved and read the official ASTB overview document (officer.marines.com/docs/oso/aviation/ASTB_Overview.pdf, fetched 2026-07-12): the battery has 6 subtests (~2.5 hours total) yielding an Academic Qualification Rating (AQR, predictive of academic performance in preflight/ground school) and a Pilot Flight Aptitude Rating (PFAR, predictive of primary flight performance), each scored as a 1-9 stanine; a separate Officer Aptitude Rating (OAR, 20-80 t-score) is used for OCS selection generally. The document states plainly that 'the minimum score requirements differ by program and service' and are set via Program Authorizations 106/107 and MCO 1542.1I \u2014 it does NOT itself publish the current numeric AQR/PFAR cutoffs, so none is stated here as settled fact; verify current cutoffs with a Marine Officer Selection Officer (OSO)."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Officer Commissioning (USNA, NROTC Marine option, PLC, or OCS)",
+          "location": "Marine Corps Base Quantico, VA (OCS/PLC); U.S. Naval Academy, Annapolis, MD; or an NROTC-affiliated university",
+          "length_weeks": 10,
+          "description": "OCS is 10 weeks for bachelor's-degree holders (data/branch-profiles.json); USNA is a 4-year commissioning path, and NROTC/PLC run concurrently with a civilian degree. All paths require a bachelor's degree before or upon commissioning."
+        },
+        {
+          "stage": "The Basic School (TBS)",
+          "location": "Marine Corps Base Quantico, VA",
+          "length_weeks": 26,
+          "description": "Mandatory for ALL newly commissioned Marine Corps officers regardless of eventual MOS \u2014 imparts common tactical competency and combat leadership skills before follow-on aviation training (officer.marines.com Aviation_Information.pdf, per search synthesis this session). Length reported here as an approximate, commonly-cited 26 weeks (6 months); not independently confirmed against a primary marines.mil/tbs.marines.mil source this session."
+        },
+        {
+          "stage": "Naval Flight Training (API, Primary, and Advanced/Selection phases)",
+          "location": "Naval Air Station Pensacola, FL, with Primary/Advanced phases at additional Training Air Wing bases depending on aircraft-track selection (e.g., NAS Whiting Field FL, NAS Kingsville TX, NAS Meridian MS, or MCAS New River NC for the helicopter/tiltrotor track)",
+          "length_weeks": 104,
+          "description": "Marine student aviators attend the SAME Navy-run flight-training pipeline as Navy student aviators \u2014 see the companion 'navy-1310-naval-aviator' record in this file for the detailed API (~6wk)/Primary (~22wk)/Advanced (~18-20wk) phase breakdown, which applies identically here and carries the identical UNVERIFIED flag at the phase level. 104 weeks (2 years) is used here as the low end of the 'two to three years from reporting to winging' range reported by search-corroborated secondary sources (officer.marines.com Aviation_Information.pdf synthesis) \u2014 the true figure varies significantly by which of the three post-Primary tracks (Jets, Helicopters, Turbo-Props) a candidate is selected into, with Jets running toward the longer end of the range."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "O-1",
+        "base_pay_monthly_usd": 4150.2,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 328.48,
+        "total_compensation_estimate_annual_usd": 53744.16,
+        "methodology_note": "Computed, not authoritative: (O-1, <2 YOS basic pay $4,150.20/mo + officer BAS $328.48/mo) x 12 = $53,744.16/yr. BAH is intentionally EXCLUDED (duty-station-specific). Also excludes Aviation Career Incentive Pay ('flight pay') and Hazardous Duty Incentive Pay, which apply once winged and were not quantified this session.",
+        "source": "data/pay-tables.json (RUN COMPENSATION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "Not applicable in the enlistment-bonus sense \u2014 this is a commissioned-officer accession path. Aviation Career Incentive Pay/retention-bonus programs may exist for Marine aviators at career gates but no current, verifiable figure was located within this session's tool budget; per this project's binding constraint, such figures are revised quarterly and are not quoted here.",
+        "source": "No current figure located this session",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "O-1\u2192O-2 generally after ~2 years, O-2\u2192O-3 after ~4 years \u2014 the general company-grade officer promotion pattern used elsewhere in this project; O-4 (Major) board eligibility follows career milestones including Weapons and Tactics Instructor (WTI) qualification and command-track selection specific to the Marine aviation community, not independently detailed this session.",
+        "reenlistment_decision_points": [
+          "Post-winging active-duty service obligation (length UNVERIFIED \u2014 not independently sourced for the Marine Corps specifically this session; the Navy's analogous 8-year obligation, cited in this file's navy-1310-naval-aviator record, is itself flagged UNVERIFIED and should not be assumed to transfer directly)",
+          "Weapons and Tactics Instructor (WTI) course selection and Fleet Replacement Squadron (FRS) platform assignment",
+          "The 20-year retention decision (pension cliff \u2014 see retirement block)"
+        ],
+        "advanced_schools_or_certs": [
+          "Platform-specific Fleet Replacement Squadron (FRS) qualification upon winging, before reporting to an operational squadron",
+          "Weapons and Tactics Instructor (WTI) course (MAWTS-1, MCAS Yuma, AZ) \u2014 competitive advanced qualification, per general Marine aviation community knowledge; not independently sourced to a primary document this session"
+        ],
+        "officer_conversion_path": "Not applicable in the 'enlisted-to-officer' sense \u2014 commissioning (USNA/NROTC/PLC/OCS) is itself the prerequisite, and aviation selection (ASTB) happens after commissioning, not as a lateral MOS change. See entry_requirements.other for the ASTB gate.",
+        "source": "officer.marines.com/docs/oso/aviation/ASTB_Overview.pdf and Aviation_Information.pdf (fetched/search-synthesized 2026-07-12); mcrc.marines.mil Service Agreement \u2014 OCC Student Naval Aviator (title confirmed via search, not independently fetched this session)",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years of service \u2014 there is no partial/prorated pension for separating even one day short of 20 years. Before 20 years, a service member keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) \u2014 all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language. This applies identically regardless of specialty or branch, including the Coast Guard (DHS, not DoD, but administered on the same BRS structure).",
+        "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate, used elsewhere in this project as the reference figure, is 2.5x monthly basic pay for a 4-year additional service obligation). No specialty-specific continuation-pay rate was identified this session for this record \u2014 treat the general BRS figure as the baseline and verify the current branch-specific amount before relying on it.",
+        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to this specialty as to any other.",
+        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
+        "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide SkillBridge eligibility (up to 180 days of permissive duty in the final window before separation) is not specialty-restricted, so a member near separation is as eligible as any other rating/MOS in principle \u2014 subject to the same real gate as everyone else: unit commander approval, which is discretionary based on unit staffing/operational needs (data/transition.json). Coast Guard-specific variances in SkillBridge administration (DHS component, not DoD) were not independently verified this session per data/transition.json's own flagged caveat; DoD-wide policy is applied here and may differ in Coast Guard-specific instructions.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty.",
+        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below \u2014 VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No specialty-specific significance beyond the general rule.",
+        "va_disability_common_claims": [
+          "Tinnitus",
+          "Hearing loss",
+          "Cervical and lumbar spine conditions (from vibration/repetitive flight loading over a flying career) \u2014 reused by direct analogy from this file's Army/Navy aviator records' sourced VA disability claims pattern for aircrew"
+        ],
+        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No specialty-specific eligibility variance.",
+        "source": "data/transition.json (RUN TRANSITION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "53-2011.00 \u2014 Airline Pilots, Copilots, and Flight Engineers",
+          "53-2012.00 \u2014 Commercial Pilots"
+        ],
+        "example_civilian_titles": [
+          "Regional or corporate airline pilot (with additional fixed-wing rating/experience, for the jet/turbo-prop track)",
+          "Helicopter EMS (HEMS) pilot (for the helicopter/tiltrotor track)",
+          "Corporate/charter helicopter or fixed-wing pilot",
+          "Test pilot or defense-contractor pilot (a track more directly available to fighter/tiltrotor-experienced Marine aviators than to most civilian-trained pilots)"
+        ],
+        "relevant_certifications": [
+          "FAA Commercial Pilot Certificate (rotorcraft or airplane category, as applicable)",
+          "FAA Instrument Rating",
+          "FAA Airline Transport Pilot (ATP) Certificate \u2014 required for Part 121 airline duty",
+          "FAA medical certificate (class per role)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          59330,
+          239200
+        ],
+        "credential_gap_note": "PER THIS PROJECT'S BINDING CONSTRAINT, STATED PRECISELY AS IN THIS FILE'S OTHER PILOT RECORDS: a Marine Corps Naval Aviator does NOT hold a civilian FAA pilot certificate automatically upon winging or by virtue of military flight hours alone. To fly civilian aircraft, a former Marine aviator must separately hold the applicable FAA certificate and rating (at minimum Commercial Pilot; ATP for Part 121 airline flying) and meet FAA medical-certificate standards, administered separately from military flight-physical clearance. Military flight hours can often be credited toward FAA civilian flight-time requirements, and some testing accommodations exist for military-trained pilots, but this is an individually-evaluated, documented conversion process, not an automatic transfer. The specific regulatory mechanism (commonly cited as 14 CFR \u00a7 61.73) was NOT independently re-verified against a primary FAA source this session \u2014 same flagged gap as this file's other pilot records; confirm at faa.gov before publishing procedural claims to end users. AN ADDITIONAL NOTE SPECIFIC TO TACTICAL/FIGHTER AND TILTROTOR TRACKS: a Marine aviator whose fleet experience is entirely on tactical jets (e.g., F-35B) or the MV-22 tiltrotor may find their military flight hours translate less directly to airline-track civilian hiring minimums (which favor multi-engine transport/turboprop time) than a Marine who flew the KC-130 or a conventional helicopter platform \u2014 a real, track-dependent variance worth naming rather than presenting one uniform civilian outcome for all Marine aviators.",
+        "source": "BLS OEWS \u2014 Commercial Pilots (53-2012), May 2024 reference period, figures reused from this file's Army/Navy pilot records for the same occupation codes",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months (or Purple Heart / service-connected-disability discharge after 30+ days), down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 (or, for the Coast Guard, Title 14) active-duty days count. Applies identically regardless of specialty.",
+        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment \u2014 a real service commitment, not paperwork-only. Must be requested via milConnect while still serving; cannot be initiated after separation. Dependent children must wait until the member has 10+ years of service to start using it.",
+        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt \u2014 not by specialty. This member's group assignment depends entirely on their individual disability rating and income profile, not their rating/MOS/designator.",
+        "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend \u2014 scaled by the eligibility tier above. (data/education-benefits.json)",
+        "tuition_assistance": "Marine Corps Tuition Assistance: $4,500/fiscal-year cap at $250/semester-hour, aligned with Department of the Navy policy (data/education-benefits.json).",
+        "credentialing_assistance": "Marine Corps Credentialing Opportunities On-Line (COOL): specific dollar cap UNVERIFIED \u2014 a direct fetch to cool.osd.mil failed with a certificate error in this project's EDU-BENEFITS pass (data/education-benefits.json).",
+        "coop_or_apprenticeship_notes": "No civilian FAA pilot-certificate pathway is automatically funded. A separating Marine aviator's most direct routes toward a civilian flying job are typically (a) using GI Bill/VR&E funding toward FAA certificate add-ons at a civilian flight school, or (b) direct hire by employers who count logged military flight hours toward company minimums \u2014 neither independently verified to primary-source confidence this session."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Flight-hour currency requirements mean Marine aviators fly regularly even in garrison; deployment tempo follows the supported Marine Aviation Combat Element (ACE) and, for many tracks, Marine Expeditionary Unit (MEU) shipboard rotations. No specific deployment-frequency figure was sourced this session.",
+        "family_considerations": "Frequent moves tied to airframe-specific squadron assignments and career-gate schools (TBS, WTI, etc.); flight status requires recurring medical recertification, which can affect career/assignment timeline if not maintained. MEU workups and shipboard deployments are a distinct family-impact factor relative to land-based-only aviation careers."
+      },
+      "visual_assets": {
+        "branch_logo_id": "marine-corps-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": [
+          "Marine Corps aviator flight training Pensacola",
+          "Marine Corps F-35B pilot cockpit",
+          "Marine Corps aviation squadron flight operations"
+        ],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {
+          "title": "The Path to Becoming a Marine Corps Aviator (official)",
+          "url": "https://officer.marines.com/docs/oso/aviation/Aviation_Information.pdf",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Aviation Selection Test Battery (ASTB) overview (official, jointly used by Navy/Marine Corps/Coast Guard)",
+          "url": "https://officer.marines.com/docs/oso/aviation/ASTB_Overview.pdf",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Officer Requirements \u2014 marines.com (official)",
+          "url": "https://www.marines.com/become/marine-officer/requirements.html",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Service Agreement (1100) Officer Candidate Class Student Naval Aviator \u2014 mcrc.marines.mil (official)",
+          "url": "https://www.mcrc.marines.mil/Portals/95/Officer%20Selection/Service%20Agreement%20-%20MCRC%20Forms/Service%20Agreement%20OCC%20SNA_11-22.pdf",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "BLS OEWS \u2014 Commercial Pilots (53-2012)",
+          "url": "https://www.bls.gov/oes/2023/may/oes532012.htm",
+          "retrieved_date": "2026-07-12"
+        }
+      ]
     }
   ],
   "branches_with_no_presence": [
     {
       "branch": "Space Force",
       "why": "Space Force operates no aircraft and has no aviation specialties \u2014 per data/interest-taxonomy.json's aviation cluster notes, airlift for Space Force needs uses Air Force assets. This is a structural fact of Space Force's mission scope (space-domain operations, not air operations), not an oversight in this research pass; not padded with a placeholder record."
-    },
-    {
-      "branch": "Marine Corps",
-      "why": "NOT AN ABSENCE \u2014 a KNOWN RESEARCH GAP. The Marine Corps has extensive aviation (aircraft maintenance 60XX-63XX; Marines fly via the Navy pipeline). It has simply not been researched yet. Declared explicitly rather than allowed to vanish."
     }
   ],
   "sources": [
@@ -2317,11 +2844,10 @@
     "All aviation-specialty enlistment and reenlistment/Selective Reenlistment Bonus (SRB) figures, and all Aviation Bonus/Aviation Continuation Pay (ACP) amounts for Army, Navy, and Air Force pilots: explicitly left null across every record in this file. Per this project's binding constraint, these programs are real but revised QUARTERLY, and no current-quarter figure for any of the 7 records could be verified within this session's tool budget \u2014 every bonus field is null pending recruiter/official-source confirmation, consistent with the anti-fabrication requirement rather than quoting a stale number.",
     "BLS OEWS percentile wage figures (aircraft mechanics, air traffic controllers, commercial/airline pilots): retrieved via web search summarizing the BLS OEWS May 2024 release; the underlying bls.gov pages were not directly WebFetched and quote-verified this session, only searched.",
     "The precise FAA regulatory mechanism for crediting military pilot flight hours/experience toward civilian certification (referenced as possibly 14 CFR \u00a7 61.73, 'Military pilots or former military pilots: Special rules'): named from general trained knowledge as a plausible citation, NOT independently verified against faa.gov this session \u2014 flagged explicitly in each pilot record's credential_gap_note rather than stated as a confirmed fact. This is the single most important unverified item in this file given the binding constraint's emphasis on precision here; verify against faa.gov/licenses_certificates before publishing procedural claims to end users.",
-    "Marine Corps and Coast Guard aviation specialties: data/interest-taxonomy.json documents real Marine Corps aviation-maintenance presence (60XX-63XX airframe-specific MOS series, exact codes already flagged UNVERIFIED at the taxonomy stage) and real Coast Guard aviation presence (AMT \u2014 Aviation Maintenance Technician, AST \u2014 Aviation Survival Technician, plus Coast Guard aviators commissioned via OCS/Academy and the shared Navy-administered ASTB-E/flight-training pipeline). Neither branch received a completed SpecialtyRecord in this file \u2014 a documented scope gap driven by this session's tool budget, not a claim that these branches lack aviation presence. They are correctly NOT listed in branches_with_no_presence, which is reserved for Space Force only.",
     "Coast Guard AMT/AST/AET ASVAB composite requirements: the Coast Guard has NO line scores, and each rating's raw subtest-sum requirement lives in COMDTINST M1510.10 Enclosure 3, which is not publicly fetchable. Marked UNVERIFIED rather than guessed.",
     "Coast Guard AST 'A' School length: not published on any fetchable page. Left at 0 with an explicit note rather than invented.",
-    "Marine Corps aviation remains a KNOWN GAP \u2014 the taxonomy lists aircraft maintenance (60XX-63XX). Not yet researched; declared here rather than left silently absent.",
-    "Rescue-swimmer family: USCG AST, Navy AIRR and Air Force Pararescue are related but DIFFER IN KIND. AST and AIRR are search-and-rescue. Pararescue is a COMBAT specialty (Air Force Special Warfare) \u2014 personnel recovery under fire \u2014 and is filed under combat-arms as well as aviation."
+    "Rescue-swimmer family: USCG AST, Navy AIRR and Air Force Pararescue are related but DIFFER IN KIND. AST and AIRR are search-and-rescue. Pararescue is a COMBAT specialty (Air Force Special Warfare) \u2014 personnel recovery under fire \u2014 and is filed under combat-arms as well as aviation.",
+    "This follow-on pass (2026-07-12) closed the Marine Corps aviation gap and added a Coast Guard Aviator officer record. Coast Guard AMT/AST/AET (enlisted) were already present from a concurrent commit and were left untouched. New gaps introduced by this pass: the Coast Guard Aviator's specific officer-designator code (not displayed on gocoastguard.com's aviation career page on this session's fetch \u2014 reported as UNVERIFIED rather than guessed); the Marine Corps 6116 (Tiltrotor Mechanic, MV-22) MOS-school exact length (no primary or secondary source located this session stated an exact duration \u2014 the 12-week figure used is an explicit, flagged INFERENCE by analogy to comparable single-airframe CNATT courses, not a sourced figure); the Marine Corps Naval Aviator's current platform-specific winged-MOS code (reported generically as 'Marine Corps Naval Aviator' rather than guessed, since the legacy 7501/7509 codes found via secondary MOS databases reference retired aircraft, the A-4 Skyhawk and AV-8B Harrier); and the post-winging active-duty service obligation length for both new officer records (not independently sourced for either the Coast Guard or Marine Corps specifically this session \u2014 the Navy's analogous 8-year figure, itself already flagged UNVERIFIED in this file's navy-1310-naval-aviator record, should not be assumed to transfer to either service). This session DID directly retrieve and read the official ASTB Overview PDF (officer.marines.com/docs/oso/aviation/ASTB_Overview.pdf), confirming the Navy/Marine Corps/Coast Guard officer aviation aptitude test structure (AQR/PFAR stanines) to primary-source confidence, though the specific current numeric cutoffs remain governed by MCO 1542.1I and Program Authorizations 106/107, which were not independently fetched. All bonus fields on the three new records are null per this project's binding quarterly-bonus-volatility constraint; no dollar figure was fabricated."
   ],
-  "completion_accountability": "10 records. Coast Guard aviation ADDED (AMT, AST, AET). Marine Corps aviation is a declared, known gap \u2014 not a silent one. Space Force operates no aircraft."
+  "completion_accountability": "10 records. Coast Guard aviation ADDED (AMT, AST, AET). Marine Corps aviation is a declared, known gap \u2014 not a silent one. Space Force operates no aircraft. FOLLOW-ON PASS (2026-07-12): the Marine Corps aviation gap has been closed. Three new SpecialtyRecords were added: a Coast Guard Aviator officer record (pilot \u2014 officer/degree-gated, ASVAB explicitly null, ASTB cited from a directly-read primary PDF rather than search-summary alone), Marine Corps 6116 Tiltrotor Mechanic MV-22 (enlisted, a deliberately distinctive current airframe chosen from the Marine Corps' full official 60XX-63XX aircraft-maintenance MOS list, which this session retrieved directly from marines.com), and a Marine Corps Naval Aviator officer record (pilot \u2014 officer/degree-gated, explicitly noting Marines fly via the same Navy-run flight-training pipeline as the existing navy-1310-naval-aviator record in this file, and cross-referencing rather than duplicating that record's already-flagged UNVERIFIED phase-length figures). Coast Guard AMT/AST/AET were found ALREADY PRESENT at the start of this write (added by a concurrent session between this session's initial read and its final write, confirmed via git history) and were deliberately left untouched rather than duplicated or overwritten. branches_with_no_presence now lists only Space Force, correctly reflecting that all five DoD-aviation-relevant branches plus the Coast Guard now have real records in this file. TRACK FIELD was set with particular care per this task's binding constraint: both new officer records set asvab_line_score to null and state the bachelor's-degree gate plainly in entry_requirements.education, and each record's 'other' field distinguishes the officer/pilot path from the enlisted maintenance paths elsewhere in this file \u2014 a high-school graduate cannot walk directly into a Coast Guard or Marine Corps pilot job. Every new dollar figure traces to data/pay-tables.json (Coast Guard and Marine Corps use the same DFAS pay tables as the other services) or a BLS OEWS occupation reused from an existing record in this same file for the identical ONET code; no bonus figure was fabricated. Sourcing for this pass leaned heavily on direct curl fetches (full browser header set + trailing slash, per this task's own instructions) against gocoastguard.com and marines.com, both reachable this way and used as primary sources for the Coast Guard Aviator page and the Marine Corps aircraft-maintenance MOS list respectively, plus a directly-retrieved-and-read official ASTB Overview PDF (officer.marines.com) used as a primary source for the shared Navy/Marine Corps/Coast Guard officer-aviation aptitude test. A militaryyearbookproject.org page returned suspicious obfuscated JavaScript on fetch and was NOT used as a source anywhere in this file. Tool usage for this pass: approximately 16 WebSearch/WebFetch calls against the ~14-call budget guideline given for this task, a modest overage spent resolving the ASTB primary-source citation and the BLS avionics-technician wage figures rather than accepting a lower-confidence secondary synthesis."
 }

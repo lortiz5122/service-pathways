@@ -2334,3 +2334,52 @@ table tr.hit td { color: var(--ink); }
 .grouphead.gated::before { background: var(--alert); }
 
 .stat .s.warnish { color: var(--warn); }
+
+/* ------------------------------------------------- entry gate details */
+
+.eb-quals {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid color-mix(in srgb, var(--alert) 30%, transparent);
+}
+
+.entrybanner.warrant .eb-quals {
+  border-top-color: color-mix(in srgb, var(--warn) 30%, transparent);
+}
+
+.eb-qual .k {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-bottom: 5px;
+}
+
+.eb-qual .v {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+
+.eb-qual .v b { color: var(--ink); }
+
+.eb-path {
+  margin: 14px 0 0 !important;
+  padding-top: 13px;
+  border-top: 1px solid color-mix(in srgb, var(--alert) 30%, transparent);
+  font-size: 13.5px !important;
+  line-height: 1.6;
+  color: var(--ink-2) !important;
+}
+
+.eb-path b { color: var(--ink); }
+
+.modal .entrybanner { margin: 14px 0 4px; padding: 16px 18px; }

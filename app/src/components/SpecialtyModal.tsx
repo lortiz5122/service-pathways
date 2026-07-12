@@ -8,6 +8,7 @@ import { BRANCH_THEME, money, type SpecialtyRecord } from '../lib/types';
 import { RECRUITERS, RECRUITER_TRUTH, ASVAB_OFFICIAL } from '../data/recruiters';
 import { BONUS_SOURCE, bonusForSpecialty } from '../lib/bonuses';
 import { shortCode, shortPaygrade, trainingWeeks } from '../lib/format';
+import { EntryGate } from './EntryGate';
 
 type Tab = 'job' | 'service' | 'bonuses' | 'recruiter';
 
@@ -223,6 +224,11 @@ export function SpecialtyModal({
         <p className="mark-disclaimer" style={{ marginTop: 0 }}>
           Service logo shown for <b>identification only</b> — not an endorsement.
         </p>
+
+        {/* The popup previously carried NO officer warning at all — a reader who
+            clicked "Naval Aviator" from their results saw pay and bonuses and no
+            hint that it needs a degree and a commission. */}
+        <EntryGate s={s} />
 
         <nav className="modal-tabs">
           {TABS.map((t) => (

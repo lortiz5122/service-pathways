@@ -50,8 +50,19 @@ export const specialtyFiles: SpecialtyFile[] = Object.values(specialtyModules)
 
 export const clusters: InterestCluster[] = taxonomy.clusters;
 
-export const allSpecialties: SpecialtyRecord[] = specialtyFiles.flatMap(
-  (f) => f.specialties ?? [],
+/**
+ * One record per id. A specialty legitimately belongs to several interest
+ * clusters (Pararescue is aviation AND combat-arms AND healthcare), but it must
+ * exist ONCE — a duplicate id breaks /specialty/:id routing and double-counts
+ * every total on the site. Cluster membership comes from interest_cluster_ids,
+ * not from which file the record happens to live in.
+ */
+export const allSpecialties: SpecialtyRecord[] = Object.values(
+  Object.fromEntries(
+    specialtyFiles
+      .flatMap((f) => f.specialties ?? [])
+      .map((s) => [s.id, s] as const),
+  ),
 );
 
 export const clusterById = (id: string) => clusters.find((c) => c.id === id);

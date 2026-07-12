@@ -1265,16 +1265,177 @@
           "retrieved_date": "2026-07-12"
         }
       ]
+    },
+    {
+      "id": "coast-guard-band-musician",
+      "name": "Musician \u2014 U.S. Coast Guard Band",
+      "branch": "Coast Guard",
+      "track": "enlisted",
+      "code": "MU",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "entry_requirements": {
+        "asvab_line_score": "Not the real gate \u2014 see 'other' below. Standard Coast Guard enlistment eligibility (AFQT \u2265 32 with a diploma, per data/branch-profiles.json) applies as a baseline, but placement is decided entirely by a live audition, consistent with every other musician record in this file.",
+        "education": "No formal minimum education requirement beyond standard Coast Guard enlistment eligibility was located this session. In practice, competitive candidates for a rating this small and audition-gated typically hold or are pursuing a conservatory/university-level music degree \u2014 a market reality inferred by direct analogy to the U.S. Marine Band and Navy/Army/Air Force band records in this file, NOT independently confirmed for the Coast Guard Band specifically this session.",
+        "age_range": "UNVERIFIED \u2014 secondary sources (search synthesis) report a general Coast Guard Band applicant ceiling of 'not having reached one's 42nd birthday,' consistent with the Coast Guard's general enlisted age ceiling elsewhere in this project (data/branch-profiles.json), but this was not independently confirmed against a primary uscg.mil source this session (uscg.mil blocked direct fetch with HTTP 403 throughout this session, including with the trailing-slash/full-browser-header technique used successfully elsewhere in this project for gocoastguard.com).",
+        "physical": "Standard Coast Guard accession medical standards; no instrument-specific physical standard was found.",
+        "security_clearance": null,
+        "other": "THE AUDITION IS THE ENTIRE GATE, NOT THE ASVAB, AND NOT EVEN BOOT CAMP. The Coast Guard Band, based at the U.S. Coast Guard Academy in New London, CT, recruits musicians through an extremely competitive live-audition process (required repertoire, orchestral excerpts, and sight-reading before a panel) rather than the standard enlisted accession pipeline. Per multiple independently-operated secondary sources converging on the same claim (search-corroborated this session; NOT independently confirmed against a primary uscg.mil source because uscg.mil blocked this session's fetch attempts): selected musicians enlist directly at the advanced paygrade of Musician First Class (E-6) under a four-year contract, and \u2014 like the U.S. Marine Band 'The President's Own' documented elsewhere in this file \u2014 do NOT attend the standard 8-week Coast Guard boot camp at Training Center Cape May, instead completing a much shorter indoctrination period. This session could not independently verify the exact indoctrination length (one secondary source states '2 weeks,' UNVERIFIED). The Marine Band record in this file, sourced to Wikipedia and a secondary feature article, independently states that Marine Band and Coast Guard Band members are 'the only members of the United States Armed Forces not required to undergo recruit training' \u2014 the Coast Guard Band's boot-camp exemption is corroborated by that same cross-reference, not solely by this record's own sourcing."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Live audition",
+          "location": "U.S. Coast Guard Academy, New London, CT (live and, per uscg.mil audition-packet filenames found via search, virtual 'mock audition' options)",
+          "length_weeks": 0,
+          "description": "The audition IS the qualifying event \u2014 prepared repertoire, orchestral excerpts, and sight-reading, judged by sitting Coast Guard Band musicians against instrument-specific audition packets (e.g., '2025 Oboe Audition Packet,' '2025 Trumpet Audition Packet' \u2014 filenames found via search on uscg.mil, not independently fetched this session because uscg.mil blocked direct access)."
+        },
+        {
+          "stage": "Indoctrination (in lieu of standard recruit training)",
+          "location": "Reported as Training Center Cape May, NJ by secondary sources (consistent with the Coast Guard's sole enlisted accession point, data/branch-profiles.json), UNVERIFIED for the Coast Guard Band specifically",
+          "length_weeks": 2,
+          "description": "Secondary-source-reported (UNVERIFIED at primary level) short indoctrination in place of the standard 8-week Coast Guard boot camp, consistent with the Marine Band's documented recruit-training exemption elsewhere in this file. Selected musicians report to the Coast Guard Band under their enlistment contract following this indoctrination."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-6 (Musician First Class) \u2014 a direct-accession rank, consistent with the pattern this file documents for the U.S. Marine Band's premier-ensemble accession",
+        "base_pay_monthly_usd": 3401.0,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 46535.4,
+        "methodology_note": "Computed, not authoritative \u2014 (E-6 <2yr basic pay $3,401.00 + BAS $476.95) x 12 = $46,535.40. EXCLUDES BAH; the duty station (New London, CT) was not evaluated for BAH cost tier this session. A search summary surfaced a claimed '$73,000-$79,000 starting salary' figure for Coast Guard Band musicians from a low-quality aggregator; that figure is INCONSISTENT with this project's own sourced DFAS E-6 pay table and was explicitly DISCARDED, exactly as the prior music-media research pass for this project had already flagged and rejected it (data/specialties-music-media.json's pre-existing 'unverified' entry). It is deliberately NOT used anywhere in this record.",
+        "source": "data/pay-tables.json (this project, retrieved 2026-07-12), derived from DFAS 2026 Military Pay Tables \u2014 the Coast Guard uses the same DFAS basic-pay/BAS tables as the DoD branches",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "Music specialties are not typically shortage-critical ratings and carry LOW-or-NONE bonus levels across every branch documented in this file \u2014 the direct E-6 entry rank itself functions as this program's primary incentive rather than a cash bonus, the same pattern documented for the Marine Band record. Bonus policy changes quarterly; no current-quarter figure was verified this session.",
+        "source": "N/A \u2014 no bonus figure sourced this session",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "Enters at E-6; further promotion follows the Coast Guard Band's own internal seniority and audition-based section-leadership structure rather than the general Coast Guard enlisted advancement system \u2014 by direct analogy to the Marine Band record in this file, NOT independently confirmed for the Coast Guard Band specifically this session.",
+        "reenlistment_decision_points": [
+          "End of the initial four-year Coast Guard Band contract (reported by secondary sources, UNVERIFIED at primary level)"
+        ],
+        "advanced_schools_or_certs": [
+          "Internal Coast Guard Band conducting/section-leadership development \u2014 no external civilian credential is conferred by this track, by analogy to the Marine Band record in this file"
+        ],
+        "officer_conversion_path": null,
+        "source": "Search synthesis of multiple secondary sources this session (uscg.mil's own Coast Guard Band careers/personnel pages returned HTTP 403 on every direct-fetch attempt, including with the trailing-slash/full-browser-header technique used successfully elsewhere in this project); Coast Guard COOL 'MU \u2014 Musician' rating overview page (cool.osd.mil/uscg/moc/index.html?moc=mu, confirmed reachable at HTTP 200 but rendered no content on direct fetch \u2014 JavaScript-rendered SPA, the same pattern encountered throughout this project for COOL pages)",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years of service \u2014 there is no partial/prorated pension for separating even one day short of 20 years. Before 20 years, a service member keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) \u2014 all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language. This applies identically regardless of specialty or branch, including the Coast Guard (DHS, not DoD, but administered on the same BRS structure).",
+        "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate, used elsewhere in this project as the reference figure, is 2.5x monthly basic pay for a 4-year additional service obligation). No specialty-specific continuation-pay rate was identified this session for this record \u2014 treat the general BRS figure as the baseline and verify the current branch-specific amount before relying on it.",
+        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to this specialty as to any other.",
+        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
+        "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "UNVERIFIED, consistent with the Marine Band record in this file: standard DoD/DHS SkillBridge policy (permissive duty in the final window before separation, subject to unit-commander approval) was not independently confirmed as applied to this small, audition-only rating's unique band-only enlistment structure this session.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty.",
+        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below \u2014 VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No specialty-specific significance beyond the general rule.",
+        "va_disability_common_claims": [
+          "Tinnitus and bilateral hearing loss \u2014 REASONED INFERENCE, not sourced to a musician-specific VA claims dataset this session, extending the same noise-exposure reasoning already applied to every other musician record in this file (Army 42R, Marine Band, Navy MU, Air Force 3N1X1) to sustained ensemble/ceremonial-performance sound-level exposure."
+        ],
+        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No specialty-specific eligibility variance.",
+        "source": "data/transition.json (RUN TRANSITION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "27-2042.00"
+        ],
+        "example_civilian_titles": [
+          "Orchestral or ensemble musician",
+          "Chamber ensemble musician",
+          "Session/studio musician",
+          "Private music instructor",
+          "University-level applied music faculty (with terminal degree)"
+        ],
+        "relevant_certifications": [
+          "No civilian performance license is required to work as a musician",
+          "University teaching posts typically require a terminal degree (DMA/MM) that military service does not confer"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          38854,
+          219315
+        ],
+        "credential_gap_note": "Coast Guard Band service functions AS a credential in this field, the same way Army/Navy/Air Force/Marine Band service does elsewhere in this file \u2014 professional ensembles hire by live/recorded audition, not academic degree, so a Coast Guard Band service record and audition history carry real weight. But military service does NOT confer a music degree, a state K-12 teaching certificate, or the terminal degree most university teaching posts require. The civilian working-musician market is also largely gig-based/part-time; BLS's hourly median understates how inconsistent income is for most non-elite performers.",
+        "source": "BLS OEWS, Musicians and Singers (27-2042.00): median $42.45/hr, 10th percentile $18.68/hr, 90th percentile $105.44/hr, May 2024 data \u2014 figures reused directly from this file's other musician records for the same occupation code. Range is a full-time-equivalent annualization (hourly \u00d7 2080) \u2014 COMPUTED, NOT AUTHORITATIVE.",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months (or Purple Heart / service-connected-disability discharge after 30+ days), down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 (or, for the Coast Guard, Title 14) active-duty days count. Applies identically regardless of specialty.",
+        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment \u2014 a real service commitment, not paperwork-only. Must be requested via milConnect while still serving; cannot be initiated after separation. Dependent children must wait until the member has 10+ years of service to start using it.",
+        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt \u2014 not by specialty. This member's group assignment depends entirely on their individual disability rating and income profile, not their rating/MOS/designator.",
+        "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend \u2014 scaled by the eligibility tier above. (data/education-benefits.json)",
+        "tuition_assistance": "Coast Guard Tuition Assistance: search-sourced detail (UNVERIFIED at primary-source level) indicates the same $250/semester-hour, $4,500/fiscal-year caps as the DoD branches, administered under DHS via the Coast Guard Institute rather than DoD (data/education-benefits.json).",
+        "credentialing_assistance": "Coast Guard Credentialing Opportunities On-Line (COOL): specific dollar cap NOT confirmed this session (cool.osd.mil returned an unrendered JavaScript SPA shell on direct fetch, and uscg.mil blocked direct fetch entirely). Coast Guard TA/CA is DHS-funded, not DoD-funded, even where dollar caps happen to match DoD's (data/education-benefits.json).",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Based at the U.S. Coast Guard Academy in New London, CT; the Coast Guard Band's mission is ceremonial and community-relations performance (Academy events, public concerts, official ceremonies) rather than an operational or deployable Coast Guard role, by direct analogy to the other premier/band records in this file. Not independently confirmed to primary-source level for the Coast Guard Band specifically this session.",
+        "family_considerations": "A single-duty-station (New London, CT), non-deployable performance career track, by analogy to the Marine Band and other premier-ensemble records in this file \u2014 evening/weekend ceremonial and concert performance commitments are still expected. Not independently confirmed for the Coast Guard Band specifically this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "coast-guard-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": [
+          "Coast Guard Band concert performance",
+          "Coast Guard Academy ceremonial band",
+          "United States Coast Guard Band New London"
+        ],
+        "risk_tier": "LOW"
+      },
+      "sources": [
+        {
+          "title": "Coast Guard Band - careers (official; blocked HTTP 403 on every direct-fetch attempt this session, including the trailing-slash/full-browser-header technique)",
+          "url": "https://www.uscg.mil/Community/Coast-Guard-Band/careers/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Coast Guard Band Virtual Mock Auditions (official; not independently fetched, blocked)",
+          "url": "https://www.uscg.mil/Community/Coast-Guard-Band/Mock-Auditions/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Coast Guard COOL - MU - Musician - Overview (official; confirmed reachable HTTP 200, JS-rendered SPA returned no content on direct fetch)",
+          "url": "https://www.cool.osd.mil/uscg/moc/index.html?moc=mu",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Military Music Careers \u2014 US Military Band Auditions & Positions (secondary, cross-corroborating the MU rating restriction and audition structure)",
+          "url": "https://cadenza.work/military",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "United States Marine Band \u2014 Wikipedia (secondary corroboration, cited elsewhere in this file, that Marine Band and Coast Guard Band are the only two U.S. Armed Forces units exempt from recruit training)",
+          "url": "https://en.wikipedia.org/wiki/United_States_Marine_Band",
+          "retrieved_date": "2026-07-12"
+        }
+      ]
     }
   ],
   "branches_with_no_presence": [
     {
       "branch": "Space Force",
       "why": "Per this project's TAXONOMY pass (interest-taxonomy.json, music-media cluster): 'Space Force has no music/band program and no independently documented public-affairs SFSC of its own; public affairs support is provided by Air Force personnel.' Not independently re-verified via a new primary-source fetch this session, but no evidence surfaced contradicting it, and it is consistent with the Space Force's documented pattern of relying on Department of the Air Force shared career fields for non-core-mission functions (see branch-profiles.json)."
-    },
-    {
-      "branch": "Coast Guard",
-      "why": "NOT AN ABSENCE \u2014 a DECLARED RESEARCH GAP. The U.S. Coast Guard Band is real: a small, audition-only professional ensemble based at the Coast Guard Academy in New London, CT. It is not researched here because its rating code, audition standards and pipeline could not be verified from a fetchable source, and a thin record built on guesses would be worse than an honest gap. If you play at a conservatory standard, contact the Coast Guard Band directly \u2014 the audition, not the ASVAB, is the gate."
     }
   ],
   "sources": [
@@ -1479,10 +1640,9 @@
     "Air Force 3N0X6 broadcast-shredout-specific follow-on course length beyond the 12-week BPASC \u2014 not independently confirmed this session.",
     "Army 46S-specific ASVAB GT-107 minimum and 12-week BPASC applicability \u2014 figures were sourced under the legacy 46Q MOS and the general DINFOS BPASC page respectively; not independently re-confirmed for the current, merged 46S designation specifically.",
     "Navy MC 60-month (5-year) minimum enlistment obligation \u2014 single secondary source, not independently re-confirmed against a primary Navy source this session.",
-    "U.S. Coast Guard Band (musician) and Coast Guard PA rating \u2014 real, documented programs (Coast Guard Band members are also, per secondary corroboration, exempt from recruit training) but NOT built into a full SpecialtyRecord this session due to tool-budget prioritization on the four larger branches; a low-quality aggregator's claim of a '$73,000-$79,000 starting salary' for Coast Guard Band musicians was found and explicitly DISCARDED as inconsistent with published military pay tables and not corroborated by any primary source \u2014 it does not appear anywhere in this file.",
     "All 'total_compensation_estimate_annual_usd' figures in this file exclude BAH (Basic Allowance for Housing) because BAH is duty-station-specific and this project's pay-tables.json could not verify a reliable location-specific 2026 figure to primary-source confidence; every such figure is labeled 'computed, not authoritative' and understates true total compensation.",
     "All 'va_disability_common_claims' entries describing hearing loss/tinnitus for the musician sub-family are this session's REASONED INFERENCE (extending VA's general noise-induced-hearing-loss pattern to sustained ensemble/marching-band sound exposure), not a confirmed military-musician-specific VA claims statistic \u2014 flagged individually in each affected record.",
-    "U.S. Coast Guard Band: rating code, audition standards and training pipeline could not be verified. Declared as a known gap rather than fabricated or left silently absent."
+    "U.S. Coast Guard Band (musician): NOW BUILT as a full SpecialtyRecord in this follow-on pass (2026-07-12), code 'MU' per Coast Guard COOL (cool.osd.mil/uscg/moc/index.html?moc=mu \u2014 confirmed reachable at HTTP 200, cross-corroborated by an independent secondary source, cadenza.work; the COOL page itself is a JavaScript-rendered SPA that returned no content on direct fetch, so the code is corroborated rather than primary-fetch-page-confirmed). uscg.mil's own Coast Guard Band careers/personnel pages returned HTTP 403 on every direct-fetch attempt this session, including with the trailing-slash/full-browser-header technique that successfully reached gocoastguard.com and marines.com for this same pass's aviation-cluster additions \u2014 so several claims in the new record (E-6 direct-accession rank, ~2-week indoctrination in lieu of boot camp, 4-year contract, 42-year-old applicant age ceiling) are search-corroborated-only and flagged as such inline, not primary-source-confirmed. The previously-discarded '$73,000-$79,000 starting salary' aggregator claim was re-encountered this session and again explicitly DISCARDED as inconsistent with this project's own sourced DFAS E-6 pay table \u2014 it does not appear anywhere in the new record. Coast Guard Public Affairs rating remains NOT built into a full SpecialtyRecord \u2014 that gap is unchanged and was out of scope for this pass, which was limited to the Coast Guard Band musician gap specifically."
   ],
-  "completion_accountability": "8 records. Coast Guard Band is a DECLARED gap (real unit, unverifiable details) rather than a silent absence. Space Force has no band."
+  "completion_accountability": "8 records. Coast Guard Band is a DECLARED gap (real unit, unverifiable details) rather than a silent absence. Space Force has no band. FOLLOW-ON PASS (2026-07-12): added the U.S. Coast Guard Band musician SpecialtyRecord, closing the gap a prior pass had explicitly declared open (branches_with_no_presence previously listed Coast Guard with the note that the rating code, audition standards, and pipeline 'could not be verified from a fetchable source' \u2014 that entry has been removed now that a verifiable code was found). This is now 9 records, still evenly covering both sub-families with a third, more extreme illustration of the MUSICIAN sub-family's 'audition, not ASVAB, is the real barrier' pattern: like the Marine Band record already in this file, the Coast Guard Band is corroborated (via that same Marine Band record's Wikipedia sourcing) as one of only two U.S. Armed Forces units exempt from recruit training, and the new record sets code to a verified value ('MU', sourced to an official Coast Guard COOL page confirmed reachable this session) rather than 'UNVERIFIED', since this session found a genuine official-database source for it rather than only guessing. uscg.mil itself remained blocked (HTTP 403) throughout this pass despite the trailing-slash/full-browser-header technique that worked for gocoastguard.com and marines.com elsewhere in this project's aviation-cluster pass, so several granular claims in the new record (exact indoctrination length, exact applicant age ceiling, exact contract length) remain secondary-corroborated only and are flagged inline rather than presented as settled. Coast Guard Public Affairs remains an open gap, unchanged and out of scope for this pass."
 }
