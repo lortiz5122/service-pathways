@@ -12,6 +12,7 @@ import Pay from './pages/Pay';
 import Jobs from './pages/Jobs';
 import Methodology from './pages/Methodology';
 import Admin from './pages/Admin';
+import { usePageview } from './lib/hit';
 import { AppMark } from './branding/Emblem';
 import { SiteDisclaimer } from './components/Disclaimer';
 import { RESEARCH_DATE } from './lib/data';
@@ -32,6 +33,7 @@ function ScrollToTop() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+  usePageview();
   return null;
 }
 

@@ -198,3 +198,28 @@ export function searchJobs(
     );
   });
 }
+
+/**
+ * Every ENTRY-LEVEL job in the interest areas the reader picked.
+ *
+ * "Entry level" means a path a person can actually walk in off the street:
+ * enlisted, no commission, no prior service. Officer and warrant routes are real
+ * and the site covers them — but they are not entry level, and quietly mixing a
+ * Naval Aviator in with jobs a 17-year-old can enlist into is exactly the kind of
+ * silent misinformation this site exists to prevent.
+ *
+ * This returns the FULL set, deep records and catalogue entries alike. The
+ * recommender can only score the deep ones — it needs salary, pipeline and injury
+ * data the catalogue entries do not carry — but a job the reader cannot even SEE
+ * is a job that, to them, does not exist. So the tool shows every one of them, and
+ * says plainly which ones it has researched and which it has not.
+ */
+export function entryLevelJobs(interests: string[]): Job[] {
+  const pool = interests.length
+    ? allJobs.filter((j) => j.clusters.some((c) => interests.includes(c)))
+    : allJobs;
+
+  return pool
+    .filter((j) => j.track === 'enlisted')
+    .sort((a, b) => a.name.localeCompare(b.name));
+}

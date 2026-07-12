@@ -11,6 +11,13 @@ import { useEffect, useState } from 'react';
  * nothing else.
  */
 
+type Stats = {
+  views: { today: number; week: number; month: number; all: number };
+  visitors: { today: number; weekDayCounted: number; allDayCounted: number };
+  topPages: { path: string; views: number }[];
+  daily: { day: string; views: number; visitors: number }[];
+};
+
 type Item = {
   id: number;
   created_at: string;
@@ -37,6 +44,7 @@ export default function Admin() {
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
   const [items, setItems] = useState<Item[]>([]);
+  const [stats, setStats] = useState<Stats | null>(null);
   const [filter, setFilter] = useState<'all' | 'open'>('open');
 
   useEffect(() => {
@@ -52,6 +60,10 @@ export default function Admin() {
       .then((r) => r.json())
       .then((d: { items?: Item[] }) => setItems(d.items ?? []))
       .catch(() => setItems([]));
+    fetch('/api/admin/stats')
+      .then((r) => r.json())
+      .then((d: Stats) => setStats(d))
+      .catch(() => setStats(null));
   }, [authed]);
 
   async function login(e: React.FormEvent) {
@@ -140,6 +152,8 @@ export default function Admin() {
 
   return (
     <div className="wrap">
+      {stats ? <Traffic s={stats} /> : null}
+
       <div className="section-head">
         <h2>Feedback</h2>
         <p>
@@ -202,6 +216,90 @@ export default function Admin() {
           </footer>
         </article>
       ))}
+    </div>
+  );
+}
+
+
+/** Who is actually reading the site. Counts only — the data cannot identify anyone. */
+function Traffic({ s }: { s: Stats }) {
+  const peak = Math.max(1, ...s.daily.map((d) => d.views));
+
+  return (
+    <section className="traffic">
+      <div className="section-head">
+        <h2>Visitors</h2>
+        <p>
+          Page views and how many people they came from. No cookie, no session, no
+          IP address is stored — a reader is counted, never identified.
+        </p>
+      </div>
+
+      <div className="stat-grid">
+        <Stat n={s.views.today} label="Views today" />
+        <Stat n={s.visitors.today} label="People today" hint="Distinct visitors" />
+        <Stat n={s.views.week} label="Views, 7 days" />
+        <Stat n={s.views.month} label="Views, 30 days" />
+        <Stat n={s.views.all} label="Views, all time" />
+        <Stat
+          n={s.visitors.allDayCounted}
+          label="People, all time"
+          hint="Counted once per day"
+        />
+      </div>
+
+      <p className="stat-caveat">
+        <b>Read the people numbers carefully.</b> A visitor is identified by a hash
+        that <b>rotates every day</b>, on purpose, so nobody — including you — can
+        follow a reader from one day to the next. That means someone who comes back
+        on three days is counted three times in any multi-day total. "People today"
+        is exact; every longer people-total is an <b>upper bound</b>, not a true
+        unique count. The view counts are exact throughout.
+      </p>
+
+      {s.daily.length ? (
+        <div className="card">
+          <h4 className="minihead">Last 30 days</h4>
+          <div className="spark">
+            {[...s.daily].reverse().map((d) => (
+              <div
+                key={d.day}
+                className="spark-bar"
+                style={{ height: `${Math.max(3, (d.views / peak) * 100)}%` }}
+                title={`${d.day} — ${d.views} views, ${d.visitors} people`}
+              />
+            ))}
+          </div>
+        </div>
+      ) : null}
+
+      {s.topPages.length ? (
+        <div className="card">
+          <h4 className="minihead">Most-read pages</h4>
+          <table className="toppages">
+            <tbody>
+              {s.topPages.map((p) => (
+                <tr key={p.path}>
+                  <td>
+                    <code>{p.path}</code>
+                  </td>
+                  <td>{p.views.toLocaleString()}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ) : null}
+    </section>
+  );
+}
+
+function Stat({ n, label, hint }: { n: number; label: string; hint?: string }) {
+  return (
+    <div className="stat">
+      <strong>{n.toLocaleString()}</strong>
+      <span>{label}</span>
+      {hint ? <em>{hint}</em> : null}
     </div>
   );
 }

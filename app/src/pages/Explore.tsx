@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { clusters, specialtiesForCluster, branchIdOf } from '../lib/data';
 import { PRIORITIES, recommend, type Priority } from '../lib/recommend';
+import { entryLevelJobs } from '../lib/catalog';
+import { EntryLevelList } from '../components/EntryLevelList';
 import { afqtCategory } from '../data/content';
 import type { Tier } from '../data/eligibility';
 import { BranchLogo } from '../branding/Logo';
@@ -32,6 +34,12 @@ export default function Explore() {
   }, [profile.afqt, profile.tier]);
   // Opening a match must not cost the reader their place in the results.
   const [openSpec, setOpenSpec] = useState<SpecialtyRecord | null>(null);
+
+  const [showAllDeep, setShowAllDeep] = useState(false);
+
+  // Every entry-level job in the chosen areas — not just the deeply-researched
+  // ones. A job the reader cannot see is, to them, a job that does not exist.
+  const everyEntryLevel = useMemo(() => entryLevelJobs(interests), [interests]);
 
   const results = useMemo(
     () => recommend(interests, priorities, afqt, tier),
@@ -225,7 +233,7 @@ export default function Explore() {
             </Note>
           ) : (
             <div className="stack">
-              {results.slice(0, 12).map((r) => {
+              {(showAllDeep ? results : results.slice(0, 12)).map((r) => {
                 const s = r.specialty;
                 const b = branchIdOf(s);
                 const t = b ? BRANCH_THEME[b] : undefined;
@@ -336,8 +344,26 @@ export default function Explore() {
                   </div>
                 );
               })}
+
+              {results.length > 12 ? (
+                <button
+                  className="btn ghost"
+                  onClick={() => setShowAllDeep((v) => !v)}
+                >
+                  {showAllDeep
+                    ? 'Show fewer'
+                    : `Show the other ${results.length - 12} researched matches`}
+                </button>
+              ) : null}
             </div>
           )}
+
+          {/* Everything else you could actually enlist into. The recommender can
+              only score the jobs we researched in depth — it needs pay, pipeline
+              and injury data the catalogue entries do not carry. But a reader who
+              is shown 12 jobs and not the other 700 has been quietly told the other
+              700 do not exist. So they are all here, labelled honestly. */}
+          <EntryLevelList jobs={everyEntryLevel} shownAbove={results.map((r) => r.specialty.id)} />
 
           <Note tone="alert">
             <div>

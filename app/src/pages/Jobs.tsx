@@ -29,10 +29,10 @@ export default function Jobs() {
   );
 
   const byBranch = useMemo(() => {
-    const m = new Map<string, Job[]>();
+    const m = new Map<BranchId, Job[]>();
     for (const j of results) {
-      const k = j.branch;
-      m.set(k, [...(m.get(k) ?? []), j]);
+      if (!j.branchId) continue;
+      m.set(j.branchId, [...(m.get(j.branchId) ?? []), j]);
     }
     return m;
   }, [results]);
@@ -111,10 +111,10 @@ export default function Jobs() {
 
       {/* ----------------------------------------------------- results */}
       {order
-        .filter((b) => byBranch.has(BRANCH_THEME[b].name))
+        .filter((b) => byBranch.has(b))
         .map((b) => {
           const t = BRANCH_THEME[b];
-          const list = byBranch.get(t.name) ?? [];
+          const list = byBranch.get(b) ?? [];
           if (!list.length) return null;
           const deep = list.filter((j) => j.depth === 'deep');
           const cat = list.filter((j) => j.depth === 'catalog');

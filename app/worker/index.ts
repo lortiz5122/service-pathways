@@ -155,6 +155,39 @@ export default {
       return json({ ok: true });
     }
 
+    // --------------------------------------------------------- a page was viewed
+    //
+    // Aggregate only. No cookie, no session, no per-person row, no IP stored.
+    // The visitor hash folds the DAY into the digest on purpose — the same reader
+    // hashes differently tomorrow, so this cannot follow anyone across days even
+    // for the person who owns the table. It answers "how many people today", and
+    // deliberately cannot answer anything more than that.
+    if (p === '/api/hit' && req.method === 'POST') {
+      let path = '/';
+      try {
+        const b = (await req.json()) as { path?: string };
+        path = (b.path ?? '/').slice(0, 120);
+      } catch {
+        return json({ ok: true });
+      }
+
+      const day = new Date().toISOString().slice(0, 10);
+      const ip = req.headers.get('cf-connecting-ip') ?? 'unknown';
+      const visitor = await sha256(`${env.IP_SALT}:${ip}:${day}`);
+
+      await env.DB.batch([
+        env.DB.prepare(
+          `INSERT INTO pageviews (day, path, views) VALUES (?, ?, 1)
+             ON CONFLICT (day, path) DO UPDATE SET views = views + 1`,
+        ).bind(day, path),
+        env.DB.prepare(
+          `INSERT OR IGNORE INTO visitors (day, visitor_hash) VALUES (?, ?)`,
+        ).bind(day, visitor),
+      ]);
+
+      return json({ ok: true });
+    }
+
     // ------------------------------------------------------------- admin login
     if (p === '/api/admin/login' && req.method === 'POST') {
       let body: Record<string, unknown>;
@@ -207,6 +240,74 @@ export default {
       ).all();
 
       return json({ items: results }, 200, { 'cache-control': 'no-store' });
+    }
+
+    // ------------------------------------------------------ admin reads traffic
+    if (p === '/api/admin/stats') {
+      if (!(await validSession(req, env)))
+        return json({ error: 'Not signed in.' }, 401);
+
+      const today = new Date().toISOString().slice(0, 10);
+      const dayAgo = (n: number) =>
+        new Date(Date.now() - n * 86_400_000).toISOString().slice(0, 10);
+
+      const [totals, todayRow, week, month, topPages, daily] = await env.DB.batch([
+        env.DB.prepare('SELECT COALESCE(SUM(views), 0) AS v FROM pageviews'),
+        env.DB.prepare(
+          'SELECT COALESCE(SUM(views), 0) AS v FROM pageviews WHERE day = ?',
+        ).bind(today),
+        env.DB.prepare(
+          'SELECT COALESCE(SUM(views), 0) AS v FROM pageviews WHERE day >= ?',
+        ).bind(dayAgo(7)),
+        env.DB.prepare(
+          'SELECT COALESCE(SUM(views), 0) AS v FROM pageviews WHERE day >= ?',
+        ).bind(dayAgo(30)),
+        env.DB.prepare(
+          `SELECT path, SUM(views) AS views FROM pageviews
+             GROUP BY path ORDER BY views DESC LIMIT 15`,
+        ),
+        env.DB.prepare(
+          `SELECT p.day AS day,
+                  COALESCE(SUM(p.views), 0) AS views,
+                  (SELECT COUNT(*) FROM visitors v WHERE v.day = p.day) AS visitors
+             FROM pageviews p
+            WHERE p.day >= ?
+            GROUP BY p.day ORDER BY p.day DESC`,
+        ).bind(dayAgo(30)),
+      ]);
+
+      const uniq = await env.DB.batch([
+        env.DB.prepare('SELECT COUNT(*) AS n FROM visitors WHERE day = ?').bind(today),
+        env.DB.prepare('SELECT COUNT(DISTINCT visitor_hash) AS n FROM visitors WHERE day >= ?').bind(dayAgo(7)),
+        env.DB.prepare('SELECT COUNT(*) AS n FROM visitors').bind(),
+      ]);
+
+      const num = (r: D1Result, k = 'v') =>
+        Number((r.results?.[0] as Record<string, unknown>)?.[k] ?? 0);
+
+      return json(
+        {
+          views: {
+            today: num(todayRow),
+            week: num(week),
+            month: num(month),
+            all: num(totals),
+          },
+          // NOTE: "week" here counts a returning reader once per day, because the
+          // hash rotates daily by design. It is an upper bound on people, not a
+          // true 7-day unique. Saying so beats quoting a number that means something
+          // other than what it looks like.
+          visitors: {
+            today: num(uniq[0], 'n'),
+            weekDayCounted: num(uniq[1], 'n'),
+            allDayCounted: num(uniq[2], 'n'),
+          },
+          topPages: topPages.results ?? [],
+          daily: daily.results ?? [],
+        },
+        200,
+        { 'cache-control': 'no-store' },
+      );
     }
 
     // Anything under /api that we did not handle is a 404, not the SPA shell.

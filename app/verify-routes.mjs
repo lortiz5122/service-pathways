@@ -159,6 +159,17 @@ for (const s of data.allSpecialties) {
     //     official crosswalk PDF returned 403…"). Rendered raw, that paragraph
     //     lands in a 60px chip. Every code the directory shows must be a CODE.
     const jobsHtml = render('/jobs');
+
+    // 11. A RESULTS LIST THAT RENDERS NOTHING IS NOT AN EMPTY RESULT — IT IS A BUG.
+    //     /jobs grouped results by the display name ("U.S. Army") but the data keys
+    //     on the id ("Army"), so the lookup never matched and ZERO rows rendered for
+    //     every query, while the count line kept reporting "1017 jobs match". The
+    //     count agreeing with the data is not evidence the reader can see anything.
+    const rowCount = (jobsHtml.match(/class="jobrow/g) ?? []).length;
+    if (rowCount < cat.jobCounts.total)
+      bad(
+        `/jobs renders ${rowCount} rows but the catalogue holds ${cat.jobCounts.total} — the list is dropping jobs`,
+      );
     for (const m of jobsHtml.matchAll(/class="job-code[^"]*">([^<]+)</g)) {
       const t = m[1].trim();
       if (t.length > 14)

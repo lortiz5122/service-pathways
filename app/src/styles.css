@@ -2945,3 +2945,63 @@ table tr.hit td { color: var(--ink); }
 .fbitem-contact { font-size: 13px; color: var(--brand-accent); }
 .fbitem-contact.none { color: var(--ink-3); font-style: italic; }
 .btn.small { padding: 6px 12px; font-size: 12px; }
+
+/* --------------------------------------------------------- admin traffic */
+
+.traffic { margin-bottom: 34px; }
+.stat-grid {
+  display: grid; gap: 12px; margin-bottom: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+.stat {
+  padding: 16px 18px; border-radius: var(--radius);
+  border: 1px solid var(--line-2); background: var(--panel);
+}
+.stat strong {
+  display: block; font-size: 28px; line-height: 1.1;
+  font-variant-numeric: tabular-nums; color: var(--ink);
+}
+.stat span { display: block; margin-top: 5px; font-size: 12.5px; color: var(--ink-2); }
+.stat em {
+  display: block; margin-top: 3px; font-style: normal;
+  font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-3);
+}
+.stat-caveat {
+  font-size: 12.5px; line-height: 1.65; color: var(--ink-3);
+  margin: 0 0 16px; padding: 12px 14px;
+  border-left: 3px solid var(--warn); border-radius: 0 var(--radius) var(--radius) 0;
+  background: var(--panel-2);
+}
+.spark {
+  display: flex; align-items: flex-end; gap: 3px; height: 90px; margin-top: 10px;
+}
+.spark-bar {
+  flex: 1; min-width: 4px; border-radius: 2px 2px 0 0;
+  background: var(--brand-accent); opacity: 0.8;
+}
+.spark-bar:hover { opacity: 1; }
+.toppages { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.toppages td { padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
+.toppages td:last-child {
+  text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-2);
+}
+.toppages code { font-size: 12px; color: var(--ink-2); }
+
+/* --------------------------------------------------- entry-level job list */
+
+.entrylevel { margin-top: 26px; }
+.el-head { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; }
+.el-head > div { flex: 1; min-width: 260px; }
+.el-head h3 { margin: 0 0 6px; }
+.el-head p { margin: 0; font-size: 13.5px; line-height: 1.6; color: var(--ink-2); }
+.el-note {
+  margin: 18px 0; padding: 12px 14px; font-size: 12.5px; line-height: 1.6;
+  color: var(--ink-3); background: var(--panel-2); border-radius: var(--radius);
+}
+.el-branch { margin-top: 22px; }
+.el-branch-head {
+  display: flex; align-items: center; gap: 10px;
+  padding-bottom: 8px; margin-bottom: 10px; border-bottom: 1px solid var(--line);
+}
+.el-branch-head h4 { margin: 0; flex: 1; font-size: 15px; }

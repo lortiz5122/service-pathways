@@ -129,15 +129,25 @@ export function shortLineScore(v: unknown): string | null {
  * (e.g. "UNVERIFIED code — commonly cited as 153A ..."), which would blow out
  * the card header exactly the way the score field did.
  */
+/**
+ * A real specialty code, or null when we do not have one.
+ *
+ * Returns NULL for a placeholder rather than the words "Code unverified". A code
+ * slot is a code slot: two to six characters, monospaced, sitting in a 60px chip.
+ * "Code unverified" is a sentence about our research, not an identifier, and it
+ * has no business being rendered where a reader expects to see 11B. The CALLER
+ * decides how to say "we don't know this one" — in its own words, in its own
+ * space.
+ */
 export function shortCode(v: unknown): string | null {
   if (!v) return null;
   const s = String(v).trim();
   if (!s) return null;
-  if (/^unverified/i.test(s)) return 'Code unverified';
+  if (/^unverified|^unknown|^none$|^n\/a$/i.test(s)) return null;
   // A real code is short. Anything long is prose.
   if (s.length <= 22) return s;
   const first = s.split(/[;,(]|\s[–—-]\s/)[0].trim();
-  return first.length <= 22 ? first : 'Code unverified';
+  return first.length <= 22 && !/unverified/i.test(first) ? first : null;
 }
 
 /** First sentence of a longer note, for a card-level preview. */
