@@ -1219,3 +1219,31 @@ a.spec-card:hover {
 }
 
 table td .srcline { margin-top: 4px; }
+
+/* ------------------------------------------------------- official logos */
+
+.logo {
+  object-fit: contain;
+  flex-shrink: 0;
+  /* Most official logos ship on white or transparent. A soft plate keeps them
+     legible on the dark surface without recolouring the mark itself, which
+     would be an unauthorised alteration. */
+  background: radial-gradient(circle at 50% 45%, #ffffff 0%, #eef2f6 72%, #dfe6ec 100%);
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid var(--line-2);
+}
+
+.hero-emblems .logo { border-color: rgba(255, 255, 255, 0.22); }
+
+.cluster-emblems .logo { padding: 3px; }
+
+.component-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+.component-card h3 { margin: 0; font-size: 13px; }

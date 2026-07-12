@@ -1,9 +1,60 @@
 import { Link } from 'react-router-dom';
 import { branches, specialtiesForBranch } from '../lib/data';
-import { Emblem } from '../branding/Emblem';
+import { BranchLogo, ComponentLogo, componentLogos } from '../branding/Logo';
 import { BRANCH_THEME, type BranchId } from '../lib/types';
 import { Note, SectionHead } from '../components/Bits';
 import { MarkDisclaimer } from '../components/Disclaimer';
+
+/**
+ * Guard and Reserve. Drill pay and part-time benefits are NOT interchangeable
+ * with active-duty compensation — the master prompt names conflating them as an
+ * explicit anti-pattern, so the warning is part of the section, not a footnote.
+ */
+function GuardReserve() {
+  if (!componentLogos.length) return null;
+  return (
+    <>
+      <SectionHead
+        title="Guard and Reserve"
+        lede="The part-time path. One weekend a month and two weeks a year is the slogan; schools, deployments and mobilisations mean the real commitment is frequently higher. Guard and Reserve units have deployed extensively since 9/11 — do not assume part-time means no deployment."
+      />
+
+      <Note tone="alert">
+        <div>
+          <b>Drill pay is not active-duty pay.</b> One drill period pays 1/30th of
+          the equivalent active-duty monthly base pay, so a four-drill weekend is
+          roughly 4/30ths. It is supplemental income, not a living wage. When
+          mobilised, members receive full active-duty pay and allowances.
+        </div>
+      </Note>
+
+      <div className="grid g3" style={{ marginTop: 16 }}>
+        {componentLogos.map((c) => (
+          <div key={c.slug} className="card component-card">
+            <ComponentLogo slug={c.slug} size={64} />
+            <h3>{c.label}</h3>
+          </div>
+        ))}
+      </div>
+
+      <Note tone="warn">
+        <div>
+          <b>The Space Force has no reserve component at all.</b> Under the Space
+          Force Personnel Management Act it runs a single combined component —
+          Guardians serve on "sustained duty" (full-time) or "not on sustained
+          duty" (part-time). There is no Space National Guard, and there is
+          currently no part-time entry pipeline for new civilians.
+        </div>
+      </Note>
+
+      <p className="srcline">
+        Some component logos could not be sourced without using a seal, which this
+        site never does. Those are absent rather than substituted. See{' '}
+        <Link to="/about">Sources</Link>.
+      </p>
+    </>
+  );
+}
 
 export default function Branches() {
   return (
@@ -30,7 +81,7 @@ export default function Branches() {
               }
             >
               <header className="branch-head">
-                <Emblem branch={b.id as BranchId} size={64} />
+                <BranchLogo branch={b.id as BranchId} size={64} />
                 <div>
                   <h3>{b.name}</h3>
                   <div className="spec-code">{b.department}</div>
@@ -104,6 +155,10 @@ export default function Branches() {
             </div>
           );
         })}
+      </div>
+
+      <div style={{ marginTop: 40 }}>
+        <GuardReserve />
       </div>
     </div>
   );

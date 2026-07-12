@@ -7,23 +7,33 @@
  *
  * 32 CFR 765.14 sets the safe-harbor standard: the disclaimer must be on the
  * same page as first use, prominent, and in letters at least half the size and
- * density of the insignia. `MarkDisclaimer` is what satisfies that; render it
- * on any page that shows an emblem or badge.
+ * density of the insignia. `MarkDisclaimer` satisfies that; render it on any
+ * page that shows a service mark.
+ *
+ * Posture: branch LOGOS/EMBLEMS are MEDIUM risk — not copyrighted (17 U.S.C.
+ * §105, works of federal employees) but trademark-protected, so informational
+ * use is permitted with this disclaimer and no commercial framing.
+ *
+ * Branch SEALS are HIGH risk and are NEVER rendered. That is enforced in
+ * sync-data.mjs, which filters any filename matching /seal/i at the build
+ * boundary — a seal cannot physically reach the bundle.
  */
 
 export const SITE_DISCLAIMER =
-  'This website is an independent informational and career-guidance resource. It is not affiliated with, endorsed by, or authorized by the U.S. Department of War, the Department of Homeland Security, or any branch of the U.S. Armed Forces (Army, Marine Corps, Navy, Air Force, Space Force, or Coast Guard). All service names, emblems, and insignia are the property of their respective services and are referenced here for informational and identification purposes only.';
+  'This website is an independent informational and career-guidance resource. It is not affiliated with, endorsed by, or authorized by the U.S. Department of War, the Department of Homeland Security, or any branch of the U.S. Armed Forces (Army, Marine Corps, Navy, Air Force, Space Force, or Coast Guard). All service names, emblems, logos, and insignia are the property of their respective services and are reproduced here for informational and identification purposes only. No branch seal is used anywhere on this site.';
 
 export const PLACEHOLDER_NOTICE =
-  'The emblems and badges shown on this site are original illustrations created for this project. They are NOT official U.S. military insignia and are not reproductions of any official seal, emblem, or badge.';
+  'Where no official non-seal logo could be sourced for a service or component, an original illustration created for this project is shown in its place. Those illustrations are not official insignia and are not reproductions of any official seal, emblem, or badge. Career-specialty badges shown are likewise original illustrations — no official downloadable specialty-badge set exists.';
 
-/** Short form, rendered at first insignia use on a page. Required by the policy. */
+/** Short form, rendered at first mark use on a page. Required by the policy. */
 export function MarkDisclaimer() {
   return (
     <p className="mark-disclaimer">
-      Emblems shown are <b>original illustrations, not official insignia</b>.
-      Neither the U.S. Department of War nor any component of the U.S. Armed
-      Forces has approved, endorsed, or authorized this site.
+      Service logos are shown for <b>identification only</b>. Neither the U.S.
+      Department of War, the Department of Homeland Security, nor any branch of
+      the U.S. Armed Forces has approved, endorsed, or authorized this site. No
+      branch seal is used. Where no official logo could be sourced, an{' '}
+      <b>original illustration — not official insignia</b> — is shown instead.
     </p>
   );
 }

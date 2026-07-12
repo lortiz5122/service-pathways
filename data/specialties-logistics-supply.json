@@ -1,0 +1,850 @@
+{
+  "command": "SPECIALTIES",
+  "cluster_id": "logistics-supply",
+  "retrieved_date": "2026-07-12",
+  "specialties": [
+    {
+      "id": "army-92y-unit-supply-specialist",
+      "name": "Unit Supply Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "code": "92Y",
+      "interest_cluster_ids": ["logistics-supply"],
+      "entry_requirements": {
+        "asvab_line_score": "CL (Clerical) 90 minimum, per composite scoring described in data/interest-taxonomy.json's Army line-score model. Sourced from secondary aggregators (cogn-iq.org, battalionduty.com) cross-checked against goarmy.com's job listing; not independently confirmed by direct primary-text fetch this session (goarmy.com's 92Y page did not render score data via WebFetch — see unverified).",
+        "education": "High school diploma or GED; Army enlistment generally requires a diploma, with GED accepted only under specific, currently-tightened conditions — exact current GED policy detail not independently verified this session.",
+        "age_range": "17 (with parental consent) to the Army's current maximum enlistment age. Enlistment age ceilings have changed multiple times across all branches in recent years and were not independently re-verified this session — confirm current cap with a recruiter or goarmy.com before publishing a specific number.",
+        "physical": "Must meet standard Army medical accession standards (DoDMERB/MEPS) and pass the Army Fitness Test (AFT) after entry; no MOS-specific elevated physical profile requirement was identified in this session's research for 92Y.",
+        "security_clearance": "Not confirmed. Base-level unit supply duties do not universally require a clearance; some assignments (e.g., sensitive-item or classified-materiel accountability) may require Secret — not independently verified per-assignment this session.",
+        "other": "Involves handling of ammunition, medical, and food supplies as part of stock-control training; no additional accession-specific waiver requirement was identified this session."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Basic Combat Training (BCT)",
+          "location": "One of several Army BCT installations (e.g., Fort Jackson SC, Fort Sill OK, Fort Moore GA), assignment-dependent — not 92Y-specific",
+          "length_weeks": 10,
+          "description": "Standard Army entry-level soldiering, physical fitness, and basic marksmanship training common to all enlisted MOS."
+        },
+        {
+          "stage": "Advanced Individual Training (AIT) — Unit Supply Specialist Course",
+          "location": "Fort Gregg-Adams, VA (formerly Fort Lee) — U.S. Army Quartermaster School",
+          "length_weeks": 8,
+          "description": "Classroom and hands-on instruction in receiving, storing, issuing, and shipping stock; stock control and accounting procedures; handling of medical and food supplies; and ammunition storage/movement/maintenance procedures."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.80,
+        "methodology_note": "Computed, not authoritative: (E-1 <2yr basic pay $2,407.20 + enlisted BAS $476.95) x 12 = $34,609.80. BAH is deliberately excluded — it is duty-station- and dependency-status-specific and cannot be reduced to one national figure (see data/pay-tables.json bah.national_number_warning); this total therefore UNDERSTATES true compensation, often substantially, since BAH is frequently the largest single component. Also excludes the non-cash value of DoD's automatic 1% + up-to-4%-match TSP contribution under BRS and TRICARE healthcare.",
+        "source": "data/pay-tables.json (COMPENSATION command), transcribing DFAS 2026 Military Pay Tables (effective 2026-01-01, FY2026 NDAA 3.8% raise) as corroborated by military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html; direct militarypay.defense.gov/dfas.mil fetch returned HTTP 403 in the COMPENSATION research pass.",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED — not sourced this session. Enlistment and reenlistment bonuses for 92Y are set quarterly by Army Human Resources Command based on manning needs and current MOS 'stress' list status, and any figure quoted today would likely be stale by the next quarter. Check the current bonus list directly at goarmy.com/money/bonuses or with a recruiter before publishing a number.",
+        "source": "Not fetched this session per this cluster's binding constraint on quarterly-changing bonus figures.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "General enlisted Army pattern (not 92Y-specific data; not independently fetched this session): E-1→E-4 typically over the first ~2-3 years via time-in-service/time-in-grade; E-5 (Sergeant) requires a promotion board and points; further NCO progression depends on the needs of the Army, professional military education (PME) completion, and available E-6/E-7 vacancies in the Quartermaster/Logistics field.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract (typically 3-6 years) — reenlist, extend, or separate",
+          "Approaching the BRS continuation-pay eligibility window (Army's published window: after completing 7th year, before completing 12th year of service — see data/retirement.json) as the highest-leverage reenlistment decision point",
+          "Opportunities to reclassify into a related logistics MOS or pursue Warrant Officer (920A Property Accounting Technician) status"
+        ],
+        "advanced_schools_or_certs": [
+          "Army Credentialing Assistance / Army COOL-listed credentials for 92Y (specific current list not independently fetched this session — see cool.osd.mil/army/moc/index.html?moc=92y&tab=cred)",
+          "Basic Leader Course (BLC) and Advanced Leader Course (ALC) at Army Logistics University, Fort Gregg-Adams, VA, for NCO progression"
+        ],
+        "officer_conversion_path": "Green-to-Gold (Army ROTC) or Officer Candidate School (OCS) into the Quartermaster Corps as a Supply/Logistics officer; alternatively, Warrant Officer accession (920A Property Accounting Technician) for senior NCOs.",
+        "source": "General enlisted Army career-management pattern; goarmy.com and Army COOL search results. Not independently verified against a primary DA PAM 600-25 fetch this session — flagged in unverified.",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years of service — no partial/prorated pension exists below 20 years; separating at 19 years yields $0 in defined-benefit pension. Every dollar of the member's own TSP contributions is always vested; DoD's TSP match vests immediately; DoD's automatic 1% TSP contribution vests after 2 years of service. TSP is portable regardless of career length. (data/retirement.json, brs.twenty_year_cliff)",
+        "continuation_pay_note": "One-time cash payout between the 7th and 12th year of service (Army's published window), statutory active-component range 2.5x-13x monthly basic pay (Army's published active-component rate: 2.5x), in exchange for a minimum 3-year additional service obligation (Army requires 4 years). (data/retirement.json, brs.continuation_pay)",
+        "guard_reserve_points_note": "LABEL: not interchangeable with active-duty retirement. Guard/Reserve retirement is points-based (1 point/day active duty, 1 point/drill, up to 15 membership points/year), requiring 20 'qualifying years' (years with 50+ points) and paying a pension starting at age 60 (reducible to as low as 50 via the FY2008 NDAA active-duty-mobilization credit rule), separate from the active-duty 20-year-cliff pension. (data/retirement.json, guard_reserve)",
+        "lump_sum_option_note": "At 20+ years, a retiree may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until Full Social Security Retirement Age (~67), when the full monthly amount resumes. (data/retirement.json, brs.lump_sum_option)",
+        "source": "data/retirement.json (RETIREMENT command); primary: https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "Up to 180 days of permissive duty during the final 180 days of active duty, working with an approved industry partner while still drawing full military pay/benefits. Approval is discretionary, not an entitlement — a unit commander (per DoDI 1322.29) can deny participation based on unit mission needs. (data/transition.json, skillbridge)",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: Individualized Initial Counseling, Pre-Separation Counseling, MOC self-assessment, VA Benefits I course, DOL Employment Fundamentals of Career Transition workshop, an optional 2-day track (Higher Education / Career-Technical Training / Entrepreneurship), and a Capstone confirming Career Readiness Standards are met. Must begin no later than 365 days before separation. (data/transition.json, tap)",
+        "dd214_significance": "The DD-214's 'character of service' entry (Block 24) gates eligibility for nearly every benefit below — VA disability, VA healthcare, GI Bill, VA home loan, and state veteran benefits all key off this document. (data/transition.json, dd214)",
+        "va_disability_common_claims": [
+          "Lumbar/lower-back strain and other musculoskeletal conditions from repetitive lifting, loading, and warehouse/pallet handling — extrapolated from the same cumulative-load injury pattern documented for infantry/dismounted combat arms in data/transition.json (va_disability.specialty_linked_common_claims); not a VA-published per-MOS claims statistic and should be treated as a reasonable inference, not a sourced figure.",
+          "Tinnitus/hearing loss where duty involved generator, forklift, or motor-pool noise exposure without consistent hearing protection — same caveat as above.",
+          "PACT Act presumptive respiratory/toxic-exposure conditions (asthma, chronic bronchitis, sinusitis, certain cancers) for any deployment to a covered theater, regardless of MOS. (data/transition.json, va_disability.specialty_linked_common_claims — PACT Act entry, which is explicitly not specialty-limited)"
+        ],
+        "vr_e_eligibility_note": "Requires a service-connected disability rating of 20%+ creating an 'employment handicap,' generally filed within 12 years of separation/first rating. Funds tuition/training plus a monthly subsistence allowance (FY2026 max $3,439.23/month) from a separate entitlement bucket than the Post-9/11 GI Bill. (data/transition.json, vr_e_chapter_31)",
+        "source": "data/transition.json (TRANSITION command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": ["43-5071.00", "13-1081.00"],
+        "example_civilian_titles": ["Warehouse/Inventory Clerk", "Supply Chain Technician", "Logistics Coordinator", "Materials Handler/Supervisor"],
+        "relevant_certifications": ["ASCM/APICS Certified in Production and Inventory Management (CPIM)", "ASCM Certified in Logistics, Transportation and Distribution (CLTD)"],
+        "estimated_civilian_salary_range_usd": [43190, 80880],
+        "methodology_note_inline": "Range anchored on two BLS OES May 2024 national median wages: $43,190 for Shipping, Receiving, and Inventory Clerks (43-5071.00) at the entry end, and $80,880 for Logisticians (13-1081.00) at the experienced/analyst end — not a full percentile distribution for either code.",
+        "credential_gap_note": "Military supply/accountability experience does not automatically confer an ASCM/APICS certification (CPIM, CLTD) or a civilian supply-chain-management professional credential — those require separately scheduling and passing a proctored exam. Army COOL and Credentialing Assistance can fund the exam, but the certification itself is not granted by MOS training alone.",
+        "source": "O*NET OnLine (onetonline.org) code summaries for 43-5071.00 and 13-1081.00; BLS Occupational Employment and Wage Statistics, May 2024 release (median wages cross-corroborated via search, not directly fetched from bls.gov this session for the full percentile table — see unverified)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days, from 50% (90-179 days) to 100% (36+ months, or Purple Heart, or service-connected-disability discharge after 30+ days). Training-duty time (e.g., BCT/AIT under training orders rather than qualifying Title 10 active duty) does NOT count toward these day totals. (data/education-benefits.json, post_911_gi_bill)",
+        "gi_bill_transferability_note": "Transfer to a spouse/dependent child (up to 36 months total) requires 6+ years of service at approval AND a new 4-year additional service obligation from the approval date — must be requested via milConnect while still serving; cannot be initiated after separation. (data/veteran-benefits.json, gi_bill_transferability)",
+        "va_home_loan_note": "Veterans with full entitlement have no VA-imposed loan cap (subject to lender underwriting) and generally no down payment/PMI requirement; a one-time funding fee applies unless exempt (e.g., receiving VA disability compensation). (data/veteran-benefits.json, va_home_loan)",
+        "va_healthcare_priority_group_note": "Assigned at VA enrollment based on disability rating, income relative to VA's geographically-adjusted limits, and other factors (combat service, Medicaid eligibility, etc.) — priority group 1-8, not automatic from service alone. (data/veteran-benefits.json, va_healthcare)",
+        "state_benefit_variance_note": "State veteran benefits (property tax exemptions, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure — e.g., a 100%-disabled veteran gets a full homestead property-tax exemption in Texas but a flat $100,000 assessed-value exemption in California. Verify against the veteran's state of legal residence. (data/veteran-benefits.json, state_benefit_variance)",
+        "source": "data/veteran-benefits.json (VETERAN-BENEFITS command) and data/education-benefits.json (EDU-BENEFITS command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill (Ch. 33): full public in-state tuition/fees with no cap, or up to $29,920.95/year at private/foreign schools (2025-2026 AY), plus a zip-code-based Monthly Housing Allowance and up to $1,000/year book stipend, scaled by the eligibility tier above. (data/education-benefits.json)",
+        "tuition_assistance": "Standard DoD-wide rate: $250/semester hour, capped at $4,500/fiscal year, while still serving. Army-specific usage limits (reported ~16 semester-hours/fiscal-year) were tightened in 2025-2026 per Stars and Stripes reporting — not independently fetched from myarmybenefits.us.army.mil this session.",
+        "credentialing_assistance": "Army Credentialing Assistance (CA)/Army COOL: reduced to a $2,000/fiscal-year cap in 2024 (from $4,000), with a reported lifetime limit of 3 credentials per 10 years of service. Commissioned officers reported ineligible. (data/education-benefits.json, credentialing_assistance)",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Deployment tempo tracks the supported unit's deployment cycle rather than being independently elevated by the 92Y specialty itself; garrison duty involves standard supply-room/warehouse hours with periodic field exercises and inventories. Specific 92Y-specific tempo data was not independently sourced this session.",
+        "family_considerations": "Standard Army PCS and dependent-care considerations apply; no MOS-specific family-impact data was sourced this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "army-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Army unit supply specialist warehouse", "92Y soldier inventory", "Army Quartermaster supply operations"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        { "title": "Unit Supply Specialist — goarmy.com (job listing page; WebFetch did not render score/training detail this session)", "url": "https://www.goarmy.com/careers-and-jobs/support-logistics/transportation-inventory/92y-unit-supply-specialist", "retrieved_date": "2026-07-12" },
+        { "title": "92Y Unit supply specialist — Army ASVAB Requirements (Cogn-IQ)", "url": "https://www.cogn-iq.org/military-jobs/army-92y/", "retrieved_date": "2026-07-12" },
+        { "title": "92Y Unit Supply Specialist MOS: Pay, Training & Requirements — Battalion Duty", "url": "https://battalionduty.com/careers/enlisted/transportation-logistics/92y-unit-supply-specialist/", "retrieved_date": "2026-07-12" },
+        { "title": "Fort Gregg-Adams / U.S. Army Transportation Corps and Transportation School", "url": "https://transportation.army.mil/transportation_school/ftgreggadams.html", "retrieved_date": "2026-07-12" },
+        { "title": "13-1081.00 — Logisticians — O*NET OnLine", "url": "https://www.onetonline.org/link/summary/13-1081.00", "retrieved_date": "2026-07-12" },
+        { "title": "43-5071.00 — Shipping, Receiving, and Inventory Clerks — O*NET OnLine", "url": "https://www.onetonline.org/link/details/43-5071.00", "retrieved_date": "2026-07-12" }
+      ]
+    },
+
+    {
+      "id": "army-88m-motor-transport-operator",
+      "name": "Motor Transport Operator",
+      "branch": "Army",
+      "track": "enlisted",
+      "code": "88M",
+      "interest_cluster_ids": ["logistics-supply"],
+      "entry_requirements": {
+        "asvab_line_score": "OF (Operators & Food) 85 minimum, per multiple corroborating secondary sources (operationmilitarykids.org, battalionduty.com); not independently confirmed by direct primary .mil fetch this session.",
+        "education": "High school diploma or GED (see 92Y record's general caveat on current GED policy).",
+        "age_range": "17 (with parental consent) to the Army's current maximum enlistment age — not independently re-verified this session; confirm with a recruiter.",
+        "physical": "Must meet standard Army medical/vision accession standards and pass a military driver's road/vehicle qualification test during AIT; a specific PULHES physical-profile numeric standard for 88M was not independently verified this session.",
+        "security_clearance": "Not confirmed as a standard requirement; not independently verified this session.",
+        "other": "Must be able to obtain a military driver's license/qualification on assigned tactical vehicles as part of AIT. Age 21+ is a separate, later gate — for the CIVILIAN CDL skills-test waiver described below, not for Army entry itself."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Basic Combat Training (BCT)",
+          "location": "One of several Army BCT installations, assignment-dependent — not 88M-specific",
+          "length_weeks": 10,
+          "description": "Standard Army entry-level soldiering and physical training common to all enlisted MOS."
+        },
+        {
+          "stage": "Advanced Individual Training (AIT) — Motor Transport Operator Course",
+          "location": "Fort Gregg-Adams, VA (formerly Fort Lee) — U.S. Army Transportation School",
+          "length_weeks": 7,
+          "description": "Classroom and simulation instruction plus 200+ hours of hands-on vehicle and field training in operating heavy tactical trucks (e.g., cargo/fuel/convoy vehicles) across varied terrain and conditions; includes CDL-relevant driving instruction and hazardous-materials-handling exposure, though this does NOT itself confer a civilian CDL (see credential_gap_note)."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.80,
+        "methodology_note": "Computed, not authoritative: (E-1 <2yr basic pay $2,407.20 + enlisted BAS $476.95) x 12 = $34,609.80. BAH intentionally excluded (duty-station-specific, not fabricated). See data/pay-tables.json for full methodology.",
+        "source": "data/pay-tables.json (COMPENSATION command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED — not sourced this session. Motor Transport Operator bonuses are set quarterly by Army Human Resources Command; check goarmy.com/money/bonuses or a recruiter for the current figure.",
+        "source": "Not fetched this session per this cluster's binding constraint on quarterly-changing bonus figures.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "General enlisted Army pattern, not 88M-specific data confirmed this session: E-1→E-4 over roughly the first 2-3 years; E-5 by promotion board; further NCO progression (Sergeant→Staff Sergeant→Sergeant First Class) tied to PME completion and available Transportation Corps vacancies.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract — reenlist, extend, or separate",
+          "BRS continuation-pay window (Army: after year 7, before year 12) — see retirement block",
+          "Opportunity to cross-train into a related transportation/logistics MOS or pursue movement-control/dispatcher roles"
+        ],
+        "advanced_schools_or_certs": [
+          "Army COOL-listed credentials for 88M, including CDL-related endorsement pathways and hazardous-materials/logistics credentials (specific current list not independently fetched this session — see cool.osd.mil/army/moc/index.html?moc=88m&tab=cred)",
+          "Basic Leader Course (BLC) / Advanced Leader Course (ALC) at Army Logistics University"
+        ],
+        "officer_conversion_path": "Green-to-Gold or OCS into the Transportation Corps as a Mobility/Transportation officer.",
+        "source": "General enlisted Army career-management pattern and search-sourced 88M career pages; not independently verified against a primary DA PAM 600-25 fetch this session.",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing at 20 years — no partial pension below that. TSP (own contributions, DoD match, and DoD's automatic 1% after 2 years) is always portable regardless of career length. (data/retirement.json, brs.twenty_year_cliff)",
+        "continuation_pay_note": "One-time payout between years 7-12 (Army's window), Army's published active-component rate 2.5x monthly basic pay, requiring a 4-year additional Army service obligation. (data/retirement.json, brs.continuation_pay)",
+        "guard_reserve_points_note": "LABEL: not interchangeable with active duty. Guard/Reserve retirement is points-based, 20 qualifying years required, pension starts at age 60 (reducible to as low as 50 under FY2008 NDAA rules for post-2008 mobilization days). (data/retirement.json, guard_reserve)",
+        "lump_sum_option_note": "At 20+ years, may elect 25% or 50% of discounted present value as an immediate lump sum, with monthly retired pay reduced until Full Social Security Retirement Age (~67). (data/retirement.json, brs.lump_sum_option)",
+        "source": "data/retirement.json (RETIREMENT command); primary: https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "Up to 180 days of permissive duty in the final 180 days of active duty with an approved industry partner (e.g., a commercial trucking/logistics employer), full pay/benefits continuing. Commander approval is discretionary. (data/transition.json, skillbridge)",
+        "tap_program_summary": "Mandatory DoD-wide TAP curriculum (Individualized Initial Counseling, Pre-Separation Counseling, MOC self-assessment, VA Benefits I, DOL EFCT workshop, optional 2-day track, Capstone), beginning no later than 365 days before separation. (data/transition.json, tap)",
+        "dd214_significance": "Block 24 'character of service' gates VA disability, VA healthcare, GI Bill, VA home loan, and state veteran benefit eligibility. (data/transition.json, dd214)",
+        "va_disability_common_claims": [
+          "Lumbar/cervical spine and musculoskeletal conditions from prolonged heavy-vehicle operation over rough/field terrain — extrapolated from the aircrew vibration/loading and infantry musculoskeletal patterns documented in data/transition.json; not a VA-published per-MOS statistic, flagged as inference.",
+          "Tinnitus/hearing loss from sustained diesel-engine and convoy noise exposure without consistent hearing protection — same inference-based caveat.",
+          "PACT Act presumptive respiratory/toxic-exposure conditions for deployment to covered theaters, especially relevant given convoy/route exposure to burn pits and airborne hazards. (data/transition.json, va_disability — PACT Act entry, not specialty-limited)"
+        ],
+        "vr_e_eligibility_note": "Requires 20%+ service-connected disability rating creating an employment handicap; funds training/tuition plus monthly subsistence (FY2026 max $3,439.23/month) from a separate entitlement bucket than the Post-9/11 GI Bill. (data/transition.json, vr_e_chapter_31)",
+        "source": "data/transition.json (TRANSITION command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": ["53-3032.00", "13-1081.00"],
+        "example_civilian_titles": ["Heavy/Tractor-Trailer Truck Driver", "CDL Driver", "Fleet/Transportation Supervisor (with experience)", "Logistics Coordinator"],
+        "relevant_certifications": ["State Commercial Driver's License (CDL) — Class A/B as applicable", "HAZMAT, tanker, and doubles/triples CDL endorsements"],
+        "estimated_civilian_salary_range_usd": [38640, 78800],
+        "methodology_note_inline": "10th-90th percentile national wage range for O*NET/SOC 53-3032.00 Heavy and Tractor-Trailer Truck Drivers, BLS OES May 2024 (median $57,440). Directly sourced via search summary of BLS OES data; not independently fetched from bls.gov this session.",
+        "credential_gap_note": "GET THIS PRECISE: an 88M does NOT automatically hold a civilian Commercial Driver's License (CDL) upon leaving service. The FMCSA Military Skills Test Waiver Program (49 CFR 383.77) lets a qualifying current/recent military driver skip only the CDL road SKILLS test when applying for a state CDL — it does NOT waive the CDL written KNOWLEDGE test or any endorsement exams (HAZMAT, tanker, doubles/triples), which must still be passed at a state DMV/BMV. Eligibility for the skills-test waiver: 21 years or older, and currently licensed/employed (or was, within the last 12 months) in a military position requiring operation of a military motor vehicle equivalent to a commercial motor vehicle; each state administers its own application. A SEPARATE program, FMCSA's Even Exchange Program, lets some qualifying military drivers also skip the knowledge test by exchanging a military license for a CDL — where both waivers apply together, a driver can obtain a CDL without taking either test in person, but the skills-test waiver ALONE does not eliminate the knowledge-test requirement. The military experience and any Army COOL-mapped CDL endorsements support, but do not substitute for, the civilian licensing process, which happens after separation at a state DMV.",
+        "source": "FMCSA Military Skills Test Waiver Program (https://www.fmcsa.dot.gov/military-skills-test-waiver, official .gov, search-corroborated); FMCSA Even Exchange Program (https://www.fmcsa.dot.gov/even-exchange-program); data/transition.json credential_gap example for motor transport/heavy-vehicle MOS (independently corroborates the same skills-test-only framing); O*NET 53-3032.00 and 13-1081.00 for salary data.",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill tier scales 50%-100% with qualifying active-duty days (36+ months = 100%); training-duty time under BCT/AIT orders does not count toward the day total. (data/education-benefits.json)",
+        "gi_bill_transferability_note": "Requires 6+ years of service at approval plus a new 4-year additional service obligation; must be requested via milConnect while still serving. (data/veteran-benefits.json, gi_bill_transferability)",
+        "va_home_loan_note": "No VA loan cap for veterans with full entitlement (lender-underwriting-limited); generally no down payment/PMI; one-time funding fee unless exempt. (data/veteran-benefits.json, va_home_loan)",
+        "va_healthcare_priority_group_note": "Priority group (1-8) assigned at enrollment based on disability rating, income, and service history — not automatic from service length alone. (data/veteran-benefits.json, va_healthcare)",
+        "state_benefit_variance_note": "State-level veteran benefits vary widely and are not a national figure — verify against the veteran's state of legal residence. (data/veteran-benefits.json, state_benefit_variance)",
+        "source": "data/veteran-benefits.json and data/education-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill: full public in-state tuition/fees or up to $29,920.95/year private (2025-2026 AY), zip-code MHA, up to $1,000/year books, scaled by eligibility tier. (data/education-benefits.json)",
+        "tuition_assistance": "DoD-wide $250/semester-hour, $4,500/fiscal-year cap while serving; Army-specific usage limits tightened in 2025-2026 per search-sourced reporting, not independently fetched this session.",
+        "credentialing_assistance": "Army CA/COOL: $2,000/fiscal-year cap (reduced from $4,000 in 2024); reported 3-credentials-per-10-years lifetime limit. This is directly relevant to 88M's CDL-adjacent credentialing pathway. (data/education-benefits.json)",
+        "coop_or_apprenticeship_notes": "Army COOL's Gap Analysis tool for 88M maps which CDL-endorsement knowledge areas military training already covers — not independently reviewed this session; see cool.osd.mil/army/moc/index.html?moc=88m&tab=cred."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Deployment tempo tracks the supported unit; convoy/logistics-over-the-shore operations during contingency deployments can carry elevated operational tempo and route-security risk relative to garrison duty. Specific 88M tempo data was not independently sourced this session.",
+        "family_considerations": "Standard Army PCS/dependent-care considerations; no MOS-specific family-impact data sourced this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "army-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Army motor transport operator convoy", "88M heavy truck driver field exercise", "Army logistics convoy operations"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        { "title": "Motor Transport Operator — goarmy.com (job listing page; WebFetch did not render detail this session)", "url": "https://www.goarmy.com/careers-and-jobs/support-logistics/transportation-inventory/88m-motor-transport-operator", "retrieved_date": "2026-07-12" },
+        { "title": "Army COOL — 88M Motor Transport Operator — Certifications/Licenses", "url": "https://www.cool.osd.mil/army/moc/index.html?moc=88m&tab=cred", "retrieved_date": "2026-07-12" },
+        { "title": "88M Motor Transport Operator MOS: Pay, Training & Requirements — Battalion Duty", "url": "https://battalionduty.com/careers/enlisted/transportation-logistics/88m-motor-transport-operator/", "retrieved_date": "2026-07-12" },
+        { "title": "Military Skills Test Waiver Program — FMCSA", "url": "https://www.fmcsa.dot.gov/military-skills-test-waiver", "retrieved_date": "2026-07-12" },
+        { "title": "Even Exchange Program (Knowledge Test Waiver) — FMCSA", "url": "https://www.fmcsa.dot.gov/even-exchange-program", "retrieved_date": "2026-07-12" },
+        { "title": "Fort Gregg-Adams / U.S. Army Transportation Corps and Transportation School", "url": "https://transportation.army.mil/transportation_school/ftgreggadams.html", "retrieved_date": "2026-07-12" },
+        { "title": "53-3032.00 — Heavy and Tractor-Trailer Truck Drivers — O*NET OnLine", "url": "https://www.onetonline.org/link/summary/53-3032.00", "retrieved_date": "2026-07-12" },
+        { "title": "data/transition.json — credential_gap example: Motor transport / heavy-vehicle operator MOS", "url": "n/a (internal project file, itself sourced to fmcsa.dot.gov)", "retrieved_date": "2026-07-12" }
+      ]
+    },
+
+    {
+      "id": "navy-ls-logistics-specialist",
+      "name": "Logistics Specialist",
+      "branch": "Navy",
+      "track": "enlisted",
+      "code": "LS",
+      "interest_cluster_ids": ["logistics-supply"],
+      "entry_requirements": {
+        "asvab_line_score": "VE+AR (Verbal Expression + Arithmetic Reasoning) combined score of 102 minimum, per navycs.com and corroborating sources; not independently confirmed by direct primary .mil fetch this session.",
+        "education": "High school diploma or equivalent; strong arithmetic, verbal, and writing skills specifically called out for this rating.",
+        "age_range": "17 (with parental consent) to the Navy's current maximum enlistment age — not independently verified this session; confirm with a recruiter.",
+        "physical": "Standard Navy accession medical/physical standards; no LS-specific elevated physical requirement identified this session.",
+        "security_clearance": "Not confirmed as a blanket requirement; LS duties involving financial/postal systems may require some level of trust/clearance — not independently verified this session.",
+        "other": "Involves handling of Navy post office operations and financial/accounting systems as part of A-school curriculum."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training (Boot Camp)",
+          "location": "Recruit Training Command (RTC), Great Lakes, IL",
+          "length_weeks": 9,
+          "description": "Standard Navy entry-level training (Indoctrination, Militarization, Evaluation, Battle Stations phases); shortened from 10 to 9 weeks for recruits arriving on/after January 6, 2025, per Navy's Navigation Plan 2024 — general Navy policy, not LS-specific."
+        },
+        {
+          "stage": "'A' School — Logistics Specialist",
+          "location": "Meridian, MS",
+          "length_weeks": 9,
+          "description": "Automated data processing, financial records, accounting systems, inventory/supply procurement and issue, and postal operations training."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.80,
+        "methodology_note": "Computed, not authoritative: (E-1 <2yr basic pay $2,407.20 + enlisted BAS $476.95) x 12 = $34,609.80. BAH intentionally excluded (duty-station-specific). See data/pay-tables.json for full methodology.",
+        "source": "data/pay-tables.json (COMPENSATION command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED — not sourced this session. Navy enlistment/Selective Reenlistment Bonuses for LS are published and updated via NAVADMIN messages on a rolling/quarterly basis; check the current NAVADMIN bonus list or a recruiter.",
+        "source": "Not fetched this session per this cluster's binding constraint on quarterly-changing bonus figures.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "General enlisted Navy pattern, not LS-specific data confirmed this session: E-1→E-4 over roughly the first 2-3 years of sea/shore rotation; E-5/E-6 advancement is exam-based (Navy-wide advancement exam plus performance marks), competitive and rating-specific.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract",
+          "BRS continuation-pay eligibility window (statutory years 8-12; exact Navy-specific timing not independently verified this session — see data/retirement.json unverified list)",
+          "Sea/shore rotation points and Perform-to-Serve reenlistment gates specific to the Navy advancement system"
+        ],
+        "advanced_schools_or_certs": [
+          "Navy Credentialing Opportunities On-Line (COOL) for LS (specific current dollar cap not independently confirmed — cool.osd.mil fetch attempts failed with a certificate error in the EDU-BENEFITS research pass; see data/education-benefits.json unverified list)",
+          "'C' school advanced LS courses (e.g., disbursing, postal, contracting) — not independently itemized this session"
+        ],
+        "officer_conversion_path": "Officer Candidate School (OCS) or Limited Duty Officer (LDO)/Chief Warrant Officer (CWO) conversion into the Supply Corps for senior, qualified LS Sailors.",
+        "source": "General enlisted Navy career-management pattern and search-sourced LS career pages; not independently verified against a primary MyNavyHR fetch this session.",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing at 20 years; no partial pension below that. TSP (own contributions, DoD match, DoD's automatic 1% after 2 years) is portable regardless of career length. (data/retirement.json, brs.twenty_year_cliff)",
+        "continuation_pay_note": "One-time payout in the statutory years 8-12 window (Navy-specific exact timing not independently verified this session — only the Army's published year-7-12 window was directly checked in the RETIREMENT pass); statutory range 2.5x-13x monthly basic pay, requiring a minimum 3-year additional service obligation. (data/retirement.json, brs.continuation_pay)",
+        "guard_reserve_points_note": "LABEL: not interchangeable with active duty. Points-based system; 20 qualifying years required; pension starts age 60 (reducible to as low as 50 under FY2008 NDAA rules). (data/retirement.json, guard_reserve)",
+        "lump_sum_option_note": "At 20+ years, may elect 25% or 50% lump sum of discounted present value, with monthly pay reduced until Full Social Security Retirement Age (~67). (data/retirement.json, brs.lump_sum_option)",
+        "source": "data/retirement.json (RETIREMENT command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "Up to 180 days of permissive duty in the final 180 days of active duty with an approved industry partner, full pay/benefits continuing; commander approval is discretionary, per DoDI 1322.29. (data/transition.json, skillbridge)",
+        "tap_program_summary": "Mandatory DoD-wide TAP curriculum, beginning no later than 365 days before separation. (data/transition.json, tap)",
+        "dd214_significance": "Block 24 'character of service' gates VA disability, VA healthcare, GI Bill, VA home loan, and state veteran benefit eligibility. (data/transition.json, dd214)",
+        "va_disability_common_claims": [
+          "Lumbar/back strain from cargo handling and shipboard supply-space work in confined spaces — extrapolated inference from the general musculoskeletal-load pattern documented in data/transition.json, not a VA-published per-rating statistic.",
+          "Hearing loss/tinnitus where shipboard machinery-space or flight-deck-adjacent noise exposure occurred without consistent protection — same inference-based caveat.",
+          "PACT Act presumptive conditions for any deployment to a covered theater, regardless of rating. (data/transition.json, va_disability — PACT Act entry)"
+        ],
+        "vr_e_eligibility_note": "Requires 20%+ service-connected disability rating creating an employment handicap; separate entitlement bucket from Post-9/11 GI Bill, FY2026 max subsistence $3,439.23/month. (data/transition.json, vr_e_chapter_31)",
+        "source": "data/transition.json (TRANSITION command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": ["13-1081.00", "43-5071.00"],
+        "example_civilian_titles": ["Logistics Coordinator", "Supply Chain Analyst", "Inventory/Warehouse Supervisor", "Procurement/Purchasing Clerk"],
+        "relevant_certifications": ["ASCM/APICS CPIM or CLTD", "Certified Professional in Supply Management (CPSM)"],
+        "estimated_civilian_salary_range_usd": [43190, 80880],
+        "methodology_note_inline": "Same BLS OES May 2024 median-wage anchoring as the 92Y record (43-5071.00 median $43,190; 13-1081.00 median $80,880) — not a full percentile distribution for either code.",
+        "credential_gap_note": "LS's postal-operations training does not confer a U.S. Postal Service employment credential, and its financial/accounting-systems training does not confer a civilian accounting certification (e.g., CPA) or supply-chain certification — those require separate civilian coursework and exams.",
+        "source": "O*NET OnLine 13-1081.00 and 43-5071.00; BLS OES May 2024 (search-corroborated, not directly fetched from bls.gov this session)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill tier scales 50%-100% with qualifying active-duty days; training-duty time does not count. (data/education-benefits.json)",
+        "gi_bill_transferability_note": "Requires 6+ years of service at approval plus a new 4-year additional service obligation, requested via milConnect while still serving. (data/veteran-benefits.json)",
+        "va_home_loan_note": "No VA loan cap for full-entitlement veterans (lender-underwriting-limited); generally no down payment/PMI; funding fee unless exempt. (data/veteran-benefits.json)",
+        "va_healthcare_priority_group_note": "Priority group (1-8) assigned at enrollment based on disability rating, income, and service history. (data/veteran-benefits.json)",
+        "state_benefit_variance_note": "State-level veteran benefits vary widely; not a national figure. (data/veteran-benefits.json)",
+        "source": "data/veteran-benefits.json and data/education-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill: full public in-state tuition/fees or up to $29,920.95/year private (2025-2026 AY), zip-code MHA, up to $1,000/year books. (data/education-benefits.json)",
+        "tuition_assistance": "DoD-wide $250/semester-hour, $4,500/fiscal-year cap while serving, administered through the Navy College Program; reported 18-semester-hour/fiscal-year usage limit not independently fetched this session.",
+        "credentialing_assistance": "Navy COOL funds credential exams/renewals for active-duty and Navy Reserve (excluding IRR/VTU); specific dollar cap UNVERIFIED — cool.osd.mil fetch failed with a certificate error in the EDU-BENEFITS pass. (data/education-benefits.json)",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Shipboard LS billets follow the deploying unit's sea/shore rotation (typically alternating sea and shore tours); shore-duty LS billets at supply activities follow a more garrison-like schedule. Specific LS tempo statistics were not independently sourced this session.",
+        "family_considerations": "Sea/shore rotation is the dominant family-planning factor for this rating; standard Navy PCS/dependent-care considerations otherwise apply."
+      },
+      "visual_assets": {
+        "branch_logo_id": "navy-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Navy logistics specialist supply", "Navy LS shipboard supply operations", "Navy stock room inventory sailor"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        { "title": "LS — MyNavyHR (Community Management, Enlisted, Supply)", "url": "https://www.mynavyhr.navy.mil/Career-Management/Community-Management/Enlisted/Supply/LS/", "retrieved_date": "2026-07-12" },
+        { "title": "Navy Logistics Specialist Rating — NavyCS", "url": "https://www.navycs.com/navy-jobs/logistics-specialist.html", "retrieved_date": "2026-07-12" },
+        { "title": "Logistics Specialist (LS) — DOW COOL Portal (E-5 LaDR)", "url": "https://www.cool.osd.mil/usn/LaDR/ls_e5.pdf", "retrieved_date": "2026-07-12" },
+        { "title": "Navy Recruit Training Command: 9-week boot camp change (Task & Purpose)", "url": "https://taskandpurpose.com/news/navy-cuts-boot-camp-length/", "retrieved_date": "2026-07-12" },
+        { "title": "13-1081.00 — Logisticians — O*NET OnLine", "url": "https://www.onetonline.org/link/summary/13-1081.00", "retrieved_date": "2026-07-12" }
+      ]
+    },
+
+    {
+      "id": "air-force-2s0x1-materiel-management",
+      "name": "Materiel Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "code": "2S0X1",
+      "interest_cluster_ids": ["logistics-supply"],
+      "entry_requirements": {
+        "asvab_line_score": "UNVERIFIED for 2S0X1 specifically this session. A related Air Force logistics AFSC (2G0X1, Logistics Plans) requires Administrative (A) composite 56 minimum, per search-sourced data — do not apply this figure to 2S0X1 without separate confirmation, since the two are distinct AFSCs (2S0X1 = Materiel Management/supply; 2G0X1 = Logistics Plans).",
+        "education": "High school diploma with a mathematics course 'desirable' per search-sourced career-field information; not confirmed as a hard requirement distinct from standard Air Force accession education standards.",
+        "age_range": "17-42 per general current Air Force enlistment age-ceiling policy (confirmed in this session's search results for the related AFSC 2G0X1's listing, and understood to reflect the Department of the Air Force's general enlistment age ceiling rather than an AFSC-specific rule) — not independently re-verified against airforce.com's 2S0X1-specific page this session.",
+        "physical": "Standard Air Force MEPS medical/physical accession standards; no 2S0X1-specific elevated requirement identified this session.",
+        "security_clearance": "Not confirmed as a blanket 2S0X1 requirement this session; a related logistics AFSC (2G0X1, Logistics Plans) is documented as requiring 'routine access to Secret material or similar environment' — this may or may not extend to 2S0X1 and was not independently confirmed for 2S0X1 specifically.",
+        "other": "Award of the 5-skill-level AFSC (2S051) requires prior possession of the 3-skill-level (2S031) plus documented experience preparing/maintaining materiel-management documentation and records."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Basic Military Training (BMT)",
+          "location": "Joint Base San Antonio-Lackland, TX",
+          "length_weeks": 8,
+          "description": "Standard Air Force entry-level training; not 2S0X1-specific. Length has changed over time (previously as short as 7.5 weeks); current BMT length not independently re-verified to the exact week this session and is presented as an approximate, commonly-cited figure."
+        },
+        {
+          "stage": "Technical Training — Materiel Management Apprentice Course",
+          "location": "Joint Base San Antonio-Lackland, TX",
+          "length_weeks": 5,
+          "description": "Approximately 30-33 training days (search-sourced, presented here rounded to 5 weeks) covering requirements determination, inventory control, storage/issue of supplies and equipment, and operation of the Integrated Logistics System-Supply (ILS-S)."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.80,
+        "methodology_note": "Computed, not authoritative: (E-1 <2yr basic pay $2,407.20 + enlisted BAS $476.95) x 12 = $34,609.80. BAH intentionally excluded (duty-station-specific). See data/pay-tables.json for full methodology.",
+        "source": "data/pay-tables.json (COMPENSATION command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED — not sourced this session. Air Force enlistment and Selective Reenlistment Bonus (SRB) tiers are published and adjusted periodically (typically quarterly-or-more-often) by AFPC; check the current AFPC SRB chart or a recruiter.",
+        "source": "Not fetched this session per this cluster's binding constraint on quarterly-changing bonus figures.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "General enlisted Air Force pattern, not 2S0X1-specific data confirmed this session: award of 2S031 (3-skill level) upon technical-training completion; 2S051 (5-skill level, 'journeyman') requires documented OJT experience; further progression to 7-skill-level (craftsman) and 9-skill-level (superintendent) tied to time-in-service, PME (Airman Leadership School, NCO Academy), and promotion-cycle testing (WAPS).",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract",
+          "BRS continuation-pay eligibility window (statutory years 8-12; Air Force-specific exact timing not independently verified this session)",
+          "Reenlistment tied to First-Term Airman reenlistment eligibility and career-field manning levels"
+        ],
+        "advanced_schools_or_certs": [
+          "Air Force Credentialing Assistance (via AFVEC) — reported up to $4,500/year cap, not independently fetched from cool.osd.mil this session (certificate error on fetch attempt in EDU-BENEFITS pass)",
+          "Airman Leadership School and NCO Academy for NCO progression"
+        ],
+        "officer_conversion_path": "Officer Training School (OTS) into the Logistics Readiness Officer (32-series) career field.",
+        "source": "General enlisted Air Force career-management pattern and search-sourced 2S0X1 career-field pages; not independently verified against a primary AFECD/CFETP fetch this session.",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing at 20 years; no partial pension below that. TSP (own contributions, DoD match, DoD's automatic 1% after 2 years) is portable regardless of career length. (data/retirement.json, brs.twenty_year_cliff)",
+        "continuation_pay_note": "One-time payout in the statutory years 8-12 window (Air Force-specific exact timing not independently verified this session); statutory range 2.5x-13x monthly basic pay, minimum 3-year additional service obligation. (data/retirement.json, brs.continuation_pay)",
+        "guard_reserve_points_note": "LABEL: not interchangeable with active duty. Points-based system; 20 qualifying years required; pension starts age 60 (reducible to as low as 50 under FY2008 NDAA rules). Source for this general Guard/Reserve mechanic is Air Force's own official benefits site. (data/retirement.json, guard_reserve, source: myairforcebenefits.us.af.mil)",
+        "lump_sum_option_note": "At 20+ years, may elect 25% or 50% lump sum of discounted present value, with monthly pay reduced until Full Social Security Retirement Age (~67). (data/retirement.json, brs.lump_sum_option)",
+        "source": "data/retirement.json (RETIREMENT command); guard/reserve mechanics specifically sourced to https://myairforcebenefits.us.af.mil/Benefit-Library/Federal-Benefits/Retired-Pay?serv=22",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "Up to 180 days of permissive duty in the final 180 days of active duty with an approved industry partner, full pay/benefits continuing; commander approval is discretionary, per DoDI 1322.29. (data/transition.json, skillbridge)",
+        "tap_program_summary": "Mandatory DoD-wide TAP curriculum, beginning no later than 365 days before separation. (data/transition.json, tap)",
+        "dd214_significance": "Block 24 'character of service' gates VA disability, VA healthcare, GI Bill, VA home loan, and state veteran benefit eligibility. (data/transition.json, dd214)",
+        "va_disability_common_claims": [
+          "Lumbar/back strain from warehouse/flightline supply-cage lifting and material handling — extrapolated inference from the general musculoskeletal-load pattern documented in data/transition.json, not a VA-published per-AFSC statistic.",
+          "Hearing loss/tinnitus where duty involved flightline-adjacent or industrial warehouse equipment noise without consistent protection — same inference-based caveat.",
+          "PACT Act presumptive conditions for deployment to a covered theater, regardless of AFSC. (data/transition.json, va_disability — PACT Act entry)"
+        ],
+        "vr_e_eligibility_note": "Requires 20%+ service-connected disability rating creating an employment handicap; separate entitlement bucket from Post-9/11 GI Bill, FY2026 max subsistence $3,439.23/month. (data/transition.json, vr_e_chapter_31)",
+        "source": "data/transition.json (TRANSITION command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": ["13-1081.00", "43-5071.00"],
+        "example_civilian_titles": ["Materiel/Inventory Manager", "Supply Chain Analyst", "Logistics Coordinator", "Warehouse Operations Supervisor"],
+        "relevant_certifications": ["ASCM/APICS CPIM or CLTD", "Certified Professional in Supply Management (CPSM)"],
+        "estimated_civilian_salary_range_usd": [43190, 80880],
+        "methodology_note_inline": "Same BLS OES May 2024 median-wage anchoring as the 92Y record (43-5071.00 median $43,190; 13-1081.00 median $80,880).",
+        "credential_gap_note": "2S0X1 experience operating the Integrated Logistics System-Supply (ILS-S) does not automatically confer a civilian supply-chain-management certification (ASCM/APICS CPIM, CLTD) or an ERP-software-specific civilian credential (e.g., SAP) — those require separate exams, and in the case of commercial ERP systems, the specific software used by a civilian employer is often different from ILS-S entirely.",
+        "source": "O*NET OnLine 13-1081.00 and 43-5071.00; BLS OES May 2024 (search-corroborated, not directly fetched from bls.gov this session)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill tier scales 50%-100% with qualifying active-duty days; training-duty time does not count. (data/education-benefits.json)",
+        "gi_bill_transferability_note": "Requires 6+ years of service at approval plus a new 4-year additional service obligation, requested via milConnect while still serving. (data/veteran-benefits.json)",
+        "va_home_loan_note": "No VA loan cap for full-entitlement veterans (lender-underwriting-limited); generally no down payment/PMI; funding fee unless exempt. (data/veteran-benefits.json)",
+        "va_healthcare_priority_group_note": "Priority group (1-8) assigned at enrollment based on disability rating, income, and service history. (data/veteran-benefits.json)",
+        "state_benefit_variance_note": "State-level veteran benefits vary widely; not a national figure. (data/veteran-benefits.json)",
+        "source": "data/veteran-benefits.json and data/education-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill: full public in-state tuition/fees or up to $29,920.95/year private (2025-2026 AY), zip-code MHA, up to $1,000/year books. (data/education-benefits.json)",
+        "tuition_assistance": "DoD-wide $250/semester-hour, $4,500/fiscal-year cap while serving, administered through the Air Force Virtual Education Center (AFVEC); reported 18-semester-hour/fiscal-year usage limit not independently fetched this session.",
+        "credentialing_assistance": "Air Force Credentialing Assistance via AFVEC: reported up to $4,500/year for enlisted and Reserve/ANG; not independently fetched from cool.osd.mil this session (certificate error). (data/education-benefits.json)",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Garrison-based supply/materiel-management duty with periodic deployed Air Expeditionary rotations to support flying-unit sustainment; specific 2S0X1 deployment-frequency data was not independently sourced this session.",
+        "family_considerations": "Standard Air Force PCS/dependent-care considerations; no AFSC-specific family-impact data sourced this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "air-force-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Air Force materiel management warehouse", "2S0X1 supply airman", "Air Force logistics readiness squadron supply"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        { "title": "Materiel Management Specialist (2S031) — airforce.com", "url": "https://www.airforce.com/careers/logistics-and-administration/materiel-management", "retrieved_date": "2026-07-12" },
+        { "title": "2S0X1 — Materiel Management AFSC — Forever Wingman", "url": "https://foreverwingman.com/career_fields/2s0x1-materiel-management/", "retrieved_date": "2026-07-12" },
+        { "title": "Logistics Plans Specialist (2G0X1, related logistics AFSC used for ASVAB/age comparison) — airforce.com", "url": "https://www.airforce.com/careers/logistics-and-administration/logistics-plans", "retrieved_date": "2026-07-12" },
+        { "title": "13-1081.00 — Logisticians — O*NET OnLine", "url": "https://www.onetonline.org/link/summary/13-1081.00", "retrieved_date": "2026-07-12" }
+      ]
+    },
+
+    {
+      "id": "usmc-3043-supply-administration-operations",
+      "name": "Supply Administration and Operations Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "code": "3043",
+      "interest_cluster_ids": ["logistics-supply"],
+      "entry_requirements": {
+        "asvab_line_score": "CL (Clerical) 100 minimum, per search-sourced ASVAB study-guide data; not independently confirmed by direct primary .mil fetch this session.",
+        "education": "High school diploma or GED, per standard Marine Corps enlistment policy; not independently re-verified this session for MOS-specific nuance.",
+        "age_range": "17 (with parental consent) to the Marine Corps' current maximum enlistment age — not independently verified this session; confirm with a recruiter.",
+        "physical": "Standard Marine Corps MEPS medical/physical accession standards; no MOS-specific elevated requirement identified this session.",
+        "security_clearance": "Not confirmed as a blanket requirement; not independently verified this session.",
+        "other": "Marine Corps COOL currently lists this MOS under the working title 'Supply Chain Specialist,' distinct from (but referring to the same MOS code as) the formal MOS title 'Supply Administration and Operations Specialist' used in official MOS manuals — both terms refer to MOS 3043."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Combat Training (MCT)",
+          "location": "Camp Lejeune, NC or Camp Pendleton, CA (location depends on recruit's boot-camp coast)",
+          "length_weeks": 3,
+          "description": "Standard basic-infantry-skills training required of all non-infantry Marines after boot camp; not MOS-3043-specific."
+        },
+        {
+          "stage": "Enlisted Supply Basic Course",
+          "location": "Camp Lejeune, NC",
+          "length_weeks": 8,
+          "description": "Basic understanding of supply-chain management, basic accounting, and computer/data-entry skills needed to track supplies from arrival through issue; covers retail and wholesale ground-supply accounting. (Exact course length of 8 weeks is an approximation based on comparable USMC enlisted technical courses — the precise current course length was not independently confirmed to the day this session.)"
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.80,
+        "methodology_note": "Computed, not authoritative: (E-1 <2yr basic pay $2,407.20 + enlisted BAS $476.95) x 12 = $34,609.80. BAH intentionally excluded (duty-station-specific). See data/pay-tables.json for full methodology.",
+        "source": "data/pay-tables.json (COMPENSATION command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED — not sourced this session. Marine Corps enlistment and Selective Reenlistment Bonuses (SRB) are published via MARADMIN messages and updated periodically; check the current SRB MARADMIN or a recruiter.",
+        "source": "Not fetched this session per this cluster's binding constraint on quarterly-changing bonus figures.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "General enlisted Marine Corps pattern, not 3043-specific data confirmed this session: Private→Lance Corporal is largely time-based; Corporal/Sergeant requires the Marine Corps' composite-score promotion system (time in service, time in grade, PME, rifle/PFT scores, proficiency/conduct marks); further NCO/SNCO progression is competitive and manning-dependent.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract",
+          "BRS continuation-pay eligibility window (statutory years 8-12; Marine-Corps-specific exact timing not independently verified this session)",
+          "Lateral-move opportunities into related MOS fields (e.g., 3000-series logistics/supply variants)"
+        ],
+        "advanced_schools_or_certs": [
+          "Marine Corps COOL-listed credentials for 3043/'Supply Chain Specialist' (specific current list not independently fetched this session — see cool.osd.mil/usmc/moc/index.html?moc=3043&tab=cred)",
+          "Sergeants Course / Career Course at appropriate rank for NCO/SNCO progression"
+        ],
+        "officer_conversion_path": "Marine Enlisted Commissioning Education Program (MECEP) or Officer Candidates School (OCS) into a Ground Supply Officer (3002) billet.",
+        "source": "General enlisted Marine Corps career-management pattern and search-sourced 3043 career pages; not independently verified against a primary MOS manual fetch this session.",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing at 20 years; no partial pension below that. TSP (own contributions, DoD match, DoD's automatic 1% after 2 years) is portable regardless of career length. (data/retirement.json, brs.twenty_year_cliff)",
+        "continuation_pay_note": "One-time payout in the statutory years 8-12 window (Marine-Corps-specific exact timing not independently verified this session); statutory range 2.5x-13x monthly basic pay, minimum 3-year additional service obligation. (data/retirement.json, brs.continuation_pay)",
+        "guard_reserve_points_note": "LABEL: not interchangeable with active duty. Note: the Marine Corps' reserve component is the Marine Corps Reserve (no separate 'Marine Guard'); the same points-based system applies — 20 qualifying years required; pension starts age 60 (reducible to as low as 50 under FY2008 NDAA rules). (data/retirement.json, guard_reserve)",
+        "lump_sum_option_note": "At 20+ years, may elect 25% or 50% lump sum of discounted present value, with monthly pay reduced until Full Social Security Retirement Age (~67). (data/retirement.json, brs.lump_sum_option)",
+        "source": "data/retirement.json (RETIREMENT command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "Up to 180 days of permissive duty in the final 180 days of active duty with an approved industry partner, full pay/benefits continuing; commander approval is discretionary, per DoDI 1322.29. (data/transition.json, skillbridge)",
+        "tap_program_summary": "Mandatory DoD-wide TAP curriculum, beginning no later than 365 days before separation. (data/transition.json, tap)",
+        "dd214_significance": "Block 24 'character of service' gates VA disability, VA healthcare, GI Bill, VA home loan, and state veteran benefit eligibility. (data/transition.json, dd214)",
+        "va_disability_common_claims": [
+          "Lumbar/back strain from warehouse and field-supply-point material handling — extrapolated inference from the general musculoskeletal-load pattern documented in data/transition.json, not a VA-published per-MOS statistic.",
+          "Hearing loss/tinnitus where duty involved generator or motor-transport-adjacent noise without consistent protection — same inference-based caveat.",
+          "PACT Act presumptive conditions for deployment to a covered theater, regardless of MOS. (data/transition.json, va_disability — PACT Act entry)"
+        ],
+        "vr_e_eligibility_note": "Requires 20%+ service-connected disability rating creating an employment handicap; separate entitlement bucket from Post-9/11 GI Bill, FY2026 max subsistence $3,439.23/month. (data/transition.json, vr_e_chapter_31)",
+        "source": "data/transition.json (TRANSITION command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": ["13-1081.00", "43-5071.00"],
+        "example_civilian_titles": ["Supply Chain Specialist", "Logistics Coordinator", "Inventory Control Analyst", "Warehouse/Distribution Supervisor"],
+        "relevant_certifications": ["ASCM/APICS CPIM or CLTD", "Certified Professional in Supply Management (CPSM)"],
+        "estimated_civilian_salary_range_usd": [43190, 80880],
+        "methodology_note_inline": "Same BLS OES May 2024 median-wage anchoring as the 92Y record (43-5071.00 median $43,190; 13-1081.00 median $80,880).",
+        "credential_gap_note": "3043 accounting/supply-chain training does not automatically confer a civilian bookkeeping/accounting certification or an ASCM/APICS supply-chain credential — those require a separate proctored exam. Marine Corps COOL can help fund the exam but does not grant the credential through MOS training alone.",
+        "source": "O*NET OnLine 13-1081.00 and 43-5071.00; BLS OES May 2024 (search-corroborated, not directly fetched from bls.gov this session)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill tier scales 50%-100% with qualifying active-duty days; training-duty time does not count. (data/education-benefits.json)",
+        "gi_bill_transferability_note": "Requires 6+ years of service at approval plus a new 4-year additional service obligation, requested via milConnect while still serving. (data/veteran-benefits.json)",
+        "va_home_loan_note": "No VA loan cap for full-entitlement veterans (lender-underwriting-limited); generally no down payment/PMI; funding fee unless exempt. (data/veteran-benefits.json)",
+        "va_healthcare_priority_group_note": "Priority group (1-8) assigned at enrollment based on disability rating, income, and service history. (data/veteran-benefits.json)",
+        "state_benefit_variance_note": "State-level veteran benefits vary widely; not a national figure. (data/veteran-benefits.json)",
+        "source": "data/veteran-benefits.json and data/education-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill: full public in-state tuition/fees or up to $29,920.95/year private (2025-2026 AY), zip-code MHA, up to $1,000/year books. (data/education-benefits.json)",
+        "tuition_assistance": "DoD-wide $250/semester-hour, $4,500/fiscal-year cap while serving, aligned with Department of the Navy policy; reported 18-semester-hour/fiscal-year usage limit not independently fetched this session.",
+        "credentialing_assistance": "Marine Corps COOL: specific current annual dollar cap UNVERIFIED — cool.osd.mil fetch attempts failed with a certificate error in the EDU-BENEFITS pass. (data/education-benefits.json)",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Deployment tempo tracks the supported Marine Air-Ground Task Force (MAGTF) element; supply Marines deploy with the units they support, including Marine Expeditionary Unit (MEU) rotations. Specific 3043 tempo data was not independently sourced this session.",
+        "family_considerations": "Standard Marine Corps PCS/dependent-care considerations; no MOS-specific family-impact data sourced this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "marine-corps-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Marine Corps supply administration warehouse", "3043 Marine logistics supply operations", "Marine Corps combat logistics battalion supply"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        { "title": "Marine Corps COOL — 3043 — Supply Chain Specialist MOS — Overview", "url": "https://www.cool.osd.mil/usmc/moc/index.html?moc=3043&tab=overview", "retrieved_date": "2026-07-12" },
+        { "title": "MOS 3043, Supply Administration and Operations Specialist — The Military Yearbook Project", "url": "https://militaryyearbookproject.org/references/military-occupation-codes/usmc/field-30-supply-administration-and-operations/mos-3043-supply-administration-and-operations-specialist", "retrieved_date": "2026-07-12" },
+        { "title": "Marine Corps 3043 Supply Administration & Operations Clerk ASVAB Study Guide", "url": "https://www.asvabtestbank.com/study-guide/mos/3043/455", "retrieved_date": "2026-07-12" },
+        { "title": "13-1081.00 — Logisticians — O*NET OnLine", "url": "https://www.onetonline.org/link/summary/13-1081.00", "retrieved_date": "2026-07-12" }
+      ]
+    },
+
+    {
+      "id": "uscg-sk-storekeeper",
+      "name": "Storekeeper",
+      "branch": "Coast Guard",
+      "track": "enlisted",
+      "code": "SK",
+      "interest_cluster_ids": ["logistics-supply"],
+      "entry_requirements": {
+        "asvab_line_score": "VE+AR (Verbal Expression + Arithmetic Reasoning) combined score of 105 minimum, per the official U.S. Coast Guard ASVAB/AFCT Process Guide (uscg.mil, PDF).",
+        "education": "High school diploma or equivalent, per standard Coast Guard enlistment policy.",
+        "age_range": "17 (with parental consent) to the Coast Guard's current maximum enlistment age — not independently verified this session; confirm with a recruiter. General AFQT minimum for Coast Guard enlistment is 32 (search-sourced, not independently re-verified against a primary uscg.mil source this session).",
+        "physical": "Standard Coast Guard MEPS medical/physical accession standards; no SK-specific elevated requirement identified this session.",
+        "security_clearance": "Not confirmed as a blanket requirement; not independently verified this session.",
+        "other": "As DHS (not DoD) personnel, Coast Guard members' benefits administration and trademark statute (14 U.S.C. §934) differ in some respects from the five DoD branches — noted per this project's master prompt, not independently re-verified per-SK-billet this session."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Basic Training (Boot Camp)",
+          "location": "Training Center Cape May, NJ",
+          "length_weeks": 8,
+          "description": "Standard Coast Guard entry-level training; not SK-specific. This is the sole enlisted boot camp location for the entire Coast Guard."
+        },
+        {
+          "stage": "'A' School — Storekeeper",
+          "location": "Training Center Petaluma, CA",
+          "length_weeks": 8,
+          "description": "Instruction in procurement, shipping and receiving, inventory management, accounting, and records and reports."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.80,
+        "methodology_note": "Computed, not authoritative: (E-1 <2yr basic pay $2,407.20 + enlisted BAS $476.95) x 12 = $34,609.80. BAH intentionally excluded (duty-station-specific). Coast Guard pay tables track the DoD basic-pay table by law even though the service is DHS-administered; BAS/BAH structure is likewise parallel. See data/pay-tables.json for full methodology.",
+        "source": "data/pay-tables.json (COMPENSATION command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED — not sourced this session. Coast Guard enlistment/Selective Reenlistment Bonus rates for SK are published and updated periodically by Coast Guard Personnel Service Center; check the current ALCOAST bonus message or a recruiter.",
+        "source": "Not fetched this session per this cluster's binding constraint on quarterly-changing bonus figures.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "General enlisted Coast Guard pattern, not SK-specific data confirmed this session: E-1→E-4 largely time-based with performance factors; E-5/E-6 advancement is exam-based (Coast Guard-wide servicewide exam) and competitive by rating.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract",
+          "BRS continuation-pay eligibility window (statutory years 8-12; Coast Guard-specific exact timing not independently verified this session)",
+          "Rating-specific advancement exam cycles, which can gate reenlistment planning around exam windows"
+        ],
+        "advanced_schools_or_certs": [
+          "Coast Guard COOL-listed credentials for SK (specific current list not independently fetched this session — cool.osd.mil/uscg/ fetch attempts failed with a certificate error in the EDU-BENEFITS pass)"
+        ],
+        "officer_conversion_path": "Officer Candidate School (OCS) into a Coast Guard logistics/supply officer billet, or Chief Warrant Officer (CWO) conversion for senior SK Petty Officers.",
+        "source": "General enlisted Coast Guard career-management pattern; not independently verified against a primary uscg.mil fetch this session.",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing at 20 years; no partial pension below that. TSP (own contributions, DoD match, DoD's automatic 1% after 2 years) is portable regardless of career length. The Coast Guard, though DHS-administered, follows the same DoD-aligned BRS structure by law. (data/retirement.json, brs.twenty_year_cliff)",
+        "continuation_pay_note": "One-time payout in the statutory years 8-12 window (Coast-Guard-specific exact timing not independently verified this session); statutory range 2.5x-13x monthly basic pay, minimum 3-year additional service obligation. (data/retirement.json, brs.continuation_pay)",
+        "guard_reserve_points_note": "LABEL: not interchangeable with active duty. Coast Guard Reserve uses the same points-based system as DoD Guard/Reserve components; 20 qualifying years required; pension starts age 60 (reducible to as low as 50 under FY2008 NDAA rules) — Coast-Guard-Reserve-specific administration not independently re-verified this session. (data/retirement.json, guard_reserve)",
+        "lump_sum_option_note": "At 20+ years, may elect 25% or 50% lump sum of discounted present value, with monthly pay reduced until Full Social Security Retirement Age (~67). (data/retirement.json, brs.lump_sum_option)",
+        "source": "data/retirement.json (RETIREMENT command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": "UNVERIFIED",
+        "skillbridge_notes": "SkillBridge is a DoD program (DoDI 1322.29); Coast Guard-specific SkillBridge/TAP administration differences (as a DHS component) were not independently verified this session — data/transition.json explicitly flags this as unverified. The Coast Guard does participate in transition assistance broadly, but confirm current Coast Guard-specific SkillBridge eligibility before publishing a definitive yes/no.",
+        "tap_program_summary": "Mandatory DoD-wide-modeled TAP curriculum applies across the armed forces including the Coast Guard; component-specific administrative differences not independently verified this session. (data/transition.json, tap)",
+        "dd214_significance": "Block 24 'character of service' gates VA disability, VA healthcare, GI Bill, VA home loan, and state veteran benefit eligibility — applies to Coast Guard members the same as the five DoD branches. (data/transition.json, dd214)",
+        "va_disability_common_claims": [
+          "Lumbar/back strain from shipboard/cutter supply-space cargo handling in confined spaces — extrapolated inference from the general musculoskeletal-load pattern documented in data/transition.json, not a VA-published per-rating statistic.",
+          "Hearing loss/tinnitus from engine-room-adjacent or flight-deck-adjacent noise exposure without consistent protection — same inference-based caveat.",
+          "PACT Act presumptive conditions for deployment to a covered theater, regardless of rating. (data/transition.json, va_disability — PACT Act entry)"
+        ],
+        "vr_e_eligibility_note": "Requires 20%+ service-connected disability rating creating an employment handicap; separate entitlement bucket from Post-9/11 GI Bill, FY2026 max subsistence $3,439.23/month. (data/transition.json, vr_e_chapter_31)",
+        "source": "data/transition.json (TRANSITION command)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": ["13-1081.00", "43-5071.00"],
+        "example_civilian_titles": ["Procurement/Purchasing Clerk", "Logistics Coordinator", "Inventory Control Specialist", "Contract Specialist (with additional certification)"],
+        "relevant_certifications": ["ASCM/APICS CPIM or CLTD", "Federal Acquisition Certification in Contracting (FAC-C) — for procurement-track roles"],
+        "estimated_civilian_salary_range_usd": [43190, 80880],
+        "methodology_note_inline": "Same BLS OES May 2024 median-wage anchoring as the 92Y record (43-5071.00 median $43,190; 13-1081.00 median $80,880).",
+        "credential_gap_note": "SK procurement experience does not automatically confer a Federal Acquisition Certification in Contracting (FAC-C) or a civilian purchasing/supply-chain certification — this specific claim is a reasonable extrapolation from how federal contracting certification generally works, not an independently sourced Coast-Guard-specific statement this session, and is flagged accordingly. Verify against Coast Guard COOL before publishing as settled.",
+        "source": "O*NET OnLine 13-1081.00 and 43-5071.00; BLS OES May 2024 (search-corroborated, not directly fetched from bls.gov this session)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill tier scales 50%-100% with qualifying active-duty days; training-duty time does not count. Coast Guard service qualifies on the same basis as the five DoD branches. (data/education-benefits.json)",
+        "gi_bill_transferability_note": "Requires 6+ years of service at approval plus a new 4-year additional service obligation, requested via milConnect while still serving. (data/veteran-benefits.json)",
+        "va_home_loan_note": "No VA loan cap for full-entitlement veterans (lender-underwriting-limited); generally no down payment/PMI; funding fee unless exempt. (data/veteran-benefits.json)",
+        "va_healthcare_priority_group_note": "Priority group (1-8) assigned at enrollment based on disability rating, income, and service history. (data/veteran-benefits.json)",
+        "state_benefit_variance_note": "State-level veteran benefits vary widely; not a national figure. (data/veteran-benefits.json)",
+        "source": "data/veteran-benefits.json and data/education-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill: full public in-state tuition/fees or up to $29,920.95/year private (2025-2026 AY), zip-code MHA, up to $1,000/year books. Coast Guard members qualify on the same basis as DoD branches despite DHS administration. (data/education-benefits.json)",
+        "tuition_assistance": "Reported to follow the same $250/semester-hour, $4,500/fiscal-year DoD-wide caps, administered under DHS via the Coast Guard Institute rather than DoD — UNVERIFIED at primary-source level; a search summary may have conflated this figure with Coast Guard Credentialing Assistance. (data/education-benefits.json)",
+        "credentialing_assistance": "UNVERIFIED. Coast Guard COOL dollar cap not independently confirmed — a search summary attributed a $4,500/year figure but flagged it as a likely conflation with Tuition Assistance, not Credentialing Assistance specifically. (data/education-benefits.json)",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "SK billets split between shore-based Coast Guard units/District Logistics Centers and shipboard cutter assignments; cutter-based SKs follow the cutter's patrol schedule. Specific SK tempo statistics were not independently sourced this session.",
+        "family_considerations": "Standard Coast Guard PCS/dependent-care considerations; cutter-based tours involve at-sea time similar in character to Navy sea duty. No SK-specific family-impact data sourced this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "coast-guard-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Coast Guard storekeeper supply warehouse", "Coast Guard SK cutter supply operations", "Coast Guard logistics support"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        { "title": "Storekeeper — gocoastguard.com", "url": "https://www.gocoastguard.com/careers/enlisted/sk", "retrieved_date": "2026-07-12" },
+        { "title": "ASVAB and AFCT Waiver Request Procedures Process Guide (official USCG, PDF) — source of VE+AR 105 A-school requirement", "url": "https://www.uscg.mil/Portals/3/Documents/VOL_ED/ASVAB_Process_Guide_22FEB2016.pdf?ver=2017-02-24-142131-933", "retrieved_date": "2026-07-12" },
+        { "title": "13-1081.00 — Logisticians — O*NET OnLine", "url": "https://www.onetonline.org/link/summary/13-1081.00", "retrieved_date": "2026-07-12" }
+      ]
+    }
+  ],
+
+  "branches_with_no_presence": [
+    {
+      "branch": "Space Force",
+      "why": "No confirmed, distinct organic Space Force enlisted logistics/supply specialty exists as of this retrieval. Direct evidence: (1) spaceforce.com/careers (official recruiting site, fetched 2026-07-12) lists only 'Administration,' 'Contracting,' and 'Financial Management' as logistics-adjacent CIVILIAN positions, plus a single enlisted position labeled 'Signals Intelligence Analyst' oddly grouped under a 'Logistics' page category — no distinct enlisted supply/materiel/transportation specialty is listed. (2) A CSIS Aerospace Security Project primer (aerospace.csis.org/us-space-force-primer, search-corroborated 2026-07-12) states plainly that 'the Space Force relies on the Department of the Air Force to provide everyday support functions such as logistics, base operations and security.' (3) data/interest-taxonomy.json's own logistics-supply cluster notes this as a thin/unconfirmed track: 'Space Force logistics functions draw on the shared Air Force logistics-readiness career field rather than a fully separate, well-documented SFSC track.' A young person interested in this cluster who wants to serve as a Guardian specifically should understand that base-level supply, materiel management, and transportation support at Space Force installations is performed by Department of the Air Force personnel (2S0X1 Materiel Management / 2T-series logistics readiness Airmen) assigned or attached to Space Force units, not by a separate Space Force enlisted logistics corps — directly analogous to how Marine Corps medical care is provided by Navy Hospital Corpsmen rather than an organic Marine Corps medical MOS. Per this project's master prompt, Space Force's enlisted specialty list is narrow by design and must not be padded with an invented SFSC code."
+    }
+  ],
+
+  "sources": [
+    { "title": "Unit Supply Specialist — goarmy.com", "url": "https://www.goarmy.com/careers-and-jobs/support-logistics/transportation-inventory/92y-unit-supply-specialist", "retrieved_date": "2026-07-12" },
+    { "title": "Motor Transport Operator — goarmy.com", "url": "https://www.goarmy.com/careers-and-jobs/support-logistics/transportation-inventory/88m-motor-transport-operator", "retrieved_date": "2026-07-12" },
+    { "title": "Army COOL — 88M Motor Transport Operator", "url": "https://www.cool.osd.mil/army/moc/index.html?moc=88m&tab=cred", "retrieved_date": "2026-07-12" },
+    { "title": "Fort Gregg-Adams / U.S. Army Transportation Corps and Transportation School", "url": "https://transportation.army.mil/transportation_school/ftgreggadams.html", "retrieved_date": "2026-07-12" },
+    { "title": "Military Skills Test Waiver Program — FMCSA (official .gov)", "url": "https://www.fmcsa.dot.gov/military-skills-test-waiver", "retrieved_date": "2026-07-12" },
+    { "title": "Even Exchange Program (Knowledge Test Waiver) — FMCSA (official .gov)", "url": "https://www.fmcsa.dot.gov/even-exchange-program", "retrieved_date": "2026-07-12" },
+    { "title": "LS — MyNavyHR (official .mil)", "url": "https://www.mynavyhr.navy.mil/Career-Management/Community-Management/Enlisted/Supply/LS/", "retrieved_date": "2026-07-12" },
+    { "title": "Logistics Specialist (LS) — DOW COOL Portal", "url": "https://www.cool.osd.mil/usn/LaDR/ls_e5.pdf", "retrieved_date": "2026-07-12" },
+    { "title": "Navy Recruit Training Command 9-week boot camp change — Task & Purpose", "url": "https://taskandpurpose.com/news/navy-cuts-boot-camp-length/", "retrieved_date": "2026-07-12" },
+    { "title": "Materiel Management Specialist (2S031) — airforce.com", "url": "https://www.airforce.com/careers/logistics-and-administration/materiel-management", "retrieved_date": "2026-07-12" },
+    { "title": "Logistics Plans Specialist (2G0X1) — airforce.com", "url": "https://www.airforce.com/careers/logistics-and-administration/logistics-plans", "retrieved_date": "2026-07-12" },
+    { "title": "Marine Corps COOL — 3043 — Supply Chain Specialist MOS", "url": "https://www.cool.osd.mil/usmc/moc/index.html?moc=3043&tab=overview", "retrieved_date": "2026-07-12" },
+    { "title": "Storekeeper — gocoastguard.com", "url": "https://www.gocoastguard.com/careers/enlisted/sk", "retrieved_date": "2026-07-12" },
+    { "title": "ASVAB and AFCT Waiver Request Procedures Process Guide — official USCG PDF", "url": "https://www.uscg.mil/Portals/3/Documents/VOL_ED/ASVAB_Process_Guide_22FEB2016.pdf?ver=2017-02-24-142131-933", "retrieved_date": "2026-07-12" },
+    { "title": "Discover Space Force Careers — spaceforce.com (fetched directly)", "url": "https://www.spaceforce.com/careers", "retrieved_date": "2026-07-12" },
+    { "title": "U.S. Space Force Primer — CSIS Aerospace Security Project", "url": "https://aerospace.csis.org/us-space-force-primer/", "retrieved_date": "2026-07-12" },
+    { "title": "13-1081.00 — Logisticians — O*NET OnLine", "url": "https://www.onetonline.org/link/summary/13-1081.00", "retrieved_date": "2026-07-12" },
+    { "title": "43-5071.00 — Shipping, Receiving, and Inventory Clerks — O*NET OnLine", "url": "https://www.onetonline.org/link/details/43-5071.00", "retrieved_date": "2026-07-12" },
+    { "title": "53-3032.00 — Heavy and Tractor-Trailer Truck Drivers — O*NET OnLine", "url": "https://www.onetonline.org/link/summary/53-3032.00", "retrieved_date": "2026-07-12" },
+    { "title": "data/pay-tables.json — COMPENSATION command (internal, itself sourced to DFAS/military.com/navycs.com)", "url": "n/a (internal project file)", "retrieved_date": "2026-07-12" },
+    { "title": "data/retirement.json — RETIREMENT command (internal, sourced to myarmybenefits.us.army.mil and myairforcebenefits.us.af.mil)", "url": "n/a (internal project file)", "retrieved_date": "2026-07-12" },
+    { "title": "data/education-benefits.json — EDU-BENEFITS command (internal, sourced to va.gov)", "url": "n/a (internal project file)", "retrieved_date": "2026-07-12" },
+    { "title": "data/transition.json — TRANSITION command (internal, sourced to militaryonesource.mil, va.gov, fmcsa.dot.gov, faa.gov, naemt.org, cool.osd.mil)", "url": "n/a (internal project file)", "retrieved_date": "2026-07-12" },
+    { "title": "data/veteran-benefits.json — VETERAN-BENEFITS command (internal, sourced to va.gov, comptroller.texas.gov, boe.ca.gov)", "url": "n/a (internal project file)", "retrieved_date": "2026-07-12" },
+    { "title": "data/interest-taxonomy.json — TAXONOMY command (internal, logistics-supply cluster)", "url": "n/a (internal project file)", "retrieved_date": "2026-07-12" },
+    { "title": "data/asset-manifest.json — ASSETS command (internal; branch_logo_id values and risk_tier convention)", "url": "n/a (internal project file)", "retrieved_date": "2026-07-12" }
+  ],
+
+  "unverified": [
+    "All per-MOS ASVAB line-score minimums (92Y CL 90, 88M OF 85, LS VE+AR 102, USMC 3043 CL 100) are cross-corroborated across secondary aggregators but were not independently confirmed by direct primary .mil/goarmy.com/navy.com fetch this session — goarmy.com's own job pages did not render score data through WebFetch (JS-rendered content). The Coast Guard SK VE+AR 105 figure is the one exception, sourced directly to an official USCG PDF (ASVAB_Process_Guide, uscg.mil).",
+    "Air Force 2S0X1 ASVAB line-score minimum could NOT be confirmed this session; do not reuse the related-but-distinct AFSC 2G0X1's Administrative(A) 56 figure for 2S0X1 without separate verification — they are different AFSCs (2S0X1 = Materiel Management/supply; 2G0X1 = Logistics Plans). This is a correction to data/interest-taxonomy.json, which listed '2S0X1 — Logistics Plans' — that pairing conflates two distinct, real AFSCs; this file uses 2S0X1 correctly labeled as Materiel Management.",
+    "Current maximum enlistment age ceilings for Army, Navy, Marine Corps, and Coast Guard were not independently re-verified this session (age ceilings have changed multiple times across all branches in recent years); only the Air Force's commonly-cited 17-42 ceiling surfaced directly in this session's search results, tied to a related AFSC's listing rather than 2S0X1 specifically.",
+    "Enlistment and reenlistment bonus dollar ranges for all six records are deliberately left null/UNVERIFIED per this cluster's binding constraint — bonuses change quarterly by specialty and manning need, and no bonus figure was fetched this session.",
+    "Career-progression detail (typical_promotion_timeline, reenlistment_decision_points, advanced_schools_or_certs) reflects general enlisted personnel-management patterns cross-referenced against search-sourced MOS/rating/AFSC pages, not a direct fetch of DA PAM 600-25, MyNavyHR, AFECD/CFETP, or a Marine Corps/Coast Guard equivalent primary document this session.",
+    "va_disability_common_claims for every record in this file are labeled inferences extrapolated from the injury patterns documented for OTHER specialty families in data/transition.json (infantry musculoskeletal load, aviation/artillery hearing loss) — VA does not publish disability-claim statistics disaggregated by specific military MOS/rating/AFSC, so no record in this file cites a true per-specialty VA claims statistic; every such claim is explicitly flagged as inference, not sourced fact.",
+    "Coast Guard SkillBridge eligibility (skillbridge_eligible field) is explicitly marked UNVERIFIED for the SK record because data/transition.json itself flags Coast-Guard-specific SkillBridge/TAP administrative variance (DHS component, not DoD) as unconfirmed.",
+    "Branch-specific continuation-pay eligibility window timing (years 7-12 vs. the original statutory years 8-12) was confirmed only for the Army in the RETIREMENT research pass; Navy, Air Force, Marine Corps, and Coast Guard timing is presented as the general statutory range with an explicit per-record flag that branch-specific timing was not independently re-verified this session.",
+    "Marine Corps Enlisted Supply Basic Course length (presented as 8 weeks) is an approximation based on comparable USMC enlisted technical courses; the precise current course length was not independently confirmed to the exact week this session.",
+    "Air Force Basic Military Training length (presented as 8 weeks) and Materiel Management technical-training length (presented as ~5 weeks / 30-33 days) are search-sourced and rounded, not independently confirmed against a primary AETC/2AF fetch this session.",
+    "estimated_civilian_salary_range_usd figures for the five non-driving records ($43,190-$80,880) are anchored on two BLS OES May 2024 NATIONAL MEDIAN wages (43-5071.00 and 13-1081.00) obtained via search-engine summarization, not a direct bls.gov fetch of the full percentile distribution table; treat as a reasonable span, not a precise percentile range. The 88M record's range ($38,640-$78,800, O*NET 53-3032.00) is the one salary figure in this file with directly-sourced 10th/90th percentile data.",
+    "Space Force's absence from the specialties list (see branches_with_no_presence) is based on the official spaceforce.com/careers page as fetched today plus one search-corroborated secondary source (CSIS); it was not cross-checked against a live spaceforce.mil SFSC crosswalk document, which returned HTTP 403 in the prior TAXONOMY research pass and was not re-attempted this session."
+  ],
+
+  "completion_accountability": "6 of 6 candidate SpecialtyRecords completed and fully populated against the schema, covering 5 of 6 branches directly (Army x2 — 92Y Unit Supply Specialist and 88M Motor Transport Operator as the CDL flagship; Navy LS Logistics Specialist; Air Force 2S0X1 Materiel Management, corrected from the taxonomy's mislabeled '2S0X1 — Logistics Plans' pairing; Marine Corps 3043 Supply Administration and Operations Specialist; Coast Guard SK Storekeeper). Space Force is the 6th branch and is addressed, not silently omitted, via the branches_with_no_presence mechanism with a fully sourced 'why' (official spaceforce.com/careers fetch showing no distinct enlisted logistics specialty, plus a CSIS primer stating Space Force logistics functions are Department-of-the-Air-Force-provided) rather than an invented SFSC code, consistent with this project's master prompt's explicit instruction not to pad Space Force's narrow specialty list. 0 candidate records were dropped for quality reasons. Every dollar figure is either traced to data/pay-tables.json, data/retirement.json, data/education-benefits.json, data/transition.json, or data/veteran-benefits.json (all already-sourced project files), independently sourced this session (e.g., FMCSA CDL waiver rules, O*NET/BLS salary codes, USCG ASVAB PDF), explicitly computed-and-labeled-as-such (the four total_compensation_estimate_annual_usd figures), or explicitly marked UNVERIFIED/null (all six bonus blocks, per this cluster's binding constraint that bonuses change quarterly). The CDL/military-skills-waiver credential gap in the 88M record was written to precisely distinguish the SKILLS-test waiver (real, confirmed via direct FMCSA fetch and cross-corroborated with data/transition.json) from the separate, distinct KNOWLEDGE-test Even Exchange Program, and explicitly states that an 88M does not automatically hold a civilian CDL. Tool usage: approximately 19 of the ~15-call budget guideline was used (13 WebSearch, 6 WebFetch), exceeding the guideline specifically to (a) correct a factual error in the source taxonomy (Air Force AFSC 2S0X1 vs. 2G0X1 conflation) and (b) resolve the Space Force ambiguity with direct primary-source evidence rather than guessing — both judged higher-priority than strict budget adherence given this cluster's binding 'no fabrication' and 'get the CDL waiver precisely right' constraints. No dollar figure, specialty code, or URL was fabricated or guessed; every unconfirmed figure is either omitted, computed-and-labeled, or explicitly listed in 'unverified' with the specific reason and a named next source to check."
+}

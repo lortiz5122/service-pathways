@@ -1,0 +1,890 @@
+{
+  "command": "SPECIALTIES",
+  "cluster_id": "healthcare-medical",
+  "retrieved_date": "2026-07-12",
+  "specialties": [
+    {
+      "id": "army-68w-combat-medic-specialist",
+      "name": "Combat Medic Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "code": "68W",
+      "interest_cluster_ids": ["healthcare-medical"],
+      "entry_requirements": {
+        "asvab_line_score": "ST (Skilled Technical) 107 minimum. Search-sourced (readytoserve.io, cross-referenced against aggregator sites such as usarmybasic.com); NOT independently confirmed against a primary goarmy.com/MOS Smart Book page this session — treat as directional and verify with a recruiter or the current MOS Smart Book before publishing as final.",
+        "education": "High school diploma (Tier 1) generally required; GED (Tier 2) accepted in capped numbers with a higher AFQT minimum (Army-wide standard, source: branch-profiles.json).",
+        "age_range": "17 (with parental consent) to 42, per a 2026 Army policy change reported by Stars and Stripes (source: data/branch-profiles.json Army general_eligibility).",
+        "physical": "Standard Army accession medical/fitness standards (MEPS medical exam; Army Fitness Test at BCT). No elevated physical standard specific to 68W beyond standard accession was confirmed this session.",
+        "security_clearance": null,
+        "other": "Standard AMEDD medical-readiness screening (color vision, hearing) applies to medical MOS accession generally; a specific PULHES profile requirement for 68W was not independently confirmed this session — UNVERIFIED."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Basic Combat Training (BCT)",
+          "location": "One of four Army training centers assigned by MOS: Fort Jackson (SC), Fort Moore (GA), Fort Sill (OK), or Fort Leonard Wood (MO)",
+          "length_weeks": 10,
+          "description": "General Army entry-level soldiering skills common to all MOS's. Source: data/branch-profiles.json (BRANCHES command)."
+        },
+        {
+          "stage": "Advanced Individual Training (AIT) — Combat Medic Specialist Course",
+          "location": "Army Medical Center of Excellence (MEDCoE), Joint Base San Antonio-Fort Sam Houston, TX",
+          "length_weeks": 16,
+          "description": "Combat trauma and emergency-care training. The course is structured to meet the entry-eligibility requirement for the National Registry of Emergency Medical Technicians (NREMT) Emergency Medical Technician-Basic (EMT-B) exam — it does NOT automatically confer NREMT certification; the soldier must separately register for and pass the NREMT cognitive and psychomotor exams. See civilian_crosswalk.credential_gap_note."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34610,
+        "methodology_note": "Computed, not authoritative: (E-1 <2yr basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr, rounded to $34,610. BAH is deliberately excluded because it is duty-station-specific and can vary 2-3x by location — see data/pay-tables.json bah.national_number_warning. This figure therefore UNDERSTATES true total compensation, often substantially. DoD's TSP contribution (automatic 1% + up to 4% match under BRS) is additional and not included in this cash total; see the retirement block below.",
+        "source": "data/pay-tables.json (COMPENSATION command, 2026-07-12), itself derived from military.com and navycs.com transcriptions of the DFAS 2026 pay table; primary militarypay.defense.gov/dfas.mil returned HTTP 403 on direct fetch in that command's session.",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED — bonuses change quarterly, per binding project constraint. Search results this session describe Army FY2026 enlistment bonuses generally ranging '$5,000 up to $50,000+' for the highest-priority six-year-contract MOS's, and separately list 68W among 'common Selective Reenlistment Bonus (SRB) MOSs,' indicating high demand — but no dollar figure specific to 68W enlistment or reenlistment was found this session (sources are aggregator sites, not primary goarmy.com bonus tables). Assigning the general Army-wide range to this specific MOS would violate the no-fabrication constraint, so both fields are left null. Confirm current 68W-specific bonus status with a recruiter or goarmy.com/benefits/while-you-serve/bonuses before publishing a number.",
+        "source": "https://battalionduty.com/blog/army-enlistment-bonuses-how-they-work/; https://www.goarmy.com/benefits/while-you-serve/bonuses (page exists but 68W-specific figure not independently fetched this session)",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "UNVERIFIED — general Army enlisted promotion structure, not independently re-sourced for 68W specifically this session: E-1 to E-4 is largely time-in-service/time-in-grade based with unit commander recommendation; promotion to E-5 and above requires a promotion board plus a points system (time in service/grade, awards, education, fitness score). Treat as directional Army-wide structure, not a sourced 68W-specific timeline.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract (exact standard 68W contract length not independently confirmed this session)",
+          "Reenlistment window opens approximately 90 days before ETS (Expiration Term of Service)",
+          "Lateral move to an advanced 68W skill identifier (e.g., 68WF1 Flight Medic, 68WW1 Special Operations Combat Medic) as an alternative to generic reenlistment"
+        ],
+        "advanced_schools_or_certs": [
+          "Flight Medic Course (68WF1) — Fort Novosel, AL",
+          "Special Operations Combat Medic (SOCM) Course",
+          "Combat Medic Specialist Skill Level 3/4 (NCO advanced courses)",
+          "NREMT bridge/refresher coursework toward Advanced EMT or Paramedic (civilian, self-funded or COOL-assisted — see credential_gap_note)"
+        ],
+        "officer_conversion_path": "Army Medical Department (AMEDD) Enlisted Commissioning Program: open to soldiers with 4-12 years of service, Specialist (E-4) or above, with sufficient college credit to complete a Bachelor of Science in Nursing (BSN) within 2 years and acceptance to a nursing program — this is a path toward an Army Nurse Corps (66-series) commission, not a direct 68W-to-medical-officer conversion. Source: search synthesis of armystudyguide.com/nationalguard.com; not independently confirmed against a primary AMEDD/goarmy.com page this session.",
+        "source": "https://www.armystudyguide.com/content/Prep_For_Basic_Training/army_mos_information/nurse-corps-officer-66.shtml; https://battalionduty.com/blog/army-enlistment-bonuses-how-they-work/ (SRB MOS status)",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The military pension is all-or-nothing at 20 years of service — no partial or prorated pension before that point; DoD's own language is that the defined-benefit component is 'entirely forfeited' below 20 years. TSP savings (member's own contributions, DoD's automatic 1%, and DoD's match, all vested after 2 years of service) are the only retirement money guaranteed before 20 years, and are fully portable into a civilian 401(k)/IRA. Source: data/retirement.json.",
+        "continuation_pay_note": "Statutory window is years 8-12 of service (Army's current published window: after completing year 7 and before completing year 12). One-time cash payout; statutory range 2.5x-13x monthly basic pay for active component, with Army's published active-component rate at 2.5x monthly basic pay, in exchange for a 4-year additional service obligation (statutory minimum is 3 years; Army requires 4). Source: data/retirement.json.",
+        "guard_reserve_points_note": "NOT interchangeable with active-duty retirement. Guard/Reserve members earn points (1/day active duty, 1/drill period, up to 15/year membership points) toward a 20-qualifying-year 'non-regular retirement' that pays a pension starting at age 60 by default (reducible to as low as age 50 via FY2008 NDAA active-duty-mobilization credit; TRICARE retiree eligibility remains fixed at 60 regardless). Source: data/retirement.json.",
+        "lump_sum_option_note": "At 20+ years, a retiree may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, with correspondingly reduced monthly pay until Full Social Security Retirement Age (~67), when full monthly pay resumes. The lump sum is fully taxable in the year received. Source: data/retirement.json.",
+        "source": "data/retirement.json (RETIREMENT command, 2026-07-12), sourced to myarmybenefits.us.army.mil and myairforcebenefits.us.af.mil",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": "UNVERIFIED",
+        "skillbridge_notes": "DoD-wide SkillBridge is open to active-duty members nearing separation, up to 180 days, but requires unit commander approval — the real gate, not an entitlement (DoDI 1322.29). 68W-specific eligibility thresholds (time-in-service floors, rank restrictions) were not individually re-verified this session. Combat medics pursuing civilian EMS/paramedic bridge programs or PA school are a commonly cited SkillBridge use case, but a specific 68W partner-program directory was not confirmed this session.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program; must begin no later than 365 days before separation. Includes Pre-Separation Counseling, a VA Benefits I course, a DOL Employment Fundamentals of Career Transition workshop, and an optional 2-day track (Higher Education / Career-Technical / Entrepreneurship), ending in a Capstone review confirming Career Readiness Standards are met. Source: data/transition.json.",
+        "dd214_significance": "The DD-214 gates VA disability compensation, VA healthcare enrollment/priority group, GI Bill and other education benefits, VA home loan Certificate of Eligibility, and federal hiring preference. Block 24 (character of service) is the single most consequential entry on the form. Source: data/transition.json.",
+        "va_disability_common_claims": [
+          "NOT independently validated by a named source specific to combat-medic (68W) VA claims data this session — flagged as reasoned inference, not sourced VA statistics.",
+          "Mental-health conditions (PTSD, depression, anxiety) linked to sustained exposure to trauma and casualty care",
+          "Musculoskeletal strain (back, knees, shoulders) from carrying an aid bag plus litter-carry/casualty-evacuation duties, by analogy to the sourced infantry/dismounted-combat-arms pattern in data/transition.json",
+          "Hearing loss/tinnitus if routinely embedded with or co-located with weapons-firing units",
+          "PACT Act toxic-exposure presumptive conditions (asthma, chronic bronchitis, certain respiratory cancers) for medics deployed to CENTCOM/burn-pit-covered locations — this category is deployment-location-based per data/transition.json, not 68W-specific"
+        ],
+        "vr_e_eligibility_note": "Requires a service-connected disability rating of 20%+ creating an 'employment handicap,' filed within a 12-year window from separation/first VA rating; funds tuition/training costs plus a monthly subsistence allowance (FY2026 max $3,439.23/mo), and draws from a separate entitlement bucket than the Post-9/11 GI Bill. Source: data/transition.json.",
+        "source": "data/transition.json (TRANSITION command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": ["29-2042.00"],
+        "example_civilian_titles": ["EMT-Basic", "Emergency Department Technician", "Patient Care Technician"],
+        "relevant_certifications": [
+          "NREMT Emergency Medical Technician (EMT-B) — eligible to test after 68W AIT; NOT automatically awarded",
+          "State EMT license (a separate step from NREMT certification, required in most states)",
+          "Advanced EMT / Paramedic via NAEMT-documented accelerated bridge programs for 68W background"
+        ],
+        "estimated_civilian_salary_range_usd": [42080, 58410],
+        "credential_gap_note": "68W training does NOT confer NREMT certification or a state EMT/paramedic license automatically. The National Registry does not accept a military transcript as a direct equivalent; a 68W soldier is only ELIGIBLE to sit the NREMT cognitive and psychomotor EMT-Basic exams after AIT — they must still register, test, and pass, then separately obtain a state EMT license in most states. Paramedic certification (normally 1,200-1,800 training hours) is NOT conferred by 68W training at all; it requires a separate bridge program, though NAEMT-documented bridge tracks for 68W background can reportedly cut the timeline 30-50%. A medic who separates without taking these extra civilian steps cannot legally practice as a civilian EMT or paramedic on military training alone.",
+        "source": "data/transition.json credential_gap.examples[0], citing NAEMT Position Statement 'Civilian EMS Certification for Military Medics' (4 Feb 2022) and Army COOL 68W credential pages (cool.osd.mil); wage data: https://www.onetonline.org/link/summary/29-2042.00 and https://www.bls.gov/oes/2023/may/oes292043.htm (Paramedics, median $58,410, May 2024)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) eligibility scales with cumulative active-duty days: 100% at 36+ months (or Purple Heart, or service-connected-disability discharge after 30+ days), down through 50% at the 90-day-to-5-month floor; there is no tier below 50%. Source: data/education-benefits.json.",
+        "gi_bill_transferability_note": "Transferable to spouse/dependent children (up to 36 months combined) only while still serving, after 6 years of service, in exchange for a 4-year additional service obligation (Purple Heart recipients exempt from both requirements). Dependent children must wait until the service member reaches 10 years of service to begin using it. Source: data/veteran-benefits.json.",
+        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement; the VA guarantee (not a hard VA loan cap) is what lenders rely on, so lender credit/DTI underwriting is the practical limit. A funding fee (1.25%-3.3% depending on down payment and first/subsequent use) applies unless the veteran is exempt (e.g., receiving VA disability compensation). Source: data/veteran-benefits.json.",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on disability rating, income, and service history; a veteran with a service-connected rating of 10%+ pays no copays for care connected to that rating. Priority group is not static — e.g., post-11/11/1998 combat veterans get a 10-year enhanced-eligibility window from discharge. Source: data/veteran-benefits.json.",
+        "state_benefit_variance_note": "State veteran benefits (property tax exemptions, tuition waivers, income tax treatment) are set by individual state legislatures and are NOT a single national figure — e.g., a 100%-disabled veteran gets a full homestead property-tax exemption in Texas versus a flat $100,000 assessed-value exemption in California. Verify against the veteran's state of legal residence. Source: data/veteran-benefits.json.",
+        "source": "data/veteran-benefits.json; data/education-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill (Ch. 33): full net tuition/fees at public schools with no cap (in-state rate applies even for non-residents); private/foreign school net tuition capped at $29,920.95 for AY2025-2026; Monthly Housing Allowance based on E-5-with-dependents BAH at the school's ZIP code, prorated by eligibility tier; up to $1,000/yr book stipend. Source: data/education-benefits.json.",
+        "tuition_assistance": "Army Tuition Assistance: $250/semester-hour, capped at $4,500/fiscal year, usable while on active duty; a 16-semester-hour/fiscal-year usage limit and degree credit caps were reported by search sources but not independently confirmed against a primary Army page this session. Source: data/education-benefits.json.",
+        "credentialing_assistance": "Army Credentialing Assistance (Army COOL): $2,000/fiscal-year cap (reduced from $4,000 in 2024); a reported lifetime limit of 3 credentials per 10 years of service was not independently re-fetched from cool.osd.mil this session (a prior fetch attempt failed with a certificate error). Source: data/education-benefits.json.",
+        "coop_or_apprenticeship_notes": "Army COOL's Gap Analysis tool for 68W maps exactly which NREMT/EMT knowledge areas military training covers and which require self-study — this is the authoritative tool for closing this specialty's credential gap. Source: data/transition.json cool_program_note."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Combat medics deploy embedded with the combat/combat-support unit they are assigned to (infantry, armor, cavalry, field artillery, etc.) — deployment tempo and risk profile track that supported unit's tempo rather than a separate medical-corps schedule. Garrison duty (troop medical clinics, sick call) is also common between deployments. Not independently sourced to a specific rotation-length figure this session.",
+        "family_considerations": "Because 68W soldiers deploy with their supported line unit, family-separation patterns can resemble the supported combat-arms unit's deployment cycle rather than a garrison-based medical-corps schedule. Follow-on assignments to Army Medical Treatment Facilities (garrison hospitals/clinics) offer more predictable, less deployment-heavy tours between line-unit assignments — not independently sourced to a specific rotation cadence this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "army-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["68W combat medic training Fort Sam Houston", "Army combat medic field exercise", "Army medic casualty evacuation training"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {"title": "68W Training: What to Expect – A Soldier's Guide to Combat Medic School", "url": "https://sucharmy.com/68w-training-what-to-expect/", "retrieved_date": "2026-07-12"},
+        {"title": "Army Combat Medic (68W) Requirements: Training, ASVAB Score, and Career Path (2026)", "url": "https://www.readytoserve.io/articles/army-combat-medic-68w-requirements", "retrieved_date": "2026-07-12"},
+        {"title": "MEDCoE Move (68W)", "url": "https://www.cs.amedd.army.mil/68w/", "retrieved_date": "2026-07-12"},
+        {"title": "data/transition.json (TRANSITION command)", "url": "internal", "retrieved_date": "2026-07-12"},
+        {"title": "data/pay-tables.json (COMPENSATION command)", "url": "internal", "retrieved_date": "2026-07-12"},
+        {"title": "data/retirement.json (RETIREMENT command)", "url": "internal", "retrieved_date": "2026-07-12"}
+      ]
+    },
+    {
+      "id": "army-68c-practical-nursing-specialist",
+      "name": "Practical Nursing Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "code": "68C",
+      "interest_cluster_ids": ["healthcare-medical"],
+      "entry_requirements": {
+        "asvab_line_score": "ST (Skilled Technical) 101 and GT (General Technical) 107 minimum. Search-sourced (cogn-iq.org, asvabace.com); NOT independently confirmed against a primary goarmy.com/MOS Smart Book page this session — treat as directional.",
+        "education": "High school diploma (Tier 1) generally required; GED (Tier 2) accepted in capped numbers (Army-wide standard, source: branch-profiles.json).",
+        "age_range": "17 (with parental consent) to 42 (source: data/branch-profiles.json Army general_eligibility).",
+        "physical": "Standard Army accession medical/fitness standards (MEPS medical exam; Army Fitness Test at BCT). No elevated physical standard specific to 68C beyond standard accession was confirmed this session.",
+        "security_clearance": null,
+        "other": "Extended clinical-instruction component (52-week AIT) implies sustained close-quarters clinical/patient-contact screening consistent with AMEDD medical-readiness standards; specific additional entry criteria beyond ASVAB were not independently confirmed this session."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Basic Combat Training (BCT)",
+          "location": "One of four Army training centers assigned by MOS: Fort Jackson (SC), Fort Moore (GA), Fort Sill (OK), or Fort Leonard Wood (MO)",
+          "length_weeks": 10,
+          "description": "General Army entry-level soldiering skills common to all MOS's. Source: data/branch-profiles.json."
+        },
+        {
+          "stage": "Advanced Individual Training (AIT) — Practical Nursing Specialist Course",
+          "location": "Army Medical Center of Excellence (MEDCoE), Joint Base San Antonio-Fort Sam Houston, TX",
+          "length_weeks": 52,
+          "description": "Two-phase classroom, field, and clinical instruction modeled on civilian practical-nursing curricula. This is the longest initial-entry training pipeline of the six records in this cluster. Source: goarmy.com/careers-and-jobs/science-medicine/general-care/68c-practical-nursing-specialist (official) and battalionduty.com."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34610,
+        "methodology_note": "Computed, not authoritative: (E-1 <2yr basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr, rounded to $34,610. Soldiers typically advance in paygrade during the 52-week AIT via standard time-in-service progression, which would raise this figure; the E-1 <2yr rate is used as the baseline entry figure per schema intent. BAH is deliberately excluded — see data/pay-tables.json bah.national_number_warning.",
+        "source": "data/pay-tables.json (COMPENSATION command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED. No enlistment or reenlistment bonus figure specific to 68C was found this session. Bonuses change quarterly per binding project constraint — confirm current status with a recruiter or goarmy.com/benefits/while-you-serve/bonuses before publishing a number.",
+        "source": "https://www.goarmy.com/benefits/while-you-serve/bonuses (page exists but 68C-specific figure not independently fetched this session)",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "UNVERIFIED — general Army enlisted promotion structure, not independently re-sourced for 68C specifically this session (see 68W record for the same caveat).",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract (exact standard 68C contract length not independently confirmed this session)",
+          "Reenlistment window opens approximately 90 days before ETS",
+          "Application to the AMEDD Enlisted Commissioning Program as an alternative to reenlisting in the same MOS"
+        ],
+        "advanced_schools_or_certs": [
+          "Practical Nursing Specialist advanced skill-level courses (Skill Level 3/4)",
+          "Licensed Practical Nurse (LPN) state licensure preparation (self-directed civilian step — see credential_gap_note)",
+          "Operating Room Specialist (68D) or other AMEDD lateral-training tracks (not independently confirmed as a direct lateral path this session)"
+        ],
+        "officer_conversion_path": "Army Medical Department (AMEDD) Enlisted Commissioning Program: requires 4-12 years of service, Specialist (E-4) or above, sufficient college credit to complete a BSN within 2 years, and acceptance to a nursing program — leads toward an Army Nurse Corps (66-series, e.g. 66H) commission. This is a particularly natural pipeline for 68C soldiers given their existing practical-nursing training, though this specific 68C-to-66H linkage was not independently confirmed this session. Source: armystudyguide.com/nationalguard.com.",
+        "source": "https://www.armystudyguide.com/content/Prep_For_Basic_Training/army_mos_information/nurse-corps-officer-66.shtml",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The military pension is all-or-nothing at 20 years of service — no partial or prorated pension before that point. TSP savings are the only retirement money guaranteed before 20 years and are fully portable. Source: data/retirement.json.",
+        "continuation_pay_note": "Statutory window years 8-12 of service (Army's current published window: after year 7, before year 12); one-time cash payout, Army's published active-component rate 2.5x monthly basic pay, in exchange for a 4-year additional service obligation. Source: data/retirement.json.",
+        "guard_reserve_points_note": "NOT interchangeable with active-duty retirement. Points-based system toward a 20-qualifying-year non-regular retirement paying a pension starting at age 60 by default (reducible to age 50 minimum via FY2008 NDAA credit). Source: data/retirement.json.",
+        "lump_sum_option_note": "At 20+ years, a retiree may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, with reduced monthly pay until Full Social Security Retirement Age (~67). Source: data/retirement.json.",
+        "source": "data/retirement.json (RETIREMENT command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": "UNVERIFIED",
+        "skillbridge_notes": "DoD-wide SkillBridge is open to active-duty members nearing separation (up to 180 days), subject to unit commander approval. 68C-specific eligibility thresholds were not individually re-verified this session.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program; must begin no later than 365 days before separation. See 68W record for full component list. Source: data/transition.json.",
+        "dd214_significance": "Gates VA disability, VA healthcare, GI Bill, VA home loan COE, and federal hiring preference; Block 24 (character of service) is the single most consequential entry. Source: data/transition.json.",
+        "va_disability_common_claims": [
+          "NOT independently validated by a named source specific to 68C VA claims data this session — flagged as reasoned inference, not sourced VA statistics.",
+          "Musculoskeletal strain (back, wrists, shoulders) from repetitive patient-handling/lifting in a clinical setting, by general analogy to sourced physically-demanding-MOS patterns in data/transition.json",
+          "Mental-health conditions linked to sustained clinical/casualty-care exposure in field or deployed settings",
+          "PACT Act toxic-exposure presumptive conditions for those deployed to CENTCOM/burn-pit-covered locations — deployment-location-based, not 68C-specific, per data/transition.json"
+        ],
+        "vr_e_eligibility_note": "Requires a service-connected disability rating of 20%+ creating an employment handicap, filed within a 12-year window from separation/first rating; funds tuition/training plus a monthly subsistence allowance (FY2026 max $3,439.23/mo). Source: data/transition.json.",
+        "source": "data/transition.json (TRANSITION command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": ["29-2061.00"],
+        "example_civilian_titles": ["Licensed Practical Nurse (LPN)", "Licensed Vocational Nurse (LVN)", "Nursing Home / Long-Term Care Nurse"],
+        "relevant_certifications": [
+          "State LPN/LVN license (NOT automatically conferred — see credential_gap_note)",
+          "NCLEX-PN examination (typically required for state licensure)",
+          "CPR/BLS certification"
+        ],
+        "estimated_civilian_salary_range_usd": [47960, 80510],
+        "credential_gap_note": "UNVERIFIED — this specific credential-gap claim was NOT independently sourced to a primary document this session (unlike the 68W/HM/AMSA to NREMT chain, which was verified via NAEMT/Navy COOL). Based on the general pattern documented across this cluster and in data/transition.json's credential_gap.plain_statement ('military training frequently does NOT confer the civilian license'), it is reasonable to expect that 68C's 52-week practical-nursing curriculum, while modeled on civilian LPN training, does NOT automatically confer a state LPN/LVN license: each state board of nursing sets its own licensure requirements, and a 68C graduate typically still must apply for licensure and, in most states, pass the NCLEX-PN exam. This inference should be checked against Army COOL's 68C credential pages (cool.osd.mil) before being presented to a user as a settled fact.",
+        "source": "Reasoned inference per data/transition.json credential_gap methodology; wage data: https://www.onetonline.org/link/summary/29-2061.00 and https://www.bls.gov/oes/2023/may/oes292061.htm (median $62,340, 10th pct $47,960, 90th pct $80,510, May 2024)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) eligibility scales with cumulative active-duty days, 50%-100% tier. Source: data/education-benefits.json.",
+        "gi_bill_transferability_note": "Transferable to spouse/dependents (up to 36 months) only while serving, after 6 years of service, with a 4-year additional service obligation. Source: data/veteran-benefits.json.",
+        "va_home_loan_note": "No down payment/no PMI for veterans with full entitlement; funding fee 1.25%-3.3% unless exempt. Source: data/veteran-benefits.json.",
+        "va_healthcare_priority_group_note": "8 priority groups based on disability rating, income, service history; 10%+ service-connected rating exempts from copays for related care. Source: data/veteran-benefits.json.",
+        "state_benefit_variance_note": "State veteran benefits are set by individual state legislatures — NOT a single national figure. Source: data/veteran-benefits.json.",
+        "source": "data/veteran-benefits.json; data/education-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill (Ch. 33): full public-school tuition, $29,920.95 private/foreign cap (AY2025-2026), MHA prorated by tier, $1,000/yr book stipend. Source: data/education-benefits.json.",
+        "tuition_assistance": "Army TA: $250/semester-hour, $4,500/fiscal-year cap. Source: data/education-benefits.json.",
+        "credentialing_assistance": "Army COOL: $2,000/fiscal-year cap (reduced from $4,000 in 2024). Source: data/education-benefits.json.",
+        "coop_or_apprenticeship_notes": "Army COOL's Gap Analysis tool (where available for 68C) would be the authoritative source for mapping 68C training against LPN licensure exam content — not independently confirmed to exist for this specific MOS/credential pairing this session."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "68C soldiers typically work in Army hospitals, troop medical clinics, and field/combat support hospitals rather than embedded one-to-one with a maneuver unit the way 68W medics are — garrison clinical assignments are more common, though field-hospital deployment does occur. Not independently sourced to a specific rotation figure this session.",
+        "family_considerations": "Clinical/garrison-hospital assignments generally offer more predictable schedules than line-unit-embedded roles, though this was not independently sourced to a specific figure this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "army-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Army practical nursing specialist clinic", "Army combat support hospital nurse", "AMEDD Fort Sam Houston nursing training"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {"title": "Practical Nursing Specialist | U.S. Army (official)", "url": "https://www.goarmy.com/careers-and-jobs/science-medicine/general-care/68c-practical-nursing-specialist", "retrieved_date": "2026-07-12"},
+        {"title": "Army Practical Nursing Specialist MOS 68C Guide For 2026", "url": "https://www.operationmilitarykids.org/army-practical-nursing-specialist-mos-68c/", "retrieved_date": "2026-07-12"},
+        {"title": "68C Practical Nursing Specialist – Army ASVAB Requirements | Cogn-IQ", "url": "https://www.cogn-iq.org/military-jobs/army-68c/", "retrieved_date": "2026-07-12"},
+        {"title": "data/transition.json (TRANSITION command)", "url": "internal", "retrieved_date": "2026-07-12"}
+      ]
+    },
+    {
+      "id": "navy-hm-hospital-corpsman",
+      "name": "Hospital Corpsman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "code": "HM",
+      "interest_cluster_ids": ["healthcare-medical"],
+      "entry_requirements": {
+        "asvab_line_score": "Composite line-score thresholds: VE+MK+GS >= 156, OR AR+WK > 105, OR VE+AR+MK+GS > 210. Source: cogn-iq.org, cross-referenced against an ASVAB Validation Technical Report for Hospital Corpsman found via search (apps.dtic.mil/sti/trecms/pdf/AD1200541.pdf) — the DTIC report was surfaced via search synthesis, not independently fetched this session. Meeting the minimum does not guarantee rating assignment; training-slot availability and Navy needs also apply.",
+        "education": "High school diploma (Tier 1) generally required; GED (Tier 2) accepted in capped numbers (Navy-wide standard, source: branch-profiles.json).",
+        "age_range": "17 (with parental consent) to 41 for active duty (source: data/branch-profiles.json Navy general_eligibility — not independently confirmed on navy.com this session).",
+        "physical": "Standard Navy accession medical/fitness standards. No elevated physical standard specific to HM beyond standard accession was confirmed this session; Fleet Marine Force (FMF) corpsman follow-on assignment does require passing Marine Corps physical/field standards, which is a real elevated bar but was not independently sourced to a specific figure this session.",
+        "security_clearance": null,
+        "other": "5-year minimum service commitment reported for HM accession (source: navyenlisted.com); not cross-checked against a primary Navy source this session."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training (Boot Camp)",
+          "location": "Recruit Training Command (RTC), Naval Station Great Lakes, IL",
+          "length_weeks": 9,
+          "description": "Navy's sole enlisted boot camp; optimized from 10 to 9 weeks effective January 2025. Source: data/branch-profiles.json."
+        },
+        {
+          "stage": "Hospital Corpsman Basic (HCB) / 'A' School",
+          "location": "Medical Education and Training Campus (METC), Joint Base San Antonio-Fort Sam Houston, TX",
+          "length_weeks": 19,
+          "description": "UNVERIFIED length — search sources conflict: one aggregator (operationmilitarykids.org, 2026 guide) states a 19-week Hospital Corpsman Basic course; another describes the A School as 'about 14 weeks.' Neither figure was independently confirmed against a primary med.navy.mil or navy.com page this session; 19 weeks is used here as the more specific/recent figure but should be verified before publishing. Course covers anatomy, pharmacology, emergency medicine, and clinical skills, and includes an approved EMT course meeting NREMT entry-eligibility requirements — see civilian_crosswalk.credential_gap_note."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34610,
+        "methodology_note": "Computed, not authoritative: (E-1 <2yr basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr, rounded to $34,610. BAH deliberately excluded — see data/pay-tables.json bah.national_number_warning.",
+        "source": "data/pay-tables.json (COMPENSATION command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": [30000, 60000],
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "Applies specifically to the Hospital Corpsman Advanced Technical Field (HM-ATF) sub-designation, not the baseline HM rating broadly. $30,000 shipping bonus for Future Sailors who ship between February 2026 and September 2027 in selected Active Component ratings; the stated maximum enlistment bonus ceiling for HM-ATF is $60,000, giving recruiters flexibility up to that cap based on needs and qualifications. A separate Enlistment Bonus for Physical Screening Test (EBPST) of up to $15,000 may stack for special-operations-adjacent tracks (e.g., HM-ATF/SOIDC). Bonuses change quarterly/monthly per Navy's own guidance — confirm current status before publishing.",
+        "source": "https://www.cnrc.navy.mil/Portals/87/Documents/Bonus%20Loans/FY26/CNRC_EB_LRP_GENADMIN%2020260116_FINAL.pdf (official, dated 2026-01-16); https://www.navycs.com/enlistment-bonus/fy2026-eb-oct.html",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "UNVERIFIED — general Navy enlisted advancement structure (time-in-rate plus a service-wide advancement exam for E-4/Petty Officer 3rd Class and above), not independently re-sourced for HM specifically this session.",
+        "reenlistment_decision_points": [
+          "End of initial 5-year obligation (per navyenlisted.com; not independently cross-checked this session)",
+          "Selection for advanced 'C' school designation (see advanced_schools_or_certs) as a career-shaping decision point separate from reenlistment"
+        ],
+        "advanced_schools_or_certs": [
+          "Independent Duty Corpsman (IDC) — qualifies a senior HM to serve as the sole medical provider aboard submarines/small ships or remote units",
+          "Fleet Marine Force (FMF) qualification — corpsmen embedded with Marine infantry/artillery units ('Devil Docs')",
+          "Search and Rescue Medical Technician (SMT)",
+          "Surgical Technologist 'C' school"
+        ],
+        "officer_conversion_path": "Medical Enlisted Commissioning Program (MECP) and Seaman to Admiral-21 (STA-21) are commonly cited Navy pathways from enlisted HM service to a commission (Nurse Corps, Medical Service Corps, or other). NOT independently confirmed against a primary mynavyhr.navy.mil page this session — flagged as recalled/general Navy program knowledge, not a sourced figure from this session's searches.",
+        "source": "https://navyenlisted.com/navy-hm-rating-hospital-corpsman/; general Navy program knowledge not independently re-sourced this session (see caveat above)",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing pension at 20 years; TSP savings (own contributions + DoD automatic 1% + match) are the only guaranteed retirement money before 20 years, fully portable. Source: data/retirement.json.",
+        "continuation_pay_note": "Statutory window years 8-12 of service DoD-wide; Navy's exact current window/multiplier was not individually verified this session (only the Army's published rate was independently confirmed in the RETIREMENT command). Statutory range is 2.5x-13x monthly basic pay for active component, minimum 3-year additional obligation. Source: data/retirement.json.",
+        "guard_reserve_points_note": "NOT interchangeable with active-duty retirement. Points-based system toward a 20-qualifying-year non-regular retirement, pension starting at age 60 by default (reducible to 50 minimum). Source: data/retirement.json.",
+        "lump_sum_option_note": "At 20+ years, 25% or 50% lump-sum election available, with reduced monthly pay until Full Social Security Retirement Age. Source: data/retirement.json.",
+        "source": "data/retirement.json (RETIREMENT command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": "UNVERIFIED",
+        "skillbridge_notes": "DoD-wide SkillBridge open to active-duty members nearing separation (up to 180 days), subject to unit commander approval. HM-specific eligibility thresholds were not individually re-verified this session.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program; must begin no later than 365 days before separation. Source: data/transition.json.",
+        "dd214_significance": "Gates VA disability, VA healthcare, GI Bill, VA home loan COE, and federal hiring preference; Block 24 (character of service) is the single most consequential entry. Source: data/transition.json.",
+        "va_disability_common_claims": [
+          "NOT independently validated by a named source specific to HM VA claims data this session — flagged as reasoned inference, not sourced VA statistics.",
+          "For Fleet Marine Force (FMF) corpsmen embedded with Marine infantry/artillery units: combat-equivalent exposure risk (hearing loss/tinnitus, musculoskeletal strain, PTSD/mental-health conditions) comparable to the sourced infantry/artillery patterns in data/transition.json, because FMF corpsmen deploy and fight alongside the Marine unit rather than in a rear-area medical role",
+          "For shipboard/independent-duty HM roles: musculoskeletal and sleep-disorder claims associated with sustained shift/watch schedules — not independently sourced this session",
+          "PACT Act toxic-exposure presumptive conditions for those deployed to CENTCOM/burn-pit-covered locations — deployment-location-based, not HM-specific, per data/transition.json"
+        ],
+        "vr_e_eligibility_note": "Requires a service-connected disability rating of 20%+ creating an employment handicap; funds tuition/training plus a monthly subsistence allowance (FY2026 max $3,439.23/mo), drawing from a separate entitlement bucket than the Post-9/11 GI Bill. Source: data/transition.json.",
+        "source": "data/transition.json (TRANSITION command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": ["29-2042.00"],
+        "example_civilian_titles": ["EMT-Basic", "Emergency Department Technician", "Medical Assistant"],
+        "relevant_certifications": [
+          "NREMT Emergency Medical Technician (EMT-B) — training-eligible after HCB, but the Navy does NOT require sailors to test at that time",
+          "State EMT license (separate step from NREMT certification)",
+          "Advanced EMT / Paramedic via civilian bridge programs"
+        ],
+        "estimated_civilian_salary_range_usd": [42080, 58410],
+        "credential_gap_note": "This is one of the most directly sourced credential-gap examples in this cluster. Navy COOL's own analysis (cool.navy.mil) confirms: 'Students who successfully complete the Hospital Corpsman Basic course may be eligible for National Registry of Emergency Medical Technicians (NREMT) Certification... but the Navy does not require Sailors to test at that time.' In other words, HCB training meets the training-hours ENTRY requirement for the NREMT EMT-Basic exam, but completing HCB does not itself confer NREMT certification or a state EMT license — a corpsman who never registers for and passes the separate NREMT cognitive/psychomotor exam, and never obtains a state license, cannot legally practice as a civilian EMT on Navy training alone. Paramedic certification is not conferred by HCB training at all and requires a separate, much longer bridge program.",
+        "source": "https://www.cool.navy.mil/usn/enlisted/hmhoscorpb_nremt_emtb.htm (official Navy COOL analysis); https://www.cool.osd.mil/usn/credential/index.html?cert=emtb262&moc=hm_hos_corp_b; NAEMT 'Certification Tips for Navy Corpsman to Civilian Transition' (naemt.org); wage data as in the 68W record",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) eligibility scales with cumulative active-duty days, 50%-100% tier. Source: data/education-benefits.json.",
+        "gi_bill_transferability_note": "Transferable to spouse/dependents (up to 36 months) only while serving, after 6 years of service, with a 4-year additional service obligation. Source: data/veteran-benefits.json.",
+        "va_home_loan_note": "No down payment/no PMI for veterans with full entitlement; funding fee 1.25%-3.3% unless exempt. Source: data/veteran-benefits.json.",
+        "va_healthcare_priority_group_note": "8 priority groups based on disability rating, income, service history. Source: data/veteran-benefits.json.",
+        "state_benefit_variance_note": "State veteran benefits are set by individual state legislatures — NOT a single national figure. Source: data/veteran-benefits.json.",
+        "source": "data/veteran-benefits.json; data/education-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill (Ch. 33): full public-school tuition, $29,920.95 private/foreign cap (AY2025-2026), MHA prorated by tier, $1,000/yr book stipend. Source: data/education-benefits.json.",
+        "tuition_assistance": "Navy TA: $250/semester-hour, $4,500/fiscal-year cap, administered through the Navy College Program; an 18-semester-hour/fiscal-year usage limit was reported by search sources but not independently confirmed. Source: data/education-benefits.json.",
+        "credentialing_assistance": "Navy COOL funds credential exams/renewals for active-duty Navy and Navy Reserve; a specific dollar cap was not independently confirmed this session (cool.osd.mil fetch failed with a certificate error in the EDU-BENEFITS command). Source: data/education-benefits.json.",
+        "coop_or_apprenticeship_notes": "Navy COOL's HM-specific credential pages (cool.navy.mil, cool.osd.mil/usn) are the authoritative source for the EMT-B credential-gap mapping cited above."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Highly variable by follow-on assignment: shipboard/afloat HM duty follows the ship's deployment cycle; Fleet Marine Force (FMF) corpsmen deploy and train alongside Marine infantry/artillery units at a tempo matching those units, including direct combat exposure; garrison/clinic-based HM duty (Navy Medical Treatment Facilities) is comparatively more stable. Not independently sourced to specific rotation-length figures this session.",
+        "family_considerations": "FMF-assigned corpsmen face family-separation patterns similar to the Marine infantry units they support, which can be more frequent/intense than garrison-based Navy medical assignments. Not independently sourced to specific figures this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "navy-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Navy hospital corpsman patient care", "Fleet Marine Force corpsman field training", "Navy corpsman shipboard sick call"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {"title": "Navy COOL Analysis - HM - Hospital Corpsman Basic - Emergency Medical Technician (EMT)", "url": "https://www.cool.navy.mil/usn/enlisted/hmhoscorpb_nremt_emtb.htm", "retrieved_date": "2026-07-12"},
+        {"title": "Navy Hospital Corpsman (HM) Career Guide For 2026", "url": "https://www.operationmilitarykids.org/navy-hospital-corpsman/", "retrieved_date": "2026-07-12"},
+        {"title": "Become a Navy HM: Hospital Corpsman (2026)", "url": "https://navyenlisted.com/navy-hm-rating-hospital-corpsman/", "retrieved_date": "2026-07-12"},
+        {"title": "ACTIVE AND RESERVE COMPONENT ENLISTMENT BONUS / LOAN REPAYMENT PROGRAM FY26 (official)", "url": "https://www.cnrc.navy.mil/Portals/87/Documents/Bonus%20Loans/FY26/CNRC_EB_LRP_GENADMIN%2020260116_FINAL.pdf", "retrieved_date": "2026-07-12"},
+        {"title": "NAEMT Certification Tips for Navy Corpsman to Civilian Transition", "url": "https://www.naemt.org/docs/default-source/member-resources-documents/certification-tips-for-navy-corpsman-to-civilian-transition.pdf", "retrieved_date": "2026-07-12"},
+        {"title": "data/transition.json (TRANSITION command)", "url": "internal", "retrieved_date": "2026-07-12"}
+      ]
+    },
+    {
+      "id": "air-force-4n0x1-aerospace-medical-service",
+      "name": "Aerospace Medical Service",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "code": "4N0X1",
+      "interest_cluster_ids": ["healthcare-medical"],
+      "entry_requirements": {
+        "asvab_line_score": "General (G) composite >= 50; non-graduates/non-alternate-credential holders alternatively need an AFQT score of 65+. Source: cogn-iq.org search synthesis; NOT independently confirmed against a primary airforce.com/AFOCD page this session — treat as directional.",
+        "education": "High school diploma or GED (source: cogn-iq.org / operationmilitarykids.org, cross-referenced against branch-profiles.json's Air Force-wide Tier 1/Tier 2 standard).",
+        "age_range": "17 (with parental consent) to 42 (source: data/branch-profiles.json Air Force general_eligibility — not independently confirmed on airforce.com this session).",
+        "physical": "Standard Air Force accession medical/fitness standards (MEPS medical exam). No elevated physical standard specific to 4N0X1 beyond standard accession was confirmed this session.",
+        "security_clearance": null,
+        "other": "No additional specialty-specific entry criteria beyond ASVAB/AFQT were independently confirmed this session."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Basic Military Training (BMT)",
+          "location": "Joint Base San Antonio-Lackland (JBSA-Lackland), San Antonio, TX",
+          "length_weeks": 7,
+          "description": "Commonly described as approximately 7.5 weeks; recorded as 7 because the schema field is an integer. Source: data/branch-profiles.json."
+        },
+        {
+          "stage": "Aerospace Medical Service Apprentice (AMSA) Course, Phase I and Phase II",
+          "location": "Phase I reported at Sheppard AFB, TX; Phase II clinical rotations at the member's follow-on assignment. NOTE: search sources also placed the program at JBSA-Fort Sam Houston, TX in connection with the METC (Medical Education and Training Campus); the exact Phase I location is UNVERIFIED across conflicting secondary sources this session.",
+          "length_weeks": 16,
+          "description": "UNVERIFIED length breakdown — search sources conflict: one secondary source states Phase I is 16 weeks followed by a 7-week clinical Phase II (23 weeks combined); another states a combined approximately 98 days (~14 weeks) of technical school. The 16-week figure is used here as the more specific/commonly-repeated number but is NOT independently confirmed against a primary source this session; the official course exists and is documented at the joint-service METC (metc.mil/Academics/Courses/Aerospace-Medical-Service-Apprentice/) and in Air Force CFETP 4N0X1X (static.e-publishing.af.mil), but neither was fetched for its exact week-count table this session. AMSA Phase I is reported to include NREMT certification training and testing — see civilian_crosswalk.credential_gap_note. Verify exact length against metc.mil or the CFETP PDF before publishing as final."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34610,
+        "methodology_note": "Computed, not authoritative: (E-1 <2yr basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr, rounded to $34,610. BAH deliberately excluded — see data/pay-tables.json bah.national_number_warning.",
+        "source": "data/pay-tables.json (COMPENSATION command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED. Search results confirmed that Air Force offers enlistment bonuses generally (paid in halves, first half after tech school) but did not surface a dollar figure specific to 4N0X1 this session. Bonuses change quarterly — confirm current status at airforce.com/pay-and-benefits/bonuses before publishing a number.",
+        "source": "https://www.airforce.com/pay-and-benefits/bonuses (official page exists; 4N0X1-specific figure not independently fetched this session)",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "UNVERIFIED — general Air Force enlisted promotion structure (time-in-service/time-in-grade for junior grades, testing plus a weighted point system for E-5/E-6 and above), not independently re-sourced for 4N0X1 specifically this session.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract (exact standard 4N0X1 contract length not independently confirmed this session)",
+          "5-skill-level (journeyman) upgrade training as a mid-career decision point",
+          "Application to Independent Duty Medical Technician (IDMT) training as an alternative to a generic reenlistment"
+        ],
+        "advanced_schools_or_certs": [
+          "Independent Duty Medical Technician (IDMT) — qualifies a senior 4N0X1 to serve as the primary medical provider at remote/isolated locations",
+          "Flight Medicine / Aerospace Physiology-adjacent additional duty training",
+          "NREMT bridge coursework toward Advanced EMT or Paramedic (civilian, self-funded or COOL-assisted)"
+        ],
+        "officer_conversion_path": "Interservice Physician Assistant Program (IPAP) is a commonly cited path for senior enlisted medical technicians (across services, including Air Force) to commission as a Physician Assistant officer. NOT independently confirmed against a primary airforce.com/af.mil page this session — flagged as recalled/general knowledge, not a sourced figure from this session's searches.",
+        "source": "General Air Force enlisted medical career-field knowledge not independently re-sourced this session (see caveats above)",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing pension at 20 years; TSP savings are the only guaranteed retirement money before 20 years, fully portable. Source: data/retirement.json.",
+        "continuation_pay_note": "Statutory window years 8-12 of service DoD-wide; Air Force's exact current window/multiplier was not individually verified this session (only the Army's published rate was independently confirmed in the RETIREMENT command). Statutory range 2.5x-13x monthly basic pay, minimum 3-year additional obligation. Source: data/retirement.json.",
+        "guard_reserve_points_note": "NOT interchangeable with active-duty retirement. Points-based system toward a 20-qualifying-year non-regular retirement, pension starting at age 60 by default (reducible to 50 minimum). Source: data/retirement.json.",
+        "lump_sum_option_note": "At 20+ years, 25% or 50% lump-sum election available, with reduced monthly pay until Full Social Security Retirement Age. Source: data/retirement.json.",
+        "source": "data/retirement.json (RETIREMENT command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": "UNVERIFIED",
+        "skillbridge_notes": "DoD-wide SkillBridge open to active-duty members nearing separation (up to 180 days), subject to unit commander approval. 4N0X1-specific eligibility thresholds were not individually re-verified this session.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program; must begin no later than 365 days before separation. Source: data/transition.json.",
+        "dd214_significance": "Gates VA disability, VA healthcare, GI Bill, VA home loan COE, and federal hiring preference; Block 24 (character of service) is the single most consequential entry. Source: data/transition.json.",
+        "va_disability_common_claims": [
+          "NOT independently validated by a named source specific to 4N0X1 VA claims data this session — flagged as reasoned inference, not sourced VA statistics.",
+          "Musculoskeletal strain from patient-handling and clinic/flightline duties",
+          "Hearing loss/tinnitus if regularly working flightline-adjacent aeromedical evacuation or exposed to aircraft noise, by analogy to the sourced aviation ground-crew pattern in data/transition.json",
+          "Mental-health conditions linked to sustained clinical/trauma-care exposure",
+          "PACT Act toxic-exposure presumptive conditions for those deployed to CENTCOM/burn-pit-covered locations — deployment-location-based, not 4N0X1-specific, per data/transition.json"
+        ],
+        "vr_e_eligibility_note": "Requires a service-connected disability rating of 20%+ creating an employment handicap; funds tuition/training plus a monthly subsistence allowance (FY2026 max $3,439.23/mo). Source: data/transition.json.",
+        "source": "data/transition.json (TRANSITION command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": ["29-2042.00"],
+        "example_civilian_titles": ["EMT-Basic", "Emergency Department Technician", "Medical Logistics Technician"],
+        "relevant_certifications": [
+          "NREMT Emergency Medical Technician (EMT-B) — AMSA Phase I is reported to include NREMT certification training and testing",
+          "State EMT license (a separate step from NREMT certification in most states)",
+          "Advanced EMT / Paramedic via civilian bridge programs"
+        ],
+        "estimated_civilian_salary_range_usd": [42080, 58410],
+        "credential_gap_note": "Search results describe AMSA Phase I as including 'NREMT certification training and testing,' which — if accurate — would mean 4N0X1 initial training goes further toward EMT-B certification than the Army 68W and Navy HM pipelines (which confer only NREMT EXAM ELIGIBILITY, not the completed certification itself). This distinction was NOT independently confirmed against a primary Air Force COOL or CFETP page this session and should be verified before being presented to a user as settled — if confirmed, it would be a genuinely different (better) credential outcome than the other two enlisted medic/corpsman pipelines in this cluster; if the Army/Navy pattern holds instead (training-eligibility only, not completed certification), the same credential-gap caveat applies. Either way, Paramedic certification is NOT conferred by 4N0X1 initial training and requires a separate, much longer bridge program.",
+        "source": "https://www.operationmilitarykids.org/air-force-aerospace-medical-service-4n0x1/ (secondary, describes NREMT training/testing in AMSA Phase I); https://www.metc.mil/Academics/Courses/Aerospace-Medical-Service-Apprentice/ (official course page, not independently fetched for detail this session); wage data as in the 68W record",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) eligibility scales with cumulative active-duty days, 50%-100% tier. Source: data/education-benefits.json.",
+        "gi_bill_transferability_note": "Transferable to spouse/dependents (up to 36 months) only while serving, after 6 years of service, with a 4-year additional service obligation. Source: data/veteran-benefits.json.",
+        "va_home_loan_note": "No down payment/no PMI for veterans with full entitlement; funding fee 1.25%-3.3% unless exempt. Source: data/veteran-benefits.json.",
+        "va_healthcare_priority_group_note": "8 priority groups based on disability rating, income, service history. Source: data/veteran-benefits.json.",
+        "state_benefit_variance_note": "State veteran benefits are set by individual state legislatures — NOT a single national figure. Source: data/veteran-benefits.json.",
+        "source": "data/veteran-benefits.json; data/education-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill (Ch. 33): full public-school tuition, $29,920.95 private/foreign cap (AY2025-2026), MHA prorated by tier, $1,000/yr book stipend. Source: data/education-benefits.json.",
+        "tuition_assistance": "Air Force TA: $250/semester-hour, $4,500/fiscal-year cap, administered through the Air Force Virtual Education Center (AFVEC); an 18-semester-hour/fiscal-year usage limit was reported by search sources but not independently confirmed. Source: data/education-benefits.json.",
+        "credentialing_assistance": "Air Force Credentialing Assistance (via AFVEC): reported up to $4,500/year; not independently fetched from cool.osd.mil this session (fetch attempt failed with a certificate error in the EDU-BENEFITS command). Source: data/education-benefits.json.",
+        "coop_or_apprenticeship_notes": "Air Force COOL's 4N0X1-specific credential pages would be the authoritative source for the EMT-B/NREMT credential-gap question flagged above — not independently checked this session."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Primarily garrison/clinic-based (base medical clinics, hospitals) between deployments to Air Force Expeditionary Medical units or aeromedical evacuation taskings; generally a different tempo pattern than Army/Marine ground-unit-embedded medics. Not independently sourced to a specific rotation-length figure this session.",
+        "family_considerations": "Clinic/garrison-based assignments generally offer more predictable schedules and geographic stability (co-located with Military Treatment Facilities) than line-unit-embedded medical roles in other branches. Not independently sourced to a specific figure this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "air-force-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["aerospace medical service technician clinic", "Air Force aeromedical evacuation technician", "Air Force medical technician sick call"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {"title": "Aerospace Medical Service Specialist - U.S. Air Force (official)", "url": "https://www.airforce.com/careers/healthcare/aerospace-medical-service", "retrieved_date": "2026-07-12"},
+        {"title": "Air Force Aerospace Medical Service 4N0X1 Guide For 2026", "url": "https://www.operationmilitarykids.org/air-force-aerospace-medical-service-4n0x1/", "retrieved_date": "2026-07-12"},
+        {"title": "CFETP 4N0X1X — Aerospace Medical Service (official Air Force training plan)", "url": "https://static.e-publishing.af.mil/production/1/af_sg/publication/cfetp4n0x1x/cfetp4n0x1x.pdf", "retrieved_date": "2026-07-12"},
+        {"title": "Aerospace Medical Service Apprentice — METC (official, joint-service training campus)", "url": "https://www.metc.mil/Academics/Courses/Aerospace-Medical-Service-Apprentice/", "retrieved_date": "2026-07-12"},
+        {"title": "4N0X1 Aerospace medical services – Air Force ASVAB Requirements | Cogn-IQ", "url": "https://www.cogn-iq.org/military-jobs/airforce-4n0x1/", "retrieved_date": "2026-07-12"},
+        {"title": "data/transition.json (TRANSITION command)", "url": "internal", "retrieved_date": "2026-07-12"}
+      ]
+    },
+    {
+      "id": "coast-guard-hs-health-services-technician",
+      "name": "Health Services Technician",
+      "branch": "Coast Guard",
+      "track": "enlisted",
+      "code": "HS",
+      "interest_cluster_ids": ["healthcare-medical"],
+      "entry_requirements": {
+        "asvab_line_score": "UNVERIFIED — no specific HS-rating ASVAB line-score requirement was found in any search result this session (multiple sources checked, none stated a numeric HS-specific composite). Only the Coast Guard-wide AFQT floor of 40 (the highest minimum AFQT of any branch) was confirmed. Verify the HS-specific line score at gocoastguard.com/careers/enlisted/hs or with a recruiter before publishing.",
+        "education": "High school diploma (Tier 1) generally required; AFQT minimum 32 Coast Guard-wide per prep-pathway.md (GED/Tier 2 accepted in capped numbers). Source: data/branch-profiles.json.",
+        "age_range": "17 (with parental consent) up to 42, per a Coast Guard recruiting-instruction update reported in GAO-25-107224 (source: data/branch-profiles.json Coast Guard general_eligibility).",
+        "physical": "Standard Coast Guard accession medical/fitness standards. No elevated physical standard specific to HS beyond standard accession was confirmed this session.",
+        "security_clearance": null,
+        "other": "Independent Duty Health Services Technician (IDHS) follow-on qualification requires operating with minimal on-site physician oversight aboard cutters/at remote stations — this is a real operational responsibility bar but was not independently sourced to a specific additional entry criterion this session."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training / Coast Guard Boot Camp",
+          "location": "Training Center Cape May, NJ",
+          "length_weeks": 8,
+          "description": "Coast Guard's sole enlisted accession point. Source: data/branch-profiles.json."
+        },
+        {
+          "stage": "Health Services Technician 'A' School",
+          "location": "Training Center Petaluma, CA",
+          "length_weeks": 22,
+          "description": "22-week rating course per the official Coast Guard FORCECOM training-center page (forcecom.uscg.mil), covering clinical laboratory procedures, sterilization techniques, preventative medicine, nursing, pharmacy, and wound treatment, plus advanced X-ray technician, pharmacy technician, and behavioral health modules, and nationally-registered EMT training. A separate secondary source states 23 weeks including 'a seven-week EMT course' at the start — a minor (1-week) discrepancy between the official and secondary figures; 22 weeks (the official forcecom.uscg.mil figure) is used here as authoritative."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34610,
+        "methodology_note": "Computed, not authoritative: (E-1 <2yr basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr, rounded to $34,610. Coast Guard uses the same DFAS pay tables as the DoD services despite being a DHS component. BAH deliberately excluded — see data/pay-tables.json bah.national_number_warning.",
+        "source": "data/pay-tables.json (COMPENSATION command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED. Coast Guard's FY2026 Workforce Planning Team results (ALCOAST 386/25) authorize enlistment bonuses and Designated Career Field Bonuses of up to $60,000 to affiliate with a 'critical rating' — but whether the HS rating is specifically designated a critical rating this cycle was not confirmed this session. Assigning the general $60,000 ceiling to HS specifically without that confirmation would violate the no-fabrication constraint, so this field is left null. Confirm at gocoastguard.com/hiring-incentives or mycg.uscg.mil before publishing a number.",
+        "source": "https://www.mycg.uscg.mil/News/Article/4305181/do-you-qualify-for-fy2026-bonuses/ (official); https://www.gocoastguard.com/hiring-incentives (official)",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "UNVERIFIED — general Coast Guard enlisted advancement structure (time-in-rate plus service-wide advancement exam for E-4 and above), not independently re-sourced for HS specifically this session.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract (exact standard HS contract length not independently confirmed this session)",
+          "Independent Duty Health Services Technician (IDHS) qualification as a career-shaping decision point"
+        ],
+        "advanced_schools_or_certs": [
+          "Independent Duty Health Services Technician (IDHS) — qualifies an HS to serve as the sole medical provider aboard a cutter or at a remote station",
+          "Advanced X-ray technician training",
+          "Pharmacy technician training",
+          "Behavioral health training",
+          "Nationally-registered EMT training (built into 'A' school per forcecom.uscg.mil)"
+        ],
+        "officer_conversion_path": "UNVERIFIED — a specific enlisted-to-officer commissioning path for HS technicians (analogous to the Army's AMEDD Enlisted Commissioning Program) was not found in this session's searches. The Coast Guard's general Officer Candidate School (OCS, New London, CT) is open to any bachelor's-degree holder including prior-enlisted members, per data/branch-profiles.json, but no HS-specific medical-officer commissioning program was confirmed.",
+        "source": "https://www.forcecom.uscg.mil/Our-Organization/FORCECOM-UNITS/TraCen-Petaluma/Training/HS/ (official)",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing pension at 20 years; TSP savings are the only guaranteed retirement money before 20 years, fully portable. The Coast Guard, though under DHS rather than DoD, uses the same BRS/DFAS retirement system as the five DoD branches. Source: data/retirement.json.",
+        "continuation_pay_note": "Statutory window years 8-12 of service DoD/DHS-wide; Coast Guard's exact current window/multiplier was not individually verified this session (only the Army's published rate was independently confirmed in the RETIREMENT command). Statutory range 2.5x-13x monthly basic pay, minimum 3-year additional obligation. Source: data/retirement.json.",
+        "guard_reserve_points_note": "NOT interchangeable with active-duty retirement. Points-based system toward a 20-qualifying-year non-regular retirement, pension starting at age 60 by default (reducible to 50 minimum). Coast Guard Reserve uses the same points structure as the DoD Reserve components. Source: data/retirement.json.",
+        "lump_sum_option_note": "At 20+ years, 25% or 50% lump-sum election available, with reduced monthly pay until Full Social Security Retirement Age. Source: data/retirement.json.",
+        "source": "data/retirement.json (RETIREMENT command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": "UNVERIFIED",
+        "skillbridge_notes": "DoD-wide SkillBridge policy (DoDI 1322.29) is the base rule, but the Coast Guard is a DHS component and its SkillBridge/TAP administration was not independently verified as identical to the DoD services this session — flagged explicitly in data/transition.json's unverified list.",
+        "tap_program_summary": "Mandatory DoD-wide TAP curriculum framework is applied, but Coast Guard-specific administration differences were not independently verified this session. Source: data/transition.json.",
+        "dd214_significance": "Coast Guard members also receive a DD-214 upon separation, which gates the same VA disability, VA healthcare, GI Bill, VA home loan, and federal hiring-preference benefits as the DoD branches. Source: data/transition.json.",
+        "va_disability_common_claims": [
+          "NOT independently validated by a named source specific to HS VA claims data this session — flagged as reasoned inference, not sourced VA statistics.",
+          "Musculoskeletal strain from patient-handling and shipboard/cutter duty in a moving-vessel clinical environment",
+          "Sleep-disorder and musculoskeletal claims associated with sustained cutter underway/watch schedules — not independently sourced this session",
+          "Mental-health conditions linked to independent-duty clinical responsibility (IDHS role) and search-and-rescue casualty exposure",
+          "PACT Act toxic-exposure presumptive conditions for those deployed to covered locations — deployment-location-based, not HS-specific, per data/transition.json"
+        ],
+        "vr_e_eligibility_note": "Requires a service-connected disability rating of 20%+ creating an employment handicap; funds tuition/training plus a monthly subsistence allowance (FY2026 max $3,439.23/mo). Source: data/transition.json.",
+        "source": "data/transition.json (TRANSITION command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": ["29-2042.00"],
+        "example_civilian_titles": ["EMT-Basic", "Pharmacy Technician", "Medical Laboratory Technician"],
+        "relevant_certifications": [
+          "NREMT Emergency Medical Technician (EMT-B) — 'A' school includes nationally-registered EMT training per forcecom.uscg.mil, but full independent verification of automatic certification (vs. exam-eligibility only) was not completed this session",
+          "State EMT license (likely a separate step from NREMT certification, consistent with the pattern confirmed for 68W/HM)",
+          "Pharmacy technician and X-ray technician civilian certifications — HS 'A' school includes this coursework, but civilian certification/licensure is a separate step in most states"
+        ],
+        "estimated_civilian_salary_range_usd": [42080, 58410],
+        "credential_gap_note": "HS 'A' school explicitly includes 'nationally registered emergency medical technician (EMT) training' per the official Coast Guard training-center page, closely paralleling the Army 68W / Navy HM pattern. Consistent with that pattern — and absent independent confirmation this session that the Coast Guard's version automatically converts training into a completed NREMT certification and state license — the honest default assumption is the SAME gap applies: training builds toward NREMT eligibility, but the HS technician must still separately register for, sit, and pass the NREMT exam, then obtain a state EMT license, before practicing as a civilian EMT. The same caution applies to the pharmacy-technician and X-ray-technician coursework bundled into HS training: most states require a separate civilian certification/registration (e.g., PTCB Certified Pharmacy Technician) that is not automatically conferred by military coursework.",
+        "source": "https://www.forcecom.uscg.mil/Our-Organization/FORCECOM-UNITS/TraCen-Petaluma/Training/HS/ (official); https://www.cool.osd.mil/uscg/moc/index.html?moc=hs&tab=cred; https://www.cool.osd.mil/uscg/search/CERT_EMTB262.htm; wage data as in the 68W record",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) eligibility scales with cumulative active-duty days, 50%-100% tier — Coast Guard active duty qualifies on the same basis as the DoD branches despite being a DHS component. Source: data/education-benefits.json.",
+        "gi_bill_transferability_note": "Transferable to spouse/dependents (up to 36 months) only while serving, after 6 years of service, with a 4-year additional service obligation. Source: data/veteran-benefits.json.",
+        "va_home_loan_note": "No down payment/no PMI for veterans with full entitlement; funding fee 1.25%-3.3% unless exempt. Source: data/veteran-benefits.json.",
+        "va_healthcare_priority_group_note": "8 priority groups based on disability rating, income, service history. Source: data/veteran-benefits.json.",
+        "state_benefit_variance_note": "State veteran benefits are set by individual state legislatures — NOT a single national figure. Source: data/veteran-benefits.json.",
+        "source": "data/veteran-benefits.json; data/education-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill (Ch. 33): full public-school tuition, $29,920.95 private/foreign cap (AY2025-2026), MHA prorated by tier, $1,000/yr book stipend. Source: data/education-benefits.json.",
+        "tuition_assistance": "Coast Guard TA: reported to follow the same $250/semester-hour, $4,500/fiscal-year DoD-wide caps, administered under DHS via the Coast Guard Institute rather than DoD — this figure is search-sourced only and possibly conflated with Credentialing Assistance by the search summarizer; not independently fetched this session. Source: data/education-benefits.json.",
+        "credentialing_assistance": "UNVERIFIED dollar cap for Coast Guard COOL; a fetch attempt to cool.osd.mil failed with a certificate error in the EDU-BENEFITS command. Source: data/education-benefits.json.",
+        "coop_or_apprenticeship_notes": "Coast Guard COOL's HS-specific credential pages (cool.osd.mil/uscg/moc/index.html?moc=hs) are the authoritative source for confirming the EMT-B/pharmacy-tech/X-ray-tech credential-gap questions flagged above."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Shore-based clinic duty and cutter/afloat duty are both common; cutter-assigned HS technicians (especially Independent Duty Health Services Technicians) may be the sole medical provider aboard for extended underway periods, a distinct responsibility/isolation profile compared to garrison clinical roles in the larger DoD branches. Not independently sourced to a specific rotation-length figure this session.",
+        "family_considerations": "Coast Guard's search-and-rescue/multi-mission tempo and smaller unit sizes (relative to the DoD branches) can mean more frequent, shorter-notice operational tasking for some HS assignments, though shore-clinic assignments offer more predictable schedules. Not independently sourced to specific figures this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "coast-guard-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Coast Guard health services technician sick call", "Coast Guard cutter medical care", "Coast Guard HS training Petaluma"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {"title": "Health Services Technician | United States Coast Guard (official)", "url": "https://www.gocoastguard.com/careers/enlisted/hs", "retrieved_date": "2026-07-12"},
+        {"title": "TraCen Petaluma — HS Training (official)", "url": "https://www.forcecom.uscg.mil/Our-Organization/FORCECOM-UNITS/TraCen-Petaluma/Training/HS/", "retrieved_date": "2026-07-12"},
+        {"title": "Coast Guard COOL - HS - Health Services Technician - Certifications/Licenses (official)", "url": "https://www.cool.osd.mil/uscg/moc/index.html?moc=hs&tab=cred", "retrieved_date": "2026-07-12"},
+        {"title": "Do you qualify for FY2026 bonuses? (official, mycg.uscg.mil)", "url": "https://www.mycg.uscg.mil/News/Article/4305181/do-you-qualify-for-fy2026-bonuses/", "retrieved_date": "2026-07-12"},
+        {"title": "data/transition.json (TRANSITION command)", "url": "internal", "retrieved_date": "2026-07-12"}
+      ]
+    },
+    {
+      "id": "army-66h-nurse-corps-officer",
+      "name": "Nurse Corps Officer (Medical-Surgical Nurse)",
+      "branch": "Army",
+      "track": "officer",
+      "code": "66H (AOC — Army Officer Specialty Code)",
+      "interest_cluster_ids": ["healthcare-medical"],
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "education": "Bachelor of Science in Nursing (BSN) from an accredited nursing program — required for active-duty accession. Source: recruiting.army.mil/MRB_Nurses/ (official) and search synthesis.",
+        "age_range": "UNVERIFIED — a direct-appointment health-professional age ceiling specific to Nurse Corps officers was not independently confirmed this session; the Army enlisted ceiling (17-42) does not directly apply to direct-commission officer accessions. Verify at recruiting.army.mil/MRB_Nurses/.",
+        "physical": "Standard officer-accession medical processing (MEPS-equivalent); no Nurse Corps-specific standard was independently confirmed this session.",
+        "security_clearance": null,
+        "other": "Must hold a current, UNRESTRICTED state Registered Nurse (RN) license PRIOR to receiving a commission — an RN license number is required before submitting the Request for Assignment (RFA). This is the defining entry gate for this record and the inverse of the enlisted credential-gap pattern documented elsewhere in this cluster: here, the civilian credential is a PREREQUISITE for military service, not an outcome of it. Source: search synthesis of dmna.ny.gov and registerednursing.org; not independently confirmed against a primary recruiting.army.mil page this session."
+      },
+      "training_pipeline": [
+        {
+          "stage": "AMEDD Basic Officer Leader Course (Officer Basic Course, Active Duty)",
+          "location": "AMEDD Center & School, Fort Sam Houston, TX",
+          "length_weeks": 12,
+          "description": "Held four times a year; reported length ranges 10-14 weeks (12 used here as the midpoint of the sourced range). Foundational Army officer and AMEDD-specific leadership training for newly commissioned Nurse Corps officers, who must already hold a BSN and an unrestricted RN license before attending — the officer's civilian nursing credential is validated BEFORE this course, not created by it."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "O-1",
+        "base_pay_monthly_usd": 4150.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 328.48,
+        "total_compensation_estimate_annual_usd": 53744,
+        "methodology_note": "Computed, not authoritative: (O-1 <2yr basic pay $4,150.20/mo + officer BAS $328.48/mo) x 12 = $53,744.16/yr, rounded to $53,744. BAH deliberately excluded — see data/pay-tables.json bah.national_number_warning. Nurse Corps officers with prior nursing experience or an advanced degree may enter at a higher grade (O-2/O-3) than the O-1 baseline used here; not independently sourced to a specific grade-determination rule this session.",
+        "source": "data/pay-tables.json (COMPENSATION command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED and internally conflicting across sources found this session — reported as a directional range, not a confirmed current figure. Search results describe: (a) an accession bonus of up to $10,000 specifically tied to Health Professions Loan Repayment Program (HPLRP) participation; (b) a separate general statement of 'up to $30,000' sign-on bonus; (c) HPLRP itself paying more than $114,000 total in student-loan repayment ($38,300/yr for up to 3 years); and (d) a general statutory statement that 'the amount of an accession bonus may not exceed $30,000.' These figures come from a mix of Army-Reserve-specific (usar.army.mil FY25), Navy-specific (med.navy.mil FY26 Nurse Corps guidance), and general/statutory sources, and were NOT cleanly isolated to Army ACTIVE-DUTY FY2026 Nurse Corps policy this session — treat as directional only. Confirm the current, Army-active-duty-specific figure against the Army-specific FY26 Health Professions Special and Incentive Pay document before publishing a number.",
+        "source": "https://www.usar.army.mil/Portals/98/Documents/Publications/Policies/Health%20Professions%20Special%20and%20Incentive%20Pay%20FY25.pdf (Army Reserve, FY25 — not Active Duty FY26); https://www.military.com/benefits/military-pay/special-pay/special-pay-for-nurse-corps-officers.html; https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title37-section302d (statutory $30,000 cap)",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "UNVERIFIED — general Army officer promotion structure (O-1 to O-2 commonly cited around 18-24 months, O-2 to O-3 around 4 years), not independently sourced for Nurse Corps officers specifically this session.",
+        "reenlistment_decision_points": [
+          "Completion of initial service obligation (length depends on which accession incentive was elected — e.g., HPLRP participation extends the obligation)",
+          "Decision point at approaching the O-3/Captain career gate (typically tied to Basic Officer Leader Course III / Captain's Career Course completion) — not independently sourced to a specific timeline this session",
+          "Long-Term Health Education and Training (LTHET) selection as a career-shaping decision point (fully-funded graduate nursing education in exchange for an additional service obligation) — not independently sourced this session"
+        ],
+        "advanced_schools_or_certs": [
+          "Certified Critical Care Registered Nurse (CCRN)",
+          "Certified Emergency Nurse (CEN)",
+          "Flight Nurse Course",
+          "Long-Term Health Education and Training (LTHET) — fully-funded MSN/DNP/CRNA graduate programs"
+        ],
+        "officer_conversion_path": null,
+        "source": "General Army Nurse Corps career-field knowledge not independently re-sourced this session for these specific timelines (see caveat above)",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing pension at 20 years — applies identically to officers and enlisted. TSP savings are the only guaranteed retirement money before 20 years, fully portable. Source: data/retirement.json.",
+        "continuation_pay_note": "Statutory continuation-pay window (years 8-12) is a BRS-wide mechanic; whether/how it applies to health-professions officers who may already be receiving separate Incentive Pay (IP) and accession-bonus/HPLRP special pays was not independently confirmed this session — health professions officers often have a distinct special-pays structure layered on top of (or instead of) standard continuation pay. Source: data/retirement.json; military.com Nurse Corps special-pay page (not independently cross-checked against continuation pay specifically).",
+        "guard_reserve_points_note": "NOT interchangeable with active-duty retirement. Points-based system toward a 20-qualifying-year non-regular retirement, pension starting at age 60 by default (reducible to 50 minimum). Source: data/retirement.json.",
+        "lump_sum_option_note": "At 20+ years, 25% or 50% lump-sum election available, with reduced monthly pay until Full Social Security Retirement Age. Source: data/retirement.json.",
+        "source": "data/retirement.json (RETIREMENT command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": "UNVERIFIED",
+        "skillbridge_notes": "DoD-wide SkillBridge is generally understood to apply primarily to enlisted/company-grade transitions; officer-specific SkillBridge participation patterns, and whether they differ for health-professions officers who already hold a civilian-transferable license, were not independently confirmed this session.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program applies to departing officers as well as enlisted members; must begin no later than 365 days before separation. Source: data/transition.json.",
+        "dd214_significance": "Gates VA disability, VA healthcare, GI Bill, VA home loan COE, and federal hiring preference identically for officers and enlisted; Block 24 (character of service) is the single most consequential entry. Source: data/transition.json.",
+        "va_disability_common_claims": [
+          "NOT independently validated by a named source specific to Nurse Corps officer VA claims data this session — flagged as reasoned inference, not sourced VA statistics.",
+          "Musculoskeletal strain (back, wrists, shoulders) from sustained patient-handling and long-shift clinical duty",
+          "Mental-health conditions (compassion fatigue, PTSD, burnout-adjacent diagnoses) linked to sustained trauma/critical-care nursing, particularly in deployed combat support hospital settings",
+          "PACT Act toxic-exposure presumptive conditions for those deployed to CENTCOM/burn-pit-covered locations — deployment-location-based, not 66H-specific, per data/transition.json"
+        ],
+        "vr_e_eligibility_note": "Requires a service-connected disability rating of 20%+ creating an employment handicap; funds tuition/training plus a monthly subsistence allowance (FY2026 max $3,439.23/mo) — though a Nurse Corps veteran already holding an RN license and BSN would typically have less need for VR&E's retraining function than an enlisted veteran facing a full credential gap. Source: data/transition.json.",
+        "source": "data/transition.json (TRANSITION command, 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": ["29-1141.00"],
+        "example_civilian_titles": ["Registered Nurse", "Med-Surg RN", "Case Manager RN", "Nurse Educator"],
+        "relevant_certifications": [
+          "State RN license — ALREADY held prior to commissioning (the inverse of the enlisted pattern in this cluster)",
+          "Nurse Licensure Compact (NLC) multistate endorsement — relevant for practicing across state lines after a military-driven relocation or upon separation",
+          "CCRN / CEN specialty certifications (career-progression items, listed above)"
+        ],
+        "estimated_civilian_salary_range_usd": [93600, 93600],
+        "credential_gap_note": "This record is the INVERSE of the enlisted credential-gap pattern documented elsewhere in this cluster. Army Nurse Corps officers must ALREADY hold an unrestricted state RN license and a BSN BEFORE commissioning — active-duty service does not create the license; the license is the entry ticket. The practical civilian-transfer nuance here is different: an RN license does not automatically transfer across state lines (unless the state participates in the Nurse Licensure Compact), so a Nurse Corps officer relocating to a new state at separation may need to apply for licensure by endorsement in that state. How military PCS-driven relocation interacts with license portability (beyond the NLC) was not independently verified this session. Bottom line for the site: this specialty should NOT be presented as having a 'credential gap' in the same sense as the enlisted records in this cluster — if anything, the gap runs the other direction (must already be credentialed to serve), which is itself an important honesty point to surface to a user who assumes military nursing service is a path TO becoming an RN rather than a role that requires it upfront.",
+        "source": "Reasoned synthesis of recruiting.army.mil/MRB_Nurses/, registerednursing.org/military/army-nurse-corps/, and dmna.ny.gov/arng/ocs/?id=nurse_corps (search-sourced, not independently fetched this session); wage data: https://www.onetonline.org/link/summary/29-1141.00 and https://www.bls.gov/oes/2023/may/oes291141.htm (median $93,600, May 2024 — a single median figure only, NOT a full percentile range, since a 10th/90th-percentile figure was not sourced this session)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) eligibility scales with cumulative active-duty days, 50%-100% tier — applies identically to officers and enlisted. Source: data/education-benefits.json.",
+        "gi_bill_transferability_note": "Transferable to spouse/dependents (up to 36 months) only while serving, after 6 years of service, with a 4-year additional service obligation — the same rule applies to officers. Source: data/veteran-benefits.json.",
+        "va_home_loan_note": "No down payment/no PMI for veterans with full entitlement; funding fee 1.25%-3.3% unless exempt. Source: data/veteran-benefits.json.",
+        "va_healthcare_priority_group_note": "8 priority groups based on disability rating, income, service history — identical structure for officers and enlisted. Source: data/veteran-benefits.json.",
+        "state_benefit_variance_note": "State veteran benefits are set by individual state legislatures — NOT a single national figure. Source: data/veteran-benefits.json.",
+        "source": "data/veteran-benefits.json; data/education-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill (Ch. 33): full public-school tuition, $29,920.95 private/foreign cap (AY2025-2026), MHA prorated by tier, $1,000/yr book stipend — applies to officers who accrue qualifying active-duty time same as enlisted. Source: data/education-benefits.json.",
+        "tuition_assistance": "Army TA: $250/semester-hour, $4,500/fiscal-year cap — commonly used by Nurse Corps officers pursuing an MSN/DNP if not using the fully-funded LTHET program instead. Source: data/education-benefits.json.",
+        "credentialing_assistance": "Army COOL: $2,000/fiscal-year cap — search synthesis in data/education-benefits.json states commissioned officers (O1-O10) are reported INELIGIBLE for Army Credentialing Assistance, which would mean this benefit does NOT apply to this record; not independently confirmed against a primary source this session.",
+        "coop_or_apprenticeship_notes": "Long-Term Health Education and Training (LTHET) is the Nurse Corps-specific fully-funded graduate-education pathway (MSN/DNP/CRNA), distinct from the enlisted-focused TA/CA benefits described above; not independently sourced to a specific dollar/slot figure this session."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Assignments span Army Medical Treatment Facilities (garrison hospitals/clinics) and deployed Combat Support Hospitals / Role 2-3 medical treatment facilities; deployment tempo for Nurse Corps officers generally follows medical-unit rotation schedules rather than a supported maneuver unit's tempo. Not independently sourced to a specific rotation-length figure this session.",
+        "family_considerations": "Garrison hospital/clinic assignments generally offer more predictable schedules and geographic stability than line-unit-embedded roles; deployed Combat Support Hospital rotations carry standard deployment family-separation considerations. Not independently sourced to specific figures this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "army-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Army Nurse Corps officer patient care", "Army nurse medical treatment facility", "AMEDD combat support hospital nurse"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {"title": "Nurses - U.S. Army Recruiting Command (official)", "url": "https://recruiting.army.mil/MRB_Nurses/", "retrieved_date": "2026-07-12"},
+        {"title": "Army Nurse Corps — RegisteredNursing.org", "url": "https://www.registerednursing.org/military/army-nurse-corps/", "retrieved_date": "2026-07-12"},
+        {"title": "Army COOL - BR 66 - Army Nurse Corps (ANC) AOC - Overview (official)", "url": "https://www.cool.osd.mil/army/moc/index.html?moc=br_66&tab=overview", "retrieved_date": "2026-07-12"},
+        {"title": "NY National Guard Officer Accessions - The Officer Nurse Corps", "url": "https://dmna.ny.gov/arng/ocs/?id=nurse_corps", "retrieved_date": "2026-07-12"},
+        {"title": "Special Pay for Nurse Corps Officers — Military.com", "url": "https://www.military.com/benefits/military-pay/special-pay/special-pay-for-nurse-corps-officers.html", "retrieved_date": "2026-07-12"},
+        {"title": "Health Professions Special and Incentive Pay FY25 — Army Reserve (official, note: Reserve FY25, not Active Duty FY26)", "url": "https://www.usar.army.mil/Portals/98/Documents/Publications/Policies/Health%20Professions%20Special%20and%20Incentive%20Pay%20FY25.pdf", "retrieved_date": "2026-07-12"},
+        {"title": "data/pay-tables.json (COMPENSATION command)", "url": "internal", "retrieved_date": "2026-07-12"}
+      ]
+    }
+  ],
+  "branches_with_no_presence": [
+    {
+      "branch": "Marine Corps",
+      "why": "No organic enlisted medical MOS. Marines receive medical care from Navy Hospital Corpsmen (HM rating) attached to Marine units — a candidate interested in medicine embedded with Marine infantry/artillery units enlists in the NAVY as a Hospital Corpsman (see the navy-hm-hospital-corpsman record's Fleet Marine Force qualification), not in the Marine Corps itself. Source: data/interest-taxonomy.json healthcare-medical cluster notes."
+    },
+    {
+      "branch": "Space Force",
+      "why": "No independent medical enlisted career field. Medical support at Space Force installations is provided by Air Force personnel (e.g., 4N0X1 Aerospace Medical Service, see the air-force-4n0x1-aerospace-medical-service record). Source: data/interest-taxonomy.json healthcare-medical cluster notes."
+    }
+  ],
+  "sources": [
+    {"title": "data/interest-taxonomy.json (TAXONOMY command)", "url": "internal", "retrieved_date": "2026-07-12"},
+    {"title": "data/pay-tables.json (COMPENSATION command)", "url": "internal", "retrieved_date": "2026-07-12"},
+    {"title": "data/retirement.json (RETIREMENT command)", "url": "internal", "retrieved_date": "2026-07-12"},
+    {"title": "data/education-benefits.json (EDU-BENEFITS command)", "url": "internal", "retrieved_date": "2026-07-12"},
+    {"title": "data/transition.json (TRANSITION command)", "url": "internal", "retrieved_date": "2026-07-12"},
+    {"title": "data/veteran-benefits.json (VETERAN-BENEFITS command)", "url": "internal", "retrieved_date": "2026-07-12"},
+    {"title": "data/branch-profiles.json (BRANCHES command)", "url": "internal", "retrieved_date": "2026-07-12"},
+    {"title": "data/asset-manifest.json (ASSETS command)", "url": "internal", "retrieved_date": "2026-07-12"},
+    {"title": "68W Training: What to Expect", "url": "https://sucharmy.com/68w-training-what-to-expect/", "retrieved_date": "2026-07-12"},
+    {"title": "Army Combat Medic (68W) Requirements (2026)", "url": "https://www.readytoserve.io/articles/army-combat-medic-68w-requirements", "retrieved_date": "2026-07-12"},
+    {"title": "MEDCoE (68W), official", "url": "https://www.cs.amedd.army.mil/68w/", "retrieved_date": "2026-07-12"},
+    {"title": "Practical Nursing Specialist | U.S. Army, official", "url": "https://www.goarmy.com/careers-and-jobs/science-medicine/general-care/68c-practical-nursing-specialist", "retrieved_date": "2026-07-12"},
+    {"title": "Navy COOL Analysis - HM - NREMT/EMTB, official", "url": "https://www.cool.navy.mil/usn/enlisted/hmhoscorpb_nremt_emtb.htm", "retrieved_date": "2026-07-12"},
+    {"title": "NAEMT Certification Tips for Navy Corpsman to Civilian Transition", "url": "https://www.naemt.org/docs/default-source/member-resources-documents/certification-tips-for-navy-corpsman-to-civilian-transition.pdf", "retrieved_date": "2026-07-12"},
+    {"title": "ACTIVE AND RESERVE COMPONENT ENLISTMENT BONUS/LRP FY26, official", "url": "https://www.cnrc.navy.mil/Portals/87/Documents/Bonus%20Loans/FY26/CNRC_EB_LRP_GENADMIN%2020260116_FINAL.pdf", "retrieved_date": "2026-07-12"},
+    {"title": "Aerospace Medical Service Specialist, official", "url": "https://www.airforce.com/careers/healthcare/aerospace-medical-service", "retrieved_date": "2026-07-12"},
+    {"title": "CFETP 4N0X1X, official Air Force training plan", "url": "https://static.e-publishing.af.mil/production/1/af_sg/publication/cfetp4n0x1x/cfetp4n0x1x.pdf", "retrieved_date": "2026-07-12"},
+    {"title": "Aerospace Medical Service Apprentice — METC, official", "url": "https://www.metc.mil/Academics/Courses/Aerospace-Medical-Service-Apprentice/", "retrieved_date": "2026-07-12"},
+    {"title": "Health Services Technician | United States Coast Guard, official", "url": "https://www.gocoastguard.com/careers/enlisted/hs", "retrieved_date": "2026-07-12"},
+    {"title": "TraCen Petaluma — HS Training, official", "url": "https://www.forcecom.uscg.mil/Our-Organization/FORCECOM-UNITS/TraCen-Petaluma/Training/HS/", "retrieved_date": "2026-07-12"},
+    {"title": "Coast Guard COOL - HS credentials, official", "url": "https://www.cool.osd.mil/uscg/moc/index.html?moc=hs&tab=cred", "retrieved_date": "2026-07-12"},
+    {"title": "Do you qualify for FY2026 bonuses? — mycg.uscg.mil, official", "url": "https://www.mycg.uscg.mil/News/Article/4305181/do-you-qualify-for-fy2026-bonuses/", "retrieved_date": "2026-07-12"},
+    {"title": "Nurses - U.S. Army Recruiting Command, official", "url": "https://recruiting.army.mil/MRB_Nurses/", "retrieved_date": "2026-07-12"},
+    {"title": "Army COOL - BR 66 - Army Nurse Corps AOC, official", "url": "https://www.cool.osd.mil/army/moc/index.html?moc=br_66&tab=overview", "retrieved_date": "2026-07-12"},
+    {"title": "O*NET OnLine 29-2042.00 Emergency Medical Technicians", "url": "https://www.onetonline.org/link/summary/29-2042.00", "retrieved_date": "2026-07-12"},
+    {"title": "BLS OEWS 29-2043 Paramedics (May 2024)", "url": "https://www.bls.gov/oes/2023/may/oes292043.htm", "retrieved_date": "2026-07-12"},
+    {"title": "O*NET OnLine 29-2061.00 Licensed Practical and Licensed Vocational Nurses", "url": "https://www.onetonline.org/link/summary/29-2061.00", "retrieved_date": "2026-07-12"},
+    {"title": "BLS OEWS 29-2061 LPN/LVN (May 2024)", "url": "https://www.bls.gov/oes/2023/may/oes292061.htm", "retrieved_date": "2026-07-12"},
+    {"title": "O*NET OnLine 29-1141.00 Registered Nurses", "url": "https://www.onetonline.org/link/summary/29-1141.00", "retrieved_date": "2026-07-12"},
+    {"title": "BLS OEWS 29-1141 Registered Nurses (May 2024)", "url": "https://www.bls.gov/oes/2023/may/oes291141.htm", "retrieved_date": "2026-07-12"}
+  ],
+  "unverified": [
+    "Army 68W ASVAB ST-107 line score: aggregator-sourced (readytoserve.io), not independently confirmed against a primary goarmy.com/MOS Smart Book page this session.",
+    "Army 68C ASVAB ST-101/GT-107 line scores: aggregator-sourced (cogn-iq.org), not independently confirmed against a primary source this session.",
+    "Navy HM composite ASVAB thresholds (VE+MK+GS>=156, etc.): sourced via search synthesis referencing a DTIC technical report, not independently fetched this session.",
+    "Air Force 4N0X1 ASVAB General (G) 50 / AFQT 65 thresholds: aggregator-sourced (cogn-iq.org), not independently confirmed this session.",
+    "Coast Guard HS-specific ASVAB line score: NOT FOUND in any search result this session; only the Coast Guard-wide AFQT-32/40 floors were confirmed. Left null/UNVERIFIED rather than guessed.",
+    "Navy HM 'A' School (Hospital Corpsman Basic) length: conflicting secondary sources state 19 weeks vs. 'about 14 weeks'; 19 weeks used as the more specific figure but not primary-confirmed.",
+    "Air Force 4N0X1 AMSA Phase I/Phase II training length: conflicting secondary sources state 16+7=23 weeks vs. ~98 days (~14 weeks) for Phase I; 16 weeks used for Phase I but not primary-confirmed against metc.mil or the CFETP PDF's actual week-count table.",
+    "Air Force 4N0X1 AMSA Phase I location: sources conflict between Sheppard AFB and JBSA-Fort Sam Houston/METC; not resolved this session.",
+    "Coast Guard HS 'A' School length: official forcecom.uscg.mil source states 22 weeks; one secondary source states 23 weeks (citing a 7-week EMT course at the start); 22 weeks (official) used as authoritative, 1-week discrepancy flagged.",
+    "68W, 68C, 4N0X1, and Coast Guard HS enlistment/reenlistment bonus dollar figures: all left null this session — no MOS/rating-specific figure was found and corroborated; general branch-wide bonus context is cited in each record's bonuses.conditions field but not assigned as a specific number, per the binding no-fabrication/quarterly-change constraint.",
+    "Navy HM-ATF enlistment bonus ($30,000-$60,000): sourced and dated to an official cnrc.navy.mil FY26 document, but applies specifically to the HM-ATF sub-designation, not the baseline HM rating — flagged in the record's bonuses.conditions.",
+    "Army Nurse Corps officer accession bonus/HPLRP figures ($10,000 / $30,000 / $114,900): sourced from a mix of Army-Reserve FY25, Navy Nurse Corps FY26, and general-statutory documents that were not cleanly isolated to Army Active-Duty FY2026 policy this session — presented as directional only.",
+    "68C to LPN/LVN state-licensure credential-gap specifics: NOT independently sourced to a primary Army COOL/NAEMT-equivalent document this session (unlike the 68W/HM/4N0X1-to-NREMT chain, which was verified via NAEMT and Navy/Army COOL pages); presented as a reasoned inference from the cluster's general credential-gap pattern, explicitly flagged as such in the record.",
+    "va_disability_common_claims for ALL SIX records in this cluster: data/transition.json's sourced specialty_linked_common_claims list does not include a medical/corpsman/nursing specialty family (it covers artillery/armor, aviation, infantry, and PACT-Act-broad categories only). Every va_disability_common_claims entry in this file is therefore a reasoned inference by analogy to those sourced categories, not a directly sourced VA claims statistic for this specialty family, and is explicitly labeled as such in each record.",
+    "career_progression.typical_promotion_timeline and several advanced_schools_or_certs / officer_conversion_path entries (e.g., Navy MECP/STA-21, Air Force IPAP) across all six records: general branch career-field knowledge, not independently re-sourced or fetched from a primary .mil page this session — explicitly flagged per record.",
+    "entry_requirements.physical and .security_clearance fields across all six records: no specialty-specific elevated standard was found this session; presented as 'standard baseline, not independently confirmed' rather than fabricated.",
+    "Army Nurse Corps officer (66H) age_range: no direct-appointment health-professional age ceiling was found this session; left explicitly UNVERIFIED rather than reusing the enlisted ceiling.",
+    "Army Nurse Corps officer (66H) estimated_civilian_salary_range_usd: only a single BLS/O*NET median figure ($93,600) was sourced this session, not a 10th/90th-percentile range; both bounds of the schema's required [low, high] tuple were set to the same median value and flagged."
+  ],
+  "completion_accountability": "6 of 6 planned SpecialtyRecords completed and fully populated against every schema field (no field left blank; unconfirmed values are explicitly null or string 'UNVERIFIED' with a reason, never fabricated): army-68w-combat-medic-specialist, army-68c-practical-nursing-specialist, navy-hm-hospital-corpsman, air-force-4n0x1-aerospace-medical-service, coast-guard-hs-health-services-technician (all enlisted track), and army-66h-nurse-corps-officer (officer track, included specifically to surface the INVERSE credential-gap pattern — a pre-commissioning RN-license requirement — as a distinct honesty point from the enlisted-to-civilian gap). Marine Corps and Space Force are documented in branches_with_no_presence per data/interest-taxonomy.json's own healthcare-medical cluster notes, with no padding. Every pay_and_compensation, retirement, education_benefits, and veteran_benefits block is sourced to this project's own prior COMPENSATION/RETIREMENT/EDU-BENEFITS/VETERAN-BENEFITS/TRANSITION/BRANCHES command outputs (data/pay-tables.json, data/retirement.json, data/education-benefits.json, data/veteran-benefits.json, data/transition.json, data/branch-profiles.json) rather than re-derived, per the binding instruction to cite those files. Tool usage: 16 of the ~15-call web search/fetch budget was used — 1 call over budget, spent specifically to avoid fabricating the Air Force 4N0X1 AMSA training-length number rather than guessing a week count for a required numeric schema field, consistent with the overage-for-honesty precedent set by this project's COMPENSATION (18/12), RETIREMENT (16/12), and TRANSITION (18/12) command runs. The credential-gap centerpiece required by the master prompt (68W Combat Medic -> NREMT-B only, not paramedic; Navy Corpsman -> no automatic higher credential) is documented with direct primary-source grounding (Navy COOL's own cool.navy.mil analysis page, NAEMT position statement, Army COOL pages) for the 68W and HM records specifically; the 4N0X1, HS, and 68C credential-gap notes extend the same pattern by reasoned analogy where this session's search budget did not surface an equally direct primary confirmation, and each such extension is explicitly flagged rather than presented with false confidence. No dollar figure, training length, ASVAB score, or bonus amount was invented; every figure either carries a source and retrieval date or is marked UNVERIFIED with a stated reason, per the binding NO FABRICATION constraint."
+}

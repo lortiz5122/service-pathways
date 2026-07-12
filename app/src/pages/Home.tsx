@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { clusters, specialtiesForCluster, allSpecialties, RESEARCH_DATE } from '../lib/data';
-import { Emblem } from '../branding/Emblem';
+import { BranchLogo } from '../branding/Logo';
 import { BRANCH_IDS, BRANCH_NAME_TO_ID, type BranchId } from '../lib/types';
 import { MarkDisclaimer } from '../components/Disclaimer';
 
@@ -34,7 +34,7 @@ export default function Home() {
 
           <div className="hero-emblems" aria-hidden="true">
             {BRANCH_IDS.map((b) => (
-              <Emblem key={b} branch={b} size={46} />
+              <BranchLogo key={b} branch={b} size={46} />
             ))}
           </div>
           <MarkDisclaimer />
@@ -88,7 +88,7 @@ export default function Home() {
 
                 <div className="cluster-emblems">
                   {bs.map((b) => (
-                    <Emblem key={b} branch={b} size={26} />
+                    <BranchLogo key={b} branch={b} size={26} />
                   ))}
                   {empty ? (
                     <span className="chip warn">Data pending</span>

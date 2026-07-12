@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { specialtyById, branchIdOf, clusterById } from '../lib/data';
-import { Emblem } from '../branding/Emblem';
+import { BranchLogo } from '../branding/Logo';
 import { BRANCH_THEME, money, type SpecialtyRecord } from '../lib/types';
 import { Chip, Note, SectionHead, SourceNote, Value } from '../components/Bits';
 import { MarkDisclaimer } from '../components/Disclaimer';
@@ -86,7 +86,7 @@ export default function Specialty() {
       </Link>
 
       <header className="spec-hero">
-        {b ? <Emblem branch={b} size={82} /> : null}
+        {b ? <BranchLogo branch={b} size={82} /> : null}
         <div>
           <div className="spec-code">
             {s.branch} · {s.code} · {s.track}

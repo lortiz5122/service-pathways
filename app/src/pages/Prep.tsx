@@ -22,7 +22,7 @@ import {
   branchById,
 } from '../data/content';
 import { evaluate, type Tier } from '../data/eligibility';
-import { Emblem } from '../branding/Emblem';
+import { BranchLogo } from '../branding/Logo';
 import { BRANCH_THEME } from '../lib/types';
 import { Chip, Note, SectionHead, TickList } from '../components/Bits';
 import { MarkDisclaimer } from '../components/Disclaimer';
@@ -89,7 +89,7 @@ function Screener() {
                     : 'unknown';
               return (
                 <div key={r.branch} className={`eligrow ${cls}`} title={r.detail}>
-                  <Emblem branch={r.branch} size={22} />
+                  <BranchLogo branch={r.branch} size={22} />
                   <span className="nm">{t.short}</span>
                   <span className="st">{r.label}</span>
                 </div>
@@ -257,7 +257,7 @@ export default function Prep() {
               }
             >
               <header className="branch-head">
-                <Emblem branch={f.branch} size={44} />
+                <BranchLogo branch={f.branch} size={44} />
                 <div>
                   <h3>{b.name}</h3>
                   <div className="spec-code">{f.test}</div>
@@ -417,7 +417,7 @@ export default function Prep() {
       <div className="branch-strip" style={{ marginTop: 24 }}>
         {BRANCHES.map((b) => (
           <div key={b.id} className="branch-mini">
-            <Emblem branch={b.id} size={34} />
+            <BranchLogo branch={b.id} size={34} />
             <div>
               <div className="k">{b.short}</div>
               <div className="d">

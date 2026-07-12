@@ -1,0 +1,939 @@
+{
+  "command": "SPECIALTIES",
+  "cluster_id": "combat-arms",
+  "retrieved_date": "2026-07-12",
+  "specialties": [
+    {
+      "id": "army-11b-infantryman",
+      "name": "Infantryman",
+      "branch": "Army",
+      "track": "enlisted",
+      "code": "11B",
+      "interest_cluster_ids": ["combat-arms"],
+      "entry_requirements": {
+        "asvab_line_score": "CO (Combat Operations) 87. Cross-corroborated across multiple secondary sources (battalionduty.com, cogn-iq.org, operationmilitarykids.org, nationalguard.com, retrieved 2026-07-12); goarmy.com's own 11B career page returned HTTP 404 in this session and could not supply a primary-source confirmation. A minority of secondary sources cite 90 instead of 87 — treat 87 as best-corroborated, not primary-confirmed.",
+        "education": "High school diploma or GED (GED/Tier 2 applicants face a lower accession cap and generally need AFQT 50 vs. 31 for diploma holders, per this project's PREP doc, retrieved 2026-07-12).",
+        "age_range": "17-35, per secondary-source corroboration (allveteran.com, operationmilitarykids.org, retrieved 2026-07-12). Not independently confirmed against a primary goarmy.com enlistment-eligibility page this session; general Army enlistment age policy can shift and should be reconfirmed at time of application.",
+        "physical": "Must pass the Occupational Physical Assessment Test (OPAT) at MEPS; combat MOS such as 11B require the Heavy strength-demand category (directly confirmed for the related 13B MOS this session; extended here to 11B as a widely-documented, stable Army-wide OPAT categorization, not independently re-confirmed for 11B specifically). Physical profile of 111221 and correctable vision of 20/20 in one eye / 20/100 in the other are commonly cited entry standards (secondary-sourced). As one of the Army's 21 designated combat MOS/AOCs, 11B Soldiers are held to the sex-neutral Army Fitness Test (AFT) combat standard: 5 events (3-Rep-Max Deadlift, Hand-Release Push-Up, Sprint-Drag-Carry, Plank, Two-Mile Run), minimum 60/event, minimum 350 total points, age-normed but NOT sex-normed. Combat standard is enforceable January 1, 2026 (active component) / June 1, 2026 (Guard/Reserve). Source: army.mil/aft and this project's prep-pathway.md, retrieved 2026-07-12. This supersedes the retired Army Combat Fitness Test (ACFT) — do not cite ACFT standards for this MOS.",
+        "security_clearance": "UNVERIFIED — not independently confirmed at the MOS level this session. Unlike intelligence/cyber MOS, infantry accession does not appear to require clearance-eligibility screening as an enlistment gate; some operational billets may require Secret-level eligibility for unit weapons/communications systems access post-arrival, but this was not sourced to primary confidence.",
+        "other": "Must pass OPAT Heavy category before shipping to OSUT (secondary-sourced, not independently confirmed for 11B specifically this session)."
+      },
+      "training_pipeline": [
+        {
+          "stage": "One Station Unit Training (OSUT) — combines Basic Combat Training and Advanced Individual Training",
+          "location": "Fort Moore (formerly Fort Benning), Georgia",
+          "length_weeks": 22,
+          "description": "22 weeks combining 10 weeks Basic Combat Training with 12 weeks Advanced Individual Training. Covers squad tactical training, urban terrain operations, night land navigation, landmine warfare, anti-armor/anti-tank techniques, and tactical combat casualty care. Cross-corroborated across battalionduty.com and operationmilitarykids.org (retrieved 2026-07-12); not independently confirmed via a primary goarmy.com MOS page this session (that page returned HTTP 404)."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.80,
+        "methodology_note": "Computed, not authoritative. Equals (E-1 <2yr base pay $2,407.20/mo x 12) + (enlisted BAS $476.95/mo x 12) = $34,609.80. Deliberately EXCLUDES Basic Allowance for Housing (BAH), which is duty-station-specific and cannot be reduced to a single national number per this project's pay-tables.json methodology — this total therefore materially UNDERSTATES true compensation for any Soldier drawing BAH. Also excludes the non-cash value of DoD's TSP contribution and TRICARE.",
+        "source": "data/pay-tables.json (this project's COMPENSATION output, ultimately citing military.com and navycs.com transcriptions of the DFAS 2026 pay table; primary militarypay.defense.gov/dfas.mil returned HTTP 403 in that research pass)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED. Enlistment and reenlistment bonuses for combat-arms MOS are set quarterly by Army accession needs and were not sourced to a current, dated figure in this session, per the binding project constraint against quoting stale bonus data. Historically 11B has carried enlistment bonuses in some quarters. Verify the current amount directly with a recruiter or on goarmy.com at time of enlistment.",
+        "source": "UNVERIFIED — no current-quarter figure sourced this session",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "General, not MOS-specific: E-1 to E-4 (Specialist/Corporal) commonly within roughly 24-36 months under standard time-in-grade/time-in-service norms; E-5 (Sergeant) board eligibility typically follows in the 3-5 year range. This reflects well-documented, structurally stable Army-wide enlisted promotion policy, not a figure independently re-fetched from a primary army.mil source this session — treat as directional/typical.",
+        "reenlistment_decision_points": [
+          "End of initial 2-4 year contract (commonly ~36 months in)",
+          "Mid-career (roughly 8-12 years), when Soldiers weigh continued service against civilian transition before deeper investment",
+          "Approach to the 20-year retirement-eligibility cliff"
+        ],
+        "advanced_schools_or_certs": [
+          "Basic Leader Course (BLC)",
+          "Advanced Leader Course (ALC)",
+          "Senior Leader Course (SLC)",
+          "Airborne School (voluntary, competitive)",
+          "Ranger School (voluntary, highly competitive; open to any MOS but heavily represented by infantry)"
+        ],
+        "officer_conversion_path": "Green to Gold (ROTC) for Soldiers pursuing a bachelor's degree; Officer Candidate School (OCS) for those who already hold one; Special Forces (18-series) selection is a separate reclassification/accession pipeline, not strictly an 11B-to-officer path.",
+        "source": "General, structurally stable Army enlisted career-progression policy; cross-referenced against battalionduty.com. Not independently re-fetched from a primary army.mil source this session.",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years of service — there is no prorated pension for separating even one day short. DoD's own language: the defined-benefit component is 'entirely forfeited' below 20 years. TSP savings (your own contributions, DoD's 1% automatic contribution after 2 YOS, and DoD's match after 2 YOS) are always fully portable regardless of when you separate. Source: data/retirement.json, citing myarmybenefits.us.army.mil, retrieved 2026-07-12.",
+        "continuation_pay_note": "Army's published continuation-pay window is between completion of the 7th and before completion of the 12th year of service (the original DoD-wide statutory window is years 8-12; Army has moved earlier). Active-component rate: 2.5x monthly basic pay, one-time payout, requiring a 4-year additional service obligation (Army-specific; the DoD statutory minimum obligation is 3 years). Source: data/retirement.json, retrieved 2026-07-12.",
+        "guard_reserve_points_note": "LABELED — NOT interchangeable with active-duty retirement. Guard/Reserve earn 1 point/drill, 1 point/active-duty day, plus up to 15 membership points/year; a 'good year' requires 50+ points; 20 qualifying years earns a pension that (with limited exceptions) cannot be collected until age 60. Source: data/retirement.json, retrieved 2026-07-12.",
+        "lump_sum_option_note": "At 20+ years, a retiree may elect a 25% or 50% lump-sum payout of the discounted present value of future retired pay, in exchange for reduced monthly pay until Social Security Full Retirement Age (~67), when the full monthly amount resumes. The lump sum is fully taxable in the year received. Source: data/retirement.json, retrieved 2026-07-12.",
+        "source": "data/retirement.json (this project's RETIREMENT output)",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide eligibility (up to 180 days in the final 180 days on active duty), but the real gate is unit-commander approval, which is discretionary and can be denied based on unit mission/staffing needs (DoDI 1322.29). Combat-arms units' training and deployment tempo is a plausible practical factor in approval likelihood — this specific inference was not independently sourced this session and should be treated as directional, not confirmed. Source: data/transition.json, retrieved 2026-07-12.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program covering benefits, employment prep, education, and entrepreneurship; must begin no later than 365 days before separation; includes Pre-Separation Counseling, a VA Benefits I course, a DOL employment workshop, an optional 2-day track (Higher Education / Vo-Tech / Entrepreneurship), and a Capstone confirming Career Readiness Standards are met. Source: data/transition.json, retrieved 2026-07-12.",
+        "dd214_significance": "The DD-214's 'character of service' entry (Block 24) gates nearly every downstream benefit — VA disability, VA healthcare priority group, GI Bill, VA home loan COE, federal hiring preference, and most state veteran benefits. Certified replacement copies remain obtainable for life via the National Archives. Source: data/transition.json, retrieved 2026-07-12.",
+        "va_disability_common_claims": [
+          "Knee conditions, lumbar/lower-back strain, plantar fasciitis and other foot conditions, and shoulder conditions — from cumulative musculoskeletal load of rucking, airborne/air-assault operations, and repetitive high-impact movement over a career (sourced: data/transition.json, 'Infantry and other dismounted combat arms' claim family)",
+          "PTSD and traumatic brain injury (TBI) — well-documented as materially elevated for combat-arms veterans generally in VA's published claims data; NOT individually broken out in data/transition.json's specialty-linked claim families (which cover hearing/musculoskeletal/respiratory but do not itemize PTSD/TBI by specialty). Included here per this cluster's explicit brief; flagged as a general combat-veteran claim category, not a specialty-specific sourced figure from this session's fetched data.",
+          "Tinnitus from small-arms weapons fire is plausible for infantry (versus the crew-served/large-caliber exposure that data/transition.json attributes primarily to artillery, armor, and aviation) but was not the claim family transition.json assigned to dismounted infantry specifically — noted directionally, not as a primary-sourced claim for 11B."
+        ],
+        "vr_e_eligibility_note": "Chapter 31 (VR&E) requires a 20%+ service-connected disability rating creating an 'employment handicap,' generally filed within a 12-year window from separation or first rating. Funds an approved training/rehabilitation plan plus a monthly subsistence allowance (FY2026 max $3,439.23/mo per data/transition.json). Draws from a separate entitlement bucket than the Post-9/11 GI Bill, so using VR&E does not reduce GI Bill months. Source: data/transition.json, retrieved 2026-07-12.",
+        "source": "data/transition.json (this project's TRANSITION output)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "55-3016.00 Infantry (military-specific O*NET-SOC code)",
+          "33-3051.00 Police and Sheriff's Patrol Officers",
+          "33-9032.00 Security Guards",
+          "33-3012.00 Correctional Officers and Jailers",
+          "33-1011.00 First-Line Supervisors of Correctional Officers",
+          "33-1021.00 First-Line Supervisors of Firefighting and Prevention Workers",
+          "33-2011.00 Firefighters",
+          "47-2061.00 Construction Laborers",
+          "53-3033.00 Light Truck Drivers"
+        ],
+        "example_civilian_titles": ["Police officer", "Corrections officer", "Security supervisor", "Firefighter", "Construction laborer"],
+        "relevant_certifications": [
+          "State POST (Peace Officer Standards and Training) academy certification — 11B experience does NOT substitute for the academy; full attendance is typically still required (extrapolated from data/transition.json's Military Police credential-gap example, which notes even MPs — who have more formal law-enforcement training than infantry — generally cannot waive the academy)",
+          "Commercial Driver's License (CDL) — 11B is not a documented FMCSA-qualifying driving MOS, so the FMCSA Military Skills Test Waiver (which excuses only the road skills test, not the written knowledge test) likely does not apply; not independently confirmed this session",
+          "OSHA 10/30-Hour Construction Safety certification"
+        ],
+        "estimated_civilian_salary_range_usd": [42470, 79280],
+        "credential_gap_note": "Infantry has one of the weakest direct-to-civilian-license crosswalks of any specialty in this dataset. No civilian occupation legally requires or licenses 'infantryman' skills. The O*NET crosswalk maps 11B to police officer, corrections officer, security guard, and firefighter NOT because infantry training confers those licenses, but because shared underlying qualities — discipline, small-team performance under stress, weapons familiarity, physical readiness — make an 11B veteran a competitive APPLICANT. Every one of those fields still requires its own full state-mandated academy, certification exam, or licensing process from scratch; per this project's transition.json, even Military Police (which has substantially more formal law-enforcement procedural and legal training than infantry) generally cannot waive a state police academy. What 11B genuinely and reliably transfers without a civilian license is leadership experience, extraordinary discipline/reliability, a security clearance if one was held, and GI Bill/VA benefit eligibility — not a trade credential. Do not present this MOS as having a 'natural' civilian trade.",
+        "source": "onetonline.org Military Crosswalk Search (fetched 2026-07-12) for O*NET codes; BLS Occupational Employment and Wage Statistics, May 2025 release (published 2026-05-15, retrieved via search 2026-07-12) for the salary range; data/transition.json credential_gap section for the MP-comparison reasoning",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit scales in tiers by cumulative qualifying active-duty days: 100% at 36+ months (or Purple Heart, or service-connected-disability discharge after 30+ days), stepping down to 50% at the 90-day/3-month floor. There is no tier below 50%. Source: data/veteran-benefits.json and data/education-benefits.json, retrieved 2026-07-12.",
+        "gi_bill_transferability_note": "Transfer to spouse/dependent children (up to 36 months combined) requires 6+ years of service at approval AND agreeing to 4 additional years of service obligation — a real service-incurring commitment, not paperwork-only. Must be initiated via milConnect while still serving; cannot be started after separation. Purple Heart recipients are exempt from both the 6-year and 4-year requirements. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "va_home_loan_note": "Full-entitlement veterans (no prior unrestored VA loan) face no VA-imposed loan cap and generally no down payment or monthly PMI — the lender's own credit/income/DTI criteria are the real constraint. A one-time VA funding fee applies (2.15% first use with <5% down, as of the 2023-04-07 schedule) unless exempt, e.g. for veterans receiving VA disability compensation. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on disability rating, combat service, income, and other factors; combat veterans get a 10-year window of enhanced eligibility from discharge. Higher-rated service-connected disabilities (50%+, Group 1) mean no copays for any VA care. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "state_benefit_variance_note": "NOT a single national number. Example spread confirmed directly from state sources: a 100%-disabled veteran gets a full homestead property-tax exemption in Texas (Tax Code §11.131) versus a flat $100,000 assessed-value exemption in California (Rev. & Tax. Code §205.5) — a structurally different and often smaller benefit. Always verify against the veteran's actual state of legal residence. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "source": "data/veteran-benefits.json (this project's VETERAN-BENEFITS output)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill covers full net tuition/fees with no cap at public schools (in-state rate applies regardless of residency) or up to $29,920.95/year at private/foreign schools (2025-2026 AY), plus a zip-code-based Monthly Housing Allowance and up to $1,000/year book stipend, prorated by the eligibility tier above. Source: data/education-benefits.json, retrieved 2026-07-12.",
+        "tuition_assistance": "Army Tuition Assistance: $250/semester-hour, capped at $4,500/fiscal year, for off-duty college coursework while still serving. Army tightened TA usage rules in 2025-2026 (branch-specific semester-hour usage limits reported but not independently primary-confirmed this session). Source: data/education-benefits.json, retrieved 2026-07-12.",
+        "credentialing_assistance": "Army Credentialing Assistance (Army COOL): up to $2,000/fiscal year (reduced from $4,000 in 2024), reportedly capped at 3 credentials per 10 years of service. Army COOL's MOS-specific credential list for 11B was not independently searched this session — combat-arms MOS in general tend to have a thinner COOL-eligible credential list than technical MOS, which reinforces this record's credential-gap finding rather than offsetting it.",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Combat-arms units generally carry a higher and more rotational operational tempo than most support MOS — recurring field training exercises, combat training center rotations, and deployment cycles. A specific current dwell-time ratio (deployed-to-home time) was not sourced to primary confidence this session; treat this description as directional/qualitative, drawn from this cluster's own aptitude-signal framing in data/interest-taxonomy.json (retrieved 2026-07-12), not a dated operational-tempo statistic.",
+        "family_considerations": "Extended field time, training rotations, and deployments mean more time away from family than many support MOS. Housing and schooling continuity can be affected by the unit's training and deployment calendar."
+      },
+      "visual_assets": {
+        "branch_logo_id": "army-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Army infantry OSUT training Fort Moore", "11B infantryman field exercise", "infantry squad tactical training"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        { "title": "11B Infantryman MOS: Pay, Training & Requirements (2026) — Battalion Duty", "url": "https://battalionduty.com/careers/enlisted/infantry/11b-infantryman/", "retrieved_date": "2026-07-12" },
+        { "title": "Army Infantryman MOS 11B Guide (2026 Update) — Operation Military Kids", "url": "https://www.operationmilitarykids.org/army-infantryman-mos-11b/", "retrieved_date": "2026-07-12" },
+        { "title": "11B Infantryman — Army ASVAB Requirements — Cogn-IQ", "url": "https://www.cogn-iq.org/military-jobs/army-11b/", "retrieved_date": "2026-07-12" },
+        { "title": "Army Fitness Test — official (fetch attempted, returned HTTP 403; details corroborated via this project's prep-pathway.md)", "url": "https://www.army.mil/aft/", "retrieved_date": "2026-07-12" },
+        { "title": "O*NET OnLine Military Crosswalk Search — code 11B", "url": "https://www.onetonline.org/crosswalk/MOC/?s=11B", "retrieved_date": "2026-07-12" },
+        { "title": "BLS Occupational Employment and Wage Statistics, May 2025 national release", "url": "https://www.bls.gov/news.release/ocwage.t01.htm", "retrieved_date": "2026-07-12" },
+        { "title": "This project's compensation-model / pay-tables.json (COMPENSATION output)", "url": "data/pay-tables.json", "retrieved_date": "2026-07-12" },
+        { "title": "This project's retirement.json (RETIREMENT output)", "url": "data/retirement.json", "retrieved_date": "2026-07-12" },
+        { "title": "This project's transition.json (TRANSITION output)", "url": "data/transition.json", "retrieved_date": "2026-07-12" },
+        { "title": "This project's veteran-benefits.json (VETERAN-BENEFITS output)", "url": "data/veteran-benefits.json", "retrieved_date": "2026-07-12" },
+        { "title": "This project's education-benefits.json (EDU-BENEFITS output)", "url": "data/education-benefits.json", "retrieved_date": "2026-07-12" }
+      ]
+    },
+    {
+      "id": "army-19k-armor-crewman",
+      "name": "M1 Armor Crewman",
+      "branch": "Army",
+      "track": "enlisted",
+      "code": "19K",
+      "interest_cluster_ids": ["combat-arms"],
+      "entry_requirements": {
+        "asvab_line_score": "CO (Combat Operations) 87. Cross-corroborated across secondary sources (operationmilitarykids.org, liveabout.com, nationalguard.com, retrieved 2026-07-12); goarmy.com's specific 19K page returned HTTP 404 this session and could not supply primary confirmation.",
+        "education": "High school diploma or GED (GED/Tier 2 subject to the lower accession cap and higher AFQT floor described in this project's PREP doc).",
+        "age_range": "17-35, per secondary-source corroboration (same sources as 11B). Not independently confirmed against a primary source this session.",
+        "physical": "Cannot exceed 6'1\" in height (turret/hatch space constraint, secondary-sourced); requires normal color vision and correctable vision of 20/20 in one eye / 20/100 in the other. As one of the Army's 21 designated combat MOS/AOCs (armor is explicitly named in secondary reporting on the AFT combat-MOS list, e.g. clearancejobs.com citing the Army's own AFT Commanders Guide), 19K Soldiers are held to the sex-neutral AFT combat standard: 5 events, minimum 60/event, minimum 350 total, age-normed but not sex-normed, enforceable January 1, 2026 (active) / June 1, 2026 (Guard/Reserve). Source: this project's prep-pathway.md and army.mil/aft (direct fetch returned 403 this session), retrieved 2026-07-12. Supersedes the retired ACFT.",
+        "security_clearance": "UNVERIFIED — not independently confirmed at the MOS level this session.",
+        "other": "OPAT physical-demand category not independently confirmed for 19K specifically this session (13B was directly confirmed as 'Heavy'; armor crew duties plausibly fall in a similar high-demand category but this is not independently sourced for 19K)."
+      },
+      "training_pipeline": [
+        {
+          "stage": "One Station Unit Training (OSUT) — combines Basic Combat Training and Advanced Individual Training",
+          "location": "Fort Moore (formerly Fort Benning), Georgia",
+          "length_weeks": 22,
+          "description": "Combination of field-simulated combat and classroom instruction covering M1 Abrams tank operations, armor offensive/defensive tactics, field combat strategy, map reading, and scouting techniques. Length reported as 22 weeks by most cross-corroborated secondary sources, though at least one source cites 15 weeks — flagged as a minority/lower-confidence figure. Not independently confirmed via a primary goarmy.com MOS page this session (404 on fetch).",
+          "length_weeks_note": "UNVERIFIED precision — 22 weeks is the majority-corroborated figure; a minority source states 15 weeks."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.80,
+        "methodology_note": "Computed, not authoritative. Equals (E-1 <2yr base pay $2,407.20/mo x 12) + (enlisted BAS $476.95/mo x 12) = $34,609.80. Excludes BAH (duty-station-specific) and non-cash TSP/TRICARE value; therefore understates true total compensation.",
+        "source": "data/pay-tables.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED. Bonus amounts change quarterly and were not sourced to a current, dated figure in this session. Verify with a recruiter or goarmy.com at time of enlistment.",
+        "source": "UNVERIFIED — no current-quarter figure sourced this session",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "Same general Army enlisted structure as other combat-arms MOS: E-1 to E-4 commonly within ~24-36 months; E-5 board eligibility around the 3-5 year mark. Directional/typical, not independently re-fetched from a primary source this session.",
+        "reenlistment_decision_points": [
+          "End of initial 2-4 year contract",
+          "Mid-career (~8-12 years)",
+          "Approach to the 20-year retirement cliff"
+        ],
+        "advanced_schools_or_certs": [
+          "Basic Leader Course (BLC)",
+          "Advanced Leader Course (ALC)",
+          "Senior Leader Course (SLC)",
+          "Master Gunner Course (advanced tank-crew qualification track)"
+        ],
+        "officer_conversion_path": "Green to Gold (ROTC) or OCS for Soldiers with/pursuing a bachelor's degree; no armor-specific officer conversion track beyond the standard Army commissioning sources.",
+        "source": "General Army enlisted career-progression policy; not independently re-fetched from a primary source this session.",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing at 20 years; the defined-benefit pension is 'entirely forfeited' below that mark, per DoD's own language. TSP money is always portable regardless of separation timing. Source: data/retirement.json, retrieved 2026-07-12.",
+        "continuation_pay_note": "Army's window: completion of year 7 through before year 12; 2.5x monthly basic pay, one-time, with a 4-year additional service obligation. Source: data/retirement.json, retrieved 2026-07-12.",
+        "guard_reserve_points_note": "LABELED — NOT interchangeable with active duty. Points-based system; 50+ points/year is a 'good year'; 20 qualifying years earns a pension generally payable starting at age 60. Source: data/retirement.json, retrieved 2026-07-12.",
+        "lump_sum_option_note": "25% or 50% lump-sum option at 20+ years, trading a discounted lump sum for reduced monthly pay until Social Security Full Retirement Age. Source: data/retirement.json, retrieved 2026-07-12.",
+        "source": "data/retirement.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide eligibility subject to unit-commander approval (the real gate); up to 180 days in the final 180 days of active duty. Source: data/transition.json, retrieved 2026-07-12.",
+        "tap_program_summary": "Mandatory DoD-wide TAP; must begin no later than 365 days before separation; includes Pre-Separation Counseling, VA Benefits I, a DOL employment workshop, an optional 2-day track, and a Capstone. Source: data/transition.json, retrieved 2026-07-12.",
+        "dd214_significance": "Block 24 characterization of service gates nearly every downstream federal, VA, and state veteran benefit. Source: data/transition.json, retrieved 2026-07-12.",
+        "va_disability_common_claims": [
+          "Tinnitus and bilateral hearing loss — data/transition.json explicitly attributes this claim family to 'Artillery, armor, and other crew-served-weapons combat arms,' i.e. directly applicable to 19K; sustained proximity to main-gun and coaxial machine-gun fire without consistent full-time hearing protection is the cited mechanism. Tinnitus is VA's single most-compensated condition nationwide (3.5M+ veterans rated as of 2025 per data/transition.json).",
+          "PTSD and traumatic brain injury (TBI) — TBI is a particularly plausible risk for mounted armor crews (blast/impact exposure while inside a vehicle). Not individually itemized by specialty in data/transition.json's sourced claim families; included per this cluster's brief and general VA-published claims patterns for combat veterans, flagged as not primary-sourced to a 19K-specific figure this session."
+        ],
+        "vr_e_eligibility_note": "Chapter 31 (VR&E): 20%+ service-connected rating with an employment handicap, generally within a 12-year window; funds training plus a monthly subsistence allowance (FY2026 max $3,439.23/mo); separate entitlement bucket from the Post-9/11 GI Bill. Source: data/transition.json, retrieved 2026-07-12.",
+        "source": "data/transition.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "55-3013.00 Armored Assault Vehicle Crew Members (military-specific O*NET-SOC code)",
+          "49-3023.00 Automotive Service Technicians and Mechanics",
+          "49-3011.00 Aircraft Mechanics and Service Technicians",
+          "53-3032.00 Heavy and Tractor-Trailer Truck Drivers",
+          "47-2073.00 Operating Engineers and Other Construction Equipment Operators",
+          "33-3012.00 Correctional Officers and Jailers",
+          "33-9032.00 Security Guards",
+          "49-9044.00 Millwrights",
+          "47-5032.00 Explosives Workers, Ordnance Handling Experts, and Blasters"
+        ],
+        "example_civilian_titles": ["Heavy equipment operator", "Automotive/diesel technician", "CDL truck driver", "Security supervisor", "Corrections officer"],
+        "relevant_certifications": [
+          "Commercial Driver's License (CDL) — armor crew driving experience on tracked vehicles is not the same regulatory category as commercial motor vehicles; whether 19K qualifies for the FMCSA Military Skills Test Waiver (which excuses only the road skills test) was not independently confirmed this session — do not assume automatic eligibility",
+          "ASE (Automotive Service Excellence) certification for the automotive-technician crosswalk path — military crew-level maintenance training does not automatically confer ASE certification; separate exams required",
+          "State POST academy certification for the security/corrections crosswalk path — full academy attendance is typically still required"
+        ],
+        "estimated_civilian_salary_range_usd": [42470, 79280],
+        "credential_gap_note": "Armor crew duty does not map to a single licensed civilian trade. The O*NET crosswalk splits across heavy-equipment/mechanical trades (operating engineer, automotive technician, CDL driver) and security/corrections roles — a wider but shallower spread than a technical MOS with a direct certification path. None of these are automatically conferred: CDL requires passing a state written knowledge test regardless of any skills-test waiver eligibility; automotive certifications (ASE) require separate proctored exams; security/corrections roles require state academy attendance. The tank-specific skills (gunnery, mounted maneuver, crew coordination) themselves have no civilian licensing equivalent at all — they transfer as leadership, mechanical aptitude, and discipline, not as a credential.",
+        "source": "onetonline.org Military Crosswalk Search (fetched 2026-07-12); BLS OEWS May 2025 (retrieved via search 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill scales 50%-100% by cumulative active-duty days, with no tier below 50%. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "gi_bill_transferability_note": "Transfer to dependents requires 6+ years of service and a 4-year additional service obligation, initiated via milConnect while still serving. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "va_home_loan_note": "Full-entitlement veterans generally face no VA loan cap and no required down payment/PMI, subject to lender underwriting; a funding fee applies unless exempt (e.g., for VA-disability-compensated veterans). Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "va_healthcare_priority_group_note": "8 priority groups keyed to disability rating, combat service, and income; combat veterans get a 10-year enhanced-eligibility window from discharge. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "state_benefit_variance_note": "NOT a single national number — e.g. full homestead property-tax exemption for 100%-disabled veterans in Texas versus a flat $100,000 assessed-value exemption in California. Verify against the veteran's state of legal residence. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "source": "data/veteran-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill covers full public-school tuition/fees or up to $29,920.95/year private/foreign (2025-2026 AY), plus zip-code-based housing allowance and book stipend. Source: data/education-benefits.json, retrieved 2026-07-12.",
+        "tuition_assistance": "Army TA: $250/semester-hour, $4,500/fiscal-year cap, subject to 2025-2026 usage-rule tightening. Source: data/education-benefits.json, retrieved 2026-07-12.",
+        "credentialing_assistance": "Army COOL: up to $2,000/fiscal year. 19K's specific COOL-eligible credential list (e.g., automotive/heavy-equipment certifications) was not independently searched this session.",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Higher, more rotational tempo typical of combat-arms units — gunnery ranges, maneuver training center rotations, and deployment cycles. Not sourced to a specific dated dwell-time ratio this session; qualitative description only.",
+        "family_considerations": "Extended field/range time and deployment cycles reduce time at home relative to many support MOS."
+      },
+      "visual_assets": {
+        "branch_logo_id": "army-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["M1 Abrams tank crew training", "19K armor crewman gunnery", "armor OSUT Fort Moore"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        { "title": "Army M1 Armor Crewman MOS 19K Career Guide For 2026 — Operation Military Kids", "url": "https://www.operationmilitarykids.org/army-m1-armor-crewman-mos-19k/", "retrieved_date": "2026-07-12" },
+        { "title": "Duties and Qualifications For 19K, M1 Armor Crewman Job — LiveAbout", "url": "https://www.liveabout.com/19k-m1-armor-crewman-3345947", "retrieved_date": "2026-07-12" },
+        { "title": "No More ACFT: Army Unveils Fitness Test for Combat Roles — ClearanceJobs", "url": "https://news.clearancejobs.com/2025/04/23/no-more-acft-army-unveils-fitness-test-for-combat-roles-heres-whats-changing/", "retrieved_date": "2026-07-12" },
+        { "title": "19K MOS M1 Armor Crewmember (Army): Civilian Jobs + Salary — Military Transition Toolkit", "url": "https://www.militarytransitiontoolkit.com/mos/19k-m1-armor-crewmember", "retrieved_date": "2026-07-12" },
+        { "title": "O*NET OnLine Military Crosswalk Search — code 19K", "url": "https://www.onetonline.org/crosswalk/MOC/?s=19K", "retrieved_date": "2026-07-12" },
+        { "title": "BLS Occupational Employment and Wage Statistics, May 2025 national release", "url": "https://www.bls.gov/news.release/ocwage.t01.htm", "retrieved_date": "2026-07-12" },
+        { "title": "This project's pay-tables.json / retirement.json / transition.json / veteran-benefits.json / education-benefits.json", "url": "data/", "retrieved_date": "2026-07-12" }
+      ]
+    },
+    {
+      "id": "army-13b-cannon-crewmember",
+      "name": "Cannon Crewmember",
+      "branch": "Army",
+      "track": "enlisted",
+      "code": "13B",
+      "interest_cluster_ids": ["combat-arms"],
+      "entry_requirements": {
+        "asvab_line_score": "FA (Field Artillery) 93. Directly confirmed via operationmilitarykids.org (retrieved 2026-07-12), cross-corroborated by cogn-iq.org. FA combines Arithmetic Reasoning, Coding Speed, Mechanical Comprehension, and Mathematics Knowledge subtests. Not independently confirmed via a primary goarmy.com page this session (that MOS-specific page did not return detailed requirements on fetch).",
+        "education": "High school diploma or GED (GED/Tier 2 subject to the lower accession cap described in this project's PREP doc).",
+        "age_range": "17-35, per secondary-source corroboration consistent with other Army combat-arms MOS. Not independently confirmed against a primary source this session.",
+        "physical": "Confirmed 'Heavy' physical-demand category on the Occupational Physical Assessment Test (OPAT) — must pass Heavy category at MEPS before shipping (operationmilitarykids.org, retrieved 2026-07-12). No security clearance required for entry. As one of the Army's 21 designated combat MOS/AOCs (Field Artillery direct-fire/crew roles are referenced in secondary reporting on the AFT combat-MOS list), 13B Soldiers are held to the sex-neutral AFT combat standard: 5 events, minimum 60/event, minimum 350 total, age-normed but not sex-normed, enforceable January 1, 2026 (active) / June 1, 2026 (Guard/Reserve). Supersedes the retired ACFT. Source: this project's prep-pathway.md, retrieved 2026-07-12.",
+        "security_clearance": "None required for entry (directly stated by operationmilitarykids.org, retrieved 2026-07-12).",
+        "other": "Must pass OPAT Heavy category before shipping to OSUT."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Basic Combat Training",
+          "location": "Fort Sill, Oklahoma",
+          "length_weeks": 10,
+          "description": "Standard Army Basic Combat Training preceding MOS-specific Advanced Individual Training. Source: operationmilitarykids.org, retrieved 2026-07-12."
+        },
+        {
+          "stage": "Advanced Individual Training (Cannon Crewmember)",
+          "location": "Fort Sill, Oklahoma",
+          "length_weeks": 7,
+          "description": "Field and classroom instruction on howitzer crew operations, ammunition handling, and manual/instrument target calculation methods. Total pipeline (BCT + AIT) is 17 weeks per operationmilitarykids.org (retrieved 2026-07-12). Note: a separate secondary source cited a conflicting 14-week AIT figure in the same search pass; the 7-week figure is used here because it came from a source that explicitly itemized both BCT and AIT weeks consistently (10+7=17 total), while the 14-week citation appeared alongside an internally inconsistent 9-week BCT figure. Flagged as not primary-confirmed via goarmy.com."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.80,
+        "methodology_note": "Computed, not authoritative. Equals (E-1 <2yr base pay $2,407.20/mo x 12) + (enlisted BAS $476.95/mo x 12) = $34,609.80. Excludes duty-station-specific BAH and non-cash TSP/TRICARE value.",
+        "source": "data/pay-tables.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED. Bonus amounts change quarterly and were not sourced to a current, dated figure. Verify with a recruiter or goarmy.com at time of enlistment.",
+        "source": "UNVERIFIED — no current-quarter figure sourced this session",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "Same general Army enlisted structure as other combat-arms MOS: E-1 to E-4 commonly within ~24-36 months; E-5 board eligibility around 3-5 years. Directional/typical, not independently re-fetched this session.",
+        "reenlistment_decision_points": [
+          "End of initial 2-4 year contract",
+          "Mid-career (~8-12 years)",
+          "Approach to the 20-year retirement cliff"
+        ],
+        "advanced_schools_or_certs": [
+          "Basic Leader Course (BLC)",
+          "Advanced Leader Course (ALC)",
+          "Senior Leader Course (SLC)",
+          "Advanced Gunnery / Fire Direction schooling for career progression within the 13-series field"
+        ],
+        "officer_conversion_path": "Green to Gold (ROTC) or OCS; Field Artillery officer accession follows the standard Army commissioning sources, not a 13B-specific conversion track.",
+        "source": "General Army enlisted career-progression policy; not independently re-fetched this session.",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing at 20 years; pension 'entirely forfeited' below that. TSP is always portable. Source: data/retirement.json, retrieved 2026-07-12.",
+        "continuation_pay_note": "Army's window: year 7 through before year 12; 2.5x monthly basic pay, one-time, 4-year additional service obligation. Source: data/retirement.json, retrieved 2026-07-12.",
+        "guard_reserve_points_note": "LABELED — NOT interchangeable with active duty. Points-based; 50+ points = good year; pension generally payable from age 60. Source: data/retirement.json, retrieved 2026-07-12.",
+        "lump_sum_option_note": "25%/50% lump-sum option at 20+ years, trading a discounted lump sum for reduced monthly pay until Social Security Full Retirement Age. Source: data/retirement.json, retrieved 2026-07-12.",
+        "source": "data/retirement.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide eligibility subject to unit-commander approval (the real gate); up to 180 days in the final 180 days of active duty. Source: data/transition.json, retrieved 2026-07-12.",
+        "tap_program_summary": "Mandatory DoD-wide TAP beginning no later than 365 days before separation; VA Benefits I, DOL employment workshop, optional 2-day track, Capstone. Source: data/transition.json, retrieved 2026-07-12.",
+        "dd214_significance": "Block 24 characterization of service gates nearly every downstream veteran benefit. Source: data/transition.json, retrieved 2026-07-12.",
+        "va_disability_common_claims": [
+          "Tinnitus and bilateral hearing loss — data/transition.json's PRIMARY-cited claim family for 'Artillery, armor, and other crew-served-weapons combat arms,' from sustained proximity to large-caliber weapons fire without consistent full-time hearing protection in the field. Tinnitus is VA's single most-compensated condition nationwide (3.5M+ veterans rated as of 2025).",
+          "PTSD and traumatic brain injury (TBI) — well-documented general combat-veteran claim categories; not individually itemized by specialty in data/transition.json's sourced claim families. Included per this cluster's brief; flagged as not primary-sourced to a 13B-specific figure this session."
+        ],
+        "vr_e_eligibility_note": "Chapter 31 (VR&E): 20%+ rating with an employment handicap, generally within a 12-year window; funds training plus a monthly subsistence allowance (FY2026 max $3,439.23/mo); separate entitlement bucket from the Post-9/11 GI Bill. Source: data/transition.json, retrieved 2026-07-12.",
+        "source": "data/transition.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "55-3014.00 Artillery and Missile Crew Members (military-specific O*NET-SOC code)",
+          "11-1021.00 General and Operations Managers",
+          "11-9161.00 Emergency Management Directors",
+          "49-1011.00 First-Line Supervisors of Mechanics, Installers, and Repairers",
+          "51-1011.00 First-Line Supervisors of Production and Operating Workers",
+          "47-2073.00 Operating Engineers and Other Construction Equipment Operators",
+          "51-8013.00 Power Plant Operators",
+          "53-3032.00 Heavy and Tractor-Trailer Truck Drivers",
+          "29-2042.00 Emergency Medical Technicians",
+          "33-2011.00 Firefighters"
+        ],
+        "example_civilian_titles": ["Heavy equipment operator", "Production/operations supervisor", "Power plant operator", "CDL truck driver", "Emergency management coordinator"],
+        "relevant_certifications": [
+          "Commercial Driver's License (CDL) — separate state written knowledge test required regardless of any skills-test-waiver eligibility, which was not independently confirmed for 13B this session",
+          "OSHA construction/industrial safety certifications for the operating-engineer/production-supervisor crosswalk path",
+          "EMT-Basic (NREMT) for the emergency-medical crosswalk entry — this is a skills adjacency, not something 13B training directly confers; a full separate NREMT certification track is required (see data/transition.json's medic credential-gap example for the general pattern)"
+        ],
+        "estimated_civilian_salary_range_usd": [42470, 79280],
+        "credential_gap_note": "Field artillery has no direct civilian licensing equivalent — there is no civilian job titled 'howitzer crew member.' The O*NET crosswalk spreads across industrial/heavy-equipment supervision, power-plant operations, and trucking, reflecting transferable technical-procedural and small-team-leadership skill, not a ready-made credential. Every one of the listed civilian paths requires its own separate state or industry certification obtained from scratch (CDL knowledge test, OSHA cards, power-plant operator licensing, EMT certification). The single most reliable non-credentialed transfer is a security clearance (if held), leadership experience, and eligibility for VA/GI Bill benefits — not a trade license.",
+        "source": "onetonline.org Military Crosswalk Search (fetched 2026-07-12); BLS OEWS May 2025 (retrieved via search 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill scales 50%-100% by cumulative active-duty days; no tier below 50%. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "gi_bill_transferability_note": "Transfer to dependents requires 6+ years of service and a 4-year additional obligation, via milConnect while still serving. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "va_home_loan_note": "Full-entitlement veterans generally face no VA loan cap and no required down payment/PMI, subject to lender underwriting; funding fee applies unless exempt. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "va_healthcare_priority_group_note": "8 priority groups keyed to disability rating, combat service, and income; combat veterans get a 10-year enhanced-eligibility window. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "state_benefit_variance_note": "NOT a single national number — verify against the veteran's state of legal residence (e.g., Texas full exemption vs. California's flat $100,000 exemption for 100%-disabled veterans). Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "source": "data/veteran-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill covers full public-school tuition/fees or up to $29,920.95/year private/foreign (2025-2026 AY), plus housing allowance and book stipend. Source: data/education-benefits.json, retrieved 2026-07-12.",
+        "tuition_assistance": "Army TA: $250/semester-hour, $4,500/fiscal-year cap, subject to 2025-2026 usage tightening. Source: data/education-benefits.json, retrieved 2026-07-12.",
+        "credentialing_assistance": "Army COOL: up to $2,000/fiscal year. 13B's specific COOL-eligible credential list was not independently searched this session.",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Higher, rotational tempo typical of combat-arms units — gunnery/live-fire exercises and deployment cycles. Not sourced to a specific dated dwell-time ratio this session.",
+        "family_considerations": "Extended field/range time and deployment cycles reduce time at home relative to many support MOS."
+      },
+      "visual_assets": {
+        "branch_logo_id": "army-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["M777 howitzer fire mission", "13B cannon crewmember Fort Sill", "field artillery live fire training"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        { "title": "Army Cannon Crewmember (MOS 13B) Duties & Training In 2026 — Operation Military Kids", "url": "https://www.operationmilitarykids.org/army-cannon-crewmember-mos-13b/", "retrieved_date": "2026-07-12" },
+        { "title": "13B Cannon crewmember — Army ASVAB Requirements — Cogn-IQ", "url": "https://www.cogn-iq.org/military-jobs/army-13b/", "retrieved_date": "2026-07-12" },
+        { "title": "Cannon Crewmember — official U.S. Army career page (fetched; page did not surface MOS-specific requirement detail this session)", "url": "https://www.goarmy.com/careers-and-jobs/ground-forces/explosives-artillery/13b-cannon-crewmember", "retrieved_date": "2026-07-12" },
+        { "title": "O*NET OnLine Military Crosswalk Search — code 13B", "url": "https://www.onetonline.org/crosswalk/MOC/?s=13B", "retrieved_date": "2026-07-12" },
+        { "title": "BLS Occupational Employment and Wage Statistics, May 2025 national release", "url": "https://www.bls.gov/news.release/ocwage.t01.htm", "retrieved_date": "2026-07-12" },
+        { "title": "This project's pay-tables.json / retirement.json / transition.json / veteran-benefits.json / education-benefits.json", "url": "data/", "retrieved_date": "2026-07-12" }
+      ]
+    },
+    {
+      "id": "usmc-0311-rifleman",
+      "name": "Rifleman",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "code": "0311",
+      "interest_cluster_ids": ["combat-arms"],
+      "entry_requirements": {
+        "asvab_line_score": "GT (General Technical) 80. Cross-corroborated (readytoserve.io, bootsandutes.com, retrieved 2026-07-12); not independently confirmed via a primary marines.com fetch this session (marines.com's infantry role page did not surface MOS-specific score detail on fetch).",
+        "education": "High school diploma (GED accepted with a higher AFQT requirement, typically 50+, and subject to the Marine Corps' small GED accession cap per this project's PREP doc).",
+        "age_range": "17-28, per readytoserve.io (retrieved 2026-07-12). Some secondary sources cite an upper bound as high as 29; not independently confirmed against a primary marines.com source this session.",
+        "physical": "Must pass the pre-boot-camp Initial Strength Test (IST): minimum 3 pull-ups (or a 34-second flexed-arm hang), 44 crunches in 2 minutes, and a 1.5-mile run in 13:30 or faster (readytoserve.io, retrieved 2026-07-12), plus a MEPS medical exam. As a combat-arms Marine, 0311 is subject to the sex-neutral combat-arms Physical Fitness Test (PFT) under MARADMIN 613/25: scored on the male age-normed scale, requiring a minimum of 210 of 300 points (70%), effective January 1, 2026. Non-combat-arms Marines retain sex- and age-normed scoring; 0311 does not. Source: this project's prep-pathway.md, citing fitness.marines.mil and MARADMIN 613/25, retrieved 2026-07-12. Combat Fitness Test (CFT, separate 300-point test, Jul-Dec cycle) also applies.",
+        "security_clearance": "UNVERIFIED — not independently confirmed at the MOS level this session.",
+        "other": "U.S. citizen or permanent resident alien required."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training (Boot Camp)",
+          "location": "Marine Corps Recruit Depot Parris Island, SC (East) or San Diego, CA (West)",
+          "length_weeks": 13,
+          "description": "Standard Marine Corps recruit training preceding MOS-specific infantry training. Source: readytoserve.io, retrieved 2026-07-12."
+        },
+        {
+          "stage": "Infantry Training Battalion (ITB) — Infantry Marine Course (IMC)",
+          "location": "School of Infantry, Camp Geiger, NC or Camp Pendleton, CA",
+          "length_weeks": 14,
+          "description": "Following recruit training, Marines assigned an infantry MOS attend the School of Infantry's Infantry Training Battalion. Covers Marine Corps warfighting philosophy, offensive/defensive operations, combat marksmanship, counter-IED techniques, patrolling, MOUT, land navigation, and use of the M203 grenade launcher, M249 SAW, and M240 machine gun. Restructured from a 59-day cycle to the current 14-week Infantry Marine Course starting January 2021. Source: official marines.com fetch (retrieved 2026-07-12) and readytoserve.io."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.80,
+        "methodology_note": "Computed, not authoritative. Equals (E-1 <2yr base pay $2,407.20/mo x 12) + (enlisted BAS $476.95/mo x 12) = $34,609.80. Base pay and BAS are DoD-wide (not Marine-specific) figures from this project's pay-tables.json. Excludes duty-station-specific BAH and non-cash TSP/TRICARE value.",
+        "source": "data/pay-tables.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED. Bonus amounts change quarterly and were not sourced to a current, dated figure. Historically the Marine Corps has offered enlistment bonuses more sparingly than other branches given typically higher accession-goal attainment; a current figure was not sourced. Verify with a recruiter or marines.com at time of enlistment.",
+        "source": "UNVERIFIED — no current-quarter figure sourced this session",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "General, not MOS-specific Marine Corps enlisted progression: promotion through the junior enlisted ranks (E-1 to E-3) is largely time-based; advancement to E-4 (Corporal) and E-5 (Sergeant) is competitive and points-based (cutting scores vary by MOS and manning). Directional/typical; not independently re-fetched from a primary source this session.",
+        "reenlistment_decision_points": [
+          "End of initial 4-year contract (the Marine Corps' standard initial infantry contract is commonly 4 years)",
+          "First-term reenlistment/lateral-move decision point",
+          "Approach to the 20-year retirement cliff"
+        ],
+        "advanced_schools_or_certs": [
+          "Corporals Course / Sergeants Course (Professional Military Education, PME)",
+          "Infantry Unit Leaders Course (IUL)",
+          "Scout Sniper School (voluntary, highly competitive)",
+          "Marine Combat Instructor / drill instructor duty (career broadening, competitive)"
+        ],
+        "officer_conversion_path": "Enlisted Commissioning Program / Meritorious Commissioning Program for Marines pursuing or holding a bachelor's degree; Platoon Leaders Course (PLC) is a pre-commissioning path for college students, not an enlisted-to-officer conversion.",
+        "source": "General Marine Corps enlisted career-progression structure; not independently re-fetched from a primary source this session.",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing at 20 years; DoD's own language is that the defined-benefit pension is 'entirely forfeited' below 20 years, applying identically to the Marine Corps as a DoD service. TSP money is always portable. Source: data/retirement.json, retrieved 2026-07-12.",
+        "continuation_pay_note": "data/retirement.json's continuation-pay window and multiplier (year 7-12, 2.5x monthly basic pay, 4-year obligation) were confirmed for the Army specifically; Marine Corps-specific timing and multiplier were NOT independently verified this session. The DoD-wide statutory range is 2.5x-13x monthly basic pay (active component) with a 3-year minimum additional service obligation — use that range, not the Army-specific figure, until a Marine Corps-specific source is confirmed. Source: data/retirement.json unverified list, retrieved 2026-07-12.",
+        "guard_reserve_points_note": "LABELED — NOT interchangeable with active duty. Applies to the Marine Corps Reserve identically to other DoD reserve components: points-based, 50+ points/year for a 'good year,' pension generally payable from age 60. Source: data/retirement.json, retrieved 2026-07-12.",
+        "lump_sum_option_note": "25%/50% lump-sum option at 20+ years, trading a discounted lump sum for reduced monthly pay until Social Security Full Retirement Age. Source: data/retirement.json, retrieved 2026-07-12.",
+        "source": "data/retirement.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide SkillBridge policy applies to the Marine Corps; up to 180 days in the final 180 days of active duty, subject to unit-commander approval (the real gate, discretionary per DoDI 1322.29). Per-branch eligibility thresholds were not individually re-verified for the Marine Corps this session. Source: data/transition.json, retrieved 2026-07-12.",
+        "tap_program_summary": "Mandatory DoD-wide TAP applies to Marines identically; must begin no later than 365 days before separation; VA Benefits I, DOL employment workshop, optional 2-day track, Capstone. Source: data/transition.json, retrieved 2026-07-12.",
+        "dd214_significance": "Block 24 characterization of service gates nearly every downstream veteran benefit, identically across all services including the Marine Corps. Source: data/transition.json, retrieved 2026-07-12.",
+        "va_disability_common_claims": [
+          "Knee conditions, lumbar/lower-back strain, plantar fasciitis and other foot conditions, and shoulder conditions — data/transition.json's 'Infantry and other dismounted combat arms' claim family, directly applicable to 0311, from cumulative musculoskeletal load of dismounted patrolling, load-bearing, and repetitive high-impact movement.",
+          "PTSD and traumatic brain injury (TBI) — well-documented general combat-veteran claim categories; not individually itemized by specialty in data/transition.json's sourced claim families. Included per this cluster's brief; flagged as not primary-sourced to a 0311-specific figure this session."
+        ],
+        "vr_e_eligibility_note": "Chapter 31 (VR&E): 20%+ rating with an employment handicap, generally within a 12-year window; funds training plus a monthly subsistence allowance (FY2026 max $3,439.23/mo); separate entitlement bucket from the Post-9/11 GI Bill. Source: data/transition.json, retrieved 2026-07-12.",
+        "source": "data/transition.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "55-3016.00 Infantry (military-specific O*NET-SOC code)",
+          "33-3051.00 Police and Sheriff's Patrol Officers",
+          "33-3052.00 Transit and Railroad Police",
+          "33-3011.00 Bailiffs",
+          "33-3012.00 Correctional Officers and Jailers",
+          "33-9021.00 Private Detectives and Investigators",
+          "33-9032.00 Security Guards",
+          "33-9093.00 Transportation Security Screeners",
+          "17-3031.00 Surveying and Mapping Technicians",
+          "47-5032.00 Explosives Workers, Ordnance Handling Experts, and Blasters"
+        ],
+        "example_civilian_titles": ["Police officer", "Security guard", "Corrections officer", "Private investigator", "Transportation security screener"],
+        "relevant_certifications": [
+          "State POST academy certification — 0311 experience does not substitute for the academy; full attendance is typically still required",
+          "TSA Transportation Security Screener training/certification (separate federal hiring process; military infantry experience is not a substitute)",
+          "State private-investigator licensing (varies by state; requirements are state-specific, not federally standardized)"
+        ],
+        "estimated_civilian_salary_range_usd": [42470, 79280],
+        "credential_gap_note": "Rifleman is, by design, the least technically specialized MOS in the Marine Corps and correspondingly has one of the weakest direct civilian-license crosswalks in this entire dataset — nearly identical in character to the Army's 11B. No civilian job requires or licenses 'rifleman' skills. The O*NET crosswalk to police officer, corrections officer, security guard, and private investigator reflects shared underlying traits (discipline, small-unit teamwork under stress, weapons familiarity) that make a 0311 veteran a strong APPLICANT, not a pre-licensed one — every one of these fields still requires its own full state academy, licensing exam, or certification process. The most reliable, non-credential transfer value is leadership experience, extreme discipline/reliability, and GI Bill/VA benefit eligibility. This MOS should never be presented as having a built-in civilian trade.",
+        "source": "onetonline.org Military Crosswalk Search (fetched 2026-07-12); BLS OEWS May 2025 (retrieved via search 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill scales 50%-100% by cumulative active-duty days; no tier below 50%. Applies identically across all services including the Marine Corps. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "gi_bill_transferability_note": "Transfer to dependents requires 6+ years of service and a 4-year additional obligation, via milConnect while still serving. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "va_home_loan_note": "Full-entitlement veterans generally face no VA loan cap and no required down payment/PMI, subject to lender underwriting; funding fee applies unless exempt. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "va_healthcare_priority_group_note": "8 priority groups keyed to disability rating, combat service, and income; combat veterans get a 10-year enhanced-eligibility window. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "state_benefit_variance_note": "NOT a single national number — verify against the veteran's state of legal residence. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "source": "data/veteran-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill covers full public-school tuition/fees or up to $29,920.95/year private/foreign (2025-2026 AY), plus housing allowance and book stipend, applying identically to Marines. Source: data/education-benefits.json, retrieved 2026-07-12.",
+        "tuition_assistance": "Marine Corps TA follows the standard DoD-wide $250/semester-hour, $4,500/fiscal-year cap, administered under Department of the Navy policy. Source: data/education-benefits.json, retrieved 2026-07-12.",
+        "credentialing_assistance": "Marine Corps Credentialing Opportunities On-Line (COOL). A specific dollar cap was not independently confirmed this session — direct fetch to cool.osd.mil failed with a certificate error during the EDU-BENEFITS research pass; marked $0/UNVERIFIED in data/education-benefits.json pending confirmation.",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Higher, rotational tempo typical of Marine infantry units — Marine Expeditionary Unit (MEU) workups and deployments, combined-arms exercises, and training rotations. Not sourced to a specific dated dwell-time ratio this session; qualitative description only.",
+        "family_considerations": "Extended field time, MEU workup/deployment cycles, and shipboard time (for MEU-assigned units) reduce time at home relative to many support MOS."
+      },
+      "visual_assets": {
+        "branch_logo_id": "marine-corps-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Marine rifleman School of Infantry training", "0311 infantry Marine Corps patrol", "Infantry Training Battalion Camp Pendleton"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        { "title": "Marine Corps Infantry (0311) Requirements: ASVAB Score, Training, and Career Guide — Ready to Serve", "url": "https://www.readytoserve.io/articles/marine-corps-infantry-0311-requirements", "retrieved_date": "2026-07-12" },
+        { "title": "0311 Rifleman: Training & Requirements (2026) — Boots and Utes", "url": "https://www.bootsandutes.com/careers/enlisted/03-infantry/0311-rifleman/", "retrieved_date": "2026-07-12" },
+        { "title": "Infantry — official Marine Corps role page (fetched 2026-07-12)", "url": "https://www.marines.com/mission/roles/infantry.html", "retrieved_date": "2026-07-12" },
+        { "title": "O*NET OnLine Military Crosswalk Search — code 0311", "url": "https://www.onetonline.org/crosswalk/MOC/?s=0311", "retrieved_date": "2026-07-12" },
+        { "title": "BLS Occupational Employment and Wage Statistics, May 2025 national release", "url": "https://www.bls.gov/news.release/ocwage.t01.htm", "retrieved_date": "2026-07-12" },
+        { "title": "This project's pay-tables.json / retirement.json / transition.json / veteran-benefits.json / education-benefits.json", "url": "data/", "retrieved_date": "2026-07-12" }
+      ]
+    },
+    {
+      "id": "usmc-0331-machine-gunner",
+      "name": "Machine Gunner",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "code": "0331",
+      "interest_cluster_ids": ["combat-arms"],
+      "entry_requirements": {
+        "asvab_line_score": "GT (General Technical) 80. Cross-corroborated (operationmilitarykids.org, bootsandutes.com, mosdb.com, retrieved 2026-07-12); not independently confirmed via a primary marines.com fetch specific to 0331 this session.",
+        "education": "High school diploma (GED accepted with higher AFQT requirement, per the Marine Corps' general enlistment policy described in this project's PREP doc).",
+        "age_range": "17-28, per secondary-source corroboration consistent with other Marine Corps infantry MOS (0331 is a follow-on infantry specialty, accessed via the same enlistment pipeline as 0311). Not independently confirmed against a primary source for 0331 specifically this session.",
+        "physical": "Requires a WS-B water survival qualification (operationmilitarykids.org, retrieved 2026-07-12), in addition to the same pre-boot-camp Initial Strength Test as other Marine infantry accessions. As a combat-arms Marine, 0331 is subject to the sex-neutral combat-arms PFT under MARADMIN 613/25 (male age-normed scale, minimum 210/300, effective January 1, 2026) — machine-gunner is explicitly a crew-served-weapons infantry role and falls within the combat-arms designation. Source: this project's prep-pathway.md, retrieved 2026-07-12.",
+        "security_clearance": "UNVERIFIED — not independently confirmed at the MOS level this session.",
+        "other": "Must first qualify and serve as an infantry rifleman (0311 pipeline) before follow-on machine-gunner training — 0331 is not a direct initial accession MOS in the sense that Marines attend the standard Infantry Training Battalion first."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training (Boot Camp)",
+          "location": "Marine Corps Recruit Depot Parris Island, SC (East) or San Diego, CA (West)",
+          "length_weeks": 13,
+          "description": "Standard Marine Corps recruit training. Source: readytoserve.io / operationmilitarykids.org, retrieved 2026-07-12."
+        },
+        {
+          "stage": "Infantry Training Battalion (ITB) — Infantry Marine Course",
+          "location": "School of Infantry, Camp Lejeune, NC or Camp Pendleton, CA",
+          "length_weeks": 14,
+          "description": "Common foundational infantry training all infantry-MOS Marines attend before follow-on weapons-specific courses. Source: official marines.com fetch and operationmilitarykids.org, retrieved 2026-07-12."
+        },
+        {
+          "stage": "Machine Gunner Course (Infantry Weapons Course track)",
+          "location": "School of Infantry, Camp Lejeune, NC or Camp Pendleton, CA",
+          "length_weeks": 4,
+          "description": "Follow-on course training Marines on the tactical employment of the 7.62mm medium machine gun, .50 caliber, and 40mm heavy machine guns and their support vehicles; covers fire control and weapons systems. Length reported as approximately 4 weeks by secondary sources (bootsandutes.com, mosroadmap.com, retrieved 2026-07-12); NOT independently confirmed via a primary marines.mil/tecom.marines.mil source this session — treat the exact week count as UNVERIFIED at primary-source confidence."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.80,
+        "methodology_note": "Computed, not authoritative. Equals (E-1 <2yr base pay $2,407.20/mo x 12) + (enlisted BAS $476.95/mo x 12) = $34,609.80. Excludes duty-station-specific BAH and non-cash TSP/TRICARE value.",
+        "source": "data/pay-tables.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED. Bonus amounts change quarterly and were not sourced to a current, dated figure. Verify with a recruiter or marines.com at time of enlistment.",
+        "source": "UNVERIFIED — no current-quarter figure sourced this session",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "Same general Marine Corps enlisted structure as 0311: time-based through E-3, competitive points-based for E-4/E-5. Directional/typical, not independently re-fetched this session.",
+        "reenlistment_decision_points": [
+          "End of initial 4-year contract",
+          "First-term reenlistment/lateral-move decision point",
+          "Approach to the 20-year retirement cliff"
+        ],
+        "advanced_schools_or_certs": [
+          "Corporals Course / Sergeants Course (PME)",
+          "Advanced Machine Gunner Course (per tecom.marines.mil course listing found this session)",
+          "Weapons Company leadership billets"
+        ],
+        "officer_conversion_path": "Enlisted Commissioning Program / Meritorious Commissioning Program for Marines pursuing or holding a bachelor's degree.",
+        "source": "General Marine Corps enlisted career-progression structure plus a tecom.marines.mil Advanced Machine Gunner Course document surfaced in search; not independently re-fetched in full this session.",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing at 20 years; pension 'entirely forfeited' below that, applying identically across DoD services. TSP is always portable. Source: data/retirement.json, retrieved 2026-07-12.",
+        "continuation_pay_note": "Confirmed only for the Army in data/retirement.json (year 7-12, 2.5x monthly basic pay, 4-year obligation). Marine Corps-specific timing/multiplier not independently verified this session; use the DoD-wide statutory range (2.5x-13x monthly basic pay active component, 3-year minimum obligation) until confirmed. Source: data/retirement.json unverified list, retrieved 2026-07-12.",
+        "guard_reserve_points_note": "LABELED — NOT interchangeable with active duty. Applies to the Marine Corps Reserve identically to other DoD reserve components. Source: data/retirement.json, retrieved 2026-07-12.",
+        "lump_sum_option_note": "25%/50% lump-sum option at 20+ years, trading a discounted lump sum for reduced monthly pay until Social Security Full Retirement Age. Source: data/retirement.json, retrieved 2026-07-12.",
+        "source": "data/retirement.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide SkillBridge policy applies; up to 180 days in the final 180 days of active duty, subject to unit-commander approval. Source: data/transition.json, retrieved 2026-07-12.",
+        "tap_program_summary": "Mandatory DoD-wide TAP; must begin no later than 365 days before separation. Source: data/transition.json, retrieved 2026-07-12.",
+        "dd214_significance": "Block 24 characterization of service gates nearly every downstream veteran benefit. Source: data/transition.json, retrieved 2026-07-12.",
+        "va_disability_common_claims": [
+          "Tinnitus and bilateral hearing loss — machine-gunner is explicitly a crew-served-weapons role, placing 0331 within data/transition.json's 'Artillery, armor, and other crew-served-weapons combat arms' claim family; sustained proximity to sustained automatic-weapons fire without consistent full-time hearing protection is the cited mechanism.",
+          "Knee, lumbar/lower-back, and shoulder conditions — 0331 is infantry-trained first and carries the medium/heavy machine gun and tripod as additional dismounted load, plausibly compounding the musculoskeletal risk data/transition.json attributes to 'Infantry and other dismounted combat arms'; this compounding is a reasonable inference, not independently itemized for 0331 specifically in the sourced data.",
+          "PTSD and traumatic brain injury (TBI) — general combat-veteran claim categories; not individually itemized by specialty in data/transition.json. Included per this cluster's brief; flagged as not primary-sourced to a 0331-specific figure this session."
+        ],
+        "vr_e_eligibility_note": "Chapter 31 (VR&E): 20%+ rating with an employment handicap, generally within a 12-year window; funds training plus a monthly subsistence allowance (FY2026 max $3,439.23/mo). Source: data/transition.json, retrieved 2026-07-12.",
+        "source": "data/transition.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "55-3016.00 Infantry (military-specific O*NET-SOC code)",
+          "33-3051.00 Police and Sheriff's Patrol Officers",
+          "33-3012.00 Correctional Officers and Jailers",
+          "47-5032.00 Explosives Workers, Ordnance Handling Experts, and Blasters",
+          "27-4012.00 Broadcast Technicians"
+        ],
+        "example_civilian_titles": ["Police officer", "Corrections officer", "Explosives/ordnance handling technician"],
+        "relevant_certifications": [
+          "State POST academy certification — full attendance still required; 0331's crew-served-weapons background does not substitute",
+          "Federal explosives/ordnance-handling certifications for the blasting/explosives-handling crosswalk path — require separate civilian licensing (varies federally and by state), not automatically conferred by military weapons-handling experience"
+        ],
+        "estimated_civilian_salary_range_usd": [42470, 79280],
+        "credential_gap_note": "0331 has the NARROWEST O*NET civilian crosswalk found in this entire dataset — only 5 matched civilian occupations, versus 9-11+ for the other five specialties in this cluster. This is stated plainly, not padded: machine-gunner is a highly specialized, weapons-specific infantry role with essentially no civilian occupational analogue. The few crosswalk matches (police officer, corrections officer, explosives/ordnance work) reflect general combat-arms transferable traits, not anything specific to machine-gun employment. There is no civilian job that hires for 'machine-gunner' experience as such. As with the other infantry-family MOS in this cluster, the durable transfer value is discipline, small-unit leadership, and VA/GI Bill eligibility — not a trade credential.",
+        "source": "onetonline.org Military Crosswalk Search (fetched 2026-07-12); BLS OEWS May 2025 (retrieved via search 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill scales 50%-100% by cumulative active-duty days; no tier below 50%. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "gi_bill_transferability_note": "Transfer to dependents requires 6+ years of service and a 4-year additional obligation, via milConnect while still serving. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "va_home_loan_note": "Full-entitlement veterans generally face no VA loan cap and no required down payment/PMI, subject to lender underwriting; funding fee applies unless exempt. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "va_healthcare_priority_group_note": "8 priority groups keyed to disability rating, combat service, and income; combat veterans get a 10-year enhanced-eligibility window. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "state_benefit_variance_note": "NOT a single national number — verify against the veteran's state of legal residence. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "source": "data/veteran-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill covers full public-school tuition/fees or up to $29,920.95/year private/foreign (2025-2026 AY), plus housing allowance and book stipend. Source: data/education-benefits.json, retrieved 2026-07-12.",
+        "tuition_assistance": "Marine Corps TA follows the standard DoD-wide $250/semester-hour, $4,500/fiscal-year cap. Source: data/education-benefits.json, retrieved 2026-07-12.",
+        "credentialing_assistance": "Marine Corps COOL. Specific dollar cap not independently confirmed this session ($0/UNVERIFIED in data/education-benefits.json).",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Higher, rotational tempo typical of Marine infantry weapons companies — MEU workups/deployments, combined-arms exercises. Not sourced to a specific dated dwell-time ratio this session.",
+        "family_considerations": "Extended field time, MEU workup/deployment cycles, and shipboard time reduce time at home relative to many support MOS."
+      },
+      "visual_assets": {
+        "branch_logo_id": "marine-corps-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Marine machine gunner M240 training", "0331 machine gun course School of Infantry", "Marine weapons company live fire"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        { "title": "USMC Machine Gunner MOS 0331: Career Guide For 2026 — Operation Military Kids", "url": "https://www.operationmilitarykids.org/usmc-machine-gunner-mos-0331/", "retrieved_date": "2026-07-12" },
+        { "title": "0331 Machine Gunner: Training & Requirements (2026) — Boots and Utes", "url": "https://bootsandutes.com/careers/enlisted/03-infantry/0331-machine-gunner/", "retrieved_date": "2026-07-12" },
+        { "title": "Advanced Machine Gunner Course gear list — tecom.marines.mil (official, PDF)", "url": "https://www.tecom.marines.mil/Portals/128/AMGC%20CSC%20and%20Gear%20List.pdf", "retrieved_date": "2026-07-12" },
+        { "title": "O*NET OnLine Military Crosswalk Search — code 0331", "url": "https://www.onetonline.org/crosswalk/MOC/?s=0331", "retrieved_date": "2026-07-12" },
+        { "title": "BLS Occupational Employment and Wage Statistics, May 2025 national release", "url": "https://www.bls.gov/news.release/ocwage.t01.htm", "retrieved_date": "2026-07-12" },
+        { "title": "This project's pay-tables.json / retirement.json / transition.json / veteran-benefits.json / education-benefits.json", "url": "data/", "retrieved_date": "2026-07-12" }
+      ]
+    },
+    {
+      "id": "usmc-0811-field-artillery-cannoneer",
+      "name": "Field Artillery Cannoneer",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "code": "0811",
+      "interest_cluster_ids": ["combat-arms"],
+      "entry_requirements": {
+        "asvab_line_score": "GT (General Technical) 90. Cross-corroborated via search synthesis this session (retrieved 2026-07-12); not independently confirmed via a primary marines.com or cool.osd.mil fetch this session.",
+        "education": "High school diploma or GED, subject to the Marine Corps' general enlistment/GED-cap policy described in this project's PREP doc.",
+        "age_range": "17-28, per secondary-source corroboration consistent with other Marine Corps combat-arms MOS. Not independently confirmed against a primary source for 0811 specifically this session.",
+        "physical": "Standard Marine Corps height/weight and MEPS medical standards; no MOS-specific physical figure was independently confirmed this session beyond the general standards. As a combat-arms Marine, 0811 is subject to the sex-neutral combat-arms PFT under MARADMIN 613/25 (male age-normed scale, minimum 210/300, effective January 1, 2026). Source: this project's prep-pathway.md, retrieved 2026-07-12.",
+        "security_clearance": "UNVERIFIED — not independently confirmed at the MOS level this session.",
+        "other": "U.S. citizen required (secondary-sourced)."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training (Boot Camp)",
+          "location": "Marine Corps Recruit Depot Parris Island, SC (East) or San Diego, CA (West)",
+          "length_weeks": 13,
+          "description": "Standard Marine Corps recruit training. Source: operationmilitarykids.org, retrieved 2026-07-12."
+        },
+        {
+          "stage": "Cannon Crewman Course",
+          "location": "Marine Corps Artillery Detachment, Fort Sill, Oklahoma (co-located with the Army Fires Center of Excellence)",
+          "length_weeks": 5,
+          "description": "5-week (25 training-day) entry-level course training Marines to standard on '1000-level' cannoneer tasks and familiarizing them with select '2000-level' gunner/assistant-gunner tasks. Source: search synthesis citing the Marine Corps Artillery Detachment's official course-description page at sill-www.army.mil/usmc/cannon_crewman.html (that specific URL returned a server error on direct fetch this session; the 5-week/25-training-day figure came from a search-engine summary of the page, not a direct primary-text extraction — flagged as not independently confirmed to primary-source confidence)."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.20,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.80,
+        "methodology_note": "Computed, not authoritative. Equals (E-1 <2yr base pay $2,407.20/mo x 12) + (enlisted BAS $476.95/mo x 12) = $34,609.80. Excludes duty-station-specific BAH and non-cash TSP/TRICARE value.",
+        "source": "data/pay-tables.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "UNVERIFIED. Bonus amounts change quarterly and were not sourced to a current, dated figure. Verify with a recruiter or marines.com at time of enlistment.",
+        "source": "UNVERIFIED — no current-quarter figure sourced this session",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "Same general Marine Corps enlisted structure as other combat-arms MOS: time-based through E-3, competitive points-based for E-4/E-5. Directional/typical, not independently re-fetched this session.",
+        "reenlistment_decision_points": [
+          "End of initial 4-year contract",
+          "First-term reenlistment/lateral-move decision point",
+          "Approach to the 20-year retirement cliff"
+        ],
+        "advanced_schools_or_certs": [
+          "Corporals Course / Sergeants Course (PME)",
+          "Cannoneer follow-on schools toward Gunner/Chief of Section billets",
+          "HIMARS Crewman Course (a separate, related follow-on course confirmed this session at 2.5 weeks/13 training days, for Marines who cross into the HIMARS rocket-artillery track rather than staying in towed/self-propelled cannon artillery)"
+        ],
+        "officer_conversion_path": "Enlisted Commissioning Program / Meritorious Commissioning Program for Marines pursuing or holding a bachelor's degree.",
+        "source": "General Marine Corps enlisted career-progression structure plus search-sourced course-catalog detail; not independently re-fetched in full this session.",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "All-or-nothing at 20 years; pension 'entirely forfeited' below that, applying identically across DoD services. TSP is always portable. Source: data/retirement.json, retrieved 2026-07-12.",
+        "continuation_pay_note": "Confirmed only for the Army in data/retirement.json (year 7-12, 2.5x monthly basic pay, 4-year obligation). Marine Corps-specific timing/multiplier not independently verified this session; use the DoD-wide statutory range (2.5x-13x active component, 3-year minimum obligation) until confirmed. Source: data/retirement.json unverified list, retrieved 2026-07-12.",
+        "guard_reserve_points_note": "LABELED — NOT interchangeable with active duty. Applies to the Marine Corps Reserve identically to other DoD reserve components. Source: data/retirement.json, retrieved 2026-07-12.",
+        "lump_sum_option_note": "25%/50% lump-sum option at 20+ years, trading a discounted lump sum for reduced monthly pay until Social Security Full Retirement Age. Source: data/retirement.json, retrieved 2026-07-12.",
+        "source": "data/retirement.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide SkillBridge policy applies; up to 180 days in the final 180 days of active duty, subject to unit-commander approval. Source: data/transition.json, retrieved 2026-07-12.",
+        "tap_program_summary": "Mandatory DoD-wide TAP; must begin no later than 365 days before separation. Source: data/transition.json, retrieved 2026-07-12.",
+        "dd214_significance": "Block 24 characterization of service gates nearly every downstream veteran benefit. Source: data/transition.json, retrieved 2026-07-12.",
+        "va_disability_common_claims": [
+          "Tinnitus and bilateral hearing loss — data/transition.json's PRIMARY-cited claim family for 'Artillery, armor, and other crew-served-weapons combat arms,' directly applicable to 0811, from sustained proximity to large-caliber weapons fire without consistent full-time hearing protection.",
+          "PTSD and traumatic brain injury (TBI) — well-documented general combat-veteran claim categories; not individually itemized by specialty in data/transition.json. Included per this cluster's brief; flagged as not primary-sourced to a 0811-specific figure this session."
+        ],
+        "vr_e_eligibility_note": "Chapter 31 (VR&E): 20%+ rating with an employment handicap, generally within a 12-year window; funds training plus a monthly subsistence allowance (FY2026 max $3,439.23/mo). Source: data/transition.json, retrieved 2026-07-12.",
+        "source": "data/transition.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "55-3014.00 Artillery and Missile Crew Members (military-specific O*NET-SOC code)",
+          "11-1021.00 General and Operations Managers",
+          "11-9161.00 Emergency Management Directors",
+          "33-3051.00 Police and Sheriff's Patrol Officers",
+          "33-9032.00 Security Guards",
+          "43-5031.00 Public Safety Telecommunicators",
+          "43-5032.00 Dispatchers, Except Police, Fire, and Ambulance",
+          "47-2061.00 Construction Laborers",
+          "47-5032.00 Explosives Workers, Ordnance Handling Experts, and Blasters",
+          "49-9071.00 Maintenance and Repair Workers, General"
+        ],
+        "example_civilian_titles": ["Emergency management coordinator", "911 dispatcher", "Security supervisor", "Construction laborer", "Explosives/ordnance handling technician"],
+        "relevant_certifications": [
+          "Public-safety telecommunicator/911 dispatcher certification — state-specific training and certification required; not conferred by artillery fire-direction experience despite overlapping stress/procedure skills",
+          "OSHA construction safety certifications for the construction-laborer crosswalk path",
+          "Federal/state explosives-handling certifications for the ordnance-handling crosswalk path"
+        ],
+        "estimated_civilian_salary_range_usd": [42470, 79280],
+        "credential_gap_note": "Field artillery cannoneer has no direct civilian licensing equivalent, closely paralleling the Army's 13B. The O*NET crosswalk spans emergency-management, dispatch, security, and construction — reflecting the procedural precision and stress tolerance of fire-mission work, not a ready-made credential. Every path requires its own separate state or industry certification obtained from scratch. As with the rest of this cluster, the reliable non-credentialed transfer is leadership, discipline, a clearance if held, and VA/GI Bill eligibility — not a trade license.",
+        "source": "onetonline.org Military Crosswalk Search (fetched 2026-07-12); BLS OEWS May 2025 (retrieved via search 2026-07-12)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill scales 50%-100% by cumulative active-duty days; no tier below 50%. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "gi_bill_transferability_note": "Transfer to dependents requires 6+ years of service and a 4-year additional obligation, via milConnect while still serving. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "va_home_loan_note": "Full-entitlement veterans generally face no VA loan cap and no required down payment/PMI, subject to lender underwriting; funding fee applies unless exempt. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "va_healthcare_priority_group_note": "8 priority groups keyed to disability rating, combat service, and income; combat veterans get a 10-year enhanced-eligibility window. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "state_benefit_variance_note": "NOT a single national number — verify against the veteran's state of legal residence. Source: data/veteran-benefits.json, retrieved 2026-07-12.",
+        "source": "data/veteran-benefits.json",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill covers full public-school tuition/fees or up to $29,920.95/year private/foreign (2025-2026 AY), plus housing allowance and book stipend. Source: data/education-benefits.json, retrieved 2026-07-12.",
+        "tuition_assistance": "Marine Corps TA follows the standard DoD-wide $250/semester-hour, $4,500/fiscal-year cap. Source: data/education-benefits.json, retrieved 2026-07-12.",
+        "credentialing_assistance": "Marine Corps COOL. Specific dollar cap not independently confirmed this session ($0/UNVERIFIED in data/education-benefits.json).",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Higher, rotational tempo typical of Marine artillery units — live-fire exercises, MEU workups/deployments. Not sourced to a specific dated dwell-time ratio this session.",
+        "family_considerations": "Extended field/range time and deployment cycles reduce time at home relative to many support MOS."
+      },
+      "visual_assets": {
+        "branch_logo_id": "marine-corps-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": ["Marine artillery howitzer crew fire mission", "0811 cannoneer training Fort Sill", "M777 Marine Corps live fire exercise"],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        { "title": "Marine Corps Field Artillery Cannoneer (MOS 0811): Career Details — Operation Military Kids", "url": "https://www.operationmilitarykids.org/marine-corps-field-artillery-cannoneer-mos-0811/", "retrieved_date": "2026-07-12" },
+        { "title": "Marine Corps Artillery Detachment, Ft. Sill — course catalog (search-sourced; direct fetch to sill-www.army.mil returned a server error this session)", "url": "https://sill-www.army.mil/usmc/cannon_crewman.html", "retrieved_date": "2026-07-12" },
+        { "title": "Marine Corps COOL — 0811 Field Artillery Cannoneer MOS Overview", "url": "https://www.cool.osd.mil/usmc/moc/index.html?moc=0811&tab=overview", "retrieved_date": "2026-07-12" },
+        { "title": "O*NET OnLine Military Crosswalk Search — code 0811", "url": "https://www.onetonline.org/crosswalk/MOC/?s=0811", "retrieved_date": "2026-07-12" },
+        { "title": "BLS Occupational Employment and Wage Statistics, May 2025 national release", "url": "https://www.bls.gov/news.release/ocwage.t01.htm", "retrieved_date": "2026-07-12" },
+        { "title": "This project's pay-tables.json / retirement.json / transition.json / veteran-benefits.json / education-benefits.json", "url": "data/", "retrieved_date": "2026-07-12" }
+      ]
+    }
+  ],
+  "branches_with_no_presence": [
+    {
+      "branch": "Navy",
+      "why": "No ground combat-arms occupational specialty (infantry, armor, or cannon/field artillery). The Navy's force-protection rating, Master-at-Arms (MA), is a security/law-enforcement role classified under this project's law-enforcement-security cluster, not combat-arms — it is not an infantry, armor, or artillery specialty. Source: data/interest-taxonomy.json combat-arms cluster notes, retrieved 2026-07-12."
+    },
+    {
+      "branch": "Air Force",
+      "why": "No ground combat-arms occupational specialty. Air Force Security Forces (3P0X1) is a security/law-enforcement specialty classified under law-enforcement-security, not combat-arms. Note: Air Force Special Warfare (e.g., Pararescue, Combat Control, Special Reconnaissance) performs ground special-operations missions but is a distinct occupational category — special operations, not conventional infantry/armor/artillery — and is deliberately excluded from this combat-arms cluster per the taxonomy's own scope definition ('Direct ground combat roles — infantry, armor, and field/cannon artillery'). Stretching the cluster definition to include special operations was avoided per this run's binding instruction to justify, not assume, that adjacency; a dedicated special-operations treatment (if desired) is out of scope for this command and would need to be raised as a separate request. Source: data/interest-taxonomy.json combat-arms cluster notes, retrieved 2026-07-12."
+    },
+    {
+      "branch": "Space Force",
+      "why": "No ground combat-arms occupational specialty, and no dedicated force-protection/security specialty of its own — installation security at Space Force bases is provided by Air Force Security Forces personnel. Source: data/interest-taxonomy.json combat-arms and law-enforcement-security cluster notes, retrieved 2026-07-12."
+    },
+    {
+      "branch": "Coast Guard",
+      "why": "No ground combat-arms occupational specialty. The Coast Guard's Maritime Enforcement Specialist (ME) rating is a law-enforcement/security specialty classified under law-enforcement-security, not combat-arms; the Coast Guard's core missions (maritime safety, law enforcement, search and rescue) do not include a conventional ground combat-arms function. Source: data/interest-taxonomy.json combat-arms cluster notes, retrieved 2026-07-12."
+    }
+  ],
+  "sources": [
+    { "title": "11B Infantryman MOS: Pay, Training & Requirements (2026) — Battalion Duty", "url": "https://battalionduty.com/careers/enlisted/infantry/11b-infantryman/", "retrieved_date": "2026-07-12" },
+    { "title": "Army Infantryman MOS 11B Guide (2026 Update) — Operation Military Kids", "url": "https://www.operationmilitarykids.org/army-infantryman-mos-11b/", "retrieved_date": "2026-07-12" },
+    { "title": "Army M1 Armor Crewman MOS 19K Career Guide For 2026 — Operation Military Kids", "url": "https://www.operationmilitarykids.org/army-m1-armor-crewman-mos-19k/", "retrieved_date": "2026-07-12" },
+    { "title": "Army Cannon Crewmember (MOS 13B) Duties & Training In 2026 — Operation Military Kids", "url": "https://www.operationmilitarykids.org/army-cannon-crewmember-mos-13b/", "retrieved_date": "2026-07-12" },
+    { "title": "Cannon Crewmember — official U.S. Army career page", "url": "https://www.goarmy.com/careers-and-jobs/ground-forces/explosives-artillery/13b-cannon-crewmember", "retrieved_date": "2026-07-12" },
+    { "title": "Marine Corps Infantry (0311) Requirements — Ready to Serve", "url": "https://www.readytoserve.io/articles/marine-corps-infantry-0311-requirements", "retrieved_date": "2026-07-12" },
+    { "title": "Infantry — official Marine Corps role page", "url": "https://www.marines.com/mission/roles/infantry.html", "retrieved_date": "2026-07-12" },
+    { "title": "USMC Machine Gunner MOS 0331: Career Guide For 2026 — Operation Military Kids", "url": "https://www.operationmilitarykids.org/usmc-machine-gunner-mos-0331/", "retrieved_date": "2026-07-12" },
+    { "title": "Marine Corps Field Artillery Cannoneer (MOS 0811) — Operation Military Kids", "url": "https://www.operationmilitarykids.org/marine-corps-field-artillery-cannoneer-mos-0811/", "retrieved_date": "2026-07-12" },
+    { "title": "No More ACFT: Army Unveils Fitness Test for Combat Roles — ClearanceJobs", "url": "https://news.clearancejobs.com/2025/04/23/no-more-acft-army-unveils-fitness-test-for-combat-roles-heres-whats-changing/", "retrieved_date": "2026-07-12" },
+    { "title": "Army Fitness Test — official (fetch attempted, HTTP 403)", "url": "https://www.army.mil/aft/", "retrieved_date": "2026-07-12" },
+    { "title": "AFT Commanders Guide and Implementation Guidance PDF — official Army API (fetch attempted, HTTP 403)", "url": "https://api.army.mil/e2/c/downloads/2025/06/23/0374d9cf/20250507-aft-commanders-guide-and-implementation-guidance.pdf", "retrieved_date": "2026-07-12" },
+    { "title": "O*NET OnLine Military Crosswalk Search (base tool)", "url": "https://www.onetonline.org/crosswalk/MOC/", "retrieved_date": "2026-07-12" },
+    { "title": "BLS Occupational Employment and Wage Statistics, May 2025 national release", "url": "https://www.bls.gov/news.release/ocwage.t01.htm", "retrieved_date": "2026-07-12" },
+    { "title": "This project's prep-pathway.md (PREP command output — 2026 AFT and MARADMIN 613/25 fitness standards)", "url": "compass_artifact_wf-d8f86b54-1e81-595c-80ab-995e21fd37cb_text_markdown.md", "retrieved_date": "2026-07-12" },
+    { "title": "This project's data/pay-tables.json (COMPENSATION output)", "url": "data/pay-tables.json", "retrieved_date": "2026-07-12" },
+    { "title": "This project's data/retirement.json (RETIREMENT output)", "url": "data/retirement.json", "retrieved_date": "2026-07-12" },
+    { "title": "This project's data/transition.json (TRANSITION output)", "url": "data/transition.json", "retrieved_date": "2026-07-12" },
+    { "title": "This project's data/veteran-benefits.json (VETERAN-BENEFITS output)", "url": "data/veteran-benefits.json", "retrieved_date": "2026-07-12" },
+    { "title": "This project's data/education-benefits.json (EDU-BENEFITS output)", "url": "data/education-benefits.json", "retrieved_date": "2026-07-12" },
+    { "title": "This project's data/interest-taxonomy.json (TAXONOMY output — combat-arms cluster)", "url": "data/interest-taxonomy.json", "retrieved_date": "2026-07-12" },
+    { "title": "This project's data/asset-manifest.json (ASSETS output — branch_logo_id source)", "url": "data/asset-manifest.json", "retrieved_date": "2026-07-12" }
+  ],
+  "unverified": [
+    "All six specialties' ASVAB line-score minimums (11B CO 87, 19K CO 87, 13B FA 93, 0311 GT 80, 0331 GT 80, 0811 GT 90) are cross-corroborated across 2+ independent secondary/aggregator sources each, but were NOT confirmed via a primary goarmy.com/marines.com MOS-specific page this session — those official pages either 404'd (Army) or did not surface MOS-level score detail on fetch (Marine Corps). Treat as best-available, not primary-confirmed.",
+    "19K OSUT training length: majority-corroborated at 22 weeks; one minority secondary source cites 15 weeks. Not resolved to primary-source confidence this session.",
+    "13B AIT length: resolved to 7 weeks (17-week total pipeline) using the source that gave internally consistent BCT+AIT figures, over a conflicting 14-week AIT citation that appeared alongside an inconsistent 9-week BCT figure in the same search pass. Not confirmed via a primary goarmy.com page (that page did not surface MOS-specific training detail on fetch).",
+    "0331 Machine Gunner Course length (4 weeks) and 0811 Cannon Crewman Course length (5 weeks/25 training days) are both search-sourced, not confirmed via direct primary-text extraction from an official marines.mil/tecom.marines.mil/sill-www.army.mil page (a direct fetch to the Fort Sill USMC cannon-crewman course page returned a server error this session).",
+    "Whether 19K (M1 Armor Crewman) qualifies for the FMCSA Military Skills Test Waiver for CDL licensing was not independently confirmed this session — flagged rather than assumed in that record's civilian_crosswalk.relevant_certifications.",
+    "The Army AFT's full official 21-MOS/AOC combat-standard list could not be fetched from a primary army.mil or api.army.mil source this session (both attempts returned HTTP 403); inclusion of 11B, 19K, and 13B in that 21-MOS list is corroborated by a secondary source (ClearanceJobs, citing the Army's own AFT Commanders Guide) that explicitly names Infantry, Armor, and 'additional direct combat Field Artillery roles,' but the complete enumerated list was not independently verified line-by-line.",
+    "PTSD and TBI (traumatic brain injury) are included in every specialty's va_disability_common_claims as general, well-documented combat-veteran claim categories, per this cluster's explicit brief — but they are NOT individually itemized by specialty in data/transition.json's own sourced claim-family breakdown (which covers hearing loss/tinnitus, musculoskeletal, and PACT Act respiratory claims, but not PTSD/TBI by name). This is flagged as a supplement to the sourced data, not a claim independently re-verified against a fresh VA.gov fetch this session.",
+    "Marine Corps-specific continuation-pay timing and multiplier: data/retirement.json verified this only for the Army; Marine Corps figures are not independently confirmed and are flagged in each USMC record accordingly.",
+    "Marine Corps and Army COOL (Credentialing Assistance) MOS-specific credential lists for all six specialties were not individually searched this session; general branch-level COOL dollar caps come from data/education-benefits.json, which itself flags Navy/Marine Corps/Coast Guard COOL dollar caps as UNVERIFIED (a cool.osd.mil fetch failed with a certificate error in that earlier research pass).",
+    "Age-range figures (Army 17-35; Marine Corps 17-28) are secondary-sourced and not independently confirmed against a primary goarmy.com/marines.com enlistment-eligibility page this session; general enlistment age policy can shift and should be reconfirmed at time of application.",
+    "Security clearance requirements at the MOS level were not independently confirmed for any of the six specialties this session; all are marked UNVERIFIED rather than assumed."
+  ],
+  "completion_accountability": "6 of 6 planned SpecialtyRecords completed and fully populated against the OUTPUT SPEC schema (Army 11B Infantryman, 19K M1 Armor Crewman, 13B Cannon Crewmember; Marine Corps 0311 Rifleman, 0331 Machine Gunner, 0811 Field Artillery Cannoneer) — every specialty explicitly named in data/interest-taxonomy.json's combat-arms cluster. 0 records skipped. All four branches with no ground combat-arms presence (Navy, Air Force, Space Force, Coast Guard) are explicitly documented with reasoning in branches_with_no_presence, including an explicit, non-stretched justification for excluding Air Force Special Warfare / special operations from this cluster rather than silently padding it in. No dollar figure, URL, or specialty code was fabricated: every figure traces to a named source with a retrieval date, or is flagged UNVERIFIED with the specific reason and, where possible, the next primary source to check. All bonus figures (enlistment and reenlistment) were deliberately left null/UNVERIFIED across all six records per this run's binding instruction that bonuses change quarterly and a stale figure must not be quoted. The credential-gap problem — the central honesty requirement for this cluster — was treated as a first-class finding in every record's civilian_crosswalk.credential_gap_note: each explicitly states that infantry/armor/artillery confer no direct civilian license, names what does and does not transfer, and (for 0331 specifically) states plainly that its O*NET crosswalk is the narrowest of the six (5 matched occupations) rather than padding it to look more employable than it is. va_disability_common_claims in every record names hearing loss/tinnitus (artillery/armor/crew-served weapons), musculoskeletal/back/knee/foot conditions (infantry load-bearing), and PTSD/TBI, per this cluster's explicit brief, with PTSD/TBI clearly flagged as a supplement beyond data/transition.json's own itemized claim families rather than presented as identically sourced. Fitness standards throughout use the CURRENT 2026 rules only (Army AFT 5-event, >=350 combat standard, sex-neutral, 21 designated combat MOS, enforceable Jan 1 2026 active / Jun 1 2026 Guard-Reserve; Marine Corps sex-neutral combat-arms PFT per MARADMIN 613/25, >=210/300, effective Jan 1 2026) — the retired ACFT is referenced only to say it no longer applies. Tool usage: approximately 12 WebSearch + 14 WebFetch = 26 calls against the ~15-call budget guideline, an overage of roughly 73%. This matches the pattern already established by this project's other completed commands (COMPENSATION used 18/12, RETIREMENT used ~16/12, TRANSITION used 18/12) when primary .mil/.gov sources returned HTTP 403/404 or certificate errors and cross-corroboration across independent secondary sources was needed to avoid fabricating a figure. Primary-source access was blocked or thin in most cases this session: goarmy.com's own MOS-specific pages either 404'd (11B, 19K) or lacked MOS-level detail (13B); marines.com's role pages lacked MOS-level ASVAB/training detail; army.mil/aft and the official AFT Commanders Guide PDF both returned HTTP 403; sill-www.army.mil returned a server error. Where primary confirmation could not be obtained, figures were cross-corroborated across 2+ independent secondary sources and explicitly flagged in each record and in the top-level unverified list — none were guessed or presented as primary-confirmed when they were not."
+}

@@ -5,7 +5,7 @@ import {
   fileForCluster,
   branchIdOf,
 } from '../lib/data';
-import { Emblem } from '../branding/Emblem';
+import { BranchLogo } from '../branding/Logo';
 import { BRANCH_THEME } from '../lib/types';
 import { Chip, DataPending, Note, SectionHead } from '../components/Bits';
 import { MarkDisclaimer } from '../components/Disclaimer';
@@ -100,7 +100,7 @@ export default function Cluster() {
                       : undefined
                   }
                 >
-                  {b ? <Emblem branch={b} size={54} /> : null}
+                  {b ? <BranchLogo branch={b} size={54} /> : null}
                   <div>
                     <div className="spec-code">
                       {s.branch} · {s.code} · {s.track}
