@@ -2103,3 +2103,18 @@ table tr.hit td { color: var(--ink); }
   border-color: color-mix(in srgb, var(--ok) 40%, transparent);
   background: color-mix(in srgb, var(--ok) 8%, transparent);
 }
+
+/* Two gates, side by side. The AFQT gets you into the BRANCH; the line score
+   gets you the JOB. Conflating them is the most common and most costly
+   misunderstanding in the whole enlistment process. */
+.gates {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+  margin-left: auto;
+}
+
+@media (max-width: 620px) {
+  .gates { align-items: flex-start; margin-left: 0; }
+}

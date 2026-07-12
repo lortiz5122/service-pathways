@@ -11,6 +11,7 @@ import { MarkDisclaimer } from '../components/Disclaimer';
 import { SpecialtyModal } from '../components/SpecialtyModal';
 import { ScoreCard } from '../components/ScoreCard';
 import { useProfile } from '../lib/profile';
+import { shortLineScore } from '../lib/format';
 import type { SpecialtyRecord } from '../lib/types';
 
 const STEPS = ['Interests', 'Your scores', 'What matters', 'Matches'];
@@ -231,6 +232,7 @@ export default function Explore() {
                 const s = r.specialty;
                 const b = branchIdOf(s);
                 const t = b ? BRANCH_THEME[b] : undefined;
+                const gate = shortLineScore(s.entry_requirements?.asvab_line_score);
                 return (
                   <div
                     key={s.id}
@@ -262,15 +264,23 @@ export default function Explore() {
                         </div>
                         <h3>{s.name}</h3>
                       </div>
-                      {r.branchGate === 'fail' ? (
-                        <Chip tone="alert">Your AFQT misses this branch</Chip>
-                      ) : r.branchGate === 'conflict' ? (
-                        <Chip tone="warn">Borderline — {r.branchGateLabel}</Chip>
-                      ) : r.branchGate === 'unknown' ? (
-                        <Chip tone="warn">Branch minimum not published</Chip>
-                      ) : (
-                        <Chip tone="ok">You clear this branch</Chip>
-                      )}
+                      <div className="gates">
+                        {r.branchGate === 'fail' ? (
+                          <Chip tone="alert">AFQT below this branch</Chip>
+                        ) : r.branchGate === 'conflict' ? (
+                          <Chip tone="warn">AFQT borderline</Chip>
+                        ) : r.branchGate === 'unknown' ? (
+                          <Chip tone="warn">No published AFQT minimum</Chip>
+                        ) : (
+                          <Chip tone="ok">Your AFQT qualifies you to enlist</Chip>
+                        )}
+                        {/* The AFQT is the BRANCH gate. The line score is the JOB
+                            gate. Showing them side by side is the whole point —
+                            clearing the branch does not get you the specialty. */}
+                        {gate ? (
+                          <Chip tone="brand">Job needs {gate}</Chip>
+                        ) : null}
+                      </div>
                     </header>
 
                     {r.criteria.length ? (
