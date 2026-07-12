@@ -5,6 +5,7 @@ import { SITE_DISCLAIMER, PLACEHOLDER_NOTICE } from '../components/Disclaimer';
 import logoManifest from '../research/logo-manifest.json';
 import { branchOrder, BRANCH_THEME } from '../lib/types';
 import { hasLogo } from '../branding/Logo';
+import { WhoMadeThis } from '../components/WhoMadeThis';
 
 type Dict = Record<string, unknown>;
 
@@ -102,6 +103,8 @@ export default function About() {
         title="Methodology, sources and limits"
         lede="What this site knows, how it knows it, and — more importantly — what it does not know."
       />
+
+      <WhoMadeThis />
 
       <div className="grid g3">
         <div className="card stat">

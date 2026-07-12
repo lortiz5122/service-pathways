@@ -4,6 +4,7 @@ import { BranchLogo } from '../branding/Logo';
 import { branchOrder, BRANCH_NAME_TO_ID, type BranchId } from '../lib/types';
 import { MarkDisclaimer } from '../components/Disclaimer';
 import { Note } from '../components/Bits';
+import { WhoMadeThis } from '../components/WhoMadeThis';
 import { HEALTHCARE } from '../lib/paycalc';
 
 /** Branches that actually have a researched specialty in this cluster. */
@@ -64,6 +65,10 @@ export default function Home() {
       </section>
 
       <div className="wrap">
+        {/* Who is telling you this, and what do they want from you? Answered
+            before a reader gets to a single number. */}
+        <WhoMadeThis />
+
         {/* --------------------------------- not sure where to start? */}
         <div className="card startcard">
           <h3>Not sure which service, or which job?</h3>

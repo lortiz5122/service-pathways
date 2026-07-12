@@ -2635,3 +2635,56 @@ table tr.hit td { color: var(--ink); }
   font-size: 12.5px !important;
   color: var(--ink-3) !important;
 }
+
+/* -------------------------------------------------- who made this, and why */
+
+.whomade {
+  margin-bottom: 22px;
+  padding: 26px 30px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line-2);
+  border-left: 4px solid var(--brand-accent);
+  background:
+    radial-gradient(120% 130% at 0% 0%, color-mix(in srgb, var(--brand-accent) 8%, transparent), transparent 58%),
+    linear-gradient(180deg, var(--panel), var(--bg-2));
+}
+
+.wm-tag {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--brand-accent);
+  margin-bottom: 14px;
+}
+
+.whomade p {
+  margin: 0 0 12px;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--ink-2);
+  max-width: 78ch;
+}
+
+.whomade p:last-child { margin-bottom: 0; }
+
+.whomade b { color: var(--ink); }
+
+.wm-lede {
+  font-size: 15.5px !important;
+  color: var(--ink) !important;
+}
+
+.wm-lede b { color: var(--brand-accent); }
+
+.wm-honest,
+.wm-final {
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.wm-final b { color: var(--warn); }
+
+@media (max-width: 620px) {
+  .whomade { padding: 20px 18px; }
+}
