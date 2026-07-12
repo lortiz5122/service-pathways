@@ -2,8 +2,90 @@ import { assets, taxonomy, specialtyFiles, allSpecialties, clusters } from '../l
 import { UNVERIFIED_ITEMS } from '../data/content';
 import { Note, SectionHead, TickList } from '../components/Bits';
 import { SITE_DISCLAIMER, PLACEHOLDER_NOTICE } from '../components/Disclaimer';
+import logoManifest from '../research/logo-manifest.json';
+import { BRANCH_IDS, BRANCH_THEME } from '../lib/types';
+import { hasLogo } from '../branding/Logo';
 
 type Dict = Record<string, unknown>;
+
+const rejected = (logoManifest as { rejected: { file: string; why: string }[] })
+  .rejected;
+const shipped = (logoManifest as { logos: { slug: string; label: string }[] }).logos;
+
+/** What is real artwork, what was refused, and what falls back to original art. */
+function AssetLedger() {
+  const fallbacks = BRANCH_IDS.filter((b) => !hasLogo(b));
+
+  return (
+    <div className="card">
+      <h3>What is actually on this page</h3>
+
+      <div className="grid g3" style={{ marginBottom: 18 }}>
+        <div className="stat">
+          <div className="n">{shipped.length}</div>
+          <div className="l">Official logos in use</div>
+          <div className="s">MEDIUM risk — disclaimed, non-commercial</div>
+        </div>
+        <div className="stat">
+          <div className="n">{rejected.length}</div>
+          <div className="l">Files rejected</div>
+          <div className="s">Seals — HIGH risk, never used</div>
+        </div>
+        <div className="stat">
+          <div className="n">{fallbacks.length}</div>
+          <div className="l">Branches on original art</div>
+          <div className="s">No safe logo could be sourced</div>
+        </div>
+      </div>
+
+      {rejected.length ? (
+        <>
+          <h4 className="minihead">Rejected at the build boundary</h4>
+          <div className="tablewrap" style={{ marginBottom: 16 }}>
+            <table>
+              <thead>
+                <tr>
+                  <th>File</th>
+                  <th>Why it was refused</th>
+                </tr>
+              </thead>
+              <tbody>
+                {rejected.map((r) => (
+                  <tr key={r.file}>
+                    <td>
+                      <strong>{r.file}</strong>
+                    </td>
+                    <td className="gap-no">{r.why}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="srcline" style={{ marginBottom: 16 }}>
+            This filter runs in the build script, not in a developer's head. A seal
+            file cannot physically reach the bundle.
+          </p>
+        </>
+      ) : null}
+
+      {fallbacks.length ? (
+        <Note tone="warn">
+          <div>
+            <b>
+              {fallbacks.map((b) => BRANCH_THEME[b].short).join(', ')} —{' '}
+              {fallbacks.length === 1 ? 'shown' : 'shown'} with original artwork.
+            </b>{' '}
+            No official non-seal logo could be sourced for{' '}
+            {fallbacks.length === 1 ? 'this service' : 'these services'}. The only
+            file available was a seal, which this site does not use under any
+            circumstances. An original illustration stands in until a real logo can
+            be sourced.
+          </div>
+        </Note>
+      ) : null}
+    </div>
+  );
+}
 
 const dvids = (assets as Dict).dvids_pipeline as Dict | undefined;
 const hardRules = (assets as Dict).hard_rules as string[] | undefined;
@@ -56,31 +138,31 @@ export default function About() {
 
       {/* --------------------------------------------------- the assets */}
       <SectionHead
-        title="Why the insignia here are not the real ones"
-        lede="This is the most visible compromise in the build, and it was not a stylistic choice."
+        title="The insignia on this site"
+        lede="Which marks are real, which were refused, and why."
       />
-      <div className="card">
-        <Note tone="alert">{PLACEHOLDER_NOTICE}</Note>
 
-        <p style={{ marginTop: 14 }}>
-          The asset research identified official sources for branch emblems and rank
-          insignia. Every one of those URLs was then tested, and{' '}
-          <strong>
-            all of them returned HTTP 403 — including the Department of War's own
-            trademark guide and every branch's .mil portal.
-          </strong>{' '}
-          No official emblem, badge or insignia file could be verified as reachable.
-          The governing asset policy is explicit that a URL which cannot be verified
-          must be omitted rather than guessed, because a hallucinated asset URL breaks
-          a build silently.
+      <AssetLedger />
+
+      <div className="card" style={{ marginTop: 16 }}>
+        <h3>The rule that governs all of it</h3>
+        <p>
+          Two separate bodies of law apply at once. Copyright does not protect works
+          of the U.S. Government (17 U.S.C. § 105), so these marks are not
+          copyrighted. But trademark and insignia law restricts their{' '}
+          <em>use</em> independently — and the operative question is never copyright,
+          it is <strong>endorsement</strong>. A neutral, clearly-disclaimed,
+          non-commercial display is the lowest-risk posture there is. A commercial or
+          promotional one requires a written licence.
         </p>
-
         <p style={{ marginTop: 12 }}>
-          Rather than ship broken images or scrape an aggregator with no licensing
-          chain, every emblem and badge on this site was drawn from scratch. They
-          carry each service's official colors and heraldic vocabulary, and nothing
-          else.
+          That is why branch <strong>logos and emblems</strong> appear here and branch{' '}
+          <strong>seals never do</strong>. Seals are reserved to official government
+          use — the Coast Guard's own rule is that its seal "shall not be reproduced
+          outside of the United States Coast Guard."
         </p>
+
+        <Note tone="alert">{PLACEHOLDER_NOTICE}</Note>
 
         <h3 style={{ marginTop: 20 }}>Hard rules the build follows</h3>
         <TickList items={hardRules ?? []} />

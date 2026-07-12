@@ -39,30 +39,52 @@ for (const f of readdirSync(RSRC)) {
 /* ---------------------------------------------------------------- logos */
 const LSRC = join(ROOT, 'logos');
 const LDST = join(here, 'public', 'logos');
+// PURGE FIRST. Without this, a logo that gets re-classified as a seal stays on
+// disk from an earlier sync and Vite happily copies it into dist/ — which is
+// exactly how four seals reached production once already.
+rmSync(LDST, { recursive: true, force: true });
 mkdirSync(LDST, { recursive: true });
 
 const SEAL = /seal/i;
+
+/**
+ * Files that ARE seals despite an innocuous filename. Every one of these was
+ * opened and visually inspected — the filename filter alone let them through.
+ * A seal is identified by the official device ring: a circular border carrying
+ * the service name, a founding date and/or a Latin motto (e.g. "SEMPER PARATUS
+ * 1790", "DEPARTMENT OF THE AIR FORCE MMXIX", "DEPARTMENT OF THE NAVY").
+ */
+const CONFIRMED_SEALS = new Set([
+  'Marine-logo.jpg',   // "DEPARTMENT OF THE NAVY / UNITED STATES MARINE CORPS" + rope border
+  'USAF logo.png',     // "UNITED STATES AIR FORCE" ring + coat of arms + rope border
+  'USCG logo.jpeg',    // "SEMPER PARATUS / 1790" + rope border — the most restricted mark of all
+  'USSF logo.jpeg',    // "UNITED STATES SPACE FORCE / DEPARTMENT OF THE AIR FORCE / MMXIX"
+]);
 const RECRUITING = /army strong|americas navy|america's navy|aim high|few.*proud/i;
 
 /** source filename -> { slug, kind, label }. Anything not listed is reported, not shipped. */
 const MAP = {
   'army logo.jpg':                    { slug: 'army',                 kind: 'branch',    label: 'U.S. Army' },
   'Mark_of_the_United_States_Army.svg.webp': { slug: 'army-mark',     kind: 'alt',       label: 'U.S. Army (mark)' },
-  'Marine-logo.jpg':                  { slug: 'marine-corps',         kind: 'branch',    label: 'U.S. Marine Corps' },
-  'USAF logo.png':                    { slug: 'air-force',            kind: 'branch',    label: 'U.S. Air Force' },
-  'USSF logo.jpeg':                   { slug: 'space-force',          kind: 'branch',    label: 'U.S. Space Force' },
-  'USCG logo.jpeg':                   { slug: 'coast-guard',          kind: 'branch',    label: 'U.S. Coast Guard' },
-  'navy-logo.png':                    { slug: 'navy',                 kind: 'branch',    label: 'U.S. Navy' },
-  'navy-logo.jpg':                    { slug: 'navy',                 kind: 'branch',    label: 'U.S. Navy' },
+  // NOTE: Marine-logo.jpg / USAF logo.png / USSF logo.jpeg / USCG logo.jpeg are
+  // all SEALS despite their filenames — see CONFIRMED_SEALS above. Not mapped.
   'navy-logo.svg':                    { slug: 'navy',                 kind: 'branch',    label: 'U.S. Navy' },
+  'space-force-delta-logo.svg':       { slug: 'space-force',          kind: 'branch',    label: 'U.S. Space Force' },
+  'marine-corps-logo.svg':            { slug: 'marine-corps',         kind: 'branch',    label: 'U.S. Marine Corps' },
+  'marine-corps-logo.png':            { slug: 'marine-corps',         kind: 'branch',    label: 'U.S. Marine Corps' },
+  'air-force-logo.svg':               { slug: 'air-force',            kind: 'branch',    label: 'U.S. Air Force' },
+  'air-force-logo.png':               { slug: 'air-force',            kind: 'branch',    label: 'U.S. Air Force' },
+  'coast-guard-logo.svg':             { slug: 'coast-guard',          kind: 'branch',    label: 'U.S. Coast Guard' },
+  'coast-guard-logo.png':             { slug: 'coast-guard',          kind: 'branch',    label: 'U.S. Coast Guard' },
   'army national guard logo.jpg':     { slug: 'army-national-guard',  kind: 'component', label: 'Army National Guard' },
   'Air National Guard Logo.avif':     { slug: 'air-national-guard',   kind: 'component', label: 'Air National Guard' },
   'Marine_Forces_Reserve_insignia_(transparent_background).png':
                                       { slug: 'marine-forces-reserve', kind: 'component', label: 'Marine Forces Reserve' },
-  'army-reserve-logo.png':            { slug: 'army-reserve',         kind: 'component', label: 'U.S. Army Reserve' },
-  'navy-reserve-logo.png':            { slug: 'navy-reserve',         kind: 'component', label: 'U.S. Navy Reserve' },
-  'coast-guard-reserve-logo.png':     { slug: 'coast-guard-reserve',  kind: 'component', label: 'U.S. Coast Guard Reserve' },
-  'air-force-reserve-logo.png':       { slug: 'air-force-reserve',    kind: 'component', label: 'Air Force Reserve' },
+  'army-reserve-logo.svg':            { slug: 'army-reserve',         kind: 'component', label: 'U.S. Army Reserve' },
+  'navy-reserve-logo.jpg':            { slug: 'navy-reserve',         kind: 'component', label: 'U.S. Navy Reserve' },
+  'air-force-reserve-logo.svg':       { slug: 'air-force-reserve',    kind: 'component', label: 'Air Force Reserve' },
+  // Coast Guard Reserve: NO non-seal logo exists. Commons has only the seal.
+  // Correctly absent rather than substituted.
   'DOW-Logo-Stacked-1-Color.png':     { slug: 'dow',                  kind: 'joint',     label: 'Department of War' },
 };
 
@@ -75,6 +97,10 @@ for (const f of readdirSync(LSRC)) {
   if (!statSync(join(LSRC, f)).isFile()) continue;
 
   if (SEAL.test(f))       { rejected.push({ file: f, why: 'SEAL — forbidden by asset policy (HIGH risk)' }); continue; }
+  if (CONFIRMED_SEALS.has(f)) {
+    rejected.push({ file: f, why: 'SEAL — named "logo" but visually confirmed to be the official seal (HIGH risk)' });
+    continue;
+  }
   if (RECRUITING.test(f)) { rejected.push({ file: f, why: 'recruiting mark — actively enforced trademark (HIGH risk)' }); continue; }
 
   const m = MAP[f];
