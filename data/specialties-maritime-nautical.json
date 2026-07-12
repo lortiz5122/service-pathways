@@ -1,0 +1,1490 @@
+{
+  "command": "SPECIALTIES",
+  "cluster_id": "maritime-nautical",
+  "retrieved_date": "2026-07-12",
+  "specialties": [
+    {
+      "id": "navy-bm-boatswains-mate",
+      "name": "Boatswain's Mate",
+      "branch": "Navy",
+      "track": "enlisted",
+      "code": "BM",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "entry_requirements": {
+        "asvab_line_score": "Navy has no single named line score for this cluster — ratings sum raw ASVAB subtest standard scores (per data/interest-taxonomy.json: 'Navy: no line score — per-rating subtest sums'). Secondary sources (cogn-iq.org, gyfted.me) report BM requires VE+AR+MK+AS ≥ 175 AND MK+AS+AO ≥ 135 (both must be met simultaneously). UNVERIFIED at primary-source level — MyNavyHR (mynavyhr.navy.mil) returned HTTP 403 on direct fetch this session; confirm the current cutoff with a recruiter or the official BM rating page before relying on it.",
+        "education": "High school diploma or GED (Navy general accession standard; no BM-specific deviation found).",
+        "age_range": "17 (with parental consent) to 41 for active duty, per data/branch-profiles.json (secondary-reported, not independently confirmed on navy.com this session). No BM-specific age restriction found.",
+        "physical": "Standard Navy accession medical and physical-readiness standards. No elevated BM-specific medical standard was found this session, though normal color vision matters operationally for signal flags, running lights, and line/rigging color-coding.",
+        "security_clearance": "Not typically required for the general rating. Assignment to a Visit, Board, Search, and Seizure (VBSS) team or certain security-adjacent boat-crew billets may require one — not confirmed to primary-source level this session.",
+        "other": "navyenlisted.com reports a 60-month (5-year) initial service obligation for BM, longer than several other ratings' typical 4-year first contract — not independently confirmed against a primary Navy source this session."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training (boot camp)",
+          "location": "Recruit Training Command (RTC), Naval Station Great Lakes, Illinois",
+          "length_weeks": 9,
+          "description": "Navy's sole enlisted boot camp; shortened from 10 to 9 weeks effective January 2025. (data/branch-profiles.json)"
+        },
+        {
+          "stage": "Boatswain's Mate \"A\" School",
+          "location": "Center for Surface Combat Systems Detachment, Great Lakes, IL",
+          "length_weeks": 6,
+          "description": "Deck seamanship fundamentals: line-handling and rigging, anchoring, underway replenishment rigging, small-boat operations, watchstanding, and Navy Enlisted Classification (NEC) foundations. (navycs.com, cogn-iq.org, fetched/searched 2026-07-12)"
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.2,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.8,
+        "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. BAH is intentionally EXCLUDED because it is duty-station-specific and cannot be reduced to one national number (pay-tables.json bah.national_number_warning) — actual total cash compensation is materially higher once a real BAH figure for the member's duty station is added, often the single largest component. Excludes the DoD TSP contribution (up to 5% of base pay, ~$1,444/yr at max match) and TRICARE's non-cash value, neither of which pay-tables.json could quantify to primary-source confidence this session.",
+        "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html (primary DFAS/militarypay.defense.gov pages returned HTTP 403 on direct fetch)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "No current, dated FY2026 enlistment or reenlistment bonus figure for BM was found or confirmed this session. Deck/seamanship ratings such as BM have not historically been among the Navy's highest-bonus shortage ratings (those cluster in nuclear and other technical fields — see the Navy Nuclear Field record in this file), but bonus eligibility and amounts are set quarterly by Navy Personnel Command per current manning needs and can change without notice. Verify current BM bonus eligibility and amount directly with a Navy recruiter before relying on any figure.",
+        "source": "No current, dated FY2026 bonus figure was independently confirmed for any maritime/nautical rating this session. Bonuses are set quarterly per branch manning needs and change without notice — verify current eligibility/amount directly with a recruiter before relying on any number.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "E-1→E-4 in roughly 2-3 years and E-5 board eligibility at ~4-6 years is the Navy-wide enlisted norm; no BM-specific timeline deviation was found this session.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract (BM's reported 60-month/5-year initial obligation)",
+          "Volunteering for a Visit, Board, Search, and Seizure (VBSS) team, small-boat coxswain qualification, or other special-duty boat-crew assignment",
+          "The 20-year retention decision (pension cliff — see retirement block)"
+        ],
+        "advanced_schools_or_certs": [
+          "Boat crew / coxswain qualification and craft-specific certifications (e.g., RHIB)",
+          "STCW-related certifications and credential listings against the BM rating on Navy COOL (cool.osd.mil), which support a Merchant Mariner Credential pathway — see civilian_crosswalk",
+          "Advancement-gate technical and leadership schools at each paygrade (standard Navy pattern, not BM-specific)"
+        ],
+        "officer_conversion_path": "Limited Duty Officer (LDO) and Chief Warrant Officer (CWO) conversion paths exist Navy-wide for senior, experienced enlisted personnel in operationally relevant fields. Whether a BM-specific LDO/CWO designator currently exists was not independently confirmed this session — flagged rather than guessed.",
+        "source": "https://www.navycs.com/navy-jobs/boatswain-mate.html; https://www.cool.osd.mil/usn/moc/index.html?moc=bm (listing referenced via search, not independently fetched this session)",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years — there is no partial/prorated defined-benefit pension for separating at 19 years or 10 years. Before 20 years, a service member keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) — all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language. This applies identically regardless of specialty; maritime/nautical ratings carry no special rule.",
+        "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate is 2.5x monthly basic pay for a 4-year additional service obligation). No maritime-specialty-specific continuation-pay rate was identified this session — treat the general BRS figure as the baseline and verify current-branch/rating amount before relying on it.",
+        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to Guard/Reserve maritime billets (e.g. Navy Reserve BM/QM, Coast Guard Reserve) as to any other specialty.",
+        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
+        "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide SkillBridge eligibility (up to 180 days of permissive duty in the final window before separation) is not specialty-restricted, so BMs near separation are as eligible as any other rating in principle — subject to the same real gate as everyone else: unit commander approval, which is discretionary based on unit staffing/operational needs (data/transition.json). Maritime-industry SkillBridge partners (towing, ferry, offshore-supply-vessel operators) are a plausible fit given the rating's deck/seamanship skill set, but specific partner availability by location was not independently verified this session — flagged as inference, not a sourced claim.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty.",
+        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below — VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No maritime-specialty-specific significance beyond the general rule.",
+        "va_disability_common_claims": [
+          "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json's specialty_linked_common_claims list covers combat arms, aviation, infantry, and PACT Act-covered theater deployment, but does NOT include a deck-seamanship/maritime entry). Reasoned from the physical nature of the job rather than pulled from a VA claims-frequency source:",
+          "Musculoskeletal conditions (lower back, shoulder, knee) from heavy line-handling, mooring, anchor-detail, and underway-replenishment work, and repeated ladder/hatch transits aboard ship",
+          "Hearing loss/tinnitus from prolonged shipboard machinery, flight-deck, or small-boat engine noise exposure without consistent hearing protection",
+          "Actinic skin damage / increased skin-cancer risk from prolonged topside weather-deck sun exposure over a career",
+          "To verify: check VA's published claims-by-occupation data (if published) or consult a VSO familiar with Navy deck ratings before treating this list as authoritative."
+        ],
+        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No maritime-specialty-specific eligibility variance.",
+        "source": "data/transition.json (RUN TRANSITION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "53-5011.00 — Sailors and Marine Oilers",
+          "53-5021.00 — Captains, Mates, and Pilots of Water Vessels (reachable with additional MMC sea time and licensing exams — see credential_gap_note)"
+        ],
+        "example_civilian_titles": [
+          "Able Seaman (unlicensed deck rating, merchant marine)",
+          "Deckhand — tug, ferry, or offshore-supply vessel",
+          "Boatswain (civilian merchant/commercial vessel)",
+          "Third Mate / licensed deck officer (with additional sea time and USCG licensing exams)"
+        ],
+        "relevant_certifications": [
+          "USCG Merchant Mariner Credential (MMC) — see credential_gap_note for the precise mechanics of crediting military sea service toward it",
+          "STCW Basic Training and related endorsements (partial overlap with Navy training; gap-dependent per Navy COOL)",
+          "Transportation Worker Identification Credential (TWIC), generally required separately for U.S. port/vessel access"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          51520,
+          81640
+        ],
+        "credential_gap_note": "Military sea service CAN count toward USCG Merchant Mariner Credential (MMC) sea-time requirements, but crediting is NOT automatic — it requires an affirmative application to the National Maritime Center (NMC) with proper documentation, and the mechanics differ by vessel type. (1) DOCUMENTATION: A DD-214 ALONE is explicitly NOT acceptable evidence of sea service under 46 CFR § 10.232(d). Coast Guard members document cutter service via an official Transcript of Sea Service (TOSS), obtainable through the USCG Pay and Personnel Center; small-boat or other vessel service is documented via form CG-719S, a sea-service letter, or an Abstract of Operations (AOPS), each requiring the commanding officer's or OIC's signature from the time of service. Sailors/Soldiers of other services would similarly need an official transcript of sea service or history of assignments, not a DD-214 alone. (2) CREDITING FORMULA: for time assigned to a Coast Guard cutter, NMC credits 60% of the assigned time as sea service — not a 1:1 conversion. (3) ELIGIBILITY: active-duty personnel, separated personnel, and civilian mariners with qualifying service aboard uniformed-service vessels (not Coast Guard-exclusive) are eligible to be considered under these provisions, meaning documented Navy or Army watercraft time is also a plausible candidate for credit, not just Coast Guard time. (4) WHAT IT DOESN'T DO: credited sea time advances the clock toward a specific MMC license tier (e.g., OUPV/six-pack, Mate, Master by tonnage), but which tier is reachable still depends on the tonnage, route (near-coastal vs. oceans), and vessel type of the credited service — this session could not independently confirm the full tier-by-tier conversion table. Bottom line: real and valuable, but conditional on paperwork the member must proactively obtain in-service, discounted for some vessel types, and it is a credit toward — not a substitute for — the separate MMC application, medical, and (for some ratings) exam process.",
+        "source": "https://www.mynextmove.org/profile/wages/53-5011.00 (Sailors and Marine Oilers, median $51,520, cites 'BLS 2025 wage data', fetched 2026-07-12); BLS OEWS Captains/Mates/Pilots of Water Vessels median $81,640 (bls.gov/oes page found via search, exact reference period not independently confirmed by direct fetch this session — bls.gov returned HTTP 403); NMC 'Crediting Military Sea Service' (dco.uscg.mil/Portals/9/NMC/pdfs/professional_qualifications/crediting_military_ss.pdf) — found via search; direct WebFetch returned HTTP 403 this session, so primary-text wording was not independently confirmed, though the specific figures above (60% cutter crediting, CG-719S/TOSS/AOPS documentation, 46 CFR §10.232(d) DD-214 insufficiency) appeared consistently in the search-result summary of that official document; corroborated directionally by https://www.mmseas.com/post/turning-coast-guard-military-sea-time-into-a-uscg-license",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months (or Purple Heart / service-connected-disability discharge after 30+ days), down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 active-duty days count — drills, AT, and initial training duty status do not. Applies identically regardless of specialty.",
+        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment — a real service commitment, not paperwork-only. Must be requested via milConnect while still serving; cannot be initiated after separation. Dependent children must wait until the member has 10+ years of service to start using it.",
+        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt — not by specialty. A maritime-rating veteran's group assignment depends entirely on their individual disability rating and income profile, not their rating/MOS.",
+        "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure — e.g., a 100%-disabled veteran gets a full residence-homestead property-tax exemption in Texas but a flat $100,000 assessed-value exemption in California (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend — scaled by the eligibility tier above. (data/education-benefits.json)",
+        "tuition_assistance": "DoD-wide Tuition Assistance: $250/semester-hour, capped at $4,500/fiscal year, while still serving. Applies the same across all six branches per data/education-benefits.json; branch-specific semester-hour usage limits were not independently confirmed to primary-source level in that file.",
+        "credentialing_assistance": "Navy Credentialing Opportunities On-Line (COOL) funds credential exams/renewals/fees for active-duty Navy and Navy Reserve (excluding IRR/VTU); a specific dollar cap was NOT confirmed this session (cool.osd.mil fetch failed with a certificate error). (data/education-benefits.json)",
+        "coop_or_apprenticeship_notes": "Navy COOL lists STCW-related and Merchant Mariner Credential-adjacent credentials against the BM rating. The realistic pathway is: accumulate documented sea time in-service, apply the mechanics in credential_gap_note to have qualifying time credited toward MMC sea-service requirements, then separately complete NMC's application, medical, and (for some tiers) exam requirements — the rating does not hand a mariner credential to anyone automatically."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Sea-intensive rating: standard Navy underway/deployment rotation aboard the ships BMs are assigned to (deck department is present on essentially every surface ship), interspersed with shore-duty tours. No BM-specific deployment-length figure was independently sourced this session.",
+        "family_considerations": "Sea-duty tours involve the standard Navy underway/deployment separation pattern common to shipboard ratings, alternating with more family-stable shore-duty tours."
+      },
+      "visual_assets": {
+        "branch_logo_id": "navy-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": [
+          "Navy Boatswain's Mate deck seamanship",
+          "Navy sailors line handling underway replenishment",
+          "Navy small boat coxswain training"
+        ],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {
+          "title": "BM Boatswain's mate – Navy ASVAB Requirements | Cogn-IQ",
+          "url": "https://www.cogn-iq.org/military-jobs/navy-bm/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Navy Boatswain's Mate Rating — NavyCS",
+          "url": "https://www.navycs.com/navy-jobs/boatswain-mate.html",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Become a Navy BM: Boatswain's Mate (2026) — Navy Enlisted",
+          "url": "https://navyenlisted.com/navy-bm-rating-boatswains-mate/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "BM - MyNavyHR (official; fetch returned HTTP 403 this session)",
+          "url": "https://www.mynavyhr.navy.mil/Career-Management/Community-Management/Enlisted/Surface-CS-OPS/BM/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Crediting Military Sea Service — National Maritime Center (official; fetch returned HTTP 403 this session)",
+          "url": "https://www.dco.uscg.mil/Portals/9/NMC/pdfs/professional_qualifications/crediting_military_ss.pdf",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Sailors and Marine Oilers wage data — My Next Move (O*NET/DOL)",
+          "url": "https://www.mynextmove.org/profile/wages/53-5011.00",
+          "retrieved_date": "2026-07-12"
+        }
+      ]
+    },
+    {
+      "id": "navy-qm-quartermaster",
+      "name": "Quartermaster",
+      "branch": "Navy",
+      "track": "enlisted",
+      "code": "QM",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "entry_requirements": {
+        "asvab_line_score": "Navy has no single named line score for this cluster — ratings sum raw ASVAB subtest standard scores. Search this session surfaced CONFLICTING secondary figures for QM: VE+AR ≥ 96 (cogn-iq.org); VE+AR+MK+AS = 210 (navyweek.org); VE+AR = 100 (operationmilitarykids.org); VE+AR ≥ 97 (navycs.com). UNVERIFIED and NOT reconciled against a primary Navy source this session (MyNavyHR returned HTTP 403 on a related BM fetch attempt; QM's MyNavyHR page was not separately fetched). Confirm the current cutoff with a recruiter before relying on any of these figures.",
+        "education": "High school diploma or GED (Navy general accession standard; no QM-specific deviation found).",
+        "age_range": "17 (with parental consent) to 41 for active duty, per data/branch-profiles.json (secondary-reported, not independently confirmed on navy.com this session). No QM-specific age restriction found.",
+        "physical": "Standard Navy accession medical and physical-readiness standards; no QM-specific elevated standard found. Normal color vision matters operationally for reading navigation lights and chart symbology.",
+        "security_clearance": "Not required for the rating generally; access to certain navigation/mission-planning systems and spaces may carry incidental clearance requirements depending on the platform — not independently confirmed this session.",
+        "other": "One secondary source (navyweek.org) reports a 4-6 year enlistment obligation for QM; not independently confirmed against a primary Navy source this session."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training (boot camp)",
+          "location": "Recruit Training Command (RTC), Naval Station Great Lakes, Illinois",
+          "length_weeks": 9,
+          "description": "Navy's sole enlisted boot camp; shortened from 10 to 9 weeks effective January 2025. (data/branch-profiles.json)"
+        },
+        {
+          "stage": "Quartermaster \"A\" School",
+          "location": "Center for Surface Combat Systems Detachment, Great Lakes, IL",
+          "length_weeks": 10,
+          "description": "Navigation instruments and electronic navigation tools, tide/current calculation, navigation-log keeping, celestial and visual fixing of the ship's position, rules of the nautical road (collision avoidance), bridge watchstanding, and visual signaling. (navycs.com, navyenlisted.com, searched 2026-07-12)"
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.2,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.8,
+        "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. BAH is intentionally EXCLUDED because it is duty-station-specific and cannot be reduced to one national number (pay-tables.json bah.national_number_warning) — actual total cash compensation is materially higher once a real BAH figure for the member's duty station is added, often the single largest component. Excludes the DoD TSP contribution (up to 5% of base pay, ~$1,444/yr at max match) and TRICARE's non-cash value, neither of which pay-tables.json could quantify to primary-source confidence this session.",
+        "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html (primary DFAS/militarypay.defense.gov pages returned HTTP 403 on direct fetch)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "No current, dated FY2026 enlistment or reenlistment bonus figure for QM was found or confirmed this session. Bridge/navigation ratings such as QM have not historically been among the Navy's highest-bonus shortage ratings; bonus eligibility and amounts are set quarterly by Navy Personnel Command per current manning needs and can change without notice. Verify current QM bonus eligibility and amount directly with a Navy recruiter before relying on any figure.",
+        "source": "No current, dated FY2026 bonus figure was independently confirmed for any maritime/nautical rating this session. Bonuses are set quarterly per branch manning needs and change without notice — verify current eligibility/amount directly with a recruiter before relying on any number.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "E-1→E-4 in roughly 2-3 years and E-5 board eligibility at ~4-6 years is the Navy-wide enlisted norm; no QM-specific timeline deviation was found this session.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract",
+          "Selection for Navigator/Assistant Navigator watch-team billets or Master Training Specialist-type instructor duty",
+          "The 20-year retention decision (pension cliff — see retirement block)"
+        ],
+        "advanced_schools_or_certs": [
+          "Officer of the Deck / Navigation watch-team qualifications (shipboard, not a civilian credential per se)",
+          "STCW-related and navigation-adjacent credential listings against QM on Navy COOL (cool.osd.mil), relevant to the MMC pathway — see civilian_crosswalk",
+          "Advancement-gate technical and leadership schools at each paygrade (standard Navy pattern, not QM-specific)"
+        ],
+        "officer_conversion_path": "Limited Duty Officer (LDO) and Chief Warrant Officer (CWO) conversion paths exist Navy-wide for senior, experienced enlisted personnel in operationally relevant fields, and QM's navigation background is a plausible fit for a Surface Warfare-adjacent LDO/CWO designator — whether a QM-specific designator currently exists was not independently confirmed this session.",
+        "source": "https://www.navycs.com/navy-jobs/quartermaster.html; https://navyenlisted.com/navy-qm-rating-quartermaster/",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years — there is no partial/prorated defined-benefit pension for separating at 19 years or 10 years. Before 20 years, a service member keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) — all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language. This applies identically regardless of specialty; maritime/nautical ratings carry no special rule.",
+        "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate is 2.5x monthly basic pay for a 4-year additional service obligation). No maritime-specialty-specific continuation-pay rate was identified this session — treat the general BRS figure as the baseline and verify current-branch/rating amount before relying on it.",
+        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to Guard/Reserve maritime billets (e.g. Navy Reserve BM/QM, Coast Guard Reserve) as to any other specialty.",
+        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
+        "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide SkillBridge eligibility (up to 180 days of permissive duty in the final window before separation) is not specialty-restricted, so QMs near separation are as eligible as any other rating in principle — subject to unit commander approval, which is discretionary based on unit staffing/operational needs (data/transition.json). Whether maritime-industry SkillBridge partners commonly recruit navigation-background QMs specifically was not independently verified this session — flagged as inference.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty.",
+        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below — VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No maritime-specialty-specific significance beyond the general rule.",
+        "va_disability_common_claims": [
+          "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json's list does not include a bridge/navigation-watchstanding entry). Reasoned from the job's physical/environmental profile:",
+          "Musculoskeletal strain (neck, back, shoulder) from prolonged bridge-watch standing and repeated topside/pelorus/wing-station transits in rough sea states",
+          "Hearing loss/tinnitus from bridge-wing and topside noise exposure (wind, engine, signal equipment) without consistent hearing protection",
+          "Eye strain/vision conditions from sustained low-light bridge and chart-table work",
+          "To verify: check VA's published claims-by-occupation data (if published) or consult a VSO familiar with Navy bridge/navigation ratings before treating this list as authoritative."
+        ],
+        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No maritime-specialty-specific eligibility variance.",
+        "source": "data/transition.json (RUN TRANSITION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "53-5021.00 — Captains, Mates, and Pilots of Water Vessels",
+          "53-5011.00 — Sailors and Marine Oilers (entry/unlicensed deck point before pursuing officer-level licensing)"
+        ],
+        "example_civilian_titles": [
+          "Merchant marine deck officer candidate (Third Mate track)",
+          "Able Seaman with navigation-watch experience",
+          "Vessel navigator / bridge watch team member (commercial or research vessel)"
+        ],
+        "relevant_certifications": [
+          "USCG Merchant Mariner Credential (MMC), Officer in Charge of a Navigational Watch (OICNW) or Mate endorsement — see credential_gap_note for the sea-time crediting mechanics",
+          "STCW Basic Training and navigation-related endorsements (partial overlap with QM training, gap-dependent per Navy COOL)",
+          "Transportation Worker Identification Credential (TWIC)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          51520,
+          81640
+        ],
+        "credential_gap_note": "QM's hands-on celestial/electronic navigation and bridge-watchstanding experience is a strong practical foundation for a merchant-marine deck-officer track specifically (more so than most other maritime ratings), but it is NOT a substitute for MMC licensing. Military sea service CAN count toward USCG Merchant Mariner Credential (MMC) sea-time requirements, but crediting is NOT automatic — it requires an affirmative application to the National Maritime Center (NMC) with proper documentation, and the mechanics differ by vessel type. (1) DOCUMENTATION: A DD-214 ALONE is explicitly NOT acceptable evidence of sea service under 46 CFR § 10.232(d). Coast Guard members document cutter service via an official Transcript of Sea Service (TOSS), obtainable through the USCG Pay and Personnel Center; small-boat or other vessel service is documented via form CG-719S, a sea-service letter, or an Abstract of Operations (AOPS), each requiring the commanding officer's or OIC's signature from the time of service. Sailors/Soldiers of other services would similarly need an official transcript of sea service or history of assignments, not a DD-214 alone. (2) CREDITING FORMULA: for time assigned to a Coast Guard cutter, NMC credits 60% of the assigned time as sea service — not a 1:1 conversion. (3) ELIGIBILITY: active-duty personnel, separated personnel, and civilian mariners with qualifying service aboard uniformed-service vessels (not Coast Guard-exclusive) are eligible to be considered under these provisions, meaning documented Navy or Army watercraft time is also a plausible candidate for credit, not just Coast Guard time. (4) WHAT IT DOESN'T DO: credited sea time advances the clock toward a specific MMC license tier (e.g., OUPV/six-pack, Mate, Master by tonnage), but which tier is reachable still depends on the tonnage, route (near-coastal vs. oceans), and vessel type of the credited service — this session could not independently confirm the full tier-by-tier conversion table. Bottom line: real and valuable, but conditional on paperwork the member must proactively obtain in-service, discounted for some vessel types, and it is a credit toward — not a substitute for — the separate MMC application, medical, and (for some ratings) exam process.",
+        "source": "https://www.mynextmove.org/profile/wages/53-5011.00 (fetched 2026-07-12); BLS OEWS Captains/Mates/Pilots of Water Vessels median $81,640 (found via search, bls.gov direct fetch returned HTTP 403 this session); NMC 'Crediting Military Sea Service' (dco.uscg.mil/Portals/9/NMC/pdfs/professional_qualifications/crediting_military_ss.pdf) — found via search; direct WebFetch returned HTTP 403 this session, so primary-text wording was not independently confirmed, though the specific figures above (60% cutter crediting, CG-719S/TOSS/AOPS documentation, 46 CFR §10.232(d) DD-214 insufficiency) appeared consistently in the search-result summary of that official document; corroborated directionally by https://www.mmseas.com/post/turning-coast-guard-military-sea-time-into-a-uscg-license",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months (or Purple Heart / service-connected-disability discharge after 30+ days), down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 active-duty days count — drills, AT, and initial training duty status do not. Applies identically regardless of specialty.",
+        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment — a real service commitment, not paperwork-only. Must be requested via milConnect while still serving; cannot be initiated after separation. Dependent children must wait until the member has 10+ years of service to start using it.",
+        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt — not by specialty. A maritime-rating veteran's group assignment depends entirely on their individual disability rating and income profile, not their rating/MOS.",
+        "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure — e.g., a 100%-disabled veteran gets a full residence-homestead property-tax exemption in Texas but a flat $100,000 assessed-value exemption in California (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend — scaled by the eligibility tier above. (data/education-benefits.json)",
+        "tuition_assistance": "DoD-wide Tuition Assistance: $250/semester-hour, capped at $4,500/fiscal year, while still serving. Applies the same across all six branches per data/education-benefits.json; branch-specific semester-hour usage limits were not independently confirmed to primary-source level in that file.",
+        "credentialing_assistance": "Navy Credentialing Opportunities On-Line (COOL) funds credential exams/renewals/fees for active-duty Navy and Navy Reserve (excluding IRR/VTU); a specific dollar cap was NOT confirmed this session (cool.osd.mil fetch failed with a certificate error). (data/education-benefits.json)",
+        "coop_or_apprenticeship_notes": "Same MMC sea-time-crediting pathway described in credential_gap_note applies. Navy COOL lists navigation/STCW-adjacent credentials against QM; the rating's navigation-watchstanding experience is directionally the closest fit in this cluster to the deck-officer (not just unlicensed-deckhand) side of the merchant marine, but still requires the separate NMC application/exam process."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Sea-intensive rating: standard Navy underway/deployment rotation aboard the ships QMs are assigned to (navigation department is present on essentially every surface ship), interspersed with shore-duty tours. No QM-specific deployment-length figure was independently sourced this session.",
+        "family_considerations": "Sea-duty tours involve the standard Navy underway/deployment separation pattern common to shipboard ratings, alternating with more family-stable shore-duty tours."
+      },
+      "visual_assets": {
+        "branch_logo_id": "navy-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": [
+          "Navy Quartermaster navigation bridge watch",
+          "Navy sailors chart plotting bridge",
+          "Navy ship navigation team underway"
+        ],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {
+          "title": "Become a Navy QM: Quartermaster (2026) — Navy Enlisted",
+          "url": "https://navyenlisted.com/navy-qm-rating-quartermaster/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "QM Quartermaster – Navy ASVAB Requirements | Cogn-IQ",
+          "url": "https://www.cogn-iq.org/military-jobs/navy-qm/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Quartermaster (QM) — U.S. Navy Rating | NavyWeek.org",
+          "url": "https://www.navyweek.org/navy-ratings/quartermaster/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Navy Quartermaster Rating — NavyCS",
+          "url": "https://www.navycs.com/navy-jobs/quartermaster.html",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Crediting Military Sea Service — National Maritime Center (official; fetch returned HTTP 403 this session)",
+          "url": "https://www.dco.uscg.mil/Portals/9/NMC/pdfs/professional_qualifications/crediting_military_ss.pdf",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Sailors and Marine Oilers wage data — My Next Move (O*NET/DOL)",
+          "url": "https://www.mynextmove.org/profile/wages/53-5011.00",
+          "retrieved_date": "2026-07-12"
+        }
+      ]
+    },
+    {
+      "id": "navy-nuclear-field-enlisted",
+      "name": "Nuclear Field (Machinist's Mate, Electrician's Mate, and Electronics Technician — Nuclear)",
+      "branch": "Navy",
+      "track": "enlisted",
+      "code": "MM(N) / EM(N) / ET(N) — Navy Nuclear Field (shipboard/submarine reactor-plant operation; entrants are assigned one of these three ratings, all trained through the same nuclear pipeline)",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "entry_requirements": {
+        "asvab_line_score": "Navy has no single named line score system; the Nuclear Field (NF) program instead uses ASVAB-derived composites that are, per this project's binding research brief, among the HIGHEST composite requirements in the entire U.S. military. Two qualification tracks (per navycs.com/Navy Advanced Programs Test materials, searched 2026-07-12): Alpha (NFA) — qualifies directly with one relevant composite (reported as VE+AR+MK+MC) ≥ 252, with AR+MK ≥ 110 also required, and no further testing needed. Bravo (NFB) — qualifies with the relevant composites ≥ 225 (rather than 252), but must additionally sit and pass the Navy Advanced Programs Test (NAPT), a 2-hour supplementary exam, with a minimum score of 50. UNVERIFIED at primary-source level — these figures are corroborated across multiple secondary/test-prep sources but were not independently confirmed via a direct fetch of a primary Navy/MyNavyHR nuclear-program page this session; confirm current cutoffs with a recruiter or Navy COOL before relying on them.",
+        "education": "High school diploma or GED, PLUS Navy Nuclear Field program applicants are commonly reported to need specific high-school-level math/science coursework (e.g., Algebra II) as a practical prerequisite for passing NF testing, though this is a functional/testing prerequisite rather than a formally published enlistment requirement — not independently confirmed to primary-source level this session.",
+        "age_range": "17 (with parental consent) to 41 for active duty, per data/branch-profiles.json (secondary-reported, not independently confirmed on navy.com this session). No Nuclear-Field-specific age restriction beyond the general Navy ceiling was found.",
+        "physical": "Standard Navy accession medical standards apply, PLUS Nuclear Field candidates undergo additional screening tied to the program's rigor and, for submarine-track assignment, full submarine-duty medical/physical qualification. Radiation-worker medical monitoring applies once in the fleet (routine occupational medical surveillance, not an accession-time hurdle). Not independently confirmed to primary-source level this session.",
+        "security_clearance": "Nuclear Field candidates undergo a rigorous background investigation and a personal interview process historically associated with Naval Reactors (the program with roots in Admiral Rickover's nuclear-propulsion program); a Secret clearance or higher is commonly reported as a practical requirement given access to reactor-plant technical data. Not independently confirmed to primary-source level this session — flagged as trained-knowledge/secondary-corroborated rather than freshly sourced.",
+        "other": "Entrants are assigned one of three ratings — Machinist's Mate (Nuclear, MM(N)), Electrician's Mate (Nuclear, EM(N)), or Electronics Technician (Nuclear, ET(N)) — based on program needs and candidate preference/aptitude, all of whom complete the same core nuclear-pipeline schools before diverging into rating-specific fleet duties. Nuclear Field also feeds Navy's submarine force specifically (a submarine-volunteer track requiring Basic Enlisted Submarine School) as well as nuclear-powered surface ships (aircraft carriers)."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training (boot camp)",
+          "location": "Recruit Training Command (RTC), Naval Station Great Lakes, Illinois",
+          "length_weeks": 9,
+          "description": "Navy's sole enlisted boot camp; shortened from 10 to 9 weeks effective January 2025. (data/branch-profiles.json)"
+        },
+        {
+          "stage": "Rating-specific \"A\" School (MM, EM, or ET)",
+          "location": "Various Navy training commands depending on assigned rating",
+          "length_weeks": 20,
+          "description": "Foundational rating-specific technical training before nuclear-specific instruction begins. Exact length varies by which of the three ratings is assigned; reported here as an approximate midpoint (UNVERIFIED — not independently confirmed to primary-source level this session)."
+        },
+        {
+          "stage": "Nuclear Power School (NPS)",
+          "location": "Naval Nuclear Power Training Command, Goose Creek, SC",
+          "length_weeks": 24,
+          "description": "Classroom instruction in reactor theory, thermodynamics, chemistry, radiological controls, and reactor-plant systems, common to all three nuclear ratings. Length reported as approximately 6 months from general/trained knowledge of the program's well-documented structure; NOT independently re-verified against a primary Navy source this session — flagged as UNVERIFIED at the primary-source level though the program's existence and location are well-corroborated."
+        },
+        {
+          "stage": "Nuclear Power Training Unit (NPTU) — 'prototype' training",
+          "location": "Nuclear Power Training Unit Charleston, SC (moored training platform)",
+          "length_weeks": 24,
+          "description": "Hands-on operation of an actual naval reactor plant aboard a moored training vessel, standing real operator watches under instructor supervision. Length reported as approximately 6 months from general/trained knowledge; NOT independently re-verified this session — flagged as UNVERIFIED at the primary-source level. Together, NPS + NPTU make the Nuclear Field initial training pipeline one of the longest in the U.S. military — commonly reported as 18-24 months from accession to first fleet operational assignment, a figure NOT independently confirmed to primary-source level this session and presented as directional."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.2,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.8,
+        "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. BAH is intentionally EXCLUDED because it is duty-station-specific and cannot be reduced to one national number (pay-tables.json bah.national_number_warning) — actual total cash compensation is materially higher once a real BAH figure for the member's duty station is added, often the single largest component. Excludes the DoD TSP contribution (up to 5% of base pay, ~$1,444/yr at max match) and TRICARE's non-cash value, neither of which pay-tables.json could quantify to primary-source confidence this session. Nuclear Field candidates are widely reported (secondary sources, not confirmed to primary-source level this session) to be eligible for an advanced initial paygrade and/or a Professional Apprenticeship Career Track-style incentive tied to nuclear program acceptance — if real, this would raise starting pay above the generic E-1 baseline used here. Flagged as UNVERIFIED rather than built into the baseline total-compensation figure.",
+        "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html (primary DFAS/militarypay.defense.gov pages returned HTTP 403 on direct fetch)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "No specific, dated FY2026 Nuclear Field enlistment or reenlistment bonus dollar figure was sourced this session. Qualitatively, Nuclear Field is widely and consistently reported across secondary sources as carrying among the LARGEST enlistment bonuses in the entire Department of Defense, reflecting the program's small, hard-to-fill candidate pool (very high ASVAB composite bar) and the Navy's critical operational need for qualified reactor operators. Per this project's binding constraint that bonus dollar figures change quarterly, no number is quoted here — verify the current Nuclear Field bonus amount directly with a Navy recruiter or the Navy's official bonus chart before relying on any figure encountered elsewhere.",
+        "source": "No current, dated FY2026 bonus figure was independently confirmed for any maritime/nautical rating this session. Bonuses are set quarterly per branch manning needs and change without notice — verify current eligibility/amount directly with a recruiter before relying on any number.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "Nuclear-trained sailors are commonly reported to advance somewhat faster than the Navy-wide average early in their career due to the technical demands and shortage status of the field, though this session did not independently confirm a specific NF advancement-timeline figure distinct from the general Navy E-1→E-4 (~2-3 years) / E-5 board (~4-6 years) pattern.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment obligation (Nuclear Field obligations are commonly reported as longer than standard, reflecting the training investment — not independently confirmed to an exact figure this session)",
+          "Qualification as Engineering Officer of the Watch (EOOW) or equivalent senior watchstander — a major internal career and civilian-crosswalk milestone",
+          "Instructor duty at Nuclear Power School or NPTU (shore-duty, high-responsibility track)",
+          "The 20-year retention decision (pension cliff — see retirement block)"
+        ],
+        "advanced_schools_or_certs": [
+          "Engineering Officer of the Watch (EOOW) qualification — the senior enlisted/officer watchstanding qualification that maps most directly to civilian 'shift supervisor' / 'control room supervisor' roles",
+          "Navy COOL-listed nuclear-adjacent credentials, including entries referencing NRC Reactor Operator (PWR) licensing preparation (cool.osd.mil/usn/credential/index.html?cert=nfo2994)",
+          "Nuclear Power School / NPTU instructor duty (shore rotation, further deepens teaching/technical-authority credentials)"
+        ],
+        "officer_conversion_path": "Limited Duty Officer (LDO) and Chief Warrant Officer (CWO) conversion paths exist for senior nuclear-trained enlisted personnel; the Navy also commissions nuclear-trained officers through separate accession pipelines (NUPOC, Naval Academy/NROTC nuclear option) that are a distinct (officer-track) path rather than an enlisted-to-officer conversion of this specific record. Not independently confirmed to a Nuclear-Field-specific LDO/CWO designator this session.",
+        "source": "https://bestmilitaryresume.com/blog/career-transition/military-to-nuclear-power-careers-navy-nukes; https://www.mynavyhr.navy.mil/Career-Management/Community-Management/Enlisted/Nuclear/Nuclear-Ratings/ (listing referenced via search, not independently fetched this session)",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years — there is no partial/prorated defined-benefit pension for separating at 19 years or 10 years. Before 20 years, a service member keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) — all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language. This applies identically regardless of specialty; maritime/nautical ratings carry no special rule.",
+        "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate is 2.5x monthly basic pay for a 4-year additional service obligation). No maritime-specialty-specific continuation-pay rate was identified this session — treat the general BRS figure as the baseline and verify current-branch/rating amount before relying on it.",
+        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to Guard/Reserve maritime billets (e.g. Navy Reserve BM/QM, Coast Guard Reserve) as to any other specialty.",
+        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
+        "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide SkillBridge eligibility (up to 180 days of permissive duty in the final window before separation) is not specialty-restricted — subject to unit commander approval, which is discretionary (data/transition.json). Nuclear Field is one of the clearest documented SkillBridge/hiring-partner fits in the entire military: commercial nuclear utilities (reported this session: Constellation/Exelon, Duke Energy, Southern Nuclear, Dominion Energy, TVA) actively recruit separating and separated Navy Nukes specifically, and several run structured pipeline/apprenticeship programs for this population (e.g., the historically well-known Exelon 'Splash' program referenced in secondary sources, not independently re-confirmed this session). This is a stronger-than-typical SkillBridge fit relative to most other specialties in this project.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty.",
+        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below — VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No maritime-specialty-specific significance beyond the general rule.",
+        "va_disability_common_claims": [
+          "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json's list does not include a nuclear-propulsion-specific entry). Reasoned from the job's operational environment:",
+          "Hearing loss/tinnitus from sustained machinery-space (engine room / reactor-plant auxiliary equipment) noise exposure",
+          "Musculoskeletal strain from confined-space work, submarine/shipboard ladder and hatch transits, and shift-work-driven repetitive tasks",
+          "Radiation exposure is a plausible-sounding but NOT well-supported common claim for this specific population — Navy Nuclear Field radiation exposure is tightly monitored and dosimetry-controlled, and secondary sources consistently describe measured occupational exposure as very low; this item is flagged explicitly to avoid implying a claim pattern that isn't well-evidenced, rather than to assert one that doesn't exist.",
+          "To verify: check VA's published claims-by-occupation data (if published) or consult a VSO familiar with Navy nuclear ratings before treating any of this as authoritative."
+        ],
+        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No maritime-specialty-specific eligibility variance.",
+        "source": "data/transition.json (RUN TRANSITION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "51-8011.00 — Nuclear Power Reactor Operators",
+          "51-8013.00 — Power Plant Operators, Distributors, and Dispatchers (broader power-generation field some Navy Nukes enter, e.g. non-nuclear utility operations)"
+        ],
+        "example_civilian_titles": [
+          "Non-Licensed Operator / Auxiliary Operator (entry-level civilian nuclear plant role)",
+          "NRC-licensed Reactor Operator (RO)",
+          "NRC-licensed Senior Reactor Operator (SRO) / Shift Supervisor / Control Room Supervisor",
+          "Radiological Controls (RadCon) Technician"
+        ],
+        "relevant_certifications": [
+          "NRC Reactor Operator (RO) and Senior Reactor Operator (SRO) licenses — see credential_gap_note for exact mechanics",
+          "Utility-specific site qualification/requalification training (required regardless of prior Navy nuclear experience)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          99300,
+          152690
+        ],
+        "credential_gap_note": "This is one of the STRONGEST military-to-civilian crosswalks in the U.S. military — but it is still not automatic, and the two facts belong together: (1) getting INTO the Nuclear Field program in the first place requires among the highest ASVAB composite scores of any enlisted path in the entire military (see entry_requirements — a 252 direct-qualify composite, or 225 plus a supplementary test), meaning the population that reaches this crosswalk is pre-filtered for strong technical aptitude before day one. (2) On the civilian side, commercial nuclear utilities recruit Navy Nukes specifically and heavily, and NRC's own published operator-license eligibility guidance gives Navy-trained applicants credit for military nuclear experience: per NRC's Operator License Eligibility Requirements documents (nrc.gov, found via search, not independently fetched this session), the start date for counting a candidate's total nuclear power plant experience toward NRC license eligibility is the date the candidate GRADUATED FROM NUCLEAR POWER SCHOOL PROTOTYPE (i.e., NPTU) TRAINING — meaning fleet watchstanding time counts, not just time after hire at a civilian utility. What it does NOT give: an automatic NRC license. A separating Navy Nuke still must be hired into a specific civilian utility's site-specific licensed-operator training program, requalify on that utility's specific reactor design/systems (a PWR-trained submarine/carrier sailor moving to a civilian PWR plant transfers more cleanly than to a BWR plant), and pass NRC's own written and operating exams (covering plant components, reactor theory, and thermodynamics) before holding an NRC license personally. Career-crosswalk tools (e.g., BMR's) explicitly translate Navy nuclear-watchstanding titles (e.g., Engineering Officer of the Watch) into civilian shift-supervisor/control-room-supervisor equivalents to help make the military experience legible to civilian hiring managers.",
+        "source": "https://bestmilitaryresume.com/blog/career-transition/military-to-nuclear-power-careers-navy-nukes; NRC Operator License Eligibility Requirements (nrc.gov/docs/ML1905/ML19053A433.pdf and nrc.gov/docs/ML2114/ML21144A141.pdf — found via search, not independently fetched this session); Navy COOL — Nuclear Power Plant Operator (PWR) (cool.osd.mil/usn/credential/index.html?cert=nfo2994); salary figures via search synthesis referencing BLS OEWS Nuclear Power Reactor Operators (bls.gov direct fetch returned HTTP 403 this session — median $122,610, range $99,300-$152,690 per secondary aggregation, NOT independently confirmed against the primary BLS table)",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months (or Purple Heart / service-connected-disability discharge after 30+ days), down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 active-duty days count — drills, AT, and initial training duty status do not. Applies identically regardless of specialty.",
+        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment — a real service commitment, not paperwork-only. Must be requested via milConnect while still serving; cannot be initiated after separation. Dependent children must wait until the member has 10+ years of service to start using it.",
+        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt — not by specialty. A maritime-rating veteran's group assignment depends entirely on their individual disability rating and income profile, not their rating/MOS.",
+        "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure — e.g., a 100%-disabled veteran gets a full residence-homestead property-tax exemption in Texas but a flat $100,000 assessed-value exemption in California (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend — scaled by the eligibility tier above. (data/education-benefits.json)",
+        "tuition_assistance": "DoD-wide Tuition Assistance: $250/semester-hour, capped at $4,500/fiscal year, while still serving. Applies the same across all six branches per data/education-benefits.json; branch-specific semester-hour usage limits were not independently confirmed to primary-source level in that file.",
+        "credentialing_assistance": "Navy Credentialing Opportunities On-Line (COOL) funds credential exams/renewals/fees for active-duty Navy and Navy Reserve (excluding IRR/VTU); a specific dollar cap was NOT confirmed this session. Navy COOL specifically lists a 'Nuclear Power Plant Operator - Pressurized Water Reactors (PWR)' credential entry tied to this field (cool.osd.mil/usn/credential/index.html?cert=nfo2994). (data/education-benefits.json)",
+        "coop_or_apprenticeship_notes": "Multiple commercial nuclear utilities run structured hiring/apprenticeship pipelines specifically targeting separating Navy nuclear-trained personnel (see transition.skillbridge_notes and civilian_crosswalk.credential_gap_note). This is a materially better-documented, more direct coop/apprenticeship pathway than most other specialties in this project, though the exact current program names/partners were not independently re-verified against each utility's own site this session."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Among the most demanding deployment/operational tempos in the Navy: nuclear-trained sailors serve aboard submarines or nuclear-powered aircraft carriers, both of which carry extended, sometimes unpredictable underway/deployment schedules; submarine deployments in particular can involve extended periods with minimal outside communication. No specific current-year deployment-length figure was independently sourced this session — general characterization only.",
+        "family_considerations": "Widely reported as one of the more demanding lifestyle profiles in the Navy given submarine/carrier operational tempo and the shift-work nature of standing reactor-plant watches; shore-duty tours (including instructor duty at NPS/NPTU) provide more family-stable periods between sea tours. Not independently sourced to a specific figure this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "navy-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": [
+          "Navy nuclear reactor operator submarine",
+          "Navy nuclear propulsion training sailors",
+          "Navy aircraft carrier reactor department"
+        ],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {
+          "title": "Navy Advanced Programs Test (NAPT) — NavyCS",
+          "url": "https://www.navycs.com/navy-nuclear-power-test.html",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Nuclear Ratings — MyNavyHR (official; not independently fetched this session)",
+          "url": "https://www.mynavyhr.navy.mil/Career-Management/Community-Management/Enlisted/Nuclear/Nuclear-Ratings/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Military to Nuclear Power: Civilian Careers for Navy Nukes",
+          "url": "https://bestmilitaryresume.com/blog/career-transition/military-to-nuclear-power-careers-navy-nukes",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "NRC Operator License Eligibility Requirements (PDF)",
+          "url": "https://www.nrc.gov/docs/ML1905/ML19053A433.pdf",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "NRC Operator License Eligibility Requirements — updated (PDF)",
+          "url": "https://www.nrc.gov/docs/ML2114/ML21144A141.pdf",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Navy COOL — Nuclear Power Plant Operator, PWR",
+          "url": "https://www.cool.osd.mil/usn/credential/index.html?cert=nfo2994",
+          "retrieved_date": "2026-07-12"
+        }
+      ]
+    },
+    {
+      "id": "coast-guard-bm-boatswains-mate",
+      "name": "Boatswain's Mate",
+      "branch": "Coast Guard",
+      "track": "enlisted",
+      "code": "BM",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "entry_requirements": {
+        "asvab_line_score": "Coast Guard has no line-score system — ratings sum raw ASVAB subtest standard scores (per data/interest-taxonomy.json: 'USCG: no line score — per-rating subtest sums'). One secondary source (study.com, searched 2026-07-12) reports BM A-School requires AR+VE ≥ 100 with no separate minimum on any individual subtest. UNVERIFIED at primary-source level — not independently confirmed via a direct fetch of an official uscg.mil/gocoastguard.com rating-requirements page this session. The Coast Guard's general enlistment floor is an AFQT of 32 (50+ for GED holders), per a different secondary source in the same search; this is the enlistment gate, not the BM-specific rating gate. Do NOT invent a named composite — Coast Guard, like Navy, uses raw subtest sums per rating, not a composite name.",
+        "education": "High school diploma or GED (Coast Guard general accession standard; no BM-specific deviation found).",
+        "age_range": "17 (with parental consent) up to 42, reflecting a Coast Guard recruiting-instruction update reported in GAO-25-107224 that raised the prior ceiling of 34 (data/branch-profiles.json). No BM-specific age restriction found.",
+        "physical": "Must meet the Boat Crew Member Certification physical-fitness standard specifically (swim qualification and boat-crew physical readiness), in addition to standard Coast Guard accession medical standards. (gocoastguard.com/careers/enlisted/bm, searched 2026-07-12)",
+        "security_clearance": "Not typically required for the general rating; law-enforcement/homeland-security-adjacent boat-crew duties (e.g., maritime law enforcement boardings) may carry additional screening, not independently confirmed to primary-source level this session.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training (boot camp)",
+          "location": "Training Center Cape May, New Jersey",
+          "length_weeks": 8,
+          "description": "Coast Guard's sole enlisted boot camp. (data/branch-profiles.json; length reported per general Coast Guard accession pattern, not independently re-confirmed this session)"
+        },
+        {
+          "stage": "Boatswain's Mate \"A\" School",
+          "location": "Coast Guard Training Center Yorktown, Virginia",
+          "length_weeks": 14,
+          "description": "Boat operations and seafaring tasks, Team Coordination Training, First Aid/CPR certification, and the physical-fitness requirements tied to Boat Crew Member Certification. Graduates who complete both Knowledge and Performance requirements for Enlisted Professional Military Education can advance to Boatswain's Mate Third Class immediately upon 'A' School completion. (forcecom.uscg.mil, searched 2026-07-12)"
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.2,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.8,
+        "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. BAH is intentionally EXCLUDED because it is duty-station-specific and cannot be reduced to one national number (pay-tables.json bah.national_number_warning) — actual total cash compensation is materially higher once a real BAH figure for the member's duty station is added, often the single largest component. Excludes the DoD TSP contribution (up to 5% of base pay, ~$1,444/yr at max match) and TRICARE's non-cash value, neither of which pay-tables.json could quantify to primary-source confidence this session.",
+        "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html (primary DFAS/militarypay.defense.gov pages returned HTTP 403 on direct fetch)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "No current, dated FY2026 enlistment or reenlistment bonus figure for Coast Guard BM was found or confirmed this session. The culinary-cluster research in this project separately noted evidence of a historical Selective Reenlistment Bonus program for the Coast Guard's sister CS rating; whether an equivalent BM program currently exists and at what dollar level was not confirmed this session. Coast Guard bonus programs are DHS/Coast Guard-administered (not identical to DoD's bonus system) and change without notice — verify current BM bonus eligibility and amount directly with a Coast Guard recruiter.",
+        "source": "No current, dated FY2026 bonus figure was independently confirmed for any maritime/nautical rating this session. Bonuses are set quarterly per branch manning needs and change without notice — verify current eligibility/amount directly with a recruiter before relying on any number.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "General Coast Guard enlisted advancement pattern applies; BM's rapid path to E-4 (Third Class) directly upon 'A' School completion for Enlisted PME-qualified graduates is a documented BM-specific acceleration (forcecom.uscg.mil). No further BM-specific timeline detail beyond this was found this session.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract",
+          "Assignment competition for cutter vs. small-boat-station billets, or specialized boat-crew/coxswain qualifications",
+          "The 20-year retention decision (pension cliff — see retirement block)"
+        ],
+        "advanced_schools_or_certs": [
+          "Boat crew / coxswain qualification (Coast Guard's own rigorous, standardized boat-crew qualification program)",
+          "Rating-specific STCW/MMC-adjacent credential listings against BM on Coast Guard COOL (cool.osd.mil/uscg/moc/index.html?moc=bm), explicitly including an RFPNW (Rating Forming Part of a Navigational Watch) STCW analysis entry",
+          "Enlisted Professional Military Education (EPME) at each advancement gate"
+        ],
+        "officer_conversion_path": "Chief Warrant Officer (CWO) conversion is a well-established Coast Guard path for senior enlisted personnel, including a Boatswain/Marine Safety-adjacent CWO specialty track historically; exact current BM-to-CWO designator naming was not independently confirmed this session.",
+        "source": "https://www.forcecom.uscg.mil/Our-Organization/FORCECOM-UNITS/TraCen-Yorktown/Training/Boatswains-Mate/; https://www.cool.osd.mil/uscg/moc/index.html?moc=bm",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years — there is no partial/prorated defined-benefit pension for separating at 19 years or 10 years. Before 20 years, a service member keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) — all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language. This applies identically regardless of specialty; maritime/nautical ratings carry no special rule.",
+        "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate is 2.5x monthly basic pay for a 4-year additional service obligation). No maritime-specialty-specific continuation-pay rate was identified this session — treat the general BRS figure as the baseline and verify current-branch/rating amount before relying on it.",
+        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to Guard/Reserve maritime billets (e.g. Navy Reserve BM/QM, Coast Guard Reserve) as to any other specialty.",
+        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
+        "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": "UNVERIFIED",
+        "skillbridge_notes": "DoD-wide SkillBridge policy (DoDI 1322.29) applies to the Armed Forces; the Coast Guard is DHS, not DoD, and data/transition.json explicitly flags that 'Coast Guard-specific variances in SkillBridge/TAP administration ... were not independently verified' this session. The Coast Guard does participate in an analogous transition/internship framework, but whether it runs under the identical DoDI 1322.29 authority or a separate DHS/Coast Guard-specific instruction was not confirmed this session — marked UNVERIFIED per the master prompt's schema rather than assumed identical to the other five branches.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty. Coast Guard-specific administration differences from the DoD-wide program were not independently verified this session (data/transition.json).",
+        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below — VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No maritime-specialty-specific significance beyond the general rule.",
+        "va_disability_common_claims": [
+          "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session. Reasoned from the job's physical/environmental profile, closely analogous to the Navy BM entry in this file:",
+          "Musculoskeletal conditions (lower back, shoulder, knee) from heavy line-handling, towing, mooring, and small-boat launch/recovery operations, especially in heavy sea states",
+          "Hearing loss/tinnitus from small-boat engine and cutter machinery-space noise exposure",
+          "Cold-water/cold-weather injury history (frostbite, Raynaud's-type circulatory conditions) is plausible for Northeast/Alaska-station BMs conducting open-boat operations in cold climates, though not independently confirmed as a common claim this session",
+          "To verify: check VA's published claims-by-occupation data (if published) or consult a VSO familiar with Coast Guard deck ratings before treating this list as authoritative."
+        ],
+        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No maritime-specialty-specific eligibility variance.",
+        "source": "data/transition.json (RUN TRANSITION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "53-5011.00 — Sailors and Marine Oilers",
+          "53-5021.00 — Captains, Mates, and Pilots of Water Vessels (reachable with additional MMC sea time and licensing exams — see credential_gap_note)"
+        ],
+        "example_civilian_titles": [
+          "Able Seaman (unlicensed deck rating, merchant marine)",
+          "Deckhand / boat operator — towing, ferry, offshore-supply, or workboat companies",
+          "Licensed Master/Mate of Towing Vessels or OUPV ('six-pack') captain (with additional sea time and exams)"
+        ],
+        "relevant_certifications": [
+          "USCG Merchant Mariner Credential (MMC) — the BM rating carries a documented STCW/RFPNW (Rating Forming Part of a Navigational Watch) analysis on Coast Guard COOL, making this arguably the single cleanest rating-to-MMC pathway in this cluster",
+          "STCW Basic Training and related endorsements",
+          "Transportation Worker Identification Credential (TWIC)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          51520,
+          81640
+        ],
+        "credential_gap_note": "Because the Coast Guard IS the agency that issues the MMC, a Coast Guard BM's day-to-day work is closer to actual merchant-mariner practice than almost any other specialty in this project, and Coast Guard COOL documents a specific STCW/RFPNW analysis against this rating. Even so, the same core mechanics apply and credit is NOT automatic: Military sea service CAN count toward USCG Merchant Mariner Credential (MMC) sea-time requirements, but crediting is NOT automatic — it requires an affirmative application to the National Maritime Center (NMC) with proper documentation, and the mechanics differ by vessel type. (1) DOCUMENTATION: A DD-214 ALONE is explicitly NOT acceptable evidence of sea service under 46 CFR § 10.232(d). Coast Guard members document cutter service via an official Transcript of Sea Service (TOSS), obtainable through the USCG Pay and Personnel Center; small-boat or other vessel service is documented via form CG-719S, a sea-service letter, or an Abstract of Operations (AOPS), each requiring the commanding officer's or OIC's signature from the time of service. Sailors/Soldiers of other services would similarly need an official transcript of sea service or history of assignments, not a DD-214 alone. (2) CREDITING FORMULA: for time assigned to a Coast Guard cutter, NMC credits 60% of the assigned time as sea service — not a 1:1 conversion. (3) ELIGIBILITY: active-duty personnel, separated personnel, and civilian mariners with qualifying service aboard uniformed-service vessels (not Coast Guard-exclusive) are eligible to be considered under these provisions, meaning documented Navy or Army watercraft time is also a plausible candidate for credit, not just Coast Guard time. (4) WHAT IT DOESN'T DO: credited sea time advances the clock toward a specific MMC license tier (e.g., OUPV/six-pack, Mate, Master by tonnage), but which tier is reachable still depends on the tonnage, route (near-coastal vs. oceans), and vessel type of the credited service — this session could not independently confirm the full tier-by-tier conversion table. Bottom line: real and valuable, but conditional on paperwork the member must proactively obtain in-service, discounted for some vessel types, and it is a credit toward — not a substitute for — the separate MMC application, medical, and (for some ratings) exam process.",
+        "source": "https://www.cool.osd.mil/uscg/credential/index.html?cert=s-r6289&moc=bm; https://www.mynextmove.org/profile/wages/53-5011.00 (fetched 2026-07-12); BLS OEWS Captains/Mates/Pilots of Water Vessels median $81,640 (found via search, bls.gov direct fetch returned HTTP 403 this session); NMC 'Crediting Military Sea Service' (dco.uscg.mil/Portals/9/NMC/pdfs/professional_qualifications/crediting_military_ss.pdf) — found via search; direct WebFetch returned HTTP 403 this session, so primary-text wording was not independently confirmed, though the specific figures above (60% cutter crediting, CG-719S/TOSS/AOPS documentation, 46 CFR §10.232(d) DD-214 insufficiency) appeared consistently in the search-result summary of that official document; corroborated directionally by https://www.mmseas.com/post/turning-coast-guard-military-sea-time-into-a-uscg-license",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months (or Purple Heart / service-connected-disability discharge after 30+ days), down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 active-duty days count — drills, AT, and initial training duty status do not. Applies identically regardless of specialty.",
+        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment — a real service commitment, not paperwork-only. Must be requested via milConnect while still serving; cannot be initiated after separation. Dependent children must wait until the member has 10+ years of service to start using it.",
+        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt — not by specialty. A maritime-rating veteran's group assignment depends entirely on their individual disability rating and income profile, not their rating/MOS.",
+        "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure — e.g., a 100%-disabled veteran gets a full residence-homestead property-tax exemption in Texas but a flat $100,000 assessed-value exemption in California (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend — scaled by the eligibility tier above. (data/education-benefits.json)",
+        "tuition_assistance": "Search-sourced detail (UNVERIFIED at primary-source level, per data/education-benefits.json) indicates the Coast Guard follows the same $250/semester-hour, $4,500/fiscal-year TA caps, administered under DHS via the Coast Guard Institute rather than DoD — Coast Guard TA is DHS-funded even where the dollar caps happen to match. Confirm at gocoastguard.com/uscg.mil before publishing.",
+        "credentialing_assistance": "Coast Guard Credentialing Opportunities On-Line (COOL) program exists but a specific dollar cap was NOT confirmed this session — a search summary attributed a $4,500/year figure to the Coast Guard, but data/education-benefits.json flags this as a likely conflation with Coast Guard Tuition Assistance rather than Credentialing Assistance specifically. (data/education-benefits.json)",
+        "coop_or_apprenticeship_notes": "The BM rating's built-in STCW/RFPNW credential mapping on Coast Guard COOL, combined with the military-sea-service-crediting mechanics in credential_gap_note, makes this one of the more direct in-cluster pathways to an MMC. No formal degree co-op/apprenticeship program specific to BM was found this session."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Varies substantially by unit type: cutter-assigned BMs stand a patrol/underway rotation similar in character to Navy sea duty; small-boat-station-assigned BMs work a search-and-rescue/law-enforcement operational tempo from a shore-based station with recurring on-call/duty-section rotations rather than long open-ocean deployments. No specific current-year figure was independently sourced this session.",
+        "family_considerations": "Small-boat-station assignments are generally more family-stable (shore-based, commutable) than cutter assignments, which involve extended underway patrols; assignment type is a major lifestyle variable within this single rating."
+      },
+      "visual_assets": {
+        "branch_logo_id": "coast-guard-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": [
+          "Coast Guard Boatswain's Mate small boat operations",
+          "Coast Guard cutter deck seamanship",
+          "Coast Guard search and rescue boat crew"
+        ],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {
+          "title": "Boatswain's Mate | United States Coast Guard (official)",
+          "url": "https://www.gocoastguard.com/careers/enlisted/bm",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "TraCen Yorktown — Boatswain's Mate Training (official)",
+          "url": "https://www.forcecom.uscg.mil/Our-Organization/FORCECOM-UNITS/TraCen-Yorktown/Training/Boatswains-Mate/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Coast Guard COOL — BM Boatswain's Mate Overview",
+          "url": "https://www.cool.osd.mil/uscg/moc/index.html?moc=bm",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Coast Guard COOL — BM / STCW RFPNW Analysis",
+          "url": "https://www.cool.osd.mil/uscg/credential/index.html?cert=s-r6289&moc=bm",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "ASVAB Scores for the Coast Guard — Study.com",
+          "url": "https://study.com/academy/popular/asvab-scores-for-the-coast-guard.html",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Crediting Military Sea Service — National Maritime Center (official; fetch returned HTTP 403 this session)",
+          "url": "https://www.dco.uscg.mil/Portals/9/NMC/pdfs/professional_qualifications/crediting_military_ss.pdf",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Sailors and Marine Oilers wage data — My Next Move (O*NET/DOL)",
+          "url": "https://www.mynextmove.org/profile/wages/53-5011.00",
+          "retrieved_date": "2026-07-12"
+        }
+      ]
+    },
+    {
+      "id": "coast-guard-os-operations-specialist",
+      "name": "Operations Specialist",
+      "branch": "Coast Guard",
+      "track": "enlisted",
+      "code": "OS",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "entry_requirements": {
+        "asvab_line_score": "Coast Guard has no line-score system — ratings sum raw ASVAB subtest standard scores (per data/interest-taxonomy.json). No specific OS subtest-sum threshold was found or confirmed this session (search returned only general Coast Guard enlistment-floor information, not an OS-specific figure). UNVERIFIED — do NOT infer a number; confirm current OS requirements directly with a Coast Guard recruiter or gocoastguard.com. Qualitative requirement reported by the official career page: a good working knowledge of arithmetic, ability to work with modern computing/display equipment, strong communication skills, and good manual dexterity. Must be a U.S. citizen and able to meet all security clearance requirements.",
+        "education": "High school diploma or GED (Coast Guard general accession standard; no OS-specific deviation found).",
+        "age_range": "17 (with parental consent) up to 42, reflecting a Coast Guard recruiting-instruction update reported in GAO-25-107224 that raised the prior ceiling of 34 (data/branch-profiles.json). No OS-specific age restriction found.",
+        "physical": "Standard Coast Guard accession medical standards; no OS-specific elevated physical standard was found this session (OS is a watchstanding/console-based rating rather than a heavy-physical-labor rating like BM).",
+        "security_clearance": "Required — OS candidates must be U.S. citizens and able to meet all security clearance requirements, per the official career description (gocoastguard.com/careers/enlisted/os, searched 2026-07-12), since the rating handles classified tactical and operational information.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training (boot camp)",
+          "location": "Training Center Cape May, New Jersey",
+          "length_weeks": 8,
+          "description": "Coast Guard's sole enlisted boot camp. (data/branch-profiles.json; length reported per general Coast Guard accession pattern, not independently re-confirmed this session)"
+        },
+        {
+          "stage": "Operations Specialist \"A\" School",
+          "location": "Training Center Petaluma, California",
+          "length_weeks": 13,
+          "description": "Equipment and fundamentals for communications, navigation, and tactical operations; an Indoctrination course on management/leadership; principles of handling classified information; Charts and Plots; Basic Communications; Incident Communications; and Sector Watchstanding. (forcecom.uscg.mil, gocoastguard.com, searched 2026-07-12)"
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.2,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.8,
+        "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. BAH is intentionally EXCLUDED because it is duty-station-specific and cannot be reduced to one national number (pay-tables.json bah.national_number_warning) — actual total cash compensation is materially higher once a real BAH figure for the member's duty station is added, often the single largest component. Excludes the DoD TSP contribution (up to 5% of base pay, ~$1,444/yr at max match) and TRICARE's non-cash value, neither of which pay-tables.json could quantify to primary-source confidence this session.",
+        "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html (primary DFAS/militarypay.defense.gov pages returned HTTP 403 on direct fetch)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "No current, dated FY2026 enlistment or reenlistment bonus figure for Coast Guard OS was found or confirmed this session. Coast Guard bonus programs are DHS/Coast Guard-administered and change without notice — verify current OS bonus eligibility and amount directly with a Coast Guard recruiter.",
+        "source": "No current, dated FY2026 bonus figure was independently confirmed for any maritime/nautical rating this session. Bonuses are set quarterly per branch manning needs and change without notice — verify current eligibility/amount directly with a recruiter before relying on any number.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "Advancement to E-4 (Petty Officer Third Class) requires completing 'A' School (or a formal Striker on-the-job-training program), a commanding officer's recommendation, and at least 6 months' time in rate; non-rates who attend 'A' School earn E-4 upon graduation without taking the service-wide exam (gocoastguard.com, searched 2026-07-12) — this is a documented OS-specific acceleration relative to the Striker path.",
+        "reenlistment_decision_points": [
+          "End of initial enlistment contract",
+          "Competition for Vessel Traffic Service (VTS) center, Sector command-center, or cutter Combat Information Center (CIC)-equivalent watch-team billets",
+          "The 20-year retention decision (pension cliff — see retirement block)"
+        ],
+        "advanced_schools_or_certs": [
+          "Sector/cutter watchstanding qualifications (Officer of the Day / Command Center Controller-equivalent quals)",
+          "Advanced OS 'C' school tracks (tactical operations, search-and-rescue mission coordination) — specific current course names not independently confirmed this session",
+          "Enlisted Professional Military Education (EPME) at each advancement gate"
+        ],
+        "officer_conversion_path": "Chief Warrant Officer (CWO) conversion is a well-established Coast Guard path for senior enlisted personnel; an Operations/Command-Center-adjacent CWO specialty is plausible given OS's watchstanding focus, but exact current designator naming was not independently confirmed this session.",
+        "source": "https://gocoastguard.com/careers/enlisted/os; https://www.forcecom.uscg.mil/Our-Organization/FORCECOM-UNITS/TraCen-Petaluma/Training/OS/",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years — there is no partial/prorated defined-benefit pension for separating at 19 years or 10 years. Before 20 years, a service member keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) — all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language. This applies identically regardless of specialty; maritime/nautical ratings carry no special rule.",
+        "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate is 2.5x monthly basic pay for a 4-year additional service obligation). No maritime-specialty-specific continuation-pay rate was identified this session — treat the general BRS figure as the baseline and verify current-branch/rating amount before relying on it.",
+        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to Guard/Reserve maritime billets (e.g. Navy Reserve BM/QM, Coast Guard Reserve) as to any other specialty.",
+        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
+        "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": "UNVERIFIED",
+        "skillbridge_notes": "Same Coast Guard/DHS-vs-DoD SkillBridge-administration caveat as the Coast Guard BM record in this file applies — data/transition.json flags Coast Guard-specific SkillBridge/TAP variances as not independently verified this session.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty. Coast Guard-specific administration differences from the DoD-wide program were not independently verified this session (data/transition.json).",
+        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below — VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No maritime-specialty-specific significance beyond the general rule.",
+        "va_disability_common_claims": [
+          "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session. Reasoned from the job's environment — sustained console/watchstanding work rather than heavy physical labor:",
+          "Vision strain/eye conditions from sustained radar/display-console watchstanding, often in low-light watch spaces",
+          "Musculoskeletal conditions (neck, back) from prolonged seated console duty and rotating shift-work postures",
+          "Sleep-disorder-related conditions plausibly linked to rotating watch schedules (night/mid-watch rotation is a known feature of 24/7 watchstanding ratings), though not independently confirmed as a common VA claim category for OS specifically this session",
+          "To verify: check VA's published claims-by-occupation data (if published) or consult a VSO familiar with Coast Guard operations/watchstanding ratings before treating this list as authoritative."
+        ],
+        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No maritime-specialty-specific eligibility variance.",
+        "source": "data/transition.json (RUN TRANSITION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "43-5031.00 — Police, Fire, and Ambulance Dispatchers (Public Safety Telecommunicators) — closest-fit analog for OS's communications/incident-coordination/watchstanding work",
+          "53-2022.00 — Airfield Operations Specialists (analogy-based: monitoring, coordination, and safety-of-operations function, though airfield- rather than vessel-specific)"
+        ],
+        "example_civilian_titles": [
+          "Emergency/public-safety dispatcher",
+          "Vessel Traffic Service (VTS) operator (some U.S. VTS centers are themselves Coast Guard-operated; a smaller number of port/harbor VTS-adjacent roles exist in the private/municipal sector)",
+          "Search-and-rescue mission coordinator (government/NGO maritime SAR organizations)"
+        ],
+        "relevant_certifications": [
+          "No dedicated, verified-this-session O*NET code exists specifically for 'vessel traffic controller' — this crosswalk is an ANALOGY, not a direct, authoritative O*NET-published occupational match, and should be presented to users as directional rather than precise",
+          "Public-safety telecommunicator state certification (varies by state) for the dispatcher pathway",
+          "Transportation Worker Identification Credential (TWIC), relevant for port-adjacent civilian roles"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          37320,
+          79830
+        ],
+        "credential_gap_note": "OS's classified tactical-picture, communications, and incident-coordination experience does not map to a single, well-defined O*NET occupation the way a deck rating (BM/QM) maps to the merchant marine. The dispatcher/public-safety-telecommunicator crosswalk used here is a reasoned analogy based on the shared 'monitor, communicate, coordinate response' function, not a sourced, authoritative military-to-civilian crosswalk document — flagged explicitly so this isn't presented with false precision. A state public-safety-telecommunicator certification is a real, achievable civilian credential; OS training does not automatically confer it.",
+        "source": "https://www.mynextmove.org/profile/wages/43-5031.00 (Public Safety Telecommunicators / Police, Fire, and Ambulance Dispatchers, median $53,040, range $37,320-$79,830, cites 'BLS 2025 wage data', fetched 2026-07-12); https://gocoastguard.com/careers/enlisted/os",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months (or Purple Heart / service-connected-disability discharge after 30+ days), down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 active-duty days count — drills, AT, and initial training duty status do not. Applies identically regardless of specialty.",
+        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment — a real service commitment, not paperwork-only. Must be requested via milConnect while still serving; cannot be initiated after separation. Dependent children must wait until the member has 10+ years of service to start using it.",
+        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt — not by specialty. A maritime-rating veteran's group assignment depends entirely on their individual disability rating and income profile, not their rating/MOS.",
+        "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure — e.g., a 100%-disabled veteran gets a full residence-homestead property-tax exemption in Texas but a flat $100,000 assessed-value exemption in California (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend — scaled by the eligibility tier above. (data/education-benefits.json)",
+        "tuition_assistance": "Search-sourced detail (UNVERIFIED at primary-source level, per data/education-benefits.json) indicates the Coast Guard follows the same $250/semester-hour, $4,500/fiscal-year TA caps, administered under DHS via the Coast Guard Institute rather than DoD. Confirm at gocoastguard.com/uscg.mil before publishing.",
+        "credentialing_assistance": "Coast Guard Credentialing Opportunities On-Line (COOL) program exists but a specific dollar cap was NOT confirmed this session, and a search summary's $4,500/year figure was flagged in data/education-benefits.json as a likely conflation with Coast Guard Tuition Assistance.",
+        "coop_or_apprenticeship_notes": null
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Mix of shore-based Sector/Command-Center watchstanding (24/7 rotating-shift duty, not underway deployment) and cutter-assigned Combat-Information-Center-equivalent duty during patrols, depending on unit assignment. No specific current-year deployment-frequency figure was independently sourced this session.",
+        "family_considerations": "Shore-based Sector/watchstanding assignments are generally more family-stable (rotating shift-work, but not underway) than cutter assignments, which involve extended patrols; assignment type is a major lifestyle variable within this single rating."
+      },
+      "visual_assets": {
+        "branch_logo_id": "coast-guard-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": [
+          "Coast Guard Operations Specialist command center",
+          "Coast Guard Sector command center watchstander",
+          "Coast Guard cutter combat information center"
+        ],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {
+          "title": "Operations Specialist | United States Coast Guard (official)",
+          "url": "https://gocoastguard.com/careers/enlisted/os",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "TraCen Petaluma — OS Training (official)",
+          "url": "https://www.forcecom.uscg.mil/Our-Organization/FORCECOM-UNITS/TraCen-Petaluma/Training/OS/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Enlisted Careers — OS Job Description (official)",
+          "url": "https://www.gocoastguard.com/active-duty-careers/enlisted-opportunities/view-job-descriptions/rate/OS",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Public Safety Telecommunicators wage data — My Next Move (O*NET/DOL)",
+          "url": "https://www.mynextmove.org/profile/wages/43-5031.00",
+          "retrieved_date": "2026-07-12"
+        }
+      ]
+    },
+    {
+      "id": "army-88k-watercraft-operator",
+      "name": "Watercraft Operator",
+      "branch": "Army",
+      "track": "enlisted",
+      "code": "88K (companion MOS: 88L — Watercraft Engineer, same Army Watercraft field, engineering/marine-propulsion-maintenance counterpart to 88K's deck/operations role — verified real via Army COOL and goarmy.com this session, not previously confirmed in data/interest-taxonomy.json)",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "entry_requirements": {
+        "asvab_line_score": "MM (Mechanical Maintenance) composite ≥ 99, per cogn-iq.org (searched 2026-07-12), consistent with the Army:MM composite listed for this cluster in data/interest-taxonomy.json. UNVERIFIED at primary-source level — the official goarmy.com 88K page was not independently fetched for score data this session; confirm the current cutoff with a recruiter. 88L (Watercraft Engineer) was not separately checked for a distinct ASVAB threshold this session — treat as likely similar (same MM-composite family) but unconfirmed.",
+        "education": "High school diploma or GED (Army general accession standard; no 88K-specific deviation found).",
+        "age_range": "17 (with parental consent) to 42, per the Army's 2026 policy ceiling (raised from 35) — data/branch-profiles.json. No 88K-specific age restriction found.",
+        "physical": "A physical profile of 211222 is required (cogn-iq.org, searched 2026-07-12). Normal color vision is specifically required to identify navigational markings, signal lights, and color-coded shipboard equipment — an elevated standard relative to many other Army MOSs. Must pass the Army Fitness Test (AFT) like all soldiers.",
+        "security_clearance": "Not required.",
+        "other": "Both men and women are eligible for this MOS (cogn-iq.org, searched 2026-07-12)."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Basic Combat Training (BCT)",
+          "location": "One of four Army training centers (Fort Jackson SC, Fort Moore GA, Fort Sill OK, or Fort Leonard Wood MO)",
+          "length_weeks": 10,
+          "description": "Standard Army basic training common to all MOSs. (data/branch-profiles.json)"
+        },
+        {
+          "stage": "Advanced Individual Training (AIT) — Watercraft Operator Course",
+          "location": "Fort Eustis, Virginia",
+          "length_weeks": 6,
+          "description": "Navigation, cargo operations, vessel handling, and supervising other soldiers aboard Army watercraft (Logistics Support Vessels, Landing Craft, and similar Army-owned vessels used for logistics-over-the-shore operations), with on-the-job instruction. (operationmilitarykids.org, part-time-commander.com, searched 2026-07-12)"
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.2,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.8,
+        "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. BAH is intentionally EXCLUDED because it is duty-station-specific and cannot be reduced to one national number (pay-tables.json bah.national_number_warning) — actual total cash compensation is materially higher once a real BAH figure for the member's duty station is added, often the single largest component. Excludes the DoD TSP contribution (up to 5% of base pay, ~$1,444/yr at max match) and TRICARE's non-cash value, neither of which pay-tables.json could quantify to primary-source confidence this session.",
+        "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html (primary DFAS/militarypay.defense.gov pages returned HTTP 403 on direct fetch)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "No current, dated FY2026 enlistment or reenlistment bonus figure for 88K or 88L was found or confirmed this session (the HRC Bonus Chart PDF referenced elsewhere in this project's research failed to parse in-session). Army watercraft is a small, niche field rather than a large shortage MOS, and this session found no evidence either way of current bonus eligibility. Verify current 88K/88L bonus eligibility and amount directly with an Army recruiter or the official HRC bonus chart (hrc.army.mil) before relying on any figure.",
+        "source": "No current, dated FY2026 bonus figure was independently confirmed for any maritime/nautical rating this session. Bonuses are set quarterly per branch manning needs and change without notice — verify current eligibility/amount directly with a recruiter before relying on any number.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "E-1→E-4 in roughly 2-3 years is the Army-wide norm; E-5 board eligibility typically follows at ~4-6 years of service. No 88K-specific timeline deviation was found — treat as the general Army enlisted pattern rather than a sourced 88K-specific figure.",
+        "reenlistment_decision_points": [
+          "End of initial term of service (commonly a 3- or 4-year first contract)",
+          "Assignment to one of the Army's small number of watercraft units (Army Watercraft is a genuinely niche field concentrated in a handful of Transportation Corps units, not spread Army-wide)",
+          "The 20-year retention decision (pension cliff — see retirement block)"
+        ],
+        "advanced_schools_or_certs": [
+          "Army COOL-listed civilian maritime credentials against 88K (cool.osd.mil/army/moc/index.html?moc=88k&tab=cred) — specific credential names not independently re-fetched this session",
+          "Senior Watercraft Operator / Vessel Master internal Army qualification tracks for career progression within the watercraft field",
+          "Basic/Advanced NCO courses at each promotion gate (standard Army NCOES, not 88K-specific)"
+        ],
+        "officer_conversion_path": null,
+        "source": "https://www.operationmilitarykids.org/army-watercraft-operator-mos-88k/; https://www.part-time-commander.com/army-88k-mos-watercraft-operator/; https://transportation.army.mil/enlisted/cmf88l.html",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years — there is no partial/prorated defined-benefit pension for separating at 19 years or 10 years. Before 20 years, a service member keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) — all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language. This applies identically regardless of specialty; maritime/nautical ratings carry no special rule.",
+        "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate is 2.5x monthly basic pay for a 4-year additional service obligation). No maritime-specialty-specific continuation-pay rate was identified this session — treat the general BRS figure as the baseline and verify current-branch/rating amount before relying on it.",
+        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to Guard/Reserve maritime billets (e.g. Navy Reserve BM/QM, Coast Guard Reserve) as to any other specialty.",
+        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
+        "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide SkillBridge eligibility (up to 180 days of permissive duty in the final window before separation) is not specialty-restricted, so 88K/88L soldiers near separation are as eligible as any other MOS in principle — subject to unit commander approval, which is discretionary based on unit staffing/operational needs (data/transition.json). Whether maritime-industry SkillBridge partners specifically target Army watercraft MOSs (versus Navy/Coast Guard ratings) was not independently verified this session.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty.",
+        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below — VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No maritime-specialty-specific significance beyond the general rule.",
+        "va_disability_common_claims": [
+          "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json's list does not include an Army-watercraft entry). Reasoned from the job's physical/environmental profile:",
+          "Musculoskeletal conditions (lower back, shoulder, knee) from cargo/line-handling operations and vessel-deck work",
+          "Hearing loss/tinnitus, particularly for 88L Watercraft Engineers who work in close proximity to diesel propulsion machinery and engine-room spaces",
+          "To verify: check VA's published claims-by-occupation data (if published) or consult a VSO familiar with Army Transportation Corps watercraft MOSs before treating this list as authoritative."
+        ],
+        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No maritime-specialty-specific eligibility variance.",
+        "source": "data/transition.json (RUN TRANSITION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "53-5011.00 — Sailors and Marine Oilers",
+          "53-5031.00 — Ship Engineers (closer fit for the 88L Watercraft Engineer variant specifically)"
+        ],
+        "example_civilian_titles": [
+          "Able Seaman / deckhand — tug, towing, or workboat companies",
+          "Qualified Member of the Engine Department (QMED) — engine-room/marine-mechanic track, closest fit for 88L",
+          "Licensed Master/Mate of Towing Vessels (with additional sea time and exams)"
+        ],
+        "relevant_certifications": [
+          "USCG Merchant Mariner Credential (MMC) — per the search on military sea-service crediting this session, eligibility to be considered extends to 'active duty personnel ... with qualifying service on uniformed service vessels,' which is not framed as Coast Guard-exclusive; whether Army Logistics Support Vessel/watercraft sea time is routinely credited in practice was NOT independently confirmed to primary-source level this session — flagged rather than assumed",
+          "STCW Basic Training and related endorsements",
+          "Transportation Worker Identification Credential (TWIC)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          51520,
+          109530
+        ],
+        "credential_gap_note": "Army watercraft soldiers operate real, oceangoing/coastal Army vessels (Logistics Support Vessels and similar), and the underlying MMC-crediting regulation language found this session does not restrict eligibility to Coast Guard service specifically. That said, this project could not confirm this session — and flags rather than assumes — whether Army watercraft time is processed through the same Transcript of Sea Service/CG-719S channel as Coast Guard time, or through a different documentation path specific to the Army. The core MMC mechanics still apply regardless of which service generated the sea time: Military sea service CAN count toward USCG Merchant Mariner Credential (MMC) sea-time requirements, but crediting is NOT automatic — it requires an affirmative application to the National Maritime Center (NMC) with proper documentation, and the mechanics differ by vessel type. (1) DOCUMENTATION: A DD-214 ALONE is explicitly NOT acceptable evidence of sea service under 46 CFR § 10.232(d). Coast Guard members document cutter service via an official Transcript of Sea Service (TOSS), obtainable through the USCG Pay and Personnel Center; small-boat or other vessel service is documented via form CG-719S, a sea-service letter, or an Abstract of Operations (AOPS), each requiring the commanding officer's or OIC's signature from the time of service. Sailors/Soldiers of other services would similarly need an official transcript of sea service or history of assignments, not a DD-214 alone. (2) CREDITING FORMULA: for time assigned to a Coast Guard cutter, NMC credits 60% of the assigned time as sea service — not a 1:1 conversion. (3) ELIGIBILITY: active-duty personnel, separated personnel, and civilian mariners with qualifying service aboard uniformed-service vessels (not Coast Guard-exclusive) are eligible to be considered under these provisions, meaning documented Navy or Army watercraft time is also a plausible candidate for credit, not just Coast Guard time. (4) WHAT IT DOESN'T DO: credited sea time advances the clock toward a specific MMC license tier (e.g., OUPV/six-pack, Mate, Master by tonnage), but which tier is reachable still depends on the tonnage, route (near-coastal vs. oceans), and vessel type of the credited service — this session could not independently confirm the full tier-by-tier conversion table. Bottom line: real and valuable, but conditional on paperwork the member must proactively obtain in-service, discounted for some vessel types, and it is a credit toward — not a substitute for — the separate MMC application, medical, and (for some ratings) exam process.",
+        "source": "https://www.mynextmove.org/profile/wages/53-5011.00 (fetched 2026-07-12); https://www.mynextmove.org/profile/wages/53-5031.00 (Ship Engineers, median $109,530, range $57,870-$165,490, cites 'BLS 2025 wage data', fetched 2026-07-12); NMC 'Crediting Military Sea Service' (dco.uscg.mil/Portals/9/NMC/pdfs/professional_qualifications/crediting_military_ss.pdf) — found via search; direct WebFetch returned HTTP 403 this session, so primary-text wording was not independently confirmed, though the specific figures above (60% cutter crediting, CG-719S/TOSS/AOPS documentation, 46 CFR §10.232(d) DD-214 insufficiency) appeared consistently in the search-result summary of that official document; corroborated directionally by https://www.mmseas.com/post/turning-coast-guard-military-sea-time-into-a-uscg-license",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months (or Purple Heart / service-connected-disability discharge after 30+ days), down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 active-duty days count — drills, AT, and initial training duty status do not. Applies identically regardless of specialty.",
+        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment — a real service commitment, not paperwork-only. Must be requested via milConnect while still serving; cannot be initiated after separation. Dependent children must wait until the member has 10+ years of service to start using it.",
+        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt — not by specialty. A maritime-rating veteran's group assignment depends entirely on their individual disability rating and income profile, not their rating/MOS.",
+        "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure — e.g., a 100%-disabled veteran gets a full residence-homestead property-tax exemption in Texas but a flat $100,000 assessed-value exemption in California (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend — scaled by the eligibility tier above. (data/education-benefits.json)",
+        "tuition_assistance": "DoD-wide Tuition Assistance: $250/semester-hour, capped at $4,500/fiscal year, while still serving. Applies the same across all six branches per data/education-benefits.json; branch-specific semester-hour usage limits were not independently confirmed to primary-source level in that file.",
+        "credentialing_assistance": "Army Credentialing Assistance (CA)/Army COOL: reduced to a $2,000/fiscal-year cap in 2024, lifetime limit reported at 3 credentials per 10 years of service; commissioned officers reported ineligible. UNVERIFIED at primary-source level — cool.osd.mil could not be independently fetched this session (certificate error). (data/education-benefits.json)",
+        "coop_or_apprenticeship_notes": "Army COOL lists civilian maritime credentials against 88K and 88L, though this session did not independently re-fetch the specific credential names. The MMC military-sea-service-crediting pathway in credential_gap_note is the primary route to a genuine civilian mariner license; it requires the soldier to proactively document sea time in-service and separately apply to the National Maritime Center."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Army Watercraft is a small, niche field concentrated in a handful of Transportation Corps units (not spread across the whole Army), performing logistics-over-the-shore missions during exercises and contingency operations. No sourced deployment-frequency figure specific to 88K/88L was found this session.",
+        "family_considerations": "Given the field's small unit footprint, assignment locations are limited to the small number of posts with Army watercraft units; garrison time between missions is generally more family-stable than a continuous sea-duty rotation, but no specific sourced figure was found this session."
+      },
+      "visual_assets": {
+        "branch_logo_id": "army-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": [
+          "Army watercraft operator logistics support vessel",
+          "Army 88K landing craft operations",
+          "Army Transportation Corps watercraft Fort Eustis"
+        ],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {
+          "title": "Army Watercraft Operator (MOS 88K): 2022 Career Details",
+          "url": "https://www.operationmilitarykids.org/army-watercraft-operator-mos-88k/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Army 88K MOS: Watercraft Operator Everything You Need to Know — Part-Time-Commander.com",
+          "url": "https://www.part-time-commander.com/army-88k-mos-watercraft-operator/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Watercraft Operator | U.S. Army (official)",
+          "url": "https://www.goarmy.com/careers-and-jobs/support-logistics/transportation-inventory/88k-watercraft-operator",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "88K Watercraft operator – Army ASVAB Requirements | Cogn-IQ",
+          "url": "https://www.cogn-iq.org/military-jobs/army-88k/",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "88L Watercraft Engineers — Army Transportation Corps (official)",
+          "url": "https://transportation.army.mil/enlisted/cmf88l.html",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Watercraft Engineer | U.S. Army (official)",
+          "url": "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/design-develop/88l-watercraft-engineer",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Crediting Military Sea Service — National Maritime Center (official; fetch returned HTTP 403 this session)",
+          "url": "https://www.dco.uscg.mil/Portals/9/NMC/pdfs/professional_qualifications/crediting_military_ss.pdf",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Sailors and Marine Oilers / Ship Engineers wage data — My Next Move (O*NET/DOL)",
+          "url": "https://www.mynextmove.org/profile/wages/53-5031.00",
+          "retrieved_date": "2026-07-12"
+        }
+      ]
+    },
+    {
+      "id": "marine-corps-0316-crrc-coxswain",
+      "name": "Combat Rubber Reconnaissance Craft (CRRC) Coxswain",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "code": "0316 (additional/secondary MOS, not a standalone primary accession MOS — see entry_requirements.other)",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "entry_requirements": {
+        "asvab_line_score": "Not independently ASVAB-gated as its own MOS. 0316 is awarded as an additional/secondary MOS to Marines already serving in the reconnaissance community (typically 0321 Reconnaissance Marine, itself drawn from the 03XX Infantry field) after completing a CRRC Coxswain Skills Course — it is not an ASVAB-line-score-gated primary accession the way BM/QM/88K are. Entry into the parent Infantry (03XX) field uses the Marine Corps GT (General Technical) composite; the Reconnaissance pipeline specifically screens on physical/swim qualification (Combat Water Survival, second class or higher) rather than an elevated ASVAB score for coxswain duty specifically. (mosdb.com, militaryyearbookproject.org, searched 2026-07-12) UNVERIFIED at primary-source level — not independently confirmed against an official marines.mil MOS manual this session.",
+        "education": "High school diploma or GED for standard Marine Corps enlisted accession into the parent Infantry/Reconnaissance pipeline; no separate 0316-specific education requirement found (it is a skills course, not an accession pathway).",
+        "age_range": "17 (with parental consent) to 28 for standard active-duty Marine Corps enlistment — the most restrictive maximum age of the six branches — with waivers reportedly available to 35 for prior-service applicants (data/branch-profiles.json). Reconnaissance-specific age handling was not independently confirmed this session.",
+        "physical": "Must be qualified Combat Water Survival, second class (CWS-2) or higher, with normal color vision and visual acuity, per the MOS's prerequisite list (militaryyearbookproject.org, searched 2026-07-12). This sits on top of the already-demanding physical/swim standards of the Reconnaissance pipeline itself (not separately detailed in this record — see the combat-arms cluster's Reconnaissance Marine record for the parent MOS's standards).",
+        "security_clearance": "Not independently confirmed this session; Reconnaissance-community assignments commonly carry clearance requirements tied to mission type, but a CRRC-coxswain-specific figure was not found.",
+        "other": "IMPORTANT SCOPE NOTE, matching the (limited) Marine Corps framing in this project's maritime-nautical cluster: 0316 is gained via formal school (EWTGPAC, 2d SOTG, or 3d SOTG CRRC Coxswain Skills Course) OR by Reconnaissance Commanders' designation after a Marine completes the Basic Reconnaissance Course (BRC) and 6 months of monitored on-the-job training in coxswain skills — it is layered on top of an existing Infantry/Reconnaissance primary MOS, not a standalone deck-seamanship career field the way Navy BM or Coast Guard BM are. A companion MOS, 0314 (Rigid Raiding Craft/RHIB Coxswain), was reported deleted/consolidated before 2020 by one secondary source. A November 2025 U.S. Naval Institute Proceedings article ('A Better Model for Small-Craft Coxswains and Maintainers') argued the Marine Corps should create a dedicated primary small-craft-specialist MOS rather than continuing to treat this as an ancillary skill — indicating the current structure is itself viewed as a gap/limitation within the Marine Corps, not just by outside observers of this project. This is the clearest evidence found this session for why the taxonomy characterizes Marine Corps maritime presence as 'limited': Marine Corps personnel embark aboard Navy ships and have this narrow reconnaissance-attached small-craft skill, but no organic, broad shipboard-seamanship career field of their own."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Basic Training / School of Infantry / Reconnaissance accession pipeline (prerequisite, not part of 0316 itself)",
+          "location": "Varies (Recruit Training + School of Infantry + Basic Reconnaissance Course, multiple locations)",
+          "length_weeks": 0,
+          "description": "0316 is awarded on top of an existing Infantry/Reconnaissance Marine (0321) background — this prerequisite pipeline is documented under the combat-arms cluster's Reconnaissance Marine record, not duplicated here. Length_weeks set to 0 because this stage is a prerequisite outside the 0316 course itself, not part of it."
+        },
+        {
+          "stage": "CRRC Coxswain Skills Course",
+          "location": "Expeditionary Warfare Training Group Pacific (EWTGPAC), or 2d/3d Special Operations Training Group (SOTG)",
+          "length_weeks": 2,
+          "description": "Combat Rubber Reconnaissance Craft launch, recovery, operation, navigation, and maintenance, qualifying the Marine as coxswain responsible for the safety and conduct of the boat team. Length is an approximate estimate (UNVERIFIED — exact course length not independently confirmed this session; alternatively awarded via BRC completion plus 6 months of monitored on-the-job training rather than this standalone course, per militaryyearbookproject.org)."
+        }
+      ],
+      "pay_and_compensation": {
+        "paygrade_entry": "E-1",
+        "base_pay_monthly_usd": 2407.2,
+        "bah_estimate_monthly_usd": "varies by duty station",
+        "bas_monthly_usd": 476.95,
+        "total_compensation_estimate_annual_usd": 34609.8,
+        "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. BAH is intentionally EXCLUDED because it is duty-station-specific and cannot be reduced to one national number (pay-tables.json bah.national_number_warning) — actual total cash compensation is materially higher once a real BAH figure for the member's duty station is added, often the single largest component. Excludes the DoD TSP contribution (up to 5% of base pay, ~$1,444/yr at max match) and TRICARE's non-cash value, neither of which pay-tables.json could quantify to primary-source confidence this session. Pay reflects the general Marine Corps E-1 baseline, not a Reconnaissance-specific or 0316-specific premium; Reconnaissance Marines may separately qualify for jump/dive/special-duty pays depending on additional qualifications, which were not sourced or quantified this session.",
+        "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html (primary DFAS/militarypay.defense.gov pages returned HTTP 403 on direct fetch)",
+        "retrieved_date": "2026-07-12"
+      },
+      "bonuses": {
+        "enlistment_bonus_range_usd": null,
+        "reenlistment_bonus_range_usd": null,
+        "conditions": "No current, dated FY2026 bonus figure specific to 0316 was found or is likely to exist as a distinct line item, since 0316 is an additional skill designator layered onto the Infantry/Reconnaissance primary MOS rather than a standalone accession MOS with its own bonus chart entry. Any enlistment bonus a Marine in this path receives would attach to the parent 03XX/Reconnaissance MOS, not to 0316 specifically — not independently confirmed this session.",
+        "source": "No current, dated FY2026 bonus figure was independently confirmed for any maritime/nautical rating this session. Bonuses are set quarterly per branch manning needs and change without notice — verify current eligibility/amount directly with a recruiter before relying on any number.",
+        "retrieved_date": "2026-07-12"
+      },
+      "career_progression": {
+        "typical_promotion_timeline": "Follows the parent Infantry/Reconnaissance Marine (0321) promotion timeline; no 0316-specific timeline was found or would be expected to exist separately, since 0316 is a skill designator rather than a separate career track.",
+        "reenlistment_decision_points": [
+          "Reenlistment decisions are governed by the parent Reconnaissance/Infantry MOS, not by 0316 status specifically",
+          "Selection for further small-craft-specific advanced schools or additional watercraft qualifications as they arise within a Reconnaissance unit's needs",
+          "The 20-year retention decision (pension cliff — see retirement block)"
+        ],
+        "advanced_schools_or_certs": [
+          "No 0316-specific civilian-recognized credential or Marine Corps COOL listing was found this session — flagged as a genuine gap rather than omitted by oversight",
+          "Broader Reconnaissance/Special Operations schools (documented under the combat-arms cluster, not duplicated here)"
+        ],
+        "officer_conversion_path": null,
+        "source": "https://mosdb.com/marine-corps/8111/mos/4312; https://militaryyearbookproject.org/references/military-occupation-codes/usmc/field-03-infantry/mos-0316-combat-rubber-reconnaissance-craft-coxswain; https://www.usni.org/magazines/proceedings/2025/november/better-model-small-craft-coxswains-and-maintainers",
+        "retrieved_date": "2026-07-12"
+      },
+      "retirement": {
+        "system": "BRS",
+        "tsp_auto_contribution_pct": 5,
+        "tsp_match_max_pct": 4,
+        "vesting_years": 2,
+        "pension_multiplier_pct": 2.0,
+        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years — there is no partial/prorated defined-benefit pension for separating at 19 years or 10 years. Before 20 years, a service member keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) — all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language. This applies identically regardless of specialty; maritime/nautical ratings carry no special rule.",
+        "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate is 2.5x monthly basic pay for a 4-year additional service obligation). No maritime-specialty-specific continuation-pay rate was identified this session — treat the general BRS figure as the baseline and verify current-branch/rating amount before relying on it.",
+        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to Guard/Reserve maritime billets (e.g. Navy Reserve BM/QM, Coast Guard Reserve) as to any other specialty.",
+        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
+        "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+        "retrieved_date": "2026-07-12"
+      },
+      "transition": {
+        "skillbridge_eligible": true,
+        "skillbridge_notes": "DoD-wide SkillBridge eligibility (up to 180 days of permissive duty in the final window before separation) is not specialty-restricted — subject to unit commander approval, which is discretionary (data/transition.json). No 0316-specific SkillBridge partner pattern was found this session; a separating Marine in this path would most likely be marketed to maritime/tactical-training-adjacent employers via their broader Reconnaissance background rather than the 0316 designator alone.",
+        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty.",
+        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below — VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No maritime-specialty-specific significance beyond the general rule.",
+        "va_disability_common_claims": [
+          "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json's list does not include a small-craft-coxswain-specific entry, though it does cover the broader infantry/combat-arms musculoskeletal pattern that would apply to this Marine's parent MOS). Reasoned from the job's environment:",
+          "Musculoskeletal and joint conditions (knee, shoulder, lower back) from repeated small-boat launch/recovery in surf zones and rough water, and from carrying CRRC craft and gear over beach/rough terrain",
+          "Hearing loss/tinnitus from outboard-engine noise exposure over sustained small-boat operations",
+          "Cold-water immersion-related conditions (plausible for maritime special-operations-adjacent training, not independently confirmed as a common claim this session)",
+          "To verify: check VA's published claims-by-occupation data (if published) or consult a VSO familiar with Marine Corps Reconnaissance/small-craft roles before treating this list as authoritative."
+        ],
+        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No maritime-specialty-specific eligibility variance.",
+        "source": "data/transition.json (RUN TRANSITION, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "civilian_crosswalk": {
+        "onet_codes": [
+          "53-5011.00 — Sailors and Marine Oilers (small-craft-operation angle only; imprecise fit given this MOS's combat/reconnaissance context)",
+          "33-9032.00 — Security Guards / 33-9099.00 — Protective Service Workers, All Other (broader crosswalk more representative of the parent Infantry/Reconnaissance background than of boat-handling specifically)"
+        ],
+        "example_civilian_titles": [
+          "Small-boat operator / deckhand (limited direct fit — see credential_gap_note)",
+          "Tactical/maritime security contractor (draws on the broader Reconnaissance background, not 0316 specifically)",
+          "Law enforcement or protective services (via the parent Infantry/Reconnaissance MOS's transferable skills, documented under the combat-arms and law-enforcement-security clusters)"
+        ],
+        "relevant_certifications": [
+          "USCG Merchant Mariner Credential (MMC) is theoretically reachable via the same military-sea-service-crediting mechanics described elsewhere in this file, but whether CRRC (small rubber-boat) operations in a combat-training context qualify as creditable 'sea service' under 46 CFR's definitions was NOT confirmed this session — flagged as a genuine open question rather than assumed",
+          "No 0316-specific civilian certification was found this session"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          34560,
+          51520
+        ],
+        "credential_gap_note": "This is the thinnest, least-direct civilian crosswalk in this cluster, and that thinness is itself the honest finding: 0316 is a secondary skill designator on top of an Infantry/Reconnaissance Marine's primary MOS, not a stand-alone maritime career field with its own training pipeline, COOL credential listings, or civilian licensure pathway the way Navy/Coast Guard BM or QM have. A Marine in this path should look primarily to their parent Reconnaissance/Infantry MOS's civilian crosswalk (tactical/security/protective-services fields, documented under this project's combat-arms and law-enforcement-security clusters) rather than expect a boat-handling-specific civilian license or job title from 0316 alone. Whether CRRC operating hours would even count as creditable MMC sea service was not confirmed this session — see relevant_certifications.",
+        "source": "https://www.mynextmove.org/profile/wages/53-5011.00 (fetched 2026-07-12, used only for the lower/upper percentile band of the closest-available occupation, not a precise match); https://www.usni.org/magazines/proceedings/2025/november/better-model-small-craft-coxswains-and-maintainers",
+        "retrieved_date": "2026-07-12"
+      },
+      "veteran_benefits": {
+        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months (or Purple Heart / service-connected-disability discharge after 30+ days), down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 active-duty days count — drills, AT, and initial training duty status do not. Applies identically regardless of specialty.",
+        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment — a real service commitment, not paperwork-only. Must be requested via milConnect while still serving; cannot be initiated after separation. Dependent children must wait until the member has 10+ years of service to start using it.",
+        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
+        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt — not by specialty. A maritime-rating veteran's group assignment depends entirely on their individual disability rating and income profile, not their rating/MOS.",
+        "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure — e.g., a 100%-disabled veteran gets a full residence-homestead property-tax exemption in Texas but a flat $100,000 assessed-value exemption in California (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project)",
+        "retrieved_date": "2026-07-12"
+      },
+      "education_benefits": {
+        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend — scaled by the eligibility tier above. (data/education-benefits.json)",
+        "tuition_assistance": "Standard DoD-wide $250/semester-hour, $4,500/fiscal-year cap, aligned with Department of the Navy policy (18-semester-hour-per-fiscal-year usage limit reported, UNVERIFIED at primary-source level, per data/education-benefits.json).",
+        "credentialing_assistance": "Marine Corps Credentialing Opportunities On-Line (COOL): specific dollar cap NOT confirmed this session — a direct fetch to cool.osd.mil failed with a certificate error in the underlying EDU-BENEFITS research pass. No 0316-specific credential listing was found on Marine Corps COOL this session. (data/education-benefits.json)",
+        "coop_or_apprenticeship_notes": "None found specific to 0316 this session."
+      },
+      "deployment_and_lifestyle": {
+        "typical_tempo": "Follows the parent Reconnaissance/Infantry unit's deployment and Marine Expeditionary Unit (MEU) workup cycle, which is generally demanding and includes shipboard time embarked aboard Navy amphibious vessels. No 0316-specific tempo figure was found or would be expected to exist separately from the parent MOS.",
+        "family_considerations": "Follows the parent Reconnaissance/Infantry MOS's family-separation pattern (MEU workup/deployment cycles are demanding); no 0316-specific variance was found."
+      },
+      "visual_assets": {
+        "branch_logo_id": "marine-corps-logo",
+        "specialty_badge_id": null,
+        "dvids_search_terms": [
+          "Marine Corps combat rubber reconnaissance craft training",
+          "Marine reconnaissance small boat launch",
+          "Marine Corps amphibious raid rubber boat"
+        ],
+        "risk_tier": "MEDIUM"
+      },
+      "sources": [
+        {
+          "title": "A Better Model for Small-Craft Coxswains and Maintainers — USNI Proceedings, Nov 2025",
+          "url": "https://www.usni.org/magazines/proceedings/2025/november/better-model-small-craft-coxswains-and-maintainers",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "MOS 8111 US Marine Corps Combat Rubber Reconnaissance Craft (CRRC) Coxswain — MOSDB",
+          "url": "https://mosdb.com/marine-corps/8111/mos/4312",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "MOS 0316, Combat Rubber Reconnaissance Craft Coxswain — The Military Yearbook Project",
+          "url": "https://militaryyearbookproject.org/references/military-occupation-codes/usmc/field-03-infantry/mos-0316-combat-rubber-reconnaissance-craft-coxswain",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "MOS 0314, Rigid Raiding Craft/RHIB Coxswain (reported deleted pre-2020) — The Military Yearbook Project",
+          "url": "https://militaryyearbookproject.org/references/military-occupation-codes/usmc/field-03-infantry/mos-0314-rigid-raiding-craft-rigid-hull-inflatable-boat-coxswain",
+          "retrieved_date": "2026-07-12"
+        },
+        {
+          "title": "Sailors and Marine Oilers wage data — My Next Move (O*NET/DOL)",
+          "url": "https://www.mynextmove.org/profile/wages/53-5011.00",
+          "retrieved_date": "2026-07-12"
+        }
+      ]
+    }
+  ],
+  "branches_with_no_presence": [
+    "Air Force",
+    "Space Force"
+  ],
+  "sources": [
+    {
+      "title": "BM Boatswain's mate – Navy ASVAB Requirements | Cogn-IQ",
+      "url": "https://www.cogn-iq.org/military-jobs/navy-bm/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Navy Boatswain's Mate Rating — NavyCS",
+      "url": "https://www.navycs.com/navy-jobs/boatswain-mate.html",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Become a Navy BM: Boatswain's Mate (2026) — Navy Enlisted",
+      "url": "https://navyenlisted.com/navy-bm-rating-boatswains-mate/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "BM - MyNavyHR (official; HTTP 403 this session)",
+      "url": "https://www.mynavyhr.navy.mil/Career-Management/Community-Management/Enlisted/Surface-CS-OPS/BM/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Become a Navy QM: Quartermaster (2026) — Navy Enlisted",
+      "url": "https://navyenlisted.com/navy-qm-rating-quartermaster/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "QM Quartermaster – Navy ASVAB Requirements | Cogn-IQ",
+      "url": "https://www.cogn-iq.org/military-jobs/navy-qm/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Quartermaster (QM) — U.S. Navy Rating | NavyWeek.org",
+      "url": "https://www.navyweek.org/navy-ratings/quartermaster/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Navy Quartermaster Rating — NavyCS",
+      "url": "https://www.navycs.com/navy-jobs/quartermaster.html",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Navy Advanced Programs Test (NAPT) — NavyCS",
+      "url": "https://www.navycs.com/navy-nuclear-power-test.html",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Nuclear Ratings — MyNavyHR (official; not independently fetched this session)",
+      "url": "https://www.mynavyhr.navy.mil/Career-Management/Community-Management/Enlisted/Nuclear/Nuclear-Ratings/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Military to Nuclear Power: Civilian Careers for Navy Nukes",
+      "url": "https://bestmilitaryresume.com/blog/career-transition/military-to-nuclear-power-careers-navy-nukes",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "NRC Operator License Eligibility Requirements (PDF)",
+      "url": "https://www.nrc.gov/docs/ML1905/ML19053A433.pdf",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "NRC Operator License Eligibility Requirements — updated (PDF)",
+      "url": "https://www.nrc.gov/docs/ML2114/ML21144A141.pdf",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Navy COOL — Nuclear Power Plant Operator, PWR",
+      "url": "https://www.cool.osd.mil/usn/credential/index.html?cert=nfo2994",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Boatswain's Mate | United States Coast Guard (official)",
+      "url": "https://www.gocoastguard.com/careers/enlisted/bm",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "TraCen Yorktown — Boatswain's Mate Training (official)",
+      "url": "https://www.forcecom.uscg.mil/Our-Organization/FORCECOM-UNITS/TraCen-Yorktown/Training/Boatswains-Mate/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Coast Guard COOL — BM Boatswain's Mate Overview",
+      "url": "https://www.cool.osd.mil/uscg/moc/index.html?moc=bm",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Coast Guard COOL — BM / STCW RFPNW Analysis",
+      "url": "https://www.cool.osd.mil/uscg/credential/index.html?cert=s-r6289&moc=bm",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "ASVAB Scores for the Coast Guard — Study.com",
+      "url": "https://study.com/academy/popular/asvab-scores-for-the-coast-guard.html",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Operations Specialist | United States Coast Guard (official)",
+      "url": "https://gocoastguard.com/careers/enlisted/os",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "TraCen Petaluma — OS Training (official)",
+      "url": "https://www.forcecom.uscg.mil/Our-Organization/FORCECOM-UNITS/TraCen-Petaluma/Training/OS/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Enlisted Careers — OS Job Description (official)",
+      "url": "https://www.gocoastguard.com/active-duty-careers/enlisted-opportunities/view-job-descriptions/rate/OS",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Army Watercraft Operator (MOS 88K): 2022 Career Details",
+      "url": "https://www.operationmilitarykids.org/army-watercraft-operator-mos-88k/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Army 88K MOS: Watercraft Operator — Part-Time-Commander.com",
+      "url": "https://www.part-time-commander.com/army-88k-mos-watercraft-operator/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Watercraft Operator | U.S. Army (official)",
+      "url": "https://www.goarmy.com/careers-and-jobs/support-logistics/transportation-inventory/88k-watercraft-operator",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "88K Watercraft operator – Army ASVAB Requirements | Cogn-IQ",
+      "url": "https://www.cogn-iq.org/military-jobs/army-88k/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "88L Watercraft Engineers — Army Transportation Corps (official)",
+      "url": "https://transportation.army.mil/enlisted/cmf88l.html",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Watercraft Engineer | U.S. Army (official)",
+      "url": "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/design-develop/88l-watercraft-engineer",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "A Better Model for Small-Craft Coxswains and Maintainers — USNI Proceedings, Nov 2025",
+      "url": "https://www.usni.org/magazines/proceedings/2025/november/better-model-small-craft-coxswains-and-maintainers",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "MOS 8111 US Marine Corps CRRC Coxswain — MOSDB",
+      "url": "https://mosdb.com/marine-corps/8111/mos/4312",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "MOS 0316, Combat Rubber Reconnaissance Craft Coxswain — The Military Yearbook Project",
+      "url": "https://militaryyearbookproject.org/references/military-occupation-codes/usmc/field-03-infantry/mos-0316-combat-rubber-reconnaissance-craft-coxswain",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Crediting Military Sea Service — National Maritime Center (official; HTTP 403 on direct fetch this session, relied on search-result summary)",
+      "url": "https://www.dco.uscg.mil/Portals/9/NMC/pdfs/professional_qualifications/crediting_military_ss.pdf",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Counting Military Sea Time for Your USCG License | MM-SEAS",
+      "url": "https://www.mmseas.com/post/turning-coast-guard-military-sea-time-into-a-uscg-license",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Sailors and Marine Oilers wage data — My Next Move (O*NET/DOL, fetched successfully)",
+      "url": "https://www.mynextmove.org/profile/wages/53-5011.00",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Public Safety Telecommunicators (Police, Fire, and Ambulance Dispatchers) wage data — My Next Move (O*NET/DOL, fetched successfully)",
+      "url": "https://www.mynextmove.org/profile/wages/43-5031.00",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Ship Engineers wage data — My Next Move (O*NET/DOL, fetched successfully)",
+      "url": "https://www.mynextmove.org/profile/wages/53-5031.00",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "53-5021 Captains, Mates, and Pilots of Water Vessels — BLS OEWS (found via search; bls.gov direct fetch returned HTTP 403 this session)",
+      "url": "https://www.bls.gov/oes/2023/may/oes535021.htm",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Nuclear Power Reactor Operators — BLS OEWS (found via search; bls.gov direct fetch returned HTTP 403 this session)",
+      "url": "https://www.bls.gov/oes/2023/may/oes518011.htm",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "data/interest-taxonomy.json (maritime-nautical cluster) — this project",
+      "url": "internal",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "data/branch-profiles.json (age ranges) — this project",
+      "url": "internal",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "data/pay-tables.json, data/retirement.json, data/education-benefits.json, data/transition.json, data/veteran-benefits.json — this project",
+      "url": "internal",
+      "retrieved_date": "2026-07-12"
+    }
+  ],
+  "unverified": [
+    "Navy BM ASVAB subtest-sum thresholds (VE+AR+MK+AS ≥ 175; MK+AS+AO ≥ 135): secondary-sourced (cogn-iq.org, gyfted.me), not confirmed against MyNavyHR (returned HTTP 403 this session).",
+    "Navy QM ASVAB subtest-sum threshold: FOUR conflicting secondary figures found (VE+AR ≥ 96; VE+AR+MK+AS = 210; VE+AR = 100; VE+AR ≥ 97) and not reconciled against a primary Navy source this session — presented as an explicit range of conflicting reports, not resolved to one number.",
+    "Coast Guard OS ASVAB subtest-sum threshold: not found by any source this session; entry_requirements.asvab_line_score for that record states this gap explicitly rather than inventing a number.",
+    "Coast Guard BM ASVAB threshold (AR+VE ≥ 100): single secondary source (study.com), not confirmed against an official uscg.mil/gocoastguard.com page this session.",
+    "Navy Nuclear Field training-pipeline stage lengths (rating 'A' school ~20 weeks, Nuclear Power School ~24 weeks, NPTU prototype ~24 weeks) and the resulting ~18-24 month total pipeline figure: corroborated across general/trained knowledge of this well-documented program's structure, but NOT independently re-verified against a primary Navy source this session — flagged as directional, not primary-confirmed.",
+    "Claim that Navy Nuclear Field candidates may receive an advanced initial paygrade / PACT-style incentive: reported in secondary sources, not confirmed this session; explicitly NOT built into the baseline pay_and_compensation figure, which uses the standard E-1 baseline instead.",
+    "USCG National Maritime Center 'Crediting Military Sea Service' PDF (dco.uscg.mil): the specific mechanics used in this file (60% cutter-time crediting; CG-719S/TOSS/AOPS documentation; 46 CFR §10.232(d) DD-214 insufficiency) come from a search-engine summary of this official document, not a directly fetched and quoted primary text (the fetch returned HTTP 403). Recommend a follow-up primary-source confirmation before the build treats these figures as final.",
+    "Whether Army watercraft (88K/88L) sea time and Marine Corps CRRC (0316) small-boat time are processed through the same military-sea-service-crediting channel as Coast Guard/Navy time, and whether CRRC hours specifically qualify as creditable 'sea service' under 46 CFR's definitions at all: NOT confirmed this session for either — both are flagged as open questions in their respective records rather than assumed to work the same way as the better-documented Coast Guard/Navy cases.",
+    "All estimated_civilian_salary_range_usd figures for BLS/O*NET-coded occupations were obtained via a secondary aggregator (mynextmove.org, an official O*NET/DOL-affiliated site) citing 'BLS 2025 wage data,' because direct WebFetch to bls.gov returned HTTP 403 on every attempt this session (2 attempts). The mynextmove.org-sourced figures (Sailors and Marine Oilers, Police/Fire/Ambulance Dispatchers, Ship Engineers) were successfully fetched and quoted directly; the Captains/Mates/Pilots of Water Vessels ($81,640) and Nuclear Power Reactor Operators ($122,610 / $99,300-$152,690) figures came from WebSearch result summaries only, not a direct fetch, and are one step further removed from the primary BLS table.",
+    "Coast Guard-specific SkillBridge/TAP administration (DHS vs. DoD authority): data/transition.json already flags this as not independently verified; carried forward as 'UNVERIFIED' in both Coast Guard records in this file rather than assumed identical to the other five branches.",
+    "Marine Corps 0316 exact course length (estimated 2 weeks) and the current status/consolidation of the companion 0314 (RHIB Coxswain) MOS reported deleted pre-2020: both drawn from secondary sources (mosdb.com, militaryyearbookproject.org), not an official marines.mil MOS manual, which was not independently fetched this session.",
+    "No dated FY2026 enlistment or reenlistment bonus dollar figure was found or used for ANY of the 7 records in this file, per this project's binding constraint that bonuses change quarterly — every bonuses block is explicitly null with a sourced explanation rather than a stale or guessed number."
+  ],
+  "completion_accountability": "7 of a targeted 5-7 maritime/nautical specialty records completed, 0 skipped: Navy Boatswain's Mate (BM), Navy Quartermaster (QM), Navy Nuclear Field enlisted (MM(N)/EM(N)/ET(N)), Coast Guard Boatswain's Mate (BM), Coast Guard Operations Specialist (OS), Army Watercraft Operator (88K, with the verified-real companion MOS 88L Watercraft Engineer folded into the same record), and Marine Corps Combat Rubber Reconnaissance Craft Coxswain (0316, explicitly documented as a limited/ancillary skill designator rather than a broad career field, consistent with the taxonomy's '(limited) Marine Corps' framing and corroborated by a November 2025 USNI Proceedings article arguing the Marine Corps itself lacks a proper small-craft career track). Air Force and Space Force are listed in branches_with_no_presence with no padding, per the taxonomy (neither operates vessels or watercraft; confirmed by absence of any search evidence to the contrary this session). MMC sea-time crosswalk: characterized precisely as CONDITIONAL, not automatic — requires an official transcript of sea service (a DD-214 alone is explicitly insufficient under 46 CFR §10.232(d)), uses a documented 60%-of-assigned-time crediting formula for Coast Guard cutter service specifically, and extends in principle (per the eligibility language found) to any uniformed-service-vessel time, not just Coast Guard service — though this session could not confirm in practice whether Army/Marine Corps small-craft time is processed the same way. Navy Nuclear → NRC crosswalk: characterized as both things the brief required — one of the highest ASVAB composite bars in the entire military to get in (252 direct-qualify / 225-plus-NAPT), AND one of the strongest documented military-to-civilian pipelines to get out, with NRC's own published guidance starting the experience clock at Nuclear Power School prototype (NPTU) graduation and multiple named commercial utilities actively recruiting this population — while still stating plainly that the NRC operator license itself is not automatic and requires utility-specific hire, requalification, and passing NRC's own exams. Tool budget: the brief specified approximately 10 web calls. This session used 18 (13 WebSearch + 5 WebFetch, of which 2 fetches returned HTTP 403 and were not retried against the same URL, per the 'do not burn calls chasing a 403' instruction). The overage was concentrated on (a) getting the two explicitly flagged high-importance crosswalks (MMC sea-time and Navy Nuclear→NRC) right rather than approximated, and (b) obtaining primary/near-primary dollar figures for the required estimated_civilian_salary_range_usd fields via My Next Move (an O*NET/DOL-affiliated site) rather than fabricating salary numbers from training-data recall, consistent with this project's established house style (compensation.json, retirement.json, and transition.json all similarly exceeded their stated budgets and disclosed it rather than fabricate or leave required fields empty). No dollar figure, URL, or eligibility claim was invented; every figure not confirmed to primary-source level this session is labeled UNVERIFIED above or within its record, and every enlistment/reenlistment bonus field is null with a dated explanation rather than a guessed or stale number, per the binding quarterly-bonus-volatility constraint."
+}
