@@ -2481,3 +2481,18 @@ table tr.hit td { color: var(--ink); }
 }
 
 .benefit-why b { color: var(--ok); }
+
+.benefit.hero {
+  border-top-width: 4px;
+  background:
+    radial-gradient(120% 100% at 0% 0%, color-mix(in srgb, var(--ok) 10%, transparent), transparent 62%),
+    linear-gradient(180deg, var(--panel), var(--bg-2));
+}
+
+.benefit-figure.big { font-size: 26px; padding: 9px 16px; }
+
+.hero-lede {
+  font-size: 15.5px !important;
+  line-height: 1.6;
+  color: var(--ink) !important;
+}

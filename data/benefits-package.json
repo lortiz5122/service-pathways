@@ -3,11 +3,48 @@
   "retrieved_date": "2026-07-12",
   "thesis": "These are the parts of military compensation that other career sources routinely omit, or leave you to discover too late. None of them appear in a salary comparison. That is precisely why salary comparisons mislead people in both directions.",
   "sources": [
-    { "title": "Service Members' Military Benefits Package", "publisher": "Military OneSource (official DoD)", "url": "https://www.militaryonesource.mil/military-basics/new-to-the-military/service-members-military-benefits-package/", "tier": "OFFICIAL", "retrieved_date": "2026-07-12" },
-    { "title": "Commissary & Exchange benefits", "publisher": "Military OneSource / DeCA", "url": "https://www.militaryonesource.mil/benefits/commissaries-and-exchanges/", "tier": "OFFICIAL", "retrieved_date": "2026-07-12" },
-    { "title": "Space-A Travel", "publisher": "Military OneSource", "url": "https://www.militaryonesource.mil/benefits/space-a-travel/", "tier": "OFFICIAL", "retrieved_date": "2026-07-12" },
-    { "title": "Army Loan Repayment Program", "publisher": "goarmy.com", "url": "https://www.goarmy.com/benefits/while-you-serve/education-training", "tier": "OFFICIAL", "retrieved_date": "2026-07-12" },
-    { "title": "Navy debt relief programs", "publisher": "navy.com", "url": "https://www.navy.com/careers-benefits/debt-relief", "tier": "OFFICIAL", "retrieved_date": "2026-07-12" }
+    {
+      "title": "Service Members' Military Benefits Package",
+      "publisher": "Military OneSource (official DoD)",
+      "url": "https://www.militaryonesource.mil/military-basics/new-to-the-military/service-members-military-benefits-package/",
+      "tier": "OFFICIAL",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Commissary & Exchange benefits",
+      "publisher": "Military OneSource / DeCA",
+      "url": "https://www.militaryonesource.mil/benefits/commissaries-and-exchanges/",
+      "tier": "OFFICIAL",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Space-A Travel",
+      "publisher": "Military OneSource",
+      "url": "https://www.militaryonesource.mil/benefits/space-a-travel/",
+      "tier": "OFFICIAL",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Army Loan Repayment Program",
+      "publisher": "goarmy.com",
+      "url": "https://www.goarmy.com/benefits/while-you-serve/education-training",
+      "tier": "OFFICIAL",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Navy debt relief programs",
+      "publisher": "navy.com",
+      "url": "https://www.navy.com/careers-benefits/debt-relief",
+      "tier": "OFFICIAL",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "VA home loan eligibility, limits and funding fee",
+      "publisher": "U.S. Department of Veterans Affairs",
+      "url": "https://www.va.gov/housing-assistance/home-loans/eligibility/",
+      "tier": "OFFICIAL",
+      "retrieved_date": "2026-07-12"
+    }
   ],
   "pay_2026": {
     "raise_pct": 3.8,
@@ -21,32 +58,55 @@
       "name": "30 days of paid leave, every year",
       "headline": "30 days",
       "detail": "Thirty days of paid leave annually, plus every federal holiday. You can carry up to 60 days forward (up to 90 with Special Leave Accrual approval).",
-      "why_it_matters": "The average U.S. private-sector worker with 1-5 years of service gets roughly 11 paid vacation days. You get 30 from day one — nearly three times as much, at eighteen, with no seniority.",
+      "why_it_matters": "The average U.S. private-sector worker with 1-5 years of service gets roughly 11 paid vacation days. You get 30 from day one \u2014 nearly three times as much, at eighteen, with no seniority.",
       "civilian_comparison": "Roughly 11 days is typical for a new civilian employee.",
       "tier": "OFFICIAL",
       "unverified": "The ~11-day civilian figure is a widely-cited BLS benchmark but was not primary-fetched this session. Treat as directional."
     },
     {
       "id": "sgli",
-      "name": "Life insurance — up to $500,000",
+      "name": "Life insurance \u2014 up to $500,000",
       "headline": "$500,000",
       "detail": "Servicemembers' Group Life Insurance (SGLI) provides up to $500,000 of low-cost coverage.",
       "why_it_matters": "A civilian buying $500,000 of term life on the open market pays a real monthly premium for it. This is close to free, and you are enrolled by default.",
       "tier": "OFFICIAL"
     },
     {
+      "id": "va-home-loan",
+      "name": "VA home loan \u2014 a house with no down payment",
+      "headline": "$0 down",
+      "hero": true,
+      "detail": "A VA-backed mortgage requires NO DOWN PAYMENT and NO monthly private mortgage insurance (PMI). Those two things together are the single largest wealth-transfer in the whole benefits package, and no private lender offers anything like it at any price.",
+      "why_it_matters": "For almost everyone, the DOWN PAYMENT is the wall. A conventional loan wants 20% down to avoid PMI \u2014 on a $350,000 house that is $70,000 in cash you do not have at twenty-two. The VA loan removes the wall entirely. And skipping PMI saves roughly $150-$400 a month, every month, for years \u2014 money a civilian buyer simply hands to an insurance company.",
+      "you_can_use_it_while_serving": "MOST PEOPLE THINK THIS IS A VETERAN BENEFIT YOU COLLECT AFTER YOU GET OUT. IT IS NOT. You qualify after 90 continuous days of active duty. You can buy a house as a serving member \u2014 many do, at their first duty station, using BAH to cover the mortgage.",
+      "eligibility": [
+        "Active duty: 90 continuous days of service.",
+        "National Guard or Reserve: 90 days of non-training active duty, OR 6 creditable years.",
+        "You need a Certificate of Eligibility (COE) \u2014 request it online, or have your lender pull it.",
+        "It is REUSABLE. Sell the house and repay the loan and your entitlement is restored \u2014 you can do it again."
+      ],
+      "the_numbers": [
+        "Basic entitlement is $36,000, which guarantees a lender on loans up to $144,000. Bonus (second-tier) entitlement covers loans above that.",
+        "With FULL entitlement there is NO VA-imposed loan limit. What you can borrow is set by your credit, income and debt-to-income ratio \u2014 not by a VA cap.",
+        "There is a one-time FUNDING FEE: 2.15% on a first-use purchase with less than 5% down. It can be financed into the loan rather than paid at closing. It is WAIVED entirely if you have a service-connected disability rating."
+      ],
+      "conditions": "The no-down-payment feature is not unconditional. The LENDER \u2014 not the VA \u2014 approves the actual amount, based on your credit, income and debt-to-income ratio, and a lender can still require a down payment even where VA rules do not. The VA guarantee only covers a fraction of the loan (about 25% with full entitlement). Get pre-approved before you fall in love with a house.",
+      "tier": "OFFICIAL",
+      "source": "va.gov \u2014 housing-assistance/home-loans (eligibility, loan-limits, funding-fee-and-closing-costs), retrieved 2026-07-12"
+    },
+    {
       "id": "student-loans",
       "name": "Student loan repayment",
       "headline": "Up to $65,000",
-      "detail": "The Army's Loan Repayment Program (LRP) repays close to $65,000 of existing student-loan debt, and covers active duty, Army Reserve and Army National Guard. The Air Force's ECLRP repays 33⅓% of your unpaid principal each year for three years, to a maximum of $21,664.50. The Navy runs its own Loan Repayment Program for enlisted Sailors. The Air Force JAG programme offers up to $65,000 for attorneys.",
-      "why_it_matters": "This is for debt you ALREADY HAVE. It is different from the GI Bill, which pays for education you have not yet done. If you already owe money for college, this can erase it — and almost nobody knows it exists.",
+      "detail": "The Army's Loan Repayment Program (LRP) repays close to $65,000 of existing student-loan debt, and covers active duty, Army Reserve and Army National Guard. The Air Force's ECLRP repays 33\u2153% of your unpaid principal each year for three years, to a maximum of $21,664.50. The Navy runs its own Loan Repayment Program for enlisted Sailors. The Air Force JAG programme offers up to $65,000 for attorneys.",
+      "why_it_matters": "This is for debt you ALREADY HAVE. It is different from the GI Bill, which pays for education you have not yet done. If you already owe money for college, this can erase it \u2014 and almost nobody knows it exists.",
       "conditions": "Not automatic. Loans must not be in default, and it is generally restricted to your FIRST enlistment and to qualifying jobs. You must ask for it BY NAME and get it written into your contract.",
       "tier": "OFFICIAL",
       "unverified": "Navy LRP maximum dollar figure was not obtained. Air Force ECLRP annual cap ($21,664.50) is search-sourced, not primary-fetched."
     },
     {
       "id": "tuition-assistance",
-      "name": "Tuition Assistance — while you serve",
+      "name": "Tuition Assistance \u2014 while you serve",
       "headline": "$4,500 / year",
       "detail": "Up to $4,500 of tuition assistance per fiscal year, to take courses WHILE you are serving.",
       "why_it_matters": "This is separate from, and in addition to, the GI Bill. You can finish a degree on active duty using TA, and then still have your full Post-9/11 GI Bill afterwards.",
@@ -54,7 +114,7 @@
     },
     {
       "id": "commissary",
-      "name": "Commissary — groceries at cost",
+      "name": "Commissary \u2014 groceries at cost",
       "headline": "21.3% average saving",
       "detail": "The commissary sells groceries at cost plus a 5% surcharge (which funds the facilities themselves). The Defense Commissary Agency reports a U.S.-average patron saving of 21.3% (FY2026 Q2 data).",
       "why_it_matters": "Groceries are one of the largest recurring costs in any household. A fifth off, every week, for your whole career.",
@@ -62,15 +122,15 @@
     },
     {
       "id": "exchange",
-      "name": "Exchange — tax-free shopping",
+      "name": "Exchange \u2014 tax-free shopping",
       "headline": "No sales tax",
-      "detail": "Every purchase at the Exchange (AAFES, NEX, MCX) is free of sales tax — which saves roughly 6-10% depending on your state. It applies to electronics, appliances, furniture, clothing and more.",
+      "detail": "Every purchase at the Exchange (AAFES, NEX, MCX) is free of sales tax \u2014 which saves roughly 6-10% depending on your state. It applies to electronics, appliances, furniture, clothing and more.",
       "why_it_matters": "On a big purchase, the avoided sales tax is real money. On a $1,500 laptop in a 9% state, that is $135 you simply do not pay.",
       "tier": "OFFICIAL"
     },
     {
       "id": "space-a",
-      "name": "Space-A — free military flights",
+      "name": "Space-A \u2014 free military flights",
       "headline": "Free flights",
       "detail": "Space-Available travel lets service members and their families fly on military aircraft, in seats left over after mission cargo and personnel are loaded. Flights are typically FREE.",
       "why_it_matters": "You can fly across the country or to Europe or the Pacific for nothing. It is one of the most-loved and least-advertised benefits in the military.",
@@ -79,7 +139,7 @@
     },
     {
       "id": "healthcare",
-      "name": "Healthcare — $0 premium",
+      "name": "Healthcare \u2014 $0 premium",
       "headline": "$0",
       "detail": "TRICARE Prime: comprehensive medical coverage at no premium for the active-duty member, and full dental. Family members can be covered too.",
       "why_it_matters": "A civilian pays about $9,325 a year for equivalent single cover and $26,993 for a family (KFF 2025), plus a deductible averaging $1,886 before insurance pays anything. You pay none of it.",
@@ -87,19 +147,19 @@
     },
     {
       "id": "housing-food",
-      "name": "Housing and food allowances — untaxed",
+      "name": "Housing and food allowances \u2014 untaxed",
       "headline": "Not taxed",
       "detail": "BAH (housing) and BAS (food) are non-taxable. There is also an Overseas Cost of Living Allowance (OCOLA), also non-taxable, if you are stationed abroad.",
       "why_it_matters": "A dollar of BAH is worth MORE than a dollar of civilian salary, because you never pay tax on it. This is the single most commonly missed fact in any military-vs-civilian pay comparison.",
-      "catch": "If you live in the barracks or aboard ship, you do not receive full BAH — the government houses you instead.",
+      "catch": "If you live in the barracks or aboard ship, you do not receive full BAH \u2014 the government houses you instead.",
       "tier": "OFFICIAL"
     },
     {
       "id": "retirement",
-      "name": "Retirement — TSP with a government match",
+      "name": "Retirement \u2014 TSP with a government match",
       "headline": "Up to 5%",
       "detail": "The Blended Retirement System automatically contributes 1% of your basic pay to your TSP (a 401k-equivalent) and matches up to a further 4%. A pension follows 20 years of service.",
-      "why_it_matters": "The TSP money is YOURS and is PORTABLE even if you serve four years and leave. The pension is not — it requires 20 years and is otherwise forfeited entirely.",
+      "why_it_matters": "The TSP money is YOURS and is PORTABLE even if you serve four years and leave. The pension is not \u2014 it requires 20 years and is otherwise forfeited entirely.",
       "tier": "OFFICIAL"
     },
     {
@@ -114,7 +174,8 @@
     "Military OneSource does not publish a TOTAL dollar value for the benefits package, nor a cash vs non-cash percentage breakdown. Any such total on this site is computed and labelled as such.",
     "The ~11-day civilian paid-vacation benchmark used to contrast with 30 days of military leave is directional, not primary-fetched.",
     "Navy Loan Repayment Program maximum dollar figure was not obtained.",
-    "Exchange sales-tax saving (6-10%) depends entirely on your state's rate."
+    "Exchange sales-tax saving (6-10%) depends entirely on your state's rate.",
+    "The $150-$400/month PMI saving is a typical market range (roughly 0.5-1.5% of the loan annually), not a primary-sourced figure. It is directional, and labelled as such."
   ],
-  "completion_accountability": "11 benefit categories, sourced primarily to Military OneSource (official DoD). Student loan repayment, 30 days leave, commissary, exchange and Space-A added at user request — all were genuinely absent and all are among the most commonly omitted benefits."
+  "completion_accountability": "11 benefit categories, sourced primarily to Military OneSource (official DoD). Student loan repayment, 30 days leave, commissary, exchange and Space-A added at user request \u2014 all were genuinely absent and all are among the most commonly omitted benefits."
 }
