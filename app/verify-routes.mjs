@@ -102,6 +102,28 @@ for (const s of data.allSpecialties) {
     bad(`${s.name} is officer but the page never names the degree requirement`);
 }
 
+// 7. NO BADGE MAY HOLD PROSE. This class of bug has now shipped FOUR times:
+//    a chip that became an ellipse, "OF 40" (the word "of"), a 200-char sentence
+//    in the paygrade tile, and "E-3 (E-2 in the A" clipped mid-word. Asserted.
+{
+  const payHtml = render('/pay');
+  for (const m of payHtml.matchAll(/class="adv-grade">([^<]*)</g))
+    if (m[1].length > 5) bad(`advanced-entry badge holds prose: "${m[1]}"`);
+  for (const m of payHtml.matchAll(/class="benefit-figure[^"]*">([^<]*)</g))
+    if (m[1].length > 24) bad(`benefit figure holds prose: "${m[1]}"`);
+
+  // 8. Every entry grade shown must carry ITS OWN money figure. The Eagle Scout
+  //    tile quoted the E-3 value (+$5,158) on a route that grants E-2 in the Air
+  //    Force (+$3,490) — a number that was flatly wrong for a branch it listed.
+  for (const card of payHtml.split('class="card adv"').slice(1)) {
+    const txt = card.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+    const grades = [...card.matchAll(/class="adv-row-grade">([^<]+)</g)].length;
+    const money = [...txt.matchAll(/\+ ?\$[\d,]+ in your first year/g)].length;
+    if (grades !== money)
+      bad(`advanced-entry card shows ${grades} grade(s) but ${money} money figure(s)`);
+  }
+}
+
 console.log(`\ninvariants: ${inv} failed (must be 0)`);
 console.log(`\n${pass}/${routes.length} routes rendered, ${fail} failed`);
 if (inv) process.exitCode = 1;

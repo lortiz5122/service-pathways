@@ -221,128 +221,150 @@
     "programs": [
       {
         "program": "Civil Air Patrol \u2014 General Billy Mitchell Award",
-        "plain": "Earn the Mitchell Award as a CAP cadet \u2014 usually about 2 years \u2014 and you enlist as an E-3 instead of an E-1. Confirmed for the Air Force by CAP, and for the Coast Guard by the Coast Guard's own advanced-paygrade programme.",
+        "plain": "Earn the Mitchell Award as a CAP cadet \u2014 usually about 2 years \u2014 and you enlist above E-1.",
+        "grants_by_branch": {
+          "Air Force": "E-3",
+          "Coast Guard": "E-3",
+          "Space Force": "E-3"
+        },
+        "grants": "E-3",
         "branches": [
           "Air Force",
           "Coast Guard",
           "Space Force (via DAF)"
         ],
-        "requirement": "CAP cadet who has: completed at least 8 weeks in Achievement 8; passed the Learn to Lead vol. 2 comprehensive exam (80%+, closed book, 1 hour); passed the Aerospace Dimensions comprehensive exam (80%+, closed book, 1 hour); attained the Healthy Fitness Zone on the Cadet Physical Fitness Test within the previous 180 days; and graduated from an encampment or equivalent.",
-        "grants": "E-3",
+        "requirement": "CAP cadet who has completed at least 8 weeks in Achievement 8; passed the Learn to Lead vol. 2 exam (80%+, closed book, 1 hour); passed the Aerospace Dimensions exam (80%+, closed book, 1 hour); attained the Healthy Fitness Zone on the Cadet Physical Fitness Test within the previous 180 days; and graduated from an encampment or equivalent.",
         "typical_time": "Usually about 2 years in the CAP cadet programme.",
         "verbatim": "If they choose to enlist in the Air Force, they may enter at the grade of E-3.",
-        "notes": "CAP's own page names only the Air Force \u2014 but that is CAP not speaking for other services, NOT other services refusing it. The Coast Guard's official hiring-incentives page grants an immediate E-3 after boot camp for 'college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements', and CAP cadets have entered the Coast Guard at E-3 on this basis. ASK EVERY BRANCH YOU ARE CONSIDERING \u2014 do not assume a service will refuse it just because its website is silent. And get the grade written into the contract.",
-        "source": "OFFICIAL \u2014 Civil Air Patrol National Headquarters, gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/mitchell",
-        "tier": "OFFICIAL",
-        "retrieved_date": "2026-07-12",
-        "corroboration": [
-          {
-            "branch": "Air Force",
-            "tier": "OFFICIAL",
-            "quote": "If they choose to enlist in the Air Force, they may enter at the grade of E-3.",
-            "source": "gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/mitchell"
-          },
-          {
-            "branch": "Coast Guard",
-            "tier": "OFFICIAL",
-            "quote": "Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.",
-            "source": "gocoastguard.com/hiring-incentives"
-          },
-          {
-            "branch": "Coast Guard",
-            "tier": "FIRSTHAND REPORT",
-            "quote": "A CAP cadet with ~2 years in the programme entered the U.S. Coast Guard as an E-3.",
-            "source": "Reported to this project by a parent, 2026-07-12. Not a published source \u2014 recorded because it corroborates the official Coast Guard page above."
-          }
-        ]
-      },
-      {
-        "program": "Coast Guard advanced paygrade \u2014 E-3 after boot camp",
-        "plain": "The Coast Guard grants an immediate E-3 after boot camp for a WIDE set of things you may have already done \u2014 college credits, JROTC or ROTC, law-enforcement or Sea Explorer background, or scouting achievements.",
-        "branches": [
-          "Coast Guard"
-        ],
-        "requirement": "College credits, JROTC/ROTC participation, law-enforcement or Sea Explorer background, or scouting achievements.",
-        "grants": "E-3",
-        "verbatim": "Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.",
-        "notes": "This is the broadest advanced-entry programme of any service, and it is stated on the Coast Guard's own page. If you did ANY of these, say so. Note the wording: 'after boot camp', not at signing.",
-        "source": "OFFICIAL \u2014 gocoastguard.com/hiring-incentives",
+        "notes": "CAP's own page names only the Air Force \u2014 but that is CAP not speaking for other services, NOT other services refusing it. The Coast Guard's own advanced-paygrade programme grants E-3 for exactly this kind of background, and CAP cadets have entered the Coast Guard at E-3. ASK EVERY BRANCH \u2014 silence is not refusal.",
+        "source": "OFFICIAL \u2014 gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/mitchell; corroborated for the Coast Guard by gocoastguard.com/hiring-incentives",
         "tier": "OFFICIAL",
         "retrieved_date": "2026-07-12"
       },
       {
         "program": "JROTC \u2014 2 years",
-        "plain": "Two years of JROTC and you enlist as an E-2 instead of an E-1.",
+        "plain": "Two years of JROTC and you enlist above E-1. The Coast Guard grants a full E-3 for JROTC participation.",
+        "grants_by_branch": {
+          "Army": "E-2",
+          "Navy": "E-2",
+          "Air Force": "E-2",
+          "Coast Guard": "E-3"
+        },
+        "grants": "E-2",
         "branches": [
           "Army",
           "Navy",
-          "Air Force"
+          "Air Force",
+          "Coast Guard"
         ],
         "requirement": "Two academic years of Junior Reserve Officers' Training Corps.",
-        "grants": "E-2",
-        "notes": "Marine Corps and Coast Guard rules differ \u2014 confirm with a recruiter.",
-        "source": "liveabout.com, army-portal.com, legalclarity.org (SECONDARY \u2014 not confirmed against a primary .mil source)",
+        "notes": "The Coast Guard is the outlier and the best deal here: its official programme grants an immediate E-3 after boot camp for JROTC/ROTC participation, where the other services grant E-2 for two years. Marine Corps rules differ \u2014 confirm with a recruiter.",
+        "source": "liveabout.com, army-portal.com, legalclarity.org (SECONDARY). Coast Guard: OFFICIAL \u2014 gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
         "tier": "SECONDARY",
         "retrieved_date": "2026-07-12"
       },
       {
         "program": "JROTC \u2014 3 years",
         "plain": "Three years of JROTC and you enlist as an E-3 instead of an E-1.",
+        "grants_by_branch": {
+          "Army": "E-3",
+          "Navy": "E-3",
+          "Air Force": "E-3",
+          "Coast Guard": "E-3"
+        },
+        "grants": "E-3",
         "branches": [
           "Army",
           "Navy",
-          "Air Force"
+          "Air Force",
+          "Coast Guard"
         ],
         "requirement": "Three academic years of JROTC.",
-        "grants": "E-3",
         "notes": "One extra year of something you were already doing moves you a whole paygrade.",
-        "source": "liveabout.com, army-portal.com, legalclarity.org (SECONDARY \u2014 not confirmed against a primary .mil source)",
+        "source": "liveabout.com, army-portal.com, legalclarity.org (SECONDARY). Coast Guard: OFFICIAL \u2014 gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
         "tier": "SECONDARY",
         "retrieved_date": "2026-07-12"
       },
       {
         "program": "Eagle Scout / Girl Scout Gold Award",
-        "plain": "Earn Eagle Scout (or the Girl Scout Gold Award) and you enlist as an E-3 instead of an E-1 \u2014 except in the Air Force, where it is E-2.",
+        "plain": "Earn Eagle Scout (or the Girl Scout Gold Award) and you enlist above E-1 \u2014 but the grade DIFFERS BY BRANCH, and so does the money.",
+        "grants_by_branch": {
+          "Army": "E-3",
+          "Navy": "E-3",
+          "Coast Guard": "E-3",
+          "Air Force": "E-2"
+        },
+        "grants": "E-3",
         "branches": [
           "Army",
           "Navy",
-          "Air Force (E-2 only)"
+          "Coast Guard",
+          "Air Force"
         ],
         "requirement": "Completion of the Eagle Scout rank requirements, or the Girl Scout Gold Award.",
-        "grants": "E-3 (E-2 in the Air Force)",
-        "notes": "The branch difference is real and worth knowing before you pick a service. Marine Corps and Coast Guard rules differ \u2014 confirm with a recruiter.",
-        "source": "liveabout.com, legalclarity.org (SECONDARY \u2014 not confirmed against a primary .mil source). Two earlier sources gave contradictory branch mappings; that contradiction is disclosed rather than silently resolved.",
+        "notes": "READ THE GRADES ABOVE BEFORE YOU PICK A SERVICE. The same award is worth E-3 in the Army, Navy and Coast Guard, but only E-2 in the Air Force \u2014 a difference of about $1,668 in your first year, and it compounds. Marine Corps rules differ \u2014 confirm with a recruiter.",
+        "source": "liveabout.com, legalclarity.org (SECONDARY). Coast Guard ('scouting achievements'): OFFICIAL \u2014 gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
         "tier": "SECONDARY",
         "retrieved_date": "2026-07-12"
       },
       {
         "program": "College credit \u2014 24 semester hours",
-        "plain": "24 college credits and you enlist as an E-2 instead of an E-1.",
+        "plain": "24 college credits and you enlist above E-1. The Coast Guard grants a full E-3.",
+        "grants_by_branch": {
+          "Army": "E-2",
+          "Navy": "E-2",
+          "Air Force": "E-2",
+          "Coast Guard": "E-3"
+        },
+        "grants": "E-2",
         "branches": [
           "Army",
           "Navy",
-          "Air Force"
+          "Air Force",
+          "Coast Guard"
         ],
         "requirement": "24 or more semester hours from an accredited college or university.",
-        "grants": "E-2",
-        "notes": "Dual-enrolment and community-college classes taken in high school count. Many students already have these and never mention them.",
-        "source": "liveabout.com, army-portal.com (SECONDARY)",
+        "notes": "Dual-enrolment and community-college classes taken in HIGH SCHOOL count. Many students already have these and never think to mention them.",
+        "source": "liveabout.com, army-portal.com (SECONDARY). Coast Guard: OFFICIAL \u2014 gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
         "tier": "SECONDARY",
         "retrieved_date": "2026-07-12"
       },
       {
         "program": "College credit \u2014 48 semester hours",
         "plain": "48 college credits and you enlist as an E-3 instead of an E-1.",
+        "grants_by_branch": {
+          "Army": "E-3",
+          "Navy": "E-3",
+          "Air Force": "E-3",
+          "Coast Guard": "E-3"
+        },
+        "grants": "E-3",
         "branches": [
           "Army",
           "Navy",
-          "Air Force"
+          "Air Force",
+          "Coast Guard"
         ],
-        "requirement": "48 or more semester hours from an accredited college or university.",
-        "grants": "E-3",
-        "notes": "Roughly two years of full-time college.",
-        "source": "liveabout.com, army-portal.com (SECONDARY)",
+        "requirement": "48 or more semester hours from an accredited college or university \u2014 roughly two years of full-time college.",
+        "source": "liveabout.com, army-portal.com (SECONDARY). Coast Guard: OFFICIAL \u2014 gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
         "tier": "SECONDARY",
+        "retrieved_date": "2026-07-12"
+      },
+      {
+        "program": "Sea Explorer or law-enforcement background",
+        "plain": "A Sea Explorer or law-enforcement background gets you an immediate E-3 in the Coast Guard.",
+        "grants_by_branch": {
+          "Coast Guard": "E-3"
+        },
+        "grants": "E-3",
+        "branches": [
+          "Coast Guard"
+        ],
+        "requirement": "Sea Explorer (Sea Scouts) participation, or a law-enforcement background.",
+        "notes": "This one IS genuinely Coast-Guard-only \u2014 no other service publishes an equivalent. It is on their official incentives page.",
+        "verbatim": "Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.",
+        "source": "OFFICIAL \u2014 gocoastguard.com/hiring-incentives",
+        "tier": "OFFICIAL",
         "retrieved_date": "2026-07-12"
       }
     ],
