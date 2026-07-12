@@ -2496,3 +2496,80 @@ table tr.hit td { color: var(--ink); }
   line-height: 1.6;
   color: var(--ink) !important;
 }
+
+/* ------------------------------------------------ "still not sure?" CTA */
+
+.findfits {
+  margin-top: 34px;
+  border-radius: var(--radius);
+  border: 1px solid var(--brand-accent);
+  background:
+    radial-gradient(120% 120% at 0% 0%, color-mix(in srgb, var(--brand-accent) 14%, transparent), transparent 60%),
+    linear-gradient(180deg, var(--panel), var(--bg-2));
+  overflow: hidden;
+}
+
+.ff-body { padding: 30px 32px; }
+
+.findfits h2 {
+  font-size: 26px;
+  margin: 6px 0 12px;
+}
+
+.findfits p {
+  color: var(--ink-2);
+  font-size: 15px;
+  max-width: 68ch;
+  margin: 0;
+}
+
+.ff-steps {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 10px;
+}
+
+.ff-steps li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 13px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--panel-2);
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.ff-steps li span {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--brand-accent);
+  color: #0d1117;
+  font-family: var(--stencil);
+  font-size: 12px;
+}
+
+.ff-btn {
+  margin-top: 4px;
+  padding: 14px 32px;
+  font-size: 14px;
+}
+
+.ff-note {
+  margin-top: 16px !important;
+  font-size: 12.5px !important;
+  color: var(--ink-3) !important;
+}
+
+@media (max-width: 620px) {
+  .ff-body { padding: 22px 18px; }
+  .findfits h2 { font-size: 21px; }
+}

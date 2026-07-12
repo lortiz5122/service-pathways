@@ -166,6 +166,50 @@ export default function Home() {
             );
           })}
         </div>
+
+        {/* ------------------------------------------- the other door
+            Someone who scrolls the whole grid without picking anything has
+            just told you they don't know where to start. Give them the tool
+            instead of a dead end at the bottom of the page. */}
+        <div className="findfits">
+          <div className="ff-body">
+            <div className="eyebrow">Still not sure?</div>
+            <h2>Let the site match you instead</h2>
+            <p>
+              If none of the interest areas above jumped out at you — or if too many
+              did — use this tool. Answer four questions about what you're drawn to,
+              where you actually stand on the ASVAB, and what you want out of it, and
+              it will match your interests to{' '}
+              <b>real military careers across all six branches</b>.
+            </p>
+
+            <ul className="ff-steps">
+              <li>
+                <span>1</span> What actually interests you
+              </li>
+              <li>
+                <span>2</span> Where you stand on the ASVAB
+              </li>
+              <li>
+                <span>3</span> What matters most to you
+              </li>
+              <li>
+                <span>4</span> Your matches — and what each one costs you
+              </li>
+            </ul>
+
+            <Link to="/explore" className="btn ff-btn">
+              Find what fits →
+            </Link>
+
+            <p className="ff-note">
+              It takes about two minutes. It shows you the downsides of every match,
+              not just the upside. Nothing is sent to a recruiter, and it doesn't
+              score or rank the branches against each other — no service is better
+              than another.
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
