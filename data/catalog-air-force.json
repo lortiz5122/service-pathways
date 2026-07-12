@@ -1,0 +1,3552 @@
+{
+  "command": "CATALOG",
+  "branch": "Air Force",
+  "retrieved_date": "2026-07-12",
+  "depth": "catalog",
+  "note": "Catalog entries are NOT deep-researched records. They exist so every job is findable. Pay/retirement/transition/crosswalk data deliberately absent rather than invented.",
+  "specialties": [
+    {
+      "code": "1A1X2",
+      "name": "Mobility Force Aviator",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role review tasks, intelligence and weather information to prepare for missions.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/mobility-force-aviator",
+      "depth": "catalog"
+    },
+    {
+      "code": "1A1X3",
+      "name": "Special Missions Aviator",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role complete pre-flight inspection of the aircraft and related aircraft equipment.",
+      "asvab": "M 60 & G 60",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/special-missions-aviator",
+      "depth": "catalog"
+    },
+    {
+      "code": "1A1X4",
+      "name": "Multi-Domain Operations Aviator",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role perform air crew duties on numerous airborne platforms.",
+      "asvab": "E 65",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/multi-domain-operations-aviator",
+      "depth": "catalog"
+    },
+    {
+      "code": "1A1X8",
+      "name": "Executive Mission Aviator",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role monitor and operate aircraft systems controls.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/executive-mission-aviator",
+      "depth": "catalog"
+    },
+    {
+      "code": "1A3X1",
+      "name": "Airborne Mission Systems Specialist",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis",
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role perform aircrew duties on numerous airborne platforms.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/airborne-mission-systems-specialist",
+      "depth": "catalog"
+    },
+    {
+      "code": "1A8X1",
+      "name": "Airborne Cryptologic Language Analyst",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role intercept and analyze signal intelligence of possible enemy threats.",
+      "asvab": "G 72",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/airborne-cryptologic-language-analyst",
+      "depth": "catalog"
+    },
+    {
+      "code": "1A8X2",
+      "name": "Airborne Intelligence, Surveillance and Reconnaissance (ISR) Operator",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role provide threat-warning findings to ground commanders.",
+      "asvab": "G 72",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/airborne-intelligence-surveillance-and-reconnaissance-isr-operator",
+      "depth": "catalog"
+    },
+    {
+      "code": "1B4X1",
+      "name": "Cyber Warfare Operations",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role evaluate operational effectiveness of communications, sensors, intrusion detection and related support equipment.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/cyber-warfare-operations",
+      "depth": "catalog"
+    },
+    {
+      "code": "1C0X2",
+      "name": "Aviation Resource Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role monitor individual flight requirements, flying hours and aviation requirement changes.",
+      "asvab": "A 50",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/aviation-resource-management",
+      "depth": "catalog"
+    },
+    {
+      "code": "1C1X1",
+      "name": "Air Traffic Control",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role control air traffic by use of visual, radar and non-radar means.",
+      "asvab": "G 55",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/air-traffic-control",
+      "depth": "catalog"
+    },
+    {
+      "code": "1C3X1",
+      "name": "All-Domain Command and Control Operations",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role take charge of command and control facilities in the air, on the ground and on the move.",
+      "asvab": "A 55 & G 57",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/all-domain-command-and-control-operations",
+      "depth": "catalog"
+    },
+    {
+      "code": "1C5X1",
+      "name": "Battle Management Operations",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role conduct mission planning.",
+      "asvab": "G 55",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/battle-management-operations",
+      "depth": "catalog"
+    },
+    {
+      "code": "1C6X1",
+      "name": "Space Systems Operations",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "space-satellite"
+      ],
+      "what_it_is": "Airmen in this role detect, identify and maintain orbital parameters on earth satellite vehicles.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/space-systems-operations",
+      "depth": "catalog"
+    },
+    {
+      "code": "1C7X1",
+      "name": "Airfield Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role perform emergency response and dispatch first responders during airfield incidents.",
+      "asvab": "M 40 & G 50",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/airfield-management",
+      "depth": "catalog"
+    },
+    {
+      "code": "1C8X3",
+      "name": "Radar, Airfield & Weather Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role install, maintain, and repair fixed and mobile radar, navigational aids, weather systems and radios.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/radar-airfield-and-weather-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "1D7X1",
+      "name": "Cyber Defense Operations",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role design and develop organizational structures, and determine equipment, training and supplies required for systems implementation and support.",
+      "asvab": "G 45 & E 60",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/cyber-system-operations",
+      "depth": "catalog"
+    },
+    {
+      "code": "1D7X2",
+      "name": "Spectrum Defense Operations",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role perform defensive cyber activities and operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/cyber-and-electromagnetic-activities",
+      "depth": "catalog"
+    },
+    {
+      "code": "1D7X2",
+      "name": "Radio Frequency Transmissions and Electromagnetic Activities (EMA)",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role perform wireless radio and satellite systems and equipment maintenance activities.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/radio-frequency-transmissions-and-electromagnetic-activities",
+      "depth": "catalog"
+    },
+    {
+      "code": "1D7X3",
+      "name": "Cable and Antennae Defense Operations",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role install, maintain and modify copper core, coaxial, waveguide and fiber-optic cable and antenna systems.",
+      "asvab": "M 45 & E 60",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/cable-and-antenna-operations",
+      "depth": "catalog"
+    },
+    {
+      "code": "1H0X1",
+      "name": "Aerospace Physiology",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role provide pilots and crew members with the necessary skills to handle emergencies.",
+      "asvab": "A 48",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/aerospace-physiology",
+      "depth": "catalog"
+    },
+    {
+      "code": "1N0X1",
+      "name": "All Source Intelligence Analyst",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role discover, develop, evaluate and provide intelligence information.",
+      "asvab": "A 60",
+      "clearance": "Top Secret",
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/all-source-intelligence-analyst",
+      "depth": "catalog"
+    },
+    {
+      "code": "1N1X1",
+      "name": "Geospatial Intelligence",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role exploit and analyze multi-sensor imagery and geospatial data.",
+      "asvab": "G 66",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/geospatial-intelligence",
+      "depth": "catalog"
+    },
+    {
+      "code": "1N2X1",
+      "name": "Signals Intelligence Analyst",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role operate electronic equipment and computer systems to exploit signal intelligence.",
+      "asvab": "G 72",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/signals-intelligence-analyst",
+      "depth": "catalog"
+    },
+    {
+      "code": "1N3X1",
+      "name": "Cryptologic Language Analyst",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role use foreign language skills to search for, identify and process other communications.",
+      "asvab": "G 72",
+      "clearance": "Top Secret",
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/cryptologic-language-analyst",
+      "depth": "catalog"
+    },
+    {
+      "code": "1N4X1",
+      "name": "Cyber Intelligence Analyst",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role identify and interpret real-time threat warning data.",
+      "asvab": "G 62",
+      "clearance": "Top Secret",
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/cyber-intelligence-analyst",
+      "depth": "catalog"
+    },
+    {
+      "code": "1N4X2",
+      "name": "Cryptologic Analyst and Reporter",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role support analytical aspects of various Air Force and joint Intelligence, Surveillance and Reconnaissance (ISR) operations.",
+      "asvab": "G 62",
+      "clearance": "Top Secret",
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/cryptologic-analyst-and-reporter",
+      "depth": "catalog"
+    },
+    {
+      "code": "1N8X1",
+      "name": "Targeting Analyst",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role support target system analysis.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/targeting-analyst",
+      "depth": "catalog"
+    },
+    {
+      "code": "1NOX1",
+      "name": "Operations Intelligence",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role provide analysis of adversary threat systems and intelligence expertise necessary for mission plans.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/operations-intelligence",
+      "depth": "catalog"
+    },
+    {
+      "code": "1P0X1",
+      "name": "Aircrew Flight Equipment",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role operate various types of test equipment such as oxygen and leakage testers.",
+      "asvab": "M 40",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/aircrew-flight-equipment",
+      "depth": "catalog"
+    },
+    {
+      "code": "1S0X1",
+      "name": "Safety",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "law-enforcement-security",
+        "business-admin"
+      ],
+      "what_it_is": "Airmen in this role ensure the safety of everyone on base.",
+      "asvab": "A 57",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/law-and-order/safety",
+      "depth": "catalog"
+    },
+    {
+      "code": "1T0X1",
+      "name": "Survival Evasion Resistance and Escape (SERE)",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role prepare aircrew and high-risk-of-isolation personnel to return from any type of survival situation.",
+      "asvab": "G 55",
+      "clearance": "Secret",
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/special-warfare-and-combat-support/survival-evasion-resistance-and-escape-sere",
+      "depth": "catalog"
+    },
+    {
+      "code": "1U0X1",
+      "name": "Sensor Operator",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation",
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role perform intelligence surveillance and reconnaissance.",
+      "asvab": "G 64 & E 54",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/remotely-piloted-aircraft-rpa-sensor-operator",
+      "depth": "catalog"
+    },
+    {
+      "code": "1W0X1",
+      "name": "Weather",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role analyze weather conditions, prepare forecasts, issue weather warnings and brief weather information to pilots.",
+      "asvab": "G 66 & E 50",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/weather",
+      "depth": "catalog"
+    },
+    {
+      "code": "1Z1X1",
+      "name": "Pararescue",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical",
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role locate, recover, and provide emergency medical treatment to isolated or injured personnel in hostile, denied, or contested environments.",
+      "asvab": "G 55 & M 55",
+      "clearance": null,
+      "source": "general knowledge (not in airforce.com API payload for this entry)",
+      "source_url": "https://www.airforce.com/careers/special-warfare-and-combat-support/special-warfare/pararescue",
+      "depth": "catalog"
+    },
+    {
+      "code": "1Z2X1",
+      "name": "Combat Control",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role deploy into austere or hostile environments to establish assault zones and direct air traffic and airstrikes in support of special operations.",
+      "asvab": "M 55 & G 55",
+      "clearance": null,
+      "source": "general knowledge (not in airforce.com API payload for this entry)",
+      "source_url": "https://www.airforce.com/careers/special-warfare-and-combat-support/special-warfare/combat-control",
+      "depth": "catalog"
+    },
+    {
+      "code": "1Z3X1",
+      "name": "Tactical Air Control Party Specialist (TACP)",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role deploy with ground combat units to advise commanders on airpower and direct close air support and other air-to-ground strikes.",
+      "asvab": "G 49",
+      "clearance": null,
+      "source": "general knowledge (not in airforce.com API payload for this entry)",
+      "source_url": "https://www.airforce.com/careers/special-warfare-and-combat-support/special-warfare/tactical-air-control-party-specialist-tacp",
+      "depth": "catalog"
+    },
+    {
+      "code": "1Z4X1",
+      "name": "Special Reconnaissance",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role conduct reconnaissance and surveillance to locate and assess targets and threats in support of special operations and personnel recovery missions.",
+      "asvab": "G 66 & E 50",
+      "clearance": null,
+      "source": "general knowledge (not in airforce.com API payload for this entry)",
+      "source_url": "https://www.airforce.com/careers/special-warfare-and-combat-support/special-warfare/special-reconnaissance",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A0X1",
+      "name": "Avionics Test Station and Components",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role maintain aircraft electronic equipment such as radar and navigation systems.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/avionics-test-station-and-components",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A0X1",
+      "name": "Avionics Test Station, Components, and Electronic Warfare Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role maintain aircraft electronic equipment such as radar and navigation systems.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/avionics-test-station-components-and-electronic-warfare-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A2X1",
+      "name": "MHU-139 Electrical, Environmental and Avionics Technician",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role operate and maintain communication, navigation and missions systems.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/mhu-139-electrical-environmental-and-avionics-technician",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A2X2",
+      "name": "Special Operations Forces/Personnel Recovery Integrated Instrument and Flight Control Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role operate and maintain instrument and flight control systems.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/special-operations-forces-personnel-recovery-integrated-instrument-and-flight-control-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A2X3",
+      "name": "Special Operations Forces/Personnel Recovery Integrated Electronic Warfare Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role operate and maintain electronic warfare systems.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/special-operations-forces-personnel-recovery-integrated-electronic-warfare-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A3X3",
+      "name": "Tactical Aircraft Maintenance",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role perform pre-, thru- and postflight inspections.",
+      "asvab": "M 47",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/tactical-aircraft-maintenance",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A3X4",
+      "name": "Fighter Aircraft Integrated Avionics",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role remove, install and check integrated avionics systems.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/fighter-aircraft-integrated-avionics",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A3X5",
+      "name": "Advanced Fighter Aircraft Integrated Avionics",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role perform and supervise general aircraft servicing and handling procedures.",
+      "asvab": "A 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/advanced-fighter-aircraft-integrated-avionics",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A3X8",
+      "name": "Remotely Piloted Aircraft Maintenance",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role maintain aircraft, support equipment, forms and records.",
+      "asvab": "M 47",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/remotely-piloted-aircraft-maintenance",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A5X1",
+      "name": "Airlift/Special Mission Aircraft Maintenance",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role maintain aircraft, support equipment, forms and records.",
+      "asvab": "M 47",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/airlift-special-mission-aircraft-maintenance",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A5X2",
+      "name": "Helicopter/Tiltrotor Aircraft Maintenance",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role perform preventive maintenance by inspecting and functionally checking structures and systems.",
+      "asvab": "M 56",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/helicopter-tiltrotor-aircraft-maintenance",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A5X3",
+      "name": "Mobility Air Forces Electronic Warfare Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role operate and maintain electronic warfare systems on C-5, C-17, C-130 and C-12 aircraft.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/mobility-air-forces-electronic-warfare-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A5X4",
+      "name": "Refuel/Bomber Aircraft Maintenance",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role utilize technical data to diagnose and solve maintenance problems on aircraft.",
+      "asvab": "M 47",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/refuel-bomber-aircraft-maintenance",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A6X1",
+      "name": "Aerospace Propulsion",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role diagnose engine problems, including the fuel, oil, electrical and engine airflow systems.",
+      "asvab": "M 56",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/aerospace-propulsion",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A6X2",
+      "name": "Aerospace Ground Equipment",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role perform necessary maintenance on aerospace ground equipment.",
+      "asvab": "M 47 & E 28",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/aerospace-ground-equipment",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A6X3",
+      "name": "Aircrew Egress Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role handle and maintain explosive devices used to operate escape systems.",
+      "asvab": "M 56",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/aircrew-egress-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A6X4",
+      "name": "Aircraft Fuel Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role inspect, repair and test aircraft hydraulic and in-flight refueling systems.",
+      "asvab": "M 47",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/aircraft-fuel-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A6X5",
+      "name": "Aircraft Hydraulic Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role inspect the aircraft hydraulic systems, their components and any support equipment.",
+      "asvab": "M 56",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/aircraft-hydraulic-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A6X6",
+      "name": "Aircraft Electrical and Environmental Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role inspect, troubleshoot and maintain electrical and environmental (E & E) systems.",
+      "asvab": "M 41 & E 61",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/aircraft-electrical-and-environmental-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A7X1",
+      "name": "Aircraft Metals Technology",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role measure broken or worn parts using calipers, gauges and micrometers.",
+      "asvab": "M 47",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/aircraft-metals-technology",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A7X2",
+      "name": "Nondestructive Inspection",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role analyze wear metal content on engine lubricating oil and other fluids and recommend corrective action.",
+      "asvab": "M 42",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/nondestructive-inspection",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A7X3",
+      "name": "Aircraft Structural Maintenance",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role assess damage to aircraft and structural components and repair or replace necessary parts.",
+      "asvab": "M 47",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/aircraft-structural-maintenance",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A7X5",
+      "name": "Low Observable Aircraft Structural Maintenance",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role apply low observable materials and coatings to aircraft.",
+      "asvab": "M 47",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/low-observable-aircraft-structural-maintenance",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A8X1",
+      "name": "Mobility Air Forces Integrated Communication/Navigation/Mission Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role operate and maintain communication, navigation and missions systems.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/mobility-air-forces-integrated-communication-navigation-mission-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A8X2",
+      "name": "Mobility Air Forces Integrated Instrument and Flight Control Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role operate and maintain instrument and flight control systems.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/mobility-air-forces-integrated-instrument-and-flight-control-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A9X1",
+      "name": "Bomber/Special Integrated Communication/Navigation/Mission Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role operate and maintain communication/navigation systems on various aircraft.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/bomber-special-integrated-communication-navigation-mission-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A9X2",
+      "name": "Bomber/Special Integrated Instrument and Flight Control Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role operate and maintain instrument and flight control systems on various aircraft.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/bomber-special-integrated-instrument-and-flight-control-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2A9X3",
+      "name": "Bomber/Special Electronic Warfare and Radar Surveillance Integrated Avionics",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role operate and maintain electronic warfare, radar surveillance and computer systems on various aircraft.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/bomber-special-electronic-warfare-and-radar-surveillance-integrated-avionics",
+      "depth": "catalog"
+    },
+    {
+      "code": "2F0X1",
+      "name": "Fuels Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role ensure accuracy of inventory and issue documents.",
+      "asvab": "M 47 & G 38",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/fuels-management",
+      "depth": "catalog"
+    },
+    {
+      "code": "2G0X1",
+      "name": "Logistics Plans",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role prepare, evaluate and supervise all aspects of a mission\u2019s planning.",
+      "asvab": "A 56",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/logistics-plans",
+      "depth": "catalog"
+    },
+    {
+      "code": "2M0X1",
+      "name": "Missile and Space Systems Electronic Maintenance",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "space-satellite"
+      ],
+      "what_it_is": "Airmen in this role monitor, operate and supervise operation of consoles, fault display panels and checkout equipment.",
+      "asvab": "M 55 & E 50",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/missile-and-space-systems-electronic-maintenance",
+      "depth": "catalog"
+    },
+    {
+      "code": "2M0X2",
+      "name": "Missile and Space Systems Maintenance",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "space-satellite"
+      ],
+      "what_it_is": "Airmen in this role perform preventive maintenance inspections and electrical tests on missiles.",
+      "asvab": "M 47",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/missile-and-space-systems-maintenance",
+      "depth": "catalog"
+    },
+    {
+      "code": "2M0X3",
+      "name": "Missile and Space Facilities",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "space-satellite"
+      ],
+      "what_it_is": "Airmen in this role troubleshoot, repair and service missile weapons system and space lift equipment and facilities.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/missile-and-space-facilities",
+      "depth": "catalog"
+    },
+    {
+      "code": "2P0X1",
+      "name": "Precision Measurement Equipment Laboratory",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber",
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role repair, calibrate and modify test, measurement and diagnostic equipment (TMDE).",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/precision-measurement-equipment-laboratory",
+      "depth": "catalog"
+    },
+    {
+      "code": "2R1X1",
+      "name": "Maintenance Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin",
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role collect and analyze maintenance data to identify trends, predict failures, and improve resource allocation.",
+      "asvab": "G 55",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/maintenance-management",
+      "depth": "catalog"
+    },
+    {
+      "code": "2S0X1",
+      "name": "Materiel Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role perform item and monetary accounting and inventory stock control.",
+      "asvab": "A 41 & G 44",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/materiel-management",
+      "depth": "catalog"
+    },
+    {
+      "code": "2T0X1",
+      "name": "Traffic Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role ensure that shipments are ready for transport.",
+      "asvab": "A 35",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/traffic-management",
+      "depth": "catalog"
+    },
+    {
+      "code": "2T1X1",
+      "name": "Ground Transportation",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role operate, service and perform preventative maintenance on government motor vehicles.",
+      "asvab": "M 40",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/ground-transportation",
+      "depth": "catalog"
+    },
+    {
+      "code": "2T2X1",
+      "name": "Air Transportation",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role perform and manage air transportation activities.",
+      "asvab": "M 47 & A 28",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/air-transportation",
+      "depth": "catalog"
+    },
+    {
+      "code": "2T3X1",
+      "name": "Mission Generation Vehicular Equipment Maintenance",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role perform vehicle maintenance activities on military vehicles and equipment.",
+      "asvab": "M 47",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/mission-generation-vehicular-equipment-maintenance",
+      "depth": "catalog"
+    },
+    {
+      "code": "2T3X2",
+      "name": "Vehicle Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role diagnose component malfunctions.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/vehicle-management",
+      "depth": "catalog"
+    },
+    {
+      "code": "2T3X7",
+      "name": "Fleet Management and Analysis",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role file historical data and maintain vehicle records.",
+      "asvab": "A 41",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/fleet-management-and-analysis",
+      "depth": "catalog"
+    },
+    {
+      "code": "2W0X1",
+      "name": "Munitions Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role maintain and recondition munitions, including bombs, missiles, demolition, small arms and associated components.",
+      "asvab": "M 60 & G 57",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/munitions-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2W1X1",
+      "name": "Aircraft Armament Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role load, unload and position munitions on aircraft.",
+      "asvab": "M 60 & E 45",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/aircraft-armament-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "2W2X1",
+      "name": "Nuclear Weapons",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role inspect, maintain, store, handle, and repair nuclear weapons, weapon components, and associated test and handling equipment.",
+      "asvab": "M 60",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/nuclear-weapons",
+      "depth": "catalog"
+    },
+    {
+      "code": "3D0X1",
+      "name": "Knowledge Operations Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber",
+        "business-admin"
+      ],
+      "what_it_is": "Airmen in this role identify and analyze data.",
+      "asvab": "G 64",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/knowledge-operations-management",
+      "depth": "catalog"
+    },
+    {
+      "code": "3D0X2",
+      "name": "Cyber Systems Operations",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role install, support and maintain servers or other computer systems.",
+      "asvab": "M 45 & E 60",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/cyber-systems-operations",
+      "depth": "catalog"
+    },
+    {
+      "code": "3D0X4, 1D7X1",
+      "name": "Computer Systems Programming",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role protect operating systems, software files and databases from unauthorized access.",
+      "asvab": "G 64",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/computer-systems-programming",
+      "depth": "catalog"
+    },
+    {
+      "code": "3D1X1",
+      "name": "Client Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role install and configure software operating systems and applications.",
+      "asvab": "E 60",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/client-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "3D1X2",
+      "name": "Cyber Transport Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role upgrade and replace systems and circuits.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/cyber-transport-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "3D1X3",
+      "name": "Radio Frequency Transmission Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role perform wireless radio and satellite systems and equipment maintenance activities.",
+      "asvab": "E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/radio-frequency-transmission-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "3E0X1",
+      "name": "Electrical Systems",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role install, service, modify and repair electrical equipment and systems.",
+      "asvab": "M 43 & E 45",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/electrical-systems",
+      "depth": "catalog"
+    },
+    {
+      "code": "3E0X2",
+      "name": "Electrical Power Production",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role check installed equipment to ensure compliance with policies.",
+      "asvab": "M 56 & E 40",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/electrical-power-production",
+      "depth": "catalog"
+    },
+    {
+      "code": "3E1X1",
+      "name": "Heating, Ventilation, Air Conditioning and Refrigeration",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role install, maintain and operate heating, ventilation, air conditioning and refrigeration systems and equipment.",
+      "asvab": "M 55 & E 45",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/heating-ventilation-air-conditioning-and-refrigeration",
+      "depth": "catalog"
+    },
+    {
+      "code": "3E2X1",
+      "name": "Pavements and Construction Equipment",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role operate and maintain heavy construction equipment.",
+      "asvab": "M 40",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/pavements-and-construction-equipment",
+      "depth": "catalog"
+    },
+    {
+      "code": "3E3X1, 3E331",
+      "name": "Structural",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role construct, maintain, plan and repair wooden, masonry and concrete buildings and structures, including concrete footings, foundations, walls, floor slabs, piers and columns.",
+      "asvab": "M 47",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/structural",
+      "depth": "catalog"
+    },
+    {
+      "code": "3E4X1",
+      "name": "Water and Fuel Systems Maintenance",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role install and maintain all water, natural gas and fire suppression systems.",
+      "asvab": "M 47 & E 28",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/water-and-fuel-systems-maintenance",
+      "depth": "catalog"
+    },
+    {
+      "code": "3E4X3",
+      "name": "Pest Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role conduct pest management surveys.",
+      "asvab": "G 38",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/pest-management",
+      "depth": "catalog"
+    },
+    {
+      "code": "3E5X1",
+      "name": "Engineering",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role conduct reconnaissance, site location, construction and mapping surveys.",
+      "asvab": "G 49",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/engineering",
+      "depth": "catalog"
+    },
+    {
+      "code": "3E6X1",
+      "name": "Operations Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role monitor work costs to ensure compliance with legal limits or support agreements.",
+      "asvab": "G 44",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/operations-management",
+      "depth": "catalog"
+    },
+    {
+      "code": "3E7X1",
+      "name": "Fire Protection",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Airmen in this role administer emergency first aid.",
+      "asvab": "G 57",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/law-and-order/fire-protection",
+      "depth": "catalog"
+    },
+    {
+      "code": "3E8X1",
+      "name": "Explosive Ordnance Disposal (EOD)",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Airmen in this role maintain equipment, technical data and vehicles.",
+      "asvab": "M 47 & G 50",
+      "clearance": "Top Secret",
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/special-warfare-and-combat-support/explosive-ordnance-disposal-eod",
+      "depth": "catalog"
+    },
+    {
+      "code": "3E9X1",
+      "name": "Emergency Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Airmen in this role execute the coordinated response to hazardous materials incidents and the use of chemical, biological, radiological, nuclear (CBRN) agents.",
+      "asvab": "G 62",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/law-and-order/emergency-management",
+      "depth": "catalog"
+    },
+    {
+      "code": "3F0X1",
+      "name": "Human Resources and Administration",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role assist and counsel military personnel and dependents on matters that concern them in the Air Force community.",
+      "asvab": "A 59",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/human-resources-and-administration",
+      "depth": "catalog"
+    },
+    {
+      "code": "3F1X1",
+      "name": "Services",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply",
+        "culinary"
+      ],
+      "what_it_is": "Airmen in this role establish and supervise facilities that provide food, lodging and sports among others.",
+      "asvab": "G 24",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/services",
+      "depth": "catalog"
+    },
+    {
+      "code": "3F5X1",
+      "name": "Administration",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Airmen in this role provide administrative support to Air Force, Department of Defense and joint organizations.",
+      "asvab": "A 55",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/administration",
+      "depth": "catalog"
+    },
+    {
+      "code": "3N0X6",
+      "name": "Public Affairs",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Airmen in this role create multimedia content to tell our story, share news and deliver information.",
+      "asvab": "G 72",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/public-affairs",
+      "depth": "catalog"
+    },
+    {
+      "code": "3N1X1",
+      "name": "Honor Guard",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Airmen in this role conduct, plan, train and supervise military and civilian events, ceremonies and functions.",
+      "asvab": "A 24 & G 24",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/honor-guard",
+      "depth": "catalog"
+    },
+    {
+      "code": "3N1X1",
+      "name": "Regional Band",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Airmen in this role perform events in various regions throughout the United States and around the world.",
+      "asvab": "A 21 & G 24",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/regional-band",
+      "depth": "catalog"
+    },
+    {
+      "code": "3N2X1, 3N3X1",
+      "name": "Premier Band",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Airmen in this role perform in and with various ensembles throughout the United States and around the world.",
+      "asvab": "A 21 & G 24",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/premier-band",
+      "depth": "catalog"
+    },
+    {
+      "code": "3P0X1",
+      "name": "Security Forces",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Airmen in this role ensure the safety of all base weapons, property and personnel.",
+      "asvab": "G 30",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/law-and-order/security-forces",
+      "depth": "catalog"
+    },
+    {
+      "code": "4A0X1",
+      "name": "Health Services Management",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide administrative support to the entire hospital staff.",
+      "asvab": "G 44",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/health-services-management",
+      "depth": "catalog"
+    },
+    {
+      "code": "4A1X1",
+      "name": "Medical Materiel",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role order and receive medical and nonmedical supplies and equipment from government and civilian sources for your medical treatment facility.",
+      "asvab": "A 48",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/medical-materiel",
+      "depth": "catalog"
+    },
+    {
+      "code": "4A2X1",
+      "name": "Biomedical Equipment",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role install, repair and modify biomedical equipment and support systems.",
+      "asvab": "M 60 & E 70",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/biomedical-equipment",
+      "depth": "catalog"
+    },
+    {
+      "code": "4B0X1",
+      "name": "Bioenvironmental Engineering",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role conduct preventive medicine studies and provide recommendations to reduce health risk to personnel.",
+      "asvab": "G 49",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/law-and-order/bioenvironmental-engineering",
+      "depth": "catalog"
+    },
+    {
+      "code": "4C0X1",
+      "name": "Mental Health Service",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role perform intial basic assessment to obtain a patient\u2019s clinical information.",
+      "asvab": "A 57",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/mental-health-service",
+      "depth": "catalog"
+    },
+    {
+      "code": "4D0X1",
+      "name": "Diet Therapy",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role conduct comprehensive nutritional assessments of patients.",
+      "asvab": "G 44",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/diet-therapy",
+      "depth": "catalog"
+    },
+    {
+      "code": "4E0X1",
+      "name": "Public Health",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role control disease transmission through patient interviews, investigations and community outreach programs.",
+      "asvab": "A 48",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/public-health",
+      "depth": "catalog"
+    },
+    {
+      "code": "4H0X1",
+      "name": "Respiratory Care Practitioner",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role work with doctors and other health professionals in the diagnosis and treatment of diseases of the heart and lungs.",
+      "asvab": "G 44",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/respiratory-care-practitioner",
+      "depth": "catalog"
+    },
+    {
+      "code": "4J0X2",
+      "name": "Physical Medicine",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role assist Physical Therapists with patient evaluations and tests.",
+      "asvab": "A 51",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/physical-medicine",
+      "depth": "catalog"
+    },
+    {
+      "code": "4N0X1",
+      "name": "Aerospace Medical Service",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role perform a wide array of technical nursing duties involving the care and treatment of patients, including immunizations, dialysis and critical care.",
+      "asvab": "G 50",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/aerospace-medical-service",
+      "depth": "catalog"
+    },
+    {
+      "code": "4N1X1",
+      "name": "Surgical Technologist",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role assist anesthesia personnel.",
+      "asvab": "G 44",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/surgical-technologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "4P0X1",
+      "name": "Pharmacy",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role prepare drug orders.",
+      "asvab": "A 48",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/pharmacy",
+      "depth": "catalog"
+    },
+    {
+      "code": "4R0X1",
+      "name": "Diagnostic Imaging",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role operate various types of imaging equipment to perform radiological exams.",
+      "asvab": "G 44",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/diagnostic-imaging",
+      "depth": "catalog"
+    },
+    {
+      "code": "4T0X1",
+      "name": "Medical Laboratory",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role test and analyze specimens using laboratory techniques.",
+      "asvab": "G 62",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/medical-laboratory",
+      "depth": "catalog"
+    },
+    {
+      "code": "4T0X2",
+      "name": "Histopathology",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role receive and prepare surgical specimens for tissue diagnosis.",
+      "asvab": "G 44",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/histopathology",
+      "depth": "catalog"
+    },
+    {
+      "code": "4V0X1",
+      "name": "Ophthalmic",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role assist the healthcare provider in the examination and treatment of patients by performing visual tests and procedures.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/ophthalmic",
+      "depth": "catalog"
+    },
+    {
+      "code": "4Y0X1",
+      "name": "Dental Assistant",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role assist Air Force Dentists in the treatment of patients.",
+      "asvab": "G 44",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/dental-assistant",
+      "depth": "catalog"
+    },
+    {
+      "code": "4Y0X2",
+      "name": "Dental Laboratory",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role fabricate and repair dentures, crowns, partial dentures, mouth guards and other types of appliances.",
+      "asvab": "G 66",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/dental-laboratory",
+      "depth": "catalog"
+    },
+    {
+      "code": "5J0X1",
+      "name": "Paralegal",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "legal"
+      ],
+      "what_it_is": "Airmen in this role conduct legal research and make final legal recommendations for the Staff Judge Advocate.",
+      "asvab": "G 51",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/law-and-order/paralegal",
+      "depth": "catalog"
+    },
+    {
+      "code": "5R0X1",
+      "name": "Religious Affairs",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Airmen in this role recruit, train, and supervise volunteers who assist with chapel functions.",
+      "asvab": "A 51",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/religious-affairs",
+      "depth": "catalog"
+    },
+    {
+      "code": "6C0X1",
+      "name": "Contracting",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply",
+        "business-admin"
+      ],
+      "what_it_is": "Airmen in this role acquire supplies and services for the USAF and supported mission partners.",
+      "asvab": "G 72",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/contracting",
+      "depth": "catalog"
+    },
+    {
+      "code": "6F0X1",
+      "name": "Financial Management and Comptroller",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role process financial transactions.",
+      "asvab": "G 57",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/financial-management-and-comptroller",
+      "depth": "catalog"
+    },
+    {
+      "code": "9S100",
+      "name": "Scientific Applications Specialist",
+      "branch": "Air Force",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role utilize technology pertaining to testing and evaluating weapons of mass destruction.",
+      "asvab": "M 80 & E 88",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/scientific-applications-specialist",
+      "depth": "catalog"
+    },
+    {
+      "code": "11GX, 11BX, 11EX, 11FX, 11HX, 11KX, 11MX, 11RX, 11SX, 11UX",
+      "name": "Pilot",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role specialize in a specific aircraft and skill set.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/pilot/pilot",
+      "depth": "catalog"
+    },
+    {
+      "code": "11UX, 1U1X1",
+      "name": "Remotely Piloted Aircraft Pilot",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role review mission tasking, intelligence and weather information.",
+      "asvab": "G 64 & E 54",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/pilot/remotely-piloted-aircraft-pilot",
+      "depth": "catalog"
+    },
+    {
+      "code": "12BX 12EX 12FX 12GX 12HX 12KX 12MX 12RX 12SX 12UX",
+      "name": "Combat Systems Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role master principles and techniques of all aircraft operations and weapon systems.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/combat-systems-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "13BX",
+      "name": "Air Battle Manager",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role analyze national defense strategy and apply accordingly to battle strategy.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/air-battle-manager",
+      "depth": "catalog"
+    },
+    {
+      "code": "13HX",
+      "name": "Aerospace Physiologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role research deep into the complex and unique field of physiology, human factors and human performance.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/aerospace-physiologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "13NX",
+      "name": "Nuclear and Missile Operations Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "space-satellite"
+      ],
+      "what_it_is": "Airmen in this role coordinate nuclear and missile operations policies, activities and programs.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/nuclear-and-missile-operations-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "13SX",
+      "name": "Space Operations Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "space-satellite"
+      ],
+      "what_it_is": "Airmen in this role formulate space operations policies.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/space-operations-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "14FX",
+      "name": "Information Operations Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "intelligence-analysis",
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role drive the coordination and integration of information-related capabilities with service, joint and interagency organizations.",
+      "asvab": null,
+      "clearance": "Top Secret",
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/information-operations-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "14NX",
+      "name": "Intelligence Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Airmen in this role produce accurate intelligence analysis.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/intelligence-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "15AX",
+      "name": "Operations Analyst",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role apply a structured approach to problem-solving using data.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/operations-analyst",
+      "depth": "catalog"
+    },
+    {
+      "code": "15AX",
+      "name": "Air Force Operations Staff Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Airmen in this role coordinate a coherent planning effort.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/air-force-operations-staff-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "15WX",
+      "name": "Weather and Environmental Sciences Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role conduct and direct meteorological, space weather and geophysical research efforts.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/aviation-and-flight/weather-and-environmental-sciences-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "16RX",
+      "name": "Planning and Programming Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role analyze the effectiveness of programming decisions.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/planning-and-programming-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "17DX",
+      "name": "Warfighter Communications Operations",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "technology-cyber",
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role provide a broad range of cyber-related expertise key to successful warfighting operations in the air, space and cyberspace domains.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/warfighter-communications-operations",
+      "depth": "catalog"
+    },
+    {
+      "code": "17SX",
+      "name": "Cyberspace Effects Operations Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role operate cyberspace weapons systems.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/cyberspace-effects-operations-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "17SX",
+      "name": "Cyberspace Operations Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Airmen in this role review mission tasking, intelligence, terrain and weather information.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/intelligence/cyberspace-operations-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "19ZX,19ZXB",
+      "name": "Tactical Air Control Party (TACP) Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role engage enemy forces utilizing advanced technologies and weapon systems.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/special-warfare-and-combat-support/tactical-air-control-party-tacp-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "19ZX,19ZXC",
+      "name": "Combat Rescue Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical",
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role provide command and control of full spectrum personnel recovery operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/special-warfare-and-combat-support/combat-rescue-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "19ZXA,19ZX",
+      "name": "Special Tactics Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Airmen in this role coordinate, plan and conduct reconnaissance, surveillance and terminal control.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/special-warfare-and-combat-support/special-tactics-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "21AX",
+      "name": "Aircraft Maintenance Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role formulate maintenance plans and conducts periodic inspections.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/aircraft-maintenance-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "21MX",
+      "name": "Munitions and Missile Maintenance Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role formulate maintenance procedures for all munitions and missile systems.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/munitions-and-missile-maintenance-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "21RX",
+      "name": "Logistics Readiness Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role compute and analyze current and projected materiel requirements.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/logistics-readiness-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "31PX",
+      "name": "Security Forces Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Airmen in this role protect nuclear and conventional weapons systems and other resources.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/law-and-order/security-forces-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "32EX",
+      "name": "Civil Engineer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role master drafting, surveying and construction management.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/maintenance-and-repair/civil-engineer",
+      "depth": "catalog"
+    },
+    {
+      "code": "35BX",
+      "name": "Band Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Airmen in this role serve as musical conductor as the events call for it.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/band-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "35PX",
+      "name": "Public Affairs Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Airmen in this role deliver candid and timely communication counsel and guidance to leaders.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/public-affairs-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "38PX",
+      "name": "Force Support Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role allocate manpower resources in support of Air Force programming and budgeting.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/force-support-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "41AX",
+      "name": "Health Services Administrator/Hospital Administrator",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical",
+        "business-admin"
+      ],
+      "what_it_is": "Airmen in this role coordinate health service programs with federal agencies.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/health-services-administrator-hospital-administrator",
+      "depth": "catalog"
+    },
+    {
+      "code": "42BX",
+      "name": "Physical Therapist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role evaluate patients and determine the type and frequency of treatment necessary.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/physical-therapist",
+      "depth": "catalog"
+    },
+    {
+      "code": "42EX",
+      "name": "Optometrist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose, treat and manage diseases and disorders of the eyes and associated structures.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/optometrist",
+      "depth": "catalog"
+    },
+    {
+      "code": "42FX",
+      "name": "Podiatric Surgeon",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role diagnose and treat a wide range of foot ailments ranging from injuries to physical abnormalities.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/podiatric-surgeon",
+      "depth": "catalog"
+    },
+    {
+      "code": "42GX",
+      "name": "Physician Assistant",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role perform primary medical care and clinical duties.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/physician-assistant",
+      "depth": "catalog"
+    },
+    {
+      "code": "42NX",
+      "name": "Audiologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role conduct examinations to diagnose ailments and administer treatment, including implant services.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/audiologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "42PX",
+      "name": "Clinical Psychologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role perform mental health evaluations and therapy.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/clinical-psychologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "42SX",
+      "name": "Clinical Social Worker",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide social work services in various settings, including mental health, substance abuse and family advocacy.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/clinical-social-worker",
+      "depth": "catalog"
+    },
+    {
+      "code": "42TX",
+      "name": "Occupational Therapist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide examination, diagnosis and prognosis for both in- and outpatients.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/occupational-therapist",
+      "depth": "catalog"
+    },
+    {
+      "code": "43BX",
+      "name": "Biomedical Scientist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role utilize biomedical sciences background and leadership skill to develop and direct biomedical sciences programs and/or command multidisciplinary healthcare units.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/biomedical-scientist",
+      "depth": "catalog"
+    },
+    {
+      "code": "43DX",
+      "name": "Dietitian",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide sound nutrition practices and supportive environments for deployed military operations that optimize human performance.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/dietitian",
+      "depth": "catalog"
+    },
+    {
+      "code": "43EX",
+      "name": "Bioenvironmental Engineer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role ensure a safe and healthy workplace for Airmen through applied knowledge of engineering and sciences.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/bioenvironmental-engineer",
+      "depth": "catalog"
+    },
+    {
+      "code": "43HX",
+      "name": "Public Health Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role apply preventive and public health techniques to reduce the risk of illness both in the United States and overseas.",
+      "asvab": "A 48",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/public-health-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "43MX",
+      "name": "Medical Entomologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role survey for, identify and recommend control measures for disease vectors, arthropod pests and hazardous plants and animals.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/medical-entomologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "43PX",
+      "name": "Pharmacist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role dispense medications and counsel patients on proper use of medications.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/pharmacist",
+      "depth": "catalog"
+    },
+    {
+      "code": "43TX",
+      "name": "Biomedical Laboratory Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role utilize a biomedical sciences background and leadership skills to consult and advise healthcare teams.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/biomedical-laboratory-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "44BX",
+      "name": "Preventive Medicine Physician",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role serve as liaison with federal, state and local agencies in matters related to preventive medicine.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/preventive-medicine-physician",
+      "depth": "catalog"
+    },
+    {
+      "code": "44DX",
+      "name": "Pathologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role diagnose diseases by performing examination of body tissues.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/pathologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "44EX",
+      "name": "Emergency Medicine Physician",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose and treat illnesses and injuries in an acute care setting.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/emergency-medicine-physician",
+      "depth": "catalog"
+    },
+    {
+      "code": "44FX",
+      "name": "Family Physician",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role maintain comprehensive care for families that includes preventive medicine services, behavioral health and community healthcare.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/family-physician",
+      "depth": "catalog"
+    },
+    {
+      "code": "44GX",
+      "name": "General Practice Physician",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role perform minor surgical procedures.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/general-practice-physician",
+      "depth": "catalog"
+    },
+    {
+      "code": "44HX",
+      "name": "Nuclear Medicine Physician",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role use radionuclides in diagnostic imaging and in the treatment of disease.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/nuclear-medicine-physician",
+      "depth": "catalog"
+    },
+    {
+      "code": "44JX",
+      "name": "Medical Geneticist and Genomicist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role evaluate, treat and follow patients with genetic disorders.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/medical-geneticist-and-genomicist",
+      "depth": "catalog"
+    },
+    {
+      "code": "44KX",
+      "name": "Pediatrician",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose and treat diseases and injuries of infants and children.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/pediatrician",
+      "depth": "catalog"
+    },
+    {
+      "code": "44MX",
+      "name": "Internal Medicine Physician",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role diagnose and treat a wide range of diseases.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/internal-medicine-physician",
+      "depth": "catalog"
+    },
+    {
+      "code": "44NX",
+      "name": "Neurologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose and treat neurological diseases and disorders.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/neurologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "44OX",
+      "name": "Physician",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role help develop and direct medical policies, programs and services.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/physician",
+      "depth": "catalog"
+    },
+    {
+      "code": "44PX",
+      "name": "Psychiatrist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, evaluate, diagnose and treat psychiatric disorders.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/psychiatrist",
+      "depth": "catalog"
+    },
+    {
+      "code": "44RX",
+      "name": "Radiologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role make and interpret diagnostic images, including x-rays, ultrasound and magnetic resonance imaging (MRI).",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/radiologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "44SX",
+      "name": "Dermatologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide both direct and consultative care as a specialist for diseases of the skin, hair and nails.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/dermatologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "44TX",
+      "name": "Radiation Oncologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide consultation regarding cancer management.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/radiation-oncologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "44UX",
+      "name": "Occupational Medicine Physician",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role work closely with industrial hygienists, public health and safety specialists to deliver excellent occupational healthcare and preventive services.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/occupational-medicine-physician",
+      "depth": "catalog"
+    },
+    {
+      "code": "44YX",
+      "name": "Critical Care Medicine Physician",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose and treat diseases and injuries by surgical and nonsurgical means.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/critical-care-medicine-physician",
+      "depth": "catalog"
+    },
+    {
+      "code": "44ZX",
+      "name": "Allergist and Immunologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine and diagnose patients, perform diagnostic tests and treat allergy disorders.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/allergist-and-immunologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "45AX",
+      "name": "Anesthesiologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role utilize the latest equipment and techniques to treat patients.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/anesthesiologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "45BX",
+      "name": "Orthopaedic Surgeon",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose and treat diseases and injuries of the musculoskeletal system.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/orthopaedic-surgeon",
+      "depth": "catalog"
+    },
+    {
+      "code": "45EX",
+      "name": "Ophthalmologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide a full spectrum of care, including routine eye exams, diagnosis and medical treatment of eye disorders and diseases.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/ophthalmologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "45GX",
+      "name": "Gynecologic Surgeon and Obstetrician",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide prenatal and postnatal care and perform deliveries in maternity cases.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/gynecologic-surgeon-and-obstetrician",
+      "depth": "catalog"
+    },
+    {
+      "code": "45NX",
+      "name": "Otolaryngologist - Head and Neck Surgeon",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose and treat injuries and disorders of the head and neck.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/otolaryngologist-head-and-neck-surgeon",
+      "depth": "catalog"
+    },
+    {
+      "code": "45SX",
+      "name": "Surgeon",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role treat diseases and injuries by surgical means.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/surgeon",
+      "depth": "catalog"
+    },
+    {
+      "code": "45UX",
+      "name": "Urologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose and treat injuries and disorders of the genitourinary tract.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/urologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "46AX",
+      "name": "Nursing Administrator",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role evaluate qualifications and maintain functional control of Air Force Nurse Corps officers, enlisted nursing personnel, civilian nurses and ancillary nursing personnel.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/nursing-administrator",
+      "depth": "catalog"
+    },
+    {
+      "code": "46FX",
+      "name": "Flight Nurse",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide essential care ranging from injury prevention and disease to birth and death.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/flight-nurse",
+      "depth": "catalog"
+    },
+    {
+      "code": "46NX",
+      "name": "Emergency/Trauma Nurse",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide care that ranges from birth to life- and limb-saving measures.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/emergency-trauma-nurse",
+      "depth": "catalog"
+    },
+    {
+      "code": "46NX",
+      "name": "Neonatal Intensive Care Nurse",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role attend high-risk deliveries.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/neonatal-intensive-care-nurse",
+      "depth": "catalog"
+    },
+    {
+      "code": "46NX",
+      "name": "Obstetrical Nurse",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role may care for high-risk OB patients, level II nursery patients, circulate for cesarean sections or add medical-surgical patients on a single unit inpatient care ward.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/obstetrical-nurse",
+      "depth": "catalog"
+    },
+    {
+      "code": "46NX",
+      "name": "Critical Care Nurse",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role operate state-of-the-art equipment on the ground and in the air to assist those who are critically injured.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/critical-care-nurse",
+      "depth": "catalog"
+    },
+    {
+      "code": "46PX",
+      "name": "Mental Health Nurse",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role work with individuals, families, groups and communities to assess mental health needs.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/mental-health-nurse",
+      "depth": "catalog"
+    },
+    {
+      "code": "46SX",
+      "name": "Operating Room Nurse",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide professional nursing care to patients undergoing surgery.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/operating-room-nurse",
+      "depth": "catalog"
+    },
+    {
+      "code": "46YX",
+      "name": "Family Nurse Practitioner",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role care for patients of all ages, from infants to adults.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/family-nurse-practitioner",
+      "depth": "catalog"
+    },
+    {
+      "code": "46YX",
+      "name": "Pediatric Nurse Practitioner",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide primary healthcare to pediatric clients.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/pediatric-nurse-practitioner",
+      "depth": "catalog"
+    },
+    {
+      "code": "46YX",
+      "name": "Women's Healthcare Nurse Practitioner",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide primary healthcare to both obstetric and gynecologic patients.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/womens-healthcare-nurse-practitioner",
+      "depth": "catalog"
+    },
+    {
+      "code": "46YXG",
+      "name": "Certified Nurse Midwife",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide comfort, support and expertise to patients during pregnancy, labor, delivery and the postpartum period.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/certified-nurse-midwife",
+      "depth": "catalog"
+    },
+    {
+      "code": "46YXM",
+      "name": "Certified Registered Nurse Anesthetist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role administer anesthetics to patients and monitor their care during surgery.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/certified-registered-nurse-anesthetist",
+      "depth": "catalog"
+    },
+    {
+      "code": "46YXP",
+      "name": "Adult Psychiatric & Mental Health Nurse Practitioner",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role provide comprehensive psychiatric mental healthcare to Airmen, their family and retirees between the ages of 18 and 65.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/adult-psychiatric-mental-health-nurse-practitioner",
+      "depth": "catalog"
+    },
+    {
+      "code": "47BX",
+      "name": "Orthodontist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose and treat irregularities of the bite and jaw.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/orthodontist",
+      "depth": "catalog"
+    },
+    {
+      "code": "47DX",
+      "name": "Oral and Maxillofacial Pathologist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine and diagnose pathologic conditions of the oral and perioral tissues and structures.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/oral-and-maxillofacial-pathologist",
+      "depth": "catalog"
+    },
+    {
+      "code": "47EX",
+      "name": "Endodontist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose and treat diseases and destructive processes, including injuries and abnormalities of dental pulps and periapical tissues of teeth.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/endodontist",
+      "depth": "catalog"
+    },
+    {
+      "code": "47GX",
+      "name": "Dentist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role maintain the dental health of Airmen and their families.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/dentist",
+      "depth": "catalog"
+    },
+    {
+      "code": "47HX",
+      "name": "Periodontist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose and treat diseases and destructive processes of hard and soft tissues of the teeth.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/periodontist",
+      "depth": "catalog"
+    },
+    {
+      "code": "47KX",
+      "name": "Pediatric Dentist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose and treat diseases, abnormalities, injuries and dysfunctional disorders of the oral cavity and its associated structures in children.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/pediatric-dentist",
+      "depth": "catalog"
+    },
+    {
+      "code": "47PX",
+      "name": "Prosthodontist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role restore debilitated dentitions caused by tooth loss or pathologic wear.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/prosthodontist",
+      "depth": "catalog"
+    },
+    {
+      "code": "47SX",
+      "name": "Oral and Maxillofacial Surgeon",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role examine, diagnose and treat abnormalities of oral and maxillofacial structures.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/oral-and-maxillofacial-surgeon",
+      "depth": "catalog"
+    },
+    {
+      "code": "48AX",
+      "name": "Aerospace Medicine Physician Specialist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Airmen in this role conduct medical examinations and provide care for air and missile crews.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/healthcare/aerospace-medicine-physician-specialist",
+      "depth": "catalog"
+    },
+    {
+      "code": "51JX",
+      "name": "Judge Advocate Officer - JAG (Attorney)",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "legal"
+      ],
+      "what_it_is": "Airmen in this role formulate legal policies.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/law-and-order/judge-advocate-officer-jag-attorney",
+      "depth": "catalog"
+    },
+    {
+      "code": "52RX",
+      "name": "Chaplain",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Airmen in this role conduct worship services, liturgies and rites.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/chaplain",
+      "depth": "catalog"
+    },
+    {
+      "code": "61BX",
+      "name": "Behavioral Sciences/Human Factors Scientist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role conduct and manage research on human dynamics of service activities and analyze subsequent results.",
+      "asvab": "G 72",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/behavioral-sciences-human-factors-scientist",
+      "depth": "catalog"
+    },
+    {
+      "code": "61CX",
+      "name": "Chemist/Nuclear Chemist",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role coordinate research efforts with various agencies.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/chemist-nuclear-chemist",
+      "depth": "catalog"
+    },
+    {
+      "code": "61DX",
+      "name": "Physicist/Nuclear Engineer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Airmen in this role conduct and manage research and experiments.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/science-and-technology/physicist-nuclear-engineer",
+      "depth": "catalog"
+    },
+    {
+      "code": "62EX",
+      "name": "Developmental Engineer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role conduct design studies and manage studies contracted to industries.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/developmental-engineer",
+      "depth": "catalog"
+    },
+    {
+      "code": "63AX",
+      "name": "Acquisition Manager",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role coordinate with commanders and staff to develop proper acquisition plans and schedule.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/acquisition-manager",
+      "depth": "catalog"
+    },
+    {
+      "code": "64PX",
+      "name": "Contracting Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role formulate contracting policies and procedures.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/contracting-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "65FX",
+      "name": "Financial Management Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role perform financial management functions.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/financial-management-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "65WX",
+      "name": "Cost Analysis Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Airmen in this role coordinate cost-analysis programs and activities.",
+      "asvab": null,
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/logistics-and-administration/cost-analysis-officer",
+      "depth": "catalog"
+    },
+    {
+      "code": "71SX, 7S0X1",
+      "name": "Special Investigations Officer",
+      "branch": "Air Force",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "intelligence-analysis",
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Airmen in this role formulate special investigations policies in counterintelligence, cyber threats, counter threat, criminal, fraud and assigned special agents.",
+      "asvab": "G 44",
+      "clearance": null,
+      "source": "airforce.com",
+      "source_url": "https://www.airforce.com/careers/law-and-order/special-investigations-officer",
+      "depth": "catalog"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Air Force Careers - Browse Careers (career finder JSON API, offset/limit paginated)",
+      "url": "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+      "retrieved_date": "2026-07-12",
+      "note": "Authoritative first-party airforce.com career-finder API discovered via the data-api-endpoint attribute on the /careers/ page's career-finder component. Returned 234 career entries total (233 after removing one exact duplicate row) covering enlisted AFSCs, officer AFSCs, and officer-corps medical/dental/nursing/chaplain specialty codes, each with AFSC code, track, MAGE composite minimum, career-field tag, and a 'what you'll do' duty-bullet list. Fetched in 3 paginated calls (offset=0/100/200, limit=100, the server's apparent max page size)."
+    },
+    {
+      "title": "Air Force Careers landing page (HTML, used to discover the API endpoint)",
+      "url": "https://www.airforce.com/careers/",
+      "retrieved_date": "2026-07-12"
+    }
+  ],
+  "unverified": [
+    "Clearance level is reported only for the 7 AFSCs where the airforce.com API's own requirementsTable/Qualifications text explicitly names a clearance (14FX, 1T0X1, 3E8X1, 1N0X1, 1N4X2, 1N4X1, 1N3X1). Many other AFSCs in this catalog (e.g. most of the Intelligence and Cyber Intelligence tag entries) are commonly understood to require Secret or Top Secret/SCI clearance, but the airforce.com career-finder payload does not expose a structured clearance field for those entries, so clearance is left null rather than filled from general knowledge, per the no-fabrication constraint.",
+    "The 'what_it_is' one-liner for 4 AFSCs (1Z1X1, 1Z2X1, 1Z3X1, 1Z4X1 -- Pararescue, Combat Control, TACP enlisted, and Special Reconnaissance, respectively) was written from stable, well-established general knowledge rather than the airforce.com API, because those career-finder pages did not return an informationCard 'what you'll do' bullet list in the fetched payload (likely a different page template for Special Warfare pages). Their code, track, tag, and ASVAB/MAGE score are still airforce.com-sourced. Double-check: re-fetch https://www.airforce.com/careers/special-warfare-and-combat-support/special-warfare/pararescue/ (and sibling URLs) directly in a browser to see if the bullet content renders client-side.",
+    "For all 'what_it_is' sentences built from airforce.com bullets, the app's cluster-mapping (interest_cluster_ids) is this session's judgment call layered on top of the site's own broader navigational 'tag' grouping (e.g. deciding that an E-composite avionics AFSC belongs in both aviation and technology-cyber, or that Air Force Chaplain/Honor Guard/Religious Affairs -- which have no matching cluster in interest-taxonomy.json's 14 clusters -- map to business-admin as the closest available institutional-support fit). This mapping is a reasoned inference, not a value read from a source, and should be spot-checked against interest-taxonomy.json if cluster assignment precision matters downstream.",
+    "asvab values for a handful of officer-track AFSCs (11UX/1U1X1 Remotely Piloted Aircraft Pilot, 2A3X3 Tactical Aircraft Maintenance, 43HX Public Health Officer, 61BX Behavioral Sciences/Human Factors Scientist, 71SX/7S0X1 Special Investigations Officer) are reported as sourced from the site's 'score' field even though ASVAB/MAGE is not typically the gating exam for commissioned officers (AFOQT is) -- these are passed through as-is because they were present in the authoritative payload, but their real-world applicability to officer accession is unconfirmed. One clearly implausible outlier (32EX Civil Engineer's 'G5', far below every other observed composite floor of 21+) was suppressed to null rather than propagated.",
+    "233 entries were built from 234 raw API rows after removing one exact duplicate (52RX Chaplain appeared twice). This is very likely not literally every AFSC that has ever existed or every narrow shredout/prefix variant in the full Air Force Enlisted/Officer Classification Directory (AFECD/AFOCD) -- it is every distinct career page airforce.com's own recruiting career-finder currently enumerates, which is the most complete authoritative live source located within this session's tool budget. AFECD/AFOCD were not independently fetched this session (not confirmed reachable within budget); if a primary-source AFECD/AFOCD PDF is later obtained, cross-checking total counts and shredout-level detail against it is the natural next step."
+  ],
+  "completion_accountability": "233 Air Force specialty entries catalogued (131 enlisted, 102 officer/officer-corps-specialty), covering every career field named in the task instructions: operations/aircrew (pilots, CSOs, RPA pilots/sensor operators, battle management, air traffic control, airfield management), maintenance (aircraft, avionics, munitions, vehicle, facilities/civil engineering), logistics (materiel management, transportation, fuels, contracting), support/admin (personnel, finance, knowledge ops), medical (61 distinct enlisted medical AFSCs plus ~60 officer Medical/Dental/Nurse/Biomedical Sciences/Medical Service Corps specialty codes), legal (paralegal, JAG), chaplain, intelligence (all-source, signals, geospatial, cryptologic, targeting), cyber (cyber warfare ops, cyber systems ops, cyber transport, cyberspace effects/ops officer), space (space systems ops, space operations officer, missile/space maintenance), special warfare (Pararescue, Combat Control, Special Reconnaissance, TACP enlisted and officer, Combat Rescue Officer, Special Tactics Officer, SERE, EOD), security forces (enlisted and officer), public affairs, and band (enlisted band, Premier Band, Band Officer). Source: a single authoritative first-party API (airforce.com's own career-finder JSON endpoint), fully paginated (3 calls) rather than sampled, so this reflects airforce.com's complete current career list rather than a partial scrape. Data NOT independently cross-checked against the primary AFECD/AFOCD directory (that fetch was not attempted this session; see unverified). 0 career fields named in the task instructions were skipped. Clearance is populated only where explicitly stated in the source text (7 of 233 entries); left null elsewhere rather than filled from general knowledge. Tool budget used: roughly 15 fetch/curl calls against airforce.com (2 HTML page fetches to locate the API endpoint, several limit/offset probes to find the server's page-size cap, then 3 full-data paginated calls), well under the ~25-call budget."
+}

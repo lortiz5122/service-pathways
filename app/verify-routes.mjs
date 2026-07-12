@@ -1,3 +1,4 @@
+import fs from 'node:fs';
 import { createServer } from 'vite';
 
 const vite = await createServer({
@@ -10,7 +11,7 @@ const { render } = await vite.ssrLoadModule('/src/ssr-entry.tsx');
 const data = await vite.ssrLoadModule('/src/lib/data.ts');
 
 const routes = [
-  '/', '/explore', '/branches', '/prep', '/lifecycle', '/about',
+  '/', '/explore', '/jobs', '/branches', '/prep', '/pay', '/lifecycle', '/about', '/methodology',
   ...data.clusters.map((c) => `/interest/${c.id}`),
   ...data.allSpecialties.slice(0, 15).map((s) => `/specialty/${s.id}`),
 ];
@@ -121,6 +122,48 @@ for (const s of data.allSpecialties) {
     const money = [...txt.matchAll(/\+ ?\$[\d,]+ in your first year/g)].length;
     if (grades !== money)
       bad(`advanced-entry card shows ${grades} grade(s) but ${money} money figure(s)`);
+  }
+
+  // 9. A CATALOGUE BRANCH MUST NOT SILENTLY LOSE JOBS TO DEDUP. Twice now, an
+  //    over-eager dedup deleted every Space Force catalogue entry, because those
+  //    records carry the literal code "UNVERIFIED" and the matcher treated a
+  //    placeholder as an identity. A dedup that is too eager does not merge jobs,
+  //    it DELETES them — the exact silent-absence failure the site exists to fix.
+  //    So: every branch that ships a catalogue file must still show catalogue
+  //    jobs, and the merged total can never be smaller than the deep-record count.
+  {
+    const cat = await vite.ssrLoadModule('/src/lib/catalog.ts');
+    const files = fs
+      .readdirSync('src/research')
+      .filter((f) => f.startsWith('catalog-') && f.endsWith('.json'));
+
+    for (const f of files) {
+      const raw = JSON.parse(fs.readFileSync(`src/research/${f}`, 'utf8'));
+      const entries = raw.specialties ?? [];
+      if (!entries.length) continue;
+      const branch = entries[0].branch;
+      const shown = cat.allJobs.filter((j) => j.branch === branch);
+      const fromCat = shown.filter((j) => j.depth === 'catalog').length;
+      if (fromCat === 0)
+        bad(
+          `${branch}: catalogue file holds ${entries.length} entries but ZERO reached the site — dedup ate the branch`,
+        );
+      if (shown.length < entries.length / 2)
+        bad(
+          `${branch}: ${entries.length} catalogued but only ${shown.length} shown — dedup is deleting jobs`,
+        );
+    }
+
+    // 10. NO PROSE IN A CODE SLOT. Fifth instance of this bug. Several records
+    //     carry a 400-character paragraph in the `code` field ("UNVERIFIED — the
+    //     official crosswalk PDF returned 403…"). Rendered raw, that paragraph
+    //     lands in a 60px chip. Every code the directory shows must be a CODE.
+    const jobsHtml = render('/jobs');
+    for (const m of jobsHtml.matchAll(/class="job-code[^"]*">([^<]+)</g)) {
+      const t = m[1].trim();
+      if (t.length > 14)
+        bad(`job-code slot holds prose (${t.length} chars): "${t.slice(0, 60)}…"`);
+    }
   }
 }
 

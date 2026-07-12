@@ -9,6 +9,8 @@ import Lifecycle from './pages/Lifecycle';
 import About from './pages/About';
 import Explore from './pages/Explore';
 import Pay from './pages/Pay';
+import Jobs from './pages/Jobs';
+import Methodology from './pages/Methodology';
 import { AppMark } from './branding/Emblem';
 import { SiteDisclaimer } from './components/Disclaimer';
 import { RESEARCH_DATE } from './lib/data';
@@ -16,10 +18,12 @@ import { RESEARCH_DATE } from './lib/data';
 const NAV = [
   { to: '/', label: 'Interests', end: true },
   { to: '/explore', label: 'Find what fits', end: false },
+  { to: '/jobs', label: 'Every job', end: false },
   { to: '/branches', label: 'Branches', end: false },
   { to: '/prep', label: 'Qualifying', end: false },
   { to: '/pay', label: 'Pay', end: false },
   { to: '/lifecycle', label: 'Retirement & After', end: false },
+  { to: '/about', label: 'About', end: false },
 ];
 
 function ScrollToTop() {
@@ -69,8 +73,10 @@ export default function App() {
           <Route path="/branches" element={<Branches />} />
           <Route path="/prep" element={<Prep />} />
           <Route path="/pay" element={<Pay />} />
+          <Route path="/jobs" element={<Jobs />} />
           <Route path="/lifecycle" element={<Lifecycle />} />
           <Route path="/about" element={<About />} />
+          <Route path="/methodology" element={<Methodology />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>
@@ -84,7 +90,7 @@ export default function App() {
             current official publication before it drives a decision.
           </p>
           <p className="footlinks">
-            <Link to="/about">Methodology, sources &amp; legal notice</Link>
+            <Link to="/methodology">Methodology, sources &amp; legal notice</Link>
           </p>
           <p className="buildstamp">
             build {__BUILD_ID__} · if this page looks stale, hard-reload

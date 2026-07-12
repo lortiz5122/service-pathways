@@ -68,15 +68,41 @@ const catId = (e: CatalogEntry) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
 
-/** Match a catalogue entry to an existing deep record, so we never list both. */
+const norm = (s: string) =>
+  s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+/**
+ * Match a catalogue entry to an existing deep record, so we never list both.
+ *
+ * Deliberately conservative. An early version matched on `code.startsWith(...)`,
+ * and because several Space Force records carry the literal code "UNVERIFIED",
+ * EVERY Space Force catalogue entry matched every Space Force deep record and
+ * silently vanished. A dedup that is too eager doesn't merge jobs — it deletes
+ * them, which is the exact silent-absence failure this file exists to prevent.
+ */
 function deepMatch(e: CatalogEntry): SpecialtyRecord | undefined {
   const code = e.code.trim().toUpperCase();
-  return allSpecialties.find(
-    (s) =>
-      s.branch === e.branch &&
-      String(s.code).trim().toUpperCase().startsWith(code) &&
-      code.length >= 2,
-  );
+  const isRealCode = code.length >= 2 && !/UNVERIFIED/i.test(code);
+  const name = norm(e.name);
+
+  return allSpecialties.find((s) => {
+    if (s.branch !== e.branch) return false;
+
+    // Same code — but only when the code is a real code, not a placeholder.
+    if (isRealCode) {
+      const sc = String(s.code).trim().toUpperCase();
+      if (!/UNVERIFIED/i.test(sc)) {
+        // Exact, or the record's code starts with this code (e.g. "1310 (Naval…").
+        if (sc === code || sc.startsWith(`${code} `) || sc.startsWith(`${code}(`))
+          return true;
+      }
+    }
+
+    // Otherwise fall back to the job NAME, which is the only reliable key when
+    // the code is unknown.
+    const sn = norm(s.name);
+    return sn === name || sn.startsWith(name) || name.startsWith(sn);
+  });
 }
 
 const deepJobs: Job[] = allSpecialties.map((s) => ({
@@ -94,15 +120,25 @@ const deepJobs: Job[] = allSpecialties.map((s) => ({
   record: s,
 }));
 
+/**
+ * Fast key for "this exact job already exists as a deep record".
+ *
+ * A placeholder code is NOT an identity. "UNVERIFIED" is a statement that we do
+ * not know the code — treating it as one collapses every unknown-code job in a
+ * branch into a single job. That deleted all seven Space Force catalogue entries
+ * once already, which is the silent-absence failure this file exists to prevent.
+ */
 const deepKeys = new Set(
-  deepJobs.map((j) => `${j.branch}|${j.code.trim().toUpperCase()}`),
+  deepJobs
+    .filter((j) => !/UNVERIFIED/i.test(j.code))
+    .map((j) => `${j.branch}|${j.code.trim().toUpperCase()}`),
 );
 
 const catalogJobs: Job[] = catalogEntries
   // A deep record always wins. Never show the same job twice at two depths.
   .filter((e) => {
-    const key = `${e.branch}|${e.code.trim().toUpperCase()}`;
-    if (deepKeys.has(key)) return false;
+    const code = e.code.trim().toUpperCase();
+    if (!/UNVERIFIED/i.test(code) && deepKeys.has(`${e.branch}|${code}`)) return false;
     return !deepMatch(e);
   })
   .map((e) => ({

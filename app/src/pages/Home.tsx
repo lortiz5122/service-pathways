@@ -4,7 +4,6 @@ import { BranchLogo } from '../branding/Logo';
 import { branchOrder, BRANCH_NAME_TO_ID, type BranchId } from '../lib/types';
 import { MarkDisclaimer } from '../components/Disclaimer';
 import { Note } from '../components/Bits';
-import { WhoMadeThis } from '../components/WhoMadeThis';
 import { HEALTHCARE } from '../lib/paycalc';
 
 /** Branches that actually have a researched specialty in this cluster. */
@@ -65,9 +64,19 @@ export default function Home() {
       </section>
 
       <div className="wrap">
-        {/* Who is telling you this, and what do they want from you? Answered
-            before a reader gets to a single number. */}
-        <WhoMadeThis />
+        {/* A COMPACT trust strip, not the full essay. The provenance matters, but a
+            17-year-old should not have to scroll five paragraphs about the site
+            before reaching a single job. The full story is one click away, in the
+            nav, at /about. */}
+        <Link to="/about" className="truststrip">
+          <div className="ts-main">
+            <b>This is not an official military recruitment site.</b> It was compiled
+            by <b>a veteran and a father</b> who recently helped his own son navigate
+            these careers. Nobody here is trying to enlist you — no form, no account,
+            nothing sent to a recruiter.
+          </div>
+          <span className="ts-link">Who made this, and why →</span>
+        </Link>
 
         {/* --------------------------------- not sure where to start? */}
         <div className="card startcard">
@@ -106,30 +115,6 @@ export default function Home() {
             to a recruiter.
           </p>
         </div>
-
-        {/* --------------------------------- money, honestly framed */}
-        <Note tone="warn">
-          <div>
-            <b>About the pay figures and the military-vs-civilian comparisons.</b>{' '}
-            They are <b>for comparison only</b>. Real pay <b>varies enormously</b> by
-            duty station, paygrade and whether you have dependents — the same rank
-            draws roughly <b>4× the housing allowance</b> in San Francisco that it
-            draws in rural Alabama, and if you live in the barracks you get almost
-            none of it.
-            <br />
-            <br />
-            They exist for one reason: to surface the parts of military compensation
-            that other career sources routinely <b>omit, or leave you to find out too
-            late</b> — that the housing and food allowances are <b>not taxed</b>, that
-            healthcare costs you <b>nothing</b> where a civilian pays about{' '}
-            <b>${HEALTHCARE.singlePremium.toLocaleString()}</b> a year for the same
-            cover (<b>${HEALTHCARE.familyPremium.toLocaleString()}</b> for a family),
-            and that a job may carry special pays nobody mentioned. None of that shows
-            up in a salary comparison, which is exactly why salary comparisons mislead
-            people — in both directions.{' '}
-            <Link to="/pay">See how the number is actually built →</Link>
-          </div>
-        </Note>
 
         <div className="section-head" style={{ marginTop: 30 }}>
           <h2>Choose an interest</h2>
@@ -215,6 +200,32 @@ export default function Home() {
             </p>
           </div>
         </div>
+
+        {/* The money caveat belongs HERE — after the reader has seen what the
+            site offers, not before they have seen a single number. */}
+        <Note tone="warn">
+          <div>
+            <b>About the pay figures and the military-vs-civilian comparisons.</b>{' '}
+            They are <b>for comparison only</b>. Real pay <b>varies enormously</b> by
+            duty station, paygrade and whether you have dependents — the same rank
+            draws roughly <b>4× the housing allowance</b> in San Francisco that it
+            draws in rural Alabama, and if you live in the barracks you get almost
+            none of it.
+            <br />
+            <br />
+            They exist for one reason: to surface the parts of military compensation
+            that other career sources routinely <b>omit, or leave you to find out too
+            late</b> — that the housing and food allowances are <b>not taxed</b>, that
+            healthcare costs you <b>nothing</b> where a civilian pays about{' '}
+            <b>${HEALTHCARE.singlePremium.toLocaleString()}</b> a year for the same
+            cover (<b>${HEALTHCARE.familyPremium.toLocaleString()}</b> for a family),
+            and that a job may carry special pays nobody mentioned. None of that shows
+            up in a salary comparison, which is exactly why salary comparisons mislead
+            people — in both directions.{' '}
+            <Link to="/pay">See how the number is actually built →</Link>
+          </div>
+        </Note>
+
       </div>
     </>
   );

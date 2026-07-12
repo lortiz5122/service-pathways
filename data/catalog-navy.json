@@ -1,0 +1,1410 @@
+{
+  "command": "CATALOG",
+  "branch": "Navy",
+  "retrieved_date": "2026-07-12",
+  "depth": "catalog",
+  "note": "Catalog entries are NOT deep-researched records. They exist so every job is findable. Pay, retirement, transition and crosswalk data are deliberately absent rather than invented.",
+  "specialties": [
+    {
+      "code": "AB",
+      "name": "Aviation Boatswain's Mate",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "General rating covering flight-deck launch/recovery equipment, aviation fuels, and aircraft handling, with sailors later specializing into the ABE (Launching & Recovery), ABF (Fuels), or ABH (Aircraft Handling) service ratings.",
+      "asvab": "VE+AR+MK+AS>=161",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "AD",
+      "name": "Aviation Machinist's Mate",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains and repairs turbo-jet aircraft engines and associated accessories, and can perform flight-engineer duties.",
+      "asvab": "VE+MK+GS>=158** -OR- VE+MK+EI>=155** (source-marked ** footnote, not defined on the page fetched)",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "AS",
+      "name": "Aviation Support Equipment Technician",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Performs intermediate maintenance on aviation accessory support equipment at naval air stations and aboard carriers, including gasoline/diesel engines, gas-turbine compressor units, and electrical systems.",
+      "asvab": "VE+AR+MK+MC>=206 -OR- VE+AR+MK+EI>=206 -OR- AS+MK+AO>=157",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "AW",
+      "name": "Naval Aircrewman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "General rating for enlisted air crew who operate airborne radar/electronic equipment, act as helicopter rescue crewmen, and serve as flight crew on long- and intermediate-range aircraft; sailors specialize into AWO, AWF, AWV, AWS, or AWR service ratings, and the AWS/AWR track includes the Aircrew Rescue Swimmer (AIRR) qualification.",
+      "asvab": "VE+AR+MK+MC>=210 -OR- VE+AR+MK+AS>=210",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "AC",
+      "name": "Air Traffic Controller",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Directs and controls aircraft traffic, operates field lighting and ground-controlled approach (GCA) systems, and interprets radar to plot aircraft positions.",
+      "asvab": "VE+AR+MK+MC>=220 -OR- PC+AR+MK>=166",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "AG",
+      "name": "Aerographer's Mate",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "The Navy's weather forecasters; trained in meteorology and aerological instruments, and prepare weather maps and forecasts used to plan flight operations and weapons delivery.",
+      "asvab": "VE+MK+GS>=162 -OR- VE+MK+GS>=165 (PAY 80)",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "AM",
+      "name": "Aviation Structural Mechanic",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains aircraft structural parts such as wings, fuselage, tail, control surfaces, landing gear, and hydraulic systems.",
+      "asvab": "VE+AR+MK+AS>=210** -OR- VE+AR+MK+MC>=210** (source-marked ** footnote, not defined on the page fetched)",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "AME",
+      "name": "Aviation Structural Mechanic — Safety Equipment",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Service rating of Aviation Structural Mechanic that maintains and repairs oxygen systems, cockpit/cabin pressurization, and ejection-seat systems.",
+      "asvab": "VE+AR+MK+AS>=210 -OR- VE+AR+MK+AO>=210",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "AO",
+      "name": "Aviation Ordnanceman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Operates and handles aviation ordnance — guns, bombs, torpedoes, rockets, and missiles — including stowing, issuing, and loading munitions and small arms.",
+      "asvab": "VE+AR+MK+AS>=173 -OR- MK+AS+AO>=131",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "AT",
+      "name": "Aviation Electronics Technician",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains and calibrates aircraft radar, avionics, and navigation systems.",
+      "asvab": "VE+AR+MK+AO>=217** -OR- VE+AR+MK+MC>=217** (navycs.com lists this figure jointly for AT and AE under an informal \"AV\" avionics grouping; Wikipedia's rating-structure table lists AT and AE as two separate current general ratings)",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "AE",
+      "name": "Aviation Electrician's Mate",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains aircraft electrical power generating and converting systems, including lighting, control, and flight/engine instrument systems.",
+      "asvab": "VE+AR+MK+AO>=217** -OR- VE+AR+MK+MC>=217** (navycs.com lists this figure jointly for AT and AE under an informal \"AV\" avionics grouping; Wikipedia's rating-structure table lists AT and AE as two separate current general ratings)",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "PR",
+      "name": "Aircrew Survival Equipmentman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Packs and maintains parachutes, flight clothing, life rafts, life jackets, oxygen-breathing apparatus, and air-sea rescue equipment.",
+      "asvab": "VE+AR+MK+AS>=185 -OR- MK+AS+AO>=140",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "AZ",
+      "name": "Aviation Maintenance Administrationman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation",
+        "business-admin"
+      ],
+      "what_it_is": "Performs clerical, administrative, and managerial work that schedules and coordinates aircraft maintenance workload, inspections, and modifications.",
+      "asvab": "VE+AR>=102",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "BU",
+      "name": "Builder",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Seabee rating that performs carpentry, masonry, plastering, roofing, and painting to build and repair piers, bridges, towers, and buildings.",
+      "asvab": "AR+MC+AS>=145** -OR- VE+AR+MK+AO>=209** (source-marked ** footnote, not defined on the page fetched)",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "CE",
+      "name": "Construction Electrician",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Seabee rating responsible for power production and electrical work needed to build and operate airfields, roads, barracks, and hospitals.",
+      "asvab": "AR+MK+EI+GS>=201",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "CM",
+      "name": "Construction Mechanic",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Seabee rating that maintains construction machinery — buses, dump trucks, bulldozers, cranes, backhoes, and pile drivers — and their engines, transmissions, and hydraulic/electrical systems.",
+      "asvab": "AR+MC+AS>=162",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "EA",
+      "name": "Engineering Aid",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Seabee rating that surveys roads, airfields, and buildings, performs soil tests, and prepares topographic and hydrographic maps to support construction engineers.",
+      "asvab": "AR+2MK+GS>=207",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "EO",
+      "name": "Equipment Operator",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Seabee rating that operates heavy construction machinery such as bulldozers, power shovels, and pile drivers to excavate, grade, and pour concrete on construction sites.",
+      "asvab": "AR+MC+AS>=145**",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "SW",
+      "name": "Steelworker",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Seabee rating that rigs, welds, and erects structural steel for bridges, piers, buildings, and storage tanks.",
+      "asvab": "AR+MC+AS>=145**",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "UT",
+      "name": "Utilitiesman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Seabee rating that installs and maintains plumbing, steam, compressed-air, fuel-storage, air-conditioning, refrigeration, and sewage systems.",
+      "asvab": "AR+MK+EI+GS>=205 -OR- AR+AS+MK>=145",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "CS",
+      "name": "Culinary Specialist (Surface)",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "culinary"
+      ],
+      "what_it_is": "Plans menus, prepares food, and operates galley and dining facilities aboard surface ships and ashore.",
+      "asvab": "VE+AR>=76",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "CSS",
+      "name": "Culinary Specialist (Submarine)",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "culinary"
+      ],
+      "what_it_is": "Submarine-track Culinary Specialist rating, with the same food-preparation and galley-management duties performed aboard submarines.",
+      "asvab": "AR+MK+EI+GS>=200 -OR- VE+AR+MK+MC>=200",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "CTI",
+      "name": "Cryptologic Technician Interpretive",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Handles radiotelephone communications and foreign-language translation in support of signals intelligence.",
+      "asvab": "PC+MK>=108 -OR- VE+MK>108 -AND- DLAB>=110 -OR- MK+VE>=126",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "CTT",
+      "name": "Cryptologic Technician Technical",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Focuses on electronic warfare, collecting, analyzing, and providing electronic intelligence support against inbound threats and anti-ship missiles; an advanced Advanced Electronics Field (AEF) accession track exists with a higher qualifying score.",
+      "asvab": "AR+2MK+GS>=212 OR AR+MK+CT>=159 and CT>=60*",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "CTM",
+      "name": "Cryptologic Technician Maintenance",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Maintains the electronic and electromechanical equipment used by the cryptologic/information-warfare community.",
+      "asvab": "AR+MK+EI+VE>=221",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "CTR",
+      "name": "Cryptologic Technician Collection",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Handles Morse code communications and operates radio direction-finding equipment for signals collection.",
+      "asvab": "MK+PC>=110 -OR- AR+PC>=110 -OR- AR+MK+PC>=164",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "CWT",
+      "name": "Cyber Warfare Technician",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Conducts offensive and defensive cyber operations and investigates and protects Navy networks; established by the FY2023 NDAA as a rating separate from cryptology, absorbing the former Cryptologic Technician Networks (CTN) rating in full effective 28 June 2023.",
+      "asvab": "AR+2MK+GS>=255 OR VE+AR+MK+MC>=235 OR CT+MK+VE>=173 and CT>=60*",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "BM",
+      "name": "Boatswain's Mate",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Trains and supervises deck and boat seamanship, oversees maintenance of a ship's external structure and deck equipment, and stands deck watches.",
+      "asvab": "VE+AR+MK+AS>=163 -OR- MK+AS+AO>=126",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "DC",
+      "name": "Damage Controlman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Performs firefighting and damage-control work, prepares defenses against chemical/biological/radiological attack, and repairs damage-control equipment.",
+      "asvab": "VE+AR+MK+AS>=193 -OR- VE+AR+MK+MC>=193",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "EM",
+      "name": "Electrician's Mate",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Operates and repairs a ship's or station's electrical power plant, distribution switchboards, generators, and motors; a nuclear-qualified EMN service rating operates nuclear-reactor electrical subsystems.",
+      "asvab": "VE+AR+MK+MC>=210 -OR- AR+MK+EI+GS>=210",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "EN",
+      "name": "Engineman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains internal diesel and gasoline engines, refrigeration, air-conditioning, and distilling-plant equipment.",
+      "asvab": "VE+AR+MK+AS>=188 -OR- VE+AR+MK+AO>=193",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "ET",
+      "name": "Electronics Technician",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains, repairs, and calibrates electronic equipment used for communications, detection, tracking, and navigation; recruited jointly with Fire Controlman under the Advanced Electronics/Computer Field (AECF) surface accession pathway per the source. Submarine service ratings exist (Wikipedia lists ETN — nuclear power, ETV — navigation, and ETR — communications); navycs.com separately lists a combined 'ET Submarine' ASVAB requirement of AR+MK+EI+GS>=218 -OR- VE+AR+MK+MC>=218 without confirming which submarine service-rating code(s) that figure applies to.",
+      "asvab": "AR+MK+EI+GS>=222 -OR- AR+2MK+GS>=226 Note 1",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "FC",
+      "name": "Fire Controlman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains the radar, computer, and weapons-direction equipment used in surface-ship gun and guided-missile fire-control systems; recruited jointly with Electronics Technician under the Advanced Electronics/Computer Field (AECF) accession pathway per the source. An Aegis-qualified FCA service rating maintains the Aegis Combat System.",
+      "asvab": "AR+MK+EI+GS>=222 -OR- AR+2MK+GS>=226 Note 1",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "FT",
+      "name": "Fire Control Technician",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains the electronic, electrical, and mechanical equipment used in submarine weapons-systems fire control.",
+      "asvab": "AR+MK+EI+GS>=218 -OR- VE+AR+MK+MC>=218",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "GSE",
+      "name": "Gas Turbine System Technician — Electrical",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains the electrical and electronic circuitry, alarm systems, and propulsion-control systems of shipboard gas-turbine engines.",
+      "asvab": "VE+AR+MK+MC>=210 -OR- AR+MK+EI+GS>=210",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "GSM",
+      "name": "Gas Turbine System Technician — Mechanical",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains gas-turbine engines and mechanical propulsion machinery, including gears, shafting, and controllable-pitch propellers.",
+      "asvab": "VE+AR+MK+AS>=200 -OR- VE+AR+MK+AO>=205",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "GM",
+      "name": "Gunner's Mate",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Operates and maintains guns, guided-missile launching systems, rocket launchers, and turrets, and tests ammunition and ordnance components.",
+      "asvab": "AR+MK+EI+GS>=205 -OR- GS+AR+2MK>=205",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "HT",
+      "name": "Hull Maintenance Technician",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains ships' hulls, piping systems, plumbing, and safety/survival equipment, and performs damage-control-related repair work.",
+      "asvab": "VE+AR+MK+AS>=193 -OR- VE+AR+MK+MC>=193",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "IC",
+      "name": "Interior Communications Electrician",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Operates and repairs a ship's interior communications systems, shipboard entertainment/announcing systems, and gyrocompass systems; the source lists general (IC-SG) and Advanced Technical Field (IC-ATF) accession tracks under the same rating code.",
+      "asvab": "AR+MK+EI+GS>=213 -OR- VE+AR+MK+AO=218 -OR- GS+AR+MK=163",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "MM",
+      "name": "Machinist's Mate (Surface)",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Operates and maintains a ship's engines, compressors, gears, refrigeration, and other machinery, including steam propulsion and auxiliary equipment.",
+      "asvab": "VE+AR+MK+AS>=180 Note 3 -OR- VE+AR+MK+AO>=185 Note 3",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "MMA/MMS",
+      "name": "Machinist's Mate (Submarine)",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Submarine track of Machinist's Mate. navycs.com labels this track's ASVAB requirement under the joint code \"MMA/MMS\"; Wikipedia's rating-structure table independently confirms MMA as the submarine (Weapons) service rating of Machinist's Mate but does not separately confirm an \"MMS\" code, so that half of the joint label is unverified.",
+      "asvab": "VE+AR+MK+EI>=207 -OR- AR+GS+MC+EI>=207",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "MR",
+      "name": "Machinery Repairman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Operates machine tools to fabricate replacement parts and repairs or overhauls a ship's engine auxiliary equipment such as evaporators, air compressors, and pumps.",
+      "asvab": "VE+AR+MK+AS>=205 -OR- VE+AR+MK+MC>=205 -OR- AS+MK+AO>=148",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "MN",
+      "name": "Mineman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Tests, maintains, and repairs naval mines and mine-countermeasures equipment.",
+      "asvab": "VE+AR+MK+MC>=210 -OR- VE+AR+MK+AO>=216",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "MT",
+      "name": "Missile Technician",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Operates and maintains the Trident II D5 strategic-missile weapon system aboard ballistic-missile submarines, including fire-control and guidance systems.",
+      "asvab": "AR+MK+MC+VE>=218 -OR- VE+AR+MK+AO>=218",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "TM",
+      "name": "Torpedoman's Mate",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Responsible for loading, unloading, and storing torpedoes, Tomahawk missiles, and countermeasure devices on submarines, and maintains high-pressure air and hydraulic launching systems.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Navy_ratings",
+      "depth": "catalog"
+    },
+    {
+      "code": "HM",
+      "name": "Hospital Corpsman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Provides medical and dental care to sailors, Marines, and their families as pharmacy technicians, medical technicians, physician's/dentist's assistants, and battlefield corpsmen; also issued to corpsmen attached to Marine Corps units. Advanced Navy Enlisted Classification tracks exist within the rating, including Dental Assistant (DA), Behavioral Health Technician (BHT), Dental Hygienist (DH, DPEP), and an Advanced Technical Field (ATF) accession track.",
+      "asvab": "VE+AR+MK+GS>=208 -OR- MK+GS+2VE>=208 -OR- AR+PC+MK>=156",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "YN",
+      "name": "Yeoman (Surface)",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Performs administrative and clerical work — correspondence, travel coordination, and recordkeeping — for ships, squadrons, and shore commands.",
+      "asvab": "VE+MK>=99 -OR- VE+MK+CS>=148",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "YNS",
+      "name": "Yeoman (Submarine)",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Submarine track of Yeoman, performing the same administrative and clerical duties aboard submarines.",
+      "asvab": "AR+MK+EI+GS>=200 -OR- VE+AR+MK+MC>=200",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "PS",
+      "name": "Personnel Specialist",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Advises sailors on Navy jobs, education, training, and promotion requirements, and maintains personnel records and reports.",
+      "asvab": "VE+MK>=103 -OR- VE+MK+CS>=148",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "NC",
+      "name": "Navy Counselor",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Provides career and vocational guidance to Navy personnel and reports to command leadership on retention, attrition, advancement, and career-development programs; Career (NC(C)) and Recruiter (NC(R)) service ratings exist per Wikipedia's rating-structure table.",
+      "asvab": "GS+MK+VE>=156",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "RP",
+      "name": "Religious Program Specialist",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Assists Navy chaplains with administrative and budgetary tasks, chapel-fund custody, religious educational materials, and volunteer-program coordination.",
+      "asvab": "VE+MK>=105 -OR- VE+MK+CS>=157",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "LS",
+      "name": "Logistics Specialist (Surface)",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Manages inventories, procurement, and issuance of repair parts and supplies, and distributes mail for ships, squadrons, and shore activities.",
+      "asvab": "VE+AR>=92",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "LSS",
+      "name": "Logistics Specialist (Submarine)",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Submarine track of Logistics Specialist, with the same supply, inventory, and mail-distribution duties performed aboard submarines.",
+      "asvab": "AR+MK+EI+GS>=200 -OR- VE+AR+MK+MC>=200",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "RS",
+      "name": "Retail Services Specialist",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Manages Navy exchange retail operations — barber shops, tailor shops, uniform stores, laundries, and gas stations — ashore and aboard ship.",
+      "asvab": "VE+AR>=83",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "LN",
+      "name": "Legalman",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "legal"
+      ],
+      "what_it_is": "Assists Navy judge advocates with military justice and administrative law — courts-martial, nonjudicial punishment, wills, and other legal assistance to service members.",
+      "asvab": "VE+MK>=105 and VE>=52 -OR- VE+AR>=105 and VE>=52",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "MA",
+      "name": "Master-at-Arms",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Enforces law and order aboard ships and installations, controls access to naval facilities, conducts investigations, and performs antiterrorism/force-protection duties.",
+      "asvab": "AR+VE+MK+MC>=192 Note 1",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "MC",
+      "name": "Mass Communication Specialist",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Writes, photographs, and produces print and broadcast journalism, and visual-information content documenting Navy operations and events.",
+      "asvab": "VE+AR>=115 and VE>=53 -OR- PC+AR>=115 and VE>=53",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "MU",
+      "name": "Musician",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Plays in official Navy bands and ensembles for ceremonies, concerts, and public events; entry is audition-based.",
+      "asvab": "31 AFQT (no line-score criteria per source)",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "QM",
+      "name": "Quartermaster",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Assists the navigator and officer of the deck, steers the ship, takes radar bearings and celestial observations, and plots courses.",
+      "asvab": "AR+MK+AO+VE>=196 -OR- MK+VE>=100",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "OS",
+      "name": "Operations Specialist",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Operates radar, navigation, and communications equipment in the shipboard Combat Information Center, tracking ships, aircraft, and missiles.",
+      "asvab": "VE+MK+CS>=148 -OR- AR+2MK+GS>=198",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "STG",
+      "name": "Sonar Technician (Surface)",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Operates and repairs surface-ship sonar systems and antisubmarine-warfare fire-control equipment for underwater surveillance and detection. Source lists two accession-program variants with different minimums: an Advanced Electronics Field (AEF) track and a five-year-obligation (5YO) track.",
+      "asvab": "AR+MK+EI+GS>=222 (AEF track; source separately lists a 5YO track at AR+MK+EI+GS>=223 -OR- AR+MK+VE+AO>=228)",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "STS",
+      "name": "Sonar Technician (Submarine)",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Operates and repairs submarine sonar systems for underwater surveillance, navigation, and undersea communications.",
+      "asvab": "AR+MK+EI+GS>=218 -OR- VE+AR+MK+MC>=218",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "ND",
+      "name": "Navy Diver",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Performs underwater ship maintenance, construction, and rescue, and provides diving-technical support to submersible operations and Marine Corps units.",
+      "asvab": "AR+VE>=105 AND MC>=51 OR AR+2MK+GS>=210 AND MC>=51 OR GS+MC+EI>=157 AND AR+MK>=100",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "SB",
+      "name": "Special Warfare Boat Operator",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Crews high-speed combatant craft (SWCC) to insert and extract special-operations forces and conduct maritime interdiction and coastal patrol.",
+      "asvab": "AR+VE>=105 and MC>=51 -OR- AR+2MK+GS>=210 and MC>=51",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "SO",
+      "name": "Special Warfare Operator",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Navy SEAL rating conducting unconventional warfare, direct-action raids, reconnaissance, and amphibious-beachhead operations across sea, air, and land.",
+      "asvab": "VE+AR>=108 -AND- MC>=50 -AND- AR+MK>=100 --OR-- VE+MK+MC+CS>=216 -AND- AR+MK>=100 --OR-- GS+MC+EI>=167 -AND- AR+MK>=100 --OR-- VE+AR+MK+AO>=216 -AND- AR+MK>=100",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "IS",
+      "name": "Intelligence Specialist",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Collects and interprets intelligence, analyzes imagery, and prepares charts, maps, and reports on the strategic situation for military decision-makers. An Advanced Technical Field (IS-ATF) accession track exists under the same rating code.",
+      "asvab": "VE+AR+MK+GS>=215 -OR- AR+PC+MK>=164",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "IT",
+      "name": "Information Systems Technician",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Installs, operates, and maintains Navy information systems, local/wide-area networks, and telecommunications, and administers computer-system operations. The source lists a surface general track, an Advanced Technical Field (IT-ATF) track, and a combined submarine track under the same rating code; Wikipedia's rating-structure table separately lists three submarine service ratings — ITE (Electronic Warfare), ITR (Communications), and ITN (Network).",
+      "asvab": "AR+VE+MK+GS>=212 Note 2 -OR- VE+MK+GS>=156 Note 2 -OR- CT+MK+VE>=156 and CT>=60 Note 2",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "RW",
+      "name": "Robotics Warfare Specialist",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Operates and maintains robotic and autonomous systems (RAS) at the tactical edge, working with computer vision, mission/navigation autonomy, and machine learning on RAS platforms.",
+      "asvab": "AR+MK+EI+GS>=222 -OR- AR+MK+VE+MC>=222 -OR- AR+MK+VE+AO>=222",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "EOD",
+      "name": "Explosive Ordnance Disposal",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Locates, identifies, renders safe, and disposes of conventional, nuclear, chemical, biological, and improvised ordnance, sometimes using parachute, helicopter, or deep-sea-diving insertion.",
+      "asvab": "AR+VE>=109 AND MC>=51 -OR- GS+MC+EI>=169",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "MMN/EMN/ETN",
+      "name": "Nuclear Field (Machinist's Mate, Electrician's Mate, and Electronics Technician — Nuclear)",
+      "branch": "Navy",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Consolidated accession pipeline for nuclear-qualified sailors who operate and maintain naval nuclear reactor propulsion plants aboard carriers and submarines; entrants are assigned one of the three nuclear-track ratings after training.",
+      "asvab": "Nuke Test Scores (source does not give the underlying subtest formula)",
+      "clearance": null,
+      "source": "navycs.com/asvab-test.html",
+      "depth": "catalog"
+    },
+    {
+      "code": "1110",
+      "name": "Surface Warfare Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Unrestricted Line officer designator for officers qualified as a Surface Warfare Officer, commanding and operating surface combatant ships.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1120",
+      "name": "Submarine Warfare Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Unrestricted Line officer designator for officers qualified as a Submarine Warfare Officer.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1130",
+      "name": "Special Warfare Officer (SEAL)",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Unrestricted Line officer designator for officers qualified as a Navy SEAL Special Warfare Officer.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1140",
+      "name": "Explosive Ordnance Disposal Warfare Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Unrestricted Line officer designator for officers qualified as an Explosive Ordnance Disposal (EOD) Warfare Officer.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1310",
+      "name": "Naval Aviator (Pilot)",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Unrestricted Line officer designator for officers qualified for operational flying duty piloting Navy aircraft; includes Naval Aviator-Astronaut.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1320",
+      "name": "Naval Flight Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Unrestricted Line officer designator for officers qualified for flying duty as a non-pilot aircrew flight officer; includes Naval Flight Officer-Astronaut.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1200",
+      "name": "Human Resources Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Restricted Line Special Duty officer designator responsible for planning, programming, and executing life-cycle management of Navy personnel.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1440",
+      "name": "Engineering Duty Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Restricted Line officer designator for officers qualified as a ship-engineering specialist, overseeing ship design, construction, maintenance, and modernization.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1510/1520",
+      "name": "Aerospace Engineering Duty Officer (AEDO/AMDO)",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Restricted Line officer designator for Aerospace Engineering Duty Officers, split into Engineering (AEDO, 151X) and Maintenance (AMDO/AMO, 152X) tracks that merge into 150X at O-6.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1650",
+      "name": "Public Affairs Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Restricted Line Special Duty officer designator responsible for Navy public affairs and media relations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1660",
+      "name": "Strategic Sealift Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Restricted Line Special Duty officer designator for licensed merchant-marine deck/engineering officers supporting military sealift.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1710",
+      "name": "Foreign Area Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Restricted Line Special Duty officer designator for regional-expertise advisors to Navy commanders.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1800",
+      "name": "Meteorology/Oceanography Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Restricted Line Special Duty officer designator for officers who provide meteorological and oceanographic support to fleet and aviation operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1810",
+      "name": "Cryptologic Warfare Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Restricted Line Special Duty officer designator (Information Warfare Community) leading cryptologic/signals-warfare operations; formed from the merger of former designators 161X and 164X in October 2010.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1820",
+      "name": "Information Professional Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Restricted Line Special Duty officer designator (Information Warfare Community) responsible for Navy information/network systems; formerly designator 160X, redesignated in October 2010.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1830",
+      "name": "Intelligence Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Restricted Line Special Duty officer designator (Information Warfare Community) leading intelligence collection and analysis; formerly designator 163X, redesignated in October 2010.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "1840",
+      "name": "Cyber Warfare Engineer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Restricted Line Special Duty officer designator (Information Warfare Community) for engineering-focused cyber warfare roles.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "2100",
+      "name": "Medical Corps Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Staff Corps designator for Navy physicians, including Naval Flight Surgeons and Naval Undersea/Submarine Medical Officers.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "2200",
+      "name": "Dental Corps Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Staff Corps designator for Navy dentists.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "2300",
+      "name": "Medical Service Corps Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Staff Corps designator for allied health, administrative, and scientific officers supporting Navy medicine, including Naval Aviation Physiologists and Experimental Psychologists.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "2500",
+      "name": "Judge Advocate General's Corps Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "legal"
+      ],
+      "what_it_is": "Staff Corps designator for Navy judge advocates (military lawyers).",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "2900",
+      "name": "Nurse Corps Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Staff Corps designator for Navy registered nurses, including Navy Flight Nurses.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "3100",
+      "name": "Supply Corps Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Staff Corps designator for officers managing Navy supply, logistics, and financial-management operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "4100",
+      "name": "Chaplain Corps Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Staff Corps designator for Navy chaplains providing religious ministry and counseling to service members; mapped here to Business & Administration as the closest-fitting interest cluster in this taxonomy, since no dedicated chaplaincy/ministry cluster exists — an editorial judgment, not a sourced categorization.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "5100",
+      "name": "Civil Engineer Corps Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Staff Corps designator for Seabee engineering officers who plan and manage naval construction.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    },
+    {
+      "code": "7840",
+      "name": "Cyber Warrant Officer",
+      "branch": "Navy",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Line Chief Warrant Officer designator (Information Warfare Community) for cyber-operations specialists; the only designator coded for warrant officer-1 (W-1) rather than chief warrant officer-2, per the source.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "depth": "catalog"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Navy Rating ASVAB Score Requirements — NavyCyberspace (NavyCS)",
+      "url": "https://www.navycs.com/asvab-test.html",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Navy Jobs (rating) index — NavyCyberspace (NavyCS)",
+      "url": "https://www.navycs.com/navy-jobs/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Navy Officer community index — NavyCyberspace (NavyCS)",
+      "url": "https://www.navycs.com/officer/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "List of United States Navy ratings — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_United_States_Navy_ratings",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "List of United States Naval officer designators — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_United_States_Naval_officer_designators",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "From CTN to CWT: The Evolution of the Navy's Cyber Warfare Technician Rating — Station HYPO",
+      "url": "https://stationhypo.com/2026/02/06/from-ctn-to-cwt-the-evolution-of-the-navys-cyber-warfare-technician-rating/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "CTN Changes Rate Name to CWT — DVIDS",
+      "url": "https://www.dvidshub.net/news/461117/ctn-changes-rate-name-cwt",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "U.S. Navy Active Ratings — 90 Enlisted Job Specialties — NavyWeek.org (used only for the '90 Tier-1 ratings' true-total estimate cited in the completion accountability, not for individual entries)",
+      "url": "https://www.navyweek.org/navy-ratings/",
+      "retrieved_date": "2026-07-12"
+    }
+  ],
+  "unverified": [
+    "Aerial Vehicle Operator (Warrant Officer / UAS program): navycs.com/asvab-test.html lists this as a distinct line but only says 'See AVO page for testing details' with no formula or confirmed designator code — excluded from this catalog rather than guessed.",
+    "AD, AM, BU rating asvab formulas carry a '**' footnote marker on navycs.com/asvab-test.html whose definition was not visible in the page content fetched this session (likely a nuke-eligible or program-specific substitute score) — reproduced as-is rather than interpreted.",
+    "MT, FC, ET, and several other formulas carry a 'Note 1' / 'Note 2' / 'Note 3' marker on the source page whose footnote text was not visible in the fetched content — reproduced as-is rather than interpreted or omitted.",
+    "AT and AE: navycs.com/asvab-test.html presents one ASVAB figure jointly labeled 'AT, AE (AV)', which could mean the two ratings share one qualifying score, or could reflect an informal community grouping. Wikipedia's rating-structure table treats AT (Aviation Electronics Technician) and AE (Aviation Electrician's Mate) as two fully independent current general ratings, which this catalog follows for the code/name split; the shared formula is reproduced on both entries with a note rather than fabricating two different numbers.",
+    "MMA/MMS (Machinist's Mate, Submarine): navycs.com uses the joint code 'MMA/MMS'. Wikipedia's rating-structure table independently confirms 'MMA' as the submarine (Weapons) service rating of Machinist's Mate but does not separately list an 'MMS' code within the text extracted this session — the 'MMS' half of the label is unverified.",
+    "ET submarine service ratings: Wikipedia's rating-structure table gives ETN (Nuclear Power Submarine), ETV (Navigation Submarine), and ETR (Communications Submarine) as the three submarine service ratings of Electronics Technician. navycs.com/asvab-test.html separately lists one combined 'ET Submarine' row under the informal label 'ETS', which does not match any of Wikipedia's three confirmed codes. This catalog folds that figure into the main ET entry as a note rather than creating an unconfirmed 'ETS' entry.",
+    "AECF ('Advanced Electronics/Computer Field', attached to ET and FC) and SECF ('Submarine Electronics Computer Field', attached to the ETS/FT/STS/MT submarine electronics group) are accession-pipeline labels used on navycs.com/asvab-test.html; their full official definitions were not independently confirmed from a primary Navy source this session. SECF was not given its own catalog entry since it appears to be a program/pipeline name rather than a distinct rating code — its constituent ratings (ET submarine variants, FT, STS, MT) are already catalogued individually.",
+    "Interest-cluster assignments (interest_cluster_ids) for every rating and designator in this file are this session's editorial judgment about best fit among the taxonomy's 14 fixed clusters, based on the sourced job descriptions — they are not themselves independently sourced facts, and several ratings (EOD, Mineman, Special Warfare Operator/Boat Operator, Chaplain Corps, Aerographer's Mate/METOC) could reasonably be argued into a different cluster given the taxonomy has no dedicated special-operations, meteorology, or chaplaincy cluster.",
+    "Clearance requirements were left null for every entry in this file. Several communities (all Cryptologic Technician/CT ratings, CWT, IS, IT, Intelligence Officer, Cryptologic Warfare Officer, etc.) are widely known to require at least a Secret and often Top Secret/SCI clearance, but no specific clearance level was independently confirmed against a sourced page fetched this session, so it was left null rather than asserted from general knowledge.",
+    "The Navy's true current total enlisted-rating count is reported inconsistently across secondary sources as roughly 80-90 (NavyWeek.org states '90 Tier-1 ratings'; a broader web-search synthesis said 'approximately 80-90'). This session could not independently enumerate every rating against the authoritative NAVPERS 18068 manual because mynavyhr.navy.mil blocked all fetch attempts (HTTP 403) including the direct NAVPERS 18068F PDF URL surfaced by search.",
+    "Officer designator list is limited to 'main' designators per the task instructions (roughly one per warfare/staff-corps community) and omits the many training-status, limited-duty, and chief-warrant-officer sub-designators also listed on the Wikipedia designators page — that page has far more than the 25 listed here if every training/LDO/CWO code were counted separately."
+  ],
+  "completion_accountability": "70 enlisted ratings and 26 officer designators catalogued (96 total). 12 of the 14 interest-taxonomy.json cluster ids are used at least once; combat-arms and space-satellite are the two not used, matching interest-taxonomy.json's own notes that the Navy has no combat-arms occupational specialty and no organic enlisted space-operations career field. mynavyhr.navy.mil (the authoritative source named in the task) returned HTTP 403 on every fetch attempt (enlisted ratings index page, enlisted community page, and the direct NAVPERS 18068F PDF surfaced by web search), so this catalog was built from navycs.com/asvab-test.html (a structured, per-rating ASVAB-requirement table covering the current rating list, used as the primary source for codes and subtest-sum formulas) cross-checked against en.wikipedia.org's 'List of United States Navy ratings' and 'List of United States Naval officer designators' articles (used for descriptions, current-vs-discontinued status, and to resolve or flag conflicts between navycs.com's informal groupings and the Navy's own general-rating/service-rating structure). Combat-arms is not represented in the specialties list because interest-taxonomy.json explicitly documents that the Navy has no combat-arms equivalent occupational specialty. No rating abbreviation or ASVAB formula in this file was invented: every code and formula traces to one of the two primary sources above, and every place where a source was ambiguous, incomplete, or in conflict with another source is called out by name in the unverified list above rather than silently resolved by guessing."
+}

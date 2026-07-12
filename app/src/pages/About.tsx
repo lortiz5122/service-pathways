@@ -1,242 +1,105 @@
-import { assets, taxonomy, specialtyFiles, allSpecialties, clusters } from '../lib/data';
-import { UNVERIFIED_ITEMS } from '../data/content';
-import { Note, SectionHead, TickList } from '../components/Bits';
-import { SITE_DISCLAIMER, PLACEHOLDER_NOTICE } from '../components/Disclaimer';
-import logoManifest from '../research/logo-manifest.json';
-import { branchOrder, BRANCH_THEME } from '../lib/types';
-import { hasLogo } from '../branding/Logo';
+import { Link } from 'react-router-dom';
 import { WhoMadeThis } from '../components/WhoMadeThis';
+import { allSpecialties, clusters, specialtyFiles, taxonomy } from '../lib/data';
+import { jobCounts } from '../lib/catalog';
+import { Note, SectionHead, TickList } from '../components/Bits';
 
-type Dict = Record<string, unknown>;
-
-const rejected = (logoManifest as { rejected: { file: string; why: string }[] })
-  .rejected;
-const shipped = (logoManifest as { logos: { slug: string; label: string }[] }).logos;
-
-/** What is real artwork, what was refused, and what falls back to original art. */
-function AssetLedger() {
-  const fallbacks = branchOrder().filter((b) => !hasLogo(b));
-
-  return (
-    <div className="card">
-      <h3>What is actually on this page</h3>
-
-      <div className="grid g3" style={{ marginBottom: 18 }}>
-        <div className="stat">
-          <div className="n">{shipped.length}</div>
-          <div className="l">Official logos in use</div>
-          <div className="s">MEDIUM risk — disclaimed, non-commercial</div>
-        </div>
-        <div className="stat">
-          <div className="n">{rejected.length}</div>
-          <div className="l">Files rejected</div>
-          <div className="s">Seals — HIGH risk, never used</div>
-        </div>
-        <div className="stat">
-          <div className="n">{fallbacks.length}</div>
-          <div className="l">Branches on original art</div>
-          <div className="s">No safe logo could be sourced</div>
-        </div>
-      </div>
-
-      {rejected.length ? (
-        <>
-          <h4 className="minihead">Rejected at the build boundary</h4>
-          <div className="tablewrap" style={{ marginBottom: 16 }}>
-            <table>
-              <thead>
-                <tr>
-                  <th>File</th>
-                  <th>Why it was refused</th>
-                </tr>
-              </thead>
-              <tbody>
-                {rejected.map((r) => (
-                  <tr key={r.file}>
-                    <td>
-                      <strong>{r.file}</strong>
-                    </td>
-                    <td className="gap-no">{r.why}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="srcline" style={{ marginBottom: 16 }}>
-            This filter runs in the build script, not in a developer's head. A seal
-            file cannot physically reach the bundle.
-          </p>
-        </>
-      ) : null}
-
-      {fallbacks.length ? (
-        <Note tone="warn">
-          <div>
-            <b>
-              {fallbacks.map((b) => BRANCH_THEME[b].short).join(', ')} —{' '}
-              {fallbacks.length === 1 ? 'shown' : 'shown'} with original artwork.
-            </b>{' '}
-            No official non-seal logo could be sourced for{' '}
-            {fallbacks.length === 1 ? 'this service' : 'these services'}. The only
-            file available was a seal, which this site does not use under any
-            circumstances. An original illustration stands in until a real logo can
-            be sourced.
-          </div>
-        </Note>
-      ) : null}
-    </div>
-  );
-}
-
-const dvids = (assets as Dict).dvids_pipeline as Dict | undefined;
-const hardRules = (assets as Dict).hard_rules as string[] | undefined;
-
+/**
+ * About — the human page.
+ *
+ * Who made this, why, and what it will and won't do for you. This is the trust
+ * page and it is IN THE NAV, because a reader deciding whether to believe any of
+ * this deserves a straight answer about who is talking.
+ *
+ * The methodology register — every UNVERIFIED item, the asset-licensing posture,
+ * the legal notices — lives at /methodology. That is a working document, not
+ * something a sixteen-year-old needs in their top bar.
+ */
 export default function About() {
-  const researched = clusters.filter((c) =>
-    specialtyFiles.some((f) => f.cluster_id === c.id),
-  );
   const clusterUnverified = specialtyFiles.flatMap((f) => f.unverified ?? []);
+  const unverifiedCount =
+    clusterUnverified.length + (taxonomy.unverified?.length ?? 0);
 
   return (
     <div className="wrap">
-      <SectionHead
-        title="Methodology, sources and limits"
-        lede="What this site knows, how it knows it, and — more importantly — what it does not know."
-      />
-
       <WhoMadeThis />
 
+      <SectionHead
+        title="What this site does, and what it will not do"
+        lede="Plainly, so you know what you are holding."
+      />
+
+      <div className="grid g2">
+        <div className="card">
+          <h3>What it does</h3>
+          <TickList
+            items={[
+              'Starts from what you are interested in, not from a branch — because the same job often exists in four services, and picking the logo first locks you out of the better fit.',
+              'Shows what a job ACTUALLY pays, including the parts other sources leave out: untaxed allowances, the real value of healthcare, special pays, and the housing allowance you do NOT get in the barracks.',
+              'Tells you what the training does NOT qualify you for. A combat medic is not a paramedic. An MP is not a police officer. Nobody else says this out loud.',
+              'Shows what you can do RIGHT NOW to enlist above E-1 — JROTC, Civil Air Patrol, Eagle Scout, college credits — and exactly what each is worth in dollars.',
+              'States the 20-year retirement cliff plainly: the pension is all-or-nothing, and most people who enlist never reach it.',
+            ]}
+          />
+        </div>
+
+        <div className="card">
+          <h3>What it will not do</h3>
+          <TickList
+            items={[
+              'It will not sign you up. No form, no account, nothing sent to a recruiter, ever.',
+              'It will not tell you that one branch is better than another. They are different. The order things appear in on this site is deliberately rotated so no service is permanently listed first or last.',
+              'It will not give you a score, a rank, or a "match percentage" for a job. A number next to a career reads as a grade, and nothing here supports grading them.',
+              'It will not invent a figure. Where something could not be verified, it says UNVERIFIED — and there are ' + unverifiedCount + ' such items on record.',
+              'It will not replace a recruiter, a contract, or your own judgement.',
+            ]}
+          />
+        </div>
+      </div>
+
+      <SectionHead title="What is actually in here" />
       <div className="grid g3">
         <div className="card stat">
+          <div className="n">{jobCounts.total}</div>
+          <div className="l">Jobs listed</div>
+          <div className="s">Across all six branches</div>
+        </div>
+        <div className="card stat">
           <div className="n">{allSpecialties.length}</div>
-          <div className="l">Specialties researched</div>
+          <div className="l">Researched in depth</div>
+          <div className="s">Full pay, pipeline, retirement, transition</div>
         </div>
         <div className="card stat">
-          <div className="n">
-            {researched.length}/{clusters.length}
-          </div>
-          <div className="l">Interest areas with data</div>
-        </div>
-        <div className="card stat">
-          <div className="n">
-            {clusterUnverified.length + (taxonomy.unverified?.length ?? 0)}
-          </div>
-          <div className="l">Items flagged UNVERIFIED</div>
+          <div className="n">{clusters.length}</div>
+          <div className="l">Interest areas</div>
+          <div className="s">The way in, instead of by branch</div>
         </div>
       </div>
 
-      <SectionHead title="The rules this data was built under" />
-      <div className="card">
-        <TickList
-          items={[
-            'Every dollar figure, training length, score and bonus carries a named source and a retrieval date, or is marked UNVERIFIED. Nothing is invented.',
-            'Official .mil and .gov sources outrank aggregators. Recruiting copy, forums and "best MOS" listicles were treated as data to cross-check, never as authority.',
-            'No recruiter marketing language. This is a neutral reference, not recruiting material.',
-            'Guard and Reserve figures are labeled and never summed as if equivalent to active duty.',
-            'The Coast Guard (Homeland Security, not the Department of War) and the Space Force (no reserve component, no academy) are never padded to false parity with the larger branches.',
-            'Every specialty resolves the full lifecycle through retirement, transition and veteran benefits — and names the civilian credential gap rather than implying seamless transfer.',
-          ]}
-        />
-      </div>
-
-      {/* --------------------------------------------------- the assets */}
-      <SectionHead
-        title="The insignia on this site"
-        lede="Which marks are real, which were refused, and why."
-      />
-
-      <AssetLedger />
-
-      <div className="card" style={{ marginTop: 16 }}>
-        <h3>The rule that governs all of it</h3>
-        <p>
-          Two separate bodies of law apply at once. Copyright does not protect works
-          of the U.S. Government (17 U.S.C. § 105), so these marks are not
-          copyrighted. But trademark and insignia law restricts their{' '}
-          <em>use</em> independently — and the operative question is never copyright,
-          it is <strong>endorsement</strong>. A neutral, clearly-disclaimed,
-          non-commercial display is the lowest-risk posture there is. A commercial or
-          promotional one requires a written licence.
-        </p>
-        <p style={{ marginTop: 12 }}>
-          That is why branch <strong>logos and emblems</strong> appear here and branch{' '}
-          <strong>seals never do</strong>. Seals are reserved to official government
-          use — the Coast Guard's own rule is that its seal "shall not be reproduced
-          outside of the United States Coast Guard."
-        </p>
-
-        <Note tone="alert">{PLACEHOLDER_NOTICE}</Note>
-
-        <h3 style={{ marginTop: 20 }}>Hard rules the build follows</h3>
-        <TickList items={hardRules ?? []} />
-
-        <h3 style={{ marginTop: 20 }}>Official photography is blocked, not refused</h3>
-        <p>
-          DVIDS — the Department of Defense public media library, and genuinely public
-          domain under 17 U.S.C. § 105 — is the correct source for photography of
-          service members actually doing these jobs. Its API is live and documented.
-          It is not wired up here for one reason:{' '}
-          <strong>{String(dvids?.status ?? 'blocked')}</strong>
-        </p>
-        <p style={{ marginTop: 10 }}>
-          <b>To unblock it:</b> {String(dvids?.what_is_needed_to_unblock ?? '')}
-        </p>
-      </div>
-
-      {/* ------------------------------------------------- unverified */}
-      <SectionHead
-        title="What this site does not know"
-        lede="Published deliberately. A flagged gap is worth more than a confident wrong answer."
-      />
-
-      <div className="card">
-        <h3>From the qualification research</h3>
-        <TickList items={UNVERIFIED_ITEMS} />
-      </div>
-
-      {taxonomy.unverified?.length ? (
-        <div className="card" style={{ marginTop: 16 }}>
-          <h3>From the interest taxonomy</h3>
-          <TickList items={taxonomy.unverified} />
+      <Note tone="warn">
+        <div>
+          <b>The honest limit.</b> {jobCounts.catalog} of the jobs listed are
+          catalogued but not yet researched in depth — we have confirmed they exist
+          and what they broadly do, but not their pay or pipeline. That is stated on
+          every one of them rather than filled in with guesses.{' '}
+          <Link to="/jobs">See every job →</Link>
         </div>
-      ) : null}
-
-      {clusterUnverified.length ? (
-        <div className="card" style={{ marginTop: 16 }}>
-          <h3>From the specialty research ({clusterUnverified.length})</h3>
-          <TickList items={clusterUnverified} />
-        </div>
-      ) : null}
-
-      {/* ----------------------------------------------------- legal */}
-      <SectionHead title="Legal" />
-      <div className="card">
-        <p>{SITE_DISCLAIMER}</p>
-        <p className="srcline" style={{ marginTop: 14 }}>
-          Disclaimer language follows the safe-harbor model at 32 CFR § 765.14.
-          Relevant authorities: 17 U.S.C. § 105 (no copyright in U.S. Government
-          works); 18 U.S.C. § 701 (official insignia); 10 U.S.C. § 8921 (Marine Corps
-          marks); 14 U.S.C. § 934 (Coast Guard marks).
-        </p>
-        <Note tone="warn">
-          <div>
-            <b>If this site ever becomes commercial</b> — paid placement, merchandise,
-            sponsored content, donations, or lead generation for paid services — the
-            trademark posture flips to high risk and a written license from each
-            service becomes mandatory. This build assumes non-commercial, informational
-            use.
-          </div>
-        </Note>
-      </div>
+      </Note>
 
       <Note tone="alert">
         <div>
-          <b>This is not advice, and it is not current forever.</b> Policy across all
-          six branches is in active flux through 2025–2026 — fitness tests, medical
-          waivers, and pay all changed recently. Reconfirm any number here against the
-          current official publication before it drives a decision about your life.
+          <b>This is not advice, and it does not stay current on its own.</b> Policy
+          across all six branches is in active flux — fitness tests, medical waivers,
+          bonuses and pay all changed recently. Reconfirm anything here against the
+          official source before it drives a decision about your life.
         </div>
       </Note>
+
+      <p className="footlinks" style={{ marginTop: 22 }}>
+        <Link to="/methodology">
+          Methodology, sources, the full UNVERIFIED register &amp; legal notice →
+        </Link>
+      </p>
     </div>
   );
 }

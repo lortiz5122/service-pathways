@@ -1,0 +1,2981 @@
+{
+  "command": "CATALOG",
+  "branch": "Army",
+  "retrieved_date": "2026-07-12",
+  "depth": "catalog",
+  "note": "Catalog entries are NOT deep-researched records. They exist so that every job is findable. Pay, retirement, transition and civilian-crosswalk data are deliberately absent rather than invented. ASVAB line scores are drawn from a secondary aggregator (operationmilitarykids.org) cross-referenced against Wikipedia's List of United States Army careers and are not independently confirmed against a primary DA Pam 611-21 document this session; treat as directional. Officer and warrant officer coverage is representative (one entry per main basic branch / warrant career field) rather than exhaustive of every functional-area sub-specialty code, which run into the hundreds and are not part of this catalog's scope.",
+  "specialties": [
+    {
+      "code": "11B",
+      "name": "Infantryman",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Engages the enemy on foot using small arms and anti-armor weapons as part of a rifle squad.",
+      "asvab": "CO 87",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "11C",
+      "name": "Indirect Fire Infantryman (Mortarman)",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Operates and employs mortar systems to provide indirect fire support to infantry units.",
+      "asvab": "CO 87",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12B",
+      "name": "Combat Engineer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Builds and clears obstacles, constructs fighting positions, and conducts route/mine clearance in support of maneuver forces.",
+      "asvab": "CO 87",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12C",
+      "name": "Bridge Crewmember",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Constructs and emplaces tactical bridging to support unit river-crossing and gap-crossing operations.",
+      "asvab": "CO 87",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12D",
+      "name": "U.S. Army Diver",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "maritime-nautical"
+      ],
+      "what_it_is": "Performs underwater construction, salvage, and demolition tasks as a combat engineer diver.",
+      "asvab": "GM 98 / GT 107 / ST 106",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12G",
+      "name": "Quarrying Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Operates rock-crushing and quarrying equipment to produce aggregate for construction projects.",
+      "asvab": "GM 93",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12K",
+      "name": "Plumber",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Installs and repairs water, sewage, and gas piping systems on Army facilities.",
+      "asvab": "GM 88",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12M",
+      "name": "Firefighter",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Responds to structural, aircraft, and wildland fires and performs rescue operations on Army installations.",
+      "asvab": "GM 88",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12N",
+      "name": "Horizontal Construction Engineer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Operates heavy equipment such as bulldozers and graders to build and maintain roads, airfields, and earthworks.",
+      "asvab": "GM 90",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12P",
+      "name": "Prime Power Production Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Operates and maintains large-scale tactical and commercial electrical power-generation systems.",
+      "asvab": "GT 110 / EL 107 / ST 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12Q",
+      "name": "Power Line Distribution Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Installs and maintains electrical power distribution lines and substations.",
+      "asvab": "EL 93",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12R",
+      "name": "Interior Electrician",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Installs and maintains interior electrical wiring and fixtures in Army buildings.",
+      "asvab": "EL 93",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12T",
+      "name": "Technical Engineer Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Performs engineer surveying, drafting, and construction-materials testing to support engineer planning.",
+      "asvab": "ST 101",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12V",
+      "name": "Concrete and Asphalt Equipment Operator",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Operates paving, mixing, and concrete-placement equipment for construction projects.",
+      "asvab": "GM 88",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12W",
+      "name": "Carpentry and Masonry Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Builds and repairs wood-frame and masonry structures.",
+      "asvab": "GM 88",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "12Y",
+      "name": "Geospatial Engineer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Produces maps, terrain visualizations, and geospatial data products to support mission planning.",
+      "asvab": "GT 100 / ST 100",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "13B",
+      "name": "Cannon Crewmember",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Loads, aims, and fires towed and self-propelled cannon artillery systems.",
+      "asvab": "FA 93",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "13F",
+      "name": "Fire Support Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Requests, adjusts, and coordinates indirect fire support for maneuver units.",
+      "asvab": "FA 96",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "13J",
+      "name": "Fire Control Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Operates fire direction center equipment to compute firing data for artillery units.",
+      "asvab": "FA 93",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "13M",
+      "name": "Multiple Launch Rocket System (MLRS/HIMARS) Crewmember",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Operates and maintains rocket artillery launcher systems.",
+      "asvab": "OF 95",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "13R",
+      "name": "Field Artillery Firefinder Radar Operator",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Operates counterfire target-acquisition radar systems to locate enemy indirect-fire weapons.",
+      "asvab": "SC 98",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "13T",
+      "name": "Field Artillery Surveyor/Meteorological Crewmember",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Provides survey and meteorological data used to compute artillery firing solutions.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "14E",
+      "name": "Patriot Fire Control Enhanced Operator/Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Operates and maintains the fire control system of the Patriot air-defense missile system.",
+      "asvab": "MM 100",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "14G",
+      "name": "Air Defense Battle Management System Operator",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Operates command-and-control systems that manage air and missile defense engagements.",
+      "asvab": "MM 99 / GT 98",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "14H",
+      "name": "Air Defense Enhanced Early Warning System Operator",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Operates radar and sensor systems that provide early warning of aerial and missile threats.",
+      "asvab": "MM 99 / GT 98",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "14P",
+      "name": "Air and Missile Defense Crewmember",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Operates short-range air defense weapon systems to counter aerial threats.",
+      "asvab": "OF 95",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "14T",
+      "name": "PATRIOT Launching Station Enhanced Operator/Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Operates and maintains Patriot missile launching stations.",
+      "asvab": "OF 95",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "14S",
+      "name": "Avenger Crewmember",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Operates the Avenger short-range air defense weapon system.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "15B",
+      "name": "Aircraft Powerplant Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Inspects, maintains, and repairs aircraft engines.",
+      "asvab": "MM 104",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "15D",
+      "name": "Aircraft Powertrain Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Inspects, maintains, and repairs helicopter transmissions and drive systems.",
+      "asvab": "MM 104",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "15E",
+      "name": "Unmanned Aircraft Systems Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains and repairs Army unmanned aircraft systems and their ground support equipment.",
+      "asvab": "EL 93 / MM 104",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "15F",
+      "name": "Aircraft Electrician",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains and repairs aircraft electrical systems.",
+      "asvab": "MM 104",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "15G",
+      "name": "Aircraft Structural Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Repairs aircraft airframes, sheet metal, and structural components.",
+      "asvab": "MM 104",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "15H",
+      "name": "Aircraft Pneudraulics Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains and repairs aircraft hydraulic and pneumatic systems.",
+      "asvab": "MM 104",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "15K",
+      "name": "Aircraft Components Repair Supervisor",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Supervises shop-level repair of aircraft components.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "15N",
+      "name": "Avionic Mechanic",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains and repairs aircraft avionics and electronic navigation systems.",
+      "asvab": "EL 93",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "15Q",
+      "name": "Air Traffic Control Operator",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Directs the movement of military aircraft in terminal and en-route airspace.",
+      "asvab": "ST 101",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "15R",
+      "name": "AH-64 Attack Helicopter Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains and repairs AH-64 Apache attack helicopters.",
+      "asvab": "MM 99",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "15T",
+      "name": "UH-60 Helicopter Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains and repairs UH-60 Black Hawk helicopters.",
+      "asvab": "MM 104",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "15U",
+      "name": "CH-47 Helicopter Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains and repairs CH-47 Chinook cargo helicopters.",
+      "asvab": "MM 104",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "15W",
+      "name": "Unmanned Aerial Vehicle (UAV) Operator",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Operates unmanned aerial systems to conduct reconnaissance and surveillance missions.",
+      "asvab": "SC 102",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "15Y",
+      "name": "AH-64D Armament/Electrical/Avionic Systems Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains armament, electrical, and avionics systems on AH-64D helicopters.",
+      "asvab": "MM 104 / EL 98",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "93P",
+      "name": "Aviation Operations Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Coordinates flight scheduling, flight plans, and airspace clearances for Army aviation units.",
+      "asvab": null,
+      "clearance": null,
+      "source": "web search synthesis (2026-07-12)",
+      "depth": "catalog"
+    },
+    {
+      "code": "17C",
+      "name": "Cyber Operations Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Conducts offensive and defensive cyberspace operations to protect Army networks and target adversary systems.",
+      "asvab": "GT 110 / ST 112",
+      "clearance": "Top Secret/SCI",
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "17E",
+      "name": "Electronic Warfare Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber",
+        "combat-arms"
+      ],
+      "what_it_is": "Plans and executes electronic warfare operations to disrupt or exploit enemy use of the electromagnetic spectrum.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "18X",
+      "name": "Special Forces Candidate",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Enlistment option/pipeline for training and selection into a Special Forces enlisted specialty (18B/C/D/E/F).",
+      "asvab": "GT 110 / SC 100",
+      "clearance": null,
+      "source": "web search synthesis (2026-07-12)",
+      "depth": "catalog"
+    },
+    {
+      "code": "18B",
+      "name": "Special Forces Weapons Sergeant",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Trains and leads foreign and U.S. forces on a wide range of light and heavy weapons systems on a Special Forces team.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "18C",
+      "name": "Special Forces Engineer Sergeant",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms",
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Performs combat engineering, demolitions, and construction tasks on a Special Forces team.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "18D",
+      "name": "Special Forces Medical Sergeant",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms",
+        "healthcare-medical"
+      ],
+      "what_it_is": "Provides advanced trauma and medical care to a Special Forces team and partner-nation forces.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "18E",
+      "name": "Special Forces Communications Sergeant",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms",
+        "technology-cyber"
+      ],
+      "what_it_is": "Installs, operates, and maintains communications systems for a Special Forces team.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "18F",
+      "name": "Special Forces Intelligence Sergeant",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms",
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Collects, analyzes, and disseminates intelligence for a Special Forces team's operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "19D",
+      "name": "Cavalry Scout",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Conducts reconnaissance and security operations for ground maneuver forces.",
+      "asvab": "CO 87",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "19K",
+      "name": "M1 Armor Crewman",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Operates and fights as a crew member on the M1 Abrams main battle tank.",
+      "asvab": "CO 87",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "25B",
+      "name": "Information Technology Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Installs, operates, and maintains computer systems and local/wide-area networks.",
+      "asvab": "ST 95",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "25C",
+      "name": "Radio Operator-Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Operates and performs maintenance on tactical radio communications equipment.",
+      "asvab": "EL 98 / SC 98",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "25D",
+      "name": "Cyber Network Defender",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Monitors and defends Army networks against cyber intrusions.",
+      "asvab": "GT 105 / ST 105",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "25H",
+      "name": "Network Communication Systems Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Installs and maintains network communications systems and equipment.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "25L",
+      "name": "Cable Systems Installer/Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Installs and maintains fiber-optic and copper cable communications systems.",
+      "asvab": "EL 89 / SC 89",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "25N",
+      "name": "Nodal Network Systems Operator-Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Operates and maintains nodal network switching systems that route tactical communications traffic.",
+      "asvab": "EL 102 / SC 105",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "25P",
+      "name": "Microwave Systems Operator/Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Operates and maintains line-of-sight microwave transmission systems.",
+      "asvab": "EL 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "25Q",
+      "name": "Multichannel Transmission Systems Operator-Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Operates and maintains multichannel satellite and terrestrial transmission systems.",
+      "asvab": "EL 98 / SC 98",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "25S",
+      "name": "Satellite Communications Systems Operator/Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber",
+        "space-satellite"
+      ],
+      "what_it_is": "Operates and maintains satellite communications terminals.",
+      "asvab": "EL 117",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "25U",
+      "name": "Signal Support Systems Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Installs, operates, and performs unit-level maintenance on tactical communications and computer systems.",
+      "asvab": "EL 95 / SC 95",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "25V",
+      "name": "Combat Documentation/Production Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Records and produces combat photography, video, and multimedia documentation.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "27D",
+      "name": "Paralegal Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "legal"
+      ],
+      "what_it_is": "Provides legal administrative and paralegal support to Army judge advocates.",
+      "asvab": "CL 105",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "31B",
+      "name": "Military Police",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Enforces military law and order, conducts law-enforcement patrols, and provides physical security.",
+      "asvab": "ST 91",
+      "clearance": "Secret",
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "31D",
+      "name": "Criminal Investigation Division (CID) Special Agent",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Conducts criminal investigations of felony-level offenses involving Army personnel or property.",
+      "asvab": "ST 107 / GT 110",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "31E",
+      "name": "Internment/Resettlement Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Operates military corrections and detention facilities and manages detainee/internee operations.",
+      "asvab": "ST 95",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "31K",
+      "name": "Military Working Dog Handler",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Trains and handles military working dogs for patrol, detection, and security missions.",
+      "asvab": "ST 91",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "09L",
+      "name": "Interpreter/Translator",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Provides foreign-language translation and interpretation support to Army units.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "35F",
+      "name": "Intelligence Analyst",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Analyzes and synthesizes intelligence from multiple sources to support commanders' decision-making.",
+      "asvab": "ST 101",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "35G",
+      "name": "Geospatial Intelligence Imagery Analyst",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Analyzes imagery and geospatial data to produce intelligence products.",
+      "asvab": "ST 101",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "35L",
+      "name": "Counterintelligence Special Agent",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Conducts investigations and operations to detect and neutralize foreign intelligence threats.",
+      "asvab": "ST 101",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "35M",
+      "name": "Human Intelligence Collector",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Conducts interrogations, debriefings, and source operations to collect human intelligence.",
+      "asvab": "ST 101",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "35N",
+      "name": "Signals Intelligence Analyst",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Analyzes intercepted signals to produce intelligence reports.",
+      "asvab": "ST 112",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "35P",
+      "name": "Cryptologic Linguist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Translates and analyzes foreign-language communications in support of signals intelligence operations.",
+      "asvab": "ST 91",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "35Q",
+      "name": "Cryptologic Cyberspace Intelligence Collector/Analyst",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis",
+        "technology-cyber"
+      ],
+      "what_it_is": "Collects and analyzes intelligence related to cyberspace and cryptologic operations.",
+      "asvab": "ST 112",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "35S",
+      "name": "Signals Collector/Analyst",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Operates signals collection systems and analyzes intercepted communications.",
+      "asvab": "ST 101",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "35T",
+      "name": "Military Intelligence Systems Maintainer/Integrator",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis",
+        "technology-cyber"
+      ],
+      "what_it_is": "Installs, maintains, and integrates military intelligence systems and equipment.",
+      "asvab": "ST 112",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "35W",
+      "name": "Foreign Language Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Applies foreign-language proficiency to intelligence collection and analysis tasks.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "36B",
+      "name": "Financial Management Technician",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Processes military pay, travel, and disbursing transactions for units.",
+      "asvab": "CL 101",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "37F",
+      "name": "Psychological Operations Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis",
+        "music-media"
+      ],
+      "what_it_is": "Develops and disseminates persuasive information products to influence foreign target audiences.",
+      "asvab": "GT 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "38B",
+      "name": "Civil Affairs Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin",
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Assesses and coordinates with local governments and civilian populations in military operations areas.",
+      "asvab": "GT 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "40D",
+      "name": "Tactical Space Operations Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "space-satellite"
+      ],
+      "what_it_is": "Supports operational space, high-altitude, and missile-defense missions; the Army's first enlisted space-specific MOS, effective October 1, 2026.",
+      "asvab": null,
+      "clearance": "Top Secret",
+      "source": "army.mil (official, retrieved 2026-07-12)",
+      "depth": "catalog"
+    },
+    {
+      "code": "42A",
+      "name": "Human Resources Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Provides personnel management, records, and administrative support to soldiers and units.",
+      "asvab": "GT 100 / CL 90",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "42R",
+      "name": "Musician",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Performs as an instrumentalist in an Army band; accession requires a competitive audition.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "42S",
+      "name": "Special Band Member",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Performs in a special-designation Army band (e.g., ceremonial or premier bands); accession requires audition.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "42T",
+      "name": "Talent Acquisition Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Serves as an Army recruiter, identifying and enlisting qualified applicants.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "46S",
+      "name": "Public Affairs Mass Communications Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Writes, edits, and produces news and information content about Army activities for public release.",
+      "asvab": "GT 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "46T",
+      "name": "Visual Information Equipment Operator-Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Operates and maintains visual information production and broadcast equipment.",
+      "asvab": "EL 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "46V",
+      "name": "Visual Information Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Produces photography, video, and graphic products documenting Army operations and activities.",
+      "asvab": "ST 91 / EL 93",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "56M",
+      "name": "Religious Affairs Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Provides administrative and force-protection support to Army chaplains and religious programs.",
+      "asvab": "CL 90",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68A",
+      "name": "Biomedical Equipment Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Inspects, maintains, and repairs medical equipment and devices.",
+      "asvab": "EL 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68B",
+      "name": "Orthopedic Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Assists with the diagnosis and treatment of musculoskeletal injuries and conditions.",
+      "asvab": "ST 101 / GT 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68C",
+      "name": "Practical Nursing Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Provides direct patient nursing care under the supervision of physicians and nurses.",
+      "asvab": "ST 101 / GT 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68D",
+      "name": "Operating Room Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Assists surgeons and prepares operating rooms for surgical procedures.",
+      "asvab": "ST 91",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68E",
+      "name": "Dental Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Assists Army dentists with clinical procedures and maintains dental treatment facilities.",
+      "asvab": "ST 91",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68F",
+      "name": "Physical Therapy Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Assists physical therapists in rehabilitating soldiers with injuries.",
+      "asvab": "ST 101 / GT 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68G",
+      "name": "Patient Administration Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Manages patient medical records and administrative processing at Army medical facilities.",
+      "asvab": "CL 90",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68H",
+      "name": "Optical Laboratory Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Fabricates and repairs eyeglasses and optical devices.",
+      "asvab": "GM 98",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68J",
+      "name": "Medical Logistics Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical",
+        "logistics-supply"
+      ],
+      "what_it_is": "Manages the acquisition, storage, and distribution of medical supplies and equipment.",
+      "asvab": "CL 90",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68K",
+      "name": "Medical Laboratory Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Performs laboratory tests on tissue, blood, and other specimens to support diagnosis.",
+      "asvab": "ST 106",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68L",
+      "name": "Occupational Therapy Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Assists occupational therapists in rehabilitating soldiers to perform daily and duty-related tasks.",
+      "asvab": "ST 101 / GT 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68M",
+      "name": "Nutrition Care Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Plans therapeutic diets and manages food service operations in Army medical treatment facilities.",
+      "asvab": "OF 95",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68P",
+      "name": "Radiology Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Operates radiographic imaging equipment to produce diagnostic images.",
+      "asvab": "ST 106",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68Q",
+      "name": "Pharmacy Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Prepares and dispenses medications under the supervision of a pharmacist.",
+      "asvab": "ST 95",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68R",
+      "name": "Veterinary Food Inspection Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Inspects food supplies and provides animal-care support under veterinary supervision.",
+      "asvab": "ST 95",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68S",
+      "name": "Preventive Medicine Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Conducts sanitation, pest-control, and disease-prevention inspections and programs.",
+      "asvab": "ST 101",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68T",
+      "name": "Animal Care Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Provides veterinary technician support for military working animals.",
+      "asvab": "ST 91",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68V",
+      "name": "Respiratory Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Provides respiratory therapy and diagnostic testing to patients.",
+      "asvab": "ST 102",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68W",
+      "name": "Combat Medic Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Provides emergency medical treatment and evacuation support in field and combat environments.",
+      "asvab": "ST 101 / GT 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68X",
+      "name": "Behavioral Health Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Assists behavioral health providers in treating soldiers with mental health conditions.",
+      "asvab": "ST 101",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "68Y",
+      "name": "Eye Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Assists ophthalmologists and optometrists with eye examinations and minor procedures.",
+      "asvab": "ST 101 / GT 107",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "74D",
+      "name": "Chemical, Biological, Radiological and Nuclear (CBRN) Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "combat-arms"
+      ],
+      "what_it_is": "Detects, identifies, and decontaminates chemical, biological, radiological, and nuclear hazards.",
+      "asvab": "ST 100",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "88H",
+      "name": "Cargo Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Loads, unloads, and documents cargo moved by air, rail, highway, and water.",
+      "asvab": "GM 88",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "88K",
+      "name": "Watercraft Operator",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Operates Army watercraft used for logistics-over-the-shore and inland waterway transport.",
+      "asvab": "MM 99",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "88L",
+      "name": "Watercraft Engineer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Operates and maintains propulsion and mechanical systems aboard Army watercraft.",
+      "asvab": "MM 99",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "88M",
+      "name": "Motor Transport Operator",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Operates wheeled vehicles to transport personnel and cargo.",
+      "asvab": "OF 85",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "88N",
+      "name": "Transportation Management Coordinator",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Plans and coordinates the movement of personnel and cargo across transportation modes.",
+      "asvab": "CL 95",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "88T",
+      "name": "Railway Section Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Maintains and repairs military railway track and roadbed (Reserve Component).",
+      "asvab": "MM 87",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "88U",
+      "name": "Railway Operations Crewmember",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Operates military rail equipment and coordinates rail movements (Reserve Component).",
+      "asvab": "MM 92",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "89A",
+      "name": "Ammunition Stock Control and Accounting Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Manages accountability, records, and stock control of ammunition supplies.",
+      "asvab": "ST 91",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "89B",
+      "name": "Ammunition Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Receives, stores, issues, and inspects conventional ammunition and explosives.",
+      "asvab": "ST 91",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "89D",
+      "name": "Explosive Ordnance Disposal Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "combat-arms"
+      ],
+      "what_it_is": "Locates, identifies, renders safe, and disposes of explosive ordnance and hazardous devices.",
+      "asvab": "GM 105",
+      "clearance": "Secret",
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91A",
+      "name": "M1 Abrams Tank System Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs M1 Abrams tank systems.",
+      "asvab": "MM 88 / GT 85",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91B",
+      "name": "Wheeled Vehicle Mechanic",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Performs maintenance and recovery on wheeled military vehicles.",
+      "asvab": "MM 87 / GT 85",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91C",
+      "name": "Utilities Equipment Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs heating, cooling, and utility equipment.",
+      "asvab": "GM 98",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91D",
+      "name": "Tactical Power Generation Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs tactical power-generation equipment.",
+      "asvab": "GM 98",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91E",
+      "name": "Allied Trade Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Performs welding, machining, and metalworking repairs to support equipment maintenance.",
+      "asvab": "GM 88 / GT 95",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91F",
+      "name": "Small Arms/Artillery Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Repairs and maintains small arms and towed artillery weapon systems.",
+      "asvab": "GM 93",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91G",
+      "name": "Fire Control Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs fire control instruments and optical systems on combat vehicles.",
+      "asvab": "MM 87 / GT 85",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91H",
+      "name": "Track Vehicle Mechanic",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs tracked combat vehicles other than tanks and Bradleys.",
+      "asvab": "MM 87 / GT 85",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91J",
+      "name": "Quartermaster and Chemical Equipment Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs quartermaster and chemical support equipment.",
+      "asvab": "MM 87 / GT 85",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91L",
+      "name": "Construction Equipment Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs heavy construction equipment.",
+      "asvab": "MM 87 / GT 85",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91M",
+      "name": "Bradley Fighting Vehicle System Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs Bradley Fighting Vehicle systems.",
+      "asvab": "MM 88 / GT 92",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91P",
+      "name": "Artillery Mechanic",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs self-propelled artillery systems.",
+      "asvab": "MM 88 / GT 88",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "91S",
+      "name": "Stryker Systems Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs Stryker wheeled combat vehicle systems.",
+      "asvab": "MM 92 / GT 85",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "92A",
+      "name": "Automated Logistical Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Manages supply records, requisitions, and warehouse operations using automated logistics systems.",
+      "asvab": "CL 90",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "92F",
+      "name": "Petroleum Supply Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Receives, stores, tests, and issues bulk and packaged petroleum products.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "92G",
+      "name": "Culinary Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "culinary"
+      ],
+      "what_it_is": "Prepares and serves food in dining facilities and field kitchens.",
+      "asvab": "OF 85",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "92L",
+      "name": "Petroleum Laboratory Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Tests fuel and petroleum products for quality and contamination.",
+      "asvab": "ST 91",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "92M",
+      "name": "Mortuary Affairs Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Recovers, identifies, and processes deceased personnel and their effects.",
+      "asvab": "GM 88",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "92R",
+      "name": "Parachute Rigger",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Packs, inspects, and repairs parachutes and airdrop equipment.",
+      "asvab": "GM 88 / CO 87",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "92S",
+      "name": "Shower, Laundry and Clothing Repair Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Operates field shower, laundry, and clothing-repair equipment for deployed units (Reserve Component).",
+      "asvab": "GM 84",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "92W",
+      "name": "Water Treatment Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Operates and maintains water purification and treatment equipment.",
+      "asvab": "GM 88",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "92Y",
+      "name": "Unit Supply Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Manages unit-level supply operations, property accountability, and requisitions.",
+      "asvab": "CL 90",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "94A",
+      "name": "Land Combat Electronic Missile System Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "technology-cyber"
+      ],
+      "what_it_is": "Repairs electronic components of land combat missile systems.",
+      "asvab": "EL 102",
+      "clearance": null,
+      "source": "operationmilitarykids.org",
+      "depth": "catalog"
+    },
+    {
+      "code": "94D",
+      "name": "Air Traffic Control Equipment Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "aviation"
+      ],
+      "what_it_is": "Maintains and repairs air traffic control radar and communications equipment.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "94E",
+      "name": "Radio and Communications Security (COMSEC) Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Maintains and repairs radio and communications security equipment.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "94F",
+      "name": "Computer/Detection Systems Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Maintains and repairs computer and detection systems.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "94H",
+      "name": "Test, Measurement, and Diagnostic Equipment Maintenance Support Specialist",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Calibrates and repairs test, measurement, and diagnostic equipment.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "94M",
+      "name": "Radar Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs radar systems.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "94R",
+      "name": "Avionic and Survivability Equipment Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Maintains and repairs aircraft avionics and survivability equipment.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "94S",
+      "name": "PATRIOT System Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs Patriot missile system electronics.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "94T",
+      "name": "AVENGER System Repairer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Maintains and repairs Avenger air defense system electronics.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "94Y",
+      "name": "Integrated Family of Test Equipment Operator/Maintainer",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Operates and maintains standardized electronic test equipment used across maintenance units.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "79R",
+      "name": "Recruiter",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Recruits qualified applicants for enlistment in the Army.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "79S",
+      "name": "Career Counselor",
+      "branch": "Army",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Advises soldiers on reenlistment options and manages unit retention programs.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "11A",
+      "name": "Infantry Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Leads infantry units in ground combat operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "12A",
+      "name": "Engineer Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Leads engineer units performing construction, mobility, and countermobility missions.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "13A",
+      "name": "Field Artillery Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Leads field artillery units and plans and coordinates indirect fires.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "14A",
+      "name": "Air Defense Artillery Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Leads air and missile defense units.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "15A",
+      "name": "Aviation Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Serves as an Army aviator or aviation unit leader.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "17A",
+      "name": "Cyber Warfare Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Leads offensive and defensive cyberspace operations units.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "18A",
+      "name": "Special Forces Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Leads Special Forces operational detachments.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "19A",
+      "name": "Armor Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Leads armor and cavalry units.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "25A",
+      "name": "Signal Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Leads units that plan, install, and operate Army communications networks.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "27A",
+      "name": "Judge Advocate",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "legal"
+      ],
+      "what_it_is": "Serves as a military lawyer providing legal advice and prosecuting/defending courts-martial.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "31A",
+      "name": "Military Police Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Leads military police units performing law enforcement, security, and detention operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "35A",
+      "name": "Military Intelligence Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Leads intelligence units and manages the intelligence collection and analysis process.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "36A",
+      "name": "Financial Manager",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Manages unit-level and command-level financial management and resourcing operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "37A",
+      "name": "Psychological Operations Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "intelligence-analysis",
+        "music-media"
+      ],
+      "what_it_is": "Leads units that plan and execute psychological operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "38A",
+      "name": "Civil Affairs Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Leads units that coordinate between military forces and civilian authorities/populations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "40A",
+      "name": "Space Operations Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "space-satellite"
+      ],
+      "what_it_is": "Plans and executes Army space-support operations (functional area officer branch).",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "42B",
+      "name": "Human Resources Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Leads personnel and human resources support operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "42C",
+      "name": "Army Bands Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Commands and directs an Army band.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "46A",
+      "name": "Public Affairs Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "music-media"
+      ],
+      "what_it_is": "Leads public affairs operations and serves as a unit spokesperson.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "56A",
+      "name": "Chaplain",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Provides religious support and pastoral counseling to soldiers and families; ordained clergy commissioned as a noncombatant officer.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "64A",
+      "name": "Veterinary Corps Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Provides veterinary care for military working animals and food-safety inspection.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "65B",
+      "name": "Physical Therapist",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Provides physical therapy evaluation and treatment as a Medical Specialist Corps officer.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "67A",
+      "name": "Health Services (Medical Service Corps)",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Manages administrative and operational functions of Army medical units.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "74A",
+      "name": "Chemical Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Leads CBRN reconnaissance, decontamination, and hazard-response units.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "88A",
+      "name": "Transportation Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Leads units that move personnel and cargo by ground, rail, air, and water.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "89E",
+      "name": "Explosive Ordnance Disposal Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "mechanical-engineering",
+        "combat-arms"
+      ],
+      "what_it_is": "Leads EOD units that render safe and dispose of explosive hazards.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "91A",
+      "name": "Materiel Maintenance and Munitions Management Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Manages equipment maintenance and munitions programs (Ordnance Corps officer branch; same alphanumeric code as an unrelated enlisted MOS).",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "92A",
+      "name": "Quartermaster Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Leads supply, food service, and field services units (same alphanumeric code as an unrelated enlisted MOS).",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "51A",
+      "name": "Program Management (Acquisition Corps)",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Manages the acquisition and fielding of Army equipment programs.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "UNVERIFIED",
+      "name": "Medical Corps Officer (Physician)",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Practices medicine as a commissioned Army physician; specific specialty branch code varies (60A-62B range per secondary source) and was not confirmed to a single primary-source code this session.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "UNVERIFIED",
+      "name": "Dental Corps Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Practices dentistry as a commissioned Army dentist; specific specialty branch code varies (63A-63R range per secondary source) and was not confirmed to a single primary-source code this session.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "UNVERIFIED",
+      "name": "Army Nurse Corps Officer",
+      "branch": "Army",
+      "track": "officer",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Provides nursing care as a commissioned Army nurse; specific specialty branch code varies (66B-66W range per secondary source) and was not confirmed to a single primary-source code this session.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "120A",
+      "name": "Construction Engineer Technician",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Provides technical expertise in engineer construction planning and operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "131A",
+      "name": "Field Artillery Technician",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Provides technical expertise in field artillery targeting and systems.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "140A",
+      "name": "Command and Control Systems Integrator",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Provides technical expertise integrating air and missile defense command-and-control systems.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "150A",
+      "name": "Army Aviator (Warrant Officer Pilot)",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "what_it_is": "Serves as a rated pilot of Army fixed- or rotary-wing aircraft.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "170A",
+      "name": "Cyber Operations Technician",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Provides technical expertise in cyberspace operations planning and execution.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "180A",
+      "name": "Special Forces Warrant Officer",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "what_it_is": "Serves as the senior technical and tactical advisor on a Special Forces detachment.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "255A",
+      "name": "Information Services Technician",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "what_it_is": "Provides technical expertise managing Army information services and network systems.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "270A",
+      "name": "Legal Administrator",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "legal"
+      ],
+      "what_it_is": "Manages legal office administration and operations in support of judge advocates.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "311A",
+      "name": "CID Special Agent (Warrant Officer)",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "law-enforcement-security"
+      ],
+      "what_it_is": "Conducts and supervises criminal investigations as a senior Army CID special agent.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "350F",
+      "name": "All Source Intelligence Technician",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "what_it_is": "Provides technical expertise in all-source intelligence analysis and production.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "420A",
+      "name": "Human Resources Technician",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "what_it_is": "Provides technical expertise managing Army personnel and human resources systems.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "640A",
+      "name": "Food Safety Officer",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "healthcare-medical"
+      ],
+      "what_it_is": "Provides veterinary food-safety and inspection technical expertise (Veterinary Corps warrant officer).",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "880A",
+      "name": "Marine Deck Officer",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "maritime-nautical"
+      ],
+      "what_it_is": "Commands and navigates Army watercraft.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "890A",
+      "name": "Ammunition Warrant Officer",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Provides technical expertise managing ammunition supply and munitions operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "915A",
+      "name": "Automotive Maintenance Warrant Officer",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "mechanical-engineering"
+      ],
+      "what_it_is": "Provides technical expertise managing wheeled-vehicle maintenance operations.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    },
+    {
+      "code": "920A",
+      "name": "Property Accounting Technician",
+      "branch": "Army",
+      "track": "warrant",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "what_it_is": "Provides technical expertise managing property accountability and supply systems.",
+      "asvab": null,
+      "clearance": null,
+      "source": "en.wikipedia.org (List of United States Army careers)",
+      "depth": "catalog"
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of United States Army careers",
+      "url": "https://en.wikipedia.org/wiki/List_of_United_States_Army_careers",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Army MOS List: All Current Enlisted Jobs in 2026 (Over 140 MOS) - Operation Military Kids",
+      "url": "https://www.operationmilitarykids.org/army-mos-list/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "US Army MOS List - mosdb.com (consulted, but excluded from this catalog as primary source because it mixes current and long-obsolete Cold War-era MOS codes without clear currency labeling)",
+      "url": "https://mosdb.com/army/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Army Jobs / Military Occupational Specialties (MOS) List - Army-Portal.com",
+      "url": "http://www.army-portal.com/jobs/index.html",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Army seeks Soldiers to become space operations specialists",
+      "url": "https://www.army.mil/article/290190/army_seeks_soldiers_to_become_space_operations_specialists",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Army announces new Space Operations Branch",
+      "url": "https://www.army.mil/article/293495/army_announces_new_space_operations_branch",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "18X Special Forces Recruit - Army ASVAB Requirements - Cogn-IQ",
+      "url": "https://www.cogn-iq.org/military-jobs/army-18x/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Army COOL - Select an MOC (attempted; JavaScript-rendered, no static MOS list retrievable)",
+      "url": "https://www.cool.osd.mil/army/moc/index.html?nav=mos",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "Explore All Army Jobs & Careers - goarmy.com (attempted via browser-header curl; JavaScript-rendered SPA shell, no static job list retrievable)",
+      "url": "https://www.goarmy.com/careers-and-jobs/browse-jobs/",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "data/interest-taxonomy.json (this project)",
+      "url": "n/a - internal project file",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "title": "data/specialties-technology-cyber.json (this project, 17C cross-reference)",
+      "url": "n/a - internal project file",
+      "retrieved_date": "2026-07-12"
+    }
+  ],
+  "unverified": [
+    "ASVAB line-score figures throughout this catalog are sourced from operationmilitarykids.org, a secondary aggregator, not independently confirmed against a primary DA Pam 611-21 or goarmy.com per-MOS page this session. Treat as directional pending primary-source confirmation.",
+    "Security clearance level was left null for nearly all entries because no primary per-MOS source was fetched this session confirming the specific level; only 17C (Top Secret/SCI), 31B (Secret), 89D (Secret), and 40D (Top Secret) carried session-sourced clearance claims, and even those are drawn from secondary/official-summary sources rather than a fetched primary MOS fact sheet.",
+    "MOS 40D (Tactical Space Operations Specialist) is confirmed via official army.mil reporting as the Army's first enlisted space-operations MOS, but per that same reporting it does not become effective until October 1, 2026 (after this catalog's 2026-07-12 retrieval date) and its accession pipeline was still in an application phase (Jan-Apr 2026) at time of writing. This directly updates (and should be reconciled with) this project's own data/interest-taxonomy.json, whose space-satellite cluster notes state Army has 'no organic enlisted space-operations career field' -- that note predates this development.",
+    "A naming/coding conflict was found between sources for the Aviation Operations Specialist role: this project's own data/interest-taxonomy.json cites '93P', while a Wikipedia-sourced fetch this session and some secondary sites (military-ranks.org, armyreal.com) cite '15P' for the same title. This catalog uses 93P for consistency with the project's existing taxonomy file, but the discrepancy is unresolved and should be checked against a primary source.",
+    "Officer MOS codes 60A-62B (Medical Corps), 63A-63R (Dental Corps), and 66B-66W (Army Nurse Corps) were reported by the Wikipedia source only as ranges covering multiple specialties, not as a single canonical accession code; this catalog marks their 'code' field as UNVERIFIED rather than guessing a specific single code.",
+    "Several enlisted codes (25H Network Communication Systems Specialist, 94D/94E/94F/94H/94M/94R/94S/94T/94Y electronic-maintenance codes, 92F Petroleum Supply Specialist, 35W Foreign Language Specialist, 15K Aircraft Components Repair Supervisor, 79R/79S recruiting codes, 92R/13T/14S/17E/18B-18F/25V) appear in the Wikipedia source but were not cross-confirmed in the operationmilitarykids.org ASVAB-focused source this session; included because Wikipedia's list is clearly organized as current (modern branch/corps names, no Cold War-era legacy systems), but flagged as single-source within this session.",
+    "Generic branch-level senior NCO/CSM 'consolidator' designators (e.g., 12Z, 13Z, 14Z, 15Z, 18Z, 25X/25Y/25Z, 35X, 68Z, 88Z, 91X/91Z, 92Z, 94Z, 97Z) were deliberately EXCLUDED from this catalog -- they represent rank-based redesignation within a career management field at the senior-NCO level rather than a distinct job a person chooses, so including them would not add real findability value.",
+    "Officer and warrant officer coverage is intentionally representative, not exhaustive: real Army officer functional-area and warrant-officer sub-specialty code lists run into the hundreds (e.g., every Medical Corps sub-specialty, every aviation warrant track 151A-155G, every academy-professor code 47A-47U). Only one illustrative entry per main basic branch / main warrant career field is included per this task's instruction to cover 'the main warrant/officer branches.'",
+    "mosdb.com was fetched and reviewed but excluded as a direct source for this catalog's specialty list because its 'Army MOS' page appears to aggregate the entire historical MOS numbering system going back to the Cold War (e.g., Hawk, Nike, Vulcan, Chaparral, M48/M60 tank-series codes that are long since retired) without a clear currency marker, creating fabrication risk if used uncritically."
+  ],
+  "completion_accountability": "206 of an estimated ~190-200 total Army MOS/branch entries catalogued this session (158 enlisted MOS, 32 representative officer basic-branch entries, 16 representative warrant-officer branch entries). Confidence: MODERATE-HIGH on enlisted MOS completeness -- cross-referenced two independently structured 2026-dated sources (Wikipedia's List of United States Army careers and operationmilitarykids.org) that agreed on the large majority of current codes and both excluded obvious Cold War-era legacy systems found in a third source (mosdb.com) that was deliberately not used as ground truth. Gaps acknowledged: (1) exact current membership of a handful of niche/Reserve-Component-only 12-series and 88-series codes was not independently verified against DA Pam 611-21 or a live goarmy.com job page, since goarmy.com's browse-jobs page and Army COOL's MOS index are both JavaScript-rendered single-page apps that returned no static job data even with full browser headers; (2) officer and warrant officer coverage is deliberately representative (one entry per main branch), not exhaustive of every functional-area/sub-specialty code, per the task's 'main warrant/officer branches' framing; (3) ASVAB line scores and ASVAB-only ('CO', 'GT', 'ST', etc.) values throughout are secondary-sourced (operationmilitarykids.org), not confirmed against a primary Army document."
+}
