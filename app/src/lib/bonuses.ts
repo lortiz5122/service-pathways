@@ -41,6 +41,15 @@ export type BranchBonus = {
   programs: BonusProgram[];
   eligible_fields?: string[];
   non_cash_incentives?: { name: string; detail: string }[];
+  /** Bonuses STACK to the ceiling — the headline is a sum, not one payment. */
+  stacking?: {
+    rule: string;
+    stackable: string[];
+    restriction?: string;
+    source?: string;
+  };
+  payment_terms?: string;
+  source_retrieved?: string;
 };
 
 type File = {

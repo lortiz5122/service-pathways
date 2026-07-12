@@ -2118,3 +2118,11 @@ table tr.hit td { color: var(--ink); }
 @media (max-width: 620px) {
   .gates { align-items: flex-start; margin-left: 0; }
 }
+
+.buildstamp {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--ink-3);
+  margin-top: 10px;
+  opacity: 0.7;
+}

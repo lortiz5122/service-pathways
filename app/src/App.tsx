@@ -84,6 +84,10 @@ export default function App() {
             active flux through 2025–2026. Reconfirm any number here against the
             current official publication before it drives a decision.
           </p>
+          <p className="buildstamp">
+            build {__BUILD_ID__} · if this page looks stale, hard-reload
+            (Cmd/Ctrl + Shift + R)
+          </p>
         </div>
       </footer>
     </>

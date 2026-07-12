@@ -11,54 +11,80 @@
   },
   "hard_caveats": [
     "Quoting the article directly: \"Your bonus is only guaranteed once it is written into your signed paperwork.\"",
+    "Army bonuses STACK to the $50,000 ceiling \u2014 the headline number is what several bonuses ADD UP TO, not a single payment you are handed.",
     "The article states bonuses \"fluctuate regularly, sometimes by thousands of dollars from year to year.\" A figure that was true when this was published may not be true when you sign.",
     "A maximum is not an offer. The headline number is the ceiling for the single most in-demand specialty with the longest contract \u2014 it is not what a typical enlistee receives.",
     "Bonuses are usually paid in instalments after you reach the fleet or complete training, not as a lump sum at signing.",
-    "The source article itself carries a reader correction flagging its Navy comparison table as potentially inaccurate, and recommends checking navy.com or navycs.com. That warning is carried forward here rather than hidden."
+    "The source article itself carries a reader correction flagging its Navy comparison table as potentially inaccurate, and recommends checking navy.com or navycs.com. That warning is carried forward here rather than hidden.",
+    "Official Army wording: initial bonus payments are typically made once you have completed initial training. You do not get a cheque at signing."
   ],
   "branches": [
     {
       "branch": "army",
       "name": "U.S. Army",
       "max_bonus_usd": 50000,
-      "max_note": "Stated maximum across all programs.",
+      "max_note": "Per the Army's OWN official page (goarmy.com): \"Up to $50K\" for full-time recruits COMBINING bonuses for certain jobs. The $50,000 is a stacked ceiling, not a single award.",
       "programs": [
         {
           "name": "Job Signing Bonus",
           "amount_usd": 45000,
-          "conditions": "Up to; depends on the MOS."
+          "conditions": "Up to. For enlisted job openings needing your specific skills and qualifications. OFFICIAL \u2014 goarmy.com."
         },
         {
           "name": "Civilian Acquired Skills Bonus",
           "amount_usd": 45000,
-          "conditions": "Up to; for skills you already have when you enlist."
+          "conditions": "Up to. For applicants who already hold a skill the Army needs. OFFICIAL \u2014 goarmy.com."
         },
         {
           "name": "Ranger Bonus",
           "amount_usd": 20000,
-          "conditions": "Up to."
+          "conditions": "Up to. Paid after completing Ranger training and reporting to your first duty station. STACKS with other enlistment bonuses. OFFICIAL \u2014 goarmy.com."
         },
         {
           "name": "Army Reserve Enlistment Bonus",
           "amount_usd": 13000,
-          "conditions": "Up to. GUARD/RESERVE \u2014 not active-duty compensation."
+          "conditions": "Up to. GUARD/RESERVE \u2014 not active-duty compensation. OFFICIAL \u2014 goarmy.com."
         },
         {
           "name": "Quick Ship Bonus",
           "amount_usd": 10000,
-          "conditions": "Up to; requires shipping within 30 days."
+          "conditions": "Up to. Requires reporting to Basic Training within 30 days, for in-demand jobs. STACKS with other enlistment bonuses. OFFICIAL \u2014 goarmy.com."
         },
         {
           "name": "Airborne Bonus",
           "amount_usd": 10000,
-          "conditions": "Up to."
+          "conditions": "Up to. For attending U.S. Army Airborne School. STACKS with other enlistment bonuses. OFFICIAL \u2014 goarmy.com."
         },
         {
           "name": "College Credit Enlistment Bonus",
           "amount_usd": 6000,
-          "conditions": "Up to; for college credits held at enlistment."
+          "conditions": "Up to. For college or vocational credits \u2014 BUT only if you also select a critical MOS that qualifies for a Job Signing Bonus. It does not stand alone. OFFICIAL \u2014 goarmy.com."
+        },
+        {
+          "name": "Reenlistment Bonus",
+          "amount_usd": null,
+          "conditions": "No figure published. Requires 17+ months continuous active duty, qualification in a critical military skill, and a 3+ year reenlistment. OFFICIAL \u2014 goarmy.com."
+        },
+        {
+          "name": "Medical Professional Bonus (Officer)",
+          "amount_usd": 400000,
+          "conditions": "Up to. For health-care professionals serving as commissioned OFFICERS \u2014 not an enlisted path. OFFICIAL \u2014 goarmy.com."
         }
-      ]
+      ],
+      "source_tier": "OFFICIAL",
+      "source_url": "https://www.goarmy.com/benefits/while-you-serve/bonuses/",
+      "source_retrieved": "2026-07-12",
+      "stacking": {
+        "rule": "Army bonuses STACK, up to the $50,000 active-duty ceiling. This is the part most people miss \u2014 the headline figure is what several bonuses add up to, not one payment.",
+        "stackable": [
+          "Quick Ship Bonus",
+          "Ranger Bonus",
+          "Airborne Bonus"
+        ],
+        "restriction": "The College Credit Enlistment Bonus is \"only available if you select a critical MOS that qualifies for a Job Signing Bonus\" \u2014 it does not stand alone.",
+        "source": "goarmy.com, retrieved 2026-07-12"
+      },
+      "payment_terms": "Official: \"Initial payments for new enlistment bonuses are typically made once you've completed initial training.\" Timing varies by bonus type and contract. You are not handed a cheque at signing."
     },
     {
       "branch": "navy",
@@ -287,6 +313,7 @@
     }
   ],
   "unverified": [
+    "Army and Coast Guard bonus figures are now OFFICIAL (goarmy.com, gocoastguard.com). Navy, Air Force and Marine Corps remain SECONDARY (Military.com, 2026-06-15) \u2014 their official bonus pages could not be retrieved.",
     "Most figures are SECONDARY-SOURCED from Military.com (published 2026-06-15), not primary-fetched. Official service bonus tables return HTTP 403 to automated retrieval. EXCEPTION: the Coast Guard figures are OFFICIAL, taken directly from gocoastguard.com/hiring-incentives (retrieved 2026-07-12).",
     "SOURCE CONFLICT \u2014 Coast Guard maximum: Military.com says $75,000; the Coast Guard's own page says 'up to $60,000' for Critical Rating Affiliation. The official figure is used; the conflict is disclosed.",
     "The Military.com article's own reader correction flags its Navy comparison table as potentially inaccurate. Navy figures carry extra uncertainty.",

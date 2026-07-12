@@ -26,17 +26,82 @@ export function shortClearance(v: unknown): string | null {
   return 'Clearance required';
 }
 
-/** Army/USMC/Air Force composite names. Used to pull the real score out of prose. */
-const COMPOSITES =
-  /\b(GT|ST|EL|MM|GM|FA|OF|SC|CO|CL|MAGE|AFQT|VE\+AR|E|G|M|A)\b/gi;
+/**
+ * What each ASVAB composite code actually means. "GT 110" is meaningless to a
+ * 16-year-old, and "OF 40" is worse than meaningless.
+ */
+export const COMPOSITE_NAMES: Record<string, string> = {
+  GT: 'General Technical',
+  ST: 'Skilled Technical',
+  EL: 'Electronics',
+  MM: 'Mechanical Maintenance',
+  GM: 'General Maintenance',
+  FA: 'Field Artillery',
+  OF: 'Operators & Food',
+  SC: 'Surveillance & Communications',
+  CO: 'Combat',
+  CL: 'Clerical',
+  'VE+AR': 'Verbal Expression + Arithmetic Reasoning',
+  VE: 'Verbal Expression',
+  AR: 'Arithmetic Reasoning',
+  MK: 'Mathematics Knowledge',
+  MC: 'Mechanical Comprehension',
+  AFQT: 'AFQT percentile',
+};
 
 /**
- * The score gate, reduced to the actual requirement.
+ * Composite codes, matched CASE-SENSITIVELY.
+ *
+ * This is not a style choice. A case-insensitive version matched the English
+ * word "of" in "...a minimum composite score of 41..." as the Army's OF
+ * (Operators & Food) composite, and rendered "Job needs OF 40" on the card —
+ * confident, official-looking, and complete nonsense. Lowercase "of" must never
+ * match. Single MAGE letters (M/A/G/E) are excluded entirely for the same reason:
+ * a bare "A" or "G" in prose is not a score.
+ */
+const COMPOSITE_RE =
+  /\b(VE\+AR|AFQT|GT|ST|EL|MM|GM|FA|OF|SC|CO|CL)\b[^0-9A-Za-z]{0,18}?(\d{2,3})\b/g;
+
+/** MAGE letters only when explicitly named, e.g. "General (G) score of 55". */
+const MAGE_RE =
+  /\b(?:Mechanical|Administrative|General|Electronic\w*)\s*\(([MAGE])\)[^0-9A-Za-z]{0,18}?(\d{2,3})\b/g;
+
+export type Gate = { code: string; score: number; name: string };
+
+/** Every composite/score pair the text actually states. */
+export function lineScoreGates(v: unknown): Gate[] {
+  if (!v) return [];
+  const raw = String(v);
+  const out: Gate[] = [];
+  const seen = new Set<string>();
+
+  const push = (code: string, n: string) => {
+    if (seen.has(code)) return;
+    seen.add(code);
+    out.push({
+      code,
+      score: Number(n),
+      name: COMPOSITE_NAMES[code] ?? code,
+    });
+  };
+
+  let m: RegExpExecArray | null;
+  COMPOSITE_RE.lastIndex = 0;
+  while ((m = COMPOSITE_RE.exec(raw)) !== null) push(m[1], m[2]);
+
+  MAGE_RE.lastIndex = 0;
+  while ((m = MAGE_RE.exec(raw)) !== null) push(m[1], m[2]);
+
+  return out.slice(0, 3);
+}
+
+/**
+ * The score gate as a short card label.
  *
  * Does NOT truncate prose — truncation destroyed the number (an early version
- * turned "MM (Mechanical Maintenance) >= 104" into just "MM"). Instead it
- * EXTRACTS composite/score pairs. If it can't find a real score, it returns
- * null and the card simply shows no gate chip, rather than a mangled fragment.
+ * turned "MM (Mechanical Maintenance) >= 104" into just "MM"). It EXTRACTS
+ * composite/score pairs. If it can't find a real score, it returns null and the
+ * card shows no gate chip, rather than a mangled fragment.
  */
 export function shortLineScore(v: unknown): string | null {
   if (!v) return null;
@@ -45,32 +110,15 @@ export function shortLineScore(v: unknown): string | null {
 
   // Navy and Coast Guard genuinely have no line scores.
   if (/no (single |navy |coast guard )*['"]?line[- ]?score/i.test(raw)) {
-    return 'No line score — subtest sums';
+    return 'No line score — rating sums subtests';
   }
   if (/not applicable|^n\/a/i.test(raw.slice(0, 20))) return null;
 
-  // Drop parenthetical expansions — "(Skilled Technical)" is noise on a card.
-  const cleaned = raw.replace(/\([^)]*\)/g, ' ').replace(/\s+/g, ' ');
-
-  // Pull COMPOSITE ... NUMBER pairs, e.g. "GT >= 110", "ST 101", "E composite ≥ 70".
-  const pairs: string[] = [];
-  const seen = new Set<string>();
-  const re = new RegExp(
-    `${COMPOSITES.source}[^0-9A-Za-z]{0,16}?(\\d{2,3})\\b`,
-    'gi',
-  );
-  let m: RegExpExecArray | null;
-  while ((m = re.exec(cleaned)) !== null) {
-    const key = m[1].toUpperCase();
-    if (seen.has(key)) continue;
-    seen.add(key);
-    pairs.push(`${key} ${m[2]}`);
-    if (pairs.length === 3) break;
+  const gates = lineScoreGates(raw);
+  if (gates.length) {
+    return gates.map((g) => `${g.code} ${g.score}`).join(' · ');
   }
 
-  if (pairs.length) return pairs.join(' · ');
-
-  // No parseable score. Say so honestly rather than showing a prose fragment.
   if (/conflict/i.test(raw)) return 'Sources conflict';
   if (/unverified/i.test(raw)) return 'Score unverified';
   return null;

@@ -270,6 +270,36 @@ export function PayForSpecialty({ s }: { s: SpecialtyRecord }) {
               </Note>
             ) : null}
 
+            {branch.stacking ? (
+              <Note tone="ok">
+                <div>
+                  <b>These bonuses stack.</b> {branch.stacking.rule}
+                  {branch.stacking.stackable?.length ? (
+                    <>
+                      {' '}
+                      Explicitly stackable:{' '}
+                      <b>{branch.stacking.stackable.join(', ')}</b>.
+                    </>
+                  ) : null}
+                  {branch.stacking.restriction ? (
+                    <>
+                      <br />
+                      <br />
+                      <b>One catch:</b> {branch.stacking.restriction}
+                    </>
+                  ) : null}
+                </div>
+              </Note>
+            ) : null}
+
+            {branch.payment_terms ? (
+              <Note tone="warn">
+                <div>
+                  <b>When you actually get the money.</b> {branch.payment_terms}
+                </div>
+              </Note>
+            ) : null}
+
             <div className="tablewrap" style={{ marginTop: 14 }}>
               <table>
                 <thead>
