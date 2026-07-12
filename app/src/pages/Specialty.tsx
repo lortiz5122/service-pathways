@@ -1,9 +1,10 @@
 import { Link, useParams } from 'react-router-dom';
 import { specialtyById, branchIdOf, clusterById } from '../lib/data';
 import { BranchLogo } from '../branding/Logo';
-import { BRANCH_THEME, money, type SpecialtyRecord } from '../lib/types';
+import { BRANCH_THEME, money } from '../lib/types';
 import { Chip, Note, SectionHead, SourceNote, Value } from '../components/Bits';
 import { MarkDisclaimer } from '../components/Disclaimer';
+import { PayForSpecialty } from '../components/PayForSpecialty';
 
 /** Renders any of the loosely-typed lifecycle blocks as a definition list. */
 function Block({ obj }: { obj: Record<string, unknown> }) {
@@ -39,13 +40,6 @@ function Block({ obj }: { obj: Record<string, unknown> }) {
       ))}
     </dl>
   );
-}
-
-function bonusRange(v: SpecialtyRecord['bonuses']['enlistment_bonus_range_usd']) {
-  if (v === null || v === undefined) return 'None published';
-  if (typeof v === 'string') return v;
-  if (Array.isArray(v)) return `${money(v[0])} – ${money(v[1])}`;
-  return String(v);
 }
 
 export default function Specialty() {
@@ -140,61 +134,31 @@ export default function Specialty() {
       </div>
 
       {/* ------------------------------------------------------- pay */}
-      <SectionHead
-        title="Pay and compensation"
-        lede="Entry figures. BAH varies by duty station and cannot be reduced to one national number — treat any single figure with suspicion."
-      />
-      <div className="grid g3">
-        <div className="card stat">
-          <div className="n">{s.pay_and_compensation?.paygrade_entry ?? '—'}</div>
-          <div className="l">Entry paygrade</div>
-        </div>
-        <div className="card stat">
-          <div className="n">
-            {money(s.pay_and_compensation?.base_pay_monthly_usd)}
-          </div>
-          <div className="l">Base pay / month</div>
-        </div>
-        <div className="card stat">
-          <div className="n">
-            {money(s.pay_and_compensation?.total_compensation_estimate_annual_usd)}
-          </div>
-          <div className="l">Est. total comp / year</div>
-          <div className="s">See methodology below</div>
-        </div>
-      </div>
-      <Note tone="warn">
-        <div>
-          <b>Methodology.</b> {s.pay_and_compensation?.methodology_note}
-        </div>
-      </Note>
-      <SourceNote
-        source={s.pay_and_compensation?.source}
-        date={s.pay_and_compensation?.retrieved_date}
-      />
+      <PayForSpecialty s={s} />
 
       <div className="card" style={{ marginTop: 16 }}>
-        <h3>Bonuses</h3>
+        <h3>How the research estimated this specialty's compensation</h3>
         <div className="grid g2">
           <div>
-            <div className="k">Enlistment</div>
-            <div className="v">
-              {bonusRange(s.bonuses?.enlistment_bonus_range_usd)}
-            </div>
+            <div className="k">Entry paygrade</div>
+            <div className="v">{s.pay_and_compensation?.paygrade_entry ?? '—'}</div>
           </div>
           <div>
-            <div className="k">Reenlistment</div>
+            <div className="k">Est. total comp / year</div>
             <div className="v">
-              {bonusRange(s.bonuses?.reenlistment_bonus_range_usd)}
+              {money(s.pay_and_compensation?.total_compensation_estimate_annual_usd)}
             </div>
           </div>
         </div>
-        <p style={{ marginTop: 12 }}>{s.bonuses?.conditions}</p>
-        <Note tone="alert">
-          Bonus amounts change quarterly and are written into your contract or they
-          do not exist. Never rely on a figure on any website — including this one.
+        <Note tone="warn">
+          <div>
+            <b>Methodology.</b> {s.pay_and_compensation?.methodology_note}
+          </div>
         </Note>
-        <SourceNote source={s.bonuses?.source} date={s.bonuses?.retrieved_date} />
+        <SourceNote
+          source={s.pay_and_compensation?.source}
+          date={s.pay_and_compensation?.retrieved_date}
+        />
       </div>
 
       {/* --------------------------------------------------- career */}
