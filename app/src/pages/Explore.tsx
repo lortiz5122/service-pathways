@@ -211,15 +211,11 @@ export default function Explore() {
 
           <Note tone="warn">
             <div>
-              <b>What the percentage means — and what it does not.</b> It is the
-              share of <em>your own criteria</em> that a job meets: pick five things
-              and a job that has four of them shows 80%. That is all it is. It is{' '}
-              <b>not a quality score</b>, and it does not say that one branch or one
-              job is better than another. A Coast Guard job at 60% is not worse than
-              an Army job at 100% — it simply matches fewer of the things{' '}
-              <em>you</em> happened to ask for. Change one answer on the last step
-              and every number here changes. The checklist under each match shows
-              exactly how the figure was calculated, so you can check it.
+              <b>These are not scored, ranked, or graded.</b> No branch is better
+              than another and no job here is better than another job — they are
+              different, and which one is right depends entirely on you. Each match
+              simply shows <em>which of the things you asked for it actually has</em>,
+              and which it does not. Read the checklist, not the position.
             </div>
           </Note>
 
@@ -249,16 +245,6 @@ export default function Explore() {
                     }
                   >
                     <header className="rec-head">
-                      <div
-                        className="matchring"
-                        style={{ '--pct': `${r.matchPct}` } as React.CSSProperties}
-                        title={`Meets ${r.metCount} of the ${r.totalCount} things you asked for`}
-                      >
-                        <span className="mp">{r.matchPct}%</span>
-                        <span className="mf">
-                          {r.metCount}/{r.totalCount}
-                        </span>
-                      </div>
                       {b ? <BranchLogo branch={b} size={42} /> : null}
                       <div style={{ flex: 1 }}>
                         <div className="spec-code">

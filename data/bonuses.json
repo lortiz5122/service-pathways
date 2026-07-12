@@ -252,15 +252,15 @@
     {
       "branch": "coast-guard",
       "name": "U.S. Coast Guard",
-      "max_bonus_usd": 60000,
-      "max_note": "Per the Coast Guard's OWN official page (gocoastguard.com/hiring-incentives): Critical Rating Affiliation is 'up to $60,000'.",
+      "max_bonus_usd": 75000,
+      "max_note": "Per the Coast Guard's own career pages (gocoastguard.com): \"Get up to a $75,000 Bonus when you enlist.\" The $60,000 Critical Rating Affiliation figure is ONE COMPONENT of that ceiling, not the ceiling itself.",
       "source_tier": "OFFICIAL",
       "source_url": "https://www.gocoastguard.com/hiring-incentives",
       "source_retrieved": "2026-07-12",
       "conflict": {
-        "note": "SOURCES DISAGREE. Military.com states a Coast Guard maximum of $75,000. The Coast Guard's own official hiring-incentives page states 'up to $60,000' for Critical Rating Affiliation. The official figure is shown here; the discrepancy is disclosed rather than reconciled.",
+        "note": "RESOLVED. Military.com said $75,000; the Coast Guard hiring-incentives page listed Critical Rating Affiliation at 'up to $60,000', which I initially read as the maximum. The Coast Guard's own rating career pages advertise 'up to a $75,000 Bonus', confirming $75,000 as the overall ceiling and $60,000 as a component of it. Both sources were right; my reading was wrong.",
         "secondary_figure_usd": 75000,
-        "official_figure_usd": 60000
+        "official_figure_usd": 75000
       },
       "programs": [
         {
@@ -302,7 +302,16 @@
           "detail": "Certain geographic regions may offer assignment guarantees within specific Coast Guard Districts."
         }
       ],
-      "official_caveat": "The Coast Guard's own page states these programs 'change frequently' and advises contacting a recruiter for current offerings."
+      "official_caveat": "The Coast Guard's own page states these programs 'change frequently' and advises contacting a recruiter for current offerings.",
+      "stacking": {
+        "rule": "Coast Guard incentives combine toward the $75,000 ceiling \u2014 the headline is a SUM, not one payment.",
+        "stackable": [
+          "Critical Rating Affiliation (up to $60,000)",
+          "Higher Education Credits (up to $15,000)",
+          "Expedited Shipping (up to $10,000)"
+        ],
+        "source": "gocoastguard.com/hiring-incentives + gocoastguard.com rating career pages, retrieved 2026-07-12"
+      }
     },
     {
       "branch": "space-force",
@@ -314,8 +323,8 @@
   ],
   "unverified": [
     "Army and Coast Guard bonus figures are now OFFICIAL (goarmy.com, gocoastguard.com). Navy, Air Force and Marine Corps remain SECONDARY (Military.com, 2026-06-15) \u2014 their official bonus pages could not be retrieved.",
+    "The Coast Guard maximum conflict is RESOLVED at $75,000 (official gocoastguard.com career pages). The $60,000 figure is one component (Critical Rating Affiliation), not the ceiling.",
     "Most figures are SECONDARY-SOURCED from Military.com (published 2026-06-15), not primary-fetched. Official service bonus tables return HTTP 403 to automated retrieval. EXCEPTION: the Coast Guard figures are OFFICIAL, taken directly from gocoastguard.com/hiring-incentives (retrieved 2026-07-12).",
-    "SOURCE CONFLICT \u2014 Coast Guard maximum: Military.com says $75,000; the Coast Guard's own page says 'up to $60,000' for Critical Rating Affiliation. The official figure is used; the conflict is disclosed.",
     "The Military.com article's own reader correction flags its Navy comparison table as potentially inaccurate. Navy figures carry extra uncertainty.",
     "Air Force per-AFSC bonus amounts are not published in the source \u2014 only eligible fields and an overall maximum.",
     "Space Force enlistment bonuses: no data found at all, from either source.",

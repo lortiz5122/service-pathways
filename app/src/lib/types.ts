@@ -12,6 +12,10 @@ export type BranchId =
   | 'space-force'
   | 'coast-guard';
 
+/**
+ * Canonical list. NOTE: this is an identity list, NOT a display order.
+ * Never iterate this directly in the UI — use `branchOrder()` below.
+ */
 export const BRANCH_IDS: BranchId[] = [
   'army',
   'navy',
@@ -20,6 +24,38 @@ export const BRANCH_IDS: BranchId[] = [
   'space-force',
   'coast-guard',
 ];
+
+/**
+ * Display order, rotated per session.
+ *
+ * A fixed array put the Coast Guard last on every list on every page, forever.
+ * That is an implied ranking baked into an array index — the same problem as the
+ * "1, 2, 3" badges. No service outranks another, so the starting point rotates:
+ * across sessions every branch leads sometimes and every branch trails sometimes.
+ *
+ * The offset is stable WITHIN a session, so nothing jumps around while you read.
+ */
+const ROTATION = Math.floor(Math.random() * BRANCH_IDS.length);
+
+export function branchOrder(): BranchId[] {
+  return [
+    ...BRANCH_IDS.slice(ROTATION),
+    ...BRANCH_IDS.slice(0, ROTATION),
+  ];
+}
+
+/** Sort any branch-keyed list into the rotated display order. */
+export function sortByBranchOrder<T>(
+  items: T[],
+  key: (t: T) => BranchId | undefined,
+): T[] {
+  const order = branchOrder();
+  return [...items].sort((a, b) => {
+    const ia = order.indexOf(key(a) as BranchId);
+    const ib = order.indexOf(key(b) as BranchId);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+  });
+}
 
 /** The branch names as they appear in SpecialtyRecord.branch (title case). */
 export type BranchName =

@@ -23,7 +23,7 @@ import {
 } from '../data/content';
 import { evaluate, type Tier } from '../data/eligibility';
 import { BranchLogo } from '../branding/Logo';
-import { BRANCH_THEME } from '../lib/types';
+import { BRANCH_THEME, sortByBranchOrder } from '../lib/types';
 import { Chip, Note, SectionHead, TickList } from '../components/Bits';
 import { MarkDisclaimer } from '../components/Disclaimer';
 import { ScoreCard } from '../components/ScoreCard';
@@ -80,7 +80,7 @@ function Screener() {
           </div>
 
           <div className="eligbars">
-            {results.map((r) => {
+            {sortByBranchOrder(results, (r) => r.branch).map((r) => {
               const t = BRANCH_THEME[r.branch];
               const cls =
                 r.verdict === 'pass'

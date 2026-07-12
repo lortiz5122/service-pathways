@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { clusters, specialtiesForCluster, allSpecialties, RESEARCH_DATE } from '../lib/data';
 import { BranchLogo } from '../branding/Logo';
-import { BRANCH_IDS, BRANCH_NAME_TO_ID, type BranchId } from '../lib/types';
+import { branchOrder, BRANCH_NAME_TO_ID, type BranchId } from '../lib/types';
 import { MarkDisclaimer } from '../components/Disclaimer';
 
 /** Branches that actually have a researched specialty in this cluster. */
@@ -11,7 +11,7 @@ function branchesIn(clusterId: string): BranchId[] {
     const b = BRANCH_NAME_TO_ID[s.branch];
     if (b) set.add(b);
   }
-  return BRANCH_IDS.filter((b) => set.has(b));
+  return branchOrder().filter((b) => set.has(b));
 }
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
           </p>
 
           <div className="hero-emblems" aria-hidden="true">
-            {BRANCH_IDS.map((b) => (
+            {branchOrder().map((b) => (
               <BranchLogo key={b} branch={b} size={46} />
             ))}
           </div>

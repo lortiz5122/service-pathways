@@ -67,15 +67,16 @@ export type Scored = {
   reasons: string[];
   cautions: string[];
   /**
-   * The percentage is DERIVED, not invented: it is the share of the criteria the
-   * READER selected that this specialty actually meets. It is not a quality
-   * grade, and it says nothing about whether one branch or job is better than
-   * another. `criteria` is the full checklist so the number can be audited.
+   * The checklist of what the reader asked for and what this job has.
+   *
+   * There is deliberately NO score and NO percentage. A number next to a job —
+   * whether it is "1" or "80%" — gets read as a grade, and nothing in this data
+   * supports the claim that one service or one job is better than another. The
+   * checklist shows the reader exactly what they are trading; they do the judging.
    */
   criteria: Criterion[];
   metCount: number;
   totalCount: number;
-  matchPct: number;
   /** Whether the user's AFQT clears this specialty's branch. */
   branchGate: 'pass' | 'fail' | 'conflict' | 'unknown';
   branchGateLabel: string;
@@ -301,8 +302,6 @@ export function recommend(
 
     const metCount = criteria.filter((c) => c.met).length;
     const totalCount = criteria.length;
-    const matchPct =
-      totalCount === 0 ? 100 : Math.round((metCount / totalCount) * 100);
 
     return {
       specialty: s,
@@ -312,13 +311,15 @@ export function recommend(
       criteria,
       metCount,
       totalCount,
-      matchPct,
       branchGate,
       branchGateLabel: g?.label ?? 'Not published',
     };
   });
 
-  // Order by how many of the reader's own criteria are met, then by the finer
-  // signal strength as a tiebreak. Order is not a quality judgement.
-  return scored.sort((a, b) => b.matchPct - a.matchPct || b.score - a.score);
+  // Order by how many of the reader's own criteria are met, then by signal
+  // strength as a tiebreak. Order is not a quality judgement, and no number is
+  // ever shown for it.
+  return scored.sort(
+    (a, b) => b.metCount - a.metCount || b.score - a.score,
+  );
 }

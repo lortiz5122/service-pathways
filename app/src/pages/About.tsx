@@ -3,7 +3,7 @@ import { UNVERIFIED_ITEMS } from '../data/content';
 import { Note, SectionHead, TickList } from '../components/Bits';
 import { SITE_DISCLAIMER, PLACEHOLDER_NOTICE } from '../components/Disclaimer';
 import logoManifest from '../research/logo-manifest.json';
-import { BRANCH_IDS, BRANCH_THEME } from '../lib/types';
+import { branchOrder, BRANCH_THEME } from '../lib/types';
 import { hasLogo } from '../branding/Logo';
 
 type Dict = Record<string, unknown>;
@@ -14,7 +14,7 @@ const shipped = (logoManifest as { logos: { slug: string; label: string }[] }).l
 
 /** What is real artwork, what was refused, and what falls back to original art. */
 function AssetLedger() {
-  const fallbacks = BRANCH_IDS.filter((b) => !hasLogo(b));
+  const fallbacks = branchOrder().filter((b) => !hasLogo(b));
 
   return (
     <div className="card">

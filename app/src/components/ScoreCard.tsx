@@ -3,7 +3,7 @@ import { OFFICIAL_PRACTICE, PRACTICE_TEST, useProfile } from '../lib/profile';
 import { afqtCategory } from '../data/content';
 import { evaluate, type Tier } from '../data/eligibility';
 import { BranchLogo } from '../branding/Logo';
-import { BRANCH_THEME } from '../lib/types';
+import { BRANCH_THEME, sortByBranchOrder } from '../lib/types';
 import { Note } from './Bits';
 
 /**
@@ -96,7 +96,7 @@ export function ScoreCard({ compact = false }: { compact?: boolean }) {
               </b>
             </p>
             <div className="score-branches">
-              {results.map((r) => {
+              {sortByBranchOrder(results, (r) => r.branch).map((r) => {
                 const t = BRANCH_THEME[r.branch];
                 const cls =
                   r.verdict === 'pass'
