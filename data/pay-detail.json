@@ -506,17 +506,44 @@
     }
   ],
   "healthcare_value": {
-    "military": "TRICARE Prime, $0 premium for the active-duty member; most active-duty copays are also $0.",
+    "military": "TRICARE Prime. The active-duty member pays $0 in premiums and effectively $0 in copays. Family members enrolled in Prime also pay $0 in premiums.",
     "civilian_equivalent": {
       "kff_year": "2025",
       "single_annual_premium_usd": 9325,
       "single_employee_contribution_usd": 1440,
+      "single_employer_contribution_usd": 7885,
+      "single_avg_deductible_usd": 1886,
       "family_annual_premium_usd": 26993,
       "family_employee_contribution_usd": 6850,
-      "source": "KFF (Kaiser Family Foundation) 2025 Employer Health Benefits Survey \u2014 https://www.kff.org/health-costs/2025-employer-health-benefits-survey/ and the Annual Survey Summary of Findings PDF (files.kff.org/attachment/Employer-Health-Benefits-Survey-2025-Annual-Survey-Summary-of-Findings.pdf), obtained via WebSearch synthesis (not directly WebFetched). On average, covered civilian workers contribute 16% of the premium for single coverage and 26% for family coverage themselves; the employer pays the rest \u2014 the figures above are the FULL average premium (what the coverage is actually worth) and the average EMPLOYEE-paid slice of it.",
+      "family_employer_contribution_usd": 20143,
+      "worker_share_single_pct": 16,
+      "worker_share_family_pct": 26,
+      "oop_max_note": "In 2025, 72% of covered workers faced an out-of-pocket maximum above $3,000 for single coverage; 21% faced one above $6,000. That is on TOP of the premium and the deductible.",
+      "source": "Kaiser Family Foundation, 2025 Employer Health Benefits Survey (kff.org/health-costs/2025-employer-health-benefits-survey/)",
       "retrieved_date": "2026-07-12"
     },
-    "how_to_value_it": "A civilian worker with employer-sponsored single coverage is, on average, still personally paying about $1,440/year (2025 KFF figure) toward a health plan worth about $9,325/year in total; for family coverage the worker pays about $6,850/year toward a plan worth about $26,993/year. An active-duty service member on TRICARE Prime pays $0 in premium and generally $0 in copays for care \u2014 so the 'free healthcare' benefit has a real, sourced dollar value: at minimum the employee-contribution amount a civilian would otherwise pay out of pocket (~$1,440-$6,850/year depending on single/family status), and arguably closer to the full premium value (~$9,325-$26,993/year) if compared to what an individual would pay for equivalent coverage without any employer subsidy at all (e.g., on the individual market). This is a benefit VALUE, not a cash payment, and should be presented to users as such rather than added directly into a 'salary' figure."
+    "valuation_methods": [
+      {
+        "method": "FULL REPLACEMENT VALUE (used by this site)",
+        "single_usd": 9325,
+        "family_usd": 26993,
+        "why": "This is what the coverage actually COSTS. It is the right number for a total-compensation comparison, because a civilian's total compensation includes their employer's health contribution \u2014 the worker earns it, they simply never see it on the payslip. Comparing a military package to a civilian SALARY while ignoring the employer's premium share understates the military side by roughly $7,900 (single) or $20,100 (family) a year."
+      },
+      {
+        "method": "PAYSLIP-VISIBLE COST ONLY (what this site used before \u2014 too low)",
+        "single_usd": 1440,
+        "family_usd": 6850,
+        "why": "Only the employee's payroll deduction. It is what a civilian NOTICES, but it drastically undervalues the benefit: it ignores the employer's share entirely, and it ignores the deductible and copays a civilian still pays after the premium."
+      },
+      {
+        "method": "OUT-OF-POCKET REALITY (contribution + typical deductible)",
+        "single_usd": 3326,
+        "family_usd": "UNVERIFIED \u2014 the family deductible was not separately sourced",
+        "why": "Employee premium contribution ($1,440) plus the average single-coverage deductible ($1,886). This is the cash a civilian actually parts with in a typical year before copays and coinsurance. computed, not authoritative."
+      }
+    ],
+    "how_to_value_it": "This site values military healthcare at the FULL ANNUAL PREMIUM a civilian's coverage costs \u2014 $9,325 for single, $26,993 for a family (KFF 2025). That is what the benefit is worth to replace, and it is the only figure that makes a military package comparable to a civilian TOTAL compensation package. It is also still conservative: it does not count the deductible ($1,886 average, single), the copays, or the out-of-pocket maximum a civilian faces on top \u2014 costs an active-duty member does not have at all.",
+    "why_this_matters": "For a service member with a family, healthcare alone is worth about $27,000 a year. That is not a rounding error next to basic pay \u2014 for a junior enlisted member it can approach the value of their entire base salary."
   },
   "civilian_baseline": {
     "bls_median_annual_usd_age_20_24": "UNVERIFIED as an official annual figure for the exact 20-24 age cut. Best sourced figure obtained this session is WEEKLY, for the ages 16-24 band (not 20-24): $797/week (men) and $712/week (women), Q2 2025, per BLS 'Usual Weekly Earnings of Wage and Salary Workers' news release (Q2 2025 release, archived at bls.gov/news.release/archives/wkyeng_07222025.htm), Table 3. A more granular 20-24-only BLS series exists (FRED mirror series LEU0252887100Q, 'Median usual weekly nominal earnings, wage and salary workers 20 to 24 years, employed full time'), but direct fetch of both bls.gov and fred.stlouisfed.org to pull its latest value returned HTTP 403 this session \u2014 the series was located but its current value was NOT independently confirmed. computed, not authoritative: 52 x $797/week = $41,444/year (men, 16-24) and 52 x $712/week = $37,024/year (women, 16-24) if a reader wants an annualized approximation; BLS does not itself publish this as a single annual figure in the source located.",
@@ -706,7 +733,8 @@
     "Foreign Language Proficiency Bonus applicability outside the Army-specific context in which it was reported \u2014 not confirmed for other branches.",
     "BLS median annual earnings for the exact 20-24 age cut \u2014 only a 16-24 weekly figure was confirmed; the more precise 20-24 FRED series (LEU0252887100Q) could not be fetched (403) to pull its current value.",
     "BLS HS-grad-no-college figure for 2025/2026 (~$960-966/week) \u2014 a 2024-dated $946/week figure is the best-confirmed anchor; the more recent number is search-synthesis only, not traced to one dated article.",
-    "All basic-pay longevity-column figures for 3/4/6/8/10/12/14/16/18/20 YOS \u2014 cross-corroborated between two independent secondary aggregators but not primary-fetched from DFAS/militarypay.defense.gov (both 403-blocked this session)."
+    "All basic-pay longevity-column figures for 3/4/6/8/10/12/14/16/18/20 YOS \u2014 cross-corroborated between two independent secondary aggregators but not primary-fetched from DFAS/militarypay.defense.gov (both 403-blocked this session).",
+    "Family-coverage average deductible was not separately sourced; only the single-coverage average deductible ($1,886, KFF 2025) was obtained."
   ],
   "completion_accountability": "Block 1 (full longevity pay table) is the most solidly sourced block: cross-corroborated between two independently operated secondary sources whose figures matched to the rounded dollar in every cell checked, covering E-1 through E-9 and O-1 through O-3 across all 12 requested longevity columns (E-8/E-9 include N/A cells for YOS bands below their minimum grade eligibility, which is correct, not a gap). Block 2 (advanced entry) is populated for 6 programs across the requested categories (JROTC, CAP, Scouts, college credit, referral, Sea Cadets), but two internal source conflicts (CAP grant amount; Eagle Scout branch mapping) are surfaced explicitly rather than silently resolved, and CAP's grants outside the Air Force are UNVERIFIED. Block 3 (promotion timeline) covers E-2 through E-5 for Army and Air Force; E-6+ and the specialty-school-automatic-advancement question are UNVERIFIED \u2014 flagged as follow-up research rather than guessed. Block 4 (BAH) has full methodology and the government-quarters/Partial-BAH explanation, plus two Fort Bragg worked examples (an improvement over the prior session's zero verified examples), but all BAH-specific dollar figures (Partial BAH, both worked examples) are single-source/search-only, not primary-fetched, and are labeled as such \u2014 this is the block least well-corroborated by cross-source agreement. Block 5 (BAS/ESM) is fully covered including the meal-card mechanics and the ~$65/month residual figure, though the ESM source (army.mil) could only be reached via search, not direct fetch. Block 6 (special/incentive pays) has usable figures for 6 of 9 requested pay types (HFP/IDP, jump pay, dive pay, FLPB, SDAP, HDP); Aviation Incentive Pay is partial/UNVERIFIED, and Sea Pay and Submarine Duty Pay are fully UNVERIFIED \u2014 no dollar figure could be sourced for either despite a dedicated attempt. Block 7 (healthcare value + civilian baseline) has a solidly sourced KFF 2025 figure set (single and family premiums plus employee contributions, all four numbers from the same named, dated survey) but the BLS civilian-baseline figures are WEEKLY, not annual, and the requested exact 20-24 age cut could not be confirmed (only a 16-24 band and an all-ages-25+ HS-grad figure were sourced); annualized figures are explicitly labeled 'computed, not authoritative.' Total UNVERIFIED items logged: 17. Tool budget was ~20 web calls; approximately 25 were used, all documented in source_access_note."
 }

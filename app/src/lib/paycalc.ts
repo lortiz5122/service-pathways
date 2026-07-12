@@ -183,14 +183,45 @@ export function specialPayAmount(p: SpecialPay): number | null {
 const hc = (D.healthcare_value ?? {}) as Dict;
 const civEq = (hc.civilian_equivalent ?? {}) as Dict;
 
+/**
+ * The value of military healthcare.
+ *
+ * This site values it at the FULL ANNUAL PREMIUM, not the employee's payroll
+ * deduction. An earlier version used the deduction ($1,440 single) and badly
+ * undervalued the benefit: a civilian's total compensation INCLUDES their
+ * employer's premium share — the worker earns it, they just never see it. Using
+ * only the payslip-visible number understated the military side by about $7,900
+ * a year for a single member, and $20,100 for one with a family.
+ *
+ * It is still conservative: it does not count the deductible ($1,886 average for
+ * single coverage), the copays, or the out-of-pocket maximum a civilian faces on
+ * top — none of which an active-duty member pays at all.
+ */
 export const HEALTHCARE = {
   kffYear: String(civEq.kff_year ?? 'UNVERIFIED'),
   singlePremium: Number(civEq.single_annual_premium_usd) || 0,
   singleEmployee: Number(civEq.single_employee_contribution_usd) || 0,
+  singleEmployer: Number(civEq.single_employer_contribution_usd) || 0,
+  singleDeductible: Number(civEq.single_avg_deductible_usd) || 0,
   familyPremium: Number(civEq.family_annual_premium_usd) || 0,
   familyEmployee: Number(civEq.family_employee_contribution_usd) || 0,
+  familyEmployer: Number(civEq.family_employer_contribution_usd) || 0,
+  oopNote: String(civEq.oop_max_note ?? ''),
   source: String(civEq.source ?? ''),
   howToValue: String(hc.how_to_value_it ?? ''),
+  whyItMatters: String((hc as Dict).why_this_matters ?? ''),
+  methods: ((hc as Dict).valuation_methods ?? []) as {
+    method: string;
+    single_usd: number | string;
+    family_usd: number | string;
+    why: string;
+  }[],
+  /** The figure the app actually uses: full replacement cost. */
+  value(dependents: boolean) {
+    return dependents
+      ? Number(civEq.family_annual_premium_usd) || 0
+      : Number(civEq.single_annual_premium_usd) || 0;
+  },
 };
 
 /* ------------------------------------------------------ civilian baseline */
@@ -314,12 +345,9 @@ export function computePay(input: PayInput): PayResult {
   const cashAnnual = cashMonthly * 12;
   const untaxedAnnual = (bas + bah) * 12;
 
-  // Value the healthcare at what a civilian actually pays out of pocket for the
-  // equivalent coverage — the employee contribution, not the full premium. The
-  // full premium includes the employer's share, which a civilian never sees.
-  const healthcareAnnual = input.dependents
-    ? HEALTHCARE.familyEmployee
-    : HEALTHCARE.singleEmployee;
+  // FULL REPLACEMENT COST — see the HEALTHCARE comment above for why the
+  // employee's payroll deduction was the wrong number.
+  const healthcareAnnual = HEALTHCARE.value(input.dependents);
   if (!healthcareAnnual) missing.push('Civilian health-premium equivalent was not verified.');
 
   const packageAnnual = cashAnnual + healthcareAnnual;

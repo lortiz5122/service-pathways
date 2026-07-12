@@ -9,6 +9,7 @@ import { BranchLogo } from '../branding/Logo';
 import { BRANCH_THEME } from '../lib/types';
 import { Chip, DataPending, Note, SectionHead } from '../components/Bits';
 import { shortClearance, shortCode, shortLineScore } from '../lib/format';
+import { entryPath } from '../lib/entry';
 import { MarkDisclaimer } from '../components/Disclaimer';
 
 export default function Cluster() {
@@ -99,6 +100,7 @@ export default function Cluster() {
                   (n, st) => n + (Number(st.length_weeks) || 0),
                   0,
                 ) || null;
+              const ep = entryPath(s);
               return (
                 <Link
                   key={s.id}
@@ -121,7 +123,12 @@ export default function Cluster() {
                     <h3>{s.name}</h3>
 
                     <div className="spec-tags">
-                      {gate ? (
+                      {!ep.openToHighSchool ? (
+                        <Chip tone="alert">
+                          {ep.kind === 'warrant' ? 'Warrant Officer' : 'Officer — degree required'}
+                        </Chip>
+                      ) : null}
+                      {ep.usesAsvab && gate ? (
                         <span
                           className="spec-gate"
                           title={String(s.entry_requirements.asvab_line_score)}

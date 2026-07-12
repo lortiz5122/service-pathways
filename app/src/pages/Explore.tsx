@@ -12,6 +12,7 @@ import { SpecialtyModal } from '../components/SpecialtyModal';
 import { ScoreCard } from '../components/ScoreCard';
 import { useProfile } from '../lib/profile';
 import { shortLineScore } from '../lib/format';
+import { entryPath } from '../lib/entry';
 import type { SpecialtyRecord } from '../lib/types';
 
 const STEPS = ['Interests', 'Your scores', 'What matters', 'Matches'];
@@ -233,6 +234,7 @@ export default function Explore() {
                 const b = branchIdOf(s);
                 const t = b ? BRANCH_THEME[b] : undefined;
                 const gate = shortLineScore(s.entry_requirements?.asvab_line_score);
+                const ep = entryPath(s);
                 return (
                   <div
                     key={s.id}
@@ -265,7 +267,17 @@ export default function Explore() {
                         <h3>{s.name}</h3>
                       </div>
                       <div className="gates">
-                        {r.branchGate === 'fail' ? (
+                        {/* An officer job must NEVER sit next to "your AFQT
+                            qualifies you" — officers are commissioned, do not take
+                            the ASVAB, and cannot be entered from high school. That
+                            pairing was a lie made of two true statements. */}
+                        {!ep.usesAsvab ? (
+                          <Chip tone="alert">
+                            {ep.kind === 'warrant'
+                              ? 'Warrant Officer — not an enlistment'
+                              : 'Officer — degree required'}
+                          </Chip>
+                        ) : r.branchGate === 'fail' ? (
                           <Chip tone="alert">AFQT below this branch</Chip>
                         ) : r.branchGate === 'conflict' ? (
                           <Chip tone="warn">AFQT borderline</Chip>
@@ -274,10 +286,7 @@ export default function Explore() {
                         ) : (
                           <Chip tone="ok">Your AFQT qualifies you to enlist</Chip>
                         )}
-                        {/* The AFQT is the BRANCH gate. The line score is the JOB
-                            gate. Showing them side by side is the whole point —
-                            clearing the branch does not get you the specialty. */}
-                        {gate ? (
+                        {ep.usesAsvab && gate ? (
                           <Chip tone="brand">Job needs {gate}</Chip>
                         ) : null}
                       </div>
@@ -308,6 +317,14 @@ export default function Explore() {
                           ))}
                         </ul>
                       </div>
+                    ) : null}
+
+                    {!ep.openToHighSchool ? (
+                      <Note tone="alert">
+                        <div>
+                          <b>You cannot enter this from high school.</b> {ep.reality}
+                        </div>
+                      </Note>
                     ) : null}
 
                     {r.cautions.length ? (

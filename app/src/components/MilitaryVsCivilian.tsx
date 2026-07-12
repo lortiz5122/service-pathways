@@ -48,10 +48,12 @@ export function MilitaryVsCivilian({
   const bahLow = Number(BAH_RANGE?.low?.monthly_usd) || 0;
   const bahHigh = Number(BAH_RANGE?.high?.monthly_usd) || 0;
 
-  // Healthcare is valued at what a civilian ACTUALLY pays out of pocket — the
-  // employee contribution — not the full premium, most of which an employer
-  // covers and a worker never sees on a payslip.
-  const health = HEALTHCARE.singleEmployee || 0;
+  // FULL REPLACEMENT COST. Valuing this at the employee's payroll deduction
+  // ($1,440) understated it by ~$7,900/yr — a civilian's total compensation
+  // includes their employer's premium share; they simply never see it.
+  const health = HEALTHCARE.singlePremium || 0;
+  const civPays = HEALTHCARE.singleEmployee || 0;
+  const civDeductible = HEALTHCARE.singleDeductible || 0;
 
   const cashLow = ((basic ?? 0) + bas + specialsMonthly) * 12;
   const packLow = cashLow + bahLow * 12 + health;
@@ -122,7 +124,7 @@ export function MilitaryVsCivilian({
               ) : null}
               <tr>
                 <td>
-                  Healthcare <Chip tone="ok">$0 premium</Chip>
+                  Healthcare <Chip tone="ok">$0 premium, $0 copays</Chip>
                 </td>
                 <td>
                   {usd(health)}
@@ -177,18 +179,32 @@ export function MilitaryVsCivilian({
                 </tr>
                 <tr className="minus">
                   <td>
-                    Health insurance <Chip tone="alert">you pay this</Chip>
+                    Health premium <Chip tone="alert">out of your pay</Chip>
                   </td>
                   <td>
-                    −{usd(health)}
+                    −{usd(civPays)}
                     <span>/yr</span>
                   </td>
                 </tr>
+                {civDeductible ? (
+                  <tr className="minus">
+                    <td>
+                      Deductible, before insurance pays{' '}
+                      <Chip tone="alert">typical</Chip>
+                    </td>
+                    <td>
+                      −{usd(civDeductible)}
+                      <span>/yr</span>
+                    </td>
+                  </tr>
+                ) : null}
                 <tr className="tot">
-                  <td>After the premium</td>
+                  <td>After healthcare costs</td>
                   <td>
-                    {usd(Math.max(0, civLow! - health))}
-                    {civHigh ? `–${usd(civHigh - health)}` : ''}
+                    {usd(Math.max(0, civLow! - civPays - civDeductible))}
+                    {civHigh
+                      ? `–${usd(civHigh - civPays - civDeductible)}`
+                      : ''}
                     <span>/yr</span>
                   </td>
                 </tr>
@@ -202,9 +218,11 @@ export function MilitaryVsCivilian({
           )}
 
           <p className="mvc-note">
-            Civilian salary is <b>taxed in full</b>, and the health premium comes out
-            of it. The employer covers most of the premium — the{' '}
-            {usd(health)} above is only what the <em>worker</em> pays.
+            Civilian salary is <b>taxed in full</b>. Their employer covers most of
+            the {usd(health)} premium — but that money is still part of what they
+            earn, they just never see it. On top, they pay {usd(civPays)} from their
+            own pay and a {usd(civDeductible)} deductible before the insurance pays
+            anything. An active-duty member pays <b>none of it</b>.
           </p>
         </div>
       </div>

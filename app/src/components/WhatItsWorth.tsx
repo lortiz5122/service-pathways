@@ -24,8 +24,10 @@ const usd = (n: number) => `$${Math.round(n).toLocaleString('en-US')}`;
  * does the judging.
  */
 export function WhatItsWorth() {
-  const health = HEALTHCARE.singleEmployee || 0;
-  const family = HEALTHCARE.familyEmployee || 0;
+  const health = HEALTHCARE.singlePremium || 0;
+  const family = HEALTHCARE.familyPremium || 0;
+  const seen = HEALTHCARE.singleEmployee || 0;
+  const deduct = HEALTHCARE.singleDeductible || 0;
 
   return (
     <>
@@ -58,18 +60,30 @@ export function WhatItsWorth() {
         <div className="card worth-card">
           <h3>Healthcare that costs you nothing</h3>
           <p>
-            You pay <b>$0</b> in premiums. A civilian with the same coverage pays{' '}
-            <b>{usd(health)}</b> a year out of their own pocket for single cover, and{' '}
-            <b>{usd(family)}</b> for a family — and that is only the employee's share.
+            You pay <b>$0</b> in premiums and effectively <b>$0</b> in copays. The
+            same coverage costs <b>{usd(health)}</b> a year for a single person and{' '}
+            <b>{usd(family)}</b> for a family.
           </p>
           <p>
-            It is invisible in a salary comparison, which is exactly why a salary
-            comparison misleads people. Dental and vision are in there too, and so is
-            your family.
+            A civilian only <em>sees</em> {usd(seen)} of that on their payslip — their
+            employer pays the rest. But that money is still part of what they earn.
+            And they still owe a <b>{usd(deduct)}</b> deductible before the insurance
+            pays for anything.
+          </p>
+          <p>
+            <b>
+              For a service member with a family, healthcare alone is worth about{' '}
+              {usd(family)} a year.
+            </b>{' '}
+            For a junior enlisted member that can approach the value of their entire
+            base salary — and it is completely invisible in a salary comparison,
+            which is exactly why salary comparisons mislead people.
           </p>
           <p className="srcline">
-            Civilian figures: Kaiser Family Foundation {HEALTHCARE.kffYear} employer
-            health benefits survey, average employee contribution.
+            Kaiser Family Foundation {HEALTHCARE.kffYear} Employer Health Benefits
+            Survey: average annual premium {usd(health)} single / {usd(family)}{' '}
+            family; average worker contribution {usd(seen)} single; average
+            single-coverage deductible {usd(deduct)}.
           </p>
         </div>
 

@@ -2261,3 +2261,45 @@ table tr.hit td { color: var(--ink); }
 .worth-card { border-top: 3px solid var(--ok); }
 .worth-card p { margin-bottom: 10px; }
 .worth-card p:last-of-type { margin-bottom: 0; }
+
+/* ------------------------------------------------------ entry banner */
+
+/* An officer record must SHOUT that it is not an enlistment. Showing "Naval
+   Aviator" beside a green "your AFQT qualifies you" chip was a lie assembled
+   from two true statements. */
+.entrybanner {
+  margin: 16px 0 22px;
+  padding: 18px 20px;
+  border-radius: var(--radius);
+  border: 1px solid var(--alert);
+  border-left: 5px solid var(--alert);
+  background: color-mix(in srgb, var(--alert) 9%, var(--panel));
+}
+
+.entrybanner.warrant {
+  border-color: var(--warn);
+  border-left-color: var(--warn);
+  background: color-mix(in srgb, var(--warn) 9%, var(--panel));
+}
+
+.eb-tag {
+  display: inline-block;
+  font-family: var(--stencil);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--alert);
+  border: 1px solid var(--alert);
+  border-radius: 999px;
+  padding: 4px 12px;
+  margin-bottom: 10px;
+}
+
+.entrybanner.warrant .eb-tag { color: var(--warn); border-color: var(--warn); }
+
+.entrybanner p {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink);
+}
