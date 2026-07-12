@@ -2303,3 +2303,53 @@ table tr.hit td { color: var(--ink); }
   line-height: 1.6;
   color: var(--ink);
 }
+
+/* ------------------------------------------------- inline calculator */
+
+.calcbox { border-top: 3px solid var(--brand-accent); }
+
+.field2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.field label.chk {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-family: var(--body);
+  font-size: 14px;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink-2);
+  cursor: pointer;
+}
+
+.field label.chk input { accent-color: var(--brand-accent); }
+
+.civeq {
+  margin-top: 14px;
+  padding: 15px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--info);
+  background: color-mix(in srgb, var(--info) 9%, var(--panel-2));
+}
+
+.civeq .k {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.civeq .n {
+  font-family: var(--stencil);
+  font-size: 30px;
+  line-height: 1.1;
+  margin: 5px 0;
+  color: var(--info);
+}
+
+.civeq .s { font-size: 12.5px; color: var(--ink-2); line-height: 1.5; }

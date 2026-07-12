@@ -13,6 +13,7 @@ import {
 } from '../lib/paycalc';
 import { bonusForSpecialty, BONUS_SOURCE } from '../lib/bonuses';
 import { MilitaryVsCivilian } from './MilitaryVsCivilian';
+import { PackageCalculator } from './PackageCalculator';
 import { Chip, Note, SectionHead } from './Bits';
 import { money, type SpecialtyRecord } from '../lib/types';
 
@@ -169,7 +170,8 @@ export function PayForSpecialty({ s }: { s: SpecialtyRecord }) {
               rel="noreferrer noopener"
             >
               look up a real duty station ↗
-            </a>
+            </a>{' '}
+            — then put that figure into the calculator below.
           </div>
         </Note>
       ) : null}
@@ -186,7 +188,8 @@ export function PayForSpecialty({ s }: { s: SpecialtyRecord }) {
               government dining facility.
             </>
           ) : null}{' '}
-          <Link to="/pay">Model your real package →</Link>
+          Set it yourself in the calculator below and watch what it does to the
+          total.
         </div>
       </Note>
 
@@ -227,6 +230,16 @@ export function PayForSpecialty({ s }: { s: SpecialtyRecord }) {
           </p>
         </div>
       ) : null}
+
+      {/* -------------------------------------- inline calculator */}
+      {/* Inline, prefilled with THIS job's grade and special pays. It used to be a
+          link to /pay — which meant hunting. Nobody hunts. */}
+      <div style={{ marginTop: 16 }}>
+        <PackageCalculator
+          defaultGrade={grade ?? 'E-1'}
+          defaultSpecials={specials.map((sp) => sp.pay)}
+        />
+      </div>
 
       {/* ------------------------------------ military vs civilian */}
       <div style={{ marginTop: 16 }}>

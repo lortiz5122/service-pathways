@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import {
   BAH_RANGE,
   BAS_ENLISTED,
@@ -248,9 +247,8 @@ export function MilitaryVsCivilian({
           {String(BAH_RANGE?.low?.where ?? '')} to {usd(bahHigh)}/month in{' '}
           {String(BAH_RANGE?.high?.where ?? '')} —{' '}
           <b>4× the money for the same rank</b>, decided entirely by where you get
-          posted. You do not choose that. Look up your actual duty station before you
-          trust any total.{' '}
-          <Link to="/pay">Model your own package →</Link>
+          posted. You do not choose that. The calculator above lets you set a real
+          BAH figure and see what it does to the total.
         </div>
       </Note>
 

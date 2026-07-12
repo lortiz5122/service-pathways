@@ -4,7 +4,6 @@ import {
   BAH_EXAMPLES,
   BAS,
   BAS_ENLISTED,
-  CIVILIAN,
   COMPARISON_CAVEATS,
   ENLISTED_GRADES,
   HEALTHCARE,
@@ -15,265 +14,18 @@ import {
   PROMOTION,
   SPECIAL_PAYS,
   SOURCE_NOTE,
-  TAX_ASSUMPTION,
   YEAR_COLS,
   basicPay,
-  computePay,
   specialPayAmount,
-  type Housing,
 } from '../lib/paycalc';
-import { Chip, Note, SectionHead, TickList } from '../components/Bits';
+import { Note, SectionHead, TickList } from '../components/Bits';
 import { AdvancedEntry } from '../components/AdvancedEntry';
+import { PackageCalculator } from '../components/PackageCalculator';
 import { WhatItsWorth } from '../components/WhatItsWorth';
 
 const usd = (n: number) =>
   `$${Math.round(n).toLocaleString('en-US')}`;
 
-const usd0 = (n: number | null) =>
-  n === null ? '—' : `$${Math.round(n).toLocaleString('en-US')}`;
-
-/* ------------------------------------------------------------ calculator */
-
-function Calculator() {
-  const [grade, setGrade] = useState('E-4');
-  const [years, setYears] = useState('2');
-  const [housing, setHousing] = useState<Housing>('barracks');
-  const [dependents, setDependents] = useState(false);
-  const [bahMonthly, setBahMonthly] = useState(
-    BAH_EXAMPLES[0]?.monthly_usd ?? 1800,
-  );
-  const [specials, setSpecials] = useState<string[]>([]);
-
-  const r = computePay({ grade, years, housing, dependents, bahMonthly, specials });
-
-  const toggleSpecial = (name: string) =>
-    setSpecials((s) =>
-      s.includes(name) ? s.filter((x) => x !== name) : [...s, name],
-    );
-
-  const grades = [...ENLISTED_GRADES, ...OFFICER_GRADES];
-
-  return (
-    <div className="card">
-      <h3>Build your actual package</h3>
-      <p>
-        Not the number on a poster. This one includes the things that change it —
-        where you sleep, whether you have dependents, and what your job pays extra
-        for.
-      </p>
-
-      <div className="calc-grid">
-        <div>
-          <div className="field">
-            <label htmlFor="c-grade">Paygrade</label>
-            <select
-              id="c-grade"
-              value={grade}
-              onChange={(e) => setGrade(e.target.value)}
-            >
-              {grades.map((g) => (
-                <option key={g} value={g}>
-                  {g}
-                </option>
-              ))}
-            </select>
-          </div>
-
-          <div className="field">
-            <label htmlFor="c-years">Years of service</label>
-            <select
-              id="c-years"
-              value={years}
-              onChange={(e) => setYears(e.target.value)}
-            >
-              {YEAR_COLS.map((y) => (
-                <option key={y} value={y}>
-                  {y === '<2' ? 'Under 2 years' : `${y} years`}
-                </option>
-              ))}
-            </select>
-          </div>
-
-          <div className="field">
-            <label htmlFor="c-housing">Where do you live?</label>
-            <select
-              id="c-housing"
-              value={housing}
-              onChange={(e) => setHousing(e.target.value as Housing)}
-            >
-              <option value="barracks">Barracks / dormitory (government quarters)</option>
-              <option value="ship">Aboard ship (Navy / Coast Guard)</option>
-              <option value="off-base">Off base, in my own place</option>
-            </select>
-          </div>
-
-          {housing === 'off-base' ? (
-            <div className="field">
-              <label htmlFor="c-bah">
-                BAH for your duty station <b>{usd(bahMonthly)}/mo</b>
-              </label>
-              <input
-                id="c-bah"
-                type="range"
-                min={900}
-                max={4500}
-                step={50}
-                value={bahMonthly}
-                onChange={(e) => setBahMonthly(Number(e.target.value))}
-              />
-              <p className="srcline">
-                BAH varies enormously by duty station. There is no national number —
-                slide this to a realistic figure for where you'd actually be posted.
-              </p>
-            </div>
-          ) : null}
-
-          <div className="field">
-            <label>
-              <input
-                type="checkbox"
-                checked={dependents}
-                onChange={(e) => setDependents(e.target.checked)}
-                style={{ marginRight: 8 }}
-              />
-              I have dependents (spouse / children)
-            </label>
-          </div>
-
-          {SPECIAL_PAYS.length ? (
-            <div className="field">
-              <label>Special and incentive pays</label>
-              <div className="chiprow">
-                {SPECIAL_PAYS.map((p) => {
-                  const amt = specialPayAmount(p);
-                  const on = specials.includes(p.pay);
-                  return (
-                    <button
-                      key={p.pay}
-                      className={`toggle${on ? ' on' : ''}`}
-                      onClick={() => toggleSpecial(p.pay)}
-                      title={p.eligibility}
-                      disabled={amt === null}
-                    >
-                      {p.pay}
-                      {amt !== null ? ` +${usd(amt)}` : ' (unverified)'}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          ) : null}
-        </div>
-
-        {/* ---------------------------------------------------- readout */}
-        <div>
-          <div className="readout">
-            <div className="big">{usd(r.packageAnnual)}</div>
-            <div className="cat">Total package / year</div>
-            <div className="formula">
-              {usd(r.cashAnnual)} cash + {usd(r.healthcareAnnual)} healthcare value
-            </div>
-          </div>
-
-          <table className="paybreak">
-            <tbody>
-              <tr>
-                <td>Basic pay</td>
-                <td>{usd0(r.basic)}<span>/mo</span></td>
-              </tr>
-              <tr>
-                <td>
-                  BAS (food) <Chip tone="ok">untaxed</Chip>
-                </td>
-                <td>{usd(r.bas)}<span>/mo</span></td>
-              </tr>
-              <tr className={r.bah === 0 ? 'zero' : ''}>
-                <td>
-                  BAH (housing) <Chip tone="ok">untaxed</Chip>
-                </td>
-                <td>{usd(r.bah)}<span>/mo</span></td>
-              </tr>
-              {r.specials.map((s) => (
-                <tr key={s.name}>
-                  <td>{s.name}</td>
-                  <td>{usd(s.monthly)}<span>/mo</span></td>
-                </tr>
-              ))}
-              <tr className="tot">
-                <td>Cash in hand</td>
-                <td>{usd(r.cashMonthly)}<span>/mo</span></td>
-              </tr>
-            </tbody>
-          </table>
-
-          <Note tone={r.bah === 0 ? 'alert' : 'warn'}>
-            <div>
-              <b>About your housing allowance.</b> {r.bahNote}
-            </div>
-          </Note>
-        </div>
-      </div>
-
-      {/* ------------------------------------------ civilian comparison */}
-      <div className="compare">
-        <h3>What a civilian job would have to pay to match this</h3>
-        <div className="compare-row">
-          <div className="compare-card mil">
-            <div className="k">Military package</div>
-            <div className="n">{usd(r.packageAnnual)}</div>
-            <div className="s">
-              {usd(r.untaxedAnnual)} of it is <b>non-taxable</b>, and healthcare costs
-              you nothing.
-            </div>
-          </div>
-          <div className="vs">vs</div>
-          <div className="compare-card civ">
-            <div className="k">Civilian gross salary needed</div>
-            <div className="n">{usd0(r.civilianEquivalent)}</div>
-            <div className="s">
-              To take home the same, after tax and after paying their own health
-              premium.
-            </div>
-          </div>
-        </div>
-
-        <Note tone="warn">
-          <div>
-            <b>Why there is no tidy civilian median here.</b> The Bureau of Labor
-            Statistics does not publish a clean annual median for "20–24 year olds"
-            or for "high-school graduate, no college" as a single number — it
-            publishes weekly figures for broader bands. Rather than multiply by 52
-            and present the result as a fact, this site declines to show a number it
-            cannot source. {CIVILIAN.note}
-          </div>
-        </Note>
-
-        <Note tone="warn">
-          <div>
-            <b>Read the assumptions before you trust that number.</b> The civilian
-            equivalent assumes a flat {Math.round(TAX_ASSUMPTION * 100)}% marginal
-            tax rate — it is an illustration, not a tax calculation. It does not
-            price the things that don't have a price: deployment, moving every few
-            years, or the fact that you cannot quit.
-          </div>
-        </Note>
-
-        {r.missing.length ? (
-          <Note tone="alert">
-            <div>
-              <b>Figures this calculator could not verify:</b>
-              <ul className="ticklist" style={{ marginTop: 8 }}>
-                {r.missing.map((m, i) => (
-                  <li key={i}>{m}</li>
-                ))}
-              </ul>
-            </div>
-          </Note>
-        ) : null}
-      </div>
-    </div>
-  );
-}
 
 /* ------------------------------------------------------------------ page */
 
@@ -542,7 +294,7 @@ export default function Pay() {
         title="6 · Military vs civilian — the honest comparison"
         lede="Add up basic pay, allowances, special pays and the cash value of healthcare — then work out what a civilian job would have to pay to match it."
       />
-      <Calculator />
+      <PackageCalculator />
 
       {/* --------------------------------------------- healthcare */}
       {HEALTHCARE.singleEmployee ? (
