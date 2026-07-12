@@ -51,8 +51,11 @@ export function BranchLogo({
       className="logo"
       src={logo.src}
       alt={`${logo.label} logo`}
-      width={size}
-      height={size}
+      /* Height-driven, width auto. These marks have wildly different aspect
+         ratios — the Air Force Symbol is a wide wordmark lockup, the EGA is
+         near-square. Forcing them all into a square box (and worse, a circular
+         one) clipped the wide ones. Let the natural aspect ratio stand. */
+      style={{ height: size, maxWidth: size * 2.3 }}
       loading="lazy"
       decoding="async"
     />
@@ -74,8 +77,7 @@ export function ComponentLogo({
       className="logo"
       src={logo.src}
       alt={`${logo.label} logo`}
-      width={size}
-      height={size}
+      style={{ height: size, maxWidth: size * 2.3 }}
       loading="lazy"
       decoding="async"
     />

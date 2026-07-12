@@ -7,12 +7,14 @@ import Branches from './pages/Branches';
 import Prep from './pages/Prep';
 import Lifecycle from './pages/Lifecycle';
 import About from './pages/About';
+import Explore from './pages/Explore';
 import { AppMark } from './branding/Emblem';
 import { SiteDisclaimer } from './components/Disclaimer';
 import { RESEARCH_DATE } from './lib/data';
 
 const NAV = [
   { to: '/', label: 'Interests', end: true },
+  { to: '/explore', label: 'Find what fits', end: false },
   { to: '/branches', label: 'Branches', end: false },
   { to: '/prep', label: 'Qualifying', end: false },
   { to: '/lifecycle', label: 'Retirement & After', end: false },
@@ -60,6 +62,7 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/explore" element={<Explore />} />
           <Route path="/interest/:id" element={<Cluster />} />
           <Route path="/specialty/:id" element={<Specialty />} />
           <Route path="/branches" element={<Branches />} />

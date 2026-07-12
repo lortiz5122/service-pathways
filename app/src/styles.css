@@ -1225,18 +1225,27 @@ table td .srcline { margin-top: 4px; }
 .logo {
   object-fit: contain;
   flex-shrink: 0;
-  /* Most official logos ship on white or transparent. A soft plate keeps them
-     legible on the dark surface without recolouring the mark itself, which
-     would be an unauthorised alteration. */
-  background: radial-gradient(circle at 50% 45%, #ffffff 0%, #eef2f6 72%, #dfe6ec 100%);
-  border-radius: 50%;
-  padding: 5px;
+  width: auto;
+  /* Official logos ship on white or transparent. A soft plate keeps them legible
+     on the dark surface without recolouring the mark itself — recolouring would
+     be an unauthorised alteration of a service mark.
+
+     NOT a circle. These marks have very different aspect ratios (the Air Force
+     Symbol is a wide wordmark lockup; the EGA is near-square). A circular plate
+     with a forced square box clipped the wide ones. */
+  background: linear-gradient(180deg, #ffffff 0%, #eef2f6 100%);
+  border-radius: 10px;
+  padding: 6px 9px;
   border: 1px solid var(--line-2);
 }
 
 .hero-emblems .logo { border-color: rgba(255, 255, 255, 0.22); }
 
-.cluster-emblems .logo { padding: 3px; }
+.cluster-emblems .logo { padding: 3px 5px; border-radius: 7px; }
+
+/* The original SVG emblems ARE circular by design — keep them round so the
+   fallback still reads as a service mark rather than a cropped square. */
+.emblem { flex-shrink: 0; border-radius: 50%; }
 
 .component-card {
   display: flex;
@@ -1247,3 +1256,259 @@ table td .srcline { margin-top: 4px; }
 }
 
 .component-card h3 { margin: 0; font-size: 13px; }
+
+/* ============================================================
+   Interest walkthrough
+   ============================================================ */
+
+.stepper {
+  display: flex;
+  gap: 6px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 22px;
+  flex-wrap: wrap;
+}
+
+.stepper li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px 8px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-family: var(--stencil);
+  font-size: 12px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  background: var(--panel);
+}
+
+.stepper li.done { color: var(--ink-2); cursor: pointer; }
+.stepper li.done:hover { border-color: var(--brand-accent); }
+
+.stepper li.on {
+  color: var(--ink);
+  border-color: var(--brand-accent);
+  background: color-mix(in srgb, var(--brand-accent) 12%, var(--panel));
+}
+
+.stepper .dot {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--panel-2);
+  border: 1px solid var(--line-2);
+  font-size: 11px;
+}
+
+.stepper li.on .dot {
+  background: var(--brand-accent);
+  color: #0d1117;
+  border-color: var(--brand-accent);
+}
+
+.stepper li.done .dot { color: var(--ok); border-color: var(--ok); }
+
+/* --------------------------------------------------------- pickers */
+
+.pickgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.pick {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+  padding: 14px 15px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--panel-2);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.pick:hover:not(:disabled) { border-color: var(--line-2); transform: translateY(-2px); }
+
+.pick:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.pick.on {
+  border-color: var(--brand-accent);
+  background: color-mix(in srgb, var(--brand-accent) 11%, var(--panel-2));
+  box-shadow: 0 0 0 1px var(--brand-accent) inset;
+}
+
+.pick strong {
+  font-family: var(--stencil);
+  font-size: 13.5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.pick span { font-size: 12.5px; color: var(--ink-3); line-height: 1.45; }
+
+.pick em {
+  font-family: var(--mono);
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--brand-accent);
+}
+
+/* ------------------------------------------------------- wizard nav */
+
+.wizard-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.btn {
+  font-family: var(--stencil);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 12px 26px;
+  border-radius: 999px;
+  border: 1px solid var(--brand-accent);
+  background: var(--brand-accent);
+  color: #0d1117;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.btn:hover:not(:disabled) { filter: brightness(1.1); }
+.btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+.btn.ghost {
+  background: transparent;
+  color: var(--ink-2);
+  border-color: var(--line-2);
+}
+
+.btn.ghost:hover:not(:disabled) { color: var(--ink); border-color: var(--ink-3); }
+
+/* --------------------------------------------------- result cards */
+
+.rec { border-left: 3px solid var(--bc-accent, var(--brand-accent)); }
+
+.rec-head {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.rec-head h3 { margin: 2px 0 0; font-size: 16px; }
+
+.rec .rank {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--panel-2);
+  border: 1px solid var(--line-2);
+  font-family: var(--stencil);
+  font-size: 13px;
+  color: var(--bc-accent, var(--brand-accent));
+}
+
+.rec-why { margin-bottom: 14px; }
+
+.rec-cost {
+  padding: 13px 15px;
+  border-radius: var(--radius-sm);
+  border: 1px solid color-mix(in srgb, var(--alert) 35%, transparent);
+  background: color-mix(in srgb, var(--alert) 7%, transparent);
+  margin-bottom: 12px;
+}
+
+.rec-cost .minihead { color: var(--alert); }
+
+.rec-cost p {
+  font-size: 13.5px;
+  color: var(--ink-2);
+  margin: 0 0 8px;
+}
+
+.rec-cost p:last-child { margin-bottom: 0; }
+
+/* ============================================================
+   Card text containment
+   The research data is prose. Cards are not. These rules make it
+   structurally impossible for a sourced paragraph to blow out a chip
+   again — a pill radius on multi-line text renders as an ellipse blob.
+   ============================================================ */
+
+.chip {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.7;
+}
+
+.spec-card {
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.spec-body {
+  min-width: 0;
+  flex: 1;
+}
+
+.spec-body h3 {
+  margin: 3px 0 0;
+  font-size: 14.5px;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+.spec-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+/* The score gate: a short label, never a paragraph. Full text on hover + on
+   the detail page. */
+.spec-gate {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0;
+  padding: 4px 10px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  color: var(--ink);
+  background: var(--panel-2);
+  border: 1px solid var(--bc-accent, var(--line-2));
+  border-radius: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Long sourced prose inside definition lists must wrap, not overflow. */
+.deflist dd { overflow-wrap: anywhere; }
+.card p, .ticklist li, td { overflow-wrap: anywhere; }

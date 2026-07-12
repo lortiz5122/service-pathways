@@ -50,6 +50,26 @@ was downloaded for Coast Guard.
 | Seal of the United States Army Reserve.svg, Seal of the United States Navy Reserve.svg / (2005–2017).svg | Explicit seals — rejected on filename alone. |
 | Badge of the Coast Guard Reserve Force Master Chief.png | Not a general organizational logo — a badge for one specific billet/rank position. Also not a substitute for the org-level mark requested. |
 
+## 2026-07-12 follow-up pass (Coast Guard / Coast Guard Reserve — still NONE FOUND)
+
+A second pass was run specifically to broaden the Coast Guard search per updated instructions
+(racing stripe, wordmark/logotype, gocoastguard.com flat logo). Two new candidates were located
+that the first pass had not specifically inspected. Both were downloaded, viewed with the Read
+tool, and rejected. No file was added to the directory for Coast Guard or Coast Guard Reserve.
+
+| Filename (not shipped) | What it depicts | Source page URL | Direct file URL | HTTP status | License basis | Risk tier | Retrieved | Disposition |
+|---|---|---|---|---|---|---|---|---|
+| USCG_Mark.jpg | "U.S. Coast Guard Official Mark – 'Racing Stripe' Websafe Colors." Visually inspected: diagonal red stripe (with a separate thin blue/white stripe alongside) carrying the same ringed device as every other racing-stripe variant already rejected — crossed anchors, a ring reading "UNITED STATES COAST GUARD," and "1790" beneath the shield. Same seal-signatured device, just a different color-fidelity rendition of the file already rejected as CGMark_W / U.S._Coast_Guard_Mark_Racing_Stripe.svg. | https://commons.wikimedia.org/wiki/File:USCG_Mark.jpg | https://upload.wikimedia.org/wikipedia/commons/4/43/USCG_Mark.jpg | 200 (image/jpeg) | Public domain — USCG service-member work, 17 U.S.C. §101/§105 | N/A — rejected | 2026-07-12 | REJECTED: text ring + "1790" present. Confirms (does not overturn) the original finding that every racing-stripe rendition on Commons has the seal inset. |
+| Wordmark_of_the_United_States_Coast_Guard.png | Modern flat mark: swept eagle-wing/stripe motif over a red-and-blue life-ring device (star + stylized wave inside), locked up with a block-letter "UNITED STATES COAST GUARD" wordmark and, beneath a rule line, the tagline "PROTECT / DEFEND / SAVE"; a "TM" mark sits at the lower-left of the ring. Visually it has NONE of the seal markers (no rope border, no text-ring, no founding date, no Latin motto) — it passes the seal test cleanly. However, cross-checked against Military.com ("'Protect. Defend. Save': Coast Guard Launches New Recruiting Initiatives to Attract Members," 2023-03-08) and the Coast Guard's own characterization (Commandant Adm. Linda Fagan called it a "tertiary" mark created specifically for a youth recruiting campaign, explicitly NOT replacing the life-ring/crossed-anchors emblem or the racing stripe as the service's actual marks). | https://commons.wikimedia.org/wiki/File:Wordmark_of_the_United_States_Coast_Guard.png | https://upload.wikimedia.org/wikipedia/commons/6/6e/Wordmark_of_the_United_States_Coast_Guard.png | 200 (image/png) | Public domain — USCG work, source media.defense.gov/2023/Mar/08/2003174341 | N/A — rejected | 2026-07-12 | REJECTED under the recruiting-slogan-mark rule: this is the 2023 "Protect/Defend/Save" recruiting-campaign logo, not the Coast Guard's general organizational mark, despite passing the seal test. Flagging this as a judgment call: the graphic itself (not just the tagline text) was created as recruiting material per the Coast Guard's own description, so no "clean" crop of it avoids the recruiting-campaign taint. |
+
+**Coast Guard Reserve:** re-searched (`"Coast Guard Reserve" wordmark OR logo -seal`) — no results returned any
+candidate not already catalogued in the Rejected table above. Corroborates the original finding: no distinct
+non-seal mark for the Reserve component exists on Commons.
+
+**Net result of this pass:** still NONE FOUND for both Coast Guard and Coast Guard Reserve. The Coast Guard's
+only two public non-seal graphic devices — the racing stripe and the 2023 recruiting wordmark — both fail this
+task's binding rules (seal-inset device; recruiting-campaign origin, respectively).
+
 ## Verified via direct file inspection (not downloaded, reference only)
 
 | File | Finding |

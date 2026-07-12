@@ -8,6 +8,7 @@ import {
 import { BranchLogo } from '../branding/Logo';
 import { BRANCH_THEME } from '../lib/types';
 import { Chip, DataPending, Note, SectionHead } from '../components/Bits';
+import { shortClearance, shortCode, shortLineScore } from '../lib/format';
 import { MarkDisclaimer } from '../components/Disclaimer';
 
 export default function Cluster() {
@@ -86,6 +87,18 @@ export default function Cluster() {
             {specs.map((s) => {
               const b = branchIdOf(s);
               const theme = b ? BRANCH_THEME[b] : undefined;
+              // The research data puts full sourced prose in these fields, which
+              // is correct for the data and wrong for a chip. Summarise for the
+              // card; the full text lives on the detail page.
+              const gate = shortLineScore(s.entry_requirements?.asvab_line_score);
+              const clearance = shortClearance(
+                s.entry_requirements?.security_clearance,
+              );
+              const weeks =
+                (s.training_pipeline ?? []).reduce(
+                  (n, st) => n + (Number(st.length_weeks) || 0),
+                  0,
+                ) || null;
               return (
                 <Link
                   key={s.id}
@@ -100,24 +113,27 @@ export default function Cluster() {
                       : undefined
                   }
                 >
-                  {b ? <BranchLogo branch={b} size={54} /> : null}
-                  <div>
+                  {b ? <BranchLogo branch={b} size={44} /> : null}
+                  <div className="spec-body">
                     <div className="spec-code">
-                      {s.branch} · {s.code} · {s.track}
+                      {s.branch} · {shortCode(s.code) ?? '—'} · {s.track}
                     </div>
                     <h3>{s.name}</h3>
-                    {s.entry_requirements?.asvab_line_score ? (
-                      <span className="spec-gate">
-                        {s.entry_requirements.asvab_line_score}
-                      </span>
-                    ) : null}
-                    {s.entry_requirements?.security_clearance ? (
-                      <div style={{ marginTop: 6 }}>
-                        <Chip tone="warn">
-                          Clearance: {s.entry_requirements.security_clearance}
-                        </Chip>
-                      </div>
-                    ) : null}
+
+                    <div className="spec-tags">
+                      {gate ? (
+                        <span
+                          className="spec-gate"
+                          title={String(s.entry_requirements.asvab_line_score)}
+                        >
+                          {gate}
+                        </span>
+                      ) : null}
+                      {clearance ? (
+                        <Chip tone="warn">{clearance}</Chip>
+                      ) : null}
+                      {weeks ? <Chip>{weeks} wk pipeline</Chip> : null}
+                    </div>
                   </div>
                 </Link>
               );

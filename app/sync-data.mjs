@@ -53,6 +53,14 @@ const SEAL = /seal/i;
  * A seal is identified by the official device ring: a circular border carrying
  * the service name, a founding date and/or a Latin motto (e.g. "SEMPER PARATUS
  * 1790", "DEPARTMENT OF THE AIR FORCE MMXIX", "DEPARTMENT OF THE NAVY").
+ *
+ * CAUTION, learned the hard way: a founding date alone is NOT a seal signature.
+ * The Coast Guard EMBLEM legitimately carries a "UNITED STATES COAST GUARD /
+ * 1790" ring and is permitted (MEDIUM risk). What makes the Coast Guard SEAL a
+ * seal is the rope border, the blue disc, and the SEMPER PARATUS motto.
+ *
+ * And note: grepping an SVG for seal text finds nothing when the lettering has
+ * been outlined into paths. Rendering and LOOKING is the only reliable check.
  */
 const CONFIRMED_SEALS = new Set([
   'Marine-logo.jpg',   // "DEPARTMENT OF THE NAVY / UNITED STATES MARINE CORPS" + rope border
