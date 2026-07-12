@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { Feedback } from '../components/Feedback';
 import { WhoMadeThis } from '../components/WhoMadeThis';
 import { allSpecialties, clusters, specialtyFiles, taxonomy } from '../lib/data';
 import { jobCounts } from '../lib/catalog';
@@ -47,7 +48,7 @@ export default function About() {
           <h3>What it will not do</h3>
           <TickList
             items={[
-              'It will not sign you up. No form, no account, nothing sent to a recruiter, ever.',
+              'It will not sign you up. No account, nothing sent to a recruiter, ever. The feedback box below reaches me and nobody else.',
               'It will not tell you that one branch is better than another. They are different. The order things appear in on this site is deliberately rotated so no service is permanently listed first or last.',
               'It will not give you a score, a rank, or a "match percentage" for a job. A number next to a career reads as a grade, and nothing here supports grading them.',
               'It will not invent a figure. Where something could not be verified, it says UNVERIFIED — and there are ' + unverifiedCount + ' such items on record.',
@@ -100,6 +101,7 @@ export default function About() {
           Methodology, sources, the full UNVERIFIED register &amp; legal notice →
         </Link>
       </p>
+      <Feedback />
     </div>
   );
 }

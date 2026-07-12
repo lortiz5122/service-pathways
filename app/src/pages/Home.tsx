@@ -72,7 +72,7 @@ export default function Home() {
           <div className="ts-main">
             <b>This is not an official military recruitment site.</b> It was compiled
             by <b>a veteran and a father</b> who recently helped his own son navigate
-            these careers. Nobody here is trying to enlist you — no form, no account,
+            these careers. Nobody here is trying to enlist you — no sign-up, no account,
             nothing sent to a recruiter.
           </div>
           <span className="ts-link">Who made this, and why →</span>
@@ -111,8 +111,8 @@ export default function Home() {
           </ol>
 
           <p className="startnote">
-            Nothing here signs you up for anything. No account, no form, nothing sent
-            to a recruiter.
+            Nothing here signs you up for anything. No account, no sign-up, nothing
+            sent to a recruiter.
           </p>
         </div>
 

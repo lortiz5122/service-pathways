@@ -19,8 +19,9 @@ export function WhoMadeThis({ compact = false }: { compact?: boolean }) {
         <b>This is not an official military recruitment site.</b> It is not
         affiliated with, endorsed by, or authorised by the Department of War, the
         Department of Homeland Security, or any branch of the U.S. Armed Forces.{' '}
-        <b>Nobody here is trying to enlist you.</b> There is no form, no account, and
-        nothing you do here is sent to a recruiter.
+        <b>Nobody here is trying to enlist you.</b> There is no sign-up, no account,
+        and nothing you do here is sent to a recruiter. The only form on the site is
+        an optional feedback box — it reaches me, and nobody else.
       </p>
 
       <p>

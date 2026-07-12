@@ -11,7 +11,7 @@ const { render } = await vite.ssrLoadModule('/src/ssr-entry.tsx');
 const data = await vite.ssrLoadModule('/src/lib/data.ts');
 
 const routes = [
-  '/', '/explore', '/jobs', '/branches', '/prep', '/pay', '/lifecycle', '/about', '/methodology',
+  '/', '/explore', '/jobs', '/branches', '/prep', '/pay', '/lifecycle', '/about', '/methodology', '/admin',
   ...data.clusters.map((c) => `/interest/${c.id}`),
   ...data.allSpecialties.slice(0, 15).map((s) => `/specialty/${s.id}`),
 ];

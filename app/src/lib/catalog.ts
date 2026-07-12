@@ -32,6 +32,8 @@ export type CatalogEntry = {
   clearance?: string | null;
   occfld?: string;
   source?: string;
+  /** Set when the job exists on paper but is NOT an open accession path yet. */
+  not_open_yet?: string;
   depth: 'catalog';
 };
 
@@ -48,6 +50,8 @@ export type Job = {
   what?: string;
   asvab?: string | null;
   clearance?: string | null;
+  /** Set when the job is not an open accession path yet. */
+  notOpenYet?: string;
   /** The full record, when we have one. */
   record?: SpecialtyRecord;
 };
@@ -153,6 +157,7 @@ const catalogJobs: Job[] = catalogEntries
     what: e.what_it_is,
     asvab: e.asvab ?? null,
     clearance: e.clearance ?? null,
+    notOpenYet: e.not_open_yet,
   }));
 
 export const allJobs: Job[] = [...deepJobs, ...catalogJobs];

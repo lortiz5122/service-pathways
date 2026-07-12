@@ -11,6 +11,7 @@ import Explore from './pages/Explore';
 import Pay from './pages/Pay';
 import Jobs from './pages/Jobs';
 import Methodology from './pages/Methodology';
+import Admin from './pages/Admin';
 import { AppMark } from './branding/Emblem';
 import { SiteDisclaimer } from './components/Disclaimer';
 import { RESEARCH_DATE } from './lib/data';
@@ -77,6 +78,8 @@ export default function App() {
           <Route path="/lifecycle" element={<Lifecycle />} />
           <Route path="/about" element={<About />} />
           <Route path="/methodology" element={<Methodology />} />
+          {/* Unlisted on purpose: private, and there is no nav link to it. */}
+          <Route path="/admin" element={<Admin />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>

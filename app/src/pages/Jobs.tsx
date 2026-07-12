@@ -189,6 +189,7 @@ function JobRow({ job }: { job: Job }) {
         {gate ? <Chip tone="brand">{gate}</Chip> : null}
         {clr ? <Chip tone="warn">{clr}</Chip> : null}
         {job.track === 'officer' ? <Chip tone="alert">Officer</Chip> : null}
+        {job.notOpenYet ? <Chip tone="warn">Not open yet</Chip> : null}
         {deep ? (
           <Chip tone="ok">Full record</Chip>
         ) : (
@@ -203,7 +204,7 @@ function JobRow({ job }: { job: Job }) {
       {inner}
     </Link>
   ) : (
-    <div className="jobrow" title={job.what ?? undefined}>
+    <div className="jobrow" title={job.notOpenYet ?? job.what ?? undefined}>
       {inner}
     </div>
   );

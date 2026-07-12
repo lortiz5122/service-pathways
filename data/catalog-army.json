@@ -1191,7 +1191,8 @@
       "asvab": null,
       "clearance": "Top Secret",
       "source": "army.mil (official, retrieved 2026-07-12)",
-      "depth": "catalog"
+      "depth": "catalog",
+      "not_open_yet": "Opens 1 Oct 2026 — you cannot enlist into this today."
     },
     {
       "code": "42A",
