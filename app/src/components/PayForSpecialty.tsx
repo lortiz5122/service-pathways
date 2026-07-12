@@ -15,15 +15,15 @@ import { bonusForSpecialty, BONUS_SOURCE } from '../lib/bonuses';
 import { MilitaryVsCivilian } from './MilitaryVsCivilian';
 import { PackageCalculator } from './PackageCalculator';
 import { Chip, Note, SectionHead } from './Bits';
+import { shortPaygrade } from '../lib/format';
 import { money, type SpecialtyRecord } from '../lib/types';
 
 const usd = (n: number) => `$${Math.round(n).toLocaleString('en-US')}`;
 
 /** "E-3" out of anything the research put in paygrade_entry. */
 function entryGrade(s: SpecialtyRecord): string | null {
-  const raw = String(s.pay_and_compensation?.paygrade_entry ?? '');
-  const m = raw.match(/\b([EWO]-\d)\b/i);
-  return m ? m[1].toUpperCase() : null;
+  const p = shortPaygrade(s.pay_and_compensation?.paygrade_entry);
+  return p ? p.split('/')[0] : null;
 }
 
 /** Special pays this specialty plausibly touches — matched on its own text. */

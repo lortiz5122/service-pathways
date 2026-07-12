@@ -148,3 +148,60 @@ export function firstSentence(v: unknown, max = 150): string | null {
   const cut = s.split(/(?<=\.)\s/)[0];
   return cut.length > max ? `${cut.slice(0, max - 1).trimEnd()}…` : cut;
 }
+
+/**
+ * The entry paygrade, as a TOKEN — "E-1", "O-2", "E-4/E-5".
+ *
+ * The research data routinely puts explanatory PROSE in this field ("E-1 (E-3
+ * possible via the Coast Guard advanced-paygrade programme — college credits,
+ * JROTC/ROTC, scouting...)"). Piping that straight into a 60px display tile
+ * rendered a 200-character sentence in headline type. Same class of bug as the
+ * chip that became an ellipse, and the "OF 40" that was the word "of".
+ *
+ * The lesson, applied here permanently: a UI slot sized for a token must EXTRACT
+ * a token. It must never trust the field to be short — not even when I am the one
+ * who wrote the field.
+ */
+export function shortPaygrade(v: unknown): string | null {
+  if (!v) return null;
+  const s = String(v).trim();
+  if (!s) return null;
+  const m = s.match(/\b([EWO]-\d)\b(?:\s*\/\s*([EWO]-\d))?/);
+  if (m) return m[2] ? `${m[1]}/${m[2]}` : m[1];
+  return s.length <= 10 ? s : null;
+}
+
+/**
+ * Total training weeks — and whether that total can be trusted.
+ *
+ * A stage with an unknown length contributes 0, which silently produces a
+ * confident-looking wrong number. The Coast Guard rescue-swimmer pipeline showed
+ * "8 weeks of training" — one of the most punishing courses in the U.S. military
+ * — because its 'A' School length was unverified and counted as zero. A confident
+ * number computed from an unknown is worse than no number.
+ */
+export function trainingWeeks(stages: { length_weeks?: number | string }[] | undefined): {
+  weeks: number;
+  complete: boolean;
+  unknownStages: number;
+  label: string;
+} {
+  const list = stages ?? [];
+  let weeks = 0;
+  let unknown = 0;
+  for (const st of list) {
+    const n = Number(st?.length_weeks);
+    if (Number.isFinite(n) && n > 0) weeks += n;
+    else unknown++;
+  }
+  const complete = list.length > 0 && unknown === 0;
+  const label =
+    list.length === 0
+      ? 'Not published'
+      : complete
+        ? `${weeks}`
+        : weeks > 0
+          ? `${weeks}+`
+          : '—';
+  return { weeks, complete, unknownStages: unknown, label };
+}

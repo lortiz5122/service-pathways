@@ -8,7 +8,7 @@ import {
 import { BranchLogo } from '../branding/Logo';
 import { BRANCH_THEME } from '../lib/types';
 import { Chip, DataPending, Note, SectionHead } from '../components/Bits';
-import { shortClearance, shortCode, shortLineScore } from '../lib/format';
+import { shortClearance, shortCode, shortLineScore, trainingWeeks } from '../lib/format';
 import { entryPath } from '../lib/entry';
 import { MarkDisclaimer } from '../components/Disclaimer';
 
@@ -84,27 +84,27 @@ export default function Cluster() {
       ) : (
         <>
           <MarkDisclaimer />
-          <div className="grid g2">
-            {specs.map((s) => {
-              const b = branchIdOf(s);
+
+          {/* Split by ENTRY PATH, not just chipped. A 17-year-old scanning this
+              list must not read "Naval Aviator" as something they can sign up
+              for. A chip is easy to miss; a heading is not. */}
+          {(() => {
+            const open = specs.filter((x) => entryPath(x).openToHighSchool);
+            const gated = specs.filter((x) => !entryPath(x).openToHighSchool);
+
+            const Card = ({ x }: { x: (typeof specs)[number] }) => {
+              const b = branchIdOf(x);
               const theme = b ? BRANCH_THEME[b] : undefined;
-              // The research data puts full sourced prose in these fields, which
-              // is correct for the data and wrong for a chip. Summarise for the
-              // card; the full text lives on the detail page.
-              const gate = shortLineScore(s.entry_requirements?.asvab_line_score);
+              const gate = shortLineScore(x.entry_requirements?.asvab_line_score);
               const clearance = shortClearance(
-                s.entry_requirements?.security_clearance,
+                x.entry_requirements?.security_clearance,
               );
-              const weeks =
-                (s.training_pipeline ?? []).reduce(
-                  (n, st) => n + (Number(st.length_weeks) || 0),
-                  0,
-                ) || null;
-              const ep = entryPath(s);
+              const tw = trainingWeeks(x.training_pipeline);
+              const ep = entryPath(x);
               return (
                 <Link
-                  key={s.id}
-                  to={`/specialty/${s.id}`}
+                  key={x.id}
+                  to={`/specialty/${x.id}`}
                   className="spec-card"
                   style={
                     theme
@@ -118,34 +118,81 @@ export default function Cluster() {
                   {b ? <BranchLogo branch={b} size={44} /> : null}
                   <div className="spec-body">
                     <div className="spec-code">
-                      {s.branch} · {shortCode(s.code) ?? '—'} · {s.track}
+                      {x.branch} · {shortCode(x.code) ?? '—'} · {x.track}
                     </div>
-                    <h3>{s.name}</h3>
-
+                    <h3>{x.name}</h3>
                     <div className="spec-tags">
                       {!ep.openToHighSchool ? (
                         <Chip tone="alert">
-                          {ep.kind === 'warrant' ? 'Warrant Officer' : 'Officer — degree required'}
+                          {ep.kind === 'warrant'
+                            ? 'Warrant Officer'
+                            : ep.kind === 'in-service'
+                              ? 'Not entry-level'
+                              : 'Degree required'}
                         </Chip>
                       ) : null}
                       {ep.usesAsvab && gate ? (
                         <span
                           className="spec-gate"
-                          title={String(s.entry_requirements.asvab_line_score)}
+                          title={String(x.entry_requirements.asvab_line_score)}
                         >
                           {gate}
                         </span>
                       ) : null}
-                      {clearance ? (
-                        <Chip tone="warn">{clearance}</Chip>
+                      {clearance ? <Chip tone="warn">{clearance}</Chip> : null}
+                      {tw.weeks > 0 ? (
+                        <Chip>
+                          {tw.label} wk pipeline
+                        </Chip>
                       ) : null}
-                      {weeks ? <Chip>{weeks} wk pipeline</Chip> : null}
                     </div>
                   </div>
                 </Link>
               );
-            })}
-          </div>
+            };
+
+            return (
+              <>
+                {open.length ? (
+                  <>
+                    <h3 className="grouphead">
+                      You can enter these straight from high school
+                    </h3>
+                    <div className="grid g2">
+                      {open.map((x) => (
+                        <Card key={x.id} x={x} />
+                      ))}
+                    </div>
+                  </>
+                ) : null}
+
+                {gated.length ? (
+                  <>
+                    <h3 className="grouphead gated">
+                      You cannot enter these from high school
+                    </h3>
+                    <Note tone="alert">
+                      <div>
+                        <b>These are not enlistment options.</b> They require a
+                        degree and a commission (officer), a selection board from
+                        within the ranks (warrant officer), or reclassification once
+                        you are already serving. There is no ASVAB score that opens
+                        them. They are listed because they are real careers in this
+                        field — and because you should know now that the route to
+                        them starts with a degree or with enlisting into something
+                        else first.
+                      </div>
+                    </Note>
+                    <div className="grid g2">
+                      {gated.map((x) => (
+                        <Card key={x.id} x={x} />
+                      ))}
+                    </div>
+                  </>
+                ) : null}
+              </>
+            );
+          })()}
         </>
       )}
 

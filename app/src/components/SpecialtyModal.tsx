@@ -7,6 +7,7 @@ import { branchById, branchIdOf } from '../lib/data';
 import { BRANCH_THEME, money, type SpecialtyRecord } from '../lib/types';
 import { RECRUITERS, RECRUITER_TRUTH, ASVAB_OFFICIAL } from '../data/recruiters';
 import { BONUS_SOURCE, bonusForSpecialty } from '../lib/bonuses';
+import { shortCode, shortPaygrade, trainingWeeks } from '../lib/format';
 
 type Tab = 'job' | 'service' | 'bonuses' | 'recruiter';
 
@@ -195,7 +196,7 @@ export function SpecialtyModal({
   const rec = bid ? RECRUITERS[bid] : undefined;
 
   const pipeline = s.training_pipeline ?? [];
-  const weeks = pipeline.reduce((n, st) => n + (Number(st.length_weeks) || 0), 0);
+  const tw = trainingWeeks(pipeline);
 
   return (
     <Modal open={open} onClose={onClose} labelledBy="spec-modal-title">
@@ -213,7 +214,7 @@ export function SpecialtyModal({
           {bid ? <BranchLogo branch={bid} size={48} /> : null}
           <div>
             <div className="spec-code">
-              {s.branch} · {s.code} · {s.track}
+              {s.branch} · {shortCode(s.code) ?? '—'} · {s.track}
             </div>
             <h2 id="spec-modal-title">{s.name}</h2>
           </div>
@@ -242,12 +243,24 @@ export function SpecialtyModal({
             <>
               <div className="grid g3">
                 <div className="card stat">
-                  <div className="n">{s.pay_and_compensation?.paygrade_entry ?? '—'}</div>
+                  <div className="n">
+                    {shortPaygrade(s.pay_and_compensation?.paygrade_entry) ?? '—'}
+                  </div>
                   <div className="l">Entry paygrade</div>
+                  {String(s.pay_and_compensation?.paygrade_entry ?? '').length > 10 ? (
+                    <div className="s">Higher entry may be possible — see below</div>
+                  ) : null}
                 </div>
                 <div className="card stat">
-                  <div className="n">{weeks || '—'}</div>
+                  <div className="n">{tw.label}</div>
                   <div className="l">Weeks of training</div>
+                  {!tw.complete && pipeline.length ? (
+                    <div className="s warnish">
+                      At least. {tw.unknownStages} stage
+                      {tw.unknownStages === 1 ? '' : 's'} unverified — the real
+                      pipeline is longer.
+                    </div>
+                  ) : null}
                 </div>
                 <div className="card stat">
                   <div className="n">

@@ -1181,14 +1181,15 @@
         }
       ],
       "pay_and_compensation": {
-        "paygrade_entry": "E-1 (advanced entry paygrade possible \u2014 see /pay)",
+        "paygrade_entry": "E-1",
         "base_pay_monthly_usd": 2407.2,
         "bah_estimate_monthly_usd": "varies by duty station",
         "bas_monthly_usd": 476.95,
         "total_compensation_estimate_annual_usd": 34610,
         "methodology_note": "computed, not authoritative: E-1 <2yr basic pay + enlisted BAS x 12. BAH excluded. Note these specialties draw HAZARDOUS DUTY INCENTIVE PAY (aerial flight $250/mo air crew; parachute $150-240/mo for PJ) \u2014 official DFAS rates, see data/pay-official.json.",
         "source": "data/pay-tables.json, data/pay-official.json",
-        "retrieved_date": "2026-07-12"
+        "retrieved_date": "2026-07-12",
+        "paygrade_entry_note": "E-1 (advanced entry paygrade possible \u2014 see /pay)"
       },
       "bonuses": {
         "enlistment_bonus_range_usd": null,

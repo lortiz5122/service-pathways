@@ -6,6 +6,7 @@ import { Chip, Note, SectionHead, SourceNote, Value } from '../components/Bits';
 import { MarkDisclaimer } from '../components/Disclaimer';
 import { PayForSpecialty } from '../components/PayForSpecialty';
 import { entryPath } from '../lib/entry';
+import { shortCode, trainingWeeks } from '../lib/format';
 
 /** Renders any of the loosely-typed lifecycle blocks as a definition list. */
 function Block({ obj }: { obj: Record<string, unknown> }) {
@@ -59,10 +60,7 @@ export default function Specialty() {
   const b = branchIdOf(s);
   const theme = b ? BRANCH_THEME[b] : undefined;
   const pipeline = s.training_pipeline ?? [];
-  const totalWeeks = pipeline.reduce(
-    (n, st) => n + (Number(st.length_weeks) || 0),
-    0,
-  );
+  const tw = trainingWeeks(pipeline);
 
   return (
     <div
@@ -84,7 +82,7 @@ export default function Specialty() {
         {b ? <BranchLogo branch={b} size={82} /> : null}
         <div>
           <div className="spec-code">
-            {s.branch} · {s.code} · {s.track}
+            {s.branch} · {shortCode(s.code) ?? '—'} · {s.track}
           </div>
           <h1>{s.name}</h1>
           <div className="chiprow" style={{ marginTop: 10 }}>
@@ -142,8 +140,9 @@ export default function Specialty() {
                 ))}
               </div>
               <p className="srcline">
-                Total pipeline: about {totalWeeks} weeks before you are working the
-                job.
+                {tw.complete
+                  ? `Total pipeline: about ${tw.weeks} weeks before you are working the job.`
+                  : `Total pipeline: AT LEAST ${tw.weeks} weeks — ${tw.unknownStages} stage${tw.unknownStages === 1 ? '' : 's'} could not be verified, so the real figure is longer. It is not guessed.`}
               </p>
             </>
           ) : (
