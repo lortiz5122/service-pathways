@@ -52,11 +52,29 @@ export type BranchBonus = {
   source_retrieved?: string;
 };
 
+export type BonusMechanics = {
+  how_it_is_paid: { under_20k: string; over_20k: string; plain: string };
+  tax: string;
+  recoupment: { plain: string; detail: string; why_it_matters: string };
+  adjusted_regularly: string;
+  figures_warning: string;
+};
+
+export type Reenlistment = {
+  name: string;
+  eligibility: string[];
+  maximum: string;
+  payment: string;
+  note: string;
+};
+
 type File = {
   source: { title: string; publisher: string; url: string; published_date: string; tier: string; tier_note: string };
   hard_caveats: string[];
   branches: BranchBonus[];
   unverified: string[];
+  mechanics?: BonusMechanics;
+  reenlistment?: Reenlistment;
 };
 
 const F = raw as unknown as File;
@@ -65,6 +83,8 @@ export const BONUS_SOURCE = F.source;
 export const BONUS_CAVEATS = F.hard_caveats ?? [];
 export const BONUS_UNVERIFIED = F.unverified ?? [];
 export const BONUS_BRANCHES = F.branches ?? [];
+export const BONUS_MECHANICS = F.mechanics;
+export const REENLISTMENT = F.reenlistment;
 
 export const bonusForBranch = (b: BranchId): BranchBonus | undefined =>
   BONUS_BRANCHES.find((x) => x.branch === b);

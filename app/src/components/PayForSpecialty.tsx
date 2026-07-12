@@ -11,7 +11,7 @@ import {
   basicPay,
   specialPayAmount,
 } from '../lib/paycalc';
-import { bonusForSpecialty, BONUS_SOURCE } from '../lib/bonuses';
+import { bonusForSpecialty, BONUS_SOURCE, BONUS_MECHANICS, REENLISTMENT } from '../lib/bonuses';
 import { MilitaryVsCivilian } from './MilitaryVsCivilian';
 import { PackageCalculator } from './PackageCalculator';
 import { Chip, Note, SectionHead } from './Bits';
@@ -398,12 +398,74 @@ export function PayForSpecialty({ s }: { s: SpecialtyRecord }) {
             </div>
           ) : null}
 
+          {BONUS_MECHANICS ? (
+            <div className="card" style={{ marginTop: 12 }}>
+              <h3>How a bonus actually reaches you</h3>
+              <p>
+                This is the part nobody explains, and it changes what the headline
+                number is worth.
+              </p>
+              <dl className="deflist">
+                <div>
+                  <dt>Under $20,000</dt>
+                  <dd>{BONUS_MECHANICS.how_it_is_paid.under_20k}</dd>
+                </div>
+                <div>
+                  <dt>$20,000 or more</dt>
+                  <dd>{BONUS_MECHANICS.how_it_is_paid.over_20k}</dd>
+                </div>
+                <div>
+                  <dt>Tax</dt>
+                  <dd>{BONUS_MECHANICS.tax}</dd>
+                </div>
+              </dl>
+
+              <Note tone="alert">
+                <div>
+                  <b>{BONUS_MECHANICS.recoupment.plain}</b>{' '}
+                  {BONUS_MECHANICS.recoupment.detail}
+                  <br />
+                  <br />
+                  <b>{BONUS_MECHANICS.recoupment.why_it_matters}</b>
+                </div>
+              </Note>
+            </div>
+          ) : null}
+
+          {REENLISTMENT ? (
+            <div className="card" style={{ marginTop: 12 }}>
+              <h3>{REENLISTMENT.name} — where the money actually gets large</h3>
+              <p>{REENLISTMENT.note}</p>
+              <div className="grid g2" style={{ marginTop: 12 }}>
+                <div>
+                  <div className="k">Maximum</div>
+                  <div className="v" style={{ fontSize: 17, lineHeight: 1.4 }}>
+                    {REENLISTMENT.maximum}
+                  </div>
+                </div>
+                <div>
+                  <div className="k">How it is paid</div>
+                  <div className="v" style={{ fontSize: 15, lineHeight: 1.4 }}>
+                    {REENLISTMENT.payment}
+                  </div>
+                </div>
+              </div>
+              <h4 className="minihead" style={{ marginTop: 14 }}>
+                To be eligible
+              </h4>
+              <ul className="ticklist">
+                {REENLISTMENT.eligibility.map((e, i) => (
+                  <li key={i}>{e}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+
           <Note tone="alert">
             <div>
               <b>The only bonus that exists is the one in your contract.</b> If it is
               not written into your DD Form 4 and its annexes before you sign, you
-              will not get it. Bonuses are normally paid in instalments after
-              training, not as a lump sum at signing.
+              will not get it.
             </div>
           </Note>
 

@@ -21,7 +21,7 @@ import {
 import { Note, SectionHead, TickList } from '../components/Bits';
 import { AdvancedEntry } from '../components/AdvancedEntry';
 import { PackageCalculator } from '../components/PackageCalculator';
-import { WhatItsWorth } from '../components/WhatItsWorth';
+import { BenefitsPackage } from '../components/BenefitsPackage';
 
 const usd = (n: number) =>
   `$${Math.round(n).toLocaleString('en-US')}`;
@@ -326,7 +326,7 @@ export default function Pay() {
       ) : null}
 
       {/* --------------------------------------- what it's worth */}
-      <WhatItsWorth />
+      <BenefitsPackage />
 
       {/* ----------------------------------------------- caveats */}
       {COMPARISON_CAVEATS.length ? (

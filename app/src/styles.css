@@ -2444,3 +2444,40 @@ table tr.hit td { color: var(--ink); }
 
 .footlinks a { color: var(--ink-3); text-decoration: none; }
 .footlinks a:hover { color: var(--ink-2); text-decoration: underline; }
+
+/* ------------------------------------------------------ benefits package */
+
+.benefit { border-top: 3px solid var(--ok); }
+
+.benefit-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.benefit-head h3 { margin: 0 0 6px; }
+
+.benefit-figure {
+  flex-shrink: 0;
+  font-family: var(--stencil);
+  font-size: 19px;
+  letter-spacing: 0.02em;
+  color: var(--ok);
+  background: color-mix(in srgb, var(--ok) 12%, transparent);
+  border: 1px solid var(--ok);
+  border-radius: var(--radius-sm);
+  padding: 6px 12px;
+  text-align: center;
+  line-height: 1.2;
+  max-width: 42%;
+}
+
+.benefit-why {
+  margin-top: 10px !important;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
+.benefit-why b { color: var(--ok); }

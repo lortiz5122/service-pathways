@@ -16,7 +16,10 @@
     "A maximum is not an offer. The headline number is the ceiling for the single most in-demand specialty with the longest contract \u2014 it is not what a typical enlistee receives.",
     "Bonuses are usually paid in instalments after you reach the fleet or complete training, not as a lump sum at signing.",
     "The source article itself carries a reader correction flagging its Navy comparison table as potentially inaccurate, and recommends checking navy.com or navycs.com. That warning is carried forward here rather than hidden.",
-    "Official Army wording: initial bonus payments are typically made once you have completed initial training. You do not get a cheque at signing."
+    "Official Army wording: initial bonus payments are typically made once you have completed initial training. You do not get a cheque at signing.",
+    "A bonus under $20,000 is paid as a lump sum AFTER initial training. $20,000 or more is paid HALF after training and the rest in annual instalments. You are not handed a cheque at signing.",
+    "Bonuses are TAXED. The quoted number is gross.",
+    "If you do not complete the terms, the bonus can be CLAWED BACK \u2014 you may have to repay part or all of it. A bonus is payment for service you have not yet performed."
   ],
   "branches": [
     {
@@ -328,7 +331,43 @@
     "The Military.com article's own reader correction flags its Navy comparison table as potentially inaccurate. Navy figures carry extra uncertainty.",
     "Air Force per-AFSC bonus amounts are not published in the source \u2014 only eligible fields and an overall maximum.",
     "Space Force enlistment bonuses: no data found at all, from either source.",
-    "Payment schedules (lump sum vs instalments), tax treatment, and clawback conditions on separation are not covered by either source and were not researched."
+    "Payment schedules (lump sum vs instalments), tax treatment, and clawback conditions on separation are not covered by either source and were not researched.",
+    "MilitaryMoney (militarymoney.com) dollar figures are OLDER and conflict with current official figures; only its structural MECHANICS (payment schedule, tax, recoupment, SRB rules) are used. Its amounts are deliberately not used."
   ],
-  "completion_accountability": "6 branches; 5 with figures. Coast Guard is OFFICIALLY sourced (gocoastguard.com); the other four are secondary (Military.com, 2026-06-15). Space Force has no bonus data from either source and is flagged rather than padded. One source conflict (Coast Guard max: $75k secondary vs $60k official) is disclosed, not reconciled."
+  "completion_accountability": "6 branches; 5 with figures. Coast Guard is OFFICIALLY sourced (gocoastguard.com); the other four are secondary (Military.com, 2026-06-15). Space Force has no bonus data from either source and is flagged rather than padded. One source conflict (Coast Guard max: $75k secondary vs $60k official) is disclosed, not reconciled.",
+  "mechanics": {
+    "source": {
+      "publisher": "MilitaryMoney",
+      "url": "https://www.militarymoney.com/pay/bonuses/",
+      "tier": "SECONDARY",
+      "retrieved_date": "2026-07-12"
+    },
+    "figures_warning": "This source's DOLLAR AMOUNTS are older and conflict with current official figures (it self-dates its Navy section to Summer 2022, and lists Air Rescue Swimmer at $24,000 where the current secondary figure is $30,000, and Nuclear Field at $38,000 where the current figure is $75,000). Its dollar amounts are NOT used. Only its MECHANICS \u2014 how bonuses are paid, taxed and clawed back \u2014 are used, because those are structural and stable.",
+    "how_it_is_paid": {
+      "under_20k": "A bonus under $20,000 is normally paid as a LUMP SUM \u2014 but only after you complete initial training. Not at signing.",
+      "over_20k": "A bonus of $20,000 or more is normally paid HALF up front (after initial training) and the REST IN ANNUAL INSTALMENTS on your enlistment anniversary. You must remain in good standing to receive each anniversary payment.",
+      "plain": "The headline number is almost never a cheque you receive at signing. Budget accordingly."
+    },
+    "tax": "Bonuses ARE taxable and are subject to withholding. The number you are quoted is a GROSS figure \u2014 what lands in your account is less.",
+    "recoupment": {
+      "plain": "If you do not complete the terms of the bonus agreement, you may have to REPAY part or all of it.",
+      "detail": "This is called recoupment or clawback. It applies if you separate early, fail to qualify or maintain the skill, or lose the qualification the bonus was paid for. Repayment also creates a tax mess \u2014 if the repayment falls in a different tax year from the payment, you may need an amended return.",
+      "why_it_matters": "A bonus is not a gift. It is payment for a term of service you have not yet performed. If you leave early, the money can be taken back."
+    },
+    "adjusted_regularly": "Enlistment and reenlistment bonuses are routinely adjusted as recruiting needs change. Any figure \u2014 including on this site \u2014 can be out of date by the time you sign."
+  },
+  "reenlistment": {
+    "name": "Selective Reenlistment / Retention Bonus (SRB)",
+    "eligibility": [
+      "17+ months of continuous active duty (and not more than 14 years).",
+      "Qualified in a critical military skill.",
+      "Not receiving nuclear training pay.",
+      "Reenlist or extend for a minimum of 3 years."
+    ],
+    "maximum": "Up to $25,000 per year of reenlistment, topping out at $100,000 for a four-year reenlistment. A member may qualify for up to TWO SRBs in a career, for a maximum of $200,000 total.",
+    "payment": "Typically 50% as a lump sum at reenlistment, with the remainder in equal annual instalments.",
+    "note": "This is a MID-CAREER decision, not an entry one. It is here because the reenlistment fork \u2014 usually at the end of your first term \u2014 is where the money actually gets large, and almost nobody tells a 17-year-old that.",
+    "source": "militarymoney.com (SECONDARY), retrieved 2026-07-12",
+    "tier": "SECONDARY"
+  }
 }
