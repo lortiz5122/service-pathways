@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import {
-  ADVANCED_ENTRY,
   BAH,
   BAH_EXAMPLES,
   BAS,
@@ -24,6 +23,8 @@ import {
   type Housing,
 } from '../lib/paycalc';
 import { Chip, Note, SectionHead, TickList } from '../components/Bits';
+import { AdvancedEntry } from '../components/AdvancedEntry';
+import { WhatItsWorth } from '../components/WhatItsWorth';
 
 const usd = (n: number) =>
   `$${Math.round(n).toLocaleString('en-US')}`;
@@ -279,7 +280,6 @@ function Calculator() {
 export default function Pay() {
   const [track, setTrack] = useState<'enlisted' | 'officer'>('enlisted');
   const grades = track === 'enlisted' ? ENLISTED_GRADES : OFFICER_GRADES;
-  const programs = ADVANCED_ENTRY.programs ?? [];
   const promo = PROMOTION.enlisted ?? [];
 
   return (
@@ -350,50 +350,7 @@ export default function Pay() {
       </div>
 
       {/* ------------------------------------- 2. advanced entry grade */}
-      <SectionHead
-        title="2 · How to enlist above E-1"
-        lede="This is the most actionable thing on this page, and almost nobody tells 16-year-olds about it. Things you may have already done can put you in at a higher paygrade — permanently, from day one, compounding for your whole career."
-      />
-
-      {programs.length ? (
-        <>
-          <div className="grid g2">
-            {programs.map((p, i) => (
-              <div key={i} className="card adv">
-                <div className="adv-head">
-                  <div>
-                    <h3>{p.program}</h3>
-                    <div className="chiprow" style={{ marginTop: 6 }}>
-                      {(p.branches ?? []).map((b) => (
-                        <Chip key={b}>{b}</Chip>
-                      ))}
-                    </div>
-                  </div>
-                  <span className="adv-grade">{p.grants}</span>
-                </div>
-                <p style={{ marginTop: 12 }}>
-                  <b>What it takes:</b> {p.requirement}
-                </p>
-                {p.notes ? <p style={{ marginTop: 8 }}>{p.notes}</p> : null}
-                {p.stackable === false ? (
-                  <p className="srcline">Does not stack with other advancements.</p>
-                ) : null}
-              </div>
-            ))}
-          </div>
-
-          <Note tone="alert">
-            <div>
-              <b>{String(ADVANCED_ENTRY.caveat ?? '')}</b> An advanced paygrade is
-              worth real money over a career — and like everything else, it only
-              exists if it is written into your enlistment contract. Ask for it by
-              name, and check the contract before you sign.
-            </div>
-          </Note>
-        </>
-      ) : (
-        <Note tone="warn">Advanced-entry programs not yet researched.</Note>
-      )}
+      <AdvancedEntry />
 
       {/* ------------------------------------------ 3. promotion speed */}
       <SectionHead
@@ -615,6 +572,9 @@ export default function Pay() {
           </p>
         </div>
       ) : null}
+
+      {/* --------------------------------------- what it's worth */}
+      <WhatItsWorth />
 
       {/* ----------------------------------------------- caveats */}
       {COMPARISON_CAVEATS.length ? (

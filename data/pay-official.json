@@ -11,9 +11,12 @@
     "effective": "2026-01-01",
     "officer_monthly_usd": 328.48,
     "enlisted_monthly_usd": 476.95,
-    "bas_ii_monthly_usd": 953.90,
+    "bas_ii_monthly_usd": 953.9,
     "bas_ii_note": "BAS II is double the standard enlisted rate. It applies only to enlisted members in government quarters WITHOUT adequate food-storage or preparation facilities, and without a nearby dining facility. It is not a general entitlement.",
-    "prior_year_2025": { "officer_monthly_usd": 320.78, "enlisted_monthly_usd": 465.77 },
+    "prior_year_2025": {
+      "officer_monthly_usd": 320.78,
+      "enlisted_monthly_usd": 465.77
+    },
     "url": "https://www.dfas.mil/Military-Members/payentitlements/Pay-Tables/bas/",
     "tier": "OFFICIAL"
   },
@@ -22,27 +25,72 @@
     "tier": "OFFICIAL",
     "note": "HDIP is paid monthly, in addition to basic pay, for performing a designated hazardous duty. It is taxable.",
     "rates": [
-      { "duty": "Parachute Duty — Static Line", "monthly_usd": 150 },
-      { "duty": "Parachute Duty — Army Static Line (Oct 1, 2025 – May 20, 2029)", "monthly_usd": 200 },
-      { "duty": "Parachute Duty — Military Free Fall (HALO)", "monthly_usd": 240 },
-      { "duty": "Flight Deck Duty", "monthly_usd": 150 },
-      { "duty": "Demolition Duty", "monthly_usd": 150 },
-      { "duty": "Experimental Stress Duty", "monthly_usd": 150 },
-      { "duty": "Toxic Fuels / Propellants Duty", "monthly_usd": 150 },
-      { "duty": "Toxic Pesticides Duty", "monthly_usd": 150 },
-      { "duty": "Dangerous Viruses / Bacteria Lab Duty", "monthly_usd": 150 },
-      { "duty": "Chemical Munitions Duty", "monthly_usd": 150 },
-      { "duty": "Maritime Visit, Board, Search & Seizure (VBSS) Duty", "monthly_usd": 150 },
-      { "duty": "Polar Region Flight Operations Duty", "monthly_usd": 150 },
-      { "duty": "Weapons of Mass Destruction Civil Support Team", "monthly_usd": 150 }
+      {
+        "duty": "Parachute Duty \u2014 Static Line",
+        "monthly_usd": 150
+      },
+      {
+        "duty": "Parachute Duty \u2014 Army Static Line (Oct 1, 2025 \u2013 May 20, 2029)",
+        "monthly_usd": 200
+      },
+      {
+        "duty": "Parachute Duty \u2014 Military Free Fall (HALO)",
+        "monthly_usd": 240
+      },
+      {
+        "duty": "Flight Deck Duty",
+        "monthly_usd": 150
+      },
+      {
+        "duty": "Demolition Duty",
+        "monthly_usd": 150
+      },
+      {
+        "duty": "Experimental Stress Duty",
+        "monthly_usd": 150
+      },
+      {
+        "duty": "Toxic Fuels / Propellants Duty",
+        "monthly_usd": 150
+      },
+      {
+        "duty": "Toxic Pesticides Duty",
+        "monthly_usd": 150
+      },
+      {
+        "duty": "Dangerous Viruses / Bacteria Lab Duty",
+        "monthly_usd": 150
+      },
+      {
+        "duty": "Chemical Munitions Duty",
+        "monthly_usd": 150
+      },
+      {
+        "duty": "Maritime Visit, Board, Search & Seizure (VBSS) Duty",
+        "monthly_usd": 150
+      },
+      {
+        "duty": "Polar Region Flight Operations Duty",
+        "monthly_usd": 150
+      },
+      {
+        "duty": "Weapons of Mass Destruction Civil Support Team",
+        "monthly_usd": 150
+      }
     ]
   },
   "flight_pay_hdip": {
     "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/HDIP_Fly_Army/",
     "tier": "OFFICIAL",
     "rates": [
-      { "duty": "Aerial flight — air crew (officer and enlisted)", "monthly_usd": 250 },
-      { "duty": "Aerial flight — non-air crew (officer and enlisted)", "monthly_usd": 150 }
+      {
+        "duty": "Aerial flight \u2014 air crew (officer and enlisted)",
+        "monthly_usd": 250
+      },
+      {
+        "duty": "Aerial flight \u2014 non-air crew (officer and enlisted)",
+        "monthly_usd": 150
+      }
     ]
   },
   "aviation_incentive_pay_max": {
@@ -50,30 +98,116 @@
     "tier": "OFFICIAL",
     "note": "Maximum officer Aviation Incentive Pay, by years of aviation service. Actual rate is set by the service.",
     "rates": [
-      { "years_of_aviation_service": "2 or less", "monthly_usd": 150 },
-      { "years_of_aviation_service": "Over 2", "monthly_usd": 250 },
-      { "years_of_aviation_service": "Over 6", "monthly_usd": 800 },
-      { "years_of_aviation_service": "Over 10", "monthly_usd": 1000 },
-      { "years_of_aviation_service": "Over 22", "monthly_usd": 700 },
-      { "years_of_aviation_service": "Over 24", "monthly_usd": 450 }
+      {
+        "years_of_aviation_service": "2 or less",
+        "monthly_usd": 150
+      },
+      {
+        "years_of_aviation_service": "Over 2",
+        "monthly_usd": 250
+      },
+      {
+        "years_of_aviation_service": "Over 6",
+        "monthly_usd": 800
+      },
+      {
+        "years_of_aviation_service": "Over 10",
+        "monthly_usd": 1000
+      },
+      {
+        "years_of_aviation_service": "Over 22",
+        "monthly_usd": 700
+      },
+      {
+        "years_of_aviation_service": "Over 24",
+        "monthly_usd": 450
+      }
     ]
   },
   "other_official_tables": [
-    { "name": "Submarine Duty Pay", "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/SubPay/" },
-    { "name": "Dive Duty Pay", "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/Dive-Pay/", "note": "Rates vary by service and qualification; Army enlisted under instruction at an approved diving school begins at $110/month." },
-    { "name": "Foreign Language Proficiency Bonus (FLPB)", "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/FLPB/", "note": "Paid by ILR proficiency level across listening, reading and speaking. Rates begin around $50/month per modality." },
-    { "name": "Hardship Duty Pay — Location", "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/HDP_L/", "note": "Location-based; e.g. Afghanistan $100/month." },
-    { "name": "Imminent Danger Pay areas", "url": "https://www.dfas.mil/militarymembers/payentitlements/Pay-Tables/IDP-Areas/" },
-    { "name": "Family Separation Allowance", "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/fsa/" },
-    { "name": "Basic Needs Allowance", "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/bna/" },
-    { "name": "Special & Incentive Pays (index)", "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/specialpay/" }
+    {
+      "name": "Submarine Duty Pay",
+      "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/SubPay/"
+    },
+    {
+      "name": "Dive Duty Pay",
+      "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/Dive-Pay/",
+      "note": "Rates vary by service and qualification; Army enlisted under instruction at an approved diving school begins at $110/month."
+    },
+    {
+      "name": "Foreign Language Proficiency Bonus (FLPB)",
+      "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/FLPB/",
+      "note": "Paid by ILR proficiency level across listening, reading and speaking. Rates begin around $50/month per modality."
+    },
+    {
+      "name": "Hardship Duty Pay \u2014 Location",
+      "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/HDP_L/",
+      "note": "Location-based; e.g. Afghanistan $100/month."
+    },
+    {
+      "name": "Imminent Danger Pay areas",
+      "url": "https://www.dfas.mil/militarymembers/payentitlements/Pay-Tables/IDP-Areas/"
+    },
+    {
+      "name": "Family Separation Allowance",
+      "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/fsa/"
+    },
+    {
+      "name": "Basic Needs Allowance",
+      "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/bna/"
+    },
+    {
+      "name": "Special & Incentive Pays (index)",
+      "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/specialpay/"
+    }
   ],
   "unverified": [
     "Submarine Duty Pay rates: the DFAS page returned no parseable dollar table in this pass. Linked out rather than guessed.",
     "Imminent Danger / Hostile Fire Pay monthly rate: not captured in this pass. The IDP AREAS table lists locations, not the rate.",
     "Career Sea Pay rates: not captured in this pass.",
     "Full FLPB rate matrix: the table is by ILR level and modality; only the entry band (~$50/month) was captured.",
-    "Full Dive Duty Pay matrix by service and qualification: only the Army entry rate ($110/month) was captured."
+    "Full Dive Duty Pay matrix by service and qualification: only the Army entry rate ($110/month) was captured.",
+    "BAH low/high range ($1,185 Anniston AL to $5,127 San Francisco CA, E-5 with dependents) is SECONDARY-SOURCED and ESTIMATED. The official travel.dod.mil BAH lookup is a JS app exposing no rate table to fetch. Look up your actual duty station before relying on any figure."
   ],
-  "completion_accountability": "BAS, HDIP, flight HDIP and maximum Aviation Incentive Pay captured as OFFICIAL DFAS rates. Submarine, sea, dive (full matrix), FLPB (full matrix) and Imminent Danger Pay rates were NOT captured and are linked out with an explicit UNVERIFIED flag rather than estimated."
+  "completion_accountability": "BAS, HDIP, flight HDIP and maximum Aviation Incentive Pay captured as OFFICIAL DFAS rates. Submarine, sea, dive (full matrix), FLPB (full matrix) and Imminent Danger Pay rates were NOT captured and are linked out with an explicit UNVERIFIED flag rather than estimated.",
+  "bah_range": {
+    "tier": "SECONDARY \u2014 ESTIMATED",
+    "estimated": true,
+    "headline": "$1,200 \u2013 $5,100+ per month",
+    "plain_statement": "How much BAH you get depends entirely on your duty station and your paygrade \u2014 and on whether you have dependents. There is no national BAH figure, and anyone who quotes you one is guessing.",
+    "low": {
+      "monthly_usd": 1185,
+      "where": "Anniston / Fort McClellan, Alabama",
+      "who": "E-5 with dependents",
+      "note": "The lowest BAH rate in the country for 2026."
+    },
+    "high": {
+      "monthly_usd": 5127,
+      "where": "San Francisco, California",
+      "who": "E-5 with dependents",
+      "note": "The highest. Same rank, same dependency status, 4.3x the money \u2014 purely because of where the Army sends you."
+    },
+    "mid_examples": [
+      {
+        "monthly_usd": 1584,
+        "where": "Camp Lejeune, North Carolina",
+        "who": "E-5 with dependents"
+      },
+      {
+        "monthly_usd": 3975,
+        "where": "San Diego, California",
+        "who": "E-5 with dependents"
+      }
+    ],
+    "rules_of_thumb": [
+      "Officers get more. An O-3 at the same base typically receives 35-60% more BAH than an E-5.",
+      "Dependents get more. With-dependents rates run roughly 15-25% above without-dependents rates.",
+      "Junior enlisted get the least. An E-1 without dependents sits at the bottom of the paygrade scale."
+    ],
+    "increase_2026_pct": 4.2,
+    "barracks_rule": "If you live in the barracks, a dormitory, or aboard ship, you do NOT receive full BAH \u2014 the government is housing you instead. Single members in government quarters receive only a small partial BAH, on the order of $50/month.",
+    "source": "Rates cross-referenced from published 2026 BAH tables (military.com, vetcalc.org, valoannetwork.com). The official DoD BAH lookup at travel.dod.mil is a JavaScript application with no machine-readable rate table, so these figures are SECONDARY-SOURCED and ESTIMATED, not primary-fetched.",
+    "official_lookup": "https://www.travel.dod.mil/Allowances/Basic-Allowance-for-Housing/BAH-Rate-Lookup/",
+    "retrieved_date": "2026-07-12"
+  }
 }

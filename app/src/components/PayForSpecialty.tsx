@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import {
+  BAH_RANGE,
   BAS_ENLISTED,
   BAS_OFFICER,
   BAS_II,
@@ -11,6 +12,7 @@ import {
   specialPayAmount,
 } from '../lib/paycalc';
 import { bonusForSpecialty, BONUS_SOURCE } from '../lib/bonuses';
+import { MilitaryVsCivilian } from './MilitaryVsCivilian';
 import { Chip, Note, SectionHead } from './Bits';
 import { money, type SpecialtyRecord } from '../lib/types';
 
@@ -65,6 +67,8 @@ export function PayForSpecialty({ s }: { s: SpecialtyRecord }) {
 
   const { branch, matched } = bonusForSpecialty(s);
   const specials = relevantSpecialPays(s);
+  const bahLow = Number(BAH_RANGE.low?.monthly_usd) || 0;
+  const bahHigh = Number(BAH_RANGE.high?.monthly_usd) || 0;
   const official = branch?.source_tier === 'OFFICIAL';
 
   return (
@@ -129,10 +133,14 @@ export function PayForSpecialty({ s }: { s: SpecialtyRecord }) {
           <div className="s">Flat rate. Official DFAS.</div>
         </div>
         <div className="card stat">
-          <div className="n">Varies</div>
-          <div className="l">BAH — housing, per month</div>
+          <div className="n">
+            {bahLow && bahHigh ? `${usd(bahLow)}–${usd(bahHigh)}` : 'Varies'}
+          </div>
+          <div className="l">
+            BAH — housing, per month <Chip tone="brand">estimated</Chip>
+          </div>
           <div className="s">
-            Depends entirely on your duty station and paygrade. There is no national
+            Depending on your assignment locality and paygrade. There is no national
             figure.
           </div>
         </div>
@@ -144,6 +152,27 @@ export function PayForSpecialty({ s }: { s: SpecialtyRecord }) {
           <div className="s">Government quarters means little or no BAH.</div>
         </div>
       </div>
+
+      {bahLow && bahHigh ? (
+        <Note tone="warn">
+          <div>
+            <b>
+              The same rank gets {usd(bahLow)} in {String(BAH_RANGE.low?.where ?? '')}{' '}
+              and {usd(bahHigh)} in {String(BAH_RANGE.high?.where ?? '')}.
+            </b>{' '}
+            That is roughly <b>4× the money for the identical person</b>, decided
+            entirely by where you are posted — which you do not choose. This is why
+            no honest site quotes a single BAH number. Estimated;{' '}
+            <a
+              href={String(BAH_RANGE.official_lookup ?? '')}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              look up a real duty station ↗
+            </a>
+          </div>
+        </Note>
+      ) : null}
 
       <Note tone="alert">
         <div>
@@ -198,6 +227,11 @@ export function PayForSpecialty({ s }: { s: SpecialtyRecord }) {
           </p>
         </div>
       ) : null}
+
+      {/* ------------------------------------ military vs civilian */}
+      <div style={{ marginTop: 16 }}>
+        <MilitaryVsCivilian s={s} grade={grade} specials={specials} />
+      </div>
 
       {/* -------------------------------------------------- bonuses */}
       <SectionHead title="Bonuses" />

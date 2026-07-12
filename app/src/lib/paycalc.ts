@@ -156,6 +156,20 @@ export const OTHER_OFFICIAL_TABLES = (O.other_official_tables ?? []) as {
   note?: string;
 }[];
 
+export const BAH_RANGE = (O.bah_range ?? {}) as Dict & {
+  headline?: string;
+  plain_statement?: string;
+  low?: { monthly_usd: number; where: string; who: string; note?: string };
+  high?: { monthly_usd: number; where: string; who: string; note?: string };
+  mid_examples?: { monthly_usd: number; where: string; who: string }[];
+  rules_of_thumb?: string[];
+  barracks_rule?: string;
+  increase_2026_pct?: number;
+  source?: string;
+  official_lookup?: string;
+  estimated?: boolean;
+};
+
 export const OFFICIAL_SOURCE = (O.source ?? {}) as Dict;
 export const OFFICIAL_UNVERIFIED = (O.unverified as string[] | undefined) ?? [];
 
