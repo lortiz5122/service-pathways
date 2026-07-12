@@ -1,4 +1,4 @@
-import { NavLink, Route, Routes, useLocation } from 'react-router-dom';
+import { Link, NavLink, Route, Routes, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Home from './pages/Home';
 import Cluster from './pages/Cluster';
@@ -20,7 +20,6 @@ const NAV = [
   { to: '/prep', label: 'Qualifying', end: false },
   { to: '/pay', label: 'Pay', end: false },
   { to: '/lifecycle', label: 'Retirement & After', end: false },
-  { to: '/about', label: 'Sources', end: false },
 ];
 
 function ScrollToTop() {
@@ -40,7 +39,7 @@ export default function App() {
         <NavLink to="/" className="brandmark">
           <AppMark size={26} />
           <div>
-            <strong>Service Pathways</strong>
+            <strong>Military Careers</strong>
             <span>Independent · Non-recruiting</span>
           </div>
         </NavLink>
@@ -83,6 +82,9 @@ export default function App() {
             Figures retrieved {RESEARCH_DATE}. Policy across all six branches is in
             active flux through 2025–2026. Reconfirm any number here against the
             current official publication before it drives a decision.
+          </p>
+          <p className="footlinks">
+            <Link to="/about">Methodology, sources &amp; legal notice</Link>
           </p>
           <p className="buildstamp">
             build {__BUILD_ID__} · if this page looks stale, hard-reload

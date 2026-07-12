@@ -9,7 +9,7 @@ import type { Tier } from '../data/eligibility';
  * researching whether to enlist should not have that fact leave their browser.
  */
 
-const KEY = 'service-pathways.profile.v1';
+const KEY = 'military-careers.profile.v1';
 
 export type Profile = {
   afqt: number | null;

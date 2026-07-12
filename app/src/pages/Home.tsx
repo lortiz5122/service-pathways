@@ -3,6 +3,8 @@ import { clusters, specialtiesForCluster, allSpecialties, RESEARCH_DATE } from '
 import { BranchLogo } from '../branding/Logo';
 import { branchOrder, BRANCH_NAME_TO_ID, type BranchId } from '../lib/types';
 import { MarkDisclaimer } from '../components/Disclaimer';
+import { Note } from '../components/Bits';
+import { HEALTHCARE } from '../lib/paycalc';
 
 /** Branches that actually have a researched specialty in this cluster. */
 function branchesIn(clusterId: string): BranchId[] {
@@ -62,7 +64,69 @@ export default function Home() {
       </section>
 
       <div className="wrap">
-        <div className="section-head">
+        {/* --------------------------------- not sure where to start? */}
+        <div className="card startcard">
+          <h3>Not sure which service, or which job?</h3>
+          <p>
+            That is the normal starting position, and it is the right one. Almost
+            nobody knows at seventeen. Do this instead of guessing:
+          </p>
+
+          <ol className="startsteps">
+            <li>
+              <b>Don't start with a branch.</b> Choosing the Army or the Navy first
+              and then hunting for a job inside it is backwards — it locks you out of
+              the same work in a service that might suit you better. The same job
+              often exists in four of them. Start with the work.
+            </li>
+            <li>
+              <b>Open anything below that sounds even vaguely like you.</b> You are
+              not committing to anything. You are opening a door to look. Open three.
+            </li>
+            <li>
+              <b>Take a free practice ASVAB before you talk to anyone.</b> It costs
+              nothing, takes about an hour, and it changes every conversation you have
+              afterwards. It is the highest-value hour on this entire site.{' '}
+              <Link to="/prep">Start here →</Link>
+            </li>
+            <li>
+              <b>If you would rather be asked than browse</b>, answer four questions
+              and the site will show you what fits — and what each option would cost
+              you. <Link to="/explore">Find what fits →</Link>
+            </li>
+          </ol>
+
+          <p className="startnote">
+            Nothing here signs you up for anything. No account, no form, nothing sent
+            to a recruiter.
+          </p>
+        </div>
+
+        {/* --------------------------------- money, honestly framed */}
+        <Note tone="warn">
+          <div>
+            <b>About the pay figures and the military-vs-civilian comparisons.</b>{' '}
+            They are <b>for comparison only</b>. Real pay <b>varies enormously</b> by
+            duty station, paygrade and whether you have dependents — the same rank
+            draws roughly <b>4× the housing allowance</b> in San Francisco that it
+            draws in rural Alabama, and if you live in the barracks you get almost
+            none of it.
+            <br />
+            <br />
+            They exist for one reason: to surface the parts of military compensation
+            that other career sources routinely <b>omit, or leave you to find out too
+            late</b> — that the housing and food allowances are <b>not taxed</b>, that
+            healthcare costs you <b>nothing</b> where a civilian pays about{' '}
+            <b>${HEALTHCARE.singlePremium.toLocaleString()}</b> a year for the same
+            cover (<b>${HEALTHCARE.familyPremium.toLocaleString()}</b> for a family),
+            and that a job may carry special pays nobody mentioned. None of that shows
+            up in a salary comparison, which is exactly why salary comparisons mislead
+            people — in both directions.{' '}
+            <Link to="/pay">See how the number is actually built →</Link>
+          </div>
+        </Note>
+
+        <div className="section-head" style={{ marginTop: 30 }}>
           <h2>Choose an interest</h2>
           <p>
             {researched.length} of {clusters.length} interest areas have researched

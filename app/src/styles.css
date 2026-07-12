@@ -2383,3 +2383,64 @@ table tr.hit td { color: var(--ink); }
 .eb-path b { color: var(--ink); }
 
 .modal .entrybanner { margin: 14px 0 4px; padding: 16px 18px; }
+
+/* ------------------------------------------------ "where do I start?" */
+
+.startcard {
+  border-top: 3px solid var(--ok);
+  margin-bottom: 16px;
+}
+
+.startsteps {
+  counter-reset: s;
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.startsteps li {
+  counter-increment: s;
+  position: relative;
+  padding-left: 40px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+
+.startsteps li::before {
+  content: counter(s);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--ok) 16%, transparent);
+  border: 1px solid var(--ok);
+  color: var(--ok);
+  font-family: var(--stencil);
+  font-size: 13px;
+}
+
+.startsteps li b { color: var(--ink); }
+
+.startnote {
+  margin-top: 16px !important;
+  padding-top: 13px;
+  border-top: 1px solid var(--line);
+  font-size: 12.5px !important;
+  color: var(--ink-3) !important;
+}
+
+.footlinks {
+  margin-top: 14px;
+  font-size: 12.5px;
+}
+
+.footlinks a { color: var(--ink-3); text-decoration: none; }
+.footlinks a:hover { color: var(--ink-2); text-decoration: underline; }

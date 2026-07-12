@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "service-pathways",
+  "name": "military-careers",
   "compatibility_date": "2026-07-12",
   "assets": {
     "directory": "./dist",

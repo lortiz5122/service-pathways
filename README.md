@@ -1,4 +1,4 @@
-# Service Pathways
+# Military Careers
 
 An independent, **non-recruiting** reference that maps a young person's *interests*
 to real U.S. military specialties across all six branches — and follows each one
