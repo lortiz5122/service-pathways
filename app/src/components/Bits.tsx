@@ -45,7 +45,7 @@ export function Note({
   tone = 'neutral',
   children,
 }: {
-  tone?: 'neutral' | 'warn' | 'alert';
+  tone?: 'neutral' | 'ok' | 'warn' | 'alert';
   children: ReactNode;
 }) {
   return <div className={`note ${tone === 'neutral' ? '' : tone}`}>{children}</div>;

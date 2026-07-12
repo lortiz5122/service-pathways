@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Modal } from './Modal';
-import { Chip, Note, SourceNote } from './Bits';
+import { Chip, Note } from './Bits';
 import { BranchLogo } from '../branding/Logo';
 import { branchById, branchIdOf } from '../lib/data';
 import { BRANCH_THEME, money, type SpecialtyRecord } from '../lib/types';
 import { RECRUITERS, RECRUITER_TRUTH, ASVAB_OFFICIAL } from '../data/recruiters';
+import { BONUS_SOURCE, bonusForSpecialty } from '../lib/bonuses';
 
 type Tab = 'job' | 'service' | 'bonuses' | 'recruiter';
 
@@ -16,69 +17,161 @@ const TABS: { id: Tab; label: string }[] = [
   { id: 'recruiter', label: 'Talk to a recruiter' },
 ];
 
-/** Bonuses are almost always null in the data. Say why, rather than showing "—". */
 function Bonuses({ s }: { s: SpecialtyRecord }) {
-  const b = s.bonuses ?? {};
-  const fmt = (v: unknown) => {
-    if (v === null || v === undefined) return null;
-    if (Array.isArray(v) && v.length === 2)
-      return `${money(Number(v[0]))} – ${money(Number(v[1]))}`;
-    const str = String(v);
-    return /unverified/i.test(str) ? null : str;
-  };
+  const { branch, matched } = bonusForSpecialty(s);
 
-  const enl = fmt(b.enlistment_bonus_range_usd);
-  const ree = fmt(b.reenlistment_bonus_range_usd);
-  const none = !enl && !ree;
+  if (!branch || branch.max_bonus_usd === null) {
+    return (
+      <>
+        <Note tone="warn">
+          <div>
+            <b>No enlistment-bonus data exists for {s.branch}.</b> Neither the
+            official service page nor the secondary source published a figure. This
+            is a genuine gap — it is not filled in with another branch's number.
+          </div>
+        </Note>
+        <Note tone="alert">
+          <div>
+            <b>The only bonus that exists is the one in your contract.</b> Ask the
+            recruiter directly, and get the figure written into the DD Form 4.
+          </div>
+        </Note>
+      </>
+    );
+  }
+
+  const official = branch.source_tier === 'OFFICIAL';
 
   return (
     <>
-      <div className="grid g2">
-        <div className="card">
-          <div className="k">Enlistment bonus</div>
-          <div className="v">{enl ?? 'None verified'}</div>
+      {matched ? (
+        <div className="bonus-hero">
+          <div className="k">
+            Named bonus for this specialty
+            <Chip tone={official ? 'ok' : 'warn'}>
+              {official ? 'Official source' : 'Secondary source'}
+            </Chip>
+          </div>
+          <div className="n">{matched.display ?? money(matched.amount_usd ?? 0)}</div>
+          <div className="s">
+            <b>{matched.name}</b>
+            {matched.conditions ? ` — ${matched.conditions}` : ''}
+          </div>
         </div>
-        <div className="card">
-          <div className="k">Reenlistment bonus</div>
-          <div className="v">{ree ?? 'None verified'}</div>
-        </div>
-      </div>
-
-      {none ? (
+      ) : (
         <Note tone="warn">
           <div>
-            <b>No current bonus could be verified for this specialty.</b> That does
-            not mean none exists — it means no official, dated figure could be
-            found, and this site will not quote a stale number as if it were
-            current.
-            <br />
-            <br />
-            For scale: across all <b>94 specialties</b> researched here, a current,
-            dated bonus figure could be verified for exactly <b>one</b>. Bonuses are
-            real, but they change quarterly and are published in ways that are hard
-            to pin down — which is precisely why the number has to end up in your
-            contract rather than in a conversation.
+            <b>No bonus is published for this specific specialty.</b> The branch runs
+            bonus programs (below), but neither source names a figure for{' '}
+            {s.name}. Do not assume one exists — ask.
           </div>
         </Note>
+      )}
+
+      <div className="card" style={{ marginTop: 14 }}>
+        <div className="k">{branch.name} — maximum advertised bonus</div>
+        <div className="v" style={{ fontSize: 30 }}>
+          {money(branch.max_bonus_usd)}
+        </div>
+        <p className="srcline">{branch.max_note}</p>
+
+        <Note tone="alert">
+          <div>
+            <b>A maximum is not an offer.</b> That headline number is the ceiling
+            for the single most in-demand specialty on the longest contract. It is
+            not what a typical enlistee gets, and it is not what you will be
+            offered.
+          </div>
+        </Note>
+
+        {branch.conflict ? (
+          <Note tone="warn">
+            <div>
+              <b>Sources disagree on this number.</b> {branch.conflict.note}
+            </div>
+          </Note>
+        ) : null}
+
+        {branch.accuracy_warning ? (
+          <Note tone="warn">
+            <div>
+              <b>Accuracy warning.</b> {branch.accuracy_warning}
+            </div>
+          </Note>
+        ) : null}
+
+        {branch.no_per_afsc_figures ? (
+          <Note tone="warn">{branch.no_per_afsc_figures}</Note>
+        ) : null}
+      </div>
+
+      {branch.programs.length ? (
+        <div className="card" style={{ marginTop: 12 }}>
+          <h3>Every bonus program this branch publishes</h3>
+          <div className="tablewrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Program</th>
+                  <th>Up to</th>
+                  <th>Conditions</th>
+                </tr>
+              </thead>
+              <tbody>
+                {branch.programs.map((p, i) => (
+                  <tr key={i} className={matched?.name === p.name ? 'hit' : ''}>
+                    <td>
+                      <strong>{p.name}</strong>
+                    </td>
+                    <td>
+                      {p.amount_usd !== null ? (
+                        <strong>{money(p.amount_usd)}</strong>
+                      ) : (
+                        <span className="unverified">No figure published</span>
+                      )}
+                    </td>
+                    <td>{p.conditions || '—'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
       ) : null}
 
-      {b.conditions ? (
+      {branch.non_cash_incentives?.length ? (
         <div className="card" style={{ marginTop: 12 }}>
-          <h3>Conditions</h3>
-          <p>{b.conditions}</p>
+          <h3>Incentives that aren't cash</h3>
+          <p>
+            Often worth more than a bonus. An advanced paygrade compounds for your
+            entire career.
+          </p>
+          <dl className="deflist">
+            {branch.non_cash_incentives.map((n, i) => (
+              <div key={i}>
+                <dt>{n.name}</dt>
+                <dd>{n.detail}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
       ) : null}
 
       <Note tone="alert">
         <div>
           <b>The only bonus that exists is the one in your contract.</b> A figure on
-          a recruiting site, a forum, or on this page is not a promise. If the bonus
-          is not written into your DD Form 4 and its annexes before you sign, you
-          will not get it. Ask for it in writing, and read what you sign.
+          a recruiting site, on a forum, or on this page is not a promise. If it is
+          not written into your DD Form 4 and its annexes before you sign, you will
+          not get it. Bonuses are also normally paid in instalments after training,
+          not as a lump sum at signing.
         </div>
       </Note>
 
-      <SourceNote source={b.source} date={b.retrieved_date} />
+      <p className="srcline">
+        {official
+          ? `Official source: ${branch.source_url} · retrieved 2026-07-12.`
+          : `Secondary source: ${BONUS_SOURCE.publisher}, "${BONUS_SOURCE.title}", published ${BONUS_SOURCE.published_date} · retrieved 2026-07-12. Not primary-fetched from a .mil source.`}
+      </p>
     </>
   );
 }

@@ -5,10 +5,16 @@ import type { SpecialtyRecord } from './types';
 /**
  * Interest walkthrough scoring.
  *
- * Deliberately transparent. This does NOT produce a "87% match" number — that
- * would be a fabricated precision the underlying data cannot support. It ranks
- * by explicit, inspectable signals and then SHOWS the user exactly which signals
- * fired, in plain language, citing the real value from the specialty record.
+ * Deliberately transparent, and deliberately NOT a ranking.
+ *
+ * It produces no "87% match" number — that would be a fabricated precision the
+ * data cannot support. It shows no ordinal position either: a "1" beside the
+ * Army and a "5" beside the Coast Guard reads as a quality grade, and nothing
+ * here supports the claim that one service or one job is better than another.
+ *
+ * What it does is ORDER results by how closely they fit what the user said they
+ * wanted, and then SHOW exactly which signals fired, in plain language, citing
+ * the real value from the specialty record. The user judges; the tool does not.
  *
  * It also always surfaces the cautions — credential gap, clearance gate, common
  * disability claims — because a recommendation engine that only shows upside is
@@ -50,11 +56,26 @@ export const PRIORITIES: { id: Priority; label: string; blurb: string }[] = [
   },
 ];
 
+export type Criterion = {
+  label: string;
+  met: boolean;
+};
+
 export type Scored = {
   specialty: SpecialtyRecord;
   score: number;
   reasons: string[];
   cautions: string[];
+  /**
+   * The percentage is DERIVED, not invented: it is the share of the criteria the
+   * READER selected that this specialty actually meets. It is not a quality
+   * grade, and it says nothing about whether one branch or job is better than
+   * another. `criteria` is the full checklist so the number can be audited.
+   */
+  criteria: Criterion[];
+  metCount: number;
+  totalCount: number;
+  matchPct: number;
   /** Whether the user's AFQT clears this specialty's branch. */
   branchGate: 'pass' | 'fail' | 'conflict' | 'unknown';
   branchGateLabel: string;
@@ -133,15 +154,32 @@ export function recommend(
 
   const gates = evaluate(afqt, tier);
 
+  // Medians, so "meets this criterion" is relative to the real pool, not a guess.
+  const median = (xs: number[]) => {
+    if (!xs.length) return null;
+    const a = [...xs].sort((x, y) => x - y);
+    return a[Math.floor(a.length / 2)];
+  };
+  const sMed = median(sals);
+  const cMed = median(comps);
+  const wMed = median(weeks);
+
   const scored: Scored[] = pool.map((s) => {
     const reasons: string[] = [];
     const cautions: string[] = [];
+    const criteria: Criterion[] = [];
     let score = 0;
 
     // --- interest match -----------------------------------------------
     const matched = (s.interest_cluster_ids ?? []).filter((c) =>
       interests.includes(c),
     );
+    if (interests.length) {
+      criteria.push({
+        label: 'In an interest area you picked',
+        met: matched.length > 0,
+      });
+    }
     if (matched.length) {
       score += 100;
       reasons.push(
@@ -152,6 +190,12 @@ export function recommend(
     // --- priorities ----------------------------------------------------
     if (priorities.includes('civilian')) {
       const mid = salaryMid(s);
+      const certs0 = s.civilian_crosswalk?.relevant_certifications ?? [];
+      criteria.push({
+        label: 'Leads to a real civilian career',
+        met:
+          (mid !== null && sMed !== null && mid >= sMed) || certs0.length >= 2,
+      });
       if (mid !== null) {
         const pts = norm(mid, sMin, sMax, 45);
         score += pts;
@@ -172,6 +216,10 @@ export function recommend(
 
     if (priorities.includes('pay')) {
       const c = entryComp(s);
+      criteria.push({
+        label: 'Above-median entry pay',
+        met: c !== null && cMed !== null && c >= cMed,
+      });
       if (c !== null) {
         const pts = norm(c, cMin, cMax, 40);
         score += pts;
@@ -185,6 +233,10 @@ export function recommend(
 
     if (priorities.includes('fast')) {
       const w = pipelineWeeks(s);
+      criteria.push({
+        label: 'Shorter-than-median training',
+        met: w !== null && wMed !== null && w <= wMed,
+      });
       if (w !== null) {
         // shorter is better -> invert
         const pts = 40 - norm(w, wMin, wMax, 40);
@@ -196,6 +248,10 @@ export function recommend(
     }
 
     if (priorities.includes('clearance')) {
+      criteria.push({
+        label: 'Requires a security clearance',
+        met: hasClearance(s),
+      });
       if (hasClearance(s)) {
         score += 40;
         reasons.push(
@@ -205,7 +261,12 @@ export function recommend(
     }
 
     if (priorities.includes('lowrisk')) {
-      const claims = bodyClaims(s);
+      const claims0 = bodyClaims(s);
+      criteria.push({
+        label: 'Lower physical toll',
+        met: claims0.length === 0,
+      });
+      const claims = claims0;
       if (claims.length >= 2) {
         score -= 45;
       } else if (claims.length === 0) {
@@ -238,15 +299,26 @@ export function recommend(
     if (branchGate === 'fail') score -= 60;
     if (branchGate === 'conflict') score -= 10;
 
+    const metCount = criteria.filter((c) => c.met).length;
+    const totalCount = criteria.length;
+    const matchPct =
+      totalCount === 0 ? 100 : Math.round((metCount / totalCount) * 100);
+
     return {
       specialty: s,
       score,
       reasons,
       cautions,
+      criteria,
+      metCount,
+      totalCount,
+      matchPct,
       branchGate,
       branchGateLabel: g?.label ?? 'Not published',
     };
   });
 
-  return scored.sort((a, b) => b.score - a.score);
+  // Order by how many of the reader's own criteria are met, then by the finer
+  // signal strength as a tiebreak. Order is not a quality judgement.
+  return scored.sort((a, b) => b.matchPct - a.matchPct || b.score - a.score);
 }

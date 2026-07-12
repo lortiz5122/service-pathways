@@ -8,6 +8,7 @@ import Prep from './pages/Prep';
 import Lifecycle from './pages/Lifecycle';
 import About from './pages/About';
 import Explore from './pages/Explore';
+import Pay from './pages/Pay';
 import { AppMark } from './branding/Emblem';
 import { SiteDisclaimer } from './components/Disclaimer';
 import { RESEARCH_DATE } from './lib/data';
@@ -17,6 +18,7 @@ const NAV = [
   { to: '/explore', label: 'Find what fits', end: false },
   { to: '/branches', label: 'Branches', end: false },
   { to: '/prep', label: 'Qualifying', end: false },
+  { to: '/pay', label: 'Pay', end: false },
   { to: '/lifecycle', label: 'Retirement & After', end: false },
   { to: '/about', label: 'Sources', end: false },
 ];
@@ -67,6 +69,7 @@ export default function App() {
           <Route path="/specialty/:id" element={<Specialty />} />
           <Route path="/branches" element={<Branches />} />
           <Route path="/prep" element={<Prep />} />
+          <Route path="/pay" element={<Pay />} />
           <Route path="/lifecycle" element={<Lifecycle />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Home />} />

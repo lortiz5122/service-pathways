@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { clusters, specialtiesForCluster, branchIdOf } from '../lib/data';
 import { PRIORITIES, recommend, type Priority } from '../lib/recommend';
@@ -9,6 +9,8 @@ import { BRANCH_THEME } from '../lib/types';
 import { Chip, Note, SectionHead } from '../components/Bits';
 import { MarkDisclaimer } from '../components/Disclaimer';
 import { SpecialtyModal } from '../components/SpecialtyModal';
+import { ScoreCard } from '../components/ScoreCard';
+import { useProfile } from '../lib/profile';
 import type { SpecialtyRecord } from '../lib/types';
 
 const STEPS = ['Interests', 'Your scores', 'What matters', 'Matches'];
@@ -17,8 +19,15 @@ export default function Explore() {
   const [step, setStep] = useState(0);
   const [interests, setInterests] = useState<string[]>([]);
   const [priorities, setPriorities] = useState<Priority[]>([]);
+  const { profile } = useProfile();
   const [afqt, setAfqt] = useState(50);
   const [tier, setTier] = useState<Tier>('diploma');
+
+  // If they already saved a score, use it rather than making them re-enter it.
+  useEffect(() => {
+    if (profile.afqt !== null) setAfqt(profile.afqt);
+    setTier(profile.tier);
+  }, [profile.afqt, profile.tier]);
   // Opening a match must not cost the reader their place in the results.
   const [openSpec, setOpenSpec] = useState<SpecialtyRecord | null>(null);
 
@@ -93,7 +102,9 @@ export default function Explore() {
 
       {/* ------------------------------------------------ 2. scores */}
       {step === 1 && (
-        <div className="card">
+        <>
+          <ScoreCard />
+        <div className="card" style={{ marginTop: 16 }}>
           <h3>Where are you on the ASVAB?</h3>
           <p>
             If you haven't taken it, take a free practice test and come back — a
@@ -149,13 +160,17 @@ export default function Explore() {
             nothing on its own. <Link to="/prep">How the ASVAB really works →</Link>
           </Note>
         </div>
+        </>
       )}
 
       {/* -------------------------------------------- 3. priorities */}
       {step === 2 && (
         <div className="card">
           <h3>What matters most to you?</h3>
-          <p>Pick up to three. This changes the ranking, and it shows you why.</p>
+          <p>
+            Pick up to three. This changes which matches surface first — it does not
+            score them, and it does not make any of them better.
+          </p>
           <div className="pickgrid">
             {PRIORITIES.map((p) => {
               const on = priorities.includes(p.id);
@@ -187,11 +202,24 @@ export default function Explore() {
           <div className="section-head" style={{ marginTop: 8 }}>
             <h2>{results.length} matches</h2>
             <p>
-              Ranked by what you told me. Every match shows the reasons it ranked
-              where it did, and the things about it you would not hear from a
-              recruiter.
+              Every match shows why it appeared, and the things about it you would
+              not hear from a recruiter.
             </p>
           </div>
+
+          <Note tone="warn">
+            <div>
+              <b>What the percentage means — and what it does not.</b> It is the
+              share of <em>your own criteria</em> that a job meets: pick five things
+              and a job that has four of them shows 80%. That is all it is. It is{' '}
+              <b>not a quality score</b>, and it does not say that one branch or one
+              job is better than another. A Coast Guard job at 60% is not worse than
+              an Army job at 100% — it simply matches fewer of the things{' '}
+              <em>you</em> happened to ask for. Change one answer on the last step
+              and every number here changes. The checklist under each match shows
+              exactly how the figure was calculated, so you can check it.
+            </div>
+          </Note>
 
           {results.length === 0 ? (
             <Note tone="warn">
@@ -199,7 +227,7 @@ export default function Explore() {
             </Note>
           ) : (
             <div className="stack">
-              {results.slice(0, 12).map((r, i) => {
+              {results.slice(0, 12).map((r) => {
                 const s = r.specialty;
                 const b = branchIdOf(s);
                 const t = b ? BRANCH_THEME[b] : undefined;
@@ -217,7 +245,16 @@ export default function Explore() {
                     }
                   >
                     <header className="rec-head">
-                      <span className="rank">{i + 1}</span>
+                      <div
+                        className="matchring"
+                        style={{ '--pct': `${r.matchPct}` } as React.CSSProperties}
+                        title={`Meets ${r.metCount} of the ${r.totalCount} things you asked for`}
+                      >
+                        <span className="mp">{r.matchPct}%</span>
+                        <span className="mf">
+                          {r.metCount}/{r.totalCount}
+                        </span>
+                      </div>
                       {b ? <BranchLogo branch={b} size={42} /> : null}
                       <div style={{ flex: 1 }}>
                         <div className="spec-code">
@@ -236,9 +273,25 @@ export default function Explore() {
                       )}
                     </header>
 
+                    {r.criteria.length ? (
+                      <div className="rec-why">
+                        <h4 className="minihead">
+                          What you asked for — and what this has
+                        </h4>
+                        <ul className="critlist">
+                          {r.criteria.map((c, j) => (
+                            <li key={j} className={c.met ? 'yes' : 'no'}>
+                              <span className="mark">{c.met ? '✓' : '✕'}</span>
+                              {c.label}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : null}
+
                     {r.reasons.length ? (
                       <div className="rec-why">
-                        <h4 className="minihead">Why it ranked here</h4>
+                        <h4 className="minihead">Detail</h4>
                         <ul className="ticklist">
                           {r.reasons.map((x, j) => (
                             <li key={j}>{x}</li>

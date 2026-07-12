@@ -1,0 +1,298 @@
+{
+  "command": "BONUSES",
+  "retrieved_date": "2026-07-12",
+  "source": {
+    "title": "2026 Enlistment Bonuses by Branch",
+    "publisher": "Military.com",
+    "url": "https://www.military.com/join-the-military/2026-enlistment-bonuses-by-branch",
+    "published_date": "2026-06-15",
+    "tier": "SECONDARY",
+    "tier_note": "Military.com is a secondary/corroborating source under the master prompt's TOOL POLICY, not a primary .mil source. Official branch bonus tables (DFAS, service recruiting commands) return HTTP 403 to automated retrieval. These figures are therefore SECONDARY-SOURCED and dated, not primary-fetched. They are directional, not authoritative."
+  },
+  "hard_caveats": [
+    "Quoting the article directly: \"Your bonus is only guaranteed once it is written into your signed paperwork.\"",
+    "The article states bonuses \"fluctuate regularly, sometimes by thousands of dollars from year to year.\" A figure that was true when this was published may not be true when you sign.",
+    "A maximum is not an offer. The headline number is the ceiling for the single most in-demand specialty with the longest contract \u2014 it is not what a typical enlistee receives.",
+    "Bonuses are usually paid in instalments after you reach the fleet or complete training, not as a lump sum at signing.",
+    "The source article itself carries a reader correction flagging its Navy comparison table as potentially inaccurate, and recommends checking navy.com or navycs.com. That warning is carried forward here rather than hidden."
+  ],
+  "branches": [
+    {
+      "branch": "army",
+      "name": "U.S. Army",
+      "max_bonus_usd": 50000,
+      "max_note": "Stated maximum across all programs.",
+      "programs": [
+        {
+          "name": "Job Signing Bonus",
+          "amount_usd": 45000,
+          "conditions": "Up to; depends on the MOS."
+        },
+        {
+          "name": "Civilian Acquired Skills Bonus",
+          "amount_usd": 45000,
+          "conditions": "Up to; for skills you already have when you enlist."
+        },
+        {
+          "name": "Ranger Bonus",
+          "amount_usd": 20000,
+          "conditions": "Up to."
+        },
+        {
+          "name": "Army Reserve Enlistment Bonus",
+          "amount_usd": 13000,
+          "conditions": "Up to. GUARD/RESERVE \u2014 not active-duty compensation."
+        },
+        {
+          "name": "Quick Ship Bonus",
+          "amount_usd": 10000,
+          "conditions": "Up to; requires shipping within 30 days."
+        },
+        {
+          "name": "Airborne Bonus",
+          "amount_usd": 10000,
+          "conditions": "Up to."
+        },
+        {
+          "name": "College Credit Enlistment Bonus",
+          "amount_usd": 6000,
+          "conditions": "Up to; for college credits held at enlistment."
+        }
+      ]
+    },
+    {
+      "branch": "navy",
+      "name": "U.S. Navy",
+      "max_bonus_usd": 140000,
+      "max_note": "Stated maximum, for boot-camp entry before October 2026. SEE THE ACCURACY WARNING \u2014 the source article's own readers flagged its Navy table.",
+      "accuracy_warning": "The source article carries a reader correction flagging its Navy comparison table as potentially inaccurate, and recommends verifying against navy.com or navycs.com. Treat these Navy figures with extra caution.",
+      "programs": [
+        {
+          "name": "Nuclear Field",
+          "amount_usd": 75000,
+          "conditions": "Among the highest ASVAB composite requirements in the military."
+        },
+        {
+          "name": "Air Rescue Swimmer",
+          "amount_usd": 30000,
+          "conditions": ""
+        },
+        {
+          "name": "Explosive Ordnance Disposal",
+          "amount_usd": 30000,
+          "conditions": ""
+        },
+        {
+          "name": "Hospital Corpsman (Advanced)",
+          "amount_usd": 30000,
+          "conditions": ""
+        },
+        {
+          "name": "Navy Diver",
+          "amount_usd": 30000,
+          "conditions": ""
+        },
+        {
+          "name": "Special Warfare Boat Operator",
+          "amount_usd": 30000,
+          "conditions": ""
+        },
+        {
+          "name": "Hospital Corpsman Dental Hygienist",
+          "amount_usd": 20000,
+          "conditions": ""
+        },
+        {
+          "name": "Submarine Electronics Computer Field",
+          "amount_usd": 20000,
+          "conditions": "5-year contract."
+        },
+        {
+          "name": "Advanced Electronics Career Field",
+          "amount_usd": 15000,
+          "conditions": ""
+        },
+        {
+          "name": "Cryptologic Technician Interpretive",
+          "amount_usd": 15000,
+          "conditions": ""
+        },
+        {
+          "name": "Information Systems Technician (Submarines)",
+          "amount_usd": 15000,
+          "conditions": ""
+        },
+        {
+          "name": "Missile Technician",
+          "amount_usd": 15000,
+          "conditions": ""
+        },
+        {
+          "name": "Sonar Technician Surface",
+          "amount_usd": 15000,
+          "conditions": "5-year contract."
+        },
+        {
+          "name": "Special Warfare Operator (SEAL)",
+          "amount_usd": 15000,
+          "conditions": ""
+        },
+        {
+          "name": "Information Systems Technician",
+          "amount_usd": 10000,
+          "conditions": ""
+        },
+        {
+          "name": "Master-at-Arms",
+          "amount_usd": 10000,
+          "conditions": ""
+        },
+        {
+          "name": "Machinist's Mate Submarines",
+          "amount_usd": 10000,
+          "conditions": "5-year contract."
+        }
+      ]
+    },
+    {
+      "branch": "air-force",
+      "name": "U.S. Air Force",
+      "max_bonus_usd": 40000,
+      "max_note": "Stated maximum, on 6-year contracts.",
+      "no_per_afsc_figures": "The source lists eligible bonus FIELDS but no per-AFSC dollar amounts. Do not assume a figure for a specific job.",
+      "programs": [
+        {
+          "name": "Air National Guard \u2014 non-prior service",
+          "amount_usd": 50000,
+          "conditions": "Up to. GUARD/RESERVE \u2014 not active-duty compensation."
+        },
+        {
+          "name": "Air National Guard \u2014 prior service",
+          "amount_usd": 60000,
+          "conditions": "Up to. GUARD/RESERVE \u2014 not active-duty compensation."
+        },
+        {
+          "name": "Air Force Reserve",
+          "amount_usd": 10000,
+          "conditions": "Up to. GUARD/RESERVE \u2014 not active-duty compensation."
+        }
+      ],
+      "eligible_fields": [
+        "Cyber and Intelligence roles",
+        "Special Warfare and Combat Support",
+        "Maintenance and Repair specialties",
+        "Science, Technology, and Logistics positions",
+        "Security Forces"
+      ]
+    },
+    {
+      "branch": "marine-corps",
+      "name": "U.S. Marine Corps",
+      "max_bonus_usd": 40000,
+      "max_note": "Stated maximum.",
+      "programs": [
+        {
+          "name": "Electronics Maintenance (BY PEF)",
+          "amount_usd": 15000,
+          "conditions": ""
+        },
+        {
+          "name": "Cyber and Crypto Operations (DG PEF)",
+          "amount_usd": 15000,
+          "conditions": ""
+        },
+        {
+          "name": "Targeted Investment Plus 2 (QW)",
+          "amount_usd": 15000,
+          "conditions": "Requires two extra years of contract."
+        },
+        {
+          "name": "Shipping Bonus (QF)",
+          "amount_usd": 10000,
+          "conditions": "Any PEF."
+        },
+        {
+          "name": "Targeted Investment Plus 1 (QV)",
+          "amount_usd": 7000,
+          "conditions": "Requires one extra year of contract."
+        },
+        {
+          "name": "Shipping Bonus (QE)",
+          "amount_usd": 5000,
+          "conditions": "Any PEF."
+        }
+      ]
+    },
+    {
+      "branch": "coast-guard",
+      "name": "U.S. Coast Guard",
+      "max_bonus_usd": 60000,
+      "max_note": "Per the Coast Guard's OWN official page (gocoastguard.com/hiring-incentives): Critical Rating Affiliation is 'up to $60,000'.",
+      "source_tier": "OFFICIAL",
+      "source_url": "https://www.gocoastguard.com/hiring-incentives",
+      "source_retrieved": "2026-07-12",
+      "conflict": {
+        "note": "SOURCES DISAGREE. Military.com states a Coast Guard maximum of $75,000. The Coast Guard's own official hiring-incentives page states 'up to $60,000' for Critical Rating Affiliation. The official figure is shown here; the discrepancy is disclosed rather than reconciled.",
+        "secondary_figure_usd": 75000,
+        "official_figure_usd": 60000
+      },
+      "programs": [
+        {
+          "name": "Critical Rating Affiliation",
+          "amount_usd": 60000,
+          "conditions": "Up to; for qualifying in a needed specialty. OFFICIAL \u2014 gocoastguard.com."
+        },
+        {
+          "name": "Higher Education Credits",
+          "amount_usd": 15000,
+          "conditions": "Up to; based on college coursework. OFFICIAL \u2014 gocoastguard.com."
+        },
+        {
+          "name": "Reserve Assignments",
+          "amount_usd": 15000,
+          "conditions": "Up to. GUARD/RESERVE \u2014 not active-duty compensation. OFFICIAL \u2014 gocoastguard.com."
+        },
+        {
+          "name": "Expedited Shipping",
+          "amount_usd": 10000,
+          "conditions": "Up to; for recruits who ship quickly. OFFICIAL \u2014 gocoastguard.com."
+        }
+      ],
+      "non_cash_incentives": [
+        {
+          "name": "Advanced Paygrade (E-3)",
+          "detail": "Recruits with college credits, JROTC/ROTC participation, law-enforcement or Sea Explorer background, or scouting achievements may be authorised an immediate advancement to E-3 paygrade after boot camp."
+        },
+        {
+          "name": "Guaranteed Specialty Training",
+          "detail": "High ASVAB scorers may receive guaranteed placement in a specialised school immediately following basic training."
+        },
+        {
+          "name": "Buddy Program",
+          "detail": "Friends enlisting together may be placed in the same company at boot camp."
+        },
+        {
+          "name": "Guaranteed First Assignment Area",
+          "detail": "Certain geographic regions may offer assignment guarantees within specific Coast Guard Districts."
+        }
+      ],
+      "official_caveat": "The Coast Guard's own page states these programs 'change frequently' and advises contacting a recruiter for current offerings."
+    },
+    {
+      "branch": "space-force",
+      "name": "U.S. Space Force",
+      "max_bonus_usd": null,
+      "max_note": "NOT COVERED by the source article. No enlistment bonus figure could be found for the Space Force. This is a genuine gap, not an omission \u2014 it is not padded with an assumed Air Force figure.",
+      "programs": []
+    }
+  ],
+  "unverified": [
+    "Most figures are SECONDARY-SOURCED from Military.com (published 2026-06-15), not primary-fetched. Official service bonus tables return HTTP 403 to automated retrieval. EXCEPTION: the Coast Guard figures are OFFICIAL, taken directly from gocoastguard.com/hiring-incentives (retrieved 2026-07-12).",
+    "SOURCE CONFLICT \u2014 Coast Guard maximum: Military.com says $75,000; the Coast Guard's own page says 'up to $60,000' for Critical Rating Affiliation. The official figure is used; the conflict is disclosed.",
+    "The Military.com article's own reader correction flags its Navy comparison table as potentially inaccurate. Navy figures carry extra uncertainty.",
+    "Air Force per-AFSC bonus amounts are not published in the source \u2014 only eligible fields and an overall maximum.",
+    "Space Force enlistment bonuses: no data found at all, from either source.",
+    "Payment schedules (lump sum vs instalments), tax treatment, and clawback conditions on separation are not covered by either source and were not researched."
+  ],
+  "completion_accountability": "6 branches; 5 with figures. Coast Guard is OFFICIALLY sourced (gocoastguard.com); the other four are secondary (Military.com, 2026-06-15). Space Force has no bonus data from either source and is flagged rather than padded. One source conflict (Coast Guard max: $75k secondary vs $60k official) is disclosed, not reconciled."
+}

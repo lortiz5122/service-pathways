@@ -26,6 +26,7 @@ import { BranchLogo } from '../branding/Logo';
 import { BRANCH_THEME } from '../lib/types';
 import { Chip, Note, SectionHead, TickList } from '../components/Bits';
 import { MarkDisclaimer } from '../components/Disclaimer';
+import { ScoreCard } from '../components/ScoreCard';
 
 function Screener() {
   const [afqt, setAfqt] = useState(50);
@@ -125,6 +126,8 @@ export default function Prep() {
         title="1 · The ASVAB gates you twice"
         lede="Your AFQT percentile decides whether you can enlist. Separate line scores decide which job you can hold. These are different tests of the same exam and people conflate them constantly."
       />
+
+      <ScoreCard />
 
       <Screener />
 
