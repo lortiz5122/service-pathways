@@ -8,6 +8,8 @@ import { BranchLogo } from '../branding/Logo';
 import { BRANCH_THEME } from '../lib/types';
 import { Chip, Note, SectionHead } from '../components/Bits';
 import { MarkDisclaimer } from '../components/Disclaimer';
+import { SpecialtyModal } from '../components/SpecialtyModal';
+import type { SpecialtyRecord } from '../lib/types';
 
 const STEPS = ['Interests', 'Your scores', 'What matters', 'Matches'];
 
@@ -17,6 +19,8 @@ export default function Explore() {
   const [priorities, setPriorities] = useState<Priority[]>([]);
   const [afqt, setAfqt] = useState(50);
   const [tier, setTier] = useState<Tier>('diploma');
+  // Opening a match must not cost the reader their place in the results.
+  const [openSpec, setOpenSpec] = useState<SpecialtyRecord | null>(null);
 
   const results = useMemo(
     () => recommend(interests, priorities, afqt, tier),
@@ -252,9 +256,17 @@ export default function Explore() {
                       </div>
                     ) : null}
 
-                    <Link to={`/specialty/${s.id}`} className="inline-link">
-                      Full record — pay, pipeline, retirement, transition →
-                    </Link>
+                    <div className="rec-actions">
+                      <button
+                        className="btn sm"
+                        onClick={() => setOpenSpec(s)}
+                      >
+                        The job, the service &amp; bonuses
+                      </button>
+                      <Link to={`/specialty/${s.id}`} className="btn ghost sm">
+                        Full record
+                      </Link>
+                    </div>
                   </div>
                 );
               })}
@@ -272,6 +284,12 @@ export default function Explore() {
           </Note>
         </>
       )}
+
+      <SpecialtyModal
+        specialty={openSpec}
+        open={openSpec !== null}
+        onClose={() => setOpenSpec(null)}
+      />
 
       {/* ------------------------------------------------------ nav */}
       <div className="wizard-nav">
