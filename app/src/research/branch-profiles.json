@@ -1,0 +1,220 @@
+{
+  "command": "BRANCHES",
+  "retrieved_date": "2026-07-12",
+  "branches": [
+    {
+      "id": "army",
+      "name": "United States Army",
+      "department": "Department of War (formerly DoD)",
+      "mission": "Fight and win the nation's wars through prompt, sustained land dominance as part of the Joint Force; defend the freedom and safety of the American people and provide stability during crises.",
+      "culture": "Ground-power service organized around units from squad to corps. Identity is built on the seven Army Values (Loyalty, Duty, Respect, Selfless Service, Honor, Integrity, Personal Courage — 'LDRSHIP') and the motto 'This We'll Defend.' It is the largest of the six branches by authorized end strength and the largest single source of ground combat, engineering, logistics, and support occupations across the force.",
+      "size_active_duty": 454000,
+      "entry_paths": {
+        "enlisted": "Recruiter contact, ASVAB, MEPS medical/aptitude processing, enlistment contract, then the Future Soldier Program (Army's name for the Delayed Entry Program) until a ship date to Basic Combat Training. See prep-pathway.md for the full MEPS/DEP process.",
+        "rotc": "Army ROTC — the largest ROTC program, hosted at roughly 270+ senior host institutions with cross-town affiliate campuses, offered at 1,000+ schools total. 4-year, 3-year, and 2-year scholarship tracks cover tuition or room-and-board plus a monthly stipend; obligation is commonly 8 years total (mix of active duty and Reserve/Guard).",
+        "ocs_ots": "Officer Candidate School (OCS), Fort Moore, Georgia — 12 weeks. Open to holders of a bachelor's degree, including prior-enlisted soldiers and college graduates who did not do ROTC.",
+        "academy": "United States Military Academy (USMA), West Point, New York. Congressional/Vice-Presidential/Presidential or service-connected nomination required. Tuition-free in exchange for a service obligation after commissioning."
+      },
+      "basic_training": {
+        "name": "Basic Combat Training (BCT)",
+        "location": "One of four Army training centers, assigned by military occupational specialty: Fort Jackson (SC), Fort Moore (GA), Fort Sill (OK), or Fort Leonard Wood (MO).",
+        "length_weeks": 10,
+        "notes": "10 weeks is the standard BCT length. Combat-arms MOSs (e.g., Infantry, Armor at Fort Moore) instead attend One Station Unit Training (OSUT), which combines BCT and follow-on job training into a single continuous course; OSUT's exact length varies by MOS and was not independently confirmed this session — UNVERIFIED."
+      },
+      "general_eligibility": {
+        "age_range": "Enlisted: 17 (with parental consent) to 42, per a 2026 Army policy change raising the prior ceiling of 35. Commissioning programs (ROTC/Academy) carry separate, generally lower age ceilings. Age maximums have changed multiple times since 2022 — verify current ceiling before relying on it.",
+        "citizenship": "U.S. citizen or lawful permanent resident (green card holder) for enlistment; officer commissioning generally requires U.S. citizenship. Non-citizen enlistment policy has fluctuated in recent years — current 2026 posture not independently verified this session (UNVERIFIED).",
+        "education": "High school diploma (Tier 1) generally required; GED (Tier 2) accepted in capped numbers with a higher AFQT minimum. See prep-pathway.md (sibling document) for the full ASVAB/tier framework."
+      },
+      "structural_notes": "The Army is a military department within the Department of War (the current administration's operating name for the former Department of Defense; the formal legal-name status of that rename was not independently verified this session — UNVERIFIED). It is organized administratively under the Department of the Army.",
+      "sources": [
+        {"title": "The Army's Vision and Strategy", "url": "https://www.army.mil/about/", "retrieved_date": "2026-07-12"},
+        {"title": "Purpose & Legacy | U.S. Army", "url": "https://www.goarmy.com/explore-the-army/about/purpose-legacy", "retrieved_date": "2026-07-12"},
+        {"title": "FY2026 NDAA: Active Component End-Strength (CRS IN12651)", "url": "https://www.everycrsreport.com/reports/IN12651.html", "retrieved_date": "2026-07-12"},
+        {"title": "Officer Candidate School | Fort Moore", "url": "https://www.moore.army.mil/Infantry/199th/OCS/Branch-Information.html", "retrieved_date": "2026-07-12"},
+        {"title": "Basic Combat Training | Fort Jackson", "url": "https://home.army.mil/jackson/my-fort/basic-combat-training", "retrieved_date": "2026-07-12"},
+        {"title": "Army Basic Combat Training (BCT) Locations Guide (secondary corroboration of 4-site/10-week structure)", "url": "https://www.operationmilitarykids.org/army-basic-training-locations/", "retrieved_date": "2026-07-12"},
+        {"title": "Army raises enlistment age to 42 (Stars and Stripes)", "url": "https://www.stripes.com/branches/army/2026-03-24/army-raises-enlistment-age-42-21170859.html", "retrieved_date": "2026-07-12"}
+      ]
+    },
+    {
+      "id": "navy",
+      "name": "United States Navy",
+      "department": "Department of War (formerly DoD)",
+      "mission": "Maintain, train, and equip combat-ready naval forces able to win wars, deter aggression, and preserve freedom of the seas.",
+      "culture": "Sea service organized around ships, submarines, aircraft squadrons, and shore commands, with an emphasis on forward deployment. Core values are Honor, Courage, and Commitment. The enlisted force is organized into 'ratings' (job specialties) rather than the Army's MOS system.",
+      "size_active_duty": 344600,
+      "entry_paths": {
+        "enlisted": "Recruiter contact, ASVAB, MEPS, enlistment contract, Delayed Entry Program, then Recruit Training Command (RTC) Great Lakes. See prep-pathway.md for the full MEPS/DEP process.",
+        "rotc": "Navy ROTC (NROTC), which includes a Marine Corps option for midshipmen seeking a Marine Corps commission. Offered at a subset of the 1,000+ ROTC-hosting schools nationally, with scholarship tracks covering tuition plus a monthly stipend.",
+        "ocs_ots": "Officer Candidate School (OCS), Naval Station Newport, Rhode Island — 13 weeks. Open to bachelor's-degree holders.",
+        "academy": "United States Naval Academy (USNA), Annapolis, Maryland. Congressional/Vice-Presidential/Presidential or service-connected nomination required. Commissions into the Navy or Marine Corps; tuition-free with a post-commission service obligation."
+      },
+      "basic_training": {
+        "name": "Basic Military Training / Recruit Training",
+        "location": "Recruit Training Command (RTC), Naval Station Great Lakes, Illinois — the Navy's only enlisted boot camp.",
+        "length_weeks": 9,
+        "notes": "Per a Navy press release, the Navy 'optimized' Basic Military Training from 10 weeks to 9 weeks effective January 2025; this is the length current as of this research date. An earlier (2020-era) change had extended it from 8 to 10 weeks — do not use the older 8- or 10-week figures as current."
+      },
+      "general_eligibility": {
+        "age_range": "Enlisted: 17 (with parental consent) to 41 for active duty, per secondary reporting corroborating a recent age-ceiling increase. Not independently confirmed on navy.com this session — verify before relying on it.",
+        "citizenship": "U.S. citizen or lawful permanent resident (green card holder) for enlistment; officer commissioning generally requires U.S. citizenship. Current 2026 non-citizen enlistment posture not independently verified this session (UNVERIFIED).",
+        "education": "High school diploma (Tier 1) generally required; GED (Tier 2) accepted in capped numbers. See prep-pathway.md for the full ASVAB/tier framework."
+      },
+      "structural_notes": "The Navy is a military department within the Department of War (operating name for the former DoD; legal-name status UNVERIFIED this session), administered under the Department of the Navy, which also administers the Marine Corps.",
+      "sources": [
+        {"title": "Mission Statement — Navy.mil", "url": "https://www.navy.mil/About/Mission/", "retrieved_date": "2026-07-12"},
+        {"title": "U.S. Navy Optimizes Basic Military Training Program to 9 Weeks", "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/3995037/us-navy-optimizes-basic-military-training-program-to-9-weeks/", "retrieved_date": "2026-07-12"},
+        {"title": "Navy Boot Camp — What to Expect", "url": "https://www.navy.com/navy-life/boot-camp", "retrieved_date": "2026-07-12"},
+        {"title": "Officer Candidate School | Naval Service Training Command", "url": "https://www.netc.navy.mil/Commands/Naval-Service-Training-Command/OTCN/Programs/OCS/", "retrieved_date": "2026-07-12"},
+        {"title": "FY2026 NDAA: Active Component End-Strength (CRS IN12651)", "url": "https://www.everycrsreport.com/reports/IN12651.html", "retrieved_date": "2026-07-12"},
+        {"title": "Military Age Limits by Branch (secondary)", "url": "https://www.militaryprephub.com/blog/military-age-limits-by-branch.html", "retrieved_date": "2026-07-12"}
+      ]
+    },
+    {
+      "id": "air-force",
+      "name": "United States Air Force",
+      "department": "Department of War (formerly DoD)",
+      "mission": "Provide air and space power ready to fly, fight, and win — airpower anytime, anywhere it is needed.",
+      "culture": "Technically oriented air service organized into wings and squadrons. Core values are Integrity First, Service Before Self, and Excellence in All We Do. Space-related functions and personnel were spun off into the Space Force in 2019–2020, leaving the Air Force focused on air operations, though the two remain administratively linked under the Department of the Air Force.",
+      "size_active_duty": 321500,
+      "entry_paths": {
+        "enlisted": "Recruiter contact, ASVAB, MEPS, enlistment contract, Delayed Entry Program, then Basic Military Training (BMT) at Joint Base San Antonio-Lackland. See prep-pathway.md for the full MEPS/DEP process.",
+        "rotc": "Air Force ROTC (AFROTC) — also commissions officers into the Space Force. Offered at host detachments with cross-town affiliate agreements at additional schools; scholarship tracks cover tuition plus a monthly stipend.",
+        "ocs_ots": "Officer Training School (OTS), Maxwell Air Force Base, Alabama — approximately 8.5 weeks (Basic Officer Training). Open to bachelor's-degree holders, including enlisted Airmen and civilians.",
+        "academy": "United States Air Force Academy (USAFA), Colorado Springs, Colorado. Congressional/Vice-Presidential/Presidential or service-connected nomination required. Commissions into the Air Force or Space Force; tuition-free with a post-commission service obligation."
+      },
+      "basic_training": {
+        "name": "Basic Military Training (BMT)",
+        "location": "Joint Base San Antonio-Lackland (JBSA-Lackland), San Antonio, Texas — the Air Force's sole enlisted BMT installation, also used by the Space Force.",
+        "length_weeks": 7,
+        "notes": "Commonly described as approximately 7.5 weeks. Recorded here as 7 (rounded down) because the schema field is an integer; treat 7.5 weeks as the more precise figure."
+      },
+      "general_eligibility": {
+        "age_range": "Enlisted: 17 (with parental consent) to 42, per secondary reporting of a 2023 increase from 39. Not independently confirmed on airforce.com this session — verify before relying on it.",
+        "citizenship": "U.S. citizen or lawful permanent resident (green card holder) for enlistment; officer commissioning generally requires U.S. citizenship. Current 2026 non-citizen enlistment posture not independently verified this session (UNVERIFIED).",
+        "education": "High school diploma (Tier 1) generally required; GED (Tier 2) accepted in capped numbers. See prep-pathway.md for the full ASVAB/tier framework, including the unresolved Air Force AFQT-minimum source conflict documented there."
+      },
+      "structural_notes": "The Air Force is a military department within the Department of War (operating name for the former DoD; legal-name status UNVERIFIED this session), administered under the Department of the Air Force, which also administers the Space Force.",
+      "sources": [
+        {"title": "Our Mission — U.S. Air Force", "url": "https://www.airforce.com/mission", "retrieved_date": "2026-07-12"},
+        {"title": "Air Force Basic Military Training", "url": "https://www.basictraining.af.mil/", "retrieved_date": "2026-07-12"},
+        {"title": "Basic Training — U.S. Air Force", "url": "https://www.airforce.com/training/military-training/bmt/overview", "retrieved_date": "2026-07-12"},
+        {"title": "Officer Training School (OTS) — U.S. Air Force", "url": "https://www.airforce.com/training/military-training/ots", "retrieved_date": "2026-07-12"},
+        {"title": "FY2026 NDAA: Active Component End-Strength (CRS IN12651)", "url": "https://www.everycrsreport.com/reports/IN12651.html", "retrieved_date": "2026-07-12"},
+        {"title": "Military Age Limits by Branch (secondary)", "url": "https://www.operationmilitarykids.org/military-age-limits/", "retrieved_date": "2026-07-12"}
+      ]
+    },
+    {
+      "id": "marine-corps",
+      "name": "United States Marine Corps",
+      "department": "Department of War (formerly DoD)",
+      "mission": "Serve as a globally responsive, combined-arms naval expeditionary force that projects power from sea to land and land to sea, organized as Marine Air-Ground Task Forces to deter, deny, and defeat adversaries across domains.",
+      "culture": "Component of the Department of the Navy, structured around the Marine Air-Ground Task Force (MAGTF) construct combining ground, aviation, and logistics elements under one command. Core values are Honor, Courage, and Commitment. All Marines, regardless of eventual specialty, complete common basic infantry skills training before follow-on MOS school. It is the smallest of the traditionally 'big four' service branches by authorized end strength.",
+      "size_active_duty": 172300,
+      "entry_paths": {
+        "enlisted": "Recruiter contact, ASVAB, MEPS, enlistment contract, then the Delayed Entry Program (Marine Corps enlistees awaiting ship date are called 'poolees'), followed by Recruit Training. See prep-pathway.md for the full MEPS/DEP process.",
+        "rotc": "No dedicated Marine Corps ROTC; Marine officers commission through the Navy ROTC Marine option, the Platoon Leaders Course (PLC, summer training during college at Quantico), or OCS.",
+        "ocs_ots": "Officer Candidates School (OCS), Marine Corps Base Quantico, Virginia — 10 weeks. Open to bachelor's-degree holders; the Platoon Leaders Course (PLC) offers an alternate path via summer sessions during college, also at Quantico.",
+        "academy": "No separate Marine Corps academy. Marine officers commission via the United States Naval Academy (Annapolis, MD), NROTC, PLC, or OCS."
+      },
+      "basic_training": {
+        "name": "Recruit Training",
+        "location": "Marine Corps Recruit Depot (MCRD) Parris Island, South Carolina, or MCRD San Diego, California — assignment is generally by recruit's home of record.",
+        "length_weeks": 13,
+        "notes": "Both depots run the same 13-week curriculum across three phases, followed by additional combat training (School of Infantry-East/West) before MOS school."
+      },
+      "general_eligibility": {
+        "age_range": "Enlisted: 17 (with parental consent) to 28 for standard active-duty enlistment — the most restrictive maximum age of the six branches — with waivers reportedly available to 35 for prior-service applicants. Not independently confirmed on marines.com this session — verify before relying on it.",
+        "citizenship": "U.S. citizen or lawful permanent resident (green card holder) for enlistment; officer commissioning generally requires U.S. citizenship. Current 2026 non-citizen enlistment posture not independently verified this session (UNVERIFIED).",
+        "education": "High school diploma (Tier 1) generally required; GED (Tier 2) accepted in a capped share of accessions (reported around 5%). See prep-pathway.md for the full ASVAB/tier framework."
+      },
+      "structural_notes": "The Marine Corps is a distinct military service administered, together with the Navy, under the Department of the Navy — itself a military department within the Department of War (operating name for the former DoD; legal-name status UNVERIFIED this session).",
+      "sources": [
+        {"title": "Marine Corps Vision and Strategy 2025", "url": "https://www.marines.mil/portals/1/Publications/Vision%20Strat%20lo%20res.pdf", "retrieved_date": "2026-07-12"},
+        {"title": "The Mission of MCRDSD: We Make Marines", "url": "https://www.mcrdsd.marines.mil/About/The-Mission-We-Make-Marines/", "retrieved_date": "2026-07-12"},
+        {"title": "MCRD Parris Island — Recruit Training", "url": "https://www.mcrdpi.marines.mil/Recruit-Training/", "retrieved_date": "2026-07-12"},
+        {"title": "Officer Candidates School — U.S. Marine Corps", "url": "https://www.ocs.marines.mil/", "retrieved_date": "2026-07-12"},
+        {"title": "FY2026 NDAA: Active Component End-Strength (CRS IN12651)", "url": "https://www.everycrsreport.com/reports/IN12651.html", "retrieved_date": "2026-07-12"},
+        {"title": "Military Age Limits by Branch (secondary)", "url": "https://www.operationmilitarykids.org/military-age-limits/", "retrieved_date": "2026-07-12"}
+      ]
+    },
+    {
+      "id": "space-force",
+      "name": "United States Space Force",
+      "department": "Department of War (formerly DoD)",
+      "mission": "Secure the nation's interests in, from, and to space.",
+      "culture": "The newest branch, established December 20, 2019. Members are titled Guardians and the service is organized around Space Deltas rather than the traditional wing/squadron structure used elsewhere in the Department of the Air Force. It is by far the smallest branch by authorized end strength and has a deliberately narrow specialty list rather than a full parallel set of career fields — the taxonomy and specialty layers of this project should not pad it to false parity with the other five branches.",
+      "size_active_duty": 10400,
+      "entry_paths": {
+        "enlisted": "Standard DoD recruiter/ASVAB/MEPS/DEP process (no distinct Space Force branding for DEP), followed by Basic Military Training (BMT) shared with the Air Force at JBSA-Lackland. Enlisted specialty list is narrow; some enlisted Guardians also arrive via inter-service transfer from the Air Force. See prep-pathway.md for the full MEPS/DEP process.",
+        "rotc": "No separate Space Force ROTC. Officers commission through Air Force ROTC (AFROTC), which also commissions into the Air Force.",
+        "ocs_ots": "Officer Training School (OTS), Maxwell Air Force Base, Alabama — approximately 9 weeks (Basic Officer Training, shared 'OTS-Victory' curriculum). The same program commissions officers into both the Air Force and Space Force.",
+        "academy": "None — the Space Force has no separate service academy. Guardians commission via the U.S. Air Force Academy (USAFA) or AFROTC."
+      },
+      "basic_training": {
+        "name": "Basic Military Training (BMT) — shared with the Air Force",
+        "location": "Joint Base San Antonio-Lackland (JBSA-Lackland), San Antonio, Texas.",
+        "length_weeks": 7,
+        "notes": "As of mid-2026, Guardian BMT still takes place at Lackland alongside Air Force trainees, using the same approximately 7.5-week core curriculum, but with dedicated Space Force drill instructors and roughly 21 additional hours of Space Force-specific instruction (structure, doctrine, leadership content). Space Force leadership has discussed eventually standing up a dedicated Guardian-only training site (Patrick Space Force Base, FL, and Colorado locations have been floated), but this had not occurred as of this research date."
+      },
+      "general_eligibility": {
+        "age_range": "No Space Force-specific enlistment age minimum/maximum is separately published; the service inherits the Air Force's enlisted accession pipeline and reported age ceiling (up to 42 per secondary sources). Not independently confirmed on spaceforce.com this session — verify before relying on it.",
+        "citizenship": "U.S. citizen or lawful permanent resident (green card holder) for enlistment; officer commissioning generally requires U.S. citizenship. Current 2026 non-citizen enlistment posture not independently verified this session (UNVERIFIED).",
+        "education": "High school diploma (Tier 1) generally expected; spaceforce.com states only a 'qualifying ASVAB score' without publishing a distinct numeric minimum — the service is reported to be highly selective in practice. See prep-pathway.md for detail."
+      },
+      "structural_notes": "The Space Force is a single-component service: it has NO reserve component and NO National Guard equivalent. Under the Space Force Personnel Management Act (signed December 2023), Guardians serve either on 'sustained duty' (full-time) or 'not on sustained duty' (part-time), with an inactive-status pool similar to the IRR; the first Guardians on Non-Sustained Duty (247 former Air Force Reservists) were announced in April 2026. This is explicitly not a 'Space Force Reserve.' The Space Force also has no separate service academy — commissioning runs through USAFA or AFROTC — and is administered under the Department of the Air Force, itself a military department within the Department of War (operating name for the former DoD; legal-name status UNVERIFIED this session). Do not pad Space Force specialty, reserve, or academy content to false parity with the other five branches.",
+      "sources": [
+        {"title": "Space Force Unveils New Mission Statement", "url": "https://www.airandspaceforces.com/space-force-new-mission-statement/", "retrieved_date": "2026-07-12"},
+        {"title": "CSO, CMSSF celebrate newest Guardians, engage BMT training staff", "url": "https://www.spaceforce.mil/News/Article-Display/Article/4410492/cso-cmssf-celebrate-newest-guardians-engage-bmt-training-staff/", "retrieved_date": "2026-07-12"},
+        {"title": "Officer Training School embarks on 'OTS-Victory'", "url": "https://www.spaceforce.mil/News/Article-Display/Article/3553726/officer-training-school-embarks-on-ots-victory/", "retrieved_date": "2026-07-12"},
+        {"title": "FY2026 NDAA: Active Component End-Strength (CRS IN12651)", "url": "https://www.everycrsreport.com/reports/IN12651.html", "retrieved_date": "2026-07-12"},
+        {"title": "Defense Primer: U.S. Space Force (Congressional Research Service)", "url": "https://www.congress.gov/crs-product/IF12610", "retrieved_date": "2026-07-12"}
+      ]
+    },
+    {
+      "id": "coast-guard",
+      "name": "United States Coast Guard",
+      "department": "Department of Homeland Security",
+      "mission": "Protect the public, the environment, and U.S. economic and security interests in the maritime domain, spanning eleven statutory missions ranging from search-and-rescue to drug interdiction to port and waterway security.",
+      "culture": "A multi-mission service combining military, law-enforcement, and maritime-regulatory functions, which distinguishes it culturally from the five Department of War branches. Core values are Honor, Respect, and Devotion to Duty. It is the smallest of the six branches (excluding the Space Force comparison caveat below) and the only one whose peacetime authority sits outside the military department structure.",
+      "size_active_duty": 50000,
+      "entry_paths": {
+        "enlisted": "Recruiter contact, ASVAB, MEPS, enlistment contract, Delayed Entry Program, then Recruit Training at Training Center Cape May — the Coast Guard's sole enlisted accession point. See prep-pathway.md for the full MEPS/DEP process.",
+        "rotc": "None — the Coast Guard has no ROTC.",
+        "ocs_ots": "Officer Candidate School (OCS), New London, Connecticut (on the grounds of the Coast Guard Academy) — 17 weeks. Open to bachelor's-degree holders; the College Student Pre-Commissioning Initiative (CSPI) offers an alternate scholarship-linked path culminating in OCS. See prep-pathway.md for CSPI and Direct Commission Selected School (DCSS) detail.",
+        "academy": "United States Coast Guard Academy (USCGA), New London, Connecticut — the only one of the five federal service academies with NO congressional nomination requirement; admission is direct and competitive. Tuition-free with a post-commission service obligation."
+      },
+      "basic_training": {
+        "name": "Recruit Training / Coast Guard Boot Camp",
+        "location": "Training Center Cape May, New Jersey — the Coast Guard's sole enlisted accession point.",
+        "length_weeks": 8,
+        "notes": "8-week core program. A recent article (My Coast Guard News) indicates future Cape May graduates will additionally attend a new one-week 'acclimation course' after graduation; whether this is now standard for all graduating classes or a limited rollout was not independently confirmed this session — UNVERIFIED."
+      },
+      "general_eligibility": {
+        "age_range": "Enlisted: 17 (with parental consent) up to 42, reflecting a Coast Guard recruiting-instruction update reported in GAO-25-107224 that raised the prior ceiling of 34. See prep-pathway.md, which independently sourced this figure. Verify current ceiling before relying on it.",
+        "citizenship": "U.S. citizen or lawful permanent resident (green card holder) for enlistment; officer commissioning generally requires U.S. citizenship. Current 2026 non-citizen enlistment posture not independently verified this session (UNVERIFIED).",
+        "education": "High school diploma (Tier 1) generally required (AFQT minimum 32 per prep-pathway.md); GED (Tier 2) accepted in capped numbers. See prep-pathway.md for the full ASVAB/tier framework."
+      },
+      "structural_notes": "The Coast Guard is a military service under the Department of Homeland Security (DHS), not the Department of War/DoD — the only one of the six branches organized this way in peacetime. Under 14 U.S.C. §3, it can be transferred to the Department of the Navy by the President or by Congress during wartime. It maintains its own name/insignia-protection statute, cited elsewhere in this project's source material as 14 U.S.C. §934 (this specific section citation was carried over from the project's master prompt and was not independently re-verified against the U.S. Code this session — UNVERIFIED). Its FY2026 authorized active-duty end strength of 50,000 (per 14 U.S.C. §4904, set in the FY2026 NDAA) is a statutory ceiling, not a headcount census; it is notably higher than the roughly 42,000 actual active-duty figure reported elsewhere for FY2024 (per GAO-25-107224, cited in prep-pathway.md) — flagged as a discrepancy between authorized ceiling and reported actual strength, not resolved this session.",
+      "sources": [
+        {"title": "Coast Guard Missions", "url": "https://www.gocoastguard.com/about/missions", "retrieved_date": "2026-07-12"},
+        {"title": "Training Center Cape May — Recruit Training", "url": "https://www.forcecom.uscg.mil/Our-Organization/FORCECOM-UNITS/TraCen-Cape-May/Training/RecruitTraining/", "retrieved_date": "2026-07-12"},
+        {"title": "Future Cape May grads will head to one-week acclimation course", "url": "https://www.mycg.uscg.mil/News/Article/3817703/future-cape-may-grads-will-head-to-one-week-acclimation-course/", "retrieved_date": "2026-07-12"},
+        {"title": "Officer Candidate School (OCS)", "url": "https://www.gocoastguard.com/get-started/officer-applications/officer-candidate-school-ocs", "retrieved_date": "2026-07-12"},
+        {"title": "14 USC 4904: Authorized levels of military strength and training", "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title14-section4904&num=0&edition=prelim", "retrieved_date": "2026-07-12"},
+        {"title": "FY2026 NDAA: Active Component End-Strength (CRS IN12651)", "url": "https://www.everycrsreport.com/reports/IN12651.html", "retrieved_date": "2026-07-12"}
+      ]
+    }
+  ],
+  "unverified": [
+    "Army: One Station Unit Training (OSUT) exact length by combat-arms MOS.",
+    "All branches: current (2026) non-citizen/lawful-permanent-resident enlistment policy nuance (e.g., any MAVNI-type program status) — general citizenship baseline is sourced to 10 U.S.C. §504-era practice, not independently re-confirmed for 2026.",
+    "All branches: enlisted maximum-age figures were corroborated only via secondary/aggregator sources (operationmilitarykids.org, militaryprephub.com, Stars and Stripes, FOX11), not independently confirmed on each branch's own .mil/.gov or official career site this session.",
+    "'Department of War' as the formal legal name of the former Department of Defense — used here because the schema/master prompt specifies it, but its codified legal status was not independently verified this session.",
+    "Coast Guard: exact citation and content of the '14 U.S.C. §934' trademark/name-protection statute — carried over from the project's master prompt, not independently re-verified against the U.S. Code this session.",
+    "Coast Guard: whether the new one-week post-Cape-May 'acclimation course' is now standard for all graduating classes.",
+    "Coast Guard: reconciliation between the 50,000 FY2026 statutory end-strength ceiling (14 U.S.C. §4904) and the ~42,000 actual active-duty figure reported elsewhere (GAO-25-107224) — both are reported as-is; not reconciled."
+  ],
+  "completion_accountability": "6 of 6 branches fully profiled against every required schema field (mission, culture, size_active_duty, all four entry_paths, basic_training, general_eligibility, structural_notes, sources). No branch was padded to false parity: Coast Guard is labeled under the Department of Homeland Security with its DHS/wartime-transfer/trademark-statute distinctions stated explicitly in structural_notes; Space Force is labeled single-component with no reserve and no separate academy, and its narrower specialty/entry-path footprint is described as narrower rather than inflated. No dollar figures appear in this command (out of scope for BRANCHES). Tool usage: approximately 18 web search/fetch calls against a stated budget of ~12 for this command — the overage (roughly 6 calls) went toward resolving the Coast Guard's statutory end-strength figure, confirming the Space Force's 2026 shared-BMT arrangement, and pinning down exact OCS/OTS locations and lengths for all six branches via official sites (army.mil family, navy.mil/netc.navy.mil, airforce.com, marines.mil family, spaceforce.mil, gocoastguard.com/uscg.mil family) so that no entry_paths.ocs_ots field needed to be guessed. Seven items remain explicitly UNVERIFIED (listed above) rather than fabricated; none of them block the branch-profile layer's core purpose (mission/culture/entry-path/basic-training orientation), and none duplicate or contradict the sibling prep-pathway.md document, which retains authority over ASVAB minimums, fitness standards, MEPS/DEP mechanics, and officer-pathway detail."
+}

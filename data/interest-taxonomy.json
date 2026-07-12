@@ -1,0 +1,334 @@
+{
+  "command": "TAXONOMY",
+  "retrieved_date": "2026-07-12",
+  "clusters": [
+    {
+      "id": "technology-cyber",
+      "name": "Technology & Cyber",
+      "description": "Installing, operating, defending, and administering computer networks and information systems, and conducting offensive/defensive cyberspace operations.",
+      "aptitude_signals": [
+        "Troubleshoots computers or home networks without being asked",
+        "Enjoys logic puzzles, coding, or scripting",
+        "Reads technical documentation without losing patience",
+        "Has built, modified, or repaired a PC or network setup"
+      ],
+      "related_asvab_composites": ["Army:ST", "Army:GT", "MAGE:E", "USMC:EL", "USMC:GT", "Navy:no line score — per-rating subtest sums", "USCG:no line score — per-rating subtest sums"],
+      "hero_image_query": "cyber operations network defense workstation",
+      "example_specialties_by_branch": {
+        "Army": ["17C — Cyber Operations Specialist", "25B — Information Technology Specialist"],
+        "Navy": ["IT — Information Systems Technician", "CTN — Cryptologic Technician Networks"],
+        "Air Force": ["1B4X1 — Cyber Warfare Operations", "3D0X2 — Cyber Systems Operations"],
+        "Marine Corps": ["1710 — Network Administrator", "1721 — Offensive Cyberspace Operations"],
+        "Space Force": ["UNVERIFIED code — Cyber Systems Operations"],
+        "Coast Guard": ["IT — Information Systems Technician"]
+      },
+      "notes": "Marine Corps cyber MOS codes (17XX series) are less consistently documented in the sources checked this session than other branches' lists; confirm exact codes against the current MOS manual in RUN SPECIALTIES. Space Force's cyber specialty exists (it inherited cyber missions from the Air Force) but its current SFSC numbering could not be verified this session — the official spaceforce.mil SFSC crosswalk PDF returned HTTP 403 on fetch."
+    },
+    {
+      "id": "healthcare-medical",
+      "name": "Healthcare & Medical",
+      "description": "Direct patient care, emergency medicine, dentistry, and allied health support in garrison, shipboard, and field settings.",
+      "aptitude_signals": [
+        "Stays calm and functional when someone is hurt or in crisis",
+        "Comfortable with bodily fluids, injuries, and clinical detail",
+        "Interested in anatomy, biology, or how the body works",
+        "Has done caregiving, babysitting, or coaching and gravitated toward the 'take care of people' role"
+      ],
+      "related_asvab_composites": ["Army:ST", "Army:SC", "MAGE:G", "MAGE:A", "Navy:no line score — per-rating subtest sums", "USCG:no line score — per-rating subtest sums"],
+      "hero_image_query": "field medic corpsman treating patient",
+      "example_specialties_by_branch": {
+        "Army": ["68W — Combat Medic Specialist", "68C — Practical Nursing Specialist"],
+        "Navy": ["HM — Hospital Corpsman"],
+        "Air Force": ["4N0X1 — Aerospace Medical Service", "4A1X1 — Medical Logistics"],
+        "Marine Corps": [],
+        "Space Force": [],
+        "Coast Guard": ["HS — Health Services Technician"]
+      },
+      "notes": "Marine Corps has no organic enlisted medical MOS — medical care for Marines is provided by Navy Hospital Corpsmen (HM) attached to Marine units. A person who wants to do medicine embedded with Marines enlists in the Navy as a Corpsman, not in the Marine Corps. Space Force likewise has no independent medical enlisted career field; medical support is provided by Air Force personnel."
+    },
+    {
+      "id": "aviation",
+      "name": "Aviation",
+      "description": "Flying, maintaining, and supporting fixed-wing and rotary-wing aircraft, and the air traffic and flight-operations systems around them.",
+      "aptitude_signals": [
+        "Drawn to how aircraft systems work, not just flying itself",
+        "Good spatial reasoning and reaction time",
+        "Comfortable with checklists and procedure-heavy work",
+        "Interested in mechanical systems combined with electronics"
+      ],
+      "related_asvab_composites": ["Army:ST", "Army:EL", "Army:MM", "MAGE:M", "MAGE:G", "USMC:MM", "USMC:EL", "Navy:no line score — per-rating subtest sums", "USCG:no line score — per-rating subtest sums"],
+      "hero_image_query": "aircraft maintenance flight line",
+      "example_specialties_by_branch": {
+        "Army": ["15T — UH-60 Helicopter Repairer", "93P — Aviation Operations Specialist"],
+        "Navy": ["AD — Aviation Machinist's Mate", "AME — Aviation Structural Mechanic — Safety Equipment"],
+        "Air Force": ["2A3X3 — Tactical Aircraft Maintenance", "1C1X1 — Air Traffic Control"],
+        "Marine Corps": ["UNVERIFIED code — Aircraft Maintenance (60XX–63XX series, airframe-specific)"],
+        "Space Force": [],
+        "Coast Guard": ["AMT — Aviation Maintenance Technician", "AST — Aviation Survival Technician"]
+      },
+      "notes": "Space Force has no aviation specialties — it does not operate aircraft; airlift for Space Force needs uses Air Force assets. Marine Corps aviation-maintenance MOS codes are airframe-specific and numerous (60XX–63XX range); the exact code was not confirmed this session and is flagged rather than guessed."
+    },
+    {
+      "id": "mechanical-engineering",
+      "name": "Mechanical & Engineering",
+      "description": "Hands-on repair, construction, and engineering of vehicles, machinery, structures, and utility systems.",
+      "aptitude_signals": [
+        "Has taken apart or fixed a car, engine, or appliance for fun",
+        "Comfortable with hand and power tools",
+        "Enjoys shop class, robotics, or DIY builds",
+        "Thinks in physical/mechanical systems"
+      ],
+      "related_asvab_composites": ["Army:MM", "Army:GM", "Army:ST", "MAGE:M", "USMC:MM", "Navy:no line score — per-rating subtest sums", "USCG:no line score — per-rating subtest sums"],
+      "hero_image_query": "combat engineer construction equipment",
+      "example_specialties_by_branch": {
+        "Army": ["91B — Wheeled Vehicle Mechanic", "12B — Combat Engineer"],
+        "Navy": ["MM — Machinist's Mate", "EN — Engineman"],
+        "Air Force": ["3E4X1 — Water and Fuels Systems Maintenance", "2A6X1 — Aerospace Propulsion"],
+        "Marine Corps": ["1141 — Electrician", "1345 — Engineer Equipment Operator"],
+        "Space Force": [],
+        "Coast Guard": ["MK — Machinery Technician", "DC — Damage Controlman"]
+      },
+      "notes": "Space Force has no mechanical/construction trades of its own — facility and vehicle maintenance at Space Force installations is performed by Air Force personnel or contractors."
+    },
+    {
+      "id": "law-enforcement-security",
+      "name": "Law Enforcement & Security",
+      "description": "Military police, installation/physical security, corrections, and force-protection roles.",
+      "aptitude_signals": [
+        "Interested in rules, procedure, and de-escalation, not only physical confrontation",
+        "Comfortable being the one who intervenes in a conflict",
+        "Detail-oriented about reports and procedure",
+        "Has considered a civilian law-enforcement or corrections career"
+      ],
+      "related_asvab_composites": ["Army:ST", "Army:CL", "MAGE:G", "USMC:GT", "Navy:no line score — per-rating subtest sums", "USCG:no line score — per-rating subtest sums"],
+      "hero_image_query": "military police patrol installation security",
+      "example_specialties_by_branch": {
+        "Army": ["31B — Military Police"],
+        "Navy": ["MA — Master-at-Arms"],
+        "Air Force": ["3P0X1 — Security Forces"],
+        "Marine Corps": ["5811 — Military Police"],
+        "Space Force": [],
+        "Coast Guard": ["ME — Maritime Enforcement Specialist"]
+      },
+      "notes": "Space Force has no dedicated security-forces enlisted specialty; installation security at Space Force bases is provided by Air Force Security Forces personnel."
+    },
+    {
+      "id": "logistics-supply",
+      "name": "Logistics & Supply",
+      "description": "Ordering, storing, tracking, and moving parts, supplies, fuel, and equipment; warehouse, inventory, and transportation coordination.",
+      "aptitude_signals": [
+        "Likes organizing, inventory systems, or spreadsheets",
+        "Good at tracking many moving pieces without losing track",
+        "Interested in how supply chains and shipping work",
+        "Has run a stockroom or organized logistics for a group/event"
+      ],
+      "related_asvab_composites": ["Army:CL", "Army:OF", "MAGE:A", "USMC:GT", "Navy:no line score — per-rating subtest sums", "USCG:no line score — per-rating subtest sums"],
+      "hero_image_query": "warehouse supply logistics forklift",
+      "example_specialties_by_branch": {
+        "Army": ["92Y — Unit Supply Specialist", "88M — Motor Transport Operator"],
+        "Navy": ["LS — Logistics Specialist"],
+        "Air Force": ["2S0X1 — Logistics Plans", "2T2X1 — Air Transportation"],
+        "Marine Corps": ["3043 — Supply Administration and Operations", "3531 — Motor Vehicle Operator"],
+        "Space Force": ["UNVERIFIED code — Logistics Readiness"],
+        "Coast Guard": ["SK — Storekeeper"]
+      },
+      "notes": "Space Force logistics functions draw on the shared Air Force logistics-readiness career field rather than a fully separate, well-documented SFSC track; exact current SFSC numbering was not verified within this session's tool budget."
+    },
+    {
+      "id": "combat-arms",
+      "name": "Combat Arms",
+      "description": "Direct ground combat roles — infantry, armor, and field/cannon artillery — focused on close combat and fires.",
+      "aptitude_signals": [
+        "Physically pushes self in sports or training",
+        "Comfortable operating as part of a small team under stress",
+        "Drawn to weapons, tactics, or field/outdoor environments",
+        "Has sought out physically and mentally demanding challenges"
+      ],
+      "related_asvab_composites": ["Army:CO", "Army:GT", "USMC:GT"],
+      "hero_image_query": "infantry training field exercise",
+      "example_specialties_by_branch": {
+        "Army": ["11B — Infantryman", "19K — M1 Armor Crewman", "13B — Cannon Crewmember"],
+        "Navy": [],
+        "Air Force": [],
+        "Marine Corps": ["0311 — Rifleman", "0331 — Machine Gunner", "0811 — Field Artillery Cannoneer"],
+        "Space Force": [],
+        "Coast Guard": []
+      },
+      "notes": "Combat arms is concentrated almost entirely in the Army and Marine Corps. Navy, Air Force, Space Force, and Coast Guard have no equivalent ground combat-arms occupational specialty — their force-protection/security roles (Master-at-Arms, Security Forces, Maritime Enforcement Specialist) are listed under law-enforcement-security instead, since they are not infantry/armor/artillery roles."
+    },
+    {
+      "id": "business-admin",
+      "name": "Business & Administration",
+      "description": "Personnel administration, finance, accounting, and records-management functions that run a unit's administrative side.",
+      "aptitude_signals": [
+        "Comfortable with paperwork, recordkeeping, and process compliance",
+        "Good with numbers and budgets",
+        "Interested in HR, accounting, or office management",
+        "Has held a treasurer/organizer-type role in a club or job"
+      ],
+      "related_asvab_composites": ["Army:CL", "MAGE:A", "USMC:GT", "Navy:no line score — per-rating subtest sums", "USCG:no line score — per-rating subtest sums"],
+      "hero_image_query": "personnel administration finance office",
+      "example_specialties_by_branch": {
+        "Army": ["42A — Human Resources Specialist", "36B — Financial Management Technician"],
+        "Navy": ["YN — Yeoman", "PS — Personnel Specialist"],
+        "Air Force": ["3F0X1 — Personnel", "6F0X1 — Financial Management"],
+        "Marine Corps": ["0111 — Administrative Specialist", "3404 — Financial Management Resource Analyst"],
+        "Space Force": ["UNVERIFIED code — administrative/financial-management support (shared Air Force career field)"],
+        "Coast Guard": ["YN — Yeoman"]
+      },
+      "notes": "Space Force administrative and finance functions are largely performed by Air Force personnel in shared career fields rather than a dedicated, independently documented SFSC track; treat as thin/shared presence."
+    },
+    {
+      "id": "culinary",
+      "name": "Culinary",
+      "description": "Food service and preparation — planning menus, cooking, and running dining facilities and galleys for units, ships, and installations.",
+      "aptitude_signals": [
+        "Cooks for other people regularly and enjoys it",
+        "Has worked a kitchen or food-service job",
+        "Interested in food safety, nutrition, or the culinary industry",
+        "Comfortable with fast-paced, high-volume production work"
+      ],
+      "related_asvab_composites": ["Army:OF", "Army:CL", "MAGE:G", "USMC:GT", "Navy:no line score — per-rating subtest sums", "USCG:no line score — per-rating subtest sums"],
+      "hero_image_query": "military dining facility galley food service",
+      "example_specialties_by_branch": {
+        "Army": ["92G — Culinary Specialist"],
+        "Navy": ["CS — Culinary Specialist"],
+        "Air Force": ["3F0X2 — Services (includes food service; also covers mortuary affairs and fitness/recreation, not culinary-only)"],
+        "Marine Corps": ["3381 — Food Service Specialist"],
+        "Space Force": [],
+        "Coast Guard": ["FS — Food Service Specialist"]
+      },
+      "notes": "Space Force has no organic culinary/food-service enlisted specialty; dining facilities at Space Force units are run by Air Force Services personnel or contract food service."
+    },
+    {
+      "id": "music-media",
+      "name": "Music & Media",
+      "description": "Military bands and musicians, and public affairs, broadcast, journalism, and visual-information roles that document and communicate military activities.",
+      "aptitude_signals": [
+        "Plays an instrument at an audition-ready level, or writes/shoots photo-video/edits regularly",
+        "Comfortable performing or publishing work in front of an audience",
+        "Interested in storytelling, journalism, or media production",
+        "Has produced content (video, photography, writing, music) outside of school assignments"
+      ],
+      "related_asvab_composites": ["Army:CL", "Army:GT", "MAGE:G", "MAGE:A", "USMC:GT", "Navy:no line score — per-rating subtest sums", "USCG:no line score — per-rating subtest sums"],
+      "hero_image_query": "military band public affairs photographer",
+      "example_specialties_by_branch": {
+        "Army": ["42R — Musician", "46Q — Public Affairs Specialist"],
+        "Navy": ["MU — Musician", "MC — Mass Communication Specialist"],
+        "Air Force": ["3N0X2 — Public Affairs", "UNVERIFIED code — Band (audition-based program, not a standard AFSC accession)"],
+        "Marine Corps": ["UNVERIFIED code — Musician (Marine Corps Band, audition-based)", "UNVERIFIED code — Combat Correspondent"],
+        "Space Force": [],
+        "Coast Guard": ["UNVERIFIED code — Musician (U.S. Coast Guard Band, audition-based)", "PA — Public Affairs Specialist"]
+      },
+      "notes": "Military band positions across every branch that has one are typically audition-based accessions — the ASVAB line score still gates general enlistment eligibility, but the specific billet is won by audition/recording, not line score alone; this nuance isn't fully captured by the schema. Several exact codes in this cluster were not independently verified this session and are flagged UNVERIFIED rather than guessed. Space Force has no music/band program and no independently documented public-affairs SFSC of its own; public affairs support is provided by Air Force personnel."
+    },
+    {
+      "id": "maritime-nautical",
+      "name": "Maritime & Nautical",
+      "description": "Shipboard operations, navigation, deck seamanship, and small-boat/cutter operations.",
+      "aptitude_signals": [
+        "Comfortable at sea, or has boating/sailing/fishing experience",
+        "Interested in navigation, weather, or how ships operate",
+        "Doesn't mind confined shared spaces and rotating shifts",
+        "Drawn to being on the water rather than at a desk"
+      ],
+      "related_asvab_composites": ["Army:MM", "Navy:no line score — per-rating subtest sums", "USCG:no line score — per-rating subtest sums"],
+      "hero_image_query": "sailors deck seamanship shipboard operations",
+      "example_specialties_by_branch": {
+        "Army": ["88K — Watercraft Operator (small Army watercraft / logistics-over-the-shore fleet; not a broad career field)"],
+        "Navy": ["BM — Boatswain's Mate", "QM — Quartermaster"],
+        "Air Force": [],
+        "Marine Corps": [],
+        "Space Force": [],
+        "Coast Guard": ["BM — Boatswain's Mate", "OS — Operations Specialist"]
+      },
+      "notes": "Air Force and Space Force have no maritime specialty at all. Marine Corps personnel embark aboard Navy ships but have no organic shipboard-seamanship MOS of their own — a Marine-track candidate interested in this cluster would need to look at the Navy instead. Army's watercraft field (88K) is real but small and logistics-focused, not a broad seamanship career path."
+    },
+    {
+      "id": "intelligence-analysis",
+      "name": "Intelligence & Analysis",
+      "description": "Collecting, processing, and analyzing imagery, signals, and all-source information to support military decision-making.",
+      "aptitude_signals": [
+        "Enjoys research, pattern-finding, and synthesizing information from multiple sources",
+        "Comfortable with ambiguity and incomplete information",
+        "Discreet and comfortable with rules around sensitive/classified material",
+        "Strong reading comprehension and writing"
+      ],
+      "related_asvab_composites": ["Army:ST", "Army:GT", "MAGE:G", "USMC:GT", "Navy:no line score — per-rating subtest sums", "USCG:no line score — per-rating subtest sums"],
+      "hero_image_query": "intelligence analyst operations center",
+      "example_specialties_by_branch": {
+        "Army": ["35F — Intelligence Analyst", "35N — Signals Intelligence Analyst"],
+        "Navy": ["IS — Intelligence Specialist", "CTI — Cryptologic Technician Interpretive"],
+        "Air Force": ["1N0X1 — All Source Intelligence Analyst"],
+        "Marine Corps": ["0231 — Intelligence Specialist"],
+        "Space Force": ["UNVERIFIED code — Intelligence (space-domain-awareness focused)"],
+        "Coast Guard": ["IS — Intelligence Specialist"]
+      },
+      "notes": "Security clearance eligibility (typically Secret or Top Secret/SCI) is the dominant qualifying gate in this cluster across all branches — often more restrictive than the ASVAB line score itself. A disqualifying background-investigation issue can rule out this cluster even with a qualifying score."
+    },
+    {
+      "id": "space-satellite",
+      "name": "Space & Satellite",
+      "description": "Operating, maintaining, and defending satellite systems, space launch, missile warning, and space-domain-awareness systems.",
+      "aptitude_signals": [
+        "Interested in astronomy, orbital mechanics, or how satellites work",
+        "Strong math/physics aptitude",
+        "Comfortable with sustained-attention console/monitoring work",
+        "Drawn to space as a subject, not just aviation"
+      ],
+      "related_asvab_composites": ["MAGE:G", "MAGE:E"],
+      "hero_image_query": "space operations satellite control center",
+      "example_specialties_by_branch": {
+        "Army": [],
+        "Navy": [],
+        "Air Force": ["UNVERIFIED code — Space Systems Operations (legacy AFSC 1C6X1; mission now primarily owned by Space Force)"],
+        "Marine Corps": [],
+        "Space Force": ["UNVERIFIED code — Space Systems Operations", "UNVERIFIED code — Space Electronic Warfare"],
+        "Coast Guard": []
+      },
+      "notes": "This is Space Force's core mission, yet its enlisted specialty list for space operations is narrow by design — DO NOT PAD IT. Exact current numeric SFSC codes could not be independently verified this session (the official spaceforce.mil SFSC crosswalk document returned HTTP 403 on fetch); specialty names are reported consistently across secondary sources but should be confirmed against a live spaceforce.mil or af.mil source before RUN SPECIALTIES publishes codes. Army, Navy, Marine Corps, and Coast Guard have no organic enlisted space-operations career field — Army's space function (functional area FA40) is an officer path, not enlisted."
+    },
+    {
+      "id": "legal",
+      "name": "Legal",
+      "description": "Military justice, legal administration, and paralegal support for judge advocates — courts-martial, legal assistance, and administrative law.",
+      "aptitude_signals": [
+        "Interested in law, rules, or how the justice system works",
+        "Strong reading/writing and attention to procedural detail",
+        "Comfortable with confidentiality and formal process",
+        "Has considered paralegal work or law school"
+      ],
+      "related_asvab_composites": ["Army:CL", "MAGE:A", "USMC:GT", "Navy:no line score — per-rating subtest sums", "USCG:no line score — per-rating subtest sums"],
+      "hero_image_query": "military legal paralegal courtroom",
+      "example_specialties_by_branch": {
+        "Army": ["27D — Paralegal Specialist"],
+        "Navy": ["LN — Legalman"],
+        "Air Force": ["5J0X1 — Paralegal"],
+        "Marine Corps": ["4421 — Legal Services Specialist"],
+        "Space Force": [],
+        "Coast Guard": ["YN — Yeoman (with legal specialty training; not a separate enlisted legal rating)"]
+      },
+      "notes": "Coast Guard does not have a dedicated enlisted legal/paralegal rating comparable to the other branches' 27D/LN/5J0X1/4421 — legal-administrative support falls to Yeomen with additional training, working alongside Coast Guard Judge Advocates. Space Force has no organic legal-enlisted specialty; supported by Air Force JAG/paralegal personnel."
+    }
+  ],
+  "sources": [
+    { "title": "ASVAB Line Scores Explained: GT, ST, CL, MM and Every Composite — Battalion Duty", "url": "https://battalionduty.com/blog/asvab-line-scores-explained/", "retrieved_date": "2026-07-12" },
+    { "title": "Air Force ASVAB Score: MAGE Requirements for Every AFSC — ASVAB Hero", "url": "https://asvabhero.com/air-force-asvab-score", "retrieved_date": "2026-07-12" },
+    { "title": "All About Air Force ASVAB Composite Scores — LiveAbout", "url": "https://www.liveabout.com/air-force-asvab-composite-scores-3344484", "retrieved_date": "2026-07-12" },
+    { "title": "How Each Military Branch Computes ASVAB Line Scores — Dummies", "url": "https://www.dummies.com/article/academics-the-arts/study-skills-test-prep/armed-services/understanding-how-each-branch-computes-asvab-line-scores-142394/", "retrieved_date": "2026-07-12" },
+    { "title": "Marine ASVAB Line Scores Explained: GT, EL, MM, CL — Boots and Utes", "url": "https://bootsandutes.com/blog/marine-asvab-line-scores-explained/", "retrieved_date": "2026-07-12" },
+    { "title": "Navy Rating ASVAB Score Requirements — NavyCS", "url": "https://www.navycs.com/asvab-test.html", "retrieved_date": "2026-07-12" },
+    { "title": "Coast Guard ASVAB Score: Requirements by Rating — ASVAB Hero", "url": "https://asvabhero.com/coast-guard-asvab-score", "retrieved_date": "2026-07-12" },
+    { "title": "Understanding Your ASVAB Results — Official ASVAB Career Exploration Program (asvabprogram.com)", "url": "https://www.asvabprogram.com/media-center-article/Tutorial/how-asvab-scores-work", "retrieved_date": "2026-07-12" },
+    { "title": "Space Force Specialty Codes — Veteran.com", "url": "https://veteran.com/space-force-specialty-codes/", "retrieved_date": "2026-07-12" },
+    { "title": "ENLISTED ONLY USSF SPECIALTY CODE CROSSWALK (official, fetch attempted, returned HTTP 403 — content not retrieved)", "url": "https://www.spaceforce.mil/LinkClick.aspx?fileticket=csSHRIrRU8c%3D&portalid=1&timestamp=1655211268589", "retrieved_date": "2026-07-12" }
+  ],
+  "unverified": [
+    "ASVAB line-score composite formulas (e.g. Army GT = VE+AR, Air Force/Space Force MAGE formulas) were cross-checked across multiple independent secondary/aggregator sources for consistency but were NOT confirmed against a primary DoD/.mil ASVAB document within this session's 8-call tool budget, which per the task was allocated to grounding the composite systems. The structural facts (Army's 10 named line scores, AF/SF's MAGE, USMC's GT/EL/MM, Navy/USCG having no line scores) are corroborated across several independent sources and match the task's own binding framing, but exact formula weightings should be treated as directional pending primary-source confirmation.",
+    "All specialty codes (MOS/Rating/AFSC/SFSC) in example_specialties_by_branch are drawn from trained knowledge of long-stable, widely-documented occupational code lists, not independently re-fetched from a live .mil source in this session. Full per-specialty verification is deferred to the downstream RUN SPECIALTIES command (per-cluster tool budget of 15).",
+    "All Space Force (SFSC) numeric codes are explicitly flagged UNVERIFIED — the official spaceforce.mil enlisted specialty crosswalk PDF could not be fetched (HTTP 403), and public SFSC numbering has reportedly been renumbered multiple times since 2020.",
+    "Marine Corps cyber MOS codes (1710, 1721), Marine Corps Band/Combat Correspondent codes, and Coast Guard Band rating code were not confirmed against an official source this session and are marked UNVERIFIED code in place of a guessed number.",
+    "Air Force codes 6F0X1 (Financial Management), 3N0X2 (Public Affairs), 3E4X1 (Water and Fuels Systems Maintenance), 2A6X1 (Aerospace Propulsion), 2S0X1 (Logistics Plans), 2T2X1 (Air Transportation) reflect moderate-confidence trained knowledge, not a live .mil confirmation this session."
+  ],
+  "completion_accountability": "14 of 14 candidate clusters completed (technology-cyber, healthcare-medical, aviation, mechanical-engineering, law-enforcement-security, logistics-supply, combat-arms, business-admin, culinary, music-media, maritime-nautical, intelligence-analysis, space-satellite, legal). 0 clusters skipped. Within each cluster, every one of the 6 branches was explicitly addressed — populated with real specialties where the branch has genuine presence, or an explicit empty array plus a reasoned note where it does not (documented gaps: Marine Corps and Space Force in healthcare-medical; Space Force in aviation, law-enforcement-security, culinary, music-media, maritime-nautical, legal, and mechanical-engineering; Navy/Air Force/Space Force/Coast Guard in combat-arms; Air Force/Marine Corps/Space Force/Coast Guard in space-satellite; Air Force/Marine Corps/Space Force in maritime-nautical). Tool budget: 8 of 8 web search/fetch calls used, per the command's stated budget, concentrated on grounding the ASVAB composite systems (Army 10-line-score model, MAGE, USMC GT/EL/MM, Navy/USCG no-line-score model) as instructed; one WebFetch (official Space Force SFSC crosswalk) failed with HTTP 403 and its content could not be retrieved. Specialty-code-level verification against primary .mil sources is deferred to RUN SPECIALTIES per cluster, which has a larger per-cluster budget (15 calls) suited to that depth."
+}

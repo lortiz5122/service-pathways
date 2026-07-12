@@ -1,0 +1,103 @@
+{
+  "command": "VETERAN-BENEFITS",
+  "retrieved_date": "2026-07-12",
+  "va_healthcare": {
+    "priority_groups": [
+      {
+        "group": 1,
+        "who": "Service-connected disability rated 50% or more disabling, OR rated unemployable due to service-connected conditions, OR Medal of Honor recipient.",
+        "cost_share": "No copays for any VA care. Most comprehensive exemption of the 8 groups."
+      },
+      {
+        "group": 2,
+        "who": "Service-connected disability rated 30% or 40% disabling.",
+        "cost_share": "No copays. Veterans with a service-connected rating of 10% or higher do not pay copays for outpatient or inpatient care."
+      },
+      {
+        "group": 3,
+        "who": "Former POW; Purple Heart recipient; discharged for a disability caused or worsened by active-duty service; service-connected disability rated 10% or 20% disabling; OR special eligibility under Title 38 U.S.C. § 1151.",
+        "cost_share": "No copays for most care (POW/Purple Heart status and 10%+ service-connected rating are both copay-exempt categories)."
+      },
+      {
+        "group": 4,
+        "who": "Receiving VA Aid and Attendance or Housebound benefits, OR determined by VA to be catastrophically disabled.",
+        "cost_share": "Generally no copays — falls within the Group 1–5 no-copay range VA publishes."
+      },
+      {
+        "group": 5,
+        "who": "Non-compensable (0%) service-connected disability with household income below VA's applicable income limit, OR receiving VA pension, OR eligible for Medicaid.",
+        "cost_share": "Generally no copays for care, but eligibility here is income/pension/Medicaid-based rather than disability-rating-based, unlike Groups 1–3."
+      },
+      {
+        "group": 6,
+        "who": "0% compensable service-connected disability rating; Project 112/SHAD participant; WWII, Persian Gulf War, or Camp Lejeune-era service meeting specific criteria; combat service in a theater of operations after November 11, 1998, discharged on/after October 1, 2013, meeting minimum active-duty service requirements (10 years of enhanced eligibility from discharge date, after which reassigned to highest group otherwise qualified for); OR exposure to toxins/radiation/Agent Orange or other toxic-exposure risk activity (TERA).",
+        "cost_share": "May owe copays depending on service-connection status and income (VA groups 6–8 as the tier where copays 'may' apply); care tied to the qualifying combat/toxic-exposure condition itself is typically copay-exempt."
+      },
+      {
+        "group": 7,
+        "who": "Gross household income below VA's geographically-adjusted income limit (GMT) for the veteran's location, and agrees to pay applicable copays.",
+        "cost_share": "Owes copays for care/medications not related to a service-connected condition; copay tier is lower than Group 8 because income falls below the local geographic limit."
+      },
+      {
+        "group": 8,
+        "who": "Gross household income above both VA's national income limit and the geographically-adjusted income limit for the veteran's location, and agrees to pay applicable copays. VA also uses sub-priorities (a–g) within Group 8 tied to prior enrollment status; sub-priority detail beyond this was not fetched — see unverified list.",
+        "cost_share": "Owes the highest copay share of the 8 groups."
+      }
+    ],
+    "how_assigned": "VA assigns a priority group at enrollment (VA Form 10-10EZ) based on a combination of factors: military service history (including combat service and toxic-exposure history), VA disability rating, household income relative to VA's national and geographically-adjusted (GMT) income limits, Medicaid eligibility, and receipt of other VA benefits such as VA pension or Aid and Attendance/Housebound. Assignment is not static: for example, post-11/11/1998 combat veterans get a 10-year window of enhanced eligibility from their discharge date, after which VA reassigns them to the highest group they otherwise qualify for. Regardless of assigned priority group, certain services carry no copay for any enrollee — mental health counseling, military sexual trauma-related care, and VA claim exams — and any veteran who does owe medication copays has those capped at $700/year in aggregate.",
+    "source": "https://www.va.gov/health-care/eligibility/priority-groups/ ; https://www.va.gov/health-care/copay-rates/",
+    "retrieved_date": "2026-07-12"
+  },
+  "va_home_loan": {
+    "entitlement": "Basic entitlement is $36,000, which guarantees lenders repayment on loans up to $144,000. Bonus (second-tier) entitlement applies to loans above $144,000. Veterans with FULL entitlement (no prior unrestored VA loan usage or default) have no VA-imposed statutory loan limit — the amount a lender will actually approve depends on the veteran's credit, income, and debt-to-income ratio, not a VA cap. Veterans with a prior VA loan still outstanding, or a prior VA loan default, have REDUCED entitlement: their remaining bonus entitlement is calculated against the county's FHFA conforming loan limit (25% of that limit, minus entitlement already used) — this is the scenario where a down payment can become necessary to close the gap on a higher-cost purchase.",
+    "funding_fee": "One-time fee on VA-backed and VA direct purchase/construction loans, financed into the loan or paid at closing unless exempt. Per the fee schedule published on va.gov (effective 2023-04-07, current as of this 2026-07-12 retrieval): Purchase/construction — first use, <5% down: 2.15%; first use, 5–9.99% down: 1.5%; first use, 10%+ down: 1.25%; subsequent use, <5% down: 3.3%; subsequent use, 5–9.99% down: 1.5%; subsequent use, 10%+ down: 1.25%. Cash-out refinance: 2.15% (first use) / 3.3% (subsequent use). IRRRL (interest rate reduction refinance): 0.5%. Manufactured home loans: 1%. Loan assumption: 0.5%. Exempt from the fee entirely: veterans receiving VA compensation for a service-connected disability; veterans eligible for that compensation but drawing military retirement or active-duty pay instead; certain surviving spouses receiving Dependency and Indemnity Compensation; service members with a pre-discharge memorandum/proposed rating of eligibility before closing; and active-duty members who furnish evidence of a Purple Heart by closing. As of the article dated on va.gov, funding fees became tax-deductible starting the applicable tax year noted by VA News — confirm current-year deductibility with a tax advisor.",
+    "down_payment_reality": "VA loans generally require no down payment and no monthly private mortgage insurance — this is the program's headline benefit, and it holds for veterans with full entitlement purchasing within the lender-approved amount and at/below the appraised value.",
+    "limits_and_caveats": "The no-down-payment feature is not unconditional: (1) the LENDER, not the VA, sets the actual approved loan amount based on credit, income, and debt-to-income ratio, and can require a down payment even though VA rules don't; (2) the VA guarantee only covers a fraction of the loan (basic $36,000, or ~25% of the loan amount for those with full bonus entitlement) — lenders may impose their own down-payment requirement on jumbo/high-cost purchases to manage their uncovered exposure; (3) veterans with REDUCED/partial entitlement (from a prior unrestored VA loan) are capped by county FHFA conforming-loan-limit math and may need a down payment to exceed it; (4) the VA-backed loan amount cannot exceed the appraised value or purchase price, whichever is lower — the veteran must cover any gap in cash; (5) the funding fee (unless exempt) effectively increases the amount financed even when no cash down payment is made.",
+    "source": "https://www.va.gov/housing-assistance/home-loans/funding-fee-and-closing-costs/ ; https://www.va.gov/housing-assistance/home-loans/loan-limits/",
+    "retrieved_date": "2026-07-12"
+  },
+  "gi_bill_transferability": {
+    "who_can_transfer": "Any active-duty service member or Selected Reserve member who has completed at least 6 years of service on the date the transfer request is approved, and who agrees to be retained (i.e., commits to continued service) as described below. Transfers may go to a spouse and/or dependent children, up to 36 months total, divisible among them however the service member chooses. Spouses may start using transferred benefits immediately. Dependent children must wait until the service member has completed at least 10 years of service before the child can begin using the benefit, and the child must be at least 18 (or have a high school diploma/equivalent) and under 26.",
+    "additional_service_obligation": "To have a transfer request approved, the service member must agree to serve 4 additional years from the date of approval — on top of whatever service commitment they already owe. This is a real, service-incurring commitment, not a paperwork-only transfer, and it is the most commonly under-covered consequence of transferring GI Bill benefits.",
+    "must_be_done_while_serving": true,
+    "caveats": "Transfer requests can only be submitted and approved while the service member is still on active duty or in the Selected Reserve, via milConnect (a DoD system, not a VA system) — the transfer election cannot be initiated after separation. Purple Heart recipients are exempt from BOTH the 6-year service requirement and the 4-year additional obligation, but must still request the transfer while still serving. If a service member separates before completing the additional 4-year obligation for reasons outside their control — service-connected illness/injury discharge, hardship discharge, involuntary force reduction, or death — benefits already transferred to dependents may remain usable even though the obligation was not completed. This is a DoD-administered election (via milConnect/DEERS), not something processed at a VA regional office — a distinction that trips people up. Once approved, the transferred benefit is still subject to the recipient's own normal delimiting-date rules.",
+    "source": "https://www.va.gov/education/transfer-post-9-11-gi-bill-benefits/",
+    "retrieved_date": "2026-07-12"
+  },
+  "state_benefit_variance": {
+    "warning": "NOT reducible to a single national number.",
+    "range_description": "State veteran benefits — property tax exemptions, state income tax exclusions on military/retired pay, tuition waivers, vehicle registration discounts, hunting/fishing license waivers, and hiring preference — are set entirely by individual state legislatures, and property tax benefits in particular are frequently further modified by county or local taxing authorities. The same veteran, with the same VA disability rating, can receive a full exemption in one state and a materially smaller, income-tested, or nonexistent benefit in another. Illustrative spread confirmed directly from official state sources on 2026-07-12: a 100%-disabled veteran in Texas receives a full exemption of the TOTAL appraised value of their homestead (Tax Code § 11.131), with tiered partial exemptions ($5,000–$12,000 off assessed value) at lower disability-rating bands; a 100%-disabled (or unemployable-rated) veteran in California instead receives a flat basic exemption of $100,000 of assessed value (compounded annually for inflation), with a larger exemption tier available only if the veteran also meets a separate low-income test — a structurally different and, for most properties, substantially smaller benefit than Texas's full exemption, and one that is not available on a sliding scale below the 100% rating.",
+    "verification_methodology": "Never quote a national or averaged dollar figure for a state-administered veteran benefit. To get an accurate figure for a specific veteran: (1) identify the veteran's state of LEGAL RESIDENCE, which is not necessarily their current duty station; (2) go to that state's official state government veterans affairs agency (e.g., Texas Veterans Commission — tvc.texas.gov; California Department of Veterans Affairs — calvet.ca.gov) or the specific administering agency for the benefit type — property tax exemptions are typically administered by the state comptroller/tax authority AND the county appraisal district, income tax exclusions by the state department of revenue; (3) confirm the current disability-rating thresholds, income tests, and residency/homestead requirements as published — these are set by state legislation and are NOT synchronized with federal VA disability-rating changes, so a state figure can lag or diverge from a veteran's current VA rating; (4) for property tax specifically, confirm with the COUNTY appraisal district, since some states allow counties to opt in/out of a benefit or add local supplements. For the website build: do not hardcode a 50-state benefit table as a static dataset; link out to each state's official veterans-affairs site per state of residence, with a visible disclaimer that amounts shown are illustrative examples only and subject to change by state legislation.",
+    "examples": [
+      {
+        "state": "Texas",
+        "benefit": "100%-disabled veterans (or those rated individually unemployable) receive a full exemption of the total appraised value of their residence homestead under Tax Code § 11.131. Veterans with lower ratings receive tiered partial exemptions off assessed value: $5,000 (any compensable rating), $7,500 (30–49%), $10,000 (50–69%), $12,000 (70–99%, or 65+ with 10%+ rating, blindness, or limb loss). Application deadline is April 30 via Form 50-135 to the local appraisal district.",
+        "source": "https://comptroller.texas.gov/taxes/property-tax/exemptions/disabledvet-faq.php",
+        "retrieved_date": "2026-07-12"
+      },
+      {
+        "state": "California",
+        "benefit": "100%-disabled veterans (or veterans compensated at the 100% rate due to unemployability), or their unmarried surviving spouse, receive a basic exemption of $100,000 of assessed home value (compounded annually for inflation), with a larger exemption tier for claimants who also meet a separate low-income test. Discharge must be under other-than-dishonorable conditions and service must fall within statutorily listed periods (Rev. & Tax. Code § 205.5(b)(1)(A)).",
+        "source": "https://www.boe.ca.gov/proptaxes/dv_exemption.htm",
+        "retrieved_date": "2026-07-12"
+      }
+    ]
+  },
+  "sources": [
+    { "title": "VA priority groups", "url": "https://www.va.gov/health-care/eligibility/priority-groups/", "retrieved_date": "2026-07-12" },
+    { "title": "Current VA health care copay rates", "url": "https://www.va.gov/health-care/copay-rates/", "retrieved_date": "2026-07-12" },
+    { "title": "VA funding fee and loan closing costs", "url": "https://www.va.gov/housing-assistance/home-loans/funding-fee-and-closing-costs/", "retrieved_date": "2026-07-12" },
+    { "title": "VA home loan entitlement and limits", "url": "https://www.va.gov/housing-assistance/home-loans/loan-limits/", "retrieved_date": "2026-07-12" },
+    { "title": "Transfer your Post-9/11 GI Bill benefits", "url": "https://www.va.gov/education/transfer-post-9-11-gi-bill-benefits/", "retrieved_date": "2026-07-12" },
+    { "title": "Unlocking Veteran tax exemptions across states and U.S. territories (VA News)", "url": "https://news.va.gov/139592/unlocking-veteran-tax-exemptions-across-states-and-u-s-territories/", "retrieved_date": "2026-07-12" },
+    { "title": "Disabled Veteran and Surviving Spouse Exemptions FAQ (Texas Comptroller)", "url": "https://comptroller.texas.gov/taxes/property-tax/exemptions/disabledvet-faq.php", "retrieved_date": "2026-07-12" },
+    { "title": "Disabled Veterans' Exemption (California State Board of Equalization)", "url": "https://www.boe.ca.gov/proptaxes/dv_exemption.htm", "retrieved_date": "2026-07-12" }
+  ],
+  "unverified": [
+    "Exact VA healthcare copay dollar amounts per priority group and per service type — the copay-rates page was fetched only for the general no-copay/copay determination rule, not the full current-year dollar table; do not populate a specific copay $ figure into the build without a fresh fetch of va.gov/health-care/copay-rates.",
+    "Priority Group 8 sub-priority (a–g) detailed criteria — confirmed that sub-priorities exist and are tied to income and prior-enrollment status, but the individual a–g criteria text was not fetched this session.",
+    "Whether the VA funding fee schedule (stated as effective 2023-04-07 on the page fetched 2026-07-12) has been altered by subsequent legislation not yet reflected on va.gov — the fee schedule is set by statute and Congress has changed it before; confirm at time of loan application via the VA Loan Guaranty calculator (lgy.va.gov/lgyhub/guaranty-calculator).",
+    "State benefit examples are illustrative (Texas, California only) and are NOT a survey of all 50 states — any other state's benefit must be independently verified per the methodology above before being presented to a user."
+  ],
+  "completion_accountability": "All required JSON fields populated from primary/official sources (va.gov, benefits.va.gov domains, comptroller.texas.gov, boe.ca.gov) fetched live on 2026-07-12. Tool usage: 6 web searches + 6 web fetches = 12 calls, at the ~12-call budget ceiling for this command. No required field was left blank; fields not confirmable from sources retrieved this session are listed in 'unverified' rather than estimated. The state-variance section deliberately limits to 2 illustrative state examples (Texas, California) per the master-prompt anti-pattern rule against presenting state benefits as a single national figure; a full 50-state benefit database was out of scope for this command's tool budget and, if the build requires one, should be a separate dedicated data-collection pass per state, not an extension of this command's output."
+}

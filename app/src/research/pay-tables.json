@@ -1,0 +1,164 @@
+{
+  "command": "COMPENSATION",
+  "retrieved_date": "2026-07-12",
+  "pay_year": "2026 (calendar year 2026, effective 2026-01-01, following the 3.8% across-the-board pay raise enacted in the FY2026 NDAA, signed 2025-12-18)",
+  "source_access_note": "Direct WebFetch to the three primary authorities for this data — militarypay.defense.gov, dfas.mil, and travel.dod.mil — returned HTTP 403 Forbidden on every attempt (6 attempts across the session). Figures below were therefore obtained via web search (which retrieves live page content server-side) and cross-corroborated across multiple independently operated secondary sources that explicitly cite DFAS/militarypay.defense.gov and the FY2026 NDAA. Where corroboration was insufficient or sources conflicted, the figure is marked UNVERIFIED rather than guessed. The build should attempt a fresh authenticated/browser-based pull of the primary DFAS/militarypay.defense.gov tables before shipping, since this session could not reach them directly.",
+
+  "basic_pay_monthly_usd": {
+    "note": "Monthly basic pay in USD, effective 2026-01-01. Columns are the two lowest years-of-service (YOS) bands: under 2 years and at 2 years, per the schema. Figures are cross-corroborated between two independent secondary sources (military.com and navycs.com), both of which state they transcribe the official DFAS/NDAA FY2026 pay table. Two figures (E-1 <2yr, O-1 <2yr) were independently confirmed to the cent via a separate fetch and match the rounded whole-dollar figures below.",
+    "enlisted": {
+      "E-1": {"<2yr": 2407.20, "2yr": 2407.20},
+      "E-2": {"<2yr": 2698, "2yr": 2698},
+      "E-3": {"<2yr": 2837, "2yr": 3015},
+      "E-4": {"<2yr": 3142, "2yr": 3303},
+      "E-5": {"<2yr": 3343, "2yr": 3598},
+      "E-6": {"<2yr": 3401, "2yr": 3743},
+      "E-7": {"<2yr": 3932, "2yr": 4291}
+    },
+    "officer": {
+      "O-1": {"<2yr": 4150.20, "2yr": 4320},
+      "O-2": {"<2yr": 4782, "2yr": 5446},
+      "O-3": {"<2yr": 5535, "2yr": 6273}
+    },
+    "source": "DFAS 2026 Military Pay Tables (effective 2026-01-01, 3.8% raise per FY2026 NDAA, S.5009, signed 2025-12-18), as transcribed by military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html. Primary DFAS/militarypay.defense.gov pages could not be fetched directly this session (403).",
+    "retrieved_date": "2026-07-12"
+  },
+
+  "bas_monthly_usd": {
+    "enlisted": 476.95,
+    "officer": 328.48,
+    "bas_ii_enhanced_rate_note": "BAS II (double the standard enlisted rate, $953.90/month) applies only to qualifying enlisted members in government quarters without adequate dining-facility access. UNVERIFIED — this figure appeared in only one line of corroboration and was not independently cross-checked; treat as directional.",
+    "annual_adjustment_method": "BAS is a flat, non-taxable monthly rate that does NOT vary by paygrade or dependency status within the enlisted/officer split. It is adjusted annually based on the percentage change in the USDA food cost index, not by the same NDAA pay-raise mechanism as basic pay.",
+    "increase_from_2025_pct": 2.4,
+    "source": "militarypay.defense.gov/pay/allowances/bas.aspx and DFAS BAS pay tables, as cross-corroborated by military.com, veteran.com, and two other independent secondary sources, all citing the same two figures effective 2026-01-01. Direct WebFetch to militarypay.defense.gov and dfas.mil both returned 403 this session.",
+    "retrieved_date": "2026-07-12"
+  },
+
+  "bah": {
+    "methodology": "BAH is NOT a flat rate. It is computed per Military Housing Area (MHA — a geographic region tied to duty-station ZIP code), by paygrade, and by dependency status (with or without dependents). DoD's Defense Travel Management Office publishes ~300 MHA rate tables each December, effective the following January 1, and the authoritative individual lookup tool is the BAH Rate Lookup calculator at travel.dod.mil/Allowances/Basic-Allowance-for-Housing/. Two service members in the same paygrade at different duty stations can have BAH figures that differ by a factor of 2-3x or more.",
+    "national_number_warning": "BAH cannot be reduced to a single national figure. Any specialty record or site page that shows one BAH number without naming the duty station and dependency status is presenting the anti-pattern this project explicitly prohibits.",
+    "national_average_trend_2026": "National average BAH rates (across all MHAs, blended) rose approximately 4.2% from 2025 to 2026. This is a directional trend figure only, sourced from military.com's 2026 BAH overview page, and must NOT be used as a stand-in for a specific location's rate.",
+    "worked_examples": [
+      {
+        "location": "UNVERIFIED — Joint Base San Antonio, TX (MHA TX223)",
+        "paygrade": "E-4",
+        "dependents": false,
+        "monthly_usd": "UNVERIFIED",
+        "source": "Attempted via web search; only a 'with dependents' band figure for E-1 through E-4 collectively (~$1,728/mo) surfaced, from an uncorroborated single secondary aggregator, with no separate 'without dependents' figure obtainable. Not sourced to primary confidence; discarded rather than reported as fact.",
+        "retrieved_date": "2026-07-12"
+      },
+      {
+        "location": "UNVERIFIED — San Diego, CA (MHA CA036)",
+        "paygrade": "E-4",
+        "dependents": false,
+        "monthly_usd": "UNVERIFIED",
+        "source": "One secondary aggregator (collegerecon.com) reported an E-4 monthly figure but showed an identical dollar amount for both 'with dependents' and 'without dependents,' which is inconsistent with how BAH is structured (dependency status should change the rate) and was judged unreliable. Discarded rather than reported as fact.",
+        "retrieved_date": "2026-07-12"
+      },
+      {
+        "location": "UNVERIFIED — Fort Liberty, NC (MHA NC022)",
+        "paygrade": "E-4",
+        "dependents": false,
+        "monthly_usd": "UNVERIFIED",
+        "source": "Only an E-6 figure surfaced in search results (with dependents ~$2,049/mo, without ~$1,638/mo, per a search-engine summarization not traced to one verifiable page); no E-4 figure was obtainable this session.",
+        "retrieved_date": "2026-07-12"
+      }
+    ],
+    "recommendation_for_build": "Do not hardcode BAH worked-example dollar figures from this file into the live site. BAH changes annually and by ZIP code; the build should either (a) ingest DoD's published annual MHA rate table as a dataset at build time from a verified-reachable DFAS/DTMO source, or (b) link out to the official travel.dod.mil BAH Rate Lookup calculator for the user's specific duty station rather than presenting a static number. This session was blocked (HTTP 403) from fetching travel.dod.mil directly and could not verify a reliable location-specific 2026 figure to primary-source confidence."
+  },
+
+  "total_compensation_model": {
+    "formula": "Total compensation = basic_pay (taxable) + BAH (non-taxable, duty-station-specific, looked up not guessed) + BAS (non-taxable, flat) + quantified non-cash value (DoD TSP contribution/match, free/low-cost healthcare (TRICARE), no-premium group life insurance floor). Do not include BAH in any total unless a specific, sourced duty-station figure is used — see bah.national_number_warning.",
+    "non_cash_components": [
+      {
+        "component": "TSP (Thrift Savings Plan) government contribution under the Blended Retirement System (BRS)",
+        "how_quantified": "DoD contributes an automatic 1% of basic pay to TSP starting 60 days after entry, plus matches the member's own contributions up to an additional 4% (dollar-for-dollar on the first 3%, $0.50/$1 on the next 2%) once the member has completed 2 years of service. Maximum total DoD contribution = 5% of basic pay, achieved when the member personally contributes at least 5%.",
+        "note": "UNVERIFIED-this-session in the sense that this structural detail was pulled via search rather than a direct primary fetch (militarypay.defense.gov's own BRS fact sheet PDF was found via search but not fetched); it matches well-documented, stable BRS policy and is consistent with the RETIREMENT command's planned scope, which should re-verify and own this in full depth. Treat the % figures here as directionally reliable, not re-confirmed to primary-source standard in this run."
+      },
+      {
+        "component": "TRICARE healthcare",
+        "how_quantified": "Not quantified in this command. A civilian-equivalent premium value was not sourced this session; deferred — mark UNVERIFIED if cited before a dedicated figure is sourced.",
+        "note": "Do not invent a civilian-equivalent-premium dollar figure without sourcing it directly."
+      },
+      {
+        "component": "Tax advantage of non-taxable allowances (BAH + BAS)",
+        "how_quantified": "Not quantified as a specific dollar bonus this session — see tax_note below for the conceptual explanation. Any 'effective taxable-equivalent salary' dollar figure would require assuming a specific marginal tax rate, which varies by member; do not present a single computed number as if it were a published fact.",
+        "note": "Conceptual only; no fabricated dollar uplift is included here."
+      }
+    ],
+    "tax_note": "BAH and BAS are excluded from federal and (in nearly all states) state income tax. This means their 'effective value' to take-home pay is higher than the same dollar amount of taxable basic pay — a service member does not pay income tax on BAH/BAS, unlike a civilian's housing/food stipend that is typically taxable. The exact effective uplift depends on the member's marginal tax rate, which this file does not assume or compute.",
+    "worked_example": {
+      "paygrade": "E-4",
+      "years_of_service_band": "2yr",
+      "location": "Not location-specific — BAH intentionally excluded from this total; see bah.national_number_warning and bah.recommendation_for_build",
+      "monthly_breakdown_usd": {
+        "basic_pay": 3303.00,
+        "bas": 476.95,
+        "bah": "excluded — duty-station-specific, not fabricated (see bah section)"
+      },
+      "monthly_cash_plus_bas_usd": 3779.95,
+      "annual_cash_plus_bas_usd": 45359.40,
+      "annual_dod_tsp_contribution_at_max_match_usd": 1981.80,
+      "computed_note": "The two dollar totals above (monthly_cash_plus_bas_usd, annual_cash_plus_bas_usd, annual_dod_tsp_contribution_at_max_match_usd) are computed, not authoritative — arithmetic performed by this session on the sourced basic-pay and BAS figures above (base $3,303 + BAS $476.95, and 5% of annual base pay for the TSP line). They exclude BAH entirely and therefore UNDERSTATE true total compensation, often substantially, since BAH is frequently the single largest compensation component. A true total-compensation figure requires plugging in a specific, sourced duty-station BAH number, which this session could not obtain to primary-source confidence (see bah.worked_examples)."
+    }
+  },
+
+  "guard_reserve_drill_pay": {
+    "rule": "1/30th rule: one drill period = 1/30 of the equivalent active-duty monthly base pay for that paygrade/YOS. A standard drill weekend (4 periods, i.e. Saturday + Sunday, 2 periods per day) = approximately 4/30 (about 13.3%) of the monthly active-duty base rate.",
+    "label_warning": "Guard/Reserve drill pay is NOT interchangeable with active-duty compensation. It compensates only the drill period/weekend itself; it does not include BAH or BAS (those apply only during active-duty orders, e.g. AT/ADT), and a traditional drilling Guard/Reserve member's overall annual income depends heavily on civilian employment plus points-based retirement credit, not a monthly salary.",
+    "examples": [
+      {
+        "paygrade": "E-4 (<2yr)",
+        "one_drill_period_usd": 104.73,
+        "weekend_4period_usd": 418.93,
+        "source": "Computed, not authoritative — this session's arithmetic applying the DoD-published 1/30th rule (37 U.S.C. §204; restated in this master prompt's own RETIREMENT scope) to the sourced active-duty E-4 <2yr basic pay figure of $3,142.00/month above. Not independently re-fetched from a Guard/Reserve-specific pay table this session.",
+        "retrieved_date": "2026-07-12"
+      },
+      {
+        "paygrade": "E-5 (<2yr)",
+        "one_drill_period_usd": 111.43,
+        "weekend_4period_usd": 445.73,
+        "source": "Computed, not authoritative — same method as above, applied to sourced E-5 <2yr basic pay of $3,343.00/month.",
+        "retrieved_date": "2026-07-12"
+      },
+      {
+        "paygrade": "E-6 (<2yr)",
+        "one_drill_period_usd": 113.37,
+        "weekend_4period_usd": 453.47,
+        "source": "Computed, not authoritative — same method as above, applied to sourced E-6 <2yr basic pay of $3,401.00/month.",
+        "retrieved_date": "2026-07-12"
+      },
+      {
+        "paygrade": "O-3 (<2yr)",
+        "one_drill_period_usd": 184.50,
+        "weekend_4period_usd": 738.00,
+        "source": "Computed, not authoritative — same method as above, applied to sourced O-3 <2yr basic pay of $5,535.00/month.",
+        "retrieved_date": "2026-07-12"
+      }
+    ]
+  },
+
+  "sources": [
+    {"title": "2026 Military Pay Charts (transcription of DFAS 2026 basic pay table, effective 2026-01-01, 3.8% raise per FY2026 NDAA)", "url": "https://www.military.com/benefits/military-pay/charts", "retrieved_date": "2026-07-12"},
+    {"title": "2026 Military Pay Chart 3.8% — full E-1 through O-10 table", "url": "https://www.navycs.com/charts/2026-military-pay-chart.html", "retrieved_date": "2026-07-12"},
+    {"title": "Basic Allowance for Subsistence (BAS) — official page (fetch blocked, 403; figures corroborated via search + secondary citations)", "url": "https://militarypay.defense.gov/pay/allowances/bas.aspx", "retrieved_date": "2026-07-12"},
+    {"title": "DFAS BAS Pay Tables (fetch blocked, 403; cross-cited by secondary sources)", "url": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/bas/", "retrieved_date": "2026-07-12"},
+    {"title": "2026 Basic Allowance for Housing — overview and national trend (4.2% avg increase); no location-specific figures extracted", "url": "https://www.military.com/benefits/military-pay/basic-allowance-for-housing/basic-allowance-for-housing-rates.html", "retrieved_date": "2026-07-12"},
+    {"title": "Defense Travel Management Office — Basic Allowance for Housing (fetch blocked, 403; official BAH Rate Lookup calculator lives here)", "url": "https://www.travel.dod.mil/Allowances/Basic-Allowance-for-Housing/", "retrieved_date": "2026-07-12"},
+    {"title": "Blended Retirement System TSP automatic/matching contribution structure (search-corroborated, not directly fetched this session)", "url": "https://www.militaryonesource.mil/resources/millife-guides/blended-retirement-system/", "retrieved_date": "2026-07-12"},
+    {"title": "DoD BRS Defined Contribution (TSP) Fact Sheet PDF — found via search, not fetched this session", "url": "https://militarypay.defense.gov/Portals/3/Documents/BlendedRetirementDocuments/Fact%20Sheet-Defined%20Contribution.pdf", "retrieved_date": "2026-07-12"}
+  ],
+
+  "unverified": [
+    "BAS II enhanced rate ($953.90/month) — single-source, not cross-corroborated.",
+    "BAH worked example: E-4 without dependents, Joint Base San Antonio, TX — no reliable without-dependents figure obtained.",
+    "BAH worked example: E-4 without dependents, San Diego, CA — sole source showed an internally inconsistent (identical with/without dependents) figure; discarded.",
+    "BAH worked example: E-4 without dependents, Fort Liberty, NC — no E-4 figure surfaced; only an uncorroborated E-6 figure appeared, and was not used.",
+    "TRICARE healthcare non-cash value — not quantified this session; no civilian-equivalent-premium figure sourced.",
+    "Tax-advantage effective-dollar uplift of non-taxable BAH/BAS — conceptually explained but no specific dollar figure computed, since it depends on individual marginal tax rate.",
+    "TSP automatic-1%/match-up-to-4% structure — corroborated via web search summarization of DoD/Military OneSource pages, but the underlying DoD fact-sheet PDF was not directly fetched this session; flagged for re-verification when RUN RETIREMENT executes.",
+    "All basic-pay and BAS dollar figures in this file — obtained via web search and cross-corroborated secondary sources because direct WebFetch to militarypay.defense.gov, dfas.mil, and travel.dod.mil all returned HTTP 403 every time they were attempted (6 attempts total). Figures show strong convergence across independent sources but were not confirmed by this session directly against the primary DFAS/DoD page."
+  ],
+
+  "completion_accountability": "Basic pay (E-1–E-7 enlisted, O-1–O-3 officer, both YOS columns) and BAS (enlisted/officer) are populated with cross-corroborated, dated figures — not primary-fetched due to persistent 403 blocks on militarypay.defense.gov, dfas.mil, and travel.dod.mil (6 failed fetch attempts across those 3 domains), but corroborated across multiple independent secondary sources citing the same DFAS table. BAH methodology and the anti-single-number warning are fully specified; all 3 attempted location-specific BAH worked examples (San Antonio, San Diego, Fort Liberty) could not be verified to acceptable confidence and are explicitly marked UNVERIFIED rather than fabricated, with the reason stated per example. The total-compensation worked example deliberately excludes BAH (rather than guessing a number) and is labeled 'computed, not authoritative' per the arithmetic performed. Guard/Reserve drill pay for 4 paygrades is computed (not primary-sourced) from the 1/30th rule applied to this file's own sourced base-pay figures, and labeled as such. Tool budget was 12 calls for this command; 18 were used (8 WebSearch, 10 WebFetch), exceeded specifically to pursue accurate BAH sourcing per this run's binding anti-fabrication constraint — the extra spend did not succeed in producing a verifiable BAH number, so the honest outcome is UNVERIFIED rather than a fabricated figure. Recommend a follow-up attempt using a browser-based fetch (not this session's WebFetch tool) against travel.dod.mil, or a direct DTMO rate-table PDF, before specialty records that need real BAH numbers are finalized."
+}

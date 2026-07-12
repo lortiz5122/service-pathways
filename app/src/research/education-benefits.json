@@ -1,0 +1,180 @@
+{
+  "command": "EDU-BENEFITS",
+  "retrieved_date": "2026-07-12",
+  "post_911_gi_bill": {
+    "chapter": 33,
+    "effective_period": "2025-2026 academic year: August 1, 2025 - July 31, 2026",
+    "eligibility_tiers": [
+      { "service_months": "36+ months (1,095+ active-duty days), OR Purple Heart recipient (post-9/11), OR discharged for a service-connected disability after 30+ continuous days active duty", "benefit_pct": 100 },
+      { "service_months": "30-35 months (910-1,094 active-duty days)", "benefit_pct": 90 },
+      { "service_months": "24-29 months (730-909 active-duty days)", "benefit_pct": 80 },
+      { "service_months": "18-23 months (545-729 active-duty days)", "benefit_pct": 70 },
+      { "service_months": "6-17 months (180-544 active-duty days)", "benefit_pct": 60 },
+      { "service_months": "90 days-5 months (90-179 active-duty days)", "benefit_pct": 50 }
+    ],
+    "eligibility_tiers_note": "There is no tier below 50%. VA's current schedule does not include the older 40% floor found in pre-Forever GI Bill rules. Only qualifying Title 10 active-duty days count toward these day counts.",
+    "tuition_coverage": {
+      "public": "VA pays the full net tuition and mandatory fees at public (state) schools with no dollar cap. In-state tuition rates apply even for students who are not state residents.",
+      "private_annual_cap_usd": 29920.95,
+      "private_cap_note": "Cap applies to private and foreign school net tuition and fees for the 2025-2026 academic year. VA's published 'future rates' page shows the cap rising to $30,908.34 for the 2026-2027 academic year (effective Aug 1, 2026), per the same source page.",
+      "source": "https://www.va.gov/education/benefit-rates/post-9-11-gi-bill-rates/",
+      "retrieved_date": "2026-07-12"
+    },
+    "housing_allowance_basis": "Monthly Housing Allowance (MHA) is based on the DoD Basic Allowance for Housing (BAH) rate for an E-5 with dependents, keyed to the school's zip code, and prorated by the student's eligibility percentage tier and rate of pursuit (course load). Online-only enrollment (no in-person classes) uses a flat rate of $1,169/month (2025-2026 AY) instead of a zip-code-based rate. Students enrolled at a foreign school use a separate flat rate of $2,338/month (2025-2026 AY). IMPORTANT UNVERIFIED CAVEAT: MHA is generally NOT payable to service members who are still on active duty (they already receive BAH through regular pay) -- this rule was not independently re-confirmed via direct VA.gov fetch in this research pass and should be checked against https://www.va.gov/education/about-gi-bill-benefits/post-9-11/ before publishing on the site.",
+    "book_stipend_annual_usd": 1000,
+    "book_stipend_note": "Up to $1,000 per academic year for books and supplies, paid at the start of the benefit award period and at the start of each subsequent academic year; prorated by eligibility percentage tier.",
+    "what_does_not_count": "Drills, annual training (AT), and initial active-duty-for-training/initial skills training (e.g., basic training and initial MOS/rating school time performed under a training duty status rather than qualifying Title 10 active duty orders) do NOT count toward the cumulative active-duty day counts that determine Post-9/11 GI Bill eligibility tiers. Only qualifying active Title 10 duty (at least 90 aggregate days, per 38 U.S.C. Chapter 33) counts. This is the single most consequential distinction for Guard/Reserve members trying to determine whether they qualify for Chapter 33 at all, versus only for Chapter 1606.",
+    "source": "https://www.va.gov/education/benefit-rates/post-9-11-gi-bill-rates/; https://www.va.gov/resources/how-we-determine-your-percentage-of-post-911-gi-bill-benefits/",
+    "retrieved_date": "2026-07-12"
+  },
+  "yellow_ribbon": {
+    "description": "The Yellow Ribbon Program supplements the Post-9/11 GI Bill for costs the base benefit doesn't cover -- typically higher out-of-state, private-school, foreign-school, or graduate-school tuition and fees. Only students eligible for Post-9/11 GI Bill at the 100% tier qualify (36+ months active duty, Purple Heart recipient post-9/11, or a dependent/spouse using transferred benefits from a 100%-tier service member, or a Fry Scholarship recipient). Participating schools voluntarily agree to contribute a set dollar amount toward the gap, and VA matches that contribution dollar-for-dollar. Each school sets its own contribution amount and the number of students it will fund per year; enrollment is first-come, first-served and capped annually per institution -- not every eligible student at a participating school is guaranteed funding.",
+    "source": "https://www.va.gov/education/about-gi-bill-benefits/post-9-11/yellow-ribbon-program/",
+    "retrieved_date": "2026-07-12"
+  },
+  "montgomery_gi_bill": {
+    "ch30_active": {
+      "description": "Montgomery GI Bill - Active Duty (MGIB-AD). Requires the service member to have elected MGIB (and paid a $100/month, 12-month, non-refundable buy-in at the start of service) and to have a high school diploma or GED. Largely superseded by the Post-9/11 GI Bill for most post-2001 entrants, but still held by some longer-serving members who elected it before Chapter 33 existed or chose not to convert. A service member can only draw down one GI Bill program for a given enrollment period -- switching to Post-9/11 GI Bill is a one-time, generally irrevocable election.",
+      "monthly_usd": 2518.00,
+      "monthly_usd_note": "$2,518.00/month full-time for members with 3+ continuous years of active duty; $2,043.00/month full-time for members with 2-3 years of active duty. Both effective October 1, 2025 - September 30, 2026 (VA fiscal-year rate cycle, distinct from the Post-9/11 GI Bill's Aug 1-Jul 31 academic-year cycle).",
+      "source": "https://www.va.gov/education/benefit-rates/montgomery-active-duty-rates",
+      "retrieved_date": "2026-07-12"
+    },
+    "ch1606_selected_reserve": {
+      "label": "Guard/Reserve — NOT the Post-9/11 GI Bill",
+      "monthly_full_time_usd": 493.00,
+      "monthly_full_time_usd_note": "$493.00/month for full-time enrollment; $369.00 for 3/4-time; $246.00 for 1/2-time. Effective October 1, 2025 - September 30, 2026.",
+      "obligation_years": 6,
+      "obligation_note": "Requires a 6-year Selected Reserve service obligation. Unlike Post-9/11 GI Bill, MGIB-SR does not require any activation or deployment -- drills and annual training alone can qualify a Guard/Reserve member for this benefit, in direct contrast to Chapter 33 where drills/AT do not count.",
+      "space_force_flag": "UNVERIFIED: Space Force has no traditional Selected Reserve component (Guardians instead serve 'sustained duty' or 'not on sustained duty' under the Space Force Personnel Management Act). Whether/how Ch. 1606 MGIB-SR applies to Guardians on non-sustained duty was not confirmed in this research pass and should be checked with the Space Force education office before publishing.",
+      "source": "https://www.va.gov/education/benefit-rates/montgomery-selected-reserve-rates",
+      "retrieved_date": "2026-07-12"
+    }
+  },
+  "tuition_assistance_by_branch": [
+    {
+      "branch": "Army",
+      "annual_cap_usd": 4500,
+      "per_credit_cap_usd": 250,
+      "rules": "Standard DoD-wide rate of $250/semester hour ($166/quarter hour), capped at $4,500 per fiscal year (Oct 1-Sep 30). Search-sourced (not independently fetched this session) detail indicates a 16-semester-hour-per-fiscal-year usage limit and degree caps of 130 undergraduate / 39 graduate credits; the Army tightened TA eligibility rules in 2025-2026. These branch-specific usage-limit details are UNVERIFIED at primary-source level and should be confirmed against goarmy.com / myarmybenefits.us.army.mil before publishing.",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Tuition-Assistance-(TA); https://recruiting.army.mil/Portals/15/TuitionAssistanceFactSheet.pdf; https://www.stripes.com/branches/army/2026-03-23/army-shores-up-rules-education-support-21158564.html",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "branch": "Navy",
+      "annual_cap_usd": 4500,
+      "per_credit_cap_usd": 250,
+      "rules": "Standard DoD-wide $250/semester-hour, $4,500/fiscal-year cap, administered through the Navy College Program. Search-sourced detail (UNVERIFIED at primary-source level) indicates an 18-semester-hour-per-fiscal-year usage limit.",
+      "source": "https://www.military.com/education/money-for-school/tuition-assistance-ta-program-overview.html; Congress.gov CRS Report R47875",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "branch": "Air Force",
+      "annual_cap_usd": 4500,
+      "per_credit_cap_usd": 250,
+      "rules": "Standard DoD-wide $250/semester-hour, $4,500/fiscal-year cap, administered through the Air Force Virtual Education Center (AFVEC). Search-sourced detail (UNVERIFIED at primary-source level) indicates an 18-semester-hour-per-fiscal-year usage limit.",
+      "source": "https://www.military.com/education/money-for-school/tuition-assistance-ta-program-overview.html; Congress.gov CRS Report R47875",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "branch": "Marine Corps",
+      "annual_cap_usd": 4500,
+      "per_credit_cap_usd": 250,
+      "rules": "Standard DoD-wide $250/semester-hour, $4,500/fiscal-year cap, aligned with Department of the Navy policy (18-semester-hour-per-fiscal-year usage limit reported, UNVERIFIED at primary-source level).",
+      "source": "https://www.military.com/education/money-for-school/tuition-assistance-ta-program-overview.html; Congress.gov CRS Report R47875",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "branch": "Space Force",
+      "annual_cap_usd": 4500,
+      "per_credit_cap_usd": 250,
+      "rules": "UNVERIFIED (not independently confirmed this session): assumed to follow Department of the Air Force TA policy via AFVEC, the same as Air Force, since Space Force is organized under the Department of the Air Force. This is an inference, not a directly sourced figure -- confirm at spaceforce.com or an official Space Force education office page.",
+      "source": "Inference from Department of the Air Force organizational structure; not independently fetched",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "branch": "Coast Guard",
+      "annual_cap_usd": 4500,
+      "per_credit_cap_usd": 250,
+      "rules": "Search-sourced detail (UNVERIFIED at primary-source level, and possibly conflated with Coast Guard's Credentialing Assistance figure by the search summarizer) indicates the Coast Guard follows the same $250/semester-hour, $4,500/fiscal-year caps, administered under DHS via the Coast Guard Institute rather than DoD. Coast Guard TA is DHS-funded, not DoD-funded, even where the dollar caps happen to match -- confirm at gocoastguard.com / uscg.mil before publishing.",
+      "source": "Search synthesis only; not independently fetched this session",
+      "retrieved_date": "2026-07-12"
+    }
+  ],
+  "credentialing_assistance": [
+    {
+      "branch": "Army",
+      "program": "Army Credentialing Assistance (CA) / Army COOL",
+      "annual_cap_usd": 2000,
+      "notes": "Reduced from a $4,000/fiscal-year cap to $2,000/fiscal-year in 2024. Lifetime limit reported at 3 credentials per 10 years of service. Commissioned officers (O1-O10) reported ineligible for CA. These specifics are search-sourced, not independently fetched from cool.osd.mil this session (a direct fetch attempt to cool.osd.mil failed with a certificate error) -- confirm at https://www.cool.osd.mil/army/ before publishing.",
+      "source": "https://www.stripes.com/branches/army/2026-03-23/army-shores-up-rules-education-support-21158564.html; https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Army-Credentialing-Opportunities-On-Line-(COOL)",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "branch": "Navy",
+      "program": "Navy Credentialing Opportunities On-Line (COOL)",
+      "annual_cap_usd": 0,
+      "notes": "UNVERIFIED. Navy COOL funds credential exams, renewals, and related fees for active-duty Navy and Navy Reserve (excluding IRR/VTU), but a specific dollar cap was not independently confirmed this session -- a direct fetch to cool.osd.mil failed (certificate error). Confirm at https://www.cool.osd.mil/usn/.",
+      "source": "https://www.cool.osd.mil/usn/index.html (not independently fetched -- fetch failed)",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "branch": "Air Force",
+      "program": "Air Force Credentialing Assistance (via AFVEC)",
+      "annual_cap_usd": 4500,
+      "notes": "Reported cap of up to $4,500/year for enlisted and active-duty Air Force, Air Force Reserve, and Air National Guard members via the Air Force Virtual Education Center. Search-sourced; not independently fetched from cool.osd.mil this session (fetch attempt failed with certificate error) -- confirm before publishing.",
+      "source": "Search synthesis referencing AFVEC / cool.osd.mil; not independently fetched",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "branch": "Marine Corps",
+      "program": "Marine Corps Credentialing Opportunities On-Line (COOL)",
+      "annual_cap_usd": 0,
+      "notes": "UNVERIFIED. Specific dollar cap not independently confirmed this session -- a direct fetch to cool.osd.mil failed (certificate error). Confirm at https://www.cool.osd.mil/usmc/.",
+      "source": "https://www.cool.osd.mil/usmc/index.html (not independently fetched -- fetch failed)",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "branch": "Space Force",
+      "program": "Space Force Credentialing Assistance",
+      "annual_cap_usd": 4500,
+      "notes": "UNVERIFIED. Assumed to follow the same Department of the Air Force AFVEC-administered program and cap as Air Force, since Space Force falls under the Department of the Air Force -- this is an inference, not a directly sourced figure. Confirm before publishing.",
+      "source": "Inference from Department of the Air Force organizational structure; not independently fetched",
+      "retrieved_date": "2026-07-12"
+    },
+    {
+      "branch": "Coast Guard",
+      "program": "Coast Guard Credentialing Opportunities On-Line (COOL)",
+      "annual_cap_usd": 0,
+      "notes": "UNVERIFIED. A search summary attributed a $4,500/year figure to the Coast Guard, but it appears to describe Coast Guard Tuition Assistance rather than Credentialing Assistance specifically -- flagged as a likely conflation, not used here. Confirm at https://www.cool.osd.mil/uscg/.",
+      "source": "https://www.cool.osd.mil/uscg/index.html (not independently fetched -- fetch failed)",
+      "retrieved_date": "2026-07-12"
+    }
+  ],
+  "sources": [
+    { "title": "Post-9/11 GI Bill (Chapter 33) rates", "url": "https://www.va.gov/education/benefit-rates/post-9-11-gi-bill-rates/", "retrieved_date": "2026-07-12" },
+    { "title": "How VA determines your percentage of Post-9/11 GI Bill benefits", "url": "https://www.va.gov/resources/how-we-determine-your-percentage-of-post-911-gi-bill-benefits/", "retrieved_date": "2026-07-12" },
+    { "title": "Yellow Ribbon Program", "url": "https://www.va.gov/education/about-gi-bill-benefits/post-9-11/yellow-ribbon-program/", "retrieved_date": "2026-07-12" },
+    { "title": "Current VA education benefit rates (hub)", "url": "https://www.va.gov/education/benefit-rates/", "retrieved_date": "2026-07-12" },
+    { "title": "Montgomery GI Bill Active Duty (Chapter 30) rates", "url": "https://www.va.gov/education/benefit-rates/montgomery-active-duty-rates", "retrieved_date": "2026-07-12" },
+    { "title": "Montgomery GI Bill Selected Reserve (Chapter 1606) rates", "url": "https://www.va.gov/education/benefit-rates/montgomery-selected-reserve-rates", "retrieved_date": "2026-07-12" },
+    { "title": "Army Tuition Assistance (TA) — myArmyBenefits", "url": "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Tuition-Assistance-(TA)", "retrieved_date": "2026-07-12" },
+    { "title": "Army Tuition Assistance Fact Sheet (PDF)", "url": "https://recruiting.army.mil/Portals/15/TuitionAssistanceFactSheet.pdf", "retrieved_date": "2026-07-12" },
+    { "title": "Army shores up rules, funds for continuing education program — Stars and Stripes", "url": "https://www.stripes.com/branches/army/2026-03-23/army-shores-up-rules-education-support-21158564.html", "retrieved_date": "2026-07-12" },
+    { "title": "Army Credentialing Opportunities On-Line (COOL) — myArmyBenefits", "url": "https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Army-Credentialing-Opportunities-On-Line-(COOL)", "retrieved_date": "2026-07-12" },
+    { "title": "Military Tuition Assistance (TA) Overview — Military.com", "url": "https://www.military.com/education/money-for-school/tuition-assistance-ta-program-overview.html", "retrieved_date": "2026-07-12" },
+    { "title": "Military Tuition Assistance Program: Background and Issues — Congressional Research Service R47875", "url": "https://www.congress.gov/crs-product/R47875", "retrieved_date": "2026-07-12" },
+    { "title": "DOW COOL Portal — Homepage (fetch attempt failed, certificate error; used as citation only)", "url": "https://www.cool.osd.mil/", "retrieved_date": "2026-07-12" },
+    { "title": "Prior research pass (this project): MGIB-SR $493/month figure independently corroborated", "url": "compass_artifact_wf-d8f86b54-1e81-595c-80ab-995e21fd37cb_text_markdown.md (local project file, sourced to va.gov, noted 'last updated Nov 17 2025')", "retrieved_date": "2026-07-12" }
+  ],
+  "unverified": [
+    "Whether Post-9/11 GI Bill Monthly Housing Allowance is paid to service members while still on active duty (general understanding is BAH is not duplicated for active-duty GI Bill users, but this was not re-confirmed via direct fetch this session).",
+    "Space Force eligibility mechanics for MGIB-SR Chapter 1606, given Space Force has no traditional Selected Reserve component (only 'sustained duty' / 'not on sustained duty' status).",
+    "Exact per-fiscal-year semester-hour usage limits and degree credit caps for Army (16 hrs), Navy/Marine Corps/Air Force (18 hrs) Tuition Assistance -- sourced from search-engine synthesis, not a direct fetch of each branch's official TA policy page.",
+    "Space Force Tuition Assistance and Credentialing Assistance caps/administration -- inferred from Department of the Air Force structure, not independently confirmed.",
+    "Coast Guard Tuition Assistance and Credentialing Assistance dollar caps and DHS-specific administration differences -- search summary may have conflated TA and CA figures; direct fetch to cool.osd.mil failed with a certificate error.",
+    "Navy, Marine Corps, and Coast Guard Credentialing Assistance (COOL) specific annual dollar caps -- not found; direct fetch to cool.osd.mil and branch COOL subpages failed (certificate error) and was not retried due to the 10-call tool budget.",
+    "2026-2027 academic year Post-9/11 GI Bill private-school cap ($30,908.34) and online-only MHA increase ($1,261/month) were reported by a search-engine synthesis referencing VA's 'future rates' page, not independently fetched and quote-verified this session."
+  ],
+  "completion_accountability": "Tool budget (~10 web search/fetch calls) was reached and the module was halted per the master prompt's stop condition. Fully sourced via direct .mil/.gov fetch: Post-9/11 GI Bill (Ch. 33) eligibility tiers, tuition coverage (public/private cap), housing allowance basis, book stipend, and the 'what does not count' rule; Yellow Ribbon Program description; Montgomery GI Bill Active Duty (Ch. 30) rates; Montgomery GI Bill Selected Reserve (Ch. 1606) rate (also independently corroborated by a prior research pass already present in this project's compass_artifact file). Populated but NOT independently fetch-verified this session (search-engine synthesis only): Tuition Assistance per-branch caps and usage rules for all 6 branches (the DoD-wide $250/semester-hour, $4,500/fiscal-year cap is well-corroborated across multiple independent sources; branch-specific semester-hour/degree limits are lower-confidence). Left explicitly UNVERIFIED with $0 placeholder: Navy, Marine Corps, and Coast Guard Credentialing Assistance (COOL) dollar caps, because the one attempted direct fetch to cool.osd.mil failed with a TLS certificate error and was not retried within budget. Space Force Tuition Assistance and Credentialing Assistance figures are inferred (not sourced) from its position under the Department of the Air Force and are flagged accordingly. No dollar figure was fabricated; every unconfirmed figure is either omitted, zeroed, or explicitly labeled UNVERIFIED with a named next source to check."
+}
