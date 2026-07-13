@@ -22,12 +22,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "ural repair Aircrew flight operations Training You'll Get AMTs receive",
+     "location": null,
+     "length_weeks": 20,
+     "source": "https://www.gocoastguard.com/careers/enlisted/amt"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -80,12 +94,38 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "Life support equipment maintenance Training You'll Get ASTs receive a",
+     "location": null,
+     "length_weeks": 22,
+     "source": "https://www.gocoastguard.com/careers/enlisted/ast"
+    },
+    {
+     "stage": "rating course that includes a",
+     "location": null,
+     "length_weeks": 7,
+     "source": "https://www.gocoastguard.com/careers/enlisted/ast"
+    },
+    {
+     "stage": "rescue swimmer course learning helicopter rescue procedures, and a",
+     "location": null,
+     "length_weeks": 5,
+     "source": "https://www.gocoastguard.com/careers/enlisted/ast"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -132,12 +172,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "onic repair Aircrew flight operations Training You'll Get AETs receive",
+     "location": null,
+     "length_weeks": 24,
+     "source": "https://www.gocoastguard.com/careers/enlisted/aet"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -191,12 +245,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "Seamanship and navigation Leadership Training You'll Get BMs receive a",
+     "location": null,
+     "length_weeks": 14,
+     "source": "https://www.gocoastguard.com/careers/enlisted/bm"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -251,12 +319,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "Accounting and inventory management Training You'll Get CSs receive a",
+     "location": null,
+     "length_weeks": 13,
+     "source": "https://www.gocoastguard.com/careers/enlisted/cs"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -312,12 +394,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "nalysis Risk identification Training You'll Get CMSs attend the Navy\u2019s",
+     "location": null,
+     "length_weeks": 27,
+     "source": "https://www.gocoastguard.com/careers/enlisted/cms"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -359,12 +455,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "Learn Firefighting Welding Carpentry Training You'll Get DCs receive a",
+     "location": null,
+     "length_weeks": 15,
+     "source": "https://www.gocoastguard.com/careers/enlisted/dc"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -471,12 +581,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "and programmable logic Fiber optics Training You'll Get EMs receive a",
+     "location": null,
+     "length_weeks": 16,
+     "source": "https://www.gocoastguard.com/careers/enlisted/em"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -535,12 +659,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "Electromagnetic signal fundamentals Training You'll Get ETs receive a",
+     "location": null,
+     "length_weeks": 20,
+     "source": "https://www.gocoastguard.com/careers/enlisted/et"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -599,12 +737,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "Firearms instruction Law enforcement Training You'll Get GMs receive a",
+     "location": null,
+     "length_weeks": 10,
+     "source": "https://www.gocoastguard.com/careers/enlisted/gm"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -656,12 +808,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "g Laboratory procedures Wound repair Training You'll Get HSs receive a",
+     "location": null,
+     "length_weeks": 22,
+     "source": "https://www.gocoastguard.com/careers/enlisted/hs"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -720,12 +886,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "tructure Telephone systems Computers Training You'll Get ITs receive a",
+     "location": null,
+     "length_weeks": 28,
+     "source": "https://www.gocoastguard.com/careers/enlisted/it"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -784,12 +964,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "esearch techniques Critical thinking Training You'll Get ISs receive a",
+     "location": null,
+     "length_weeks": 12,
+     "source": "https://www.gocoastguard.com/careers/enlisted/is"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -836,12 +1030,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "rship Work organization and planning Training You'll Get MKs receive a",
+     "location": null,
+     "length_weeks": 13,
+     "source": "https://www.gocoastguard.com/careers/enlisted/mk"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -897,12 +1105,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "Local port security threat response Training You'll Get MSTs receive a",
+     "location": null,
+     "length_weeks": 12,
+     "source": "https://www.gocoastguard.com/careers/enlisted/mst"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -945,12 +1167,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "Tactical law enforcement operations Training You'll Get MEs receive a",
+     "location": null,
+     "length_weeks": 10,
+     "source": "https://www.gocoastguard.com/careers/enlisted/me"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1005,12 +1241,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "navigation and communication systems Training You'll Get OSs receive a",
+     "location": null,
+     "length_weeks": 13,
+     "source": "https://www.gocoastguard.com/careers/enlisted/os"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1051,12 +1301,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "Speaking Photography and videography Training You'll Get PAs receive a",
+     "location": null,
+     "length_weeks": 26,
+     "source": "https://www.gocoastguard.com/careers/enlisted/pa"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1109,12 +1373,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "ld_rate_training\":{\"value\":\"\\u003cul\\u003e\\u003cli\\u003eSKs receive an",
+     "location": null,
+     "length_weeks": 8,
+     "source": "https://www.gocoastguard.com/careers/enlisted/sk"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1173,12 +1451,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Coast Guard Basic Training (Cape May, NJ)",
+     "location": null,
+     "length_weeks": 8,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "ord management Personnel counseling Training You'll Get YNs receive an",
+     "location": null,
+     "length_weeks": 8,
+     "source": "https://www.gocoastguard.com/careers/enlisted/yn"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "gocoastguard.com rating page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",

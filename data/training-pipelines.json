@@ -1,0 +1,1056 @@
+{
+ "command": "TRAINING PIPELINES \u2014 Navy, Coast Guard, Marine Corps",
+ "retrieved_date": "2026-07-12",
+ "source": {
+  "Navy": "navy.com career pages (one per rating), enumerated from navy.com/sitemap.xml",
+  "Coast Guard": "gocoastguard.com/careers/enlisted/<rating>",
+  "Marine Corps": "NAVMC 1200.1L names each MOS's producing school but NOT its length; per-course lengths live in MCTIMS, which is not public. Left null rather than estimated."
+ },
+ "boot_camp_weeks": {
+  "Navy": {
+   "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+   "length_weeks": 10
+  },
+  "Coast Guard": {
+   "stage": "Coast Guard Basic Training (Cape May, NJ)",
+   "length_weeks": 8
+  },
+  "Marine Corps": {
+   "stage": "Marine Corps Recruit Training (Parris Island / San Diego)",
+   "length_weeks": 13
+  }
+ },
+ "by_slug": {
+  "Navy|navy-musician": {
+   "url": "https://www.navy.com/careers-benefits/careers/arts-communications/navy-musician",
+   "stages": [
+    {
+     "context": "a Beach, VA, where they receive formal Navy training at \u201cA\u201d School for",
+     "length_weeks": 21
+    }
+   ]
+  },
+  "Navy|air-traffic-controller": {
+   "url": "https://www.navy.com/careers-benefits/careers/aviation/air-traffic-controller",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "length_weeks": 15
+    }
+   ]
+  },
+  "Navy|air-vehicle-pilot": {
+   "url": "https://www.navy.com/careers-benefits/careers/aviation/air-vehicle-pilot",
+   "stages": [
+    {
+     "context": " candidates enter a specialized training pipeline of approximately 15\u2013",
+     "length_weeks": 72
+    }
+   ]
+  },
+  "Navy|aircrewman-helicopter": {
+   "url": "https://www.navy.com/careers-benefits/careers/aviation/aircrewman-helicopter",
+   "stages": [
+    {
+     "context": "report for specialized training, including: Aircrew Candidate School (",
+     "length_weeks": 11
+    }
+   ]
+  },
+  "Navy|aircrewman-mechanical": {
+   "url": "https://www.navy.com/careers-benefits/careers/aviation/aircrewman-mechanical",
+   "stages": [
+    {
+     "context": "report for specialized training, including: Aircrew Candidate School (",
+     "length_weeks": 11
+    }
+   ]
+  },
+  "Navy|aircrewman-operator": {
+   "url": "https://www.navy.com/careers-benefits/careers/aviation/aircrewman-operator",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 13
+    }
+   ]
+  },
+  "Navy|aircrewman-tactical-romeo-helicopter": {
+   "url": "https://www.navy.com/careers-benefits/careers/aviation/aircrewman-tactical-romeo-helicopter",
+   "stages": [
+    {
+     "context": "report for specialized training, including: Aircrew Candidate School (",
+     "length_weeks": 4
+    },
+    {
+     "context": "Rescue Swimmer School (",
+     "length_weeks": 5
+    }
+   ]
+  },
+  "Navy|aviation-boatswains-mate-fuel": {
+   "url": "https://www.navy.com/careers-benefits/careers/aviation/aviation-boatswains-mate-fuel",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 6
+    }
+   ]
+  },
+  "Navy|aviation-boatswains-mate-handling": {
+   "url": "https://www.navy.com/careers-benefits/careers/aviation/aviation-boatswains-mate-handling",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 4
+    }
+   ]
+  },
+  "Navy|aviation-boatswains-mate-launch-and-recovery": {
+   "url": "https://www.navy.com/careers-benefits/careers/aviation/aviation-boatswains-mate-launch-and-recovery",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 5
+    }
+   ]
+  },
+  "Navy|aviation-ordnanceman": {
+   "url": "https://www.navy.com/careers-benefits/careers/aviation/aviation-ordnanceman",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 9
+    },
+    {
+     "context": "ve additional training in the form of a ship\u2019s company strand course (",
+     "length_weeks": 2
+    },
+    {
+     "context": ") or an airwing strand course (",
+     "length_weeks": 3
+    }
+   ]
+  },
+  "Navy|naval-aircrewman-avionics": {
+   "url": "https://www.navy.com/careers-benefits/careers/aviation/naval-aircrewman-avionics",
+   "stages": [
+    {
+     "context": "nd AWV Class \"A\" Technical School in Pensacola, FL, where they receive",
+     "length_weeks": 19
+    },
+    {
+     "context": "E School) in either San Diego, CA, or Brunswick, ME, for approximately",
+     "length_weeks": 2
+    }
+   ]
+  },
+  "Navy|aviation-maintenance-administrationman": {
+   "url": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/aviation-maintenance-administrationman",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 8
+    }
+   ]
+  },
+  "Navy|culinary-specialist": {
+   "url": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/culinary-specialist",
+   "stages": [
+    {
+     "context": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "length_weeks": 5
+    },
+    {
+     "context": "idates will continue their training: Basic Enlisted Submarine School (",
+     "length_weeks": 9
+    }
+   ]
+  },
+  "Navy|logistics-specialist": {
+   "url": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/logistics-specialist",
+   "stages": [
+    {
+     "context": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "length_weeks": 9
+    }
+   ]
+  },
+  "Navy|personnel-specialist": {
+   "url": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/personnel-specialist",
+   "stages": [
+    {
+     "context": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "length_weeks": 5
+    }
+   ]
+  },
+  "Navy|retail-services-specialist": {
+   "url": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/retail-services-specialist",
+   "stages": [
+    {
+     "context": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "length_weeks": 5
+    }
+   ]
+  },
+  "Navy|supply-corps-officer": {
+   "url": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/supply-corps-officer",
+   "stages": [
+    {
+     "context": "ough the following specialized training programs: Navy Supply School (",
+     "length_weeks": 27
+    }
+   ]
+  },
+  "Navy|yeoman": {
+   "url": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/yeoman",
+   "stages": [
+    {
+     "context": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "length_weeks": 7
+    },
+    {
+     "context": "idates will continue their training: Basic Enlisted Submarine School (",
+     "length_weeks": 9
+    }
+   ]
+  },
+  "Navy|builder": {
+   "url": "https://www.navy.com/careers-benefits/careers/construction/builder",
+   "stages": [
+    {
+     "context": " Builder role report to Class \u201cA\u201d Technical School in Gulfport, MS for",
+     "length_weeks": 10
+    }
+   ]
+  },
+  "Navy|construction-electrician": {
+   "url": "https://www.navy.com/careers-benefits/careers/construction/construction-electrician",
+   "stages": [
+    {
+     "context": "eport to Class \u201cA\u201d Technical School at Sheppard Air Force Base, TX for",
+     "length_weeks": 20
+    }
+   ]
+  },
+  "Navy|construction-mechanic": {
+   "url": "https://www.navy.com/careers-benefits/careers/construction/construction-mechanic",
+   "stages": [
+    {
+     "context": "nic role report to Class \u201cA\u201d Technical School in Port Hueneme, CA, for",
+     "length_weeks": 16
+    }
+   ]
+  },
+  "Navy|engineering-aide": {
+   "url": "https://www.navy.com/careers-benefits/careers/construction/engineering-aide",
+   "stages": [
+    {
+     "context": "ole report to Class \u201cA\u201d Technical School at Fort Leonard Wood, MO, for",
+     "length_weeks": 15
+    }
+   ]
+  },
+  "Navy|equipment-operator": {
+   "url": "https://www.navy.com/careers-benefits/careers/construction/equipment-operator",
+   "stages": [
+    {
+     "context": "ole report to Class \u201cA\u201d Technical School at Fort Leonard Wood, MO, for",
+     "length_weeks": 11
+    }
+   ]
+  },
+  "Navy|steelworker": {
+   "url": "https://www.navy.com/careers-benefits/careers/construction/steelworker",
+   "stages": [
+    {
+     "context": "elworker role report to Class \u201cA\u201d Technical School in Gulfport, MS for",
+     "length_weeks": 11
+    }
+   ]
+  },
+  "Navy|utilitiesman": {
+   "url": "https://www.navy.com/careers-benefits/careers/construction/utilitiesman",
+   "stages": [
+    {
+     "context": " to Class \u201cA\u201d Technical School at NCTC Sheppard Air Force Base, TX for",
+     "length_weeks": 13
+    }
+   ]
+  },
+  "Navy|aviation-electronics-technician": {
+   "url": "https://www.navy.com/careers-benefits/careers/electronics-technology/aviation-electronics-technician",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 19
+    }
+   ]
+  },
+  "Navy|electronics": {
+   "url": "https://www.navy.com/careers-benefits/careers/electronics-technology/electronics",
+   "stages": [
+    {
+     "context": "t for specialized training, including: Apprentice Technical Training (",
+     "length_weeks": 11
+    },
+    {
+     "context": "ET \"A\" School (",
+     "length_weeks": 19
+    }
+   ]
+  },
+  "Navy|electronics-technician-navigation": {
+   "url": "https://www.navy.com/careers-benefits/careers/electronics-technology/electronics-technician-navigation",
+   "stages": [
+    {
+     "context": "for specialized training, including: Basic Enlisted Submarine School (",
+     "length_weeks": 8
+    },
+    {
+     "context": " systems Class \"A\" Technical School and Specialty Pipeline School (14-",
+     "length_weeks": 28
+    }
+   ]
+  },
+  "Navy|fire-controlman": {
+   "url": "https://www.navy.com/careers-benefits/careers/electronics-technology/fire-controlman",
+   "stages": [
+    {
+     "context": "echnical Training and FC Strand in Great Lakes, IL, where they receive",
+     "length_weeks": 31
+    }
+   ]
+  },
+  "Navy|information-systems-technician": {
+   "url": "https://www.navy.com/careers-benefits/careers/electronics-technology/information-systems-technician",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 24
+    },
+    {
+     "context": "will also attend submarine training: Basic Enlisted Submarine School (",
+     "length_weeks": 8
+    }
+   ]
+  },
+  "Navy|interior-communications-electrician": {
+   "url": "https://www.navy.com/careers-benefits/careers/electronics-technology/interior-communications-electrician",
+   "stages": [
+    {
+     "context": "nd Class \u201cA\u201d Technical School in Great Lakes, IL, where you\u2019ll receive",
+     "length_weeks": 21
+    }
+   ]
+  },
+  "Navy|missile-technician": {
+   "url": "https://www.navy.com/careers-benefits/careers/electronics-technology/missile-technician",
+   "stages": [
+    {
+     "context": " Basic Submarine School and Basic Mechanical Skills in Groton, CT, for",
+     "length_weeks": 7
+    }
+   ]
+  },
+  "Navy|damage-controlman": {
+   "url": "https://www.navy.com/careers-benefits/careers/first-responder/damage-controlman",
+   "stages": [
+    {
+     "context": "ring Common Core and \u201cA\u201d School in Great Lakes, IL, where they receive",
+     "length_weeks": 10
+    }
+   ]
+  },
+  "Navy|master-at-arms": {
+   "url": "https://www.navy.com/careers-benefits/careers/first-responder/master-at-arms",
+   "stages": [
+    {
+     "context": "ey will receive formal Navy technical training at \u201cA\u201d School for about",
+     "length_weeks": 9
+    }
+   ]
+  },
+  "Navy|aviation-electricians-mate": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-electricians-mate",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 13
+    }
+   ]
+  },
+  "Navy|aviation-machinists-mate": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-machinists-mate",
+   "stages": [
+    {
+     "context": "ou\u2019ll report for specialized training, including: AD Core \"A\" School (",
+     "length_weeks": 4
+    },
+    {
+     "context": "or training on basic aviation theory and skills AD Strand \"A\" School (",
+     "length_weeks": 2
+    }
+   ]
+  },
+  "Navy|aviation-structural-mechanic": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-structural-mechanic",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 9
+    }
+   ]
+  },
+  "Navy|aviation-structural-mechanic-safety-equipment": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-structural-mechanic-safety-equipment",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 9
+    }
+   ]
+  },
+  "Navy|aviation-support-equipment-technician": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-support-equipment-technician",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 17
+    }
+   ]
+  },
+  "Navy|aviation-survival-equipmentman": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-survival-equipmentman",
+   "stages": [
+    {
+     "context": "t for specialized training, including: PR Core and Strand \u201cA\u201d School (",
+     "length_weeks": 12
+    }
+   ]
+  },
+  "Navy|boatswains-mate": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/boatswains-mate",
+   "stages": [
+    {
+     "context": "eport for specialized training, including: Boatswain Mate \"A\" School (",
+     "length_weeks": 5
+    }
+   ]
+  },
+  "Navy|electricians-mate": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/electricians-mate",
+   "stages": [
+    {
+     "context": "alized training, including: Basic Engineering Common Core \u201cA\u201d School (",
+     "length_weeks": 10
+    },
+    {
+     "context": "EM Strand Technical School (",
+     "length_weeks": 4
+    }
+   ]
+  },
+  "Navy|engineman": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/engineman",
+   "stages": [
+    {
+     "context": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "length_weeks": 14
+    }
+   ]
+  },
+  "Navy|gas-turbine-systems-technician-electrical": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/gas-turbine-systems-technician-electrical",
+   "stages": [
+    {
+     "context": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "length_weeks": 10
+    },
+    {
+     "context": "GSE Strand Technical School (",
+     "length_weeks": 16
+    }
+   ]
+  },
+  "Navy|gas-turbine-systems-technician-mechanical": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/gas-turbine-systems-technician-mechanical",
+   "stages": [
+    {
+     "context": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "length_weeks": 15
+    }
+   ]
+  },
+  "Navy|gunners-mate": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/gunners-mate",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 15
+    }
+   ]
+  },
+  "Navy|hull-maintenance-technician": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/hull-maintenance-technician",
+   "stages": [
+    {
+     "context": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "length_weeks": 13
+    },
+    {
+     "context": "HT Strand Technical School (",
+     "length_weeks": 5
+    }
+   ]
+  },
+  "Navy|machinists-mate": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/machinists-mate",
+   "stages": [
+    {
+     "context": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "length_weeks": 9
+    }
+   ]
+  },
+  "Navy|machinists-mate-auxiliary": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/machinists-mate-auxiliary",
+   "stages": [
+    {
+     "context": "for specialized training, including: Basic Enlisted Submarine School (",
+     "length_weeks": 9
+    },
+    {
+     "context": "Machinist\u2019s Mate \"C\" School (",
+     "length_weeks": 7
+    }
+   ]
+  },
+  "Navy|mineman": {
+   "url": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/mineman",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \"A\" Technical School (",
+     "length_weeks": 19
+    }
+   ]
+  },
+  "Navy|cryptologic-technician-collection": {
+   "url": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/cryptologic-technician-collection",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "length_weeks": 18
+    }
+   ]
+  },
+  "Navy|cryptologic-technician-interpretive": {
+   "url": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/cryptologic-technician-interpretive",
+   "stages": [
+    {
+     "context": "g, including: Class \u201cA\u201d School Phase I Defense Language Institute (27-",
+     "length_weeks": 64
+    }
+   ]
+  },
+  "Navy|cryptologic-technician-technical": {
+   "url": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/cryptologic-technician-technical",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "length_weeks": 12
+    }
+   ]
+  },
+  "Navy|cyber-warfare-technician": {
+   "url": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/cyber-warfare-technician",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "length_weeks": 23
+    }
+   ]
+  },
+  "Navy|navy-intelligence-specialist": {
+   "url": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/navy-intelligence-specialist",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "length_weeks": 13
+    }
+   ]
+  },
+  "Navy|operations-specialist": {
+   "url": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/operations-specialist",
+   "stages": [
+    {
+     "context": "list role report to Class \u201cA\u201d Technical School in Great Lakes, IL, for",
+     "length_weeks": 10
+    }
+   ]
+  },
+  "Navy|quartermaster": {
+   "url": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/quartermaster",
+   "stages": [
+    {
+     "context": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "length_weeks": 9
+    }
+   ]
+  },
+  "Navy|sonar-technician": {
+   "url": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician",
+   "stages": [
+    {
+     "context": ", you\u2019ll report to a Sonar Technician \u201cA\u201d School in San Diego, CA, for",
+     "length_weeks": 10
+    },
+    {
+     "context": "Once you complete that course, you\u2019ll spend an additional 6-",
+     "length_weeks": 8
+    },
+    {
+     "context": "p, you\u2019ll report to Basic Enlisted Submarine School in Groton, CT, for",
+     "length_weeks": 9
+    }
+   ]
+  },
+  "Navy|surface-warfare-officer-swo": {
+   "url": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/surface-warfare-officer-swo",
+   "stages": [
+    {
+     "context": "Those already having a degree attend Officer Candidate School (OCS), a",
+     "length_weeks": 12
+    }
+   ]
+  },
+  "Navy|jag": {
+   "url": "https://www.navy.com/careers-benefits/careers/legal/jag",
+   "stages": [
+    {
+     "context": "From there, Navy JAG Corps Officers attend Naval Justice School, a",
+     "length_weeks": 10
+    }
+   ]
+  },
+  "Navy|legalman": {
+   "url": "https://www.navy.com/careers-benefits/careers/legal/legalman",
+   "stages": [
+    {
+     "context": "hat you will report to the Naval Justice School in Newport, RI, for an",
+     "length_weeks": 11
+    }
+   ]
+  },
+  "Navy|aerospace-experimental-psychology": {
+   "url": "https://www.navy.com/careers-benefits/careers/medical/aerospace-experimental-psychology",
+   "stages": [
+    {
+     "context": "or phases: Operational Psychology Classroom Training (Pensacola, FL) -",
+     "length_weeks": 12
+    },
+    {
+     "context": "Naval Aviation Schools Command (Pensacola, FL) -",
+     "length_weeks": 7
+    }
+   ]
+  },
+  "Navy|hospital-corpsman": {
+   "url": "https://www.navy.com/careers-benefits/careers/medical/hospital-corpsman",
+   "stages": [
+    {
+     "context": "report for specialized training including: Hospital Corps \u201cA\u201d School (",
+     "length_weeks": 19
+    }
+   ]
+  },
+  "Navy|hospital-corpsman-atf": {
+   "url": "https://www.navy.com/careers-benefits/careers/medical/hospital-corpsman-atf",
+   "stages": [
+    {
+     "context": "report for specialized training including: Hospital Corps \u201cA\u201d School (",
+     "length_weeks": 19
+    },
+    {
+     "context": "Search and Rescue Medical Tech Pipeline (",
+     "length_weeks": 27
+    },
+    {
+     "context": "Medical Deep Sea Diving Tech Pipeline (",
+     "length_weeks": 28
+    }
+   ]
+  },
+  "Navy|mortician": {
+   "url": "https://www.navy.com/careers-benefits/careers/medical/mortician",
+   "stages": [
+    {
+     "context": "technical training at Hospital Corps \u201cA\u201d School in San Antonio, TX for",
+     "length_weeks": 19
+    }
+   ]
+  },
+  "Navy|religious-program-specialist": {
+   "url": "https://www.navy.com/careers-benefits/careers/religious-services/religious-program-specialist",
+   "stages": [
+    {
+     "context": "Newport, RI, where they receive formal Navy training at \u201cA\u201d School for",
+     "length_weeks": 8
+    },
+    {
+     "context": "From there, Religious Program Specialists attend \u201cC\u201d School for",
+     "length_weeks": 5
+    }
+   ]
+  },
+  "Navy|aerographers-mate": {
+   "url": "https://www.navy.com/careers-benefits/careers/science-engineering/aerographers-mate",
+   "stages": [
+    {
+     "context": "S, where they receive formal Navy technical training at \u201cA\u201d School for",
+     "length_weeks": 19
+    }
+   ]
+  },
+  "Navy|naval-reactors-engineer": {
+   "url": "https://www.navy.com/careers-benefits/careers/science-engineering/naval-reactors-engineer",
+   "stages": [
+    {
+     "context": " the first step is Officer Development School (ODS) in Newport, RI \u2013 a",
+     "length_weeks": 5
+    },
+    {
+     "context": "of instruction) and Nuclear Power Training Unit (",
+     "length_weeks": 2
+    },
+    {
+     "context": "Officers then attend Bettis Reactor Engineering School (BRES), a",
+     "length_weeks": 24
+    }
+   ]
+  },
+  "Navy|nptu-nuclear-power-training-unit-instructor": {
+   "url": "https://www.navy.com/careers-benefits/careers/science-engineering/nptu-nuclear-power-training-unit-instructor",
+   "stages": [
+    {
+     "context": "Naval Nuclear Power Training Unit is a",
+     "length_weeks": 26
+    },
+    {
+     "context": " the first step is Officer Development School (ODS) in Newport, RI \u2013 a",
+     "length_weeks": 5
+    }
+   ]
+  },
+  "Navy|nupoc-instructor": {
+   "url": "https://www.navy.com/careers-benefits/careers/science-engineering/nupoc-instructor",
+   "stages": [
+    {
+     "context": "ctor, you can receive a salary in excess of $5,000 per month for up to",
+     "length_weeks": 120
+    },
+    {
+     "context": "Naval Nuclear Power School is a",
+     "length_weeks": 24
+    },
+    {
+     "context": " the first step is Officer Development School (ODS) in Newport, RI \u2013 a",
+     "length_weeks": 5
+    }
+   ]
+  },
+  "Navy|nupoc-submarine-officer": {
+   "url": "https://www.navy.com/careers-benefits/careers/science-engineering/nupoc-submarine-officer",
+   "stages": [
+    {
+     "context": "Next comes the Submarine Officer Basic Course (SOBC) , a",
+     "length_weeks": 12
+    }
+   ]
+  },
+  "Navy|surface-warfare-officer-nuclear": {
+   "url": "https://www.navy.com/careers-benefits/careers/science-engineering/surface-warfare-officer-nuclear",
+   "stages": [
+    {
+     "context": "Those still in school may apply as early as",
+     "length_weeks": 120
+    }
+   ]
+  },
+  "Navy|torpedomans-mate": {
+   "url": "https://www.navy.com/careers-benefits/careers/science-engineering/torpedomans-mate",
+   "stages": [
+    {
+     "context": "role will report to Basic Enlisted Submarine School in Groton, CT, for",
+     "length_weeks": 9
+    }
+   ]
+  },
+  "Navy|aviation-rescue-swimmer": {
+   "url": "https://www.navy.com/careers-benefits/careers/special-operations/aviation-rescue-swimmer",
+   "stages": [
+    {
+     "context": "lowing training pipeline: Aviation Rescue Swimmer School Prep Course (",
+     "length_weeks": 2
+    },
+    {
+     "context": "Aircrew Candidate School (",
+     "length_weeks": 4
+    },
+    {
+     "context": "Rescue Swimmer School (",
+     "length_weeks": 6
+    }
+   ]
+  },
+  "Navy|explosive-ordnance-disposal-technician": {
+   "url": "https://www.navy.com/careers-benefits/careers/special-operations/explosive-ordnance-disposal-technician",
+   "stages": [
+    {
+     "context": ", \"No non-judicial punishments or court martial convictions during the",
+     "length_weeks": 48
+    },
+    {
+     "context": "Training & Advancement Upon completion of the initial",
+     "length_weeks": 10
+    },
+    {
+     "context": "EOD School (",
+     "length_weeks": 44
+    }
+   ]
+  },
+  "Navy|navy-diver": {
+   "url": "https://www.navy.com/careers-benefits/careers/special-operations/navy-diver",
+   "stages": [
+    {
+     "context": "report for specialized training, including: Diver Preparation Course (",
+     "length_weeks": 7
+    },
+    {
+     "context": "Second Class Dive School (",
+     "length_weeks": 15
+    }
+   ]
+  },
+  "Navy|navy-seal": {
+   "url": "https://www.navy.com/careers-benefits/careers/special-operations/navy-seal",
+   "stages": [
+    {
+     "context": "Training consists of:",
+     "length_weeks": 56
+    },
+    {
+     "context": "/S School, Parachute Jump School and SEAL Qualification Training (SQT)",
+     "length_weeks": 72
+    }
+   ]
+  },
+  "Navy|special-warfare-combat-crewman": {
+   "url": "https://www.navy.com/careers-benefits/careers/special-operations/special-warfare-combat-crewman",
+   "stages": [
+    {
+     "context": "in specialized training including: Naval Special Warfare Orientation (",
+     "length_weeks": 7
+    },
+    {
+     "context": ") in Coronado, CA Crewman Qualification Training (CQT) (",
+     "length_weeks": 13
+    }
+   ]
+  },
+  "Coast Guard|aet": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/aet",
+   "stages": [
+    {
+     "context": "onic repair Aircrew flight operations Training You'll Get AETs receive",
+     "length_weeks": 24
+    }
+   ]
+  },
+  "Coast Guard|amt": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/amt",
+   "stages": [
+    {
+     "context": "ural repair Aircrew flight operations Training You'll Get AMTs receive",
+     "length_weeks": 20
+    }
+   ]
+  },
+  "Coast Guard|ast": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/ast",
+   "stages": [
+    {
+     "context": " Life support equipment maintenance Training You'll Get ASTs receive a",
+     "length_weeks": 22
+    },
+    {
+     "context": "rating course that includes a",
+     "length_weeks": 7
+    },
+    {
+     "context": "rescue swimmer course learning helicopter rescue procedures, and a",
+     "length_weeks": 5
+    }
+   ]
+  },
+  "Coast Guard|bm": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/bm",
+   "stages": [
+    {
+     "context": "Seamanship and navigation Leadership Training You'll Get BMs receive a",
+     "length_weeks": 14
+    }
+   ]
+  },
+  "Coast Guard|cms": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/cms",
+   "stages": [
+    {
+     "context": "nalysis Risk identification Training You'll Get CMSs attend the Navy\u2019s",
+     "length_weeks": 27
+    }
+   ]
+  },
+  "Coast Guard|cs": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/cs",
+   "stages": [
+    {
+     "context": " Accounting and inventory management Training You'll Get CSs receive a",
+     "length_weeks": 13
+    }
+   ]
+  },
+  "Coast Guard|dc": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/dc",
+   "stages": [
+    {
+     "context": "Learn Firefighting Welding Carpentry Training You'll Get DCs receive a",
+     "length_weeks": 15
+    }
+   ]
+  },
+  "Coast Guard|em": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/em",
+   "stages": [
+    {
+     "context": " and programmable logic Fiber optics Training You'll Get EMs receive a",
+     "length_weeks": 16
+    }
+   ]
+  },
+  "Coast Guard|et": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/et",
+   "stages": [
+    {
+     "context": " Electromagnetic signal fundamentals Training You'll Get ETs receive a",
+     "length_weeks": 20
+    }
+   ]
+  },
+  "Coast Guard|gm": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/gm",
+   "stages": [
+    {
+     "context": "Firearms instruction Law enforcement Training You'll Get GMs receive a",
+     "length_weeks": 10
+    }
+   ]
+  },
+  "Coast Guard|hs": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/hs",
+   "stages": [
+    {
+     "context": "g Laboratory procedures Wound repair Training You'll Get HSs receive a",
+     "length_weeks": 22
+    }
+   ]
+  },
+  "Coast Guard|is": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/is",
+   "stages": [
+    {
+     "context": "esearch techniques Critical thinking Training You'll Get ISs receive a",
+     "length_weeks": 12
+    }
+   ]
+  },
+  "Coast Guard|it": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/it",
+   "stages": [
+    {
+     "context": "tructure Telephone systems Computers Training You'll Get ITs receive a",
+     "length_weeks": 28
+    }
+   ]
+  },
+  "Coast Guard|me": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/me",
+   "stages": [
+    {
+     "context": " Tactical law enforcement operations Training You'll Get MEs receive a",
+     "length_weeks": 10
+    }
+   ]
+  },
+  "Coast Guard|mk": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/mk",
+   "stages": [
+    {
+     "context": "rship Work organization and planning Training You'll Get MKs receive a",
+     "length_weeks": 13
+    }
+   ]
+  },
+  "Coast Guard|mst": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/mst",
+   "stages": [
+    {
+     "context": "Local port security threat response Training You'll Get MSTs receive a",
+     "length_weeks": 12
+    }
+   ]
+  },
+  "Coast Guard|os": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/os",
+   "stages": [
+    {
+     "context": "navigation and communication systems Training You'll Get OSs receive a",
+     "length_weeks": 13
+    }
+   ]
+  },
+  "Coast Guard|pa": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/pa",
+   "stages": [
+    {
+     "context": "Speaking Photography and videography Training You'll Get PAs receive a",
+     "length_weeks": 26
+    }
+   ]
+  },
+  "Coast Guard|sk": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/sk",
+   "stages": [
+    {
+     "context": "ld_rate_training\":{\"value\":\"\\u003cul\\u003e\\u003cli\\u003eSKs receive an",
+     "length_weeks": 8
+    }
+   ]
+  },
+  "Coast Guard|yn": {
+   "url": "https://www.gocoastguard.com/careers/enlisted/yn",
+   "stages": [
+    {
+     "context": "ord management Personnel counseling Training You'll Get YNs receive an",
+     "length_weeks": 8
+    }
+   ]
+  }
+ },
+ "unverified": [
+  "Marine Corps per-MOS school lengths are not published. Every Marine record therefore shows recruit training and the School of Infantry, and states plainly that the MOS-school length is unknown \u2014 rather than inventing one.",
+  "Where a page states several durations, the first three that are plainly about training are kept. A page that states none yields null."
+ ]
+}

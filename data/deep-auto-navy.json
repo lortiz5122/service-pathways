@@ -21,12 +21,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "S, where they receive formal Navy technical training at \u201cA\u201d School for",
+     "location": null,
+     "length_weeks": 19,
+     "source": "https://www.navy.com/careers-benefits/careers/science-engineering/aerographers-mate"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -72,12 +86,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "location": null,
+     "length_weeks": 15,
+     "source": "https://www.navy.com/careers-benefits/careers/aviation/air-traffic-controller"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -216,12 +244,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \"A\" Technical School (",
+     "location": null,
+     "length_weeks": 13,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-electricians-mate"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -274,12 +316,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \"A\" Technical School (",
+     "location": null,
+     "length_weeks": 19,
+     "source": "https://www.navy.com/careers-benefits/careers/electronics-technology/aviation-electronics-technician"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -329,12 +385,32 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "ou\u2019ll report for specialized training, including: AD Core \"A\" School (",
+     "location": null,
+     "length_weeks": 4,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-machinists-mate"
+    },
+    {
+     "stage": "or training on basic aviation theory and skills AD Strand \"A\" School (",
+     "location": null,
+     "length_weeks": 2,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-machinists-mate"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -376,12 +452,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \"A\" Technical School (",
+     "location": null,
+     "length_weeks": 8,
+     "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/aviation-maintenance-administrationman"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -427,12 +517,38 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \"A\" Technical School (",
+     "location": null,
+     "length_weeks": 9,
+     "source": "https://www.navy.com/careers-benefits/careers/aviation/aviation-ordnanceman"
+    },
+    {
+     "stage": "ve additional training in the form of a ship\u2019s company strand course (",
+     "location": null,
+     "length_weeks": 2,
+     "source": "https://www.navy.com/careers-benefits/careers/aviation/aviation-ordnanceman"
+    },
+    {
+     "stage": ") or an airwing strand course (",
+     "location": null,
+     "length_weeks": 3,
+     "source": "https://www.navy.com/careers-benefits/careers/aviation/aviation-ordnanceman"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -487,12 +603,39 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "lowing training pipeline: Aviation Rescue Swimmer School Prep Course (",
+     "location": null,
+     "length_weeks": 2,
+     "source": "https://www.navy.com/careers-benefits/careers/special-operations/aviation-rescue-swimmer"
+    },
+    {
+     "stage": "Aircrew Candidate School (",
+     "location": null,
+     "length_weeks": 4,
+     "source": "https://www.navy.com/careers-benefits/careers/special-operations/aviation-rescue-swimmer"
+    },
+    {
+     "stage": "Rescue Swimmer School (",
+     "location": null,
+     "length_weeks": 6,
+     "source": "https://www.navy.com/careers-benefits/careers/special-operations/aviation-rescue-swimmer"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
-   "sources": [],
+   "sources": [
+    "navy.com career page (official)"
+   ],
    "confidence": "official"
   },
   {
@@ -513,12 +656,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \"A\" Technical School (",
+     "location": null,
+     "length_weeks": 9,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-structural-mechanic"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -569,12 +726,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \"A\" Technical School (",
+     "location": null,
+     "length_weeks": 9,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-structural-mechanic-safety-equipment"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -623,12 +794,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \"A\" Technical School (",
+     "location": null,
+     "length_weeks": 17,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-support-equipment-technician"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -681,12 +866,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "eport for specialized training, including: Boatswain Mate \"A\" School (",
+     "location": null,
+     "length_weeks": 5,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/boatswains-mate"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -738,12 +937,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "Builder role report to Class \u201cA\u201d Technical School in Gulfport, MS for",
+     "location": null,
+     "length_weeks": 10,
+     "source": "https://www.navy.com/careers-benefits/careers/construction/builder"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -799,12 +1012,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "eport to Class \u201cA\u201d Technical School at Sheppard Air Force Base, TX for",
+     "location": null,
+     "length_weeks": 20,
+     "source": "https://www.navy.com/careers-benefits/careers/construction/construction-electrician"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -851,12 +1078,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "nic role report to Class \u201cA\u201d Technical School in Port Hueneme, CA, for",
+     "location": null,
+     "length_weeks": 16,
+     "source": "https://www.navy.com/careers-benefits/careers/construction/construction-mechanic"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -904,12 +1145,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "location": null,
+     "length_weeks": 18,
+     "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/cryptologic-technician-collection"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -950,12 +1205,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "g, including: Class \u201cA\u201d School Phase I Defense Language Institute (27-",
+     "location": null,
+     "length_weeks": 64,
+     "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/cryptologic-technician-interpretive"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1049,12 +1318,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "location": null,
+     "length_weeks": 12,
+     "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/cryptologic-technician-technical"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1104,12 +1387,33 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "location": null,
+     "length_weeks": 5,
+     "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/culinary-specialist"
+    },
+    {
+     "stage": "idates will continue their training: Basic Enlisted Submarine School (",
+     "location": null,
+     "length_weeks": 9,
+     "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/culinary-specialist"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
-   "sources": [],
+   "sources": [
+    "navy.com career page (official)"
+   ],
    "confidence": "official"
   },
   {
@@ -1130,12 +1434,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "location": null,
+     "length_weeks": 23,
+     "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/cyber-warfare-technician"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1181,12 +1499,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "ring Common Core and \u201cA\u201d School in Great Lakes, IL, where they receive",
+     "location": null,
+     "length_weeks": 10,
+     "source": "https://www.navy.com/careers-benefits/careers/first-responder/damage-controlman"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1232,12 +1564,32 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "alized training, including: Basic Engineering Common Core \u201cA\u201d School (",
+     "location": null,
+     "length_weeks": 10,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/electricians-mate"
+    },
+    {
+     "stage": "EM Strand Technical School (",
+     "location": null,
+     "length_weeks": 4,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/electricians-mate"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1410,12 +1762,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "location": null,
+     "length_weeks": 14,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/engineman"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1470,12 +1836,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "ole report to Class \u201cA\u201d Technical School at Fort Leonard Wood, MO, for",
+     "location": null,
+     "length_weeks": 11,
+     "source": "https://www.navy.com/careers-benefits/careers/construction/equipment-operator"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1628,12 +2008,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "echnical Training and FC Strand in Great Lakes, IL, where they receive",
+     "location": null,
+     "length_weeks": 31,
+     "source": "https://www.navy.com/careers-benefits/careers/electronics-technology/fire-controlman"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1674,12 +2068,32 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "location": null,
+     "length_weeks": 10,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/gas-turbine-systems-technician-electrical"
+    },
+    {
+     "stage": "GSE Strand Technical School (",
+     "location": null,
+     "length_weeks": 16,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/gas-turbine-systems-technician-electrical"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1728,12 +2142,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "location": null,
+     "length_weeks": 15,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/gas-turbine-systems-technician-mechanical"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1784,12 +2212,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \"A\" Technical School (",
+     "location": null,
+     "length_weeks": 15,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/gunners-mate"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1829,12 +2271,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "report for specialized training including: Hospital Corps \u201cA\u201d School (",
+     "location": null,
+     "length_weeks": 19,
+     "source": "https://www.navy.com/careers-benefits/careers/medical/hospital-corpsman"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1893,12 +2349,32 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "location": null,
+     "length_weeks": 13,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/hull-maintenance-technician"
+    },
+    {
+     "stage": "HT Strand Technical School (",
+     "location": null,
+     "length_weeks": 5,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/hull-maintenance-technician"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -1949,12 +2425,32 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \"A\" Technical School (",
+     "location": null,
+     "length_weeks": 24,
+     "source": "https://www.navy.com/careers-benefits/careers/electronics-technology/information-systems-technician"
+    },
+    {
+     "stage": "will also attend submarine training: Basic Enlisted Submarine School (",
+     "location": null,
+     "length_weeks": 8,
+     "source": "https://www.navy.com/careers-benefits/careers/electronics-technology/information-systems-technician"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2063,12 +2559,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "nd Class \u201cA\u201d Technical School in Great Lakes, IL, where you\u2019ll receive",
+     "location": null,
+     "length_weeks": 21,
+     "source": "https://www.navy.com/careers-benefits/careers/electronics-technology/interior-communications-electrician"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2121,12 +2631,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "hat you will report to the Naval Justice School in Newport, RI, for an",
+     "location": null,
+     "length_weeks": 11,
+     "source": "https://www.navy.com/careers-benefits/careers/legal/legalman"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2167,12 +2691,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "location": null,
+     "length_weeks": 9,
+     "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/logistics-specialist"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2285,12 +2823,27 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "location": null,
+     "length_weeks": 9,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/machinists-mate"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
-   "sources": [],
+   "sources": [
+    "navy.com career page (official)"
+   ],
    "confidence": "official"
   },
   {
@@ -2364,12 +2917,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "ey will receive formal Navy technical training at \u201cA\u201d School for about",
+     "location": null,
+     "length_weeks": 9,
+     "source": "https://www.navy.com/careers-benefits/careers/first-responder/master-at-arms"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2424,12 +2991,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \"A\" Technical School (",
+     "location": null,
+     "length_weeks": 19,
+     "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/mineman"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2469,12 +3050,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "Basic Submarine School and Basic Mechanical Skills in Groton, CT, for",
+     "location": null,
+     "length_weeks": 7,
+     "source": "https://www.navy.com/careers-benefits/careers/electronics-technology/missile-technician"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2596,12 +3191,32 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "report for specialized training, including: Diver Preparation Course (",
+     "location": null,
+     "length_weeks": 7,
+     "source": "https://www.navy.com/careers-benefits/careers/special-operations/navy-diver"
+    },
+    {
+     "stage": "Second Class Dive School (",
+     "location": null,
+     "length_weeks": 15,
+     "source": "https://www.navy.com/careers-benefits/careers/special-operations/navy-diver"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2667,12 +3282,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "list role report to Class \u201cA\u201d Technical School in Great Lakes, IL, for",
+     "location": null,
+     "length_weeks": 10,
+     "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/operations-specialist"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2718,12 +3347,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "location": null,
+     "length_weeks": 5,
+     "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/personnel-specialist"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2782,12 +3425,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "location": null,
+     "length_weeks": 9,
+     "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/quartermaster"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2826,12 +3483,32 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "Newport, RI, where they receive formal Navy training at \u201cA\u201d School for",
+     "location": null,
+     "length_weeks": 8,
+     "source": "https://www.navy.com/careers-benefits/careers/religious-services/religious-program-specialist"
+    },
+    {
+     "stage": "From there, Religious Program Specialists attend \u201cC\u201d School for",
+     "location": null,
+     "length_weeks": 5,
+     "source": "https://www.navy.com/careers-benefits/careers/religious-services/religious-program-specialist"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2877,12 +3554,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "location": null,
+     "length_weeks": 5,
+     "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/retail-services-specialist"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2934,12 +3625,38 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": ", you\u2019ll report to a Sonar Technician \u201cA\u201d School in San Diego, CA, for",
+     "location": null,
+     "length_weeks": 10,
+     "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician"
+    },
+    {
+     "stage": "Once you complete that course, you\u2019ll spend an additional 6-",
+     "location": null,
+     "length_weeks": 8,
+     "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician"
+    },
+    {
+     "stage": "p, you\u2019ll report to Basic Enlisted Submarine School in Groton, CT, for",
+     "location": null,
+     "length_weeks": 9,
+     "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -2987,12 +3704,38 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": ", you\u2019ll report to a Sonar Technician \u201cA\u201d School in San Diego, CA, for",
+     "location": null,
+     "length_weeks": 10,
+     "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician"
+    },
+    {
+     "stage": "Once you complete that course, you\u2019ll spend an additional 6-",
+     "location": null,
+     "length_weeks": 8,
+     "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician"
+    },
+    {
+     "stage": "p, you\u2019ll report to Basic Enlisted Submarine School in Groton, CT, for",
+     "location": null,
+     "length_weeks": 9,
+     "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -3129,12 +3872,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "elworker role report to Class \u201cA\u201d Technical School in Gulfport, MS for",
+     "location": null,
+     "length_weeks": 11,
+     "source": "https://www.navy.com/careers-benefits/careers/construction/steelworker"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -3185,12 +3942,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "role will report to Basic Enlisted Submarine School in Groton, CT, for",
+     "location": null,
+     "length_weeks": 9,
+     "source": "https://www.navy.com/careers-benefits/careers/science-engineering/torpedomans-mate"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -3243,12 +4014,26 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "to Class \u201cA\u201d Technical School at NCTC Sheppard Air Force Base, TX for",
+     "location": null,
+     "length_weeks": 13,
+     "source": "https://www.navy.com/careers-benefits/careers/construction/utilitiesman"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
@@ -3297,12 +4082,32 @@
     "physical": null,
     "other": null
    },
-   "training_pipeline": [],
+   "training_pipeline": [
+    {
+     "stage": "Navy Boot Camp (Recruit Training Command, Great Lakes)",
+     "location": null,
+     "length_weeks": 10,
+     "source": "Published service-wide recruit-training length."
+    },
+    {
+     "stage": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "location": null,
+     "length_weeks": 7,
+     "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/yeoman"
+    },
+    {
+     "stage": "idates will continue their training: Basic Enlisted Submarine School (",
+     "location": null,
+     "length_weeks": 9,
+     "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/yeoman"
+    }
+   ],
    "special_pays": [],
    "transition": {
     "va_disability_common_claims": []
    },
    "sources": [
+    "navy.com career page (official)",
     "DoD COOL \u2014 cool.osd.mil (official)"
    ],
    "confidence": "official",
