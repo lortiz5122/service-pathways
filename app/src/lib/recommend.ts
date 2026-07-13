@@ -180,14 +180,35 @@ export function recommend(
     ? entryLevel.filter((s) =>
         (s.interest_cluster_ids ?? []).some((c) => interests.includes(c)),
       )
-    : entryLevel;
+    : [];
 
-  // A search is ADDITIVE. If you picked Aviation and typed "dogs", you get both —
-  // narrowing to the intersection would silently drop the dog handler, which is the
-  // one job you actually asked for by name.
-  const pool = query.trim()
+  /**
+   * How a search combines with the interest tiles.
+   *
+   *   interests only  -> the jobs in those clusters
+   *   search only     -> ONLY what the search found
+   *   both            -> the union (additive, never an intersection)
+   *   neither         -> everything, because the reader has told us nothing
+   *
+   * The "search only" case is the one that bit. `byInterest` used to fall back to the
+   * WHOLE catalogue when no interest was picked, so searching "drones" ranked the 9
+   * real drone jobs to the top and then dumped all 501 others underneath them —
+   * Musician, Personnel Specialist, the lot. A search that returns everything has not
+   * widened anything; it has just buried the answer under the haystack it was supposed
+   * to search.
+   *
+   * Union, not intersection, when BOTH are given: someone who picks Aviation and types
+   * "dogs" must still get the dog handler — narrowing to the intersection would drop
+   * the one job they asked for by name.
+   */
+  const hasQuery = query.trim().length > 0;
+  const hasInterests = interests.length > 0;
+
+  const pool = hasQuery
     ? [...searched, ...byInterest.filter((s) => !searchedIds.has(s.id))]
-    : byInterest;
+    : hasInterests
+      ? byInterest
+      : entryLevel;
 
   if (!pool.length) return [];
 

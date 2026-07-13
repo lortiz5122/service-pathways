@@ -174,6 +174,17 @@ for (const s of data.allSpecialties) {
       const rec = await vite.ssrLoadModule('/src/lib/recommend.ts');
       const ent = await vite.ssrLoadModule('/src/lib/entry.ts');
       const el = await vite.ssrLoadModule('/src/lib/entrylevel.ts');
+      const srch = await vite.ssrLoadModule('/src/lib/search.ts');
+
+      // A search with no interest picked must return ONLY what the search found.
+      for (const q of ['drones', 'dogs', 'explosives', 'weather']) {
+        const hits = srch.searchEntryLevel(q).length;
+        const out = rec.recommend([], [], 60, 'tier1', q);
+        if (out.length !== hits)
+          bad(
+            `search "${q}" alone returns ${out.length} results but only ${hits} jobs match it — the catalogue is being dumped under the search`,
+          );
+      }
 
       for (const c of data.clusters) {
         const out = rec.recommend([c.id], [], 60, 'tier1');
@@ -188,6 +199,12 @@ for (const s of data.allSpecialties) {
         //     this" VERDICT. "Enlisted" is not "entry level" — a fifth of the Marine
         //     Corps MOS list is lateral-move only, and every one of them passes the
         //     track check. Fail closed: an unclassified job may not be recommended.
+        // 15. A SEARCH MUST NOT RETURN THE WHOLE CATALOGUE. With no interest picked,
+        //     the pool fell back to all 510 jobs, so searching "drones" ranked the 9
+        //     real drone jobs to the top and dumped every other job underneath —
+        //     Musician, Personnel Specialist, the lot. A search that returns everything
+        //     has not widened anything; it has buried the answer in the haystack it was
+        //     supposed to search.
         const unclassified = out.filter((r) => !el.isEntryLevel(r.specialty.id));
         if (unclassified.length)
           bad(

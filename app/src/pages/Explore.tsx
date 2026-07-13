@@ -279,6 +279,17 @@ export default function Explore() {
           <div className="section-head" style={{ marginTop: 8 }}>
             <h2>{results.length} matches</h2>
             <p>
+              {query.trim() && interests.length ? (
+                <>
+                  <b>{searchHits.length}</b> matched your search for “{query.trim()}” —
+                  they are listed first. The rest come from the{' '}
+                  {interests.length === 1 ? 'interest' : 'interests'} you picked.{' '}
+                </>
+              ) : query.trim() ? (
+                <>
+                  All {results.length} matched your search for “{query.trim()}”.{' '}
+                </>
+              ) : null}
               Every match shows why it appeared, and the things about it you would
               not hear from a recruiter.
             </p>
