@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { OfficerPay } from '../components/OfficerPay';
+import { OfficerBonuses } from '../components/OfficerBonuses';
 import {
   BAH,
   BAH_EXAMPLES,
@@ -354,6 +355,8 @@ export default function Pay() {
         </Note>
       ) : null}
       <OfficerPay />
+
+      <OfficerBonuses />
 
     </div>
   );

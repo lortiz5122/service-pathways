@@ -1,0 +1,428 @@
+{
+ "command": "OFFICER BONUSES & SPECIAL PAYS",
+ "retrieved_date": "2026-07-12",
+ "source": {
+  "publisher": "Defense Finance and Accounting Service (DFAS)",
+  "base": "https://www.dfas.mil/MilitaryMembers/payentitlements/Pay-Tables/",
+  "tables": [
+   "AVIP2",
+   "HPO12",
+   "HPO13",
+   "SubPay",
+   "Dive-Pay"
+  ],
+  "access_note": "dfas.mil 403s a plain request; it serves these with a full browser header set and a trailing slash."
+ },
+ "aviation_incentive_pay": {
+  "what": "Aviation Incentive Pay (AvIP) \u2014 paid monthly to rated officers, on top of basic pay, for as long as they hold an operational flying assignment.",
+  "rates": [
+   {
+    "years_of_aviation_service": "2 or less",
+    "monthly_usd": 150.0
+   },
+   {
+    "years_of_aviation_service": "Over 2",
+    "monthly_usd": 250.0
+   },
+   {
+    "years_of_aviation_service": "Over 6",
+    "monthly_usd": 800.0
+   },
+   {
+    "years_of_aviation_service": "Over 10",
+    "monthly_usd": 1000.0
+   },
+   {
+    "years_of_aviation_service": "Over 22",
+    "monthly_usd": 700.0
+   },
+   {
+    "years_of_aviation_service": "Over 24",
+    "monthly_usd": 450.0
+   }
+  ],
+  "note": "These are the MAXIMUM officer rates. Each service publishes its own table within this ceiling, and the Aviation Bonus (a separate, much larger retention contract) is negotiated on top of it."
+ },
+ "health_professions_scholarship": {
+  "what": "The Health Professions Scholarship Program (HPSP) pays your medical, dental or nursing school tuition in full, plus a monthly living stipend, in exchange for a service obligation.",
+  "effective": "July 1, 2026",
+  "monthly_stipend_usd": 3113.0,
+  "annual_grant_usd": 45000.0,
+  "note": "The tuition itself is paid in full and is NOT in this table \u2014 the figures here are the living stipend and the annual grant on top of it. For a four-year medical degree this is the single largest financial package in the military."
+ },
+ "nurse_corps_accession_bonus": {
+  "what": "Critically Short Wartime Accession Bonus (CSWAB), Nurse Corps \u2014 paid on commissioning, by specialty, in exchange for a 3 or 4-year obligation.",
+  "by_specialty": [
+   {
+    "specialty": "Any Specialty",
+    "three_year_usd": 30000.0,
+    "four_year_usd": 50000.0
+   },
+   {
+    "specialty": "Certified Registered Nurse Anesthetist",
+    "three_year_usd": null,
+    "four_year_usd": 250000.0
+   },
+   {
+    "specialty": "Critical Care Nursing",
+    "three_year_usd": null,
+    "four_year_usd": 100000.0
+   },
+   {
+    "specialty": "Mental Health Nurse Practitioner",
+    "three_year_usd": null,
+    "four_year_usd": 120000.0
+   },
+   {
+    "specialty": "Obstetrics/Gynecology Nursing",
+    "three_year_usd": null,
+    "four_year_usd": 40000.0
+   },
+   {
+    "specialty": "Dietician",
+    "three_year_usd": null,
+    "four_year_usd": 30000.0
+   },
+   {
+    "specialty": "Medical Lab Technologist",
+    "three_year_usd": null,
+    "four_year_usd": 30000.0
+   },
+   {
+    "specialty": "Occupational Therapy",
+    "three_year_usd": null,
+    "four_year_usd": 30000.0
+   },
+   {
+    "specialty": "Optometrists",
+    "three_year_usd": 20000.0,
+    "four_year_usd": 30000.0
+   },
+   {
+    "specialty": "Pharmacist",
+    "three_year_usd": null,
+    "four_year_usd": 30000.0
+   },
+   {
+    "specialty": "Physical Therapist",
+    "three_year_usd": null,
+    "four_year_usd": 30000.0
+   },
+   {
+    "specialty": "Physician Assistant",
+    "three_year_usd": 37500.0,
+    "four_year_usd": 60000.0
+   },
+   {
+    "specialty": "Public Health Officer (Air Force)",
+    "three_year_usd": 22500.0,
+    "four_year_usd": 40000.0
+   },
+   {
+    "specialty": "Social Worker",
+    "three_year_usd": 18750.0,
+    "four_year_usd": 30000.0
+   },
+   {
+    "specialty": "Veterinary Officer",
+    "three_year_usd": null,
+    "four_year_usd": 20000.0
+   }
+  ]
+ },
+ "submarine_duty_pay": {
+  "what": "Monthly submarine duty incentive pay, by paygrade.",
+  "by_grade": {
+   "O-10": {
+    "min_monthly_usd": 355.0,
+    "max_monthly_usd": 355.0
+   },
+   "O-9": {
+    "min_monthly_usd": 355.0,
+    "max_monthly_usd": 355.0
+   },
+   "O-8": {
+    "min_monthly_usd": 355.0,
+    "max_monthly_usd": 355.0
+   },
+   "O-7": {
+    "min_monthly_usd": 355.0,
+    "max_monthly_usd": 355.0
+   },
+   "O-6": {
+    "min_monthly_usd": 660.0,
+    "max_monthly_usd": 950.0
+   },
+   "O-5": {
+    "min_monthly_usd": 655.0,
+    "max_monthly_usd": 950.0
+   },
+   "O-4": {
+    "min_monthly_usd": 400.0,
+    "max_monthly_usd": 880.0
+   },
+   "O-3": {
+    "min_monthly_usd": 390.0,
+    "max_monthly_usd": 805.0
+   },
+   "O-2": {
+    "min_monthly_usd": 335.0,
+    "max_monthly_usd": 470.0
+   },
+   "O-1": {
+    "min_monthly_usd": 255.0,
+    "max_monthly_usd": 470.0
+   },
+   "W-5": {
+    "min_monthly_usd": 320.0,
+    "max_monthly_usd": 475.0
+   },
+   "W-4": {
+    "min_monthly_usd": 320.0,
+    "max_monthly_usd": 475.0
+   },
+   "W-3": {
+    "min_monthly_usd": 320.0,
+    "max_monthly_usd": 475.0
+   },
+   "W-2": {
+    "min_monthly_usd": 320.0,
+    "max_monthly_usd": 475.0
+   },
+   "W-1": {
+    "min_monthly_usd": 320.0,
+    "max_monthly_usd": 475.0
+   },
+   "E-9": {
+    "min_monthly_usd": 450.0,
+    "max_monthly_usd": 600.0
+   },
+   "E-8": {
+    "min_monthly_usd": 450.0,
+    "max_monthly_usd": 550.0
+   },
+   "E-7": {
+    "min_monthly_usd": 445.0,
+    "max_monthly_usd": 445.0
+   },
+   "E-6": {
+    "min_monthly_usd": 175.0,
+    "max_monthly_usd": 430.0
+   },
+   "E-5": {
+    "min_monthly_usd": 155.0,
+    "max_monthly_usd": 315.0
+   },
+   "E-4": {
+    "min_monthly_usd": 90.0,
+    "max_monthly_usd": 270.0
+   },
+   "E-3": {
+    "min_monthly_usd": 90.0,
+    "max_monthly_usd": 105.0
+   },
+   "E-2": {
+    "min_monthly_usd": 85.0,
+    "max_monthly_usd": 100.0
+   },
+   "E-1": {
+    "min_monthly_usd": 85.0,
+    "max_monthly_usd": 85.0
+   }
+  }
+ },
+ "dive_duty_pay": {
+  "what": "Monthly dive duty pay, by qualification.",
+  "rates": [
+   {
+    "role": "assigned to diving duty under instruction at an approved Armed Service",
+    "monthly_usd": 110.0
+   },
+   {
+    "role": "Master Diver",
+    "monthly_usd": 340.0
+   },
+   {
+    "role": "Diver First Class",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "Salvage Diver",
+    "monthly_usd": 175.0
+   },
+   {
+    "role": "Diver Second Class",
+    "monthly_usd": 150.0
+   },
+   {
+    "role": "Combat Diver (note 3)",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "assigned to diving duty under instruction at an approved Armed Service",
+    "monthly_usd": 110.0
+   },
+   {
+    "role": "Marine Diving Officer",
+    "monthly_usd": 240.0
+   },
+   {
+    "role": "Combat Diver (note 3)",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "Diving Medical Officer",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "assigned to diving duty under instruction at an approved Armed Service",
+    "monthly_usd": 150.0
+   },
+   {
+    "role": "Master Diver",
+    "monthly_usd": 340.0
+   },
+   {
+    "role": "Master Underwater Construction Diver",
+    "monthly_usd": 340.0
+   },
+   {
+    "role": "First Class Diver",
+    "monthly_usd": 315.0
+   },
+   {
+    "role": "Underwater Construction Technician Advanced (includes Saturation Hospi",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "Underwater Construction Technician Basic",
+    "monthly_usd": 150.0
+   },
+   {
+    "role": "Second Class Diver",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "Self-Contained Underwater Breathing Apparatus (SCUBA) Diver",
+    "monthly_usd": 150.0
+   },
+   {
+    "role": "Fleet Marine Force (FMF)",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "Reconnaissance HM Independent Duty Corpsman (IDC) FMR Reconnaissance H",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "Deep Sea Medical Technician",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "Deep Sea Medical Technician (IDC)",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "Explosive Ordnance Disposal EOD Apprentice",
+    "monthly_usd": 150.0
+   },
+   {
+    "role": "EOD Apprentice (Student Status) (note 2)",
+    "monthly_usd": 150.0
+   },
+   {
+    "role": "Basic EOD Apprentice Technician",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "Senior EOD Apprentice Technician",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "Master EOD Apprentice Technician",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "Ordnance Clearance Diver",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "Naval Special Warfare Enlisted Operator",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "assigned to diving duty under instruction at an approved Armed Service",
+    "monthly_usd": 150.0
+   },
+   {
+    "role": "Diving Officer (SCUBA) (note 2)",
+    "monthly_usd": 150.0
+   },
+   {
+    "role": "Diving Officer (note 3)",
+    "monthly_usd": 240.0
+   },
+   {
+    "role": "EOD Officer (note 4)",
+    "monthly_usd": 240.0
+   },
+   {
+    "role": "Sea-Air-Land (SEAL) Officer (note 5)",
+    "monthly_usd": 240.0
+   },
+   {
+    "role": "Special Warfare Officer - Student (note 1)",
+    "monthly_usd": 150.0
+   },
+   {
+    "role": "Undersea Medical Officer (note 4)",
+    "monthly_usd": 240.0
+   },
+   {
+    "role": "Diving Officer (note 5)",
+    "monthly_usd": 240.0
+   },
+   {
+    "role": "Engineering Duty Officer, Civil Engineer Corps Officer",
+    "monthly_usd": 240.0
+   },
+   {
+    "role": "Surface Warfare Officer",
+    "monthly_usd": 240.0
+   },
+   {
+    "role": "assigned to diving duty under instruction at an approved Armed Service",
+    "monthly_usd": 150.0
+   },
+   {
+    "role": "Combatant Diver",
+    "monthly_usd": 215.0
+   },
+   {
+    "role": "assigned to diving duty under instruction at an approved Armed Service",
+    "monthly_usd": 150.0
+   },
+   {
+    "role": "Combatant Diver",
+    "monthly_usd": 240.0
+   },
+   {
+    "role": "SCUBA Diver",
+    "monthly_usd": 110.0
+   },
+   {
+    "role": "Para rescue Diver",
+    "monthly_usd": 150.0
+   },
+   {
+    "role": "assigned to diving duty",
+    "monthly_usd": 150.0
+   }
+  ]
+ },
+ "unverified": [
+  "The Aviation Bonus (the large multi-year aviation RETENTION contract, distinct from the monthly AvIP above) is set by each service annually and is not published as a DFAS table. Its value is not stated here rather than guessed.",
+  "Navy nuclear officer accession and continuation bonuses are set by the Navy, not published as a DFAS pay table, and are not included.",
+  "JAG and chaplain accession incentives are service-set and not published as DFAS tables."
+ ]
+}

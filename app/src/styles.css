@@ -3068,3 +3068,34 @@ table tr.hit td { color: var(--ink); }
 .hero-card { border-left: 4px solid var(--ok); }
 .hero-card h3 { margin: 0 0 8px; }
 .hero-card > p { color: var(--ink-2); font-size: 14px; line-height: 1.65; margin-bottom: 18px; }
+
+/* --------------------------------------------------- officer bonuses */
+
+.bonusgrid {
+  display: grid; gap: 12px; margin: 18px 0 4px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+.bonusfig {
+  padding: 16px 18px; border-radius: var(--radius);
+  border: 1px solid var(--line-2); background: var(--panel-2);
+}
+.bonusfig strong {
+  display: block; font-size: 24px; line-height: 1.15; color: var(--ok);
+  font-variant-numeric: tabular-nums;
+}
+.bonusfig span { display: block; margin-top: 5px; font-size: 12.5px; color: var(--ink); }
+.bonusfig em {
+  display: block; margin-top: 3px; font-style: normal;
+  font-size: 11px; color: var(--ink-3);
+}
+.paytable th.wrapcell, .paytable td.wrapcell { white-space: normal; }
+.paytable tbody th.wrapcell { font-family: inherit; font-size: 13px; }
+.paylist { list-style: none; padding: 0; margin: 12px 0 0; }
+.paylist li {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+  padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 13px;
+}
+.paylist li span { color: var(--ink-2); }
+.paylist li b { font-variant-numeric: tabular-nums; white-space: nowrap; }
+ul.tight { margin: 8px 0; padding-left: 18px; }
+ul.tight li { margin-bottom: 6px; line-height: 1.55; }
