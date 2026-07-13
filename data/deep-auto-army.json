@@ -43,10 +43,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Aircraft Mechanics and Service Technicians"
     ],
     "relevant_certifications": [
@@ -102,11 +102,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "17-3021.00",
      "49-2091.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Aerospace Engineering and Operations Technologists and Technicians",
      "Avionics Technicians"
     ],
@@ -166,12 +166,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3014.00",
      "17-1021.00",
      "49-1011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Artillery and Missile Crew Members",
      "Cartographers and Photogrammetrists",
      "First-Line Supervisors of Mechanics, Installers, and Repairers"
@@ -234,10 +234,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3014.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Artillery and Missile Crew Members"
     ],
     "relevant_certifications": [
@@ -297,12 +297,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3014.00",
      "33-3021.06",
      "15-1244.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Artillery and Missile Crew Members",
      "Intelligence Analysts",
      "Network and Computer Systems Administrators"
@@ -366,11 +366,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-2094.00",
      "49-1011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
      "First-Line Supervisors of Mechanics, Installers, and Repairers"
     ],
@@ -434,10 +434,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "53-2021.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Air Traffic Controllers"
     ],
     "relevant_certifications": [
@@ -496,14 +496,14 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "17-3021.00",
      "49-2091.00",
      "17-3023.00",
      "49-2093.00",
      "47-2111.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Aerospace Engineering and Operations Technologists and Technicians",
      "Avionics Technicians",
      "Electrical and Electronic Engineering Technologists and Technicians",
@@ -566,10 +566,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Aircraft Mechanics and Service Technicians"
     ],
     "relevant_certifications": [
@@ -625,10 +625,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Aircraft Mechanics and Service Technicians"
     ],
     "relevant_certifications": [
@@ -688,11 +688,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3011.00",
      "49-9098.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Aircraft Mechanics and Service Technicians",
      "Helpers--Installation, Maintenance, and Repair Workers"
     ],
@@ -753,10 +753,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Aircraft Mechanics and Service Technicians"
     ],
     "relevant_certifications": [
@@ -811,11 +811,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "51-4041.00",
      "49-9071.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Machinists",
      "Maintenance and Repair Workers, General"
     ],
@@ -879,11 +879,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "47-5032.00",
      "43-5071.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Explosives Workers, Ordnance Handling Experts, and Blasters",
      "Shipping, Receiving, and Inventory Clerks"
     ],
@@ -944,12 +944,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "47-5032.00",
      "43-5071.00",
      "53-7065.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Explosives Workers, Ordnance Handling Experts, and Blasters",
      "Shipping, Receiving, and Inventory Clerks",
      "Stockers and Order Fillers"
@@ -1008,10 +1008,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "31-9096.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Veterinary Assistants and Laboratory Animal Caretakers"
     ],
     "relevant_certifications": [
@@ -1067,12 +1067,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-2094.00",
      "49-9098.00",
      "49-3042.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
      "Helpers--Installation, Maintenance, and Repair Workers",
      "Mobile Heavy Equipment Mechanics, Except Engines"
@@ -1136,7 +1136,7 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "53-7062.00",
      "43-4151.00",
      "53-7064.00",
@@ -1144,7 +1144,7 @@
      "53-7065.00",
      "11-3071.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Laborers and Freight, Stock, and Material Movers, Hand",
      "Order Clerks",
      "Packers and Packagers, Hand",
@@ -1205,10 +1205,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3014.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Artillery and Missile Crew Members"
     ],
     "relevant_certifications": [],
@@ -1259,11 +1259,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-2094.00",
      "49-1011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
      "First-Line Supervisors of Mechanics, Installers, and Repairers"
     ],
@@ -1326,11 +1326,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3011.00",
      "49-2091.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Aircraft Mechanics and Service Technicians",
      "Avionics Technicians"
     ],
@@ -1393,11 +1393,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3011.00",
      "49-2091.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Aircraft Mechanics and Service Technicians",
      "Avionics Technicians"
     ],
@@ -1457,11 +1457,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "31-1133.00",
      "29-2053.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Psychiatric Aides",
      "Psychiatric Technicians"
     ],
@@ -1519,10 +1519,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-9062.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Medical Equipment Repairers"
     ],
     "relevant_certifications": [
@@ -1579,13 +1579,13 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-2094.00",
      "49-9098.00",
      "49-9071.00",
      "49-3042.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
      "Helpers--Installation, Maintenance, and Repair Workers",
      "Maintenance and Repair Workers, General",
@@ -1645,12 +1645,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "47-4099.00",
      "47-2061.00",
      "11-9021.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Construction and Related Workers, All Other",
      "Construction Laborers",
      "Construction Managers"
@@ -1714,10 +1714,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3014.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Artillery and Missile Crew Members"
     ],
     "relevant_certifications": [
@@ -1773,11 +1773,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "53-1043.00",
      "53-7199.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "First-Line Supervisors of Material-Moving Machine and Vehicle Operators",
      "Material Moving Workers, All Other"
     ],
@@ -1838,10 +1838,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "47-2031.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Carpenters"
     ],
     "relevant_certifications": [
@@ -1894,10 +1894,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3013.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Armored Assault Vehicle Crew Members"
     ],
     "relevant_certifications": [
@@ -1952,10 +1952,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Aircraft Mechanics and Service Technicians"
     ],
     "relevant_certifications": [
@@ -2012,13 +2012,13 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "19-4031.00",
      "47-4041.00",
      "19-5011.00",
      "19-5012.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Chemical Technicians",
      "Hazardous Materials Removal Workers",
      "Occupational Health and Safety Specialists",
@@ -2080,10 +2080,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "13-1199.04"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Business Continuity Planners"
     ],
     "relevant_certifications": [
@@ -2135,10 +2135,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "47-4099.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Construction and Related Workers, All Other"
     ],
     "relevant_certifications": [
@@ -2198,12 +2198,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "29-2042.00",
      "31-9092.00",
      "29-2043.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Emergency Medical Technicians",
      "Medical Assistants",
      "Paramedics"
@@ -2268,12 +2268,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-2011.00",
      "49-1011.00",
      "49-2098.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Computer, Automated Teller, and Office Machine Repairers",
      "First-Line Supervisors of Mechanics, Installers, and Repairers",
      "Security and Fire Alarm Systems Installers"
@@ -2338,11 +2338,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-9071.00",
      "49-3042.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Maintenance and Repair Workers, General",
      "Mobile Heavy Equipment Mechanics, Except Engines"
     ],
@@ -2406,11 +2406,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "33-3021.06",
      "55-3019.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Intelligence Analysts",
      "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
     ],
@@ -2485,10 +2485,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "27-3091.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Interpreters and Translators"
     ],
     "relevant_certifications": [
@@ -2548,7 +2548,7 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "35-1011.00",
      "35-2012.00",
      "35-2014.00",
@@ -2556,7 +2556,7 @@
      "35-1012.00",
      "35-2021.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Chefs and Head Cooks",
      "Cooks, Institution and Cafeteria",
      "Cooks, Restaurant",
@@ -2619,13 +2619,13 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "11-3021.00",
      "15-1231.00",
      "15-1212.00",
      "15-1244.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Computer and Information Systems Managers",
      "Computer Network Support Specialists",
      "Information Security Analysts",
@@ -2691,11 +2691,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "31-9091.00",
      "29-1292.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Dental Assistants",
      "Dental Hygienists"
     ],
@@ -2754,8 +2754,8 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [],
-    "civilian_titles": [],
+    "onet_codes": [],
+    "example_civilian_titles": [],
     "relevant_certifications": [
      "CompTIA A+",
      "CompTIA Network+",
@@ -2809,10 +2809,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "47-5032.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Explosives Workers, Ordnance Handling Experts, and Blasters"
     ],
     "relevant_certifications": [
@@ -2870,12 +2870,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "29-2057.00",
      "29-2099.05",
      "29-2081.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Ophthalmic Medical Technicians",
      "Ophthalmic Medical Technologists",
      "Opticians, Dispensing"
@@ -2934,8 +2934,8 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [],
-    "civilian_titles": [],
+    "onet_codes": [],
+    "example_civilian_titles": [],
     "relevant_certifications": [
      "CompTIA A+",
      "Emergency Medical Technician (EMT)",
@@ -2989,10 +2989,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "43-3031.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Bookkeeping, Accounting, and Auditing Clerks"
     ],
     "relevant_certifications": [
@@ -3050,12 +3050,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3014.00",
      "17-1021.00",
      "17-3031.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Artillery and Missile Crew Members",
      "Cartographers and Photogrammetrists",
      "Surveying and Mapping Technicians"
@@ -3120,10 +3120,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3014.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Artillery and Missile Crew Members"
     ],
     "relevant_certifications": [
@@ -3179,10 +3179,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "33-2011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Firefighters"
     ],
     "relevant_certifications": [
@@ -3292,12 +3292,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "17-1021.00",
      "15-1299.02",
      "17-3031.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Cartographers and Photogrammetrists",
      "Geographic Information Systems Technologists and Technicians",
      "Surveying and Mapping Technicians"
@@ -3362,11 +3362,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "17-1021.00",
      "19-2099.01"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Cartographers and Photogrammetrists",
      "Remote Sensing Scientists and Technologists"
     ],
@@ -3428,10 +3428,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "47-1011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "First-Line Supervisors of Construction Trades and Extraction Workers"
     ],
     "relevant_certifications": [
@@ -3506,14 +3506,14 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "43-4061.00",
      "33-3021.06",
      "27-3091.00",
      "43-4111.00",
      "33-9021.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Eligibility Interviewers, Government Programs",
      "Intelligence Analysts",
      "Interpreters and Translators",
@@ -3577,7 +3577,7 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "43-6011.00",
      "43-1011.00",
      "43-4161.00",
@@ -3585,7 +3585,7 @@
      "13-1071.00",
      "13-1075.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Executive Secretaries and Executive Administrative Assistants",
      "First-Line Supervisors of Office and Administrative Support Workers",
      "Human Resources Assistants, Except Payroll and Timekeeping",
@@ -3646,10 +3646,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3016.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Infantry"
     ],
     "relevant_certifications": [
@@ -3699,10 +3699,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3016.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Infantry"
     ],
     "relevant_certifications": [
@@ -3757,13 +3757,13 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "11-3021.00",
      "15-1231.00",
      "15-1232.00",
      "15-1244.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Computer and Information Systems Managers",
      "Computer Network Support Specialists",
      "Computer User Support Specialists",
@@ -3829,14 +3829,14 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "17-3023.00",
      "49-2094.00",
      "49-1011.00",
      "49-9098.00",
      "49-9071.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical and Electronic Engineering Technologists and Technicians",
      "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
      "First-Line Supervisors of Mechanics, Installers, and Repairers",
@@ -3902,12 +3902,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "33-3021.06",
      "55-3019.00",
      "27-3042.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Intelligence Analysts",
      "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other",
      "Technical Writers"
@@ -3970,11 +3970,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "47-2111.00",
      "47-3013.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electricians",
      "Helpers--Electricians"
     ],
@@ -4036,11 +4036,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "33-3012.00",
      "21-1092.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Correctional Officers and Jailers",
      "Probation Officers and Correctional Treatment Specialists"
     ],
@@ -4104,12 +4104,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "17-3023.00",
      "49-2094.00",
      "49-1011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical and Electronic Engineering Technologists and Technicians",
      "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
      "First-Line Supervisors of Mechanics, Installers, and Repairers"
@@ -4174,13 +4174,13 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-2094.00",
      "49-9098.00",
      "49-9043.00",
      "49-3042.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
      "Helpers--Installation, Maintenance, and Repair Workers",
      "Maintenance Workers, Machinery",
@@ -4232,10 +4232,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3013.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Armored Assault Vehicle Crew Members"
     ],
     "relevant_certifications": [
@@ -4290,11 +4290,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "29-2012.00",
      "29-2011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Medical and Clinical Laboratory Technicians",
      "Medical and Clinical Laboratory Technologists"
     ],
@@ -4359,10 +4359,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "43-5071.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Shipping, Receiving, and Inventory Clerks"
     ],
     "relevant_certifications": [
@@ -4416,11 +4416,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-2094.00",
      "15-1244.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
      "Network and Computer Systems Administrators"
     ],
@@ -4479,7 +4479,7 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "33-9011.00",
      "39-2011.00",
      "33-9091.00",
@@ -4487,7 +4487,7 @@
      "33-1011.00",
      "33-1012.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Animal Control Workers",
      "Animal Trainers",
      "Crossing Guards and Flaggers",
@@ -4554,10 +4554,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "33-3051.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Police and Sheriff's Patrol Officers"
     ],
     "relevant_certifications": [
@@ -4614,12 +4614,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "11-9171.00",
      "39-4031.00",
      "39-9099.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Funeral Home Managers",
      "Morticians, Undertakers, and Funeral Arrangers",
      "Personal Care and Service Workers, All Other"
@@ -4680,13 +4680,13 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "53-1043.00",
      "53-3032.00",
      "53-3033.00",
      "11-3071.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "First-Line Supervisors of Material-Moving Machine and Vehicle Operators",
      "Heavy and Tractor-Trailer Truck Drivers",
      "Light Truck Drivers",
@@ -4746,13 +4746,13 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3014.00",
      "53-1043.00",
      "53-3032.00",
      "49-2022.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Artillery and Missile Crew Members",
      "First-Line Supervisors of Material-Moving Machine and Vehicle Operators",
      "Heavy and Tractor-Trailer Truck Drivers",
@@ -4822,8 +4822,8 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [],
-    "civilian_titles": [],
+    "onet_codes": [],
+    "example_civilian_titles": [],
     "relevant_certifications": [
      "Music Therapist - Board Certified (MT-BC)"
     ],
@@ -4874,12 +4874,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-2093.00",
      "15-1244.00",
      "49-2022.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical and Electronics Installers and Repairers, Transportation Equipment",
      "Network and Computer Systems Administrators",
      "Telecommunications Equipment Installers and Repairers, Except Line Installers"
@@ -4944,11 +4944,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "35-2012.00",
      "29-2051.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Cooks, Institution and Cafeteria",
      "Dietetic Technicians"
     ],
@@ -5000,10 +5000,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "31-2011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Occupational Therapy Assistants"
     ],
     "relevant_certifications": [
@@ -5060,10 +5060,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "29-2055.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Surgical Technologists"
     ],
     "relevant_certifications": [
@@ -5121,10 +5121,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "51-9083.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Ophthalmic Laboratory Technicians"
     ],
     "relevant_certifications": [
@@ -5181,10 +5181,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "29-2099.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Health Technologists and Technicians, All Other"
     ],
     "relevant_certifications": [
@@ -5244,8 +5244,8 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [],
-    "civilian_titles": [],
+    "onet_codes": [],
+    "example_civilian_titles": [],
     "relevant_certifications": [
      "Certified Safety Professional (CSP)",
      "Associate Safety Professional (ASP)"
@@ -5297,10 +5297,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "23-2011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Paralegals and Legal Assistants"
     ],
     "relevant_certifications": [
@@ -5356,12 +5356,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "29-9021.00",
      "29-2072.00",
      "29-2099.08"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Health Information Technologists and Medical Registrars",
      "Medical Records Specialists",
      "Patient Representatives"
@@ -5424,12 +5424,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3014.00",
      "49-1011.00",
      "47-2073.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Artillery and Missile Crew Members",
      "First-Line Supervisors of Mechanics, Installers, and Repairers",
      "Operating Engineers and Other Construction Equipment Operators"
@@ -5492,12 +5492,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3014.00",
      "49-2094.00",
      "49-1011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Artillery and Missile Crew Members",
      "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
      "First-Line Supervisors of Mechanics, Installers, and Repairers"
@@ -5562,11 +5562,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "17-3023.00",
      "49-2094.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical and Electronic Engineering Technologists and Technicians",
      "Electrical and Electronics Repairers, Commercial and Industrial Equipment"
     ],
@@ -5630,10 +5630,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "19-4043.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Geological Technicians, Except Hydrologic Technicians"
     ],
     "relevant_certifications": [
@@ -5688,7 +5688,7 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "51-1011.00",
      "53-3032.00",
      "53-7064.00",
@@ -5696,7 +5696,7 @@
      "43-5061.00",
      "53-7072.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "First-Line Supervisors of Production and Operating Workers",
      "Heavy and Tractor-Trailer Truck Drivers",
      "Packers and Packagers, Hand",
@@ -5759,11 +5759,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "31-9095.00",
      "29-2052.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Pharmacy Aides",
      "Pharmacy Technicians"
     ],
@@ -5822,11 +5822,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "31-2022.00",
      "31-2021.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Physical Therapist Aides",
      "Physical Therapist Assistants"
     ],
@@ -5887,10 +5887,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "47-2152.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Plumbers, Pipefitters, and Steamfitters"
     ],
     "relevant_certifications": [
@@ -5949,12 +5949,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3031.00",
      "49-9098.00",
      "49-9071.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Bus and Truck Mechanics and Diesel Engine Specialists",
      "Helpers--Installation, Maintenance, and Repair Workers",
      "Maintenance and Repair Workers, General"
@@ -6018,10 +6018,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-9051.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical Power-Line Installers and Repairers"
     ],
     "relevant_certifications": [
@@ -6078,10 +6078,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "29-2061.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Licensed Practical and Licensed Vocational Nurses"
     ],
     "relevant_certifications": [
@@ -6141,11 +6141,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "19-5011.00",
      "19-5012.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Occupational Health and Safety Specialists",
      "Occupational Health and Safety Technicians"
     ],
@@ -6255,10 +6255,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3019.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
     ],
     "relevant_certifications": [
@@ -6317,11 +6317,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "47-5032.00",
      "47-5051.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Explosives Workers, Ordnance Handling Experts, and Blasters",
      "Rock Splitters, Quarry"
     ],
@@ -6381,13 +6381,13 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-9021.00",
      "49-9098.00",
      "49-9041.00",
      "49-9071.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
      "Helpers--Installation, Maintenance, and Repair Workers",
      "Industrial Machinery Mechanics",
@@ -6452,11 +6452,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-2094.00",
      "49-1011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
      "First-Line Supervisors of Mechanics, Installers, and Repairers"
     ],
@@ -6518,11 +6518,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-1011.00",
      "49-2021.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "First-Line Supervisors of Mechanics, Installers, and Repairers",
      "Radio, Cellular, and Tower Equipment Installers and Repairers"
     ],
@@ -6586,10 +6586,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "29-2034.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Radiologic Technologists and Technicians"
     ],
     "relevant_certifications": [
@@ -6649,12 +6649,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "53-4011.00",
      "53-6051.07",
      "11-3071.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Locomotive Engineers",
      "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
      "Transportation, Storage, and Distribution Managers"
@@ -6716,11 +6716,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "21-2011.00",
      "21-2099.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Clergy",
      "Religious Workers, All Other"
     ],
@@ -6777,10 +6777,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "29-1126.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Respiratory Therapists"
     ],
     "relevant_certifications": [
@@ -6836,12 +6836,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-2094.00",
      "49-2021.00",
      "49-2022.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
      "Radio, Cellular, and Tower Equipment Installers and Repairers",
      "Telecommunications Equipment Installers and Repairers, Except Line Installers"
@@ -6906,11 +6906,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-9099.01",
      "51-6011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Geothermal Technicians",
      "Laundry and Dry-Cleaning Workers"
     ],
@@ -6967,10 +6967,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-9052.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Telecommunications Line Installers and Repairers"
     ],
     "relevant_certifications": [
@@ -7030,10 +7030,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3019.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
     ],
     "relevant_certifications": [
@@ -7093,10 +7093,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "33-3021.06"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Intelligence Analysts"
     ],
     "relevant_certifications": [
@@ -7156,13 +7156,13 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-9098.00",
      "51-9061.00",
      "49-9099.00",
      "49-9071.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Helpers--Installation, Maintenance, and Repair Workers",
      "Inspectors, Testers, Sorters, Samplers, and Weighers",
      "Installation, Maintenance, and Repair Workers, All Other",
@@ -7227,8 +7227,8 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [],
-    "civilian_titles": [],
+    "onet_codes": [],
+    "example_civilian_titles": [],
     "relevant_certifications": [
      "Music Therapist - Board Certified (MT-BC)"
     ],
@@ -7279,10 +7279,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "55-3018.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Special Forces"
     ],
     "relevant_certifications": [],
@@ -7334,12 +7334,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "33-3021.06",
      "13-1199.07",
      "55-3018.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Intelligence Analysts",
      "Security Management Specialists",
      "Special Forces"
@@ -7400,12 +7400,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3031.00",
      "49-9098.00",
      "49-3042.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Bus and Truck Mechanics and Diesel Engine Specialists",
      "Helpers--Installation, Maintenance, and Repair Workers",
      "Mobile Heavy Equipment Mechanics, Except Engines"
@@ -7469,11 +7469,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "17-3022.00",
      "17-1022.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Civil Engineering Technologists and Technicians",
      "Surveyors"
     ],
@@ -7537,11 +7537,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-1011.00",
      "49-9069.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "First-Line Supervisors of Mechanics, Installers, and Repairers",
      "Precision Instrument and Equipment Repairers, All Other"
     ],
@@ -7605,13 +7605,13 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3031.00",
      "49-9098.00",
      "49-9071.00",
      "49-3042.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Bus and Truck Mechanics and Diesel Engine Specialists",
      "Helpers--Installation, Maintenance, and Repair Workers",
      "Maintenance and Repair Workers, General",
@@ -7676,12 +7676,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "43-5011.00",
      "53-1043.00",
      "11-3071.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Cargo and Freight Agents",
      "First-Line Supervisors of Material-Moving Machine and Vehicle Operators",
      "Transportation, Storage, and Distribution Managers"
@@ -7744,11 +7744,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-9092.00",
      "47-5032.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Commercial Divers",
      "Explosives Workers, Ordnance Handling Experts, and Blasters"
     ],
@@ -7812,10 +7812,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Aircraft Mechanics and Service Technicians"
     ],
     "relevant_certifications": [
@@ -7871,7 +7871,7 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "53-1042.00",
      "43-4151.00",
      "53-7064.00",
@@ -7879,7 +7879,7 @@
      "11-3061.00",
      "43-5071.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand",
      "Order Clerks",
      "Packers and Packagers, Hand",
@@ -7942,8 +7942,8 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [],
-    "civilian_titles": [],
+    "onet_codes": [],
+    "example_civilian_titles": [],
     "relevant_certifications": [
      "Certified Safety Professional (CSP)",
      "Certified Hazardous Materials Manager (CHMM)",
@@ -8000,10 +8000,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "45-2011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Agricultural Inspectors"
     ],
     "relevant_certifications": [
@@ -8061,11 +8061,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "27-4011.00",
      "49-2097.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Audio and Video Technicians",
      "Audiovisual Equipment Installers and Repairers"
     ],
@@ -8128,11 +8128,11 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "27-4031.00",
      "27-4032.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Camera Operators, Television, Video, and Film",
      "Film and Video Editors"
     ],
@@ -8196,10 +8196,10 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "51-8031.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Water and Wastewater Treatment Plant and System Operators"
     ],
     "relevant_certifications": [
@@ -8252,12 +8252,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3051.00",
      "53-5011.00",
      "53-5031.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Motorboat Mechanics and Service Technicians",
      "Sailors and Marine Oilers",
      "Ship Engineers"
@@ -8317,12 +8317,12 @@
    ],
    "confidence": "official",
    "civilian_crosswalk": {
-    "onet_soc_codes": [
+    "onet_codes": [
      "49-3023.00",
      "49-3031.00",
      "49-1011.00"
     ],
-    "civilian_titles": [
+    "example_civilian_titles": [
      "Automotive Service Technicians and Mechanics",
      "Bus and Truck Mechanics and Diesel Engine Specialists",
      "First-Line Supervisors of Mechanics, Installers, and Repairers"

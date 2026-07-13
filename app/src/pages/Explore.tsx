@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { clusters, specialtiesForCluster, branchIdOf } from '../lib/data';
 import { PRIORITIES, recommend, type Priority } from '../lib/recommend';
 import { entryLevelJobs } from '../lib/catalog';
+import { searchEntryLevel, SEARCH_EXAMPLES } from '../lib/search';
 import { EntryLevelList } from '../components/EntryLevelList';
 import { afqtCategory } from '../data/content';
 import type { Tier } from '../data/eligibility';
@@ -36,14 +37,21 @@ export default function Explore() {
   const [openSpec, setOpenSpec] = useState<SpecialtyRecord | null>(null);
 
   const [showAllDeep, setShowAllDeep] = useState(false);
+  const [query, setQuery] = useState('');
+
+  // Live count, so the reader can see their words landing before they commit.
+  const searchHits = useMemo(
+    () => (query.trim() ? searchEntryLevel(query) : []),
+    [query],
+  );
 
   // Every entry-level job in the chosen areas — not just the deeply-researched
   // ones. A job the reader cannot see is, to them, a job that does not exist.
   const everyEntryLevel = useMemo(() => entryLevelJobs(interests), [interests]);
 
   const results = useMemo(
-    () => recommend(interests, priorities, afqt, tier),
-    [interests, priorities, afqt, tier],
+    () => recommend(interests, priorities, afqt, tier, query),
+    [interests, priorities, afqt, tier, query],
   );
 
   const toggle = <T,>(arr: T[], v: T, set: (x: T[]) => void, max?: number) => {
@@ -53,7 +61,10 @@ export default function Explore() {
 
   const cat = afqtCategory(afqt);
   const canAdvance =
-    (step === 0 && interests.length > 0) || step === 1 || step === 2 || step === 3;
+    (step === 0 && (interests.length > 0 || searchHits.length > 0)) ||
+    step === 1 ||
+    step === 2 ||
+    step === 3;
 
   return (
     <div className="wrap">
@@ -79,6 +90,62 @@ export default function Explore() {
       {/* ---------------------------------------------- 1. interests */}
       {step === 0 && (
         <>
+          {/* Fourteen boxes cannot hold a person. Someone who is into drones does not
+              know the job is filed under Aviation and called an Unmanned Aircraft
+              Systems Operator — and if guessing the right box is the only way in, they
+              never find it. So: let them use their own words. */}
+          <div className="card searchcard">
+            <h3>Or just type what you're into</h3>
+            <p>
+              Use your own words. The military calls things by names nobody outside it
+              uses — it says <em>Unmanned Aircraft Systems</em>, not <b>drones</b> — so
+              this translates for you.
+            </p>
+
+            <div className="field">
+              <label htmlFor="q">Search by interest, hobby, or subject</label>
+              <input
+                id="q"
+                className="searchbox"
+                type="search"
+                placeholder="drones, video games, dogs, engines, hacking…"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                autoComplete="off"
+              />
+            </div>
+
+            <div className="chips">
+              {SEARCH_EXAMPLES.map((x) => (
+                <button
+                  key={x}
+                  type="button"
+                  className={`chipbtn${query === x ? ' on' : ''}`}
+                  onClick={() => setQuery(query === x ? '' : x)}
+                >
+                  {x}
+                </button>
+              ))}
+            </div>
+
+            {query.trim() ? (
+              searchHits.length ? (
+                <p className="searchhit">
+                  <b>{searchHits.length}</b>{' '}
+                  {searchHits.length === 1 ? 'job matches' : 'jobs match'} “{query.trim()}”
+                  {' '}— including <b>{searchHits[0].name}</b> ({searchHits[0].branch}).
+                  They will be added to your results.
+                </p>
+              ) : (
+                <p className="searchmiss">
+                  Nothing matched “{query.trim()}”. Try another word — or pick an
+                  interest below instead. A blank result here means <b>we could not
+                  match your word</b>, not that no such job exists.
+                </p>
+              )
+            ) : null}
+          </div>
+
           <div className="card">
             <h3>What actually interests you?</h3>
             <p>
@@ -104,8 +171,8 @@ export default function Explore() {
               })}
             </div>
           </div>
-          {interests.length === 0 ? (
-            <Note>Pick at least one to continue.</Note>
+          {interests.length === 0 && searchHits.length === 0 ? (
+            <Note>Pick at least one interest, or search above, to continue.</Note>
           ) : null}
         </>
       )}

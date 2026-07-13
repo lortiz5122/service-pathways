@@ -6,10 +6,10 @@
   "scripts": {
     "sync": "node sync-data.mjs",
     "dev": "node sync-data.mjs && vite",
-    "build": "node sync-data.mjs && tsc -b && vite build",
+    "build": "node sync-data.mjs && tsc -b && node verify-routes.mjs && vite build",
     "verify": "node verify-routes.mjs",
     "preview": "vite preview",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler deploy --name military-careers && wrangler deploy --name service-pathways"
   },
   "dependencies": {
     "react": "^19.2.7",

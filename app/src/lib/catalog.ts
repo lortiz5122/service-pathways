@@ -161,7 +161,7 @@ const deepJobs: Job[] = allSpecialties.map((s) => ({
   track: s.track,
   clusters: s.interest_cluster_ids ?? [],
   depth: 'deep',
-  what: s.entry_requirements?.other ?? undefined,
+  what: s.what_it_is ?? s.entry_requirements?.other ?? undefined,
   asvab: s.entry_requirements?.asvab_line_score ?? null,
   clearance: s.entry_requirements?.security_clearance ?? null,
   record: s,

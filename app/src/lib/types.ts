@@ -218,14 +218,21 @@ export type SpecialtyRecord = {
     source?: string;
   };
 
+  /** Plain-language "what you actually do". Present on the researched records. */
+  what_it_is?: string;
+
   civilian_crosswalk: {
     onet_codes: string[];
     example_civilian_titles: string[];
     relevant_certifications: string[];
-    estimated_civilian_salary_range_usd: [number, number] | string;
-    credential_gap_note: string;
-    source: string;
-    retrieved_date: string;
+    estimated_civilian_salary_range_usd: [number, number] | string | null;
+    credential_gap_note: string | null;
+    source?: string;
+    retrieved_date?: string;
+    /** How many credentials COOL maps, when the shown list is trimmed. */
+    total_credentials_in_cool?: number;
+    civilian_median_salary_usd?: number | null;
+    salary_source?: string | null;
   };
 
   veteran_benefits: Record<string, unknown> & { source?: string };

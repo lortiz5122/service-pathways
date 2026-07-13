@@ -1,6 +1,7 @@
 import { allSpecialties, branchIdOf } from './data';
 import { entryPath } from './entry';
 import { classifiedCount, isEntryLevel } from './entrylevel';
+import { searchEntryLevel } from './search';
 import { evaluate, type Tier } from '../data/eligibility';
 import type { SpecialtyRecord } from './types';
 
@@ -134,6 +135,16 @@ export function recommend(
   priorities: Priority[],
   afqt: number,
   tier: Tier,
+  /**
+   * Free text the reader typed — "drones", "video games", "dogs".
+   *
+   * Interest clusters are 14 boxes, and a person is not 14 boxes. Someone who is
+   * into drones does not know that the thing they want is filed under Aviation and
+   * called an Unmanned Aircraft Systems Operator, and if the only way in is to guess
+   * the right box, they never find it. Search widens the pool; it does not replace
+   * the clusters.
+   */
+  query = '',
 ): Scored[] {
   /**
    * ENTRY LEVEL ONLY. This is a hard gate, not a preference.
@@ -161,11 +172,22 @@ export function recommend(
     return true; // no classification data loaded at all (dev only)
   });
 
-  const pool = interests.length
+  // Jobs the reader's own words found, in relevance order.
+  const searched = query.trim() ? searchEntryLevel(query) : [];
+  const searchedIds = new Set(searched.map((s) => s.id));
+
+  const byInterest = interests.length
     ? entryLevel.filter((s) =>
         (s.interest_cluster_ids ?? []).some((c) => interests.includes(c)),
       )
     : entryLevel;
+
+  // A search is ADDITIVE. If you picked Aviation and typed "dogs", you get both —
+  // narrowing to the intersection would silently drop the dog handler, which is the
+  // one job you actually asked for by name.
+  const pool = query.trim()
+    ? [...searched, ...byInterest.filter((s) => !searchedIds.has(s.id))]
+    : byInterest;
 
   if (!pool.length) return [];
 
@@ -198,6 +220,16 @@ export function recommend(
     const cautions: string[] = [];
     const criteria: Criterion[] = [];
     let score = 0;
+
+    // --- what the reader typed -----------------------------------------
+    if (query.trim()) {
+      const hit = searchedIds.has(s.id);
+      criteria.push({ label: `Matches what you searched for`, met: hit });
+      if (hit) {
+        score += 120; // they asked for this BY NAME. Nothing outranks that.
+        reasons.push(`Found by your search for “${query.trim()}”.`);
+      }
+    }
 
     // --- interest match -----------------------------------------------
     const matched = (s.interest_cluster_ids ?? []).filter((c) =>
