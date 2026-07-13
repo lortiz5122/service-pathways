@@ -3040,3 +3040,31 @@ table tr.hit td { color: var(--ink); }
   background: color-mix(in srgb, var(--warn) 12%, transparent);
   border: 1px solid var(--warn); color: var(--ink);
 }
+
+/* ------------------------------------------------ officer & warrant pay */
+
+.paylede { color: var(--ink-2); font-size: 13.5px; line-height: 1.65; margin-bottom: 16px; }
+.tablewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.paytable { width: 100%; border-collapse: collapse; min-width: 560px; }
+.paytable th, .paytable td {
+  padding: 9px 10px; text-align: right; border-bottom: 1px solid var(--line);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.paytable thead th {
+  text-align: right; font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3);
+  border-bottom: 1px solid var(--line-2);
+}
+.paytable tbody th[scope='row'] {
+  text-align: left; font-family: var(--mono); font-size: 12.5px; color: var(--ink);
+}
+.paytable td b { display: block; font-size: 13.5px; color: var(--ink); font-weight: 600; }
+.paytable td em {
+  display: block; font-style: normal; font-size: 10.5px; color: var(--ink-3); margin-top: 1px;
+}
+.paytable td.na { color: var(--ink-3); }
+.paytable td.win b { color: var(--ok); }
+.paytable td.win em { color: var(--ok); opacity: 0.8; }
+.hero-card { border-left: 4px solid var(--ok); }
+.hero-card h3 { margin: 0 0 8px; }
+.hero-card > p { color: var(--ink-2); font-size: 14px; line-height: 1.65; margin-bottom: 18px; }

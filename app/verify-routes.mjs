@@ -227,6 +227,29 @@ for (const s of data.allSpecialties) {
         );
     }
 
+    // 16. A BLANK PAY CELL IS NOT $0. DFAS publishes no rate for O-10 at two years of
+    //     service, or W-5 before twenty, because nobody holds that grade that early.
+    //     Rendering those as "$0" would state a wage that does not exist. And the
+    //     officer/warrant ladders must actually RENDER — the site listed hundreds of
+    //     officer jobs while showing a reader enlisted money.
+    {
+      const pay = render('/pay');
+      if (!/W-5/.test(pay) || !/W-1/.test(pay))
+        bad('/pay does not render the warrant-officer ladder (W-1..W-5)');
+      if (!/O-6/.test(pay))
+        bad('/pay does not render the officer ladder beyond O-3');
+      if (/O-1E/.test(pay) === false)
+        bad('/pay does not show the prior-enlisted officer rates (O-1E/O-2E/O-3E)');
+      for (const m of pay.matchAll(/class="paytable"[\s\S]*?<\/table>/g)) {
+        // Only the VALUE inside <b>/<em> counts. A title attribute that explains a dash
+        // legitimately contains the characters "$0".
+        const values = [...m[0].matchAll(/<(?:b|em)>([^<]*(?:<!-- -->)?[^<]*)<\/(?:b|em)>/g)]
+          .map((v) => v[1].replace(/<!-- -->/g, ''));
+        if (values.some((v) => /^\+?\$0(\.00)?$/.test(v.trim())))
+          bad('a pay table renders $0 — DFAS publishes NO rate there, and "$0" is a different claim from "no rate"');
+      }
+    }
+
     const rowCount = (jobsHtml.match(/class="jobrow/g) ?? []).length;
     if (rowCount < cat.jobCounts.total)
       bad(
