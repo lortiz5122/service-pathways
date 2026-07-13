@@ -774,7 +774,7 @@
      99560
     ],
     "salary_source": "BLS OEWS, May 2025 National, SOC 19-4043",
-    "credential_gap_note": "You will be doing real analytical chemistry, but with 7 weeks of AIT and no degree -- and civilian lab work is gated on education, not on hands. Chemical and materials lab technician postings almost always ask for an associate degree in chemistry, chemical technology or process technology; the Army gives you the bench skill and none of the credit hours. The fix is to use Tuition Assistance while you are in and finish an A.S. in chemical or laboratory technology, and to stack the NPMC petroleum credentials. Note too that Certified Safety Professional, which COOL flags for this MOS, requires a bachelor's degree plus experience -- it is a long-term goal, not an exit credential."
+    "credential_gap_note": "You will be doing real analytical chemistry, but with 7 weeks of AIT and no degree -- and civilian lab work is restricted on education, not on hands. Chemical and materials lab technician postings almost always ask for an associate degree in chemistry, chemical technology or process technology; the Army gives you the bench skill and none of the credit hours. The fix is to use Tuition Assistance while you are in and finish an A.S. in chemical or laboratory technology, and to stack the NPMC petroleum credentials. Note too that Certified Safety Professional, which COOL flags for this MOS, requires a bachelor's degree plus experience -- it is a long-term goal, not an exit credential."
    },
    "special_pays": [],
    "transition": {
@@ -983,7 +983,7 @@
      43190
     ],
     "salary_source": "BLS OEWS, May 2025 National, SOC 51-6011",
-    "credential_gap_note": "Be blunt with yourself about this one: it has the shortest AIT (6 weeks) and by far the lowest civilian ceiling in the batch -- the BLS 90th percentile for laundry work is about $43k, which is below the 10th percentile of most of the mechanic and electronics MOSs here. Army COOL lists only six credentials for it at all, and only one recommended. There is no licence to close, because there is no gated profession on the other side; the gap is that the MOS itself buys you very little civilian leverage. If you take it, take it for the enlistment (it is a Reserve-heavy, low-barrier way in) and plan on Tuition Assistance or reclassification, not on the trade."
+    "credential_gap_note": "Be blunt with yourself about this one: it has the shortest AIT (6 weeks) and by far the lowest civilian ceiling in the batch -- the BLS 90th percentile for laundry work is about $43k, which is below the 10th percentile of most of the mechanic and electronics MOSs here. Army COOL lists only six credentials for it at all, and only one recommended. There is no licence to close, because there is no restricted profession on the other side; the gap is that the MOS itself buys you very little civilian leverage. If you take it, take it for the enlistment (it is a Reserve-heavy, low-barrier way in) and plan on Tuition Assistance or reclassification, not on the trade."
    },
    "special_pays": [],
    "transition": {
@@ -1451,7 +1451,7 @@
      126790
     ],
     "salary_source": "BLS OEWS, May 2025 National, SOC 49-1011",
-    "credential_gap_note": "Calibration/metrology is a real, in-demand civilian trade and 33 weeks of Army training in it is substantial -- but the hiring gate is the ASQ Certified Calibration Technician credential, which the Army does not award. ASQ CCT requires documented work experience plus a proctored exam, and Army COOL lists it as the recommended credential for exactly this reason. Get it, plus ETA electronics certification, through Credentialing Assistance. Note also that this is the one 94-series MOS here where DA Pam 611-21 does not require a clearance for entry, so you will not automatically carry that advantage into the cleared job market."
+    "credential_gap_note": "Calibration/metrology is a real, in-demand civilian trade and 33 weeks of Army training in it is substantial -- but the hiring requirement is the ASQ Certified Calibration Technician credential, which the Army does not award. ASQ CCT requires documented work experience plus a proctored exam, and Army COOL lists it as the recommended credential for exactly this reason. Get it, plus ETA electronics certification, through Credentialing Assistance. Note also that this is the one 94-series MOS here where DA Pam 611-21 does not require a clearance for entry, so you will not automatically carry that advantage into the cleared job market."
    },
    "special_pays": [],
    "transition": {
@@ -1849,7 +1849,7 @@
   {
    "id": "ALL",
    "field": "entry_requirements.afqt_note",
-   "reason": "Left null everywhere. Neither DA Pam 611-21 Ch 10C nor the goarmy job records state an MOS-specific AFQT minimum -- AFQT is an Army-wide enlistment gate, not a per-MOS gate, so nothing MOS-specific could be sourced."
+   "reason": "Left null everywhere. Neither DA Pam 611-21 Ch 10C nor the goarmy job records state an MOS-specific AFQT minimum -- AFQT is an Army-wide enlistment requirement, not a per-MOS requirement, so nothing MOS-specific could be sourced."
   },
   {
    "id": "army-91f, army-91m, army-92r, army-92a, army-94h",

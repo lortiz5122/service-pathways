@@ -117,13 +117,13 @@ export default function Prep() {
     <div className="wrap">
       <SectionHead
         title="Qualifying"
-        lede="How the ASVAB, fitness standards, MEPS, the Delayed Entry Program and waivers actually gate entry. Policy is in active flux across all six branches in 2025–2026 — reconfirm every number against the current official publication before it drives a decision."
+        lede="How the ASVAB, fitness standards, MEPS, the Delayed Entry Program and waivers actually decide whether you get in, and what job you get. Policy is in active flux across all six branches in 2025–2026 — reconfirm every number against the current official publication before it drives a decision."
       />
       <MarkDisclaimer />
 
       {/* ------------------------------------------------------- ASVAB */}
       <SectionHead
-        title="1 · The ASVAB gates you twice"
+        title="1 · The ASVAB decides two separate things"
         lede="Your AFQT percentile decides whether you can enlist. Separate line scores decide which job you can hold. These are different tests of the same exam and people conflate them constantly."
       />
 
@@ -202,7 +202,7 @@ export default function Prep() {
       </div>
 
       <SectionHead
-        title="Line scores — the job gate"
+        title="Line scores — what decides which job you get"
         lede="Each specialty sets its own composite minimum. You also need an open slot, clearance eligibility, and medical qualification. A high AFQT alone gets you none of that."
       />
       <div className="grid g2">

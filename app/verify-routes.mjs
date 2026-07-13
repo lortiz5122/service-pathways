@@ -250,6 +250,19 @@ for (const s of data.allSpecialties) {
       }
     }
 
+    // 17. NO "GATE". Nobody helping their kid pick a career says a score "gates" a
+    //     job — they say it decides whether you can have it. It is machine-speak, and
+    //     it reads as machine-speak to exactly the reader this site is written for.
+    //     Say what you mean in the words the reader would use.
+    for (const r of ['/', '/prep', '/pay', '/explore', '/jobs', '/branches', '/lifecycle']) {
+      const t = render(r).replace(/<[^>]+>/g, ' ');
+      const hits = [...t.matchAll(/[^.]{0,40}\bgat(?:e|es|ed|ing)\b[^.]{0,30}/gi)];
+      if (hits.length)
+        bad(
+          `${r} uses "gate" (${hits.length}x) — jargon. e.g. "${hits[0][0].trim().replace(/\s+/g, ' ')}"`,
+        );
+    }
+
     const rowCount = (jobsHtml.match(/class="jobrow/g) ?? []).length;
     if (rowCount < cat.jobCounts.total)
       bad(

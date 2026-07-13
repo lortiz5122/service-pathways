@@ -1,7 +1,7 @@
 {
  "branch": "Air Force",
  "retrieved": "2026-07-12",
- "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded \u2014 it is a function of paygrade, not of the job.",
+ "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded — it is a function of paygrade, not of the job.",
  "specialties": [
   {
    "id": "air-force-3f5x1",
@@ -44,7 +44,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -114,7 +114,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -156,7 +156,7 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "Distinct from AFSC 2A6X1 (Aerospace Propulsion, jet-engine maintenance) \u2014 data/interest-taxonomy.json's mechanical-engineering cluster example list names 2A6X1, but this run's binding constraint specifically named 2A6X2 (Aerospace Ground Equipment). These are two different jobs: 2A6X1 maintains aircraft engines themselves; 2A6X2 maintains the SUPPORT equipment (generators, tow tractors, air-conditioning/heating carts, hydraulic test stands) used to service and prepare aircraft on the ground. Flagged as a taxonomy discrepancy rather than silently conflated.",
+   "what_it_is": "Distinct from AFSC 2A6X1 (Aerospace Propulsion, jet-engine maintenance) — data/interest-taxonomy.json's mechanical-engineering cluster example list names 2A6X1, but this run's binding constraint specifically named 2A6X2 (Aerospace Ground Equipment). These are two different jobs: 2A6X1 maintains aircraft engines themselves; 2A6X2 maintains the SUPPORT equipment (generators, tow tractors, air-conditioning/heating carts, hydraulic test stands) used to service and prepare aircraft on the ground. Flagged as a taxonomy discrepancy rather than silently conflated.",
    "entry_requirements": {
     "asvab_line_score": "M 47",
     "security_clearance": "Not typically required for the base AFSC.",
@@ -187,7 +187,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -262,7 +262,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -387,7 +387,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -434,10 +434,10 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "UNIQUE TO THIS AFSC IN THE AVIATION CLUSTER: an Air Force air traffic controller must earn and hold an actual FAA Air Traffic Control Specialist Certificate before being allowed to independently perform certified controller duties \u2014 per bestmilitaryresume.com, 'the candidate must be able to meet the testing and other requirements to be awarded a Federal Aviation Administration Specialist Certificate' and 'any Air Force enlisted member aspiring to be an air traffic controller must possess this certificate before being allowed to assume the duties of a certified Air Force Air Traffic Controller.' This is earned during initial technical training/certification, not automatically granted at enlistment \u2014 but unlike the aircraft-maintenance credential gap in this cluster, a fully qualified 1C1X1 controller genuinely does hold a real FAA credential by the end of qualification. UNVERIFIED at primary-source level this session (search-summarized, not independently confirmed against a primary FAA/Air Force document).",
+   "what_it_is": "UNIQUE TO THIS AFSC IN THE AVIATION CLUSTER: an Air Force air traffic controller must earn and hold an actual FAA Air Traffic Control Specialist Certificate before being allowed to independently perform certified controller duties — per bestmilitaryresume.com, 'the candidate must be able to meet the testing and other requirements to be awarded a Federal Aviation Administration Specialist Certificate' and 'any Air Force enlisted member aspiring to be an air traffic controller must possess this certificate before being allowed to assume the duties of a certified Air Force Air Traffic Controller.' This is earned during initial technical training/certification, not automatically granted at enlistment — but unlike the aircraft-maintenance credential gap in this cluster, a fully qualified 1C1X1 controller genuinely does hold a real FAA credential by the end of qualification. UNVERIFIED at primary-source level this session (search-summarized, not independently confirmed against a primary FAA/Air Force document).",
    "entry_requirements": {
     "asvab_line_score": "G 55",
-    "security_clearance": "UNVERIFIED \u2014 not independently confirmed this session, though ATC facility access commonly requires at least a Secret clearance.",
+    "security_clearance": "UNVERIFIED — not independently confirmed this session, though ATC facility access commonly requires at least a Secret clearance.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -465,7 +465,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -496,7 +496,7 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "Must possess a valid state driver's license for operating government vehicles, per the official airforce.com page (fetched 2026-07-12). This is an ordinary civilian state license, not a Commercial Driver's License (CDL) \u2014 2T2X1 duties center on aircraft cargo/passenger handling and aerial-port ground functions rather than over-the-road heavy-truck driving, so the CDL skills-test-waiver credential-gap framing central to this file's Army 88M and Marine Corps 3531 records does not apply to 2T2X1 in the same way (see credential_gap_note).",
+   "what_it_is": "Must possess a valid state driver's license for operating government vehicles, per the official airforce.com page (fetched 2026-07-12). This is an ordinary civilian state license, not a Commercial Driver's License (CDL) — 2T2X1 duties center on aircraft cargo/passenger handling and aerial-port ground functions rather than over-the-road heavy-truck driving, so the CDL skills-test-waiver credential-gap framing central to this file's Army 88M and Marine Corps 3531 records does not apply to 2T2X1 in the same way (see credential_gap_note).",
    "entry_requirements": {
     "asvab_line_score": "M 47",
     "security_clearance": "Not stated as a requirement on the official airforce.com page; not independently verified further this session.",
@@ -527,7 +527,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -604,7 +604,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -676,7 +676,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -752,7 +752,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -827,7 +827,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -905,7 +905,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -972,7 +972,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1039,7 +1039,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1108,7 +1108,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1179,7 +1179,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1253,7 +1253,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1326,7 +1326,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1389,7 +1389,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1450,7 +1450,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1497,7 +1497,7 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "Under DoD's 13 Adjudicative Guidelines (Security Executive Agent Directive 4 / 32 CFR Part 147), none of the following are automatic mechanical disqualifiers under the 'whole person' standard, but they are the dominant real-world reasons applicants and incumbents are denied or lose eligibility, and each can rule out this specialty even with a fully qualifying ASVAB score: (1) unresolved foreign contacts, foreign relatives in certain countries, foreign property/financial interests, or foreign romantic ties that create potential foreign leverage (Guideline B, Foreign Influence); (2) a pattern of serious financial delinquency -- unresolved debt (especially over $10,000), recent bankruptcy, wage garnishment, or repeated late payment patterns (Guideline F; financial issues are cited as roughly 45% of DoD clearance denials); (3) illegal drug use, misuse of prescription medication, or continued use after applying (Guideline H); and (4), treated especially seriously, deliberately concealing or falsifying any of the above -- including an UNREPORTED dual citizenship or undisclosed foreign contact -- during the application or investigation (Guideline E, Personal Conduct). A 16-24-year-old considering this cluster should treat clearance eligibility as a real, independent gate, not a formality layered on top of a qualifying ASVAB score.",
+   "what_it_is": "Under DoD's 13 Adjudicative Guidelines (Security Executive Agent Directive 4 / 32 CFR Part 147), none of the following are automatic mechanical disqualifiers under the 'whole person' standard, but they are the dominant real-world reasons applicants and incumbents are denied or lose eligibility, and each can rule out this specialty even with a fully qualifying ASVAB score: (1) unresolved foreign contacts, foreign relatives in certain countries, foreign property/financial interests, or foreign romantic ties that create potential foreign leverage (Guideline B, Foreign Influence); (2) a pattern of serious financial delinquency -- unresolved debt (especially over $10,000), recent bankruptcy, wage garnishment, or repeated late payment patterns (Guideline F; financial issues are cited as roughly 45% of DoD clearance denials); (3) illegal drug use, misuse of prescription medication, or continued use after applying (Guideline H); and (4), treated especially seriously, deliberately concealing or falsifying any of the above -- including an UNREPORTED dual citizenship or undisclosed foreign contact -- during the application or investigation (Guideline E, Personal Conduct). A 16-24-year-old considering this cluster should treat clearance eligibility as a real, independent requirement, not a formality layered on top of a qualifying ASVAB score.",
    "entry_requirements": {
     "asvab_line_score": "A 60",
     "security_clearance": "TS/SCI required, or must be submitted for TS/SCI prior to course attendance -- CONFIRMED this session via search. Completion of a current Tier 5 (T5) investigation (per DoDM 5200.02, AFMAN 16-1405) is mandatory; an Airman who cannot obtain at least an interim T5 by the programmed class-start date is not eligible to enter the AFSC.",
@@ -1528,7 +1528,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1601,7 +1601,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1669,7 +1669,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1740,7 +1740,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1809,7 +1809,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1873,7 +1873,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1946,7 +1946,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2021,7 +2021,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2092,7 +2092,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2163,7 +2163,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2240,7 +2240,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2299,7 +2299,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2405,7 +2405,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2478,7 +2478,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2546,7 +2546,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2604,7 +2604,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2672,7 +2672,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2789,7 +2789,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2840,7 +2840,7 @@
    "what_it_is": "U.S. citizenship required for TS/SCI eligibility.",
    "entry_requirements": {
     "asvab_line_score": "E 70",
-    "security_clearance": "Top Secret/SCI required; must pass a Single Scope Background Investigation (SSBI). This is a hard gate independent of ASVAB score: per SEAD 4 (the government-wide National Security Adjudicative Guidelines), common disqualifiers include foreign influence/preference (close foreign-national contacts, dual citizenship, foreign-government ties), financial considerations (unresolved delinquent debt, bankruptcy pattern, tax delinquency), and drug involvement/substance misuse (recent illegal drug use or a pattern of misuse) - a qualifying Electronics/EDPT score does not offset a disqualifying finding under these guidelines.",
+    "security_clearance": "Top Secret/SCI required; must pass a Single Scope Background Investigation (SSBI). This is a hard requirement independent of ASVAB score: per SEAD 4 (the government-wide National Security Adjudicative Guidelines), common disqualifiers include foreign influence/preference (close foreign-national contacts, dual citizenship, foreign-government ties), financial considerations (unresolved delinquent debt, bankruptcy pattern, tax delinquency), and drug involvement/substance misuse (recent illegal drug use or a pattern of misuse) - a qualifying Electronics/EDPT score does not offset a disqualifying finding under these guidelines.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -2858,7 +2858,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2931,7 +2931,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3000,7 +3000,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3061,7 +3061,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3136,7 +3136,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3205,7 +3205,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3275,7 +3275,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3345,7 +3345,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3416,7 +3416,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3478,7 +3478,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3545,7 +3545,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3620,7 +3620,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3699,7 +3699,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3772,7 +3772,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3844,7 +3844,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3918,7 +3918,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3986,7 +3986,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4059,7 +4059,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4134,7 +4134,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4199,7 +4199,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4275,7 +4275,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4346,7 +4346,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4374,7 +4374,7 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "Airmen in this role prepare, evaluate and supervise all aspects of a mission\u2019s planning.",
+   "what_it_is": "Airmen in this role prepare, evaluate and supervise all aspects of a mission’s planning.",
    "entry_requirements": {
     "asvab_line_score": "A 56",
     "security_clearance": null,
@@ -4405,7 +4405,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4481,7 +4481,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4549,7 +4549,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4594,7 +4594,7 @@
    "what_it_is": "Award of the 5-skill-level AFSC (2S051) requires prior possession of the 3-skill-level (2S031) plus documented experience preparing/maintaining materiel-management documentation and records.",
    "entry_requirements": {
     "asvab_line_score": "A 41",
-    "security_clearance": "Not confirmed as a blanket 2S0X1 requirement this session; a related logistics AFSC (2G0X1, Logistics Plans) is documented as requiring 'routine access to Secret material or similar environment' \u2014 this may or may not extend to 2S0X1 and was not independently confirmed for 2S0X1 specifically.",
+    "security_clearance": "Not confirmed as a blanket 2S0X1 requirement this session; a related logistics AFSC (2G0X1, Logistics Plans) is documented as requiring 'routine access to Secret material or similar environment' — this may or may not extend to 2S0X1 and was not independently confirmed for 2S0X1 specifically.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -4622,7 +4622,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4696,7 +4696,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4769,7 +4769,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4838,7 +4838,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4907,7 +4907,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4981,7 +4981,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5054,7 +5054,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5132,7 +5132,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5204,7 +5204,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5327,7 +5327,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5398,7 +5398,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5467,7 +5467,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5517,7 +5517,7 @@
     "music-media"
    ],
    "depth": "deep",
-   "what_it_is": "Entry requires passing a mandatory standardized audition evaluated by a band commander \u2014 instrumentalists on solo/ensemble performance technique and sight-reading, vocalists additionally on foreign-language singing ability, arrangers on transposition and arranging-software proficiency \u2014 as defined in the 3N1 Career Field Education and Training Plan (CFETP). The audition is the substantive qualifying gate, not the ASVAB.",
+   "what_it_is": "Entry requires passing a mandatory standardized audition evaluated by a band commander — instrumentalists on solo/ensemble performance technique and sight-reading, vocalists additionally on foreign-language singing ability, arrangers on transposition and arranging-software proficiency — as defined in the 3N1 Career Field Education and Training Plan (CFETP). The audition is the substantive qualifying requirement, not the ASVAB.",
    "entry_requirements": {
     "asvab_line_score": "A 21",
     "security_clearance": null,
@@ -5543,7 +5543,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5606,7 +5606,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5640,7 +5640,7 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "Must be a U.S. citizen. Knowledge of electrical and mechanical principles. PRAP screening is a CONTINUING requirement, not a one-time gate.",
+   "what_it_is": "Must be a U.S. citizen. Knowledge of electrical and mechanical principles. PRAP screening is a CONTINUING requirement, not a one-time requirement.",
    "entry_requirements": {
     "asvab_line_score": "M 60",
     "security_clearance": "Single Scope Background Investigation (SSBI) required (airforce.com); clearance LEVEL is not stated on the page",
@@ -5671,7 +5671,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5793,7 +5793,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5868,7 +5868,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5943,7 +5943,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6011,7 +6011,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6054,7 +6054,7 @@
    "what_it_is": "Human Resources and Administration ",
    "entry_requirements": {
     "asvab_line_score": "A 59",
-    "security_clearance": "Not typically required for general personnel duty; UNVERIFIED whether specific 3F0X1 duty positions (e.g., casualty affairs, retirements/separations processing) carry an elevated requirement \u2014 not independently confirmed this session.",
+    "security_clearance": "Not typically required for general personnel duty; UNVERIFIED whether specific 3F0X1 duty positions (e.g., casualty affairs, retirements/separations processing) carry an elevated requirement — not independently confirmed this session.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -6082,7 +6082,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6158,7 +6158,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6228,7 +6228,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6298,7 +6298,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6368,7 +6368,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6476,7 +6476,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6538,7 +6538,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6611,7 +6611,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6684,7 +6684,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6760,7 +6760,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6829,7 +6829,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6906,7 +6906,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6975,7 +6975,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7047,7 +7047,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7066,7 +7066,7 @@
     "estimated_civilian_salary_range_usd": null,
     "civilian_median_salary_usd": null,
     "salary_source": null,
-    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight \u2014 it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 36 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, Project Management Professional (PMP)."
+    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight — it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 36 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, Project Management Professional (PMP)."
    }
   },
   {
@@ -7079,10 +7079,10 @@
     "law-enforcement-security"
    ],
    "depth": "deep",
-   "what_it_is": "Shred-out 3P0X1A is the Military Working Dog Handler track (also gated at G \u2265 33); shred-out 3P0X1B is the Combat Arms (weapons instructor/armorer) track, gated at M \u2265 35 and completion of the Combat Arms apprentice course.",
+   "what_it_is": "Shred-out 3P0X1A is the Military Working Dog Handler track (also restricted at G ≥ 33); shred-out 3P0X1B is the Combat Arms (weapons instructor/armorer) track, restricted at M ≥ 35 and completion of the Combat Arms apprentice course.",
    "entry_requirements": {
     "asvab_line_score": "G 30",
-    "security_clearance": "Secret clearance typically required, consistent with installation-access and law-enforcement duties \u2014 not independently confirmed against a primary source this session.",
+    "security_clearance": "Secret clearance typically required, consistent with installation-access and law-enforcement duties — not independently confirmed against a primary source this session.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -7110,7 +7110,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7191,7 +7191,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7219,14 +7219,14 @@
   {
    "id": "air-force-3f1x1-services-food-service",
    "code": "3F1X1",
-   "name": "Services (Force Support) \u2014 Food Service function",
+   "name": "Services (Force Support) — Food Service function",
    "branch": "Air Force",
    "track": "enlisted",
    "interest_cluster_ids": [
     "culinary"
    ],
    "depth": "deep",
-   "what_it_is": "IMPORTANT SCOPE NOTE: 3F1X1 (\"Services\") is a broader force-support career field, not a culinary-only specialty \u2014 it also covers lodging operations, fitness/recreation programs, and mortuary affairs, per the official CFETP title and multiple corroborating secondary sources (foreverwingman.com, operationmilitarykids.org, mosroadmap.com). Airmen in this AFSC rotate through food-service duty as one of several functional areas rather than specializing in culinary work exclusively the way Army 92G, Navy CS, USMC 3381, or Coast Guard CS do. CORRECTION TO PROJECT TAXONOMY: data/interest-taxonomy.json currently lists the Air Force code for this cluster as '3F0X2 \u2014 Services'; this session's research consistently found the current designation to be 3F1X1 (confirmed via the official CFETP document title 'AFSC 3F1X1 SERVICES' at static.e-publishing.af.mil, and cross-corroborated by 4 independent secondary sources). Recommend the taxonomy file be corrected from 3F0X2 to 3F1X1 in a future pass; flagged here rather than silently overridden.",
+   "what_it_is": "IMPORTANT SCOPE NOTE: 3F1X1 (\"Services\") is a broader force-support career field, not a culinary-only specialty — it also covers lodging operations, fitness/recreation programs, and mortuary affairs, per the official CFETP title and multiple corroborating secondary sources (foreverwingman.com, operationmilitarykids.org, mosroadmap.com). Airmen in this AFSC rotate through food-service duty as one of several functional areas rather than specializing in culinary work exclusively the way Army 92G, Navy CS, USMC 3381, or Coast Guard CS do. CORRECTION TO PROJECT TAXONOMY: data/interest-taxonomy.json currently lists the Air Force code for this cluster as '3F0X2 — Services'; this session's research consistently found the current designation to be 3F1X1 (confirmed via the official CFETP document title 'AFSC 3F1X1 SERVICES' at static.e-publishing.af.mil, and cross-corroborated by 4 independent secondary sources). Recommend the taxonomy file be corrected from 3F0X2 to 3F1X1 in a future pass; flagged here rather than silently overridden.",
    "entry_requirements": {
     "asvab_line_score": "G 24",
     "security_clearance": "Not typically required.",
@@ -7257,7 +7257,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7335,7 +7335,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7377,10 +7377,10 @@
     "space-satellite"
    ],
    "depth": "deep",
-   "what_it_is": "U.S. citizenship required. IMPORTANT STRUCTURAL NOTE: airforce.com (fetched 2026-07-12) lists this AFSC as open across Air Force Active Duty, Air Force Reserve, and Air National Guard \u2014 it does NOT state that the mission or accession pipeline transferred to the Space Force, even though technical training occurs at Vandenberg Space Force Base (the same location used for Space Force's own UST). This is a genuinely surprising finding worth flagging rather than silently reconciling: the most defensible read, consistent with public reporting that the Space Force has no reserve/Guard component of its own, is that active-duty 1C6X1 space-operations manning has largely transitioned to the Space Force (its Space Systems Operator career field, previous record in this file) while Air National Guard and Air Force Reserve units performing space-surveillance/missile-warning missions (which the Space Force cannot yet absorb, having no Guard/Reserve of its own) continue to access and train personnel under the legacy Air Force AFSC 1C6X1. This interpretation is NOT independently confirmed against a primary source this session and is offered as the most defensible reading of directly-observed, conflicting official material, not as a verified fact.",
+   "what_it_is": "U.S. citizenship required. IMPORTANT STRUCTURAL NOTE: airforce.com (fetched 2026-07-12) lists this AFSC as open across Air Force Active Duty, Air Force Reserve, and Air National Guard — it does NOT state that the mission or accession pipeline transferred to the Space Force, even though technical training occurs at Vandenberg Space Force Base (the same location used for Space Force's own UST). This is a genuinely surprising finding worth flagging rather than silently reconciling: the most defensible read, consistent with public reporting that the Space Force has no reserve/Guard component of its own, is that active-duty 1C6X1 space-operations manning has largely transitioned to the Space Force (its Space Systems Operator career field, previous record in this file) while Air National Guard and Air Force Reserve units performing space-surveillance/missile-warning missions (which the Space Force cannot yet absorb, having no Guard/Reserve of its own) continue to access and train personnel under the legacy Air Force AFSC 1C6X1. This interpretation is NOT independently confirmed against a primary source this session and is offered as the most defensible reading of directly-observed, conflicting official material, not as a verified fact.",
    "entry_requirements": {
     "asvab_line_score": "E 70",
-    "security_clearance": "Single Scope Background Investigation (SSBI) \u2014 the investigative basis for Top Secret/SCI-level clearance eligibility \u2014 per airforce.com (directly fetched 2026-07-12).",
+    "security_clearance": "Single Scope Background Investigation (SSBI) — the investigative basis for Top Secret/SCI-level clearance eligibility — per airforce.com (directly fetched 2026-07-12).",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -7408,7 +7408,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7472,7 +7472,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7543,7 +7543,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7614,7 +7614,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7669,7 +7669,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7781,7 +7781,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7836,7 +7836,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7898,7 +7898,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7959,7 +7959,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8027,7 +8027,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8109,7 +8109,7 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "SCOPE NOTE: 3E4X1 is one of several distinct AFSCs within the Air Force's broader '3E \u2014 Civil Engineering' career field (others include 3E0X1 Electrical Systems, 3E1X1 HVAC/R, 3E2X1 Pavements and Construction Equipment, 3E3X1 Structural, 3E5X1 Engineering, 3E7X1 Fire Protection). This record uses 3E4X1 as the representative civil-engineering AFSC for this cluster because it is the specific code data/interest-taxonomy.json's mechanical-engineering cluster already names as an example specialty \u2014 the other 3E-series AFSCs were not independently built as separate records this session given the 10-web-call budget; treat their entry requirements and training as materially different, not interchangeable with 3E4X1's figures.",
+   "what_it_is": "SCOPE NOTE: 3E4X1 is one of several distinct AFSCs within the Air Force's broader '3E — Civil Engineering' career field (others include 3E0X1 Electrical Systems, 3E1X1 HVAC/R, 3E2X1 Pavements and Construction Equipment, 3E3X1 Structural, 3E5X1 Engineering, 3E7X1 Fire Protection). This record uses 3E4X1 as the representative civil-engineering AFSC for this cluster because it is the specific code data/interest-taxonomy.json's mechanical-engineering cluster already names as an example specialty — the other 3E-series AFSCs were not independently built as separate records this session given the 10-web-call budget; treat their entry requirements and training as materially different, not interchangeable with 3E4X1's figures.",
    "entry_requirements": {
     "asvab_line_score": "M 47",
     "security_clearance": "Not typically required.",
@@ -8140,7 +8140,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8206,7 +8206,7 @@
    },
    "sources": [
     "https://www.airforce.com/bin/api/careers (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {

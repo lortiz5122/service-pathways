@@ -1,768 +1,768 @@
 {
-  "command": "SPECIALTIES",
-  "cluster_id": "space-satellite",
-  "retrieved_date": "2026-07-12",
-  "specialties": [
+ "command": "SPECIALTIES",
+ "cluster_id": "space-satellite",
+ "retrieved_date": "2026-07-12",
+ "specialties": [
+  {
+   "id": "army-25s-satcom-operator-maintainer",
+   "name": "Satellite Communication Systems Operator-Maintainer",
+   "branch": "Army",
+   "track": "enlisted",
+   "code": "25S",
+   "interest_cluster_ids": [
+    "space-satellite"
+   ],
+   "entry_requirements": {
+    "asvab_line_score": "EL (Electronics) composite ≥ 117. Sourced via WebSearch synthesis of the official goarmy.com 25S page, cross-corroborated by operationmilitarykids.org and army-portal.com (all retrieved 2026-07-12). A direct WebFetch of the goarmy.com 25S page itself failed with a 'too many redirects' error this session, so the figure is search-corroborated rather than primary-fetched to the raw HTML. Note: data/interest-taxonomy.json's space-satellite cluster lists only Air Force/Space Force MAGE:G and MAGE:E as related composites and does not list an Army composite for this cluster — EL is the correct Army-side composite for this specific MOS, independently confirmed in this record rather than carried over from the taxonomy.",
+    "education": "High school diploma or GED (Army general accession standard). One year of high school algebra and one year of high school science are reported as recommended/expected coursework for 25S specifically, per operationmilitarykids.org.",
+    "age_range": "17 (with parental consent) to 42, per the Army's 2026 policy ceiling — data/branch-profiles.json. No 25S-specific age restriction found.",
+    "physical": "Normal color vision required. Standard Army accession medical and fitness standards apply; must pass the Army Fitness Test (AFT) like all soldiers. No 25S-specific elevated physical standard found.",
+    "security_clearance": "Secret security clearance from the Department of Defense, including an in-depth background investigation of character and financial history; a documented history of alcohol or drug abuse can disqualify. This is the baseline MOS-qualifying requirement found in sourced material — it is Secret, not TS/SCI, for this specific MOS as documented; assignment to higher-echelon strategic SATCOM or missile-warning-adjacent units may carry higher clearance requirements in practice, but that was not independently confirmed this session.",
+    "other": null
+   },
+   "training_pipeline": [
     {
-      "id": "army-25s-satcom-operator-maintainer",
-      "name": "Satellite Communication Systems Operator-Maintainer",
-      "branch": "Army",
-      "track": "enlisted",
-      "code": "25S",
-      "interest_cluster_ids": [
-        "space-satellite"
-      ],
-      "entry_requirements": {
-        "asvab_line_score": "EL (Electronics) composite \u2265 117. Sourced via WebSearch synthesis of the official goarmy.com 25S page, cross-corroborated by operationmilitarykids.org and army-portal.com (all retrieved 2026-07-12). A direct WebFetch of the goarmy.com 25S page itself failed with a 'too many redirects' error this session, so the figure is search-corroborated rather than primary-fetched to the raw HTML. Note: data/interest-taxonomy.json's space-satellite cluster lists only Air Force/Space Force MAGE:G and MAGE:E as related composites and does not list an Army composite for this cluster \u2014 EL is the correct Army-side composite for this specific MOS, independently confirmed in this record rather than carried over from the taxonomy.",
-        "education": "High school diploma or GED (Army general accession standard). One year of high school algebra and one year of high school science are reported as recommended/expected coursework for 25S specifically, per operationmilitarykids.org.",
-        "age_range": "17 (with parental consent) to 42, per the Army's 2026 policy ceiling \u2014 data/branch-profiles.json. No 25S-specific age restriction found.",
-        "physical": "Normal color vision required. Standard Army accession medical and fitness standards apply; must pass the Army Fitness Test (AFT) like all soldiers. No 25S-specific elevated physical standard found.",
-        "security_clearance": "Secret security clearance from the Department of Defense, including an in-depth background investigation of character and financial history; a documented history of alcohol or drug abuse can disqualify. This is the baseline MOS-qualifying requirement found in sourced material \u2014 it is Secret, not TS/SCI, for this specific MOS as documented; assignment to higher-echelon strategic SATCOM or missile-warning-adjacent units may carry higher clearance requirements in practice, but that was not independently confirmed this session.",
-        "other": null
-      },
-      "training_pipeline": [
-        {
-          "stage": "Basic Combat Training (BCT)",
-          "location": "One of four Army training centers (Fort Jackson SC, Fort Moore GA, Fort Sill OK, or Fort Leonard Wood MO)",
-          "length_weeks": 10,
-          "description": "Standard Army basic training common to all MOSs. (data/branch-profiles.json)"
-        },
-        {
-          "stage": "Advanced Individual Training (AIT) \u2014 25S Satellite Communication Systems Operator-Maintainer Course",
-          "location": "Fort Gordon, Georgia (Signal Center of Excellence)",
-          "length_weeks": 18,
-          "description": "Operation and maintenance of multichannel satellite communication systems used for command-and-control and operational support; communications coding/security procedures; hands-on equipment maintenance and troubleshooting. Length cross-corroborated by two independent secondary sources (operationmilitarykids.org, WebSearch synthesis of goarmy.com); not independently confirmed via direct fetch of the primary goarmy.com page this session (redirect-loop failure)."
-        }
-      ],
-      "pay_and_compensation": {
-        "paygrade_entry": "E-1",
-        "base_pay_monthly_usd": 2407.2,
-        "bah_estimate_monthly_usd": "varies by duty station",
-        "bas_monthly_usd": 476.95,
-        "total_compensation_estimate_annual_usd": 34609.8,
-        "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. BAH is intentionally EXCLUDED because it is duty-station-specific and cannot be reduced to one national number (pay-tables.json bah.national_number_warning) \u2014 actual total cash compensation is materially higher once a real BAH figure for the member's duty station is added. Excludes the DoD TSP contribution (up to 5% of base pay) and TRICARE's non-cash value, neither of which pay-tables.json could quantify to primary-source confidence.",
-        "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html (primary DFAS/militarypay.defense.gov pages returned HTTP 403 on direct fetch in that command's session)",
-        "retrieved_date": "2026-07-12"
-      },
-      "bonuses": {
-        "enlistment_bonus_range_usd": null,
-        "reenlistment_bonus_range_usd": null,
-        "conditions": "Signal Corps / SATCOM-family MOSs are historically among the more bonus-eligible shortage fields (unlike, e.g., culinary), but no current, primary-verified 25S-specific enlistment or reenlistment bonus figure was sourced this session \u2014 the official HRC Bonus Chart was not fetched for this cluster (out of this run's 10-call web budget). Per this project's binding instruction, bonuses change quarterly and a stale number must not be quoted. Verify current 25S bonus eligibility and amount directly with a recruiter or the current HRC Bonus Chart (hrc.army.mil) before relying on any figure.",
-        "source": "UNVERIFIED this session \u2014 no bonus-specific source fetched",
-        "retrieved_date": "2026-07-12"
-      },
-      "career_progression": {
-        "typical_promotion_timeline": "E-1\u2192E-4 in roughly 2-3 years and E-5 board eligibility at ~4-6 years is the Army-wide enlisted norm; no 25S-specific timeline deviation was found this session \u2014 general pattern, not a sourced 25S-specific figure.",
-        "reenlistment_decision_points": [
-          "End of initial term of service (commonly a 3- or 4-year first contract)",
-          "Mid-career (~8-10 years) reenlistment tied to promotion/NCO development school completion",
-          "The 20-year retention decision (pension cliff \u2014 see retirement block)"
-        ],
-        "advanced_schools_or_certs": [
-          "Army COOL lists credentialing pathways for 25S (cool.osd.mil/army/moc/index.html?moc=25s&tab=cred \u2014 URL surfaced in search results but the page was not independently fetched to primary-source confidence this session; specific certification names are therefore not listed here rather than guessed).",
-          "Basic/Advanced NCO courses at each promotion gate (standard Army NCOES, not 25S-specific)"
-        ],
-        "officer_conversion_path": "Green-to-Gold (the Army-wide enlisted-to-officer commissioning path) is available generally, not 25S-specifically. The Army's dedicated space-focused officer track is Functional Area 40 (FA40 \u2014 Space Operations), per data/interest-taxonomy.json's space-satellite cluster notes \u2014 but FA40 is an officer-only functional area entered after initial commissioning (via a separate FA-designation process), not a direct MOS-to-FA40 pipeline from 25S. There is no confirmed, guaranteed 25S\u2192FA40 conversion path.",
-        "source": "data/interest-taxonomy.json (FA40 note); cool.osd.mil/army/moc/index.html?moc=25s (surfaced, not independently fetched)",
-        "retrieved_date": "2026-07-12"
-      },
-      "retirement": {
-        "system": "BRS",
-        "tsp_auto_contribution_pct": 5,
-        "tsp_match_max_pct": 4,
-        "vesting_years": 2,
-        "pension_multiplier_pct": 2.0,
-        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years \u2014 there is no partial/prorated defined-benefit pension for separating earlier. Before 20 years, a SATCOM operator-maintainer keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) \u2014 all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language (data/retirement.json). Applies identically regardless of specialty; 25S carries no special rule.",
-        "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate is 2.5x monthly basic pay for a 4-year additional service obligation, per data/retirement.json). No 25S-specific continuation-pay rate was identified \u2014 treat the general BRS figure as the baseline and verify current amount before relying on it.",
-        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to Army National Guard/Reserve 25S billets (this MOS is documented in both active-duty and Army National Guard job listings) as to any other specialty.",
-        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
-        "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
-        "retrieved_date": "2026-07-12"
-      },
-      "transition": {
-        "skillbridge_eligible": true,
-        "skillbridge_notes": "DoD-wide SkillBridge eligibility (up to 180 days of permissive duty in the final window before separation) is not specialty-restricted (data/transition.json), so 25S soldiers near separation are as eligible in principle as any other MOS \u2014 subject to the same real gate as everyone else: unit commander approval, which is discretionary based on unit staffing/operational needs. Whether telecommunications/satellite-industry SkillBridge partners (e.g., satellite operators, defense contractors) are commonly available in a given soldier's location/timing was not independently verified this session.",
-        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty. (data/transition.json)",
-        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below \u2014 VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No 25S-specific significance beyond the general rule.",
-        "va_disability_common_claims": [
-          "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json's specialty_linked_common_claims list covers combat arms, aviation, infantry, and PACT Act-covered theater deployment, but does NOT include a signal/SATCOM-operator entry). Reasoned from the nature of the job rather than pulled from a VA claims-frequency source:",
-          "Hearing loss/tinnitus from sustained exposure to generator and antenna-system equipment noise during field operation of SATCOM terminals",
-          "Musculoskeletal strain (back, shoulder) from repeatedly setting up, tearing down, and transporting heavy satellite terminal/antenna equipment in the field",
-          "Eye strain and sleep-cycle-related conditions from extended console/shift-work monitoring duty, by analogy to other console-heavy specialties \u2014 plausible but not independently confirmed for 25S specifically",
-          "To verify: check VA's published claims-by-occupation data (if published) or consult a VSO familiar with Signal Corps MOSs before treating this list as authoritative."
-        ],
-        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No 25S-specific eligibility variance.",
-        "source": "data/transition.json (RUN TRANSITION, this project)",
-        "retrieved_date": "2026-07-12"
-      },
-      "civilian_crosswalk": {
-        "onet_codes": [
-          "49-2022.00 \u2014 Telecommunications Equipment Installers and Repairers, Except Line Installers",
-          "17-3021.00 \u2014 Aerospace Engineering and Operations Technologists and Technicians"
-        ],
-        "example_civilian_titles": [
-          "Satellite communications technician",
-          "Ground-segment/network operations technician",
-          "Field service engineer (telecommunications equipment)",
-          "Satellite ground station operator"
-        ],
-        "relevant_certifications": [
-          "No universal civilian licensure gates satellite-communications-equipment work the way an FAA A&P or a state CDL does \u2014 vendor/employer-specific certifications (e.g., specific ground-terminal or modem manufacturer training) are more common than a single portable credential. This is itself the credential-gap finding for this record; see credential_gap_note.",
-          "CompTIA Network+ is commonly cited as a useful general baseline for telecommunications-equipment technician roles, though this specific pairing to 25S was not independently confirmed via Army COOL this session (see career_progression.advanced_schools_or_certs)."
-        ],
-        "estimated_civilian_salary_range_usd": [
-          62350,
-          79830
-        ],
-        "credential_gap_note": "Military SATCOM training does not confer a portable civilian license or a single industry-standard certification the way EMT, CDL, or A&P credentials work for other MOSs \u2014 there is no equivalent 'satellite technician license.' Civilian satellite/ground-segment operators (e.g., commercial satellite operators, defense contractors, teleport operators) typically retrain new hires on their own proprietary ground systems regardless of military background; military SATCOM experience is valued as a strong operational foundation and a security-clearance signal, not as a plug-and-play credential. A held Secret clearance carries independent civilian salary value in the cleared-contractor labor market, but the clearance itself does not transfer automatically \u2014 a gap in service or a change of sponsoring employer can require re-investigation.",
-        "source": "https://www.bls.gov/oes/2023/may/oes492022.htm (Telecommunications Equipment Installers and Repairers, median $62,350, reference period reported by search synthesis as May 2023); https://www.bls.gov/oes/current/oes173021.htm (Aerospace Engineering and Operations Technologists and Technicians, median $79,830, reference period reported by search synthesis as May 2024 \u2014 the exact OEWS release year could not be cross-confirmed from the URL alone this session; treat the reference year as approximate)",
-        "retrieved_date": "2026-07-12"
-      },
-      "veteran_benefits": {
-        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months, down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 active-duty days count. Applies identically regardless of specialty. (data/education-benefits.json)",
-        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment \u2014 a real service commitment, not paperwork-only. Must be requested via milConnect while still serving. Dependent children must wait until the member has 10+ years of service to start using it. (data/veteran-benefits.json)",
-        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
-        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt \u2014 not by specialty. A 25S veteran's group assignment depends entirely on their individual disability rating and income profile, not their MOS.",
-        "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure \u2014 e.g., a 100%-disabled veteran gets a full residence-homestead property-tax exemption in Texas but a flat $100,000 assessed-value exemption in California (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
-        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project); data/education-benefits.json (RUN EDU-BENEFITS, this project)",
-        "retrieved_date": "2026-07-12"
-      },
-      "education_benefits": {
-        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend \u2014 scaled by the eligibility tier above. (data/education-benefits.json)",
-        "tuition_assistance": "DoD-wide Tuition Assistance: $250/semester-hour, capped at $4,500/fiscal year, while still serving. Applies the same across all six branches per data/education-benefits.json; Army-specific usage-limit detail (reported ~16-semester-hour/fiscal-year cap) is UNVERIFIED at primary-source level in that file.",
-        "credentialing_assistance": "Army Credentialing Assistance (CA)/Army COOL: reduced to a $2,000/fiscal-year cap in 2024, lifetime limit reported at 3 credentials per 10 years of service; commissioned officers reported ineligible. UNVERIFIED at primary-source level in data/education-benefits.json (cool.osd.mil could not be independently fetched in that command's session).",
-        "coop_or_apprenticeship_notes": null
-      },
-      "deployment_and_lifestyle": {
-        "typical_tempo": "SATCOM operator-maintainers are organic to Signal battalions/companies supporting brigade- and division-level units, so deployment tempo tracks the supported unit's operational tempo rather than a rating-specific rotation \u2014 garrison-based day-to-day communications support between field exercises and deployments, with the equipment itself (mobile SATCOM terminals) built for field/expeditionary use. No sourced deployment-frequency figure specific to 25S was found this session.",
-        "family_considerations": "Garrison assignments provide relative family stability between deployments/field exercises; deployment schedule follows the supported unit's operational cycle, which varies widely by unit type (e.g., a division Signal company vs. a Special Operations-support Signal unit)."
-      },
-      "visual_assets": {
-        "branch_logo_id": "army-logo",
-        "specialty_badge_id": null,
-        "dvids_search_terms": [
-          "Army satellite communications 25S operator",
-          "Army SATCOM terminal Fort Gordon Signal",
-          "Army tactical satellite communications field exercise"
-        ],
-        "risk_tier": "MEDIUM"
-      },
-      "sources": [
-        {
-          "title": "Army (MOS 25S) Satellite Communications Explained For 2026",
-          "url": "https://www.operationmilitarykids.org/army-satellite-communication-system-operator-maintainer-mos-25s/",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "Satellite Communication Systems Operator-Maintainer (25S) | GoArmy.com (surfaced via search; direct WebFetch failed with a redirect-loop error this session)",
-          "url": "https://m.goarmy.com/careers-and-jobs/browse-career-and-job-categories/computers-and-technology/satellite-communication-systems-operator-maintainer.m.html",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "Army COOL \u2014 25S Satellite Communications Systems Specialist (certifications tab; surfaced via search, not independently fetched)",
-          "url": "https://www.cool.osd.mil/army/moc/index.html?moc=25s&tab=cred",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "BLS OEWS \u2014 Telecommunications Equipment Installers and Repairers, Except Line Installers (49-2022)",
-          "url": "https://www.bls.gov/oes/2023/may/oes492022.htm",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "BLS OEWS \u2014 Aerospace Engineering and Operations Technologists and Technicians (17-3021)",
-          "url": "https://www.bls.gov/oes/current/oes173021.htm",
-          "retrieved_date": "2026-07-12"
-        }
-      ]
+     "stage": "Basic Combat Training (BCT)",
+     "location": "One of four Army training centers (Fort Jackson SC, Fort Moore GA, Fort Sill OK, or Fort Leonard Wood MO)",
+     "length_weeks": 10,
+     "description": "Standard Army basic training common to all MOSs. (data/branch-profiles.json)"
     },
     {
-      "id": "space-force-space-systems-operator-enlisted",
-      "name": "Space Systems Operator",
-      "branch": "Space Force",
-      "track": "enlisted",
-      "code": "UNVERIFIED",
-      "interest_cluster_ids": [
-        "space-satellite"
-      ],
-      "entry_requirements": {
-        "asvab_line_score": "Electronics (E) MAGE composite \u2265 60, per the official spaceforce.com enlisted careers page (directly fetched 2026-07-12). This matches the MAGE:E composite listed for the space-satellite cluster in data/interest-taxonomy.json.",
-        "education": "High school diploma or GED (standard Air Force/Space Force accession pipeline \u2014 Space Force shares the Air Force's enlisted accession standards per data/branch-profiles.json).",
-        "age_range": "17-42, per spaceforce.com (directly fetched 2026-07-12). Consistent with data/branch-profiles.json's note that Space Force inherits the Air Force's accession pipeline and reported age ceiling.",
-        "physical": "Normal color vision required. Standard DoD accession medical standards; must complete Basic Military Training.",
-        "security_clearance": "Single Scope Background Investigation (SSBI) \u2014 the investigative basis for Top Secret/SCI-level clearance eligibility \u2014 plus a National Agency Check with Local Agency Checks and Credit Check (NACLC), per spaceforce.com (directly fetched 2026-07-12). This is a genuinely high clearance bar, consistent with the master prompt's expectation that security clearance gates nearly all of this cluster.",
-        "other": "U.S. citizenship required."
-      },
-      "training_pipeline": [
-        {
-          "stage": "Basic Military Training (BMT) \u2014 shared with the Air Force",
-          "location": "Joint Base San Antonio-Lackland (JBSA-Lackland), San Antonio, Texas",
-          "length_weeks": 7,
-          "description": "Approximately 7.5 weeks (recorded as 7 because the schema field is an integer). Shared with Air Force trainees, with dedicated Space Force drill instructors and additional Space Force-specific instruction. (data/branch-profiles.json)"
-        },
-        {
-          "stage": "Enlisted Undergraduate Space Training (UST)",
-          "location": "Vandenberg Space Force Base, California",
-          "length_weeks": 11,
-          "description": "75 days (~10.7 weeks, rounded to 11) of technical training combining hands-on space-operations instruction with credit toward an Intelligence Studies and Technology associate's degree through the Community College of the Air Force. Covers detecting/tracking satellites, missile-launch detection and tracking, and launch/on-orbit operations support for military satellites. Directly sourced from spaceforce.com (fetched 2026-07-12)."
-        }
-      ],
-      "pay_and_compensation": {
-        "paygrade_entry": "E-1",
-        "base_pay_monthly_usd": 2407.2,
-        "bah_estimate_monthly_usd": "varies by duty station",
-        "bas_monthly_usd": 476.95,
-        "total_compensation_estimate_annual_usd": 34609.8,
-        "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. Space Force uses the same DoD-wide pay tables as the other five branches \u2014 no Space-Force-specific pay scale exists. BAH is intentionally EXCLUDED because it is duty-station-specific (pay-tables.json bah.national_number_warning). Excludes the DoD TSP contribution and TRICARE's non-cash value.",
-        "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html",
-        "retrieved_date": "2026-07-12"
-      },
-      "bonuses": {
-        "enlistment_bonus_range_usd": null,
-        "reenlistment_bonus_range_usd": null,
-        "conditions": "No current, verifiable Space Force enlistment or reenlistment bonus figure for this specialty was sourced this session \u2014 an Air Force Personnel Center (AFPC) bonus-list fetch was not attempted for this cluster within the 10-call web budget. Space Force is a small, selective, high-demand service; bonuses (where offered) are set and change per Space Force manning needs. Per this project's binding instruction, do not treat any unsourced number as current \u2014 verify with a recruiter or the current AFPC/Space Force bonus program page.",
-        "source": "UNVERIFIED this session \u2014 no bonus-specific source fetched",
-        "retrieved_date": "2026-07-12"
-      },
-      "career_progression": {
-        "typical_promotion_timeline": "No Space Force-specific promotion-timeline figure was sourced this session. The Space Force uses its own enlisted rank structure (Specialist 1-4 replacing the airman/sergeant naming convention below E-5) but general DoD-wide promotion-timing patterns (roughly 2-4 years to reach the mid-junior-enlisted tier) are a reasonable analogy, not a sourced Space Force-specific figure \u2014 flagged rather than stated as confirmed.",
-        "reenlistment_decision_points": [
-          "End of initial term of service",
-          "Mid-career reenlistment tied to professional military education and specialty upgrade training",
-          "The 20-year retention decision (pension cliff \u2014 see retirement block)"
-        ],
-        "advanced_schools_or_certs": [
-          "Intelligence Studies and Technology associate's degree credit through the Community College of the Air Force, earned during initial UST training, per spaceforce.com.",
-          "Follow-on 'Space Warfighter' specialization training exists in the Space Force officer pipeline (Colorado Springs/Peterson Space Force Base area, per aetc.af.mil, fetched 2026-07-12); whether an equivalent named follow-on course exists for enlisted Guardians was not independently confirmed this session."
-        ],
-        "officer_conversion_path": "No Space Force-specific enlisted-to-officer conversion program name was independently confirmed this session. Space Force officers commission via USAFA, AFROTC, or OTS \u2014 all of which are accessions from outside the enlisted force rather than a documented in-service enlisted-to-officer Space Force program equivalent to the Army's Green-to-Gold. Flagged as UNVERIFIED rather than guessed.",
-        "source": "https://www.spaceforce.com/enlisted-careers/space-systems-operator; https://www.aetc.af.mil/News/Article-Display/Article/2161701/undergraduate-space-training-evolves-to-tackle-space-threats/",
-        "retrieved_date": "2026-07-12"
-      },
-      "retirement": {
-        "system": "BRS",
-        "tsp_auto_contribution_pct": 5,
-        "tsp_match_max_pct": 4,
-        "vesting_years": 2,
-        "pension_multiplier_pct": 2.0,
-        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years \u2014 there is no partial/prorated defined-benefit pension for separating earlier. Before 20 years, a Guardian keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years). The defined-benefit pension itself is 'entirely forfeited' below 20 years (data/retirement.json). Applies identically regardless of specialty or branch, including Space Force.",
-        "continuation_pay_note": "One-time cash payout available between roughly year 7/8 and year 12 of service; exact window and multiplier are set annually per service (data/retirement.json documents the Army's published rate as 2.5x monthly basic pay). No Space Force-specific continuation-pay multiplier was identified this session \u2014 verify current amount with a Guardian career counselor before relying on any figure.",
-        "guard_reserve_points_note": "NOT APPLICABLE in the traditional sense: the Space Force has NO reserve component and NO National Guard equivalent (data/branch-profiles.json). Under the Space Force Personnel Management Act, Guardians instead serve on 'sustained duty' (full-time, standard active-duty retirement track above) or 'not on sustained duty' (part-time, an emerging status first populated in April 2026 by 247 transferred Air Force Reservists) \u2014 the points-based non-regular retirement system used by Guard/Reserve members in the other five branches has no established, independently-confirmed Space Force analog as of this research date. This structural difference is one of the Space Force's most consequential and least-padded facts and should be represented as genuinely novel, not force-fit into the Guard/Reserve points framework.",
-        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67). Fully taxable in the year received. (data/retirement.json)",
-        "source": "data/retirement.json (RUN RETIREMENT, this project); data/branch-profiles.json (Space Force single-component structure)",
-        "retrieved_date": "2026-07-12"
-      },
-      "transition": {
-        "skillbridge_eligible": true,
-        "skillbridge_notes": "DoD-wide SkillBridge eligibility (up to 180 days of permissive duty in the final window before separation) is not specialty-restricted (data/transition.json). Given the Space Force's small size and the commercial space industry's rapid growth, SkillBridge partnerships with satellite/aerospace companies are plausible but were not independently verified for Space Force specifically this session.",
-        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track, ending in a Capstone certifying Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of branch or specialty. (data/transition.json)",
-        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below. No Space-Force-specific significance beyond the general rule; Guardians receive the same DD-214 form as the other five branches.",
-        "va_disability_common_claims": [
-          "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json's specialty_linked_common_claims list does not include a space-operations entry). Reasoned from the nature of the job:",
-          "Eye strain, sleep-cycle disruption, and related conditions from sustained shift-based console/monitoring work in space-operations centers (the job is overwhelmingly console-based, not field-based)",
-          "Mental-health/stress claims tied to sustained-attention, high-consequence monitoring work (e.g., missile-warning duty), by loose analogy to other high-vigilance military occupations \u2014 not independently confirmed for this specialty",
-          "To verify: consult a VSO familiar with Space Force career fields before treating this list as authoritative; the Space Force is too new and too small for a mature published claims-frequency dataset to likely exist yet."
-        ],
-        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json). No Space-Force-specific eligibility variance.",
-        "source": "data/transition.json (RUN TRANSITION, this project)",
-        "retrieved_date": "2026-07-12"
-      },
-      "civilian_crosswalk": {
-        "onet_codes": [
-          "17-3021.00 \u2014 Aerospace Engineering and Operations Technologists and Technicians",
-          "49-2022.00 \u2014 Telecommunications Equipment Installers and Repairers, Except Line Installers"
-        ],
-        "example_civilian_titles": [
-          "Satellite operations technician / mission controller (commercial space operator)",
-          "Ground-segment operations technician",
-          "Range operations technician (space launch support)",
-          "Space-domain-awareness analyst (entry-level, contractor)"
-        ],
-        "relevant_certifications": [
-          "No universal civilian licensure gates commercial satellite/space operations the way an FAA A&P or state CDL does for other specialties \u2014 see credential_gap_note. The Community College of the Air Force associate's degree credit earned during UST (Intelligence Studies and Technology) is a real, portable academic credential, but it is a degree-credit pathway, not an occupational license."
-        ],
-        "estimated_civilian_salary_range_usd": [
-          62350,
-          79830
-        ],
-        "credential_gap_note": "Space Force enlisted training on military space-domain-awareness, missile-warning, and satellite command-and-control systems does not transfer as a plug-and-play qualification to the commercial space industry: commercial satellite operators, launch providers, and range operators (e.g., SpaceX, ULA, L3Harris, and similar) run their own proprietary ground-system and mission-control training regardless of military background, and no independent, portable 'space operator' license exists in U.S. civilian regulation the way FAA licensure governs aircraft mechanics or pilots. What DOES transfer directly: the TS/SCI-eligible clearance (SSBI-based), which carries real, independently-priced value in the cleared-contractor labor market, and the CCAF associate-degree credit. What does NOT transfer automatically: operational proficiency on classified military C2 systems, which have no civilian equivalent interface, and the clearance itself requires active sponsorship to remain usable (a gap in cleared employment can lapse it).",
-        "source": "https://www.bls.gov/oes/current/oes173021.htm (Aerospace Engineering and Operations Technologists and Technicians, median $79,830, reference period reported by search synthesis as May 2024); https://www.bls.gov/oes/2023/may/oes492022.htm (Telecommunications Equipment Installers and Repairers, median $62,350, May 2023)",
-        "retrieved_date": "2026-07-12"
-      },
-      "veteran_benefits": {
-        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months, down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. Applies identically to Guardians as to any other branch. (data/education-benefits.json)",
-        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment. Must be requested via milConnect while still serving. (data/veteran-benefits.json)",
-        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting and a funding fee (1.25%-3.3% of loan amount, waived for veterans drawing service-connected disability compensation).",
-        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt \u2014 not by specialty or branch.",
-        "state_benefit_variance_note": "State veteran benefits are set by individual state legislatures and are NOT a single national figure (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
-        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project); data/education-benefits.json (RUN EDU-BENEFITS, this project)",
-        "retrieved_date": "2026-07-12"
-      },
-      "education_benefits": {
-        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a zip-code-based housing allowance and a $1,000/yr book stipend. (data/education-benefits.json)",
-        "tuition_assistance": "Space Force Tuition Assistance is UNVERIFIED at primary-source level in data/education-benefits.json \u2014 assumed (not confirmed) to follow the same Department of the Air Force AFVEC-administered $250/semester-hour, $4,500/fiscal-year program as the Air Force, since Space Force falls under the Department of the Air Force. This is an inference, not a directly sourced figure.",
-        "credentialing_assistance": "Space Force Credentialing Assistance is similarly UNVERIFIED in data/education-benefits.json \u2014 assumed to mirror the Air Force's AFVEC-administered program. Confirm before relying on this.",
-        "coop_or_apprenticeship_notes": "The Community College of the Air Force (CCAF) associate's-degree-credit pathway earned during Enlisted Undergraduate Space Training is a real, sourced (spaceforce.com) education benefit specific to this pipeline."
-      },
-      "deployment_and_lifestyle": {
-        "typical_tempo": "Space Force operations are overwhelmingly conducted from fixed, largely CONUS-based operations centers (e.g., Vandenberg SFB, Peterson/Schriever SFB, Buckley SFB) via rotating shift work, rather than traditional overseas troop deployments \u2014 consistent with the Space Force's structural description as a small, garrison-based, console-driven service. This is general/structural knowledge about the Space Force, not independently re-sourced for this specific specialty this session.",
-        "family_considerations": "The largely fixed-location, shift-based nature of Space Force operations (as opposed to traditional overseas rotational deployment) is often cited as a distinguishing family-stability factor relative to the other five branches, though this framing was not independently sourced to a specific citation this session \u2014 treat as a reasonable inference from the Space Force's documented structure rather than a confirmed claim."
-      },
-      "visual_assets": {
-        "branch_logo_id": "space-force-logo",
-        "specialty_badge_id": null,
-        "dvids_search_terms": [
-          "Space Force Guardian space systems operator console",
-          "Vandenberg Space Force Base satellite operations center",
-          "Space Delta missile warning operations crew"
-        ],
-        "risk_tier": "MEDIUM"
-      },
-      "sources": [
-        {
-          "title": "Space Systems Operator \u2014 Enlisted Careers \u2014 U.S. Space Force (official, directly fetched)",
-          "url": "https://www.spaceforce.com/enlisted-careers/space-systems-operator",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "Undergraduate Space Training evolves to tackle space threats \u2014 Air Education and Training Command (official .mil, directly fetched)",
-          "url": "https://www.aetc.af.mil/News/Article-Display/Article/2161701/undergraduate-space-training-evolves-to-tackle-space-threats/",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "ENLISTED ONLY USSF SPECIALTY CODE CROSSWALK (official, fetch attempted in a prior session's TAXONOMY run, returned HTTP 403 \u2014 content not retrieved; not re-attempted this session per the binding instruction not to burn calls chasing a 403)",
-          "url": "https://www.spaceforce.mil/LinkClick.aspx?fileticket=csSHRIrRU8c%3D&portalid=1&timestamp=1655211268589",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "BLS OEWS \u2014 Aerospace Engineering and Operations Technologists and Technicians (17-3021)",
-          "url": "https://www.bls.gov/oes/current/oes173021.htm",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "BLS OEWS \u2014 Telecommunications Equipment Installers and Repairers, Except Line Installers (49-2022)",
-          "url": "https://www.bls.gov/oes/2023/may/oes492022.htm",
-          "retrieved_date": "2026-07-12"
-        }
-      ]
-    },
-    {
-      "id": "space-force-space-operations-officer",
-      "name": "Space Operations Officer",
-      "branch": "Space Force",
-      "track": "officer",
-      "code": "UNVERIFIED",
-      "interest_cluster_ids": [
-        "space-satellite"
-      ],
-      "entry_requirements": {
-        "asvab_line_score": null,
-        "education": "Bachelor's or master's degree in any field, per spaceforce.com (directly fetched 2026-07-12) \u2014 no STEM-specific degree requirement was stated, despite the technical nature of the work.",
-        "age_range": "18-42, per spaceforce.com (directly fetched 2026-07-12).",
-        "physical": "Normal color vision required. Standard DoD officer-accession medical standards.",
-        "security_clearance": "Single Scope Background Investigation (SSBI) \u2014 the investigative basis for Top Secret/SCI-level clearance eligibility \u2014 per spaceforce.com (directly fetched 2026-07-12).",
-        "other": "U.S. citizenship required. Commissioning via Officer Training School (OTS), U.S. Air Force Academy (USAFA), or Air Force ROTC (AFROTC) \u2014 there is no separate Space Force academy or ROTC program (data/branch-profiles.json).",
-        "asvab_line_score_note": "Not applicable. Officers are COMMISSIONED, not enlisted \u2014 they do not take the ASVAB. The gate is a bachelor's degree plus a commissioning source (Academy, ROTC, or OTS), and for some fields an officer qualifying test (AFOQT). Previously this field incorrectly carried an ASVAB figure: Not applicable in the enlisted-ASVAB sense \u2014 officer accession uses the Air Forc"
-      },
-      "training_pipeline": [
-        {
-          "stage": "Commissioning source \u2014 Officer Training School (OTS) track",
-          "location": "Maxwell Air Force Base, Alabama",
-          "length_weeks": 16,
-          "description": "Approximately 115 days (~16.4 weeks, rounded to 16) per spaceforce.com. This is one of three commissioning paths (OTS, USAFA, AFROTC); USAFA (a 4-year undergraduate program) and AFROTC (a multi-year college program) are not reducible to a single 'training stage' week count the way OTS is \u2014 they are commissioning sources, not post-commissioning technical schools, and are represented here only via the OTS figure for schema compatibility."
-        },
-        {
-          "stage": "Undergraduate Space Training (UST) \u2014 officer track ('UST NEXT')",
-          "location": "Vandenberg Space Force Base, California",
-          "length_weeks": 16,
-          "description": "110 days (~15.7 weeks, rounded to 16), per an Air Education and Training Command article (aetc.af.mil, directly fetched 2026-07-12) describing the expanded 'UST NEXT' officer course. Prospective space officers report to Vandenberg immediately after Basic Military Training/commissioning. Followed by a 'Space Warfighter' specialization course in the Colorado Springs, Colorado area (potentially at Peterson Space Force Base) for in-depth training in the officer's specific area of specialization \u2014 length of that follow-on course was not independently confirmed this session."
-        }
-      ],
-      "pay_and_compensation": {
-        "paygrade_entry": "O-1",
-        "base_pay_monthly_usd": 4150.2,
-        "bah_estimate_monthly_usd": "varies by duty station",
-        "bas_monthly_usd": 328.48,
-        "total_compensation_estimate_annual_usd": 53744.16,
-        "methodology_note": "Computed, not authoritative: (O-1, <2 YOS basic pay $4,150.20/mo + officer BAS $328.48/mo) x 12 = $53,744.16/yr. BAH is intentionally EXCLUDED because it is duty-station-specific (pay-tables.json bah.national_number_warning) \u2014 actual total compensation is materially higher once a real BAH figure for the officer's duty station and dependency status is added. Excludes the DoD TSP contribution and TRICARE's non-cash value.",
-        "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html",
-        "retrieved_date": "2026-07-12"
-      },
-      "bonuses": {
-        "enlistment_bonus_range_usd": null,
-        "reenlistment_bonus_range_usd": null,
-        "conditions": "Officer accession/retention bonuses (e.g., for STEM-credentialed space officers) may exist but no current, verifiable figure was sourced this session. Officer signing/retention bonus programs are typically structured differently from enlisted enlistment/reenlistment bonuses (e.g., Aviation Continuation Pay-style constructs for other career fields) and were out of scope for this run's web budget. Verify with an Officer Accessions counselor or the current AFPC officer incentive-pay program page before relying on any figure.",
-        "source": "UNVERIFIED this session \u2014 no bonus-specific source fetched",
-        "retrieved_date": "2026-07-12"
-      },
-      "career_progression": {
-        "typical_promotion_timeline": "No Space Force-specific officer promotion-timeline figure was sourced this session. DoD-wide officer promotion norms (O-1\u2192O-2 typically ~18-24 months, O-2\u2192O-3 ~24 months, i.e. roughly the 4-year mark for O-3) are a general pattern, not a sourced Space Force-specific figure \u2014 flagged rather than stated as confirmed.",
-        "reenlistment_decision_points": [
-          "Initial service commitment completion (varies by commissioning source \u2014 e.g., USAFA/AFROTC scholarship obligations run longer than OTS)",
-          "O-3/O-4 career-field-designation and functional-specialization decision points",
-          "The 20-year retention decision (pension cliff \u2014 see retirement block)"
-        ],
-        "advanced_schools_or_certs": [
-          "Undergraduate Space Training (UST NEXT) and the follow-on Space Warfighter course (see training_pipeline) function as the primary technical specialization pathway for new Space Operations officers, per aetc.af.mil."
-        ],
-        "officer_conversion_path": null,
-        "source": "https://www.spaceforce.com/officer-careers/space-operations-officer; https://www.aetc.af.mil/News/Article-Display/Article/2161701/undergraduate-space-training-evolves-to-tackle-space-threats/",
-        "retrieved_date": "2026-07-12"
-      },
-      "retirement": {
-        "system": "BRS",
-        "tsp_auto_contribution_pct": 5,
-        "tsp_match_max_pct": 4,
-        "vesting_years": 2,
-        "pension_multiplier_pct": 2.0,
-        "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years of commissioned/total service \u2014 no partial/prorated defined-benefit pension for separating earlier. Before 20 years, an officer keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years). The defined-benefit pension is 'entirely forfeited' below 20 years (data/retirement.json). Applies identically regardless of specialty or branch, including Space Force officers.",
-        "continuation_pay_note": "One-time cash payout available between roughly year 7/8 and year 12 of service; exact window/multiplier set annually per service (data/retirement.json documents the Army's active-component rate as 2.5x monthly basic pay \u2014 not independently confirmed for Space Force officers this session).",
-        "guard_reserve_points_note": "NOT APPLICABLE in the traditional sense: the Space Force has NO reserve component and NO National Guard equivalent (data/branch-profiles.json). Guardians serve 'sustained duty' or 'not on sustained duty' under the Space Force Personnel Management Act rather than the points-based Guard/Reserve system used elsewhere \u2014 an emerging, still-small program (247 initial Guardians on Non-Sustained Duty as of April 2026) without an independently-confirmed non-regular-retirement analog as of this research date.",
-        "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67). Fully taxable in the year received. (data/retirement.json)",
-        "source": "data/retirement.json (RUN RETIREMENT, this project); data/branch-profiles.json (Space Force single-component structure)",
-        "retrieved_date": "2026-07-12"
-      },
-      "transition": {
-        "skillbridge_eligible": true,
-        "skillbridge_notes": "DoD-wide SkillBridge eligibility is not specialty- or rank-restricted in principle (data/transition.json), though officer SkillBridge utilization and unit-commander approval dynamics may differ in practice from enlisted \u2014 not independently verified for Space Force officers this session.",
-        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program, identical requirements regardless of officer/enlisted status: pre-separation counseling, VA Benefits I, DOL employment workshop, optional 2-day track, Capstone. Must begin no later than 365 days before separation. (data/transition.json)",
-        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below. Officers and enlisted receive the same form.",
-        "va_disability_common_claims": [
-          "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json does not include a space-operations entry). Reasoned from the nature of the job:",
-          "Eye strain, sleep-cycle disruption, and stress-related conditions from sustained shift-based command-and-control/operations-center duty, by the same reasoning as the enlisted Space Systems Operator record",
-          "To verify: consult a VSO familiar with Space Force officer career fields; no mature published claims-frequency dataset for this branch/specialty combination likely exists yet given the Space Force's small size and recent founding (2019)."
-        ],
-        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json). No Space-Force-specific eligibility variance.",
-        "source": "data/transition.json (RUN TRANSITION, this project)",
-        "retrieved_date": "2026-07-12"
-      },
-      "civilian_crosswalk": {
-        "onet_codes": [
-          "17-2011.00 \u2014 Aerospace Engineers",
-          "17-3021.00 \u2014 Aerospace Engineering and Operations Technologists and Technicians"
-        ],
-        "example_civilian_titles": [
-          "Satellite operations program manager (commercial space operator)",
-          "Mission director / flight director (commercial launch or satellite operator)",
-          "Space-systems program manager (defense contractor)",
-          "Space policy/acquisitions analyst"
-        ],
-        "relevant_certifications": [
-          "No universal civilian licensure requirement for this officer career field \u2014 unlike, e.g., a Professional Engineer (PE) license, which would require a separate ABET-accredited engineering degree and FE/PE exam sequence regardless of Space Force officer experience if the civilian role requires a legally 'stamped' engineering design (most operations/program-management roles this crosswalk targets do not)."
-        ],
-        "estimated_civilian_salary_range_usd": [
-          79830,
-          134830
-        ],
-        "credential_gap_note": "A Space Force officer commission and space-operations training do not confer a civilian engineering license (PE) or a portable 'space operations' certification \u2014 the officer's degree (which can be in any field, not necessarily engineering) plus operational leadership experience is valued by aerospace/defense employers, but a genuine engineering design role generally still requires a PE license built on an ABET-accredited degree and the FE/PE exam sequence, which military space-operations service does not provide. What DOES transfer with clear, independent civilian value: the SSBI-based TS/SCI-eligible clearance, and program-management/operational-leadership experience directing complex technical systems. What requires separate credentialing: any role legally requiring a PE stamp, and most private-sector technical roles will still expect employer-specific systems retraining.",
-        "source": "https://www.bls.gov/oes/current/oes173021.htm (Aerospace Engineering and Operations Technologists and Technicians, median $79,830); https://www.bls.gov/oes/2023/may/oes172011.htm (Aerospace Engineers, median $134,830, reference period reported by search synthesis as May 2024 \u2014 exact OEWS release year not cross-confirmed from the URL alone this session)",
-        "retrieved_date": "2026-07-12"
-      },
-      "veteran_benefits": {
-        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months, down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. Applies identically to officers as to enlisted. (data/education-benefits.json)",
-        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment. Must be requested via milConnect while still serving. (data/veteran-benefits.json)",
-        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting and a funding fee (1.25%-3.3% of loan amount, waived for veterans drawing service-connected disability compensation).",
-        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt \u2014 not by rank, specialty, or branch.",
-        "state_benefit_variance_note": "State veteran benefits are set by individual state legislatures and are NOT a single national figure (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
-        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project); data/education-benefits.json (RUN EDU-BENEFITS, this project)",
-        "retrieved_date": "2026-07-12"
-      },
-      "education_benefits": {
-        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a zip-code-based housing allowance and a $1,000/yr book stipend. (data/education-benefits.json)",
-        "tuition_assistance": "Space Force Tuition Assistance is UNVERIFIED at primary-source level in data/education-benefits.json \u2014 assumed to follow the Air Force's AFVEC-administered program. Additionally, commissioned officers are commonly reported ineligible for Credentialing Assistance-style programs across the Department of the Air Force (per the Army CA precedent in data/education-benefits.json; not independently confirmed for Space Force officers specifically).",
-        "credentialing_assistance": "See tuition_assistance note \u2014 officer eligibility for Credentialing Assistance specifically is UNVERIFIED and plausibly restricted, not confirmed either way this session.",
-        "coop_or_apprenticeship_notes": null
-      },
-      "deployment_and_lifestyle": {
-        "typical_tempo": "Space Force officer operations are overwhelmingly conducted from fixed, largely CONUS-based operations centers via rotating shift/watch work, rather than traditional overseas troop deployments \u2014 consistent with the Space Force's structural description as a small, garrison-based, console-driven service. General/structural knowledge, not independently re-sourced for this specific officer career field this session.",
-        "family_considerations": "The largely fixed-location nature of Space Force operations is often cited as a distinguishing family-stability factor relative to the other five branches' officer corps, though this framing was not independently sourced to a specific citation this session."
-      },
-      "visual_assets": {
-        "branch_logo_id": "space-force-logo",
-        "specialty_badge_id": null,
-        "dvids_search_terms": [
-          "Space Force officer space operations center",
-          "Undergraduate Space Training graduation Vandenberg Space Force Base",
-          "Guardian satellite command and control officer"
-        ],
-        "risk_tier": "MEDIUM"
-      },
-      "sources": [
-        {
-          "title": "Space Operations Officer \u2014 Careers \u2014 U.S. Space Force (official, directly fetched)",
-          "url": "https://www.spaceforce.com/officer-careers/space-operations-officer",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "Undergraduate Space Training evolves to tackle space threats \u2014 Air Education and Training Command (official .mil, directly fetched)",
-          "url": "https://www.aetc.af.mil/News/Article-Display/Article/2161701/undergraduate-space-training-evolves-to-tackle-space-threats/",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "BLS OEWS \u2014 Aerospace Engineers (17-2011)",
-          "url": "https://www.bls.gov/oes/2023/may/oes172011.htm",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "BLS OEWS \u2014 Aerospace Engineering and Operations Technologists and Technicians (17-3021)",
-          "url": "https://www.bls.gov/oes/current/oes173021.htm",
-          "retrieved_date": "2026-07-12"
-        }
-      ]
-    },
-    {
-      "id": "air-force-1c6x1-space-systems-operations",
-      "name": "Space Systems Operations Specialist",
-      "branch": "Air Force",
-      "track": "enlisted",
-      "code": "1C6X1",
-      "interest_cluster_ids": [
-        "space-satellite"
-      ],
-      "entry_requirements": {
-        "asvab_line_score": "Electronics (E) MAGE composite \u2265 60, per the official airforce.com career page (directly fetched 2026-07-12). Same numeric threshold as the Space Force's parallel enlisted Space Systems Operator entry.",
-        "education": "High school diploma or equivalent; an AFQT score of 65+ is accepted in lieu of a diploma for non-graduates, per airforce.com (directly fetched 2026-07-12).",
-        "age_range": "17-42 at enlistment, per airforce.com (directly fetched 2026-07-12).",
-        "physical": "Normal color vision required. Standard Air Force accession medical standards.",
-        "security_clearance": "Single Scope Background Investigation (SSBI) \u2014 the investigative basis for Top Secret/SCI-level clearance eligibility \u2014 per airforce.com (directly fetched 2026-07-12).",
-        "other": "U.S. citizenship required. IMPORTANT STRUCTURAL NOTE: airforce.com (fetched 2026-07-12) lists this AFSC as open across Air Force Active Duty, Air Force Reserve, and Air National Guard \u2014 it does NOT state that the mission or accession pipeline transferred to the Space Force, even though technical training occurs at Vandenberg Space Force Base (the same location used for Space Force's own UST). This is a genuinely surprising finding worth flagging rather than silently reconciling: the most defensible read, consistent with public reporting that the Space Force has no reserve/Guard component of its own, is that active-duty 1C6X1 space-operations manning has largely transitioned to the Space Force (its Space Systems Operator career field, previous record in this file) while Air National Guard and Air Force Reserve units performing space-surveillance/missile-warning missions (which the Space Force cannot yet absorb, having no Guard/Reserve of its own) continue to access and train personnel under the legacy Air Force AFSC 1C6X1. This interpretation is NOT independently confirmed against a primary source this session and is offered as the most defensible reading of directly-observed, conflicting official material, not as a verified fact."
-      },
-      "training_pipeline": [
-        {
-          "stage": "Basic Military Training (BMT)",
-          "location": "Joint Base San Antonio-Lackland (JBSA-Lackland), San Antonio, Texas",
-          "length_weeks": 7,
-          "description": "Approximately 7.5 weeks (recorded as 7 because the schema field is an integer). (data/branch-profiles.json)"
-        },
-        {
-          "stage": "Technical Training",
-          "location": "Vandenberg Space Force Base, California",
-          "length_weeks": 11,
-          "description": "51-100 days per airforce.com (directly fetched 2026-07-12); recorded here at the approximate midpoint (~75 days \u2248 11 weeks) since the source gave a range rather than one figure, and because this range plausibly reflects the same Enlisted Undergraduate Space Training pipeline documented on the Space Force's own enlisted careers page (75 days). Graduates earn credits toward Air and Space Operations Technology / a Community College of the Air Force associate's degree."
-        }
-      ],
-      "pay_and_compensation": {
-        "paygrade_entry": "E-1",
-        "base_pay_monthly_usd": 2407.2,
-        "bah_estimate_monthly_usd": "varies by duty station",
-        "bas_monthly_usd": 476.95,
-        "total_compensation_estimate_annual_usd": 34609.8,
-        "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. Air National Guard drill-status members would instead be compensated on the 1/30th-rule drill-pay basis documented in data/pay-tables.json's guard_reserve_drill_pay section, NOT this active-duty annualized figure \u2014 that distinction matters materially for this specific record given the ANG-heavy nature of the current 1C6X1 accession picture (see entry_requirements.other). BAH is intentionally EXCLUDED as duty-station-specific.",
-        "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html",
-        "retrieved_date": "2026-07-12"
-      },
-      "bonuses": {
-        "enlistment_bonus_range_usd": null,
-        "reenlistment_bonus_range_usd": null,
-        "conditions": "No current, verifiable 1C6X1 enlistment or reenlistment/Selective Reenlistment Bonus (SRB) figure was sourced this session. Space/missile-warning-adjacent AFSCs are plausible SRB candidates given the shortage/high-training-cost profile, but this was not confirmed \u2014 verify with a recruiter or the current AFPC SRB list before relying on any figure.",
-        "source": "UNVERIFIED this session \u2014 no bonus-specific source fetched",
-        "retrieved_date": "2026-07-12"
-      },
-      "career_progression": {
-        "typical_promotion_timeline": "No 1C6X1-specific promotion-timeline figure was sourced this session; general Air Force enlisted promotion timing (a mix of time-in-service, time-in-grade, and points-based testing through the senior-NCO ranks) was not independently re-verified in this record.",
-        "reenlistment_decision_points": [
-          "End of initial term of service",
-          "Air National Guard/Air Force Reserve members: continued drill-status commitment decisions distinct from active-duty career gates, given this AFSC's apparent current concentration in ANG/AFR units",
-          "The 20-year retention decision (active: pension cliff; ANG/AFR: 20 qualifying 'good years' toward a non-regular pension \u2014 see retirement block)"
-        ],
-        "advanced_schools_or_certs": [
-          "Credits toward an Air and Space Operations Technology / Community College of the Air Force associate's degree, earned during technical training, per airforce.com."
-        ],
-        "officer_conversion_path": null,
-        "source": "https://www.airforce.com/careers/intelligence/space-systems-operations",
-        "retrieved_date": "2026-07-12"
-      },
-      "retirement": {
-        "system": "BRS",
-        "tsp_auto_contribution_pct": 5,
-        "tsp_match_max_pct": 4,
-        "vesting_years": 2,
-        "pension_multiplier_pct": 2.0,
-        "twenty_year_cliff_note": "For active-duty members: the pension is all-or-nothing at 20 years, with TSP contributions/matching always portable regardless of when a member separates (data/retirement.json). Before 20 years, every dollar of personal TSP contributions plus vested government contributions is portable; the defined-benefit pension itself is fully forfeited below 20 years.",
-        "continuation_pay_note": "One-time cash payout available between roughly year 7/8 and year 12 of service for active-component members; a separate, smaller reserve-component continuation-pay multiplier range (0.5x-6x monthly basic pay) applies to drilling National Guard/Reserve members, per data/retirement.json. No 1C6X1-specific rate was identified.",
-        "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement \u2014 and this distinction is UNUSUALLY LOAD-BEARING for this specific record given the apparent current concentration of 1C6X1 accessions in Air National Guard/Air Force Reserve units (see entry_requirements.other). Guard/Reserve retirement runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension generally starting at age 60 (reducible to not below age 50 for qualifying post-2008 mobilized duty). A drilling 1C6X1 Guardsman/Reservist's overall annual income depends heavily on civilian employment plus points-based retirement credit, NOT a monthly active-duty-equivalent salary \u2014 do not present this record's active-duty pay_and_compensation figures as representative of a drilling Guard/Reserve member's actual income.",
-        "lump_sum_option_note": "At 20+ years (active-duty regular retirement), a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67). (data/retirement.json)",
-        "source": "data/retirement.json (RUN RETIREMENT, this project)",
-        "retrieved_date": "2026-07-12"
-      },
-      "transition": {
-        "skillbridge_eligible": true,
-        "skillbridge_notes": "DoD-wide SkillBridge eligibility applies to active-duty members nearing separation (data/transition.json); Guard/Reserve members' SkillBridge eligibility depends on activation status and was not independently confirmed for this record this session.",
-        "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program for separating/retiring active-duty members, and for Guard/Reserve members with 180+ continuous days on active-duty orders (data/transition.json). Must begin no later than 365 days before separation for those it applies to.",
-        "dd214_significance": "The DD-214's 'character of service' entry gates eligibility for nearly every benefit below. No 1C6X1-specific significance beyond the general rule.",
-        "va_disability_common_claims": [
-          "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json does not include a space-operations entry). Reasoned from the nature of the job, identical logic to the Space Force Space Systems Operator record:",
-          "Eye strain, sleep-cycle disruption, and stress-related conditions from sustained shift-based console/monitoring duty",
-          "To verify: consult a VSO familiar with Air Force/Air National Guard space-surveillance career fields."
-        ],
-        "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json). No 1C6X1-specific eligibility variance.",
-        "source": "data/transition.json (RUN TRANSITION, this project)",
-        "retrieved_date": "2026-07-12"
-      },
-      "civilian_crosswalk": {
-        "onet_codes": [
-          "17-3021.00 \u2014 Aerospace Engineering and Operations Technologists and Technicians",
-          "49-2022.00 \u2014 Telecommunications Equipment Installers and Repairers, Except Line Installers"
-        ],
-        "example_civilian_titles": [
-          "Satellite operations technician / mission controller (commercial space operator)",
-          "Ground-segment operations technician",
-          "Range operations technician (space launch support)"
-        ],
-        "relevant_certifications": [
-          "No universal civilian licensure gates commercial satellite/space operations work \u2014 identical credential-gap logic to the Army 25S and Space Force Space Systems Operator records. Community College of the Air Force associate-degree credit is a real, portable academic credential but not an occupational license."
-        ],
-        "estimated_civilian_salary_range_usd": [
-          62350,
-          79830
-        ],
-        "credential_gap_note": "Identical credential gap to the Army 25S and Space Force enlisted Space Systems Operator records: no portable civilian 'space operator' license exists, and commercial satellite/launch operators retrain new hires on proprietary systems regardless of military background. What transfers with clear value: the SSBI-based TS/SCI-eligible clearance and CCAF associate-degree credit. What does not: proficiency on classified military space-surveillance/missile-warning systems, which have no civilian-sector equivalent interface.",
-        "source": "https://www.bls.gov/oes/current/oes173021.htm (Aerospace Engineering and Operations Technologists and Technicians, median $79,830); https://www.bls.gov/oes/2023/may/oes492022.htm (Telecommunications Equipment Installers and Repairers, median $62,350)",
-        "retrieved_date": "2026-07-12"
-      },
-      "veteran_benefits": {
-        "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying ACTIVE-DUTY days specifically \u2014 this matters unusually for this record: drill/annual-training days performed by a Guard/Reserve 1C6X1 member do NOT count toward Chapter 33 eligibility (data/education-benefits.json); only qualifying Title 10 active-duty days count. A drilling Guardsman/Reservist in this AFSC who is never activated to Title 10 active duty may instead need to rely on the separate Chapter 1606 Montgomery GI Bill \u2014 Selected Reserve program (data/education-benefits.json montgomery_gi_bill.ch1606_selected_reserve), which pays a materially lower monthly rate ($493/mo full-time vs. Chapter 33's tuition-plus-BAH structure).",
-        "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service (active duty or Selected Reserve), in exchange for a 4-year additional service-obligation commitment. Must be requested via milConnect while still serving. (data/veteran-benefits.json)",
-        "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting and a funding fee. Selected Reserve/Guard members have their own VA home loan eligibility pathway (generally 6 years of qualifying Selected Reserve service, or activation to active duty for a qualifying period) distinct from the active-duty pathway \u2014 not independently detailed in data/veteran-benefits.json this session.",
-        "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt \u2014 not by specialty. Guard/Reserve members' VA healthcare eligibility generally depends on having been activated under Title 10 orders for a qualifying period; drill-only service without activation does not by itself confer VA healthcare eligibility \u2014 not independently re-confirmed this session.",
-        "state_benefit_variance_note": "State veteran benefits are set by individual state legislatures and are NOT a single national figure (data/veteran-benefits.json); some states also distinguish Guard-only service from federal active-duty service for state-benefit eligibility, a further layer of variance beyond the general warning.",
-        "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project); data/education-benefits.json (RUN EDU-BENEFITS, this project)",
-        "retrieved_date": "2026-07-12"
-      },
-      "education_benefits": {
-        "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools for members with qualifying active-duty days; see veteran_benefits.gi_bill_tier_note above for why this is a materially live caveat for this specific ANG/AFR-concentrated record. (data/education-benefits.json)",
-        "tuition_assistance": "DoD-wide Tuition Assistance: $250/semester-hour, capped at $4,500/fiscal year, administered through the Air Force Virtual Education Center (AFVEC) \u2014 applies to Air Force Active Duty, Air Force Reserve, and Air National Guard members per data/education-benefits.json.",
-        "credentialing_assistance": "Air Force Credentialing Assistance via AFVEC: reported cap of up to $4,500/year, per data/education-benefits.json \u2014 search-sourced, not independently fetched from cool.osd.mil in that command's session.",
-        "coop_or_apprenticeship_notes": "Community College of the Air Force associate-degree credit toward Air and Space Operations Technology, earned during technical training, per airforce.com."
-      },
-      "deployment_and_lifestyle": {
-        "typical_tempo": "For Air National Guard/Reserve members in this AFSC (see entry_requirements.other): duty is drill-weekend-based (traditional Guard/Reserve schedule) with periodic annual training and possible activation, rather than continuous active-duty presence \u2014 fundamentally different tempo from either an active-duty Airman or a full-time Space Force Guardian. For any active-duty 1C6X1 members, operations are console/shift-based at fixed operations centers, similar to the Space Force's own Space Systems Operator role. Not independently sourced to a specific citation this session; reasoned from the AFSC's documented multi-component (Active/Reserve/ANG) accession structure.",
-        "family_considerations": "Guard/Reserve status in this AFSC generally permits members to maintain a civilian job and home community between drill weekends \u2014 a materially different family-stability profile than full-time active duty, and worth surfacing explicitly given this record's apparent ANG/AFR concentration."
-      },
-      "visual_assets": {
-        "branch_logo_id": "air-force-logo",
-        "specialty_badge_id": null,
-        "dvids_search_terms": [
-          "Air Force space systems operations Airman 1C6X1",
-          "Air National Guard space surveillance squadron",
-          "Air Force Reserve space operations Vandenberg training"
-        ],
-        "risk_tier": "MEDIUM"
-      },
-      "sources": [
-        {
-          "title": "Space Systems Operations Specialist \u2014 U.S. Air Force (official, directly fetched)",
-          "url": "https://www.airforce.com/careers/intelligence/space-systems-operations",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "BLS OEWS \u2014 Aerospace Engineering and Operations Technologists and Technicians (17-3021)",
-          "url": "https://www.bls.gov/oes/current/oes173021.htm",
-          "retrieved_date": "2026-07-12"
-        },
-        {
-          "title": "BLS OEWS \u2014 Telecommunications Equipment Installers and Repairers, Except Line Installers (49-2022)",
-          "url": "https://www.bls.gov/oes/2023/may/oes492022.htm",
-          "retrieved_date": "2026-07-12"
-        }
-      ]
+     "stage": "Advanced Individual Training (AIT) — 25S Satellite Communication Systems Operator-Maintainer Course",
+     "location": "Fort Gordon, Georgia (Signal Center of Excellence)",
+     "length_weeks": 18,
+     "description": "Operation and maintenance of multichannel satellite communication systems used for command-and-control and operational support; communications coding/security procedures; hands-on equipment maintenance and troubleshooting. Length cross-corroborated by two independent secondary sources (operationmilitarykids.org, WebSearch synthesis of goarmy.com); not independently confirmed via direct fetch of the primary goarmy.com page this session (redirect-loop failure)."
     }
-  ],
-  "branches_with_no_presence": [
+   ],
+   "pay_and_compensation": {
+    "paygrade_entry": "E-1",
+    "base_pay_monthly_usd": 2407.2,
+    "bah_estimate_monthly_usd": "varies by duty station",
+    "bas_monthly_usd": 476.95,
+    "total_compensation_estimate_annual_usd": 34609.8,
+    "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. BAH is intentionally EXCLUDED because it is duty-station-specific and cannot be reduced to one national number (pay-tables.json bah.national_number_warning) — actual total cash compensation is materially higher once a real BAH figure for the member's duty station is added. Excludes the DoD TSP contribution (up to 5% of base pay) and TRICARE's non-cash value, neither of which pay-tables.json could quantify to primary-source confidence.",
+    "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html (primary DFAS/militarypay.defense.gov pages returned HTTP 403 on direct fetch in that command's session)",
+    "retrieved_date": "2026-07-12"
+   },
+   "bonuses": {
+    "enlistment_bonus_range_usd": null,
+    "reenlistment_bonus_range_usd": null,
+    "conditions": "Signal Corps / SATCOM-family MOSs are historically among the more bonus-eligible shortage fields (unlike, e.g., culinary), but no current, primary-verified 25S-specific enlistment or reenlistment bonus figure was sourced this session — the official HRC Bonus Chart was not fetched for this cluster (out of this run's 10-call web budget). Per this project's binding instruction, bonuses change quarterly and a stale number must not be quoted. Verify current 25S bonus eligibility and amount directly with a recruiter or the current HRC Bonus Chart (hrc.army.mil) before relying on any figure.",
+    "source": "UNVERIFIED this session — no bonus-specific source fetched",
+    "retrieved_date": "2026-07-12"
+   },
+   "career_progression": {
+    "typical_promotion_timeline": "E-1→E-4 in roughly 2-3 years and E-5 board eligibility at ~4-6 years is the Army-wide enlisted norm; no 25S-specific timeline deviation was found this session — general pattern, not a sourced 25S-specific figure.",
+    "reenlistment_decision_points": [
+     "End of initial term of service (commonly a 3- or 4-year first contract)",
+     "Mid-career (~8-10 years) reenlistment tied to promotion/NCO development school completion",
+     "The 20-year retention decision (pension cliff — see retirement block)"
+    ],
+    "advanced_schools_or_certs": [
+     "Army COOL lists credentialing pathways for 25S (cool.osd.mil/army/moc/index.html?moc=25s&tab=cred — URL surfaced in search results but the page was not independently fetched to primary-source confidence this session; specific certification names are therefore not listed here rather than guessed).",
+     "Basic/Advanced NCO courses at each promotion requirement (standard Army NCOES, not 25S-specific)"
+    ],
+    "officer_conversion_path": "Green-to-Gold (the Army-wide enlisted-to-officer commissioning path) is available generally, not 25S-specifically. The Army's dedicated space-focused officer track is Functional Area 40 (FA40 — Space Operations), per data/interest-taxonomy.json's space-satellite cluster notes — but FA40 is an officer-only functional area entered after initial commissioning (via a separate FA-designation process), not a direct MOS-to-FA40 pipeline from 25S. There is no confirmed, guaranteed 25S→FA40 conversion path.",
+    "source": "data/interest-taxonomy.json (FA40 note); cool.osd.mil/army/moc/index.html?moc=25s (surfaced, not independently fetched)",
+    "retrieved_date": "2026-07-12"
+   },
+   "retirement": {
+    "system": "BRS",
+    "tsp_auto_contribution_pct": 5,
+    "tsp_match_max_pct": 4,
+    "vesting_years": 2,
+    "pension_multiplier_pct": 2.0,
+    "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years — there is no partial/prorated defined-benefit pension for separating earlier. Before 20 years, a SATCOM operator-maintainer keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years of service) — all portable into a civilian 401(k)/IRA. The defined-benefit pension itself is 'entirely forfeited' below 20 years, per DoD's own language (data/retirement.json). Applies identically regardless of specialty; 25S carries no special rule.",
+    "continuation_pay_note": "One-time cash payout available between roughly year 7 and year 12 of service (exact window and multiplier set annually per branch; Army's published active-component rate is 2.5x monthly basic pay for a 4-year additional service obligation, per data/retirement.json). No 25S-specific continuation-pay rate was identified — treat the general BRS figure as the baseline and verify current amount before relying on it.",
+    "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement. It runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension that generally starts at age 60 (reducible, not below age 50, for qualifying post-2008 mobilized duty). Applies identically to Army National Guard/Reserve 25S billets (this MOS is documented in both active-duty and Army National Guard job listings) as to any other specialty.",
+    "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67), when the monthly amount returns to the uncut level. Fully taxable in the year received.",
+    "source": "data/retirement.json (RUN RETIREMENT, this project), citing https://myarmybenefits.us.army.mil/Benefit-Library/Federal-Benefits/Blended-Retirement-System?serv=122",
+    "retrieved_date": "2026-07-12"
+   },
+   "transition": {
+    "skillbridge_eligible": true,
+    "skillbridge_notes": "DoD-wide SkillBridge eligibility (up to 180 days of permissive duty in the final window before separation) is not specialty-restricted (data/transition.json), so 25S soldiers near separation are as eligible in principle as any other MOS — subject to the same real requirement as everyone else: unit commander approval, which is discretionary based on unit staffing/operational needs. Whether telecommunications/satellite-industry SkillBridge partners (e.g., satellite operators, defense contractors) are commonly available in a given soldier's location/timing was not independently verified this session.",
+    "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track (Higher Education, Career/Technical Training, or Entrepreneurship/Boots to Business), ending in a Capstone that certifies Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of specialty. (data/transition.json)",
+    "dd214_significance": "The DD-214's 'character of service' entry decides eligibility for nearly every benefit below — VA disability, VA healthcare, GI Bill, VA home loan, and most state veteran benefits. No 25S-specific significance beyond the general rule.",
+    "va_disability_common_claims": [
+     "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json's specialty_linked_common_claims list covers combat arms, aviation, infantry, and PACT Act-covered theater deployment, but does NOT include a signal/SATCOM-operator entry). Reasoned from the nature of the job rather than pulled from a VA claims-frequency source:",
+     "Hearing loss/tinnitus from sustained exposure to generator and antenna-system equipment noise during field operation of SATCOM terminals",
+     "Musculoskeletal strain (back, shoulder) from repeatedly setting up, tearing down, and transporting heavy satellite terminal/antenna equipment in the field",
+     "Eye strain and sleep-cycle-related conditions from extended console/shift-work monitoring duty, by analogy to other console-heavy specialties — plausible but not independently confirmed for 25S specifically",
+     "To verify: check VA's published claims-by-occupation data (if published) or consult a VSO familiar with Signal Corps MOSs before treating this list as authoritative."
+    ],
+    "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json), drawn from a separate entitlement bucket than the Post-9/11 GI Bill. No 25S-specific eligibility variance.",
+    "source": "data/transition.json (RUN TRANSITION, this project)",
+    "retrieved_date": "2026-07-12"
+   },
+   "civilian_crosswalk": {
+    "onet_codes": [
+     "49-2022.00 — Telecommunications Equipment Installers and Repairers, Except Line Installers",
+     "17-3021.00 — Aerospace Engineering and Operations Technologists and Technicians"
+    ],
+    "example_civilian_titles": [
+     "Satellite communications technician",
+     "Ground-segment/network operations technician",
+     "Field service engineer (telecommunications equipment)",
+     "Satellite ground station operator"
+    ],
+    "relevant_certifications": [
+     "No universal civilian licensure decides satellite-communications-equipment work the way an FAA A&P or a state CDL does — vendor/employer-specific certifications (e.g., specific ground-terminal or modem manufacturer training) are more common than a single portable credential. This is itself the credential-gap finding for this record; see credential_gap_note.",
+     "CompTIA Network+ is commonly cited as a useful general baseline for telecommunications-equipment technician roles, though this specific pairing to 25S was not independently confirmed via Army COOL this session (see career_progression.advanced_schools_or_certs)."
+    ],
+    "estimated_civilian_salary_range_usd": [
+     62350,
+     79830
+    ],
+    "credential_gap_note": "Military SATCOM training does not confer a portable civilian license or a single industry-standard certification the way EMT, CDL, or A&P credentials work for other MOSs — there is no equivalent 'satellite technician license.' Civilian satellite/ground-segment operators (e.g., commercial satellite operators, defense contractors, teleport operators) typically retrain new hires on their own proprietary ground systems regardless of military background; military SATCOM experience is valued as a strong operational foundation and a security-clearance signal, not as a plug-and-play credential. A held Secret clearance carries independent civilian salary value in the cleared-contractor labor market, but the clearance itself does not transfer automatically — a gap in service or a change of sponsoring employer can require re-investigation.",
+    "source": "https://www.bls.gov/oes/2023/may/oes492022.htm (Telecommunications Equipment Installers and Repairers, median $62,350, reference period reported by search synthesis as May 2023); https://www.bls.gov/oes/current/oes173021.htm (Aerospace Engineering and Operations Technologists and Technicians, median $79,830, reference period reported by search synthesis as May 2024 — the exact OEWS release year could not be cross-confirmed from the URL alone this session; treat the reference year as approximate)",
+    "retrieved_date": "2026-07-12"
+   },
+   "veteran_benefits": {
+    "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months, down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. No tier below 50%. Only qualifying Title 10 active-duty days count. Applies identically regardless of specialty. (data/education-benefits.json)",
+    "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment — a real service commitment, not paperwork-only. Must be requested via milConnect while still serving. Dependent children must wait until the member has 10+ years of service to start using it. (data/veteran-benefits.json)",
+    "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting (credit/income/DTI) and a funding fee (1.25%-3.3% of loan amount depending on down payment and first/subsequent use, waived for veterans drawing service-connected disability compensation).",
+    "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt — not by specialty. A 25S veteran's group assignment depends entirely on their individual disability rating and income profile, not their MOS.",
+    "state_benefit_variance_note": "State veteran benefits (property-tax exemptions, income-tax treatment, tuition waivers, etc.) are set by individual state legislatures and are NOT a single national figure — e.g., a 100%-disabled veteran gets a full residence-homestead property-tax exemption in Texas but a flat $100,000 assessed-value exemption in California (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+    "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project); data/education-benefits.json (RUN EDU-BENEFITS, this project)",
+    "retrieved_date": "2026-07-12"
+   },
+   "education_benefits": {
+    "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools (in-state rate applies to all users) or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a housing allowance keyed to the school's zip code and a $1,000/yr book stipend — scaled by the eligibility tier above. (data/education-benefits.json)",
+    "tuition_assistance": "DoD-wide Tuition Assistance: $250/semester-hour, capped at $4,500/fiscal year, while still serving. Applies the same across all six branches per data/education-benefits.json; Army-specific usage-limit detail (reported ~16-semester-hour/fiscal-year cap) is UNVERIFIED at primary-source level in that file.",
+    "credentialing_assistance": "Army Credentialing Assistance (CA)/Army COOL: reduced to a $2,000/fiscal-year cap in 2024, lifetime limit reported at 3 credentials per 10 years of service; commissioned officers reported ineligible. UNVERIFIED at primary-source level in data/education-benefits.json (cool.osd.mil could not be independently fetched in that command's session).",
+    "coop_or_apprenticeship_notes": null
+   },
+   "deployment_and_lifestyle": {
+    "typical_tempo": "SATCOM operator-maintainers are organic to Signal battalions/companies supporting brigade- and division-level units, so deployment tempo tracks the supported unit's operational tempo rather than a rating-specific rotation — garrison-based day-to-day communications support between field exercises and deployments, with the equipment itself (mobile SATCOM terminals) built for field/expeditionary use. No sourced deployment-frequency figure specific to 25S was found this session.",
+    "family_considerations": "Garrison assignments provide relative family stability between deployments/field exercises; deployment schedule follows the supported unit's operational cycle, which varies widely by unit type (e.g., a division Signal company vs. a Special Operations-support Signal unit)."
+   },
+   "visual_assets": {
+    "branch_logo_id": "army-logo",
+    "specialty_badge_id": null,
+    "dvids_search_terms": [
+     "Army satellite communications 25S operator",
+     "Army SATCOM terminal Fort Gordon Signal",
+     "Army tactical satellite communications field exercise"
+    ],
+    "risk_tier": "MEDIUM"
+   },
+   "sources": [
     {
-      "branch": "Navy",
-      "why": "No organic space/satellite-operations occupational specialty. data/interest-taxonomy.json's space-satellite cluster lists an empty array for Navy, and no adjacent satellite-comms role was independently searched or verified for Navy this session (out of scope for this run's 10-call web budget, which was allocated to confirming the Army/Space Force/Air Force records per this run's explicit instructions). The Navy's shipboard satellite-communications equipment work is performed by ratings such as Information Systems Technician (IT), which this project's taxonomy classifies under the technology-cyber cluster, not space-satellite \u2014 not re-litigated here."
+     "title": "Army (MOS 25S) Satellite Communications Explained For 2026",
+     "url": "https://www.operationmilitarykids.org/army-satellite-communication-system-operator-maintainer-mos-25s/",
+     "retrieved_date": "2026-07-12"
     },
     {
-      "branch": "Marine Corps",
-      "why": "No organic space/satellite-operations occupational specialty. data/interest-taxonomy.json's space-satellite cluster lists an empty array for Marine Corps, consistent with the Marine Corps having no independent space-domain mission; Marine space-adjacent needs are supported by joint/Space Force capabilities rather than an organic Marine MOS."
+     "title": "Satellite Communication Systems Operator-Maintainer (25S) | GoArmy.com (surfaced via search; direct WebFetch failed with a redirect-loop error this session)",
+     "url": "https://m.goarmy.com/careers-and-jobs/browse-career-and-job-categories/computers-and-technology/satellite-communication-systems-operator-maintainer.m.html",
+     "retrieved_date": "2026-07-12"
     },
     {
-      "branch": "Coast Guard",
-      "why": "No organic space/satellite-operations occupational specialty. data/interest-taxonomy.json's space-satellite cluster lists an empty array for Coast Guard, consistent with the Coast Guard's maritime-safety/law-enforcement/search-and-rescue mission set, which does not include a space-domain function."
+     "title": "Army COOL — 25S Satellite Communications Systems Specialist (certifications tab; surfaced via search, not independently fetched)",
+     "url": "https://www.cool.osd.mil/army/moc/index.html?moc=25s&tab=cred",
+     "retrieved_date": "2026-07-12"
+    },
+    {
+     "title": "BLS OEWS — Telecommunications Equipment Installers and Repairers, Except Line Installers (49-2022)",
+     "url": "https://www.bls.gov/oes/2023/may/oes492022.htm",
+     "retrieved_date": "2026-07-12"
+    },
+    {
+     "title": "BLS OEWS — Aerospace Engineering and Operations Technologists and Technicians (17-3021)",
+     "url": "https://www.bls.gov/oes/current/oes173021.htm",
+     "retrieved_date": "2026-07-12"
     }
-  ],
-  "sources": [
+   ]
+  },
+  {
+   "id": "space-force-space-systems-operator-enlisted",
+   "name": "Space Systems Operator",
+   "branch": "Space Force",
+   "track": "enlisted",
+   "code": "UNVERIFIED",
+   "interest_cluster_ids": [
+    "space-satellite"
+   ],
+   "entry_requirements": {
+    "asvab_line_score": "Electronics (E) MAGE composite ≥ 60, per the official spaceforce.com enlisted careers page (directly fetched 2026-07-12). This matches the MAGE:E composite listed for the space-satellite cluster in data/interest-taxonomy.json.",
+    "education": "High school diploma or GED (standard Air Force/Space Force accession pipeline — Space Force shares the Air Force's enlisted accession standards per data/branch-profiles.json).",
+    "age_range": "17-42, per spaceforce.com (directly fetched 2026-07-12). Consistent with data/branch-profiles.json's note that Space Force inherits the Air Force's accession pipeline and reported age ceiling.",
+    "physical": "Normal color vision required. Standard DoD accession medical standards; must complete Basic Military Training.",
+    "security_clearance": "Single Scope Background Investigation (SSBI) — the investigative basis for Top Secret/SCI-level clearance eligibility — plus a National Agency Check with Local Agency Checks and Credit Check (NACLC), per spaceforce.com (directly fetched 2026-07-12). This is a genuinely high clearance bar, consistent with the master prompt's expectation that security clearance decides nearly all of this cluster.",
+    "other": "U.S. citizenship required."
+   },
+   "training_pipeline": [
     {
-      "title": "Space Systems Operator \u2014 Enlisted Careers \u2014 U.S. Space Force",
-      "url": "https://www.spaceforce.com/enlisted-careers/space-systems-operator",
-      "retrieved_date": "2026-07-12"
+     "stage": "Basic Military Training (BMT) — shared with the Air Force",
+     "location": "Joint Base San Antonio-Lackland (JBSA-Lackland), San Antonio, Texas",
+     "length_weeks": 7,
+     "description": "Approximately 7.5 weeks (recorded as 7 because the schema field is an integer). Shared with Air Force trainees, with dedicated Space Force drill instructors and additional Space Force-specific instruction. (data/branch-profiles.json)"
     },
     {
-      "title": "Space Operations Officer \u2014 Careers \u2014 U.S. Space Force",
-      "url": "https://www.spaceforce.com/officer-careers/space-operations-officer",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Space Systems Operations Specialist \u2014 U.S. Air Force",
-      "url": "https://www.airforce.com/careers/intelligence/space-systems-operations",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Undergraduate Space Training evolves to tackle space threats \u2014 Air Education and Training Command",
-      "url": "https://www.aetc.af.mil/News/Article-Display/Article/2161701/undergraduate-space-training-evolves-to-tackle-space-threats/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Army (MOS 25S) Satellite Communications Explained For 2026 \u2014 operationmilitarykids.org",
-      "url": "https://www.operationmilitarykids.org/army-satellite-communication-system-operator-maintainer-mos-25s/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Satellite Communication Systems Operator-Maintainer (25S) | GoArmy.com (surfaced via search; direct fetch failed \u2014 redirect loop)",
-      "url": "https://m.goarmy.com/careers-and-jobs/browse-career-and-job-categories/computers-and-technology/satellite-communication-systems-operator-maintainer.m.html",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Army COOL \u2014 25S credentials tab (surfaced via search, not independently fetched)",
-      "url": "https://www.cool.osd.mil/army/moc/index.html?moc=25s&tab=cred",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "ENLISTED ONLY USSF SPECIALTY CODE CROSSWALK (official spaceforce.mil; returned HTTP 403 in a prior session's TAXONOMY run and was not re-attempted this session per the binding instruction not to burn calls chasing a 403)",
-      "url": "https://www.spaceforce.mil/LinkClick.aspx?fileticket=csSHRIrRU8c%3D&portalid=1&timestamp=1655211268589",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "BLS OEWS \u2014 Telecommunications Equipment Installers and Repairers, Except Line Installers (49-2022)",
-      "url": "https://www.bls.gov/oes/2023/may/oes492022.htm",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "BLS OEWS \u2014 Aerospace Engineering and Operations Technologists and Technicians (17-3021)",
-      "url": "https://www.bls.gov/oes/current/oes173021.htm",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "BLS OEWS \u2014 Aerospace Engineers (17-2011)",
-      "url": "https://www.bls.gov/oes/2023/may/oes172011.htm",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "data/interest-taxonomy.json (RUN TAXONOMY, this project) \u2014 space-satellite cluster definition and per-branch presence/absence baseline",
-      "url": "internal project file",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "data/branch-profiles.json (RUN BRANCHES, this project) \u2014 Space Force single-component structure, no reserve, no separate academy",
-      "url": "internal project file",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "data/pay-tables.json, data/retirement.json, data/education-benefits.json, data/transition.json, data/veteran-benefits.json (this project) \u2014 cited per-field throughout",
-      "url": "internal project files",
-      "retrieved_date": "2026-07-12"
+     "stage": "Enlisted Undergraduate Space Training (UST)",
+     "location": "Vandenberg Space Force Base, California",
+     "length_weeks": 11,
+     "description": "75 days (~10.7 weeks, rounded to 11) of technical training combining hands-on space-operations instruction with credit toward an Intelligence Studies and Technology associate's degree through the Community College of the Air Force. Covers detecting/tracking satellites, missile-launch detection and tracking, and launch/on-orbit operations support for military satellites. Directly sourced from spaceforce.com (fetched 2026-07-12)."
     }
-  ],
-  "unverified": [
-    "All Space Force (SFSC) and Space-Force-adjacent numeric specialty codes: the official spaceforce.mil enlisted specialty crosswalk PDF returned HTTP 403 in a prior session and was not re-fetched this session (per the binding instruction not to burn calls chasing a 403). Neither spaceforce.com's enlisted nor officer career pages (both directly fetched this session) state a numeric SFSC. Per this run's binding instruction, both Space Force records carry code: 'UNVERIFIED' rather than a guessed number \u2014 this is a deliberate, instructed outcome, not an omission.",
-    "Whether Air Force AFSC 1C6X1 is still open to new ACTIVE-DUTY (not just Reserve/ANG) accessions post-Space-Force-transition: airforce.com (directly fetched 2026-07-12) lists the AFSC as open across Active Duty, Reserve, and ANG with no transfer notice, which is a genuinely surprising finding given public reporting that the space-operations mission moved to the Space Force. This record's entry_requirements.other field states the most defensible reading (ANG/AFR-concentrated, since Space Force has no Guard/Reserve of its own to absorb those units) but flags it explicitly as an unconfirmed interpretation of conflicting official material, not a verified fact.",
-    "Army 25S AIT length (18 weeks) and location (Fort Gordon, GA): cross-corroborated by 2 independent secondary/aggregator sources (operationmilitarykids.org fetched directly; WebSearch synthesis of goarmy.com) but NOT confirmed via direct fetch of the primary goarmy.com page itself, which failed with a 'too many redirects' error this session.",
-    "Space Force officer 'Space Warfighter' follow-on course length (after UST NEXT, in the Colorado Springs/Peterson SFB area): existence confirmed via aetc.af.mil, but its length in weeks was not stated in the fetched content and was not independently searched further this session.",
-    "Whether an enlisted-specific 'Space Warfighter'-equivalent follow-on course exists (parallel to the officer track) was not confirmed this session.",
-    "BLS OEWS reference-year precision for the two 'current' URL citations (oes173021 and oes172011 'current' pages): the search-tool text summaries referenced 'May 2024' data while the underlying URL patterns (some ending in /2023/may/) suggested a possible 2023 reference period; this inconsistency was not resolved by directly opening and reading the raw BLS table this session \u2014 treat the reference year as approximate, the dollar figures as directionally reliable given they were the top-ranked, on-domain BLS results returned.",
-    "All 25S/1C6X1/Space-Force enlistment and reenlistment bonus figures: explicitly left null/UNVERIFIED across all four records \u2014 no HRC/AFPC bonus-chart source was fetched this session, consistent with the binding instruction that bonuses change quarterly and must not be quoted stale.",
-    "Space Force and Air Force Tuition Assistance/Credentialing Assistance dollar caps: both inherited as UNVERIFIED, inference-only figures directly from data/education-benefits.json's own unverified list (that command's session could not independently confirm Space Force-specific TA/CA policy).",
-    "Guard/Reserve-specific VA home loan and VA healthcare eligibility mechanics cited in the Air Force 1C6X1 record's veteran_benefits block are general Guard/Reserve program knowledge, not independently re-verified against a primary va.gov source within data/veteran-benefits.json (which focused its 12-call budget on priority groups, home loan funding fees, GI Bill transferability, and state variance, not Guard/Reserve-specific sub-rules)."
-  ],
-  "completion_accountability": "4 SpecialtyRecords completed and fully populated against the OUTPUT SPEC schema: Army 25S Satellite Communication Systems Operator-Maintainer (enlisted), Space Force Space Systems Operator (enlisted), Space Force Space Operations Officer (officer), and Air Force 1C6X1 Space Systems Operations Specialist (enlisted, verified as a genuine still-active adjacent role per direct airforce.com fetch \u2014 included per this run's explicit instruction to include Navy/Air Force adjacent roles ONLY if verifiable). Navy, Marine Corps, and Coast Guard are documented in branches_with_no_presence with reasoning traced to data/interest-taxonomy.json, consistent with that file's own per-branch findings; Navy's adjacent-role question specifically was NOT independently re-searched this session (budget was concentrated on the four included records per this run's explicit priority instruction), so its absence here reflects the taxonomy's prior finding, not a fresh negative-confirmation search. THE SINGLE MOST IMPORTANT DECISION IN THIS FILE: both Space Force records carry code: 'UNVERIFIED' rather than any numeric SFSC \u2014 the official spaceforce.mil crosswalk PDF is still 403-blocked, and neither Space Force career page (both directly fetched this session) states a numeric code. A secondary aggregator (asvabusa.org, surfaced in search but not independently fetched or cited) suggested the legacy AFSC number '1C6' is still informally used, but per this run's explicit binding instruction to hold the line the TAXONOMY agent already held, that carried-over legacy number was deliberately NOT used as this record's 'code' field. Per this run's explicit instruction, the Space Force's specialty list is intentionally NOT padded beyond these two records (enlisted operator + officer) \u2014 a third taxonomy-flagged candidate ('Space Electronic Warfare') was considered and deliberately excluded rather than fabricated, because no primary or corroborating secondary source for it was fetched this session. 4 records is judged a fine, honest outcome for a structurally narrow cluster, per this run's explicit instruction that 3-6 records is the correct target and that inflating Space Force is the single worst failure mode for this cluster. Tool usage: 8 WebSearch + 6 WebFetch = 14 calls against this run's ~10-call guideline, an overage of roughly 40% \u2014 consistent with this project's established pattern (COMPENSATION 18/12, RETIREMENT 16/12, TRANSITION 18/12, combat-arms 26/15) of exceeding a soft budget specifically to avoid fabricating a dollar figure, a specialty code, or a training length; the overage here went toward (a) directly fetching both official spaceforce.com career pages and one official aetc.af.mil article rather than relying on search-summary text alone, (b) directly fetching airforce.com to check the surprising 1C6X1-still-active finding rather than assuming the taxonomy's prior 'legacy AFSC, mission moved to Space Force' framing without re-verification, and (c) sourcing real BLS OEWS median-wage figures for every civilian_crosswalk salary range rather than leaving that non-nullable schema field either fabricated or silently zeroed. No specialty code, dollar figure, training length, or URL was fabricated or guessed: every figure traces to a named source with a retrieval date, or is explicitly flagged UNVERIFIED with the specific reason, in both the per-record fields and this top-level unverified list."
+   ],
+   "pay_and_compensation": {
+    "paygrade_entry": "E-1",
+    "base_pay_monthly_usd": 2407.2,
+    "bah_estimate_monthly_usd": "varies by duty station",
+    "bas_monthly_usd": 476.95,
+    "total_compensation_estimate_annual_usd": 34609.8,
+    "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. Space Force uses the same DoD-wide pay tables as the other five branches — no Space-Force-specific pay scale exists. BAH is intentionally EXCLUDED because it is duty-station-specific (pay-tables.json bah.national_number_warning). Excludes the DoD TSP contribution and TRICARE's non-cash value.",
+    "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html",
+    "retrieved_date": "2026-07-12"
+   },
+   "bonuses": {
+    "enlistment_bonus_range_usd": null,
+    "reenlistment_bonus_range_usd": null,
+    "conditions": "No current, verifiable Space Force enlistment or reenlistment bonus figure for this specialty was sourced this session — an Air Force Personnel Center (AFPC) bonus-list fetch was not attempted for this cluster within the 10-call web budget. Space Force is a small, selective, high-demand service; bonuses (where offered) are set and change per Space Force manning needs. Per this project's binding instruction, do not treat any unsourced number as current — verify with a recruiter or the current AFPC/Space Force bonus program page.",
+    "source": "UNVERIFIED this session — no bonus-specific source fetched",
+    "retrieved_date": "2026-07-12"
+   },
+   "career_progression": {
+    "typical_promotion_timeline": "No Space Force-specific promotion-timeline figure was sourced this session. The Space Force uses its own enlisted rank structure (Specialist 1-4 replacing the airman/sergeant naming convention below E-5) but general DoD-wide promotion-timing patterns (roughly 2-4 years to reach the mid-junior-enlisted tier) are a reasonable analogy, not a sourced Space Force-specific figure — flagged rather than stated as confirmed.",
+    "reenlistment_decision_points": [
+     "End of initial term of service",
+     "Mid-career reenlistment tied to professional military education and specialty upgrade training",
+     "The 20-year retention decision (pension cliff — see retirement block)"
+    ],
+    "advanced_schools_or_certs": [
+     "Intelligence Studies and Technology associate's degree credit through the Community College of the Air Force, earned during initial UST training, per spaceforce.com.",
+     "Follow-on 'Space Warfighter' specialization training exists in the Space Force officer pipeline (Colorado Springs/Peterson Space Force Base area, per aetc.af.mil, fetched 2026-07-12); whether an equivalent named follow-on course exists for enlisted Guardians was not independently confirmed this session."
+    ],
+    "officer_conversion_path": "No Space Force-specific enlisted-to-officer conversion program name was independently confirmed this session. Space Force officers commission via USAFA, AFROTC, or OTS — all of which are accessions from outside the enlisted force rather than a documented in-service enlisted-to-officer Space Force program equivalent to the Army's Green-to-Gold. Flagged as UNVERIFIED rather than guessed.",
+    "source": "https://www.spaceforce.com/enlisted-careers/space-systems-operator; https://www.aetc.af.mil/News/Article-Display/Article/2161701/undergraduate-space-training-evolves-to-tackle-space-threats/",
+    "retrieved_date": "2026-07-12"
+   },
+   "retirement": {
+    "system": "BRS",
+    "tsp_auto_contribution_pct": 5,
+    "tsp_match_max_pct": 4,
+    "vesting_years": 2,
+    "pension_multiplier_pct": 2.0,
+    "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years — there is no partial/prorated defined-benefit pension for separating earlier. Before 20 years, a Guardian keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years). The defined-benefit pension itself is 'entirely forfeited' below 20 years (data/retirement.json). Applies identically regardless of specialty or branch, including Space Force.",
+    "continuation_pay_note": "One-time cash payout available between roughly year 7/8 and year 12 of service; exact window and multiplier are set annually per service (data/retirement.json documents the Army's published rate as 2.5x monthly basic pay). No Space Force-specific continuation-pay multiplier was identified this session — verify current amount with a Guardian career counselor before relying on any figure.",
+    "guard_reserve_points_note": "NOT APPLICABLE in the traditional sense: the Space Force has NO reserve component and NO National Guard equivalent (data/branch-profiles.json). Under the Space Force Personnel Management Act, Guardians instead serve on 'sustained duty' (full-time, standard active-duty retirement track above) or 'not on sustained duty' (part-time, an emerging status first populated in April 2026 by 247 transferred Air Force Reservists) — the points-based non-regular retirement system used by Guard/Reserve members in the other five branches has no established, independently-confirmed Space Force analog as of this research date. This structural difference is one of the Space Force's most consequential and least-padded facts and should be represented as genuinely novel, not force-fit into the Guard/Reserve points framework.",
+    "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67). Fully taxable in the year received. (data/retirement.json)",
+    "source": "data/retirement.json (RUN RETIREMENT, this project); data/branch-profiles.json (Space Force single-component structure)",
+    "retrieved_date": "2026-07-12"
+   },
+   "transition": {
+    "skillbridge_eligible": true,
+    "skillbridge_notes": "DoD-wide SkillBridge eligibility (up to 180 days of permissive duty in the final window before separation) is not specialty-restricted (data/transition.json). Given the Space Force's small size and the commercial space industry's rapid growth, SkillBridge partnerships with satellite/aerospace companies are plausible but were not independently verified for Space Force specifically this session.",
+    "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program: pre-separation counseling, a VA Benefits I course, a DOL employment-fundamentals workshop, and an optional 2-day track, ending in a Capstone certifying Career Readiness Standards are met. Must begin no later than 365 days before separation. Applies identically regardless of branch or specialty. (data/transition.json)",
+    "dd214_significance": "The DD-214's 'character of service' entry decides eligibility for nearly every benefit below. No Space-Force-specific significance beyond the general rule; Guardians receive the same DD-214 form as the other five branches.",
+    "va_disability_common_claims": [
+     "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json's specialty_linked_common_claims list does not include a space-operations entry). Reasoned from the nature of the job:",
+     "Eye strain, sleep-cycle disruption, and related conditions from sustained shift-based console/monitoring work in space-operations centers (the job is overwhelmingly console-based, not field-based)",
+     "Mental-health/stress claims tied to sustained-attention, high-consequence monitoring work (e.g., missile-warning duty), by loose analogy to other high-vigilance military occupations — not independently confirmed for this specialty",
+     "To verify: consult a VSO familiar with Space Force career fields before treating this list as authoritative; the Space Force is too new and too small for a mature published claims-frequency dataset to likely exist yet."
+    ],
+    "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json). No Space-Force-specific eligibility variance.",
+    "source": "data/transition.json (RUN TRANSITION, this project)",
+    "retrieved_date": "2026-07-12"
+   },
+   "civilian_crosswalk": {
+    "onet_codes": [
+     "17-3021.00 — Aerospace Engineering and Operations Technologists and Technicians",
+     "49-2022.00 — Telecommunications Equipment Installers and Repairers, Except Line Installers"
+    ],
+    "example_civilian_titles": [
+     "Satellite operations technician / mission controller (commercial space operator)",
+     "Ground-segment operations technician",
+     "Range operations technician (space launch support)",
+     "Space-domain-awareness analyst (entry-level, contractor)"
+    ],
+    "relevant_certifications": [
+     "No universal civilian licensure decides commercial satellite/space operations the way an FAA A&P or state CDL does for other specialties — see credential_gap_note. The Community College of the Air Force associate's degree credit earned during UST (Intelligence Studies and Technology) is a real, portable academic credential, but it is a degree-credit pathway, not an occupational license."
+    ],
+    "estimated_civilian_salary_range_usd": [
+     62350,
+     79830
+    ],
+    "credential_gap_note": "Space Force enlisted training on military space-domain-awareness, missile-warning, and satellite command-and-control systems does not transfer as a plug-and-play qualification to the commercial space industry: commercial satellite operators, launch providers, and range operators (e.g., SpaceX, ULA, L3Harris, and similar) run their own proprietary ground-system and mission-control training regardless of military background, and no independent, portable 'space operator' license exists in U.S. civilian regulation the way FAA licensure governs aircraft mechanics or pilots. What DOES transfer directly: the TS/SCI-eligible clearance (SSBI-based), which carries real, independently-priced value in the cleared-contractor labor market, and the CCAF associate-degree credit. What does NOT transfer automatically: operational proficiency on classified military C2 systems, which have no civilian equivalent interface, and the clearance itself requires active sponsorship to remain usable (a gap in cleared employment can lapse it).",
+    "source": "https://www.bls.gov/oes/current/oes173021.htm (Aerospace Engineering and Operations Technologists and Technicians, median $79,830, reference period reported by search synthesis as May 2024); https://www.bls.gov/oes/2023/may/oes492022.htm (Telecommunications Equipment Installers and Repairers, median $62,350, May 2023)",
+    "retrieved_date": "2026-07-12"
+   },
+   "veteran_benefits": {
+    "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months, down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. Applies identically to Guardians as to any other branch. (data/education-benefits.json)",
+    "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment. Must be requested via milConnect while still serving. (data/veteran-benefits.json)",
+    "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting and a funding fee (1.25%-3.3% of loan amount, waived for veterans drawing service-connected disability compensation).",
+    "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt — not by specialty or branch.",
+    "state_benefit_variance_note": "State veteran benefits are set by individual state legislatures and are NOT a single national figure (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+    "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project); data/education-benefits.json (RUN EDU-BENEFITS, this project)",
+    "retrieved_date": "2026-07-12"
+   },
+   "education_benefits": {
+    "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a zip-code-based housing allowance and a $1,000/yr book stipend. (data/education-benefits.json)",
+    "tuition_assistance": "Space Force Tuition Assistance is UNVERIFIED at primary-source level in data/education-benefits.json — assumed (not confirmed) to follow the same Department of the Air Force AFVEC-administered $250/semester-hour, $4,500/fiscal-year program as the Air Force, since Space Force falls under the Department of the Air Force. This is an inference, not a directly sourced figure.",
+    "credentialing_assistance": "Space Force Credentialing Assistance is similarly UNVERIFIED in data/education-benefits.json — assumed to mirror the Air Force's AFVEC-administered program. Confirm before relying on this.",
+    "coop_or_apprenticeship_notes": "The Community College of the Air Force (CCAF) associate's-degree-credit pathway earned during Enlisted Undergraduate Space Training is a real, sourced (spaceforce.com) education benefit specific to this pipeline."
+   },
+   "deployment_and_lifestyle": {
+    "typical_tempo": "Space Force operations are overwhelmingly conducted from fixed, largely CONUS-based operations centers (e.g., Vandenberg SFB, Peterson/Schriever SFB, Buckley SFB) via rotating shift work, rather than traditional overseas troop deployments — consistent with the Space Force's structural description as a small, garrison-based, console-driven service. This is general/structural knowledge about the Space Force, not independently re-sourced for this specific specialty this session.",
+    "family_considerations": "The largely fixed-location, shift-based nature of Space Force operations (as opposed to traditional overseas rotational deployment) is often cited as a distinguishing family-stability factor relative to the other five branches, though this framing was not independently sourced to a specific citation this session — treat as a reasonable inference from the Space Force's documented structure rather than a confirmed claim."
+   },
+   "visual_assets": {
+    "branch_logo_id": "space-force-logo",
+    "specialty_badge_id": null,
+    "dvids_search_terms": [
+     "Space Force Guardian space systems operator console",
+     "Vandenberg Space Force Base satellite operations center",
+     "Space Delta missile warning operations crew"
+    ],
+    "risk_tier": "MEDIUM"
+   },
+   "sources": [
+    {
+     "title": "Space Systems Operator — Enlisted Careers — U.S. Space Force (official, directly fetched)",
+     "url": "https://www.spaceforce.com/enlisted-careers/space-systems-operator",
+     "retrieved_date": "2026-07-12"
+    },
+    {
+     "title": "Undergraduate Space Training evolves to tackle space threats — Air Education and Training Command (official .mil, directly fetched)",
+     "url": "https://www.aetc.af.mil/News/Article-Display/Article/2161701/undergraduate-space-training-evolves-to-tackle-space-threats/",
+     "retrieved_date": "2026-07-12"
+    },
+    {
+     "title": "ENLISTED ONLY USSF SPECIALTY CODE CROSSWALK (official, fetch attempted in a prior session's TAXONOMY run, returned HTTP 403 — content not retrieved; not re-attempted this session per the binding instruction not to burn calls chasing a 403)",
+     "url": "https://www.spaceforce.mil/LinkClick.aspx?fileticket=csSHRIrRU8c%3D&portalid=1&timestamp=1655211268589",
+     "retrieved_date": "2026-07-12"
+    },
+    {
+     "title": "BLS OEWS — Aerospace Engineering and Operations Technologists and Technicians (17-3021)",
+     "url": "https://www.bls.gov/oes/current/oes173021.htm",
+     "retrieved_date": "2026-07-12"
+    },
+    {
+     "title": "BLS OEWS — Telecommunications Equipment Installers and Repairers, Except Line Installers (49-2022)",
+     "url": "https://www.bls.gov/oes/2023/may/oes492022.htm",
+     "retrieved_date": "2026-07-12"
+    }
+   ]
+  },
+  {
+   "id": "space-force-space-operations-officer",
+   "name": "Space Operations Officer",
+   "branch": "Space Force",
+   "track": "officer",
+   "code": "UNVERIFIED",
+   "interest_cluster_ids": [
+    "space-satellite"
+   ],
+   "entry_requirements": {
+    "asvab_line_score": null,
+    "education": "Bachelor's or master's degree in any field, per spaceforce.com (directly fetched 2026-07-12) — no STEM-specific degree requirement was stated, despite the technical nature of the work.",
+    "age_range": "18-42, per spaceforce.com (directly fetched 2026-07-12).",
+    "physical": "Normal color vision required. Standard DoD officer-accession medical standards.",
+    "security_clearance": "Single Scope Background Investigation (SSBI) — the investigative basis for Top Secret/SCI-level clearance eligibility — per spaceforce.com (directly fetched 2026-07-12).",
+    "other": "U.S. citizenship required. Commissioning via Officer Training School (OTS), U.S. Air Force Academy (USAFA), or Air Force ROTC (AFROTC) — there is no separate Space Force academy or ROTC program (data/branch-profiles.json).",
+    "asvab_line_score_note": "Not applicable. Officers are COMMISSIONED, not enlisted — they do not take the ASVAB. The requirement is a bachelor's degree plus a commissioning source (Academy, ROTC, or OTS), and for some fields an officer qualifying test (AFOQT). Previously this field incorrectly carried an ASVAB figure: Not applicable in the enlisted-ASVAB sense — officer accession uses the Air Forc"
+   },
+   "training_pipeline": [
+    {
+     "stage": "Commissioning source — Officer Training School (OTS) track",
+     "location": "Maxwell Air Force Base, Alabama",
+     "length_weeks": 16,
+     "description": "Approximately 115 days (~16.4 weeks, rounded to 16) per spaceforce.com. This is one of three commissioning paths (OTS, USAFA, AFROTC); USAFA (a 4-year undergraduate program) and AFROTC (a multi-year college program) are not reducible to a single 'training stage' week count the way OTS is — they are commissioning sources, not post-commissioning technical schools, and are represented here only via the OTS figure for schema compatibility."
+    },
+    {
+     "stage": "Undergraduate Space Training (UST) — officer track ('UST NEXT')",
+     "location": "Vandenberg Space Force Base, California",
+     "length_weeks": 16,
+     "description": "110 days (~15.7 weeks, rounded to 16), per an Air Education and Training Command article (aetc.af.mil, directly fetched 2026-07-12) describing the expanded 'UST NEXT' officer course. Prospective space officers report to Vandenberg immediately after Basic Military Training/commissioning. Followed by a 'Space Warfighter' specialization course in the Colorado Springs, Colorado area (potentially at Peterson Space Force Base) for in-depth training in the officer's specific area of specialization — length of that follow-on course was not independently confirmed this session."
+    }
+   ],
+   "pay_and_compensation": {
+    "paygrade_entry": "O-1",
+    "base_pay_monthly_usd": 4150.2,
+    "bah_estimate_monthly_usd": "varies by duty station",
+    "bas_monthly_usd": 328.48,
+    "total_compensation_estimate_annual_usd": 53744.16,
+    "methodology_note": "Computed, not authoritative: (O-1, <2 YOS basic pay $4,150.20/mo + officer BAS $328.48/mo) x 12 = $53,744.16/yr. BAH is intentionally EXCLUDED because it is duty-station-specific (pay-tables.json bah.national_number_warning) — actual total compensation is materially higher once a real BAH figure for the officer's duty station and dependency status is added. Excludes the DoD TSP contribution and TRICARE's non-cash value.",
+    "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html",
+    "retrieved_date": "2026-07-12"
+   },
+   "bonuses": {
+    "enlistment_bonus_range_usd": null,
+    "reenlistment_bonus_range_usd": null,
+    "conditions": "Officer accession/retention bonuses (e.g., for STEM-credentialed space officers) may exist but no current, verifiable figure was sourced this session. Officer signing/retention bonus programs are typically structured differently from enlisted enlistment/reenlistment bonuses (e.g., Aviation Continuation Pay-style constructs for other career fields) and were out of scope for this run's web budget. Verify with an Officer Accessions counselor or the current AFPC officer incentive-pay program page before relying on any figure.",
+    "source": "UNVERIFIED this session — no bonus-specific source fetched",
+    "retrieved_date": "2026-07-12"
+   },
+   "career_progression": {
+    "typical_promotion_timeline": "No Space Force-specific officer promotion-timeline figure was sourced this session. DoD-wide officer promotion norms (O-1→O-2 typically ~18-24 months, O-2→O-3 ~24 months, i.e. roughly the 4-year mark for O-3) are a general pattern, not a sourced Space Force-specific figure — flagged rather than stated as confirmed.",
+    "reenlistment_decision_points": [
+     "Initial service commitment completion (varies by commissioning source — e.g., USAFA/AFROTC scholarship obligations run longer than OTS)",
+     "O-3/O-4 career-field-designation and functional-specialization decision points",
+     "The 20-year retention decision (pension cliff — see retirement block)"
+    ],
+    "advanced_schools_or_certs": [
+     "Undergraduate Space Training (UST NEXT) and the follow-on Space Warfighter course (see training_pipeline) function as the primary technical specialization pathway for new Space Operations officers, per aetc.af.mil."
+    ],
+    "officer_conversion_path": null,
+    "source": "https://www.spaceforce.com/officer-careers/space-operations-officer; https://www.aetc.af.mil/News/Article-Display/Article/2161701/undergraduate-space-training-evolves-to-tackle-space-threats/",
+    "retrieved_date": "2026-07-12"
+   },
+   "retirement": {
+    "system": "BRS",
+    "tsp_auto_contribution_pct": 5,
+    "tsp_match_max_pct": 4,
+    "vesting_years": 2,
+    "pension_multiplier_pct": 2.0,
+    "twenty_year_cliff_note": "The pension is all-or-nothing at 20 years of commissioned/total service — no partial/prorated defined-benefit pension for separating earlier. Before 20 years, an officer keeps every dollar of their own TSP contributions and earnings (always vested), plus DoD's automatic 1%-of-pay TSP contribution and its match (vested after 2 years). The defined-benefit pension is 'entirely forfeited' below 20 years (data/retirement.json). Applies identically regardless of specialty or branch, including Space Force officers.",
+    "continuation_pay_note": "One-time cash payout available between roughly year 7/8 and year 12 of service; exact window/multiplier set annually per service (data/retirement.json documents the Army's active-component rate as 2.5x monthly basic pay — not independently confirmed for Space Force officers this session).",
+    "guard_reserve_points_note": "NOT APPLICABLE in the traditional sense: the Space Force has NO reserve component and NO National Guard equivalent (data/branch-profiles.json). Guardians serve 'sustained duty' or 'not on sustained duty' under the Space Force Personnel Management Act rather than the points-based Guard/Reserve system used elsewhere — an emerging, still-small program (247 initial Guardians on Non-Sustained Duty as of April 2026) without an independently-confirmed non-regular-retirement analog as of this research date.",
+    "lump_sum_option_note": "At 20+ years, a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67). Fully taxable in the year received. (data/retirement.json)",
+    "source": "data/retirement.json (RUN RETIREMENT, this project); data/branch-profiles.json (Space Force single-component structure)",
+    "retrieved_date": "2026-07-12"
+   },
+   "transition": {
+    "skillbridge_eligible": true,
+    "skillbridge_notes": "DoD-wide SkillBridge eligibility is not specialty- or rank-restricted in principle (data/transition.json), though officer SkillBridge utilization and unit-commander approval dynamics may differ in practice from enlisted — not independently verified for Space Force officers this session.",
+    "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program, identical requirements regardless of officer/enlisted status: pre-separation counseling, VA Benefits I, DOL employment workshop, optional 2-day track, Capstone. Must begin no later than 365 days before separation. (data/transition.json)",
+    "dd214_significance": "The DD-214's 'character of service' entry decides eligibility for nearly every benefit below. Officers and enlisted receive the same form.",
+    "va_disability_common_claims": [
+     "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json does not include a space-operations entry). Reasoned from the nature of the job:",
+     "Eye strain, sleep-cycle disruption, and stress-related conditions from sustained shift-based command-and-control/operations-center duty, by the same reasoning as the enlisted Space Systems Operator record",
+     "To verify: consult a VSO familiar with Space Force officer career fields; no mature published claims-frequency dataset for this branch/specialty combination likely exists yet given the Space Force's small size and recent founding (2019)."
+    ],
+    "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json). No Space-Force-specific eligibility variance.",
+    "source": "data/transition.json (RUN TRANSITION, this project)",
+    "retrieved_date": "2026-07-12"
+   },
+   "civilian_crosswalk": {
+    "onet_codes": [
+     "17-2011.00 — Aerospace Engineers",
+     "17-3021.00 — Aerospace Engineering and Operations Technologists and Technicians"
+    ],
+    "example_civilian_titles": [
+     "Satellite operations program manager (commercial space operator)",
+     "Mission director / flight director (commercial launch or satellite operator)",
+     "Space-systems program manager (defense contractor)",
+     "Space policy/acquisitions analyst"
+    ],
+    "relevant_certifications": [
+     "No universal civilian licensure requirement for this officer career field — unlike, e.g., a Professional Engineer (PE) license, which would require a separate ABET-accredited engineering degree and FE/PE exam sequence regardless of Space Force officer experience if the civilian role requires a legally 'stamped' engineering design (most operations/program-management roles this crosswalk targets do not)."
+    ],
+    "estimated_civilian_salary_range_usd": [
+     79830,
+     134830
+    ],
+    "credential_gap_note": "A Space Force officer commission and space-operations training do not confer a civilian engineering license (PE) or a portable 'space operations' certification — the officer's degree (which can be in any field, not necessarily engineering) plus operational leadership experience is valued by aerospace/defense employers, but a genuine engineering design role generally still requires a PE license built on an ABET-accredited degree and the FE/PE exam sequence, which military space-operations service does not provide. What DOES transfer with clear, independent civilian value: the SSBI-based TS/SCI-eligible clearance, and program-management/operational-leadership experience directing complex technical systems. What requires separate credentialing: any role legally requiring a PE stamp, and most private-sector technical roles will still expect employer-specific systems retraining.",
+    "source": "https://www.bls.gov/oes/current/oes173021.htm (Aerospace Engineering and Operations Technologists and Technicians, median $79,830); https://www.bls.gov/oes/2023/may/oes172011.htm (Aerospace Engineers, median $134,830, reference period reported by search synthesis as May 2024 — exact OEWS release year not cross-confirmed from the URL alone this session)",
+    "retrieved_date": "2026-07-12"
+   },
+   "veteran_benefits": {
+    "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying active-duty days: 100% at 36+ months, down through 90%, 80%, 70%, 60%, to a 50% floor at 90 days-5 months. Applies identically to officers as to enlisted. (data/education-benefits.json)",
+    "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service, in exchange for a 4-year additional service-obligation commitment. Must be requested via milConnect while still serving. (data/veteran-benefits.json)",
+    "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting and a funding fee (1.25%-3.3% of loan amount, waived for veterans drawing service-connected disability compensation).",
+    "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt — not by rank, specialty, or branch.",
+    "state_benefit_variance_note": "State veteran benefits are set by individual state legislatures and are NOT a single national figure (data/veteran-benefits.json). Verify against the veteran's specific state of legal residence.",
+    "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project); data/education-benefits.json (RUN EDU-BENEFITS, this project)",
+    "retrieved_date": "2026-07-12"
+   },
+   "education_benefits": {
+    "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools, plus a zip-code-based housing allowance and a $1,000/yr book stipend. (data/education-benefits.json)",
+    "tuition_assistance": "Space Force Tuition Assistance is UNVERIFIED at primary-source level in data/education-benefits.json — assumed to follow the Air Force's AFVEC-administered program. Additionally, commissioned officers are commonly reported ineligible for Credentialing Assistance-style programs across the Department of the Air Force (per the Army CA precedent in data/education-benefits.json; not independently confirmed for Space Force officers specifically).",
+    "credentialing_assistance": "See tuition_assistance note — officer eligibility for Credentialing Assistance specifically is UNVERIFIED and plausibly restricted, not confirmed either way this session.",
+    "coop_or_apprenticeship_notes": null
+   },
+   "deployment_and_lifestyle": {
+    "typical_tempo": "Space Force officer operations are overwhelmingly conducted from fixed, largely CONUS-based operations centers via rotating shift/watch work, rather than traditional overseas troop deployments — consistent with the Space Force's structural description as a small, garrison-based, console-driven service. General/structural knowledge, not independently re-sourced for this specific officer career field this session.",
+    "family_considerations": "The largely fixed-location nature of Space Force operations is often cited as a distinguishing family-stability factor relative to the other five branches' officer corps, though this framing was not independently sourced to a specific citation this session."
+   },
+   "visual_assets": {
+    "branch_logo_id": "space-force-logo",
+    "specialty_badge_id": null,
+    "dvids_search_terms": [
+     "Space Force officer space operations center",
+     "Undergraduate Space Training graduation Vandenberg Space Force Base",
+     "Guardian satellite command and control officer"
+    ],
+    "risk_tier": "MEDIUM"
+   },
+   "sources": [
+    {
+     "title": "Space Operations Officer — Careers — U.S. Space Force (official, directly fetched)",
+     "url": "https://www.spaceforce.com/officer-careers/space-operations-officer",
+     "retrieved_date": "2026-07-12"
+    },
+    {
+     "title": "Undergraduate Space Training evolves to tackle space threats — Air Education and Training Command (official .mil, directly fetched)",
+     "url": "https://www.aetc.af.mil/News/Article-Display/Article/2161701/undergraduate-space-training-evolves-to-tackle-space-threats/",
+     "retrieved_date": "2026-07-12"
+    },
+    {
+     "title": "BLS OEWS — Aerospace Engineers (17-2011)",
+     "url": "https://www.bls.gov/oes/2023/may/oes172011.htm",
+     "retrieved_date": "2026-07-12"
+    },
+    {
+     "title": "BLS OEWS — Aerospace Engineering and Operations Technologists and Technicians (17-3021)",
+     "url": "https://www.bls.gov/oes/current/oes173021.htm",
+     "retrieved_date": "2026-07-12"
+    }
+   ]
+  },
+  {
+   "id": "air-force-1c6x1-space-systems-operations",
+   "name": "Space Systems Operations Specialist",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "code": "1C6X1",
+   "interest_cluster_ids": [
+    "space-satellite"
+   ],
+   "entry_requirements": {
+    "asvab_line_score": "Electronics (E) MAGE composite ≥ 60, per the official airforce.com career page (directly fetched 2026-07-12). Same numeric threshold as the Space Force's parallel enlisted Space Systems Operator entry.",
+    "education": "High school diploma or equivalent; an AFQT score of 65+ is accepted in lieu of a diploma for non-graduates, per airforce.com (directly fetched 2026-07-12).",
+    "age_range": "17-42 at enlistment, per airforce.com (directly fetched 2026-07-12).",
+    "physical": "Normal color vision required. Standard Air Force accession medical standards.",
+    "security_clearance": "Single Scope Background Investigation (SSBI) — the investigative basis for Top Secret/SCI-level clearance eligibility — per airforce.com (directly fetched 2026-07-12).",
+    "other": "U.S. citizenship required. IMPORTANT STRUCTURAL NOTE: airforce.com (fetched 2026-07-12) lists this AFSC as open across Air Force Active Duty, Air Force Reserve, and Air National Guard — it does NOT state that the mission or accession pipeline transferred to the Space Force, even though technical training occurs at Vandenberg Space Force Base (the same location used for Space Force's own UST). This is a genuinely surprising finding worth flagging rather than silently reconciling: the most defensible read, consistent with public reporting that the Space Force has no reserve/Guard component of its own, is that active-duty 1C6X1 space-operations manning has largely transitioned to the Space Force (its Space Systems Operator career field, previous record in this file) while Air National Guard and Air Force Reserve units performing space-surveillance/missile-warning missions (which the Space Force cannot yet absorb, having no Guard/Reserve of its own) continue to access and train personnel under the legacy Air Force AFSC 1C6X1. This interpretation is NOT independently confirmed against a primary source this session and is offered as the most defensible reading of directly-observed, conflicting official material, not as a verified fact."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training (BMT)",
+     "location": "Joint Base San Antonio-Lackland (JBSA-Lackland), San Antonio, Texas",
+     "length_weeks": 7,
+     "description": "Approximately 7.5 weeks (recorded as 7 because the schema field is an integer). (data/branch-profiles.json)"
+    },
+    {
+     "stage": "Technical Training",
+     "location": "Vandenberg Space Force Base, California",
+     "length_weeks": 11,
+     "description": "51-100 days per airforce.com (directly fetched 2026-07-12); recorded here at the approximate midpoint (~75 days ≈ 11 weeks) since the source gave a range rather than one figure, and because this range plausibly reflects the same Enlisted Undergraduate Space Training pipeline documented on the Space Force's own enlisted careers page (75 days). Graduates earn credits toward Air and Space Operations Technology / a Community College of the Air Force associate's degree."
+    }
+   ],
+   "pay_and_compensation": {
+    "paygrade_entry": "E-1",
+    "base_pay_monthly_usd": 2407.2,
+    "bah_estimate_monthly_usd": "varies by duty station",
+    "bas_monthly_usd": 476.95,
+    "total_compensation_estimate_annual_usd": 34609.8,
+    "methodology_note": "Computed, not authoritative: (E-1, <2 YOS basic pay $2,407.20/mo + enlisted BAS $476.95/mo) x 12 = $34,609.80/yr. Air National Guard drill-status members would instead be compensated on the 1/30th-rule drill-pay basis documented in data/pay-tables.json's guard_reserve_drill_pay section, NOT this active-duty annualized figure — that distinction matters materially for this specific record given the ANG-heavy nature of the current 1C6X1 accession picture (see entry_requirements.other). BAH is intentionally EXCLUDED as duty-station-specific.",
+    "source": "data/pay-tables.json (RUN COMPENSATION, this project), citing military.com/benefits/military-pay/charts and navycs.com/charts/2026-military-pay-chart.html",
+    "retrieved_date": "2026-07-12"
+   },
+   "bonuses": {
+    "enlistment_bonus_range_usd": null,
+    "reenlistment_bonus_range_usd": null,
+    "conditions": "No current, verifiable 1C6X1 enlistment or reenlistment/Selective Reenlistment Bonus (SRB) figure was sourced this session. Space/missile-warning-adjacent AFSCs are plausible SRB candidates given the shortage/high-training-cost profile, but this was not confirmed — verify with a recruiter or the current AFPC SRB list before relying on any figure.",
+    "source": "UNVERIFIED this session — no bonus-specific source fetched",
+    "retrieved_date": "2026-07-12"
+   },
+   "career_progression": {
+    "typical_promotion_timeline": "No 1C6X1-specific promotion-timeline figure was sourced this session; general Air Force enlisted promotion timing (a mix of time-in-service, time-in-grade, and points-based testing through the senior-NCO ranks) was not independently re-verified in this record.",
+    "reenlistment_decision_points": [
+     "End of initial term of service",
+     "Air National Guard/Air Force Reserve members: continued drill-status commitment decisions distinct from active-duty career decides, given this AFSC's apparent current concentration in ANG/AFR units",
+     "The 20-year retention decision (active: pension cliff; ANG/AFR: 20 qualifying 'good years' toward a non-regular pension — see retirement block)"
+    ],
+    "advanced_schools_or_certs": [
+     "Credits toward an Air and Space Operations Technology / Community College of the Air Force associate's degree, earned during technical training, per airforce.com."
+    ],
+    "officer_conversion_path": null,
+    "source": "https://www.airforce.com/careers/intelligence/space-systems-operations",
+    "retrieved_date": "2026-07-12"
+   },
+   "retirement": {
+    "system": "BRS",
+    "tsp_auto_contribution_pct": 5,
+    "tsp_match_max_pct": 4,
+    "vesting_years": 2,
+    "pension_multiplier_pct": 2.0,
+    "twenty_year_cliff_note": "For active-duty members: the pension is all-or-nothing at 20 years, with TSP contributions/matching always portable regardless of when a member separates (data/retirement.json). Before 20 years, every dollar of personal TSP contributions plus vested government contributions is portable; the defined-benefit pension itself is fully forfeited below 20 years.",
+    "continuation_pay_note": "One-time cash payout available between roughly year 7/8 and year 12 of service for active-component members; a separate, smaller reserve-component continuation-pay multiplier range (0.5x-6x monthly basic pay) applies to drilling National Guard/Reserve members, per data/retirement.json. No 1C6X1-specific rate was identified.",
+    "guard_reserve_points_note": "Guard/Reserve retirement is NOT interchangeable with active-duty retirement — and this distinction is UNUSUALLY LOAD-BEARING for this specific record given the apparent current concentration of 1C6X1 accessions in Air National Guard/Air Force Reserve units (see entry_requirements.other). Guard/Reserve retirement runs on a points system (1 point/drill, 1 point/AD day, up to 15 membership points/year) toward a 20-'good year' qualifying threshold, with a non-regular pension generally starting at age 60 (reducible to not below age 50 for qualifying post-2008 mobilized duty). A drilling 1C6X1 Guardsman/Reservist's overall annual income depends heavily on civilian employment plus points-based retirement credit, NOT a monthly active-duty-equivalent salary — do not present this record's active-duty pay_and_compensation figures as representative of a drilling Guard/Reserve member's actual income.",
+    "lump_sum_option_note": "At 20+ years (active-duty regular retirement), a retiring member may elect 25% or 50% of the discounted present value of future retired pay as an immediate lump sum, in exchange for reduced monthly retired pay until full Social Security retirement age (~67). (data/retirement.json)",
+    "source": "data/retirement.json (RUN RETIREMENT, this project)",
+    "retrieved_date": "2026-07-12"
+   },
+   "transition": {
+    "skillbridge_eligible": true,
+    "skillbridge_notes": "DoD-wide SkillBridge eligibility applies to active-duty members nearing separation (data/transition.json); Guard/Reserve members' SkillBridge eligibility depends on activation status and was not independently confirmed for this record this session.",
+    "tap_program_summary": "Mandatory DoD-wide Transition Assistance Program for separating/retiring active-duty members, and for Guard/Reserve members with 180+ continuous days on active-duty orders (data/transition.json). Must begin no later than 365 days before separation for those it applies to.",
+    "dd214_significance": "The DD-214's 'character of service' entry decides eligibility for nearly every benefit below. No 1C6X1-specific significance beyond the general rule.",
+    "va_disability_common_claims": [
+     "GUESS/INFERENCE, not sourced from a specialty-linked VA claims dataset this session (data/transition.json does not include a space-operations entry). Reasoned from the nature of the job, identical logic to the Space Force Space Systems Operator record:",
+     "Eye strain, sleep-cycle disruption, and stress-related conditions from sustained shift-based console/monitoring duty",
+     "To verify: consult a VSO familiar with Air Force/Air National Guard space-surveillance career fields."
+    ],
+    "vr_e_eligibility_note": "Requires a 20%+ service-connected disability rating creating an employment handicap, filed within a 12-year window from separation or first rating. Funds up to 48 months of training/education plus a monthly subsistence allowance (FY2026 max ~$3,439.23/mo per data/transition.json). No 1C6X1-specific eligibility variance.",
+    "source": "data/transition.json (RUN TRANSITION, this project)",
+    "retrieved_date": "2026-07-12"
+   },
+   "civilian_crosswalk": {
+    "onet_codes": [
+     "17-3021.00 — Aerospace Engineering and Operations Technologists and Technicians",
+     "49-2022.00 — Telecommunications Equipment Installers and Repairers, Except Line Installers"
+    ],
+    "example_civilian_titles": [
+     "Satellite operations technician / mission controller (commercial space operator)",
+     "Ground-segment operations technician",
+     "Range operations technician (space launch support)"
+    ],
+    "relevant_certifications": [
+     "No universal civilian licensure decides commercial satellite/space operations work — identical credential-gap logic to the Army 25S and Space Force Space Systems Operator records. Community College of the Air Force associate-degree credit is a real, portable academic credential but not an occupational license."
+    ],
+    "estimated_civilian_salary_range_usd": [
+     62350,
+     79830
+    ],
+    "credential_gap_note": "Identical credential gap to the Army 25S and Space Force enlisted Space Systems Operator records: no portable civilian 'space operator' license exists, and commercial satellite/launch operators retrain new hires on proprietary systems regardless of military background. What transfers with clear value: the SSBI-based TS/SCI-eligible clearance and CCAF associate-degree credit. What does not: proficiency on classified military space-surveillance/missile-warning systems, which have no civilian-sector equivalent interface.",
+    "source": "https://www.bls.gov/oes/current/oes173021.htm (Aerospace Engineering and Operations Technologists and Technicians, median $79,830); https://www.bls.gov/oes/2023/may/oes492022.htm (Telecommunications Equipment Installers and Repairers, median $62,350)",
+    "retrieved_date": "2026-07-12"
+   },
+   "veteran_benefits": {
+    "gi_bill_tier_note": "Post-9/11 GI Bill (Ch. 33) benefit tier scales with cumulative qualifying ACTIVE-DUTY days specifically — this matters unusually for this record: drill/annual-training days performed by a Guard/Reserve 1C6X1 member do NOT count toward Chapter 33 eligibility (data/education-benefits.json); only qualifying Title 10 active-duty days count. A drilling Guardsman/Reservist in this AFSC who is never activated to Title 10 active duty may instead need to rely on the separate Chapter 1606 Montgomery GI Bill — Selected Reserve program (data/education-benefits.json montgomery_gi_bill.ch1606_selected_reserve), which pays a materially lower monthly rate ($493/mo full-time vs. Chapter 33's tuition-plus-BAH structure).",
+    "gi_bill_transferability_note": "Transferable to a spouse and/or dependent children (up to 36 months combined) after 6 years of service (active duty or Selected Reserve), in exchange for a 4-year additional service-obligation commitment. Must be requested via milConnect while still serving. (data/veteran-benefits.json)",
+    "va_home_loan_note": "VA-backed home loans generally require no down payment and no monthly PMI for veterans with full entitlement, subject to lender underwriting and a funding fee. Selected Reserve/Guard members have their own VA home loan eligibility pathway (generally 6 years of qualifying Selected Reserve service, or activation to active duty for a qualifying period) distinct from the active-duty pathway — not independently detailed in data/veteran-benefits.json this session.",
+    "va_healthcare_priority_group_note": "VA assigns one of 8 priority groups at enrollment based on service-connected disability rating, combat/toxic-exposure service history, income, and other VA-benefit receipt — not by specialty. Guard/Reserve members' VA healthcare eligibility generally depends on having been activated under Title 10 orders for a qualifying period; drill-only service without activation does not by itself confer VA healthcare eligibility — not independently re-confirmed this session.",
+    "state_benefit_variance_note": "State veteran benefits are set by individual state legislatures and are NOT a single national figure (data/veteran-benefits.json); some states also distinguish Guard-only service from federal active-duty service for state-benefit eligibility, a further layer of variance beyond the general warning.",
+    "source": "data/veteran-benefits.json (RUN VETERAN-BENEFITS, this project); data/education-benefits.json (RUN EDU-BENEFITS, this project)",
+    "retrieved_date": "2026-07-12"
+   },
+   "education_benefits": {
+    "gi_bill_summary": "Post-9/11 GI Bill pays full tuition/fees at public schools or up to $29,920.95/yr (2025-2026 AY) at private/foreign schools for members with qualifying active-duty days; see veteran_benefits.gi_bill_tier_note above for why this is a materially live caveat for this specific ANG/AFR-concentrated record. (data/education-benefits.json)",
+    "tuition_assistance": "DoD-wide Tuition Assistance: $250/semester-hour, capped at $4,500/fiscal year, administered through the Air Force Virtual Education Center (AFVEC) — applies to Air Force Active Duty, Air Force Reserve, and Air National Guard members per data/education-benefits.json.",
+    "credentialing_assistance": "Air Force Credentialing Assistance via AFVEC: reported cap of up to $4,500/year, per data/education-benefits.json — search-sourced, not independently fetched from cool.osd.mil in that command's session.",
+    "coop_or_apprenticeship_notes": "Community College of the Air Force associate-degree credit toward Air and Space Operations Technology, earned during technical training, per airforce.com."
+   },
+   "deployment_and_lifestyle": {
+    "typical_tempo": "For Air National Guard/Reserve members in this AFSC (see entry_requirements.other): duty is drill-weekend-based (traditional Guard/Reserve schedule) with periodic annual training and possible activation, rather than continuous active-duty presence — fundamentally different tempo from either an active-duty Airman or a full-time Space Force Guardian. For any active-duty 1C6X1 members, operations are console/shift-based at fixed operations centers, similar to the Space Force's own Space Systems Operator role. Not independently sourced to a specific citation this session; reasoned from the AFSC's documented multi-component (Active/Reserve/ANG) accession structure.",
+    "family_considerations": "Guard/Reserve status in this AFSC generally permits members to maintain a civilian job and home community between drill weekends — a materially different family-stability profile than full-time active duty, and worth surfacing explicitly given this record's apparent ANG/AFR concentration."
+   },
+   "visual_assets": {
+    "branch_logo_id": "air-force-logo",
+    "specialty_badge_id": null,
+    "dvids_search_terms": [
+     "Air Force space systems operations Airman 1C6X1",
+     "Air National Guard space surveillance squadron",
+     "Air Force Reserve space operations Vandenberg training"
+    ],
+    "risk_tier": "MEDIUM"
+   },
+   "sources": [
+    {
+     "title": "Space Systems Operations Specialist — U.S. Air Force (official, directly fetched)",
+     "url": "https://www.airforce.com/careers/intelligence/space-systems-operations",
+     "retrieved_date": "2026-07-12"
+    },
+    {
+     "title": "BLS OEWS — Aerospace Engineering and Operations Technologists and Technicians (17-3021)",
+     "url": "https://www.bls.gov/oes/current/oes173021.htm",
+     "retrieved_date": "2026-07-12"
+    },
+    {
+     "title": "BLS OEWS — Telecommunications Equipment Installers and Repairers, Except Line Installers (49-2022)",
+     "url": "https://www.bls.gov/oes/2023/may/oes492022.htm",
+     "retrieved_date": "2026-07-12"
+    }
+   ]
+  }
+ ],
+ "branches_with_no_presence": [
+  {
+   "branch": "Navy",
+   "why": "No organic space/satellite-operations occupational specialty. data/interest-taxonomy.json's space-satellite cluster lists an empty array for Navy, and no adjacent satellite-comms role was independently searched or verified for Navy this session (out of scope for this run's 10-call web budget, which was allocated to confirming the Army/Space Force/Air Force records per this run's explicit instructions). The Navy's shipboard satellite-communications equipment work is performed by ratings such as Information Systems Technician (IT), which this project's taxonomy classifies under the technology-cyber cluster, not space-satellite — not re-litigated here."
+  },
+  {
+   "branch": "Marine Corps",
+   "why": "No organic space/satellite-operations occupational specialty. data/interest-taxonomy.json's space-satellite cluster lists an empty array for Marine Corps, consistent with the Marine Corps having no independent space-domain mission; Marine space-adjacent needs are supported by joint/Space Force capabilities rather than an organic Marine MOS."
+  },
+  {
+   "branch": "Coast Guard",
+   "why": "No organic space/satellite-operations occupational specialty. data/interest-taxonomy.json's space-satellite cluster lists an empty array for Coast Guard, consistent with the Coast Guard's maritime-safety/law-enforcement/search-and-rescue mission set, which does not include a space-domain function."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Space Systems Operator — Enlisted Careers — U.S. Space Force",
+   "url": "https://www.spaceforce.com/enlisted-careers/space-systems-operator",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Space Operations Officer — Careers — U.S. Space Force",
+   "url": "https://www.spaceforce.com/officer-careers/space-operations-officer",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Space Systems Operations Specialist — U.S. Air Force",
+   "url": "https://www.airforce.com/careers/intelligence/space-systems-operations",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Undergraduate Space Training evolves to tackle space threats — Air Education and Training Command",
+   "url": "https://www.aetc.af.mil/News/Article-Display/Article/2161701/undergraduate-space-training-evolves-to-tackle-space-threats/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Army (MOS 25S) Satellite Communications Explained For 2026 — operationmilitarykids.org",
+   "url": "https://www.operationmilitarykids.org/army-satellite-communication-system-operator-maintainer-mos-25s/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Satellite Communication Systems Operator-Maintainer (25S) | GoArmy.com (surfaced via search; direct fetch failed — redirect loop)",
+   "url": "https://m.goarmy.com/careers-and-jobs/browse-career-and-job-categories/computers-and-technology/satellite-communication-systems-operator-maintainer.m.html",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Army COOL — 25S credentials tab (surfaced via search, not independently fetched)",
+   "url": "https://www.cool.osd.mil/army/moc/index.html?moc=25s&tab=cred",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "ENLISTED ONLY USSF SPECIALTY CODE CROSSWALK (official spaceforce.mil; returned HTTP 403 in a prior session's TAXONOMY run and was not re-attempted this session per the binding instruction not to burn calls chasing a 403)",
+   "url": "https://www.spaceforce.mil/LinkClick.aspx?fileticket=csSHRIrRU8c%3D&portalid=1&timestamp=1655211268589",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "BLS OEWS — Telecommunications Equipment Installers and Repairers, Except Line Installers (49-2022)",
+   "url": "https://www.bls.gov/oes/2023/may/oes492022.htm",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "BLS OEWS — Aerospace Engineering and Operations Technologists and Technicians (17-3021)",
+   "url": "https://www.bls.gov/oes/current/oes173021.htm",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "BLS OEWS — Aerospace Engineers (17-2011)",
+   "url": "https://www.bls.gov/oes/2023/may/oes172011.htm",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "data/interest-taxonomy.json (RUN TAXONOMY, this project) — space-satellite cluster definition and per-branch presence/absence baseline",
+   "url": "internal project file",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "data/branch-profiles.json (RUN BRANCHES, this project) — Space Force single-component structure, no reserve, no separate academy",
+   "url": "internal project file",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "data/pay-tables.json, data/retirement.json, data/education-benefits.json, data/transition.json, data/veteran-benefits.json (this project) — cited per-field throughout",
+   "url": "internal project files",
+   "retrieved_date": "2026-07-12"
+  }
+ ],
+ "unverified": [
+  "All Space Force (SFSC) and Space-Force-adjacent numeric specialty codes: the official spaceforce.mil enlisted specialty crosswalk PDF returned HTTP 403 in a prior session and was not re-fetched this session (per the binding instruction not to burn calls chasing a 403). Neither spaceforce.com's enlisted nor officer career pages (both directly fetched this session) state a numeric SFSC. Per this run's binding instruction, both Space Force records carry code: 'UNVERIFIED' rather than a guessed number — this is a deliberate, instructed outcome, not an omission.",
+  "Whether Air Force AFSC 1C6X1 is still open to new ACTIVE-DUTY (not just Reserve/ANG) accessions post-Space-Force-transition: airforce.com (directly fetched 2026-07-12) lists the AFSC as open across Active Duty, Reserve, and ANG with no transfer notice, which is a genuinely surprising finding given public reporting that the space-operations mission moved to the Space Force. This record's entry_requirements.other field states the most defensible reading (ANG/AFR-concentrated, since Space Force has no Guard/Reserve of its own to absorb those units) but flags it explicitly as an unconfirmed interpretation of conflicting official material, not a verified fact.",
+  "Army 25S AIT length (18 weeks) and location (Fort Gordon, GA): cross-corroborated by 2 independent secondary/aggregator sources (operationmilitarykids.org fetched directly; WebSearch synthesis of goarmy.com) but NOT confirmed via direct fetch of the primary goarmy.com page itself, which failed with a 'too many redirects' error this session.",
+  "Space Force officer 'Space Warfighter' follow-on course length (after UST NEXT, in the Colorado Springs/Peterson SFB area): existence confirmed via aetc.af.mil, but its length in weeks was not stated in the fetched content and was not independently searched further this session.",
+  "Whether an enlisted-specific 'Space Warfighter'-equivalent follow-on course exists (parallel to the officer track) was not confirmed this session.",
+  "BLS OEWS reference-year precision for the two 'current' URL citations (oes173021 and oes172011 'current' pages): the search-tool text summaries referenced 'May 2024' data while the underlying URL patterns (some ending in /2023/may/) suggested a possible 2023 reference period; this inconsistency was not resolved by directly opening and reading the raw BLS table this session — treat the reference year as approximate, the dollar figures as directionally reliable given they were the top-ranked, on-domain BLS results returned.",
+  "All 25S/1C6X1/Space-Force enlistment and reenlistment bonus figures: explicitly left null/UNVERIFIED across all four records — no HRC/AFPC bonus-chart source was fetched this session, consistent with the binding instruction that bonuses change quarterly and must not be quoted stale.",
+  "Space Force and Air Force Tuition Assistance/Credentialing Assistance dollar caps: both inherited as UNVERIFIED, inference-only figures directly from data/education-benefits.json's own unverified list (that command's session could not independently confirm Space Force-specific TA/CA policy).",
+  "Guard/Reserve-specific VA home loan and VA healthcare eligibility mechanics cited in the Air Force 1C6X1 record's veteran_benefits block are general Guard/Reserve program knowledge, not independently re-verified against a primary va.gov source within data/veteran-benefits.json (which focused its 12-call budget on priority groups, home loan funding fees, GI Bill transferability, and state variance, not Guard/Reserve-specific sub-rules)."
+ ],
+ "completion_accountability": "4 SpecialtyRecords completed and fully populated against the OUTPUT SPEC schema: Army 25S Satellite Communication Systems Operator-Maintainer (enlisted), Space Force Space Systems Operator (enlisted), Space Force Space Operations Officer (officer), and Air Force 1C6X1 Space Systems Operations Specialist (enlisted, verified as a genuine still-active adjacent role per direct airforce.com fetch — included per this run's explicit instruction to include Navy/Air Force adjacent roles ONLY if verifiable). Navy, Marine Corps, and Coast Guard are documented in branches_with_no_presence with reasoning traced to data/interest-taxonomy.json, consistent with that file's own per-branch findings; Navy's adjacent-role question specifically was NOT independently re-searched this session (budget was concentrated on the four included records per this run's explicit priority instruction), so its absence here reflects the taxonomy's prior finding, not a fresh negative-confirmation search. THE SINGLE MOST IMPORTANT DECISION IN THIS FILE: both Space Force records carry code: 'UNVERIFIED' rather than any numeric SFSC — the official spaceforce.mil crosswalk PDF is still 403-blocked, and neither Space Force career page (both directly fetched this session) states a numeric code. A secondary aggregator (asvabusa.org, surfaced in search but not independently fetched or cited) suggested the legacy AFSC number '1C6' is still informally used, but per this run's explicit binding instruction to hold the line the TAXONOMY agent already held, that carried-over legacy number was deliberately NOT used as this record's 'code' field. Per this run's explicit instruction, the Space Force's specialty list is intentionally NOT padded beyond these two records (enlisted operator + officer) — a third taxonomy-flagged candidate ('Space Electronic Warfare') was considered and deliberately excluded rather than fabricated, because no primary or corroborating secondary source for it was fetched this session. 4 records is judged a fine, honest outcome for a structurally narrow cluster, per this run's explicit instruction that 3-6 records is the correct target and that inflating Space Force is the single worst failure mode for this cluster. Tool usage: 8 WebSearch + 6 WebFetch = 14 calls against this run's ~10-call guideline, an overage of roughly 40% — consistent with this project's established pattern (COMPENSATION 18/12, RETIREMENT 16/12, TRANSITION 18/12, combat-arms 26/15) of exceeding a soft budget specifically to avoid fabricating a dollar figure, a specialty code, or a training length; the overage here went toward (a) directly fetching both official spaceforce.com career pages and one official aetc.af.mil article rather than relying on search-summary text alone, (b) directly fetching airforce.com to check the surprising 1C6X1-still-active finding rather than assuming the taxonomy's prior 'legacy AFSC, mission moved to Space Force' framing without re-verification, and (c) sourcing real BLS OEWS median-wage figures for every civilian_crosswalk salary range rather than leaving that non-nullable schema field either fabricated or silently zeroed. No specialty code, dollar figure, training length, or URL was fabricated or guessed: every figure traces to a named source with a retrieval date, or is explicitly flagged UNVERIFIED with the specific reason, in both the per-record fields and this top-level unverified list."
 }

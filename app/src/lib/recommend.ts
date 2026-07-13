@@ -363,7 +363,7 @@ export function recommend(
 
     if (hasClearance(s) && !priorities.includes('clearance')) {
       cautions.push(
-        `Clearance gate: ${s.entry_requirements.security_clearance}. Eligibility is decided by background, finances and foreign contacts — independently of your ASVAB score.`,
+        `Needs a security clearance: ${s.entry_requirements.security_clearance}. Whether you can get one comes down to your background, your finances and your foreign contacts — and has nothing to do with your ASVAB score.`,
       );
     }
 

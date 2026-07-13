@@ -20,7 +20,7 @@
     "security_clearance": "Single Scope Background Investigation (SSBI) required (airforce.com); clearance LEVEL is not stated on the page",
     "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
     "physical": "Normal color vision and depth perception. No record of sustained, untreatable emotional instability. Must be screened for and meet the requirements of the Personnel Reliability Assurance Program (PRAP).",
-    "other": "Must be a U.S. citizen. Knowledge of electrical and mechanical principles. PRAP screening is a CONTINUING requirement, not a one-time gate."
+    "other": "Must be a U.S. citizen. Knowledge of electrical and mechanical principles. PRAP screening is a CONTINUING requirement, not a one-time requirement."
    },
    "training_pipeline": [
     {
@@ -366,7 +366,7 @@
      96730
     ],
     "salary_source": "BLS OEWS national, SOC 49-2022 (Telecommunications Equipment Installers and Repairers, Except Line Installers), May 2025; 10th pct $44,240 - 90th pct $96,730, median $63,890",
-    "credential_gap_note": "Strong hands-on networking experience, but no automatic credential. Civilian network roles gate on Cisco's CCNA (or CompTIA Network+); tech school teaches the underlying skills without awarding either. Fiber work may additionally want an industry fiber-optic certification. This AFSC earns credit toward a CCAF Electronic Systems Technology degree. Getting the CCNA before you separate is the single highest-leverage step you can take."
+    "credential_gap_note": "Strong hands-on networking experience, but no automatic credential. Civilian network roles requirement on Cisco's CCNA (or CompTIA Network+); tech school teaches the underlying skills without awarding either. Fiber work may additionally want an industry fiber-optic certification. This AFSC earns credit toward a CCAF Electronic Systems Technology degree. Getting the CCNA before you separate is the single highest-leverage step you can take."
    },
    "special_pays": [],
    "transition": {
@@ -616,7 +616,7 @@
      95210
     ],
     "salary_source": "BLS OEWS national, SOC 49-9021 (Heating, Air Conditioning, and Refrigeration Mechanics and Installers), May 2025; 10th pct $40,050 - 90th pct $95,210, median $61,010",
-    "credential_gap_note": "One of the cleanest military-to-civilian trade matches in the Air Force -- with one hard LEGAL gate. Anyone who buys or handles refrigerant in the civilian sector must hold an EPA Section 608 Technician Certification. That is federal law, not an employer preference. The Air Force trains you to do the work but the certification is a separate exam you must sit. Many states additionally license HVAC contractors. Get EPA 608 (and ideally the industry NATE certification) before you separate and this AFSC converts almost directly into a civilian trade."
+    "credential_gap_note": "One of the cleanest military-to-civilian trade matches in the Air Force -- with one hard LEGAL requirement. Anyone who buys or handles refrigerant in the civilian sector must hold an EPA Section 608 Technician Certification. That is federal law, not an employer preference. The Air Force trains you to do the work but the certification is a separate exam you must sit. Many states additionally license HVAC contractors. Get EPA 608 (and ideally the industry NATE certification) before you separate and this AFSC converts almost directly into a civilian trade."
    },
    "special_pays": [],
    "transition": {
@@ -680,7 +680,7 @@
      101090
     ],
     "salary_source": "BLS OEWS national, SOC 47-2073 (Operating Engineers and Other Construction Equipment Operators), May 2025; 10th pct $42,190 - 90th pct $101,090, median $59,850",
-    "credential_gap_note": "Real seat time on real equipment, which civilian contractors value. The gap is licensing and paperwork, not skill: most civilian heavy-equipment and paving jobs expect a Commercial Driver's License to move equipment between sites, and the Air Force does not automatically issue a civilian CDL -- although states offer a military-skills waiver for the CDL skills test that you should use BEFORE you separate. Union operating-engineer work is apprenticeship-gated. Credit is awarded toward a CCAF Construction Technology degree."
+    "credential_gap_note": "Real seat time on real equipment, which civilian contractors value. The gap is licensing and paperwork, not skill: most civilian heavy-equipment and paving jobs expect a Commercial Driver's License to move equipment between sites, and the Air Force does not automatically issue a civilian CDL -- although states offer a military-skills waiver for the CDL skills test that you should use BEFORE you separate. Union operating-engineer work is apprenticeship-restricted. Credit is awarded toward a CCAF Construction Technology degree."
    },
    "special_pays": [],
    "transition": {
@@ -808,7 +808,7 @@
      61890
     ],
     "salary_source": "BLS OEWS national, SOC 37-2021 (Pest Control Workers), May 2025; 10th pct $34,680 - 90th pct $61,890, median $45,250",
-    "credential_gap_note": "Civilian pesticide application is LEGALLY GATED: every state requires a certified/licensed pesticide applicator credential, issued by that state (usually under an EPA-approved certification plan), with its own exam and continuing-education requirements. Military training and any DoD certification do NOT automatically convert into a state licence -- you generally must test in the state where you intend to work. Check reciprocity before you separate. Credit is awarded toward a CCAF Environmental Systems Technology degree."
+    "credential_gap_note": "Civilian pesticide application is LEGALLY RESTRICTED: every state requires a certified/licensed pesticide applicator credential, issued by that state (usually under an EPA-approved certification plan), with its own exam and continuing-education requirements. Military training and any DoD certification do NOT automatically convert into a state licence -- you generally must test in the state where you intend to work. Check reciprocity before you separate. Credit is awarded toward a CCAF Environmental Systems Technology degree."
    },
    "special_pays": [],
    "transition": {
@@ -1263,7 +1263,7 @@
     "relevant_certifications": [],
     "estimated_civilian_salary_range_usd": null,
     "salary_source": "BLS OEWS national, SOC 27-2042 (Musicians and Singers), May 2025: annual wages are SUPPRESSED for this occupation. Hourly only: 10th pct $20.35/hr, median $47.8/hr, 90th pct $132.56/hr.",
-    "credential_gap_note": "The ASVAB bar (A21/G24) is the lowest in this batch and it badly MISREPRESENTS the difficulty of getting in: the real gate is a national-standard audition that most applicants fail, and you must already be an accomplished musician before you apply -- the Air Force does not teach you to play. On the civilian side, BLS does not publish an annual wage for Musicians and Singers (27-2042) AT ALL, because the work is largely hourly and irregular; the published hourly figures are $20.35 at the 10th percentile, $47.80 median, and $132.56 at the 90th. That absence is itself the lesson: civilian performance work is unstable and rarely salaried, which is exactly what makes a full-time band chair valuable and rare. No certification applies."
+    "credential_gap_note": "The ASVAB bar (A21/G24) is the lowest in this batch and it badly MISREPRESENTS the difficulty of getting in: the real requirement is a national-standard audition that most applicants fail, and you must already be an accomplished musician before you apply -- the Air Force does not teach you to play. On the civilian side, BLS does not publish an annual wage for Musicians and Singers (27-2042) AT ALL, because the work is largely hourly and irregular; the published hourly figures are $20.35 at the 10th percentile, $47.80 median, and $132.56 at the 90th. That absence is itself the lesson: civilian performance work is unstable and rarely salaried, which is exactly what makes a full-time band chair valuable and rare. No certification applies."
    },
    "special_pays": [],
    "transition": {
@@ -1711,7 +1711,7 @@
      100160
     ],
     "salary_source": "BLS OEWS national, SOC 19-5012 (Occupational Health and Safety Technicians), May 2025; 10th pct $46,280 - 90th pct $100,160, median $61,560",
-    "credential_gap_note": "This is public health PRACTICE, not clinical care -- you gain no patient-care credential. The civilian public-health field is heavily degree-gated: an epidemiologist role requires at least a master's (typically an MPH), and many health-inspector posts require a bachelor's or a state registered-sanitarian credential. What transfers most directly is food-safety and environmental-health inspection experience. Credit is awarded toward a CCAF Public Health Technology degree; treat the bachelor's or MPH as the real unlock."
+    "credential_gap_note": "This is public health PRACTICE, not clinical care -- you gain no patient-care credential. The civilian public-health field is heavily degree-restricted: an epidemiologist role requires at least a master's (typically an MPH), and many health-inspector posts require a bachelor's or a state registered-sanitarian credential. What transfers most directly is food-safety and environmental-health inspection experience. Credit is awarded toward a CCAF Public Health Technology degree; treat the bachelor's or MPH as the real unlock."
    },
    "special_pays": [],
    "transition": {
@@ -2103,7 +2103,7 @@
      100990
     ],
     "salary_source": "BLS OEWS national, SOC 29-2010 (Clinical Laboratory Technologists and Technicians), May 2025; 10th pct $38,910 - 90th pct $100,990, median $62,930",
-    "credential_gap_note": "The laboratory skills transfer, but civilian clinical labs are CREDENTIAL-GATED: employers -- and the states that license lab personnel outright -- expect national certification as a medical laboratory technician or technologist, earned by exam and normally requiring an accredited academic program. Military training is a recognized eligibility route for the TECHNICIAN-level exam, but you must sit it; the TECHNOLOGIST level generally requires a bachelor's degree. You cannot simply walk in. Note the salary figure quoted is the combined BLS category 29-2010 (Clinical Laboratory Technologists and Technicians), which blends the degree-holding technologist tier with the technician tier, so the median OVERSTATES a technician-only exit. Credit is awarded toward a CCAF Medical Laboratory Technology degree."
+    "credential_gap_note": "The laboratory skills transfer, but civilian clinical labs are CREDENTIAL-RESTRICTED: employers -- and the states that license lab personnel outright -- expect national certification as a medical laboratory technician or technologist, earned by exam and normally requiring an accredited academic program. Military training is a recognized eligibility route for the TECHNICIAN-level exam, but you must sit it; the TECHNOLOGIST level generally requires a bachelor's degree. You cannot simply walk in. Note the salary figure quoted is the combined BLS category 29-2010 (Clinical Laboratory Technologists and Technicians), which blends the degree-holding technologist tier with the technician tier, so the median OVERSTATES a technician-only exit. Credit is awarded toward a CCAF Medical Laboratory Technology degree."
    },
    "special_pays": [],
    "transition": {
@@ -2167,7 +2167,7 @@
      100990
     ],
     "salary_source": "BLS OEWS national, SOC 29-2010 (Clinical Laboratory Technologists and Technicians), May 2025; 10th pct $38,910 - 90th pct $100,990, median $62,930",
-    "credential_gap_note": "A narrow but genuinely skilled specialty with a direct civilian equivalent -- histotechnician -- though the civilian role is certification-gated: employers expect national certification as a histotechnician or histotechnologist, earned by exam, with eligibility routes that normally require accredited coursework or documented laboratory experience. Military training and experience can establish that eligibility, but the exam is yours to pass, and some states license laboratory personnel. Note the salary figure is the broad BLS 29-2010 clinical-laboratory category, NOT a histology-specific wage. Credit is awarded toward a CCAF Histologic Technology degree."
+    "credential_gap_note": "A narrow but genuinely skilled specialty with a direct civilian equivalent -- histotechnician -- though the civilian role is certification-restricted: employers expect national certification as a histotechnician or histotechnologist, earned by exam, with eligibility routes that normally require accredited coursework or documented laboratory experience. Military training and experience can establish that eligibility, but the exam is yours to pass, and some states license laboratory personnel. Note the salary figure is the broad BLS 29-2010 clinical-laboratory category, NOT a histology-specific wage. Credit is awarded toward a CCAF Histologic Technology degree."
    },
    "special_pays": [],
    "transition": {
@@ -2315,7 +2315,7 @@
    "id": "air-force-3e3x1-3e331",
    "code": "3E3X1, 3E331",
    "field": "entry_requirements.asvab_line_score",
-   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'M 47' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'M 40'. I recorded 'M 40'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a CAC-gated link on myfss.us.af.mil. Verify with a recruiter.",
+   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'M 47' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'M 40'. I recorded 'M 40'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a locked behind a CAC login link on myfss.us.af.mil. Verify with a recruiter.",
    "sources_tried": [
     "https://www.airforce.com/careers/maintenance-and-repair/structural",
     "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
@@ -2326,7 +2326,7 @@
    "id": "air-force-4c0x1",
    "code": "4C0X1",
    "field": "entry_requirements.asvab_line_score",
-   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'A 57' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'G 57'. I recorded 'G 57'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a CAC-gated link on myfss.us.af.mil. Verify with a recruiter.",
+   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'A 57' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'G 57'. I recorded 'G 57'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a locked behind a CAC login link on myfss.us.af.mil. Verify with a recruiter.",
    "sources_tried": [
     "https://www.airforce.com/careers/healthcare/mental-health-service",
     "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
@@ -2337,7 +2337,7 @@
    "id": "air-force-4j0x2",
    "code": "4J0X2",
    "field": "entry_requirements.asvab_line_score",
-   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'A 51' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'G 60'. I recorded 'G 60'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a CAC-gated link on myfss.us.af.mil. Verify with a recruiter.",
+   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'A 51' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'G 60'. I recorded 'G 60'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a locked behind a CAC login link on myfss.us.af.mil. Verify with a recruiter.",
    "sources_tried": [
     "https://www.airforce.com/careers/healthcare/physical-medicine",
     "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
@@ -2348,7 +2348,7 @@
    "id": "air-force-4p0x1",
    "code": "4P0X1",
    "field": "entry_requirements.asvab_line_score",
-   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'A 48' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'A 40'. I recorded 'A 40'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a CAC-gated link on myfss.us.af.mil. Verify with a recruiter.",
+   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'A 48' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'A 40'. I recorded 'A 40'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a locked behind a CAC login link on myfss.us.af.mil. Verify with a recruiter.",
    "sources_tried": [
     "https://www.airforce.com/careers/healthcare/pharmacy",
     "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
@@ -2359,7 +2359,7 @@
    "id": "air-force-4r0x1",
    "code": "4R0X1",
    "field": "entry_requirements.asvab_line_score",
-   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'G 44' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'G 50'. I recorded 'G 50'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a CAC-gated link on myfss.us.af.mil. Verify with a recruiter.",
+   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'G 44' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'G 50'. I recorded 'G 50'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a locked behind a CAC login link on myfss.us.af.mil. Verify with a recruiter.",
    "sources_tried": [
     "https://www.airforce.com/careers/healthcare/diagnostic-imaging",
     "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
@@ -2370,7 +2370,7 @@
    "id": "air-force-4v0x1",
    "code": "4V0X1",
    "field": "entry_requirements.asvab_line_score",
-   "reason": "Batch input carried NO ASVAB score for this AFSC, and airforce.com's career-card field shows the placeholder 'A0' (minScore 0). 'A0' is not a real score -- the same placeholder appears on officer careers such as Flight Nurse and Developmental Engineer. I recorded 'G 52' from the 'ASVAB SCORE REQUIREMENTS' section of the airforce.com Ophthalmic career page, which states '52 General (G)' (verified against the live page HTML, not just the API). First-party, but unconfirmable against DAFECD Attachment 4, which is CAC-gated.",
+   "reason": "Batch input carried NO ASVAB score for this AFSC, and airforce.com's career-card field shows the placeholder 'A0' (minScore 0). 'A0' is not a real score -- the same placeholder appears on officer careers such as Flight Nurse and Developmental Engineer. I recorded 'G 52' from the 'ASVAB SCORE REQUIREMENTS' section of the airforce.com Ophthalmic career page, which states '52 General (G)' (verified against the live page HTML, not just the API). First-party, but unconfirmable against DAFECD Attachment 4, which is locked behind a CAC login.",
    "sources_tried": [
     "https://www.airforce.com/careers/healthcare/ophthalmic",
     "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
@@ -2381,7 +2381,7 @@
    "id": "air-force-3d0x1",
    "code": "3D0X1",
    "field": "entry_requirements.asvab_line_score",
-   "reason": "airforce.com's 'ASVAB SCORE REQUIREMENTS' section for this AFSC names the composite LETTER only, with no number. The number recorded comes from the same site's career-card data, which agrees on the composite letter, and matches the batch input. The number itself is not independently confirmed (DAFECD Attachment 4 is CAC-gated).",
+   "reason": "airforce.com's 'ASVAB SCORE REQUIREMENTS' section for this AFSC names the composite LETTER only, with no number. The number recorded comes from the same site's career-card data, which agrees on the composite letter, and matches the batch input. The number itself is not independently confirmed (DAFECD Attachment 4 is locked behind a CAC login).",
    "sources_tried": [
     "https://www.airforce.com/careers/logistics-and-administration/knowledge-operations-management",
     "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
@@ -2392,7 +2392,7 @@
    "id": "air-force-3d0x4-1d7x1",
    "code": "3D0X4, 1D7X1",
    "field": "entry_requirements.asvab_line_score",
-   "reason": "airforce.com's 'ASVAB SCORE REQUIREMENTS' section for this AFSC names the composite LETTER only, with no number. The number recorded comes from the same site's career-card data, which agrees on the composite letter, and matches the batch input. The number itself is not independently confirmed (DAFECD Attachment 4 is CAC-gated).",
+   "reason": "airforce.com's 'ASVAB SCORE REQUIREMENTS' section for this AFSC names the composite LETTER only, with no number. The number recorded comes from the same site's career-card data, which agrees on the composite letter, and matches the batch input. The number itself is not independently confirmed (DAFECD Attachment 4 is locked behind a CAC login).",
    "sources_tried": [
     "https://www.airforce.com/careers/intelligence/computer-systems-programming",
     "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
@@ -2403,7 +2403,7 @@
    "id": "air-force-3d1x1",
    "code": "3D1X1",
    "field": "entry_requirements.asvab_line_score",
-   "reason": "airforce.com's 'ASVAB SCORE REQUIREMENTS' section for this AFSC names the composite LETTER only, with no number. The number recorded comes from the same site's career-card data, which agrees on the composite letter, and matches the batch input. The number itself is not independently confirmed (DAFECD Attachment 4 is CAC-gated).",
+   "reason": "airforce.com's 'ASVAB SCORE REQUIREMENTS' section for this AFSC names the composite LETTER only, with no number. The number recorded comes from the same site's career-card data, which agrees on the composite letter, and matches the batch input. The number itself is not independently confirmed (DAFECD Attachment 4 is locked behind a CAC login).",
    "sources_tried": [
     "https://www.airforce.com/careers/intelligence/client-systems",
     "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
@@ -2414,7 +2414,7 @@
    "id": "air-force-4h0x1",
    "code": "4H0X1",
    "field": "entry_requirements.asvab_line_score",
-   "reason": "airforce.com's 'ASVAB SCORE REQUIREMENTS' section for this AFSC names the composite LETTER only, with no number. The number recorded comes from the same site's career-card data, which agrees on the composite letter, and matches the batch input. The number itself is not independently confirmed (DAFECD Attachment 4 is CAC-gated).",
+   "reason": "airforce.com's 'ASVAB SCORE REQUIREMENTS' section for this AFSC names the composite LETTER only, with no number. The number recorded comes from the same site's career-card data, which agrees on the composite letter, and matches the batch input. The number itself is not independently confirmed (DAFECD Attachment 4 is locked behind a CAC login).",
    "sources_tried": [
     "https://www.airforce.com/careers/healthcare/respiratory-care-practitioner",
     "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
@@ -2425,7 +2425,7 @@
    "id": "air-force-3e8x1",
    "code": "3E8X1",
    "field": "entry_requirements.asvab_line_score",
-   "reason": "Recorded 'M 47 & G 50' from the career-card data / batch input. Note that the 'Test Score Requirements' section of the airforce.com EOD page does NOT state a MAGE composite at all -- it states only a minimum score of 54 on the Predictive Success Model (PSM), derived from raw ASVAB scores combined with the TAPAS personality assessment. Both figures are recorded (PSM under entry_requirements.other). Which gate actually binds for a given applicant is unconfirmed.",
+   "reason": "Recorded 'M 47 & G 50' from the career-card data / batch input. Note that the 'Test Score Requirements' section of the airforce.com EOD page does NOT state a MAGE composite at all -- it states only a minimum score of 54 on the Predictive Success Model (PSM), derived from raw ASVAB scores combined with the TAPAS personality assessment. Both figures are recorded (PSM under entry_requirements.other). Which requirement actually binds for a given applicant is unconfirmed.",
    "sources_tried": [
     "https://www.airforce.com/careers/special-warfare-and-combat-support/explosive-ordnance-disposal-eod",
     "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers"
@@ -2453,7 +2453,7 @@
    "id": "air-force-3n2x1-3n3x1",
    "code": "3N2X1, 3N3X1",
    "field": "training_pipeline",
-   "reason": "Only Basic Military Training (7.5 weeks) is recorded because airforce.com publishes NO tech-school stage for Premier Band -- its trainingInfo block lists BMT and then an empty entry. This is consistent with the AFSC being audition-gated (you must already be an accomplished musician; the Air Force does not teach you to play), but the absence of a tech-school stage is NOT positively confirmed to mean there is none. Verify with a recruiter.",
+   "reason": "Only Basic Military Training (7.5 weeks) is recorded because airforce.com publishes NO tech-school stage for Premier Band -- its trainingInfo block lists BMT and then an empty entry. This is consistent with the AFSC being audition-restricted (you must already be an accomplished musician; the Air Force does not teach you to play), but the absence of a tech-school stage is NOT positively confirmed to mean there is none. Verify with a recruiter.",
    "sources_tried": [
     "https://www.airforce.com/careers/logistics-and-administration/premier-band",
     "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers"

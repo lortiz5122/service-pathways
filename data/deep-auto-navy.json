@@ -1,7 +1,7 @@
 {
  "branch": "Navy",
  "retrieved": "2026-07-12",
- "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded \u2014 it is a function of paygrade, not of the job.",
+ "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded — it is a function of paygrade, not of the job.",
  "specialties": [
   {
    "id": "navy-ag",
@@ -29,7 +29,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "S, where they receive formal Navy technical training at \u201cA\u201d School for",
+     "stage": "S, where they receive formal Navy technical training at “A” School for",
      "location": null,
      "length_weeks": 19,
      "source": "https://www.navy.com/careers-benefits/careers/science-engineering/aerographers-mate"
@@ -41,7 +41,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -94,7 +94,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "stage": "port for specialized training, including: Class “A” Technical School (",
      "location": null,
      "length_weeks": 15,
      "source": "https://www.navy.com/careers-benefits/careers/aviation/air-traffic-controller"
@@ -106,7 +106,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -152,7 +152,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -208,7 +208,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -264,7 +264,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -336,7 +336,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -379,8 +379,8 @@
    "depth": "deep",
    "what_it_is": "AD splits into Helo, Turbojet, or Turboprop engine-specialization strands after core 'A' School (see training_pipeline).",
    "entry_requirements": {
-    "asvab_line_score": "Conflicting figures found this session: ratemyasvab.com/cogn-iq.org report a composite of VE+AR+MK+AS = 210, while another source combination reads VE+MK+EI=152 or VE+MK+AS=152. UNVERIFIED \u2014 not reconciled against a primary Navy source this session (mynavyhr.navy.mil's AD community page was not independently fetched). Consistent with data/interest-taxonomy.json, which notes the Navy uses per-rating subtest sums rather than a single published line score. Confirm the current cutoff with a recruiter or Navy COOL.",
-    "security_clearance": "UNVERIFIED \u2014 not independently confirmed this session.",
+    "asvab_line_score": "Conflicting figures found this session: ratemyasvab.com/cogn-iq.org report a composite of VE+AR+MK+AS = 210, while another source combination reads VE+MK+EI=152 or VE+MK+AS=152. UNVERIFIED — not reconciled against a primary Navy source this session (mynavyhr.navy.mil's AD community page was not independently fetched). Consistent with data/interest-taxonomy.json, which notes the Navy uses per-rating subtest sums rather than a single published line score. Confirm the current cutoff with a recruiter or Navy COOL.",
+    "security_clearance": "UNVERIFIED — not independently confirmed this session.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -393,7 +393,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "ou\u2019ll report for specialized training, including: AD Core \"A\" School (",
+     "stage": "ou’ll report for specialized training, including: AD Core \"A\" School (",
      "location": null,
      "length_weeks": 4,
      "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/aviation-machinists-mate"
@@ -411,7 +411,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -472,7 +472,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -509,7 +509,7 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "Operates and handles aviation ordnance \u2014 guns, bombs, torpedoes, rockets, and missiles \u2014 including stowing, issuing, and loading munitions and small arms.",
+   "what_it_is": "Operates and handles aviation ordnance — guns, bombs, torpedoes, rockets, and missiles — including stowing, issuing, and loading munitions and small arms.",
    "entry_requirements": {
     "asvab_line_score": "VE+AR+MK+AS>=173 -OR- MK+AS+AO>=131",
     "security_clearance": null,
@@ -531,7 +531,7 @@
      "source": "https://www.navy.com/careers-benefits/careers/aviation/aviation-ordnanceman"
     },
     {
-     "stage": "ve additional training in the form of a ship\u2019s company strand course (",
+     "stage": "ve additional training in the form of a ship’s company strand course (",
      "location": null,
      "length_weeks": 2,
      "source": "https://www.navy.com/careers-benefits/careers/aviation/aviation-ordnanceman"
@@ -549,7 +549,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -597,7 +597,7 @@
    "depth": "deep",
    "what_it_is": "This is the Navy's direct counterpart to the Coast Guard AST. Rescue swimmers deploy from helicopters.",
    "entry_requirements": {
-    "asvab_line_score": "UNVERIFIED \u2014 the Navy has NO line-score composites; ratings sum raw subtest standard scores. The AIRR requirement was not obtainable from a fetchable source this session.",
+    "asvab_line_score": "UNVERIFIED — the Navy has NO line-score composites; ratings sum raw subtest standard scores. The AIRR requirement was not obtainable from a fetchable source this session.",
     "security_clearance": "Secret (UNVERIFIED).",
     "education": "High school diploma or GED",
     "physical": null,
@@ -676,7 +676,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -711,7 +711,7 @@
   {
    "id": "navy-ame",
    "code": "AME",
-   "name": "Aviation Structural Mechanic \u2014 Safety Equipment",
+   "name": "Aviation Structural Mechanic — Safety Equipment",
    "branch": "Navy",
    "track": "enlisted",
    "interest_cluster_ids": [
@@ -746,7 +746,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -814,7 +814,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -858,10 +858,10 @@
     "maritime-nautical"
    ],
    "depth": "deep",
-   "what_it_is": "navyenlisted.com reports a 60-month (5-year) initial service obligation for BM, longer than several other ratings' typical 4-year first contract \u2014 not independently confirmed against a primary Navy source this session.",
+   "what_it_is": "navyenlisted.com reports a 60-month (5-year) initial service obligation for BM, longer than several other ratings' typical 4-year first contract — not independently confirmed against a primary Navy source this session.",
    "entry_requirements": {
-    "asvab_line_score": "Navy has no single named line score for this cluster \u2014 ratings sum raw ASVAB subtest standard scores (per data/interest-taxonomy.json: 'Navy: no line score \u2014 per-rating subtest sums'). Secondary sources (cogn-iq.org, gyfted.me) report BM requires VE+AR+MK+AS \u2265 175 AND MK+AS+AO \u2265 135 (both must be met simultaneously). UNVERIFIED at primary-source level \u2014 MyNavyHR (mynavyhr.navy.mil) returned HTTP 403 on direct fetch this session; confirm the current cutoff with a recruiter or the official BM rating page before relying on it.",
-    "security_clearance": "Not typically required for the general rating. Assignment to a Visit, Board, Search, and Seizure (VBSS) team or certain security-adjacent boat-crew billets may require one \u2014 not confirmed to primary-source level this session.",
+    "asvab_line_score": "Navy has no single named line score for this cluster — ratings sum raw ASVAB subtest standard scores (per data/interest-taxonomy.json: 'Navy: no line score — per-rating subtest sums'). Secondary sources (cogn-iq.org, gyfted.me) report BM requires VE+AR+MK+AS ≥ 175 AND MK+AS+AO ≥ 135 (both must be met simultaneously). UNVERIFIED at primary-source level — MyNavyHR (mynavyhr.navy.mil) returned HTTP 403 on direct fetch this session; confirm the current cutoff with a recruiter or the official BM rating page before relying on it.",
+    "security_clearance": "Not typically required for the general rating. Assignment to a Visit, Board, Search, and Seizure (VBSS) team or certain security-adjacent boat-crew billets may require one — not confirmed to primary-source level this session.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -886,7 +886,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -929,9 +929,9 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "ALL Seabee ratings (Builder BU, Construction Mechanic CM, Equipment Operator EO, Utilitiesman UT, Steelworker SW, Engineering Aide EA) require a minimum 5-year enlistment, longer than the Navy's typical 4-year first-term contract \u2014 per navycs.com. This is a real, binding commitment difference worth naming to a candidate weighing this rating.",
+   "what_it_is": "ALL Seabee ratings (Builder BU, Construction Mechanic CM, Equipment Operator EO, Utilitiesman UT, Steelworker SW, Engineering Aide EA) require a minimum 5-year enlistment, longer than the Navy's typical 4-year first-term contract — per navycs.com. This is a real, binding commitment difference worth naming to a candidate weighing this rating.",
    "entry_requirements": {
-    "asvab_line_score": "AR+MC+AS = 136, OR VE+AR+MK+AO = 197 \u2014 per navycs.com. UNVERIFIED at primary-source level \u2014 mynavyhr.navy.mil's BU community page was found via search but not fetched this session (consistent with this project's recurring finding that mynavyhr.navy.mil blocks direct fetch).",
+    "asvab_line_score": "AR+MC+AS = 136, OR VE+AR+MK+AO = 197 — per navycs.com. UNVERIFIED at primary-source level — mynavyhr.navy.mil's BU community page was found via search but not fetched this session (consistent with this project's recurring finding that mynavyhr.navy.mil blocks direct fetch).",
     "security_clearance": "Not typically required for the base rating.",
     "education": "High school diploma or GED",
     "physical": null,
@@ -945,7 +945,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "Builder role report to Class \u201cA\u201d Technical School in Gulfport, MS for",
+     "stage": "Builder role report to Class “A” Technical School in Gulfport, MS for",
      "location": null,
      "length_weeks": 10,
      "source": "https://www.navy.com/careers-benefits/careers/construction/builder"
@@ -957,7 +957,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1020,7 +1020,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "eport to Class \u201cA\u201d Technical School at Sheppard Air Force Base, TX for",
+     "stage": "eport to Class “A” Technical School at Sheppard Air Force Base, TX for",
      "location": null,
      "length_weeks": 20,
      "source": "https://www.navy.com/careers-benefits/careers/construction/construction-electrician"
@@ -1032,7 +1032,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1070,7 +1070,7 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "Seabee rating that maintains construction machinery \u2014 buses, dump trucks, bulldozers, cranes, backhoes, and pile drivers \u2014 and their engines, transmissions, and hydraulic/electrical systems.",
+   "what_it_is": "Seabee rating that maintains construction machinery — buses, dump trucks, bulldozers, cranes, backhoes, and pile drivers — and their engines, transmissions, and hydraulic/electrical systems.",
    "entry_requirements": {
     "asvab_line_score": "AR+MC+AS>=162",
     "security_clearance": null,
@@ -1086,7 +1086,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "nic role report to Class \u201cA\u201d Technical School in Port Hueneme, CA, for",
+     "stage": "nic role report to Class “A” Technical School in Port Hueneme, CA, for",
      "location": null,
      "length_weeks": 16,
      "source": "https://www.navy.com/careers-benefits/careers/construction/construction-mechanic"
@@ -1098,7 +1098,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1153,7 +1153,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "stage": "port for specialized training, including: Class “A” Technical School (",
      "location": null,
      "length_weeks": 18,
      "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/cryptologic-technician-collection"
@@ -1165,7 +1165,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1213,7 +1213,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "g, including: Class \u201cA\u201d School Phase I Defense Language Institute (27-",
+     "stage": "g, including: Class “A” School Phase I Defense Language Institute (27-",
      "location": null,
      "length_weeks": 64,
      "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/cryptologic-technician-interpretive"
@@ -1225,7 +1225,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1273,7 +1273,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1326,7 +1326,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "stage": "port for specialized training, including: Class “A” Technical School (",
      "location": null,
      "length_weeks": 12,
      "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/cryptologic-technician-technical"
@@ -1338,7 +1338,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1381,8 +1381,8 @@
    "depth": "deep",
    "what_it_is": "CSS (submarine) is a sub-specialization of the same rating requiring volunteer selection for submarine duty and completion of Basic Enlisted Submarine School.",
    "entry_requirements": {
-    "asvab_line_score": "Conflicting figures found this session: one source states VE+AR \u2265 76 on the official CS community overview; another states VE+AR \u2265 88. UNVERIFIED \u2014 the two figures were not reconciled against a directly fetched primary Navy source (mynavyhr.navy.mil returned HTTP 403 on fetch this session). Consistent with data/interest-taxonomy.json, which notes the Navy uses per-rating subtest sums rather than a single published line score for this cluster. Confirm the current cutoff with a recruiter or the Navy COOL/CS rating page directly.",
-    "security_clearance": "Not required for the rating generally. Assignment to Flag Mess (serving admirals/senior executives) or the White House Mess (serving the President) is a competitive special-duty assignment that requires a background investigation/security clearance \u2014 a genuine prestige/advancement path within this rating. (navycs.com, fetched 2026-07-12)",
+    "asvab_line_score": "Conflicting figures found this session: one source states VE+AR ≥ 76 on the official CS community overview; another states VE+AR ≥ 88. UNVERIFIED — the two figures were not reconciled against a directly fetched primary Navy source (mynavyhr.navy.mil returned HTTP 403 on fetch this session). Consistent with data/interest-taxonomy.json, which notes the Navy uses per-rating subtest sums rather than a single published line score for this cluster. Confirm the current cutoff with a recruiter or the Navy COOL/CS rating page directly.",
+    "security_clearance": "Not required for the rating generally. Assignment to Flag Mess (serving admirals/senior executives) or the White House Mess (serving the President) is a competitive special-duty assignment that requires a background investigation/security clearance — a genuine prestige/advancement path within this rating. (navycs.com, fetched 2026-07-12)",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -1395,7 +1395,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "stage": "eport for specialized training including: Class “A” Technical School (",
      "location": null,
      "length_weeks": 5,
      "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/culinary-specialist"
@@ -1429,7 +1429,7 @@
    "what_it_is": "CORRECTION to this project's interest-taxonomy.json: the taxonomy's listed example, 'CTN - Cryptologic Technician Networks,' was disestablished June 28, 2023; its personnel and duties transferred to the newly established Cyber Warfare Technician (CWT) rating used in this record. U.S. citizenship required.",
    "entry_requirements": {
     "asvab_line_score": "No single Navy 'line score' - Navy ratings qualify via ASVAB subtest-sum combinations, consistent with interest-taxonomy.json's note that Navy has no line-score system. For CWT: AR + 2(MK) + GS >= 255, OR VE + AR + MK + MC >= 235, OR CT + MK + VE >= 173 AND CT >= 60 (CT = Cyber Test, a supplemental Navy aptitude test beyond the standard ASVAB). Search-sourced (ratemyasvab.com); not independently confirmed against a primary Navy COOL/NAVET document this session.",
-    "security_clearance": "Top Secret/Sensitive Compartmented Information (TS/SCI) required. Confirmed via official navy.com fetch. This is a hard gate independent of ASVAB score: per SEAD 4 (the government-wide National Security Adjudicative Guidelines), common disqualifiers include foreign influence/preference (close foreign-national contacts, dual citizenship, foreign-government ties), financial considerations (unresolved delinquent debt, bankruptcy pattern, tax delinquency), and drug involvement/substance misuse (recent illegal drug use or a pattern of misuse) - a qualifying ASVAB/CT score does not offset a disqualifying finding under these guidelines.",
+    "security_clearance": "Top Secret/Sensitive Compartmented Information (TS/SCI) required. Confirmed via official navy.com fetch. This is a hard requirement independent of ASVAB score: per SEAD 4 (the government-wide National Security Adjudicative Guidelines), common disqualifiers include foreign influence/preference (close foreign-national contacts, dual citizenship, foreign-government ties), financial considerations (unresolved delinquent debt, bankruptcy pattern, tax delinquency), and drug involvement/substance misuse (recent illegal drug use or a pattern of misuse) - a qualifying ASVAB/CT score does not offset a disqualifying finding under these guidelines.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -1442,7 +1442,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "stage": "port for specialized training, including: Class “A” Technical School (",
      "location": null,
      "length_weeks": 23,
      "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/cyber-warfare-technician"
@@ -1454,7 +1454,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1507,7 +1507,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "ring Common Core and \u201cA\u201d School in Great Lakes, IL, where they receive",
+     "stage": "ring Common Core and “A” School in Great Lakes, IL, where they receive",
      "location": null,
      "length_weeks": 10,
      "source": "https://www.navy.com/careers-benefits/careers/first-responder/damage-controlman"
@@ -1519,7 +1519,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1572,7 +1572,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "alized training, including: Basic Engineering Common Core \u201cA\u201d School (",
+     "stage": "alized training, including: Basic Engineering Common Core “A” School (",
      "location": null,
      "length_weeks": 10,
      "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/electricians-mate"
@@ -1590,7 +1590,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1635,7 +1635,7 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "Maintains, repairs, and calibrates electronic equipment used for communications, detection, tracking, and navigation; recruited jointly with Fire Controlman under the Advanced Electronics/Computer Field (AECF) surface accession pathway per the source. Submarine service ratings exist (Wikipedia lists ETN \u2014 nuclear power, ETV \u2014 navigation, and ETR \u2014 communications); navycs.com separately lists a combined 'ET Submarine' ASVAB requirement of AR+MK+EI+GS>=218 -OR- VE+AR+MK+MC>=218 without confirming which submarine service-rating code(s) that figure applies to.",
+   "what_it_is": "Maintains, repairs, and calibrates electronic equipment used for communications, detection, tracking, and navigation; recruited jointly with Fire Controlman under the Advanced Electronics/Computer Field (AECF) surface accession pathway per the source. Submarine service ratings exist (Wikipedia lists ETN — nuclear power, ETV — navigation, and ETR — communications); navycs.com separately lists a combined 'ET Submarine' ASVAB requirement of AR+MK+EI+GS>=218 -OR- VE+AR+MK+MC>=218 without confirming which submarine service-rating code(s) that figure applies to.",
    "entry_requirements": {
     "asvab_line_score": "AR+MK+EI+GS>=222 -OR- AR+2MK+GS>=226 Note 1",
     "security_clearance": null,
@@ -1649,7 +1649,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1713,7 +1713,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1770,7 +1770,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "stage": "ed training, including: Basic Engineering Common Core and “A” School (",
      "location": null,
      "length_weeks": 14,
      "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/engineman"
@@ -1782,7 +1782,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1844,7 +1844,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "ole report to Class \u201cA\u201d Technical School at Fort Leonard Wood, MO, for",
+     "stage": "ole report to Class “A” Technical School at Fort Leonard Wood, MO, for",
      "location": null,
      "length_weeks": 11,
      "source": "https://www.navy.com/careers-benefits/careers/construction/equipment-operator"
@@ -1856,7 +1856,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1902,7 +1902,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1953,7 +1953,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2028,7 +2028,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2053,7 +2053,7 @@
   {
    "id": "navy-gse",
    "code": "GSE",
-   "name": "Gas Turbine System Technician \u2014 Electrical",
+   "name": "Gas Turbine System Technician — Electrical",
    "branch": "Navy",
    "track": "enlisted",
    "interest_cluster_ids": [
@@ -2076,7 +2076,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "stage": "ed training, including: Basic Engineering Common Core and “A” School (",
      "location": null,
      "length_weeks": 10,
      "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/gas-turbine-systems-technician-electrical"
@@ -2094,7 +2094,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2127,7 +2127,7 @@
   {
    "id": "navy-gsm",
    "code": "GSM",
-   "name": "Gas Turbine System Technician \u2014 Mechanical",
+   "name": "Gas Turbine System Technician — Mechanical",
    "branch": "Navy",
    "track": "enlisted",
    "interest_cluster_ids": [
@@ -2150,7 +2150,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "stage": "ed training, including: Basic Engineering Common Core and “A” School (",
      "location": null,
      "length_weeks": 15,
      "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/gas-turbine-systems-technician-mechanical"
@@ -2162,7 +2162,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2232,7 +2232,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2265,7 +2265,7 @@
    "depth": "deep",
    "what_it_is": "5-year minimum service commitment reported for HM accession (source: navyenlisted.com); not cross-checked against a primary Navy source this session.",
    "entry_requirements": {
-    "asvab_line_score": "Composite line-score thresholds: VE+MK+GS >= 156, OR AR+WK > 105, OR VE+AR+MK+GS > 210. Source: cogn-iq.org, cross-referenced against an ASVAB Validation Technical Report for Hospital Corpsman found via search (apps.dtic.mil/sti/trecms/pdf/AD1200541.pdf) \u2014 the DTIC report was surfaced via search synthesis, not independently fetched this session. Meeting the minimum does not guarantee rating assignment; training-slot availability and Navy needs also apply.",
+    "asvab_line_score": "Composite line-score thresholds: VE+MK+GS >= 156, OR AR+WK > 105, OR VE+AR+MK+GS > 210. Source: cogn-iq.org, cross-referenced against an ASVAB Validation Technical Report for Hospital Corpsman found via search (apps.dtic.mil/sti/trecms/pdf/AD1200541.pdf) — the DTIC report was surfaced via search synthesis, not independently fetched this session. Meeting the minimum does not guarantee rating assignment; training-slot availability and Navy needs also apply.",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
@@ -2279,7 +2279,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "report for specialized training including: Hospital Corps \u201cA\u201d School (",
+     "stage": "report for specialized training including: Hospital Corps “A” School (",
      "location": null,
      "length_weeks": 19,
      "source": "https://www.navy.com/careers-benefits/careers/medical/hospital-corpsman"
@@ -2291,7 +2291,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2357,7 +2357,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "stage": "ed training, including: Basic Engineering Common Core and “A” School (",
      "location": null,
      "length_weeks": 13,
      "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/hull-maintenance-technician"
@@ -2375,7 +2375,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2417,7 +2417,7 @@
     "technology-cyber"
    ],
    "depth": "deep",
-   "what_it_is": "Installs, operates, and maintains Navy information systems, local/wide-area networks, and telecommunications, and administers computer-system operations. The source lists a surface general track, an Advanced Technical Field (IT-ATF) track, and a combined submarine track under the same rating code; Wikipedia's rating-structure table separately lists three submarine service ratings \u2014 ITE (Electronic Warfare), ITR (Communications), and ITN (Network).",
+   "what_it_is": "Installs, operates, and maintains Navy information systems, local/wide-area networks, and telecommunications, and administers computer-system operations. The source lists a surface general track, an Advanced Technical Field (IT-ATF) track, and a combined submarine track under the same rating code; Wikipedia's rating-structure table separately lists three submarine service ratings — ITE (Electronic Warfare), ITR (Communications), and ITN (Network).",
    "entry_requirements": {
     "asvab_line_score": "AR+VE+MK+GS>=212 Note 2 -OR- VE+MK+GS>=156 Note 2 -OR- CT+MK+VE>=156 and CT>=60 Note 2",
     "security_clearance": null,
@@ -2451,7 +2451,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2501,7 +2501,7 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "Under DoD's 13 Adjudicative Guidelines (Security Executive Agent Directive 4 / 32 CFR Part 147), none of the following are automatic mechanical disqualifiers under the 'whole person' standard, but they are the dominant real-world reasons applicants and incumbents are denied or lose eligibility, and each can rule out this specialty even with a fully qualifying ASVAB score: (1) unresolved foreign contacts, foreign relatives in certain countries, foreign property/financial interests, or foreign romantic ties that create potential foreign leverage (Guideline B, Foreign Influence); (2) a pattern of serious financial delinquency -- unresolved debt (especially over $10,000), recent bankruptcy, wage garnishment, or repeated late payment patterns (Guideline F; financial issues are cited as roughly 45% of DoD clearance denials); (3) illegal drug use, misuse of prescription medication, or continued use after applying (Guideline H); and (4), treated especially seriously, deliberately concealing or falsifying any of the above -- including an UNREPORTED dual citizenship or undisclosed foreign contact -- during the application or investigation (Guideline E, Personal Conduct). A 16-24-year-old considering this cluster should treat clearance eligibility as a real, independent gate, not a formality layered on top of a qualifying ASVAB score. For this rating specifically, the ICD 704 family-citizenship requirement is a distinct, additional gate beyond the general foreign-influence guideline -- a family member's citizenship in a non-low-risk country can be disqualifying independent of the applicant's own conduct.",
+   "what_it_is": "Under DoD's 13 Adjudicative Guidelines (Security Executive Agent Directive 4 / 32 CFR Part 147), none of the following are automatic mechanical disqualifiers under the 'whole person' standard, but they are the dominant real-world reasons applicants and incumbents are denied or lose eligibility, and each can rule out this specialty even with a fully qualifying ASVAB score: (1) unresolved foreign contacts, foreign relatives in certain countries, foreign property/financial interests, or foreign romantic ties that create potential foreign leverage (Guideline B, Foreign Influence); (2) a pattern of serious financial delinquency -- unresolved debt (especially over $10,000), recent bankruptcy, wage garnishment, or repeated late payment patterns (Guideline F; financial issues are cited as roughly 45% of DoD clearance denials); (3) illegal drug use, misuse of prescription medication, or continued use after applying (Guideline H); and (4), treated especially seriously, deliberately concealing or falsifying any of the above -- including an UNREPORTED dual citizenship or undisclosed foreign contact -- during the application or investigation (Guideline E, Personal Conduct). A 16-24-year-old considering this cluster should treat clearance eligibility as a real, independent requirement, not a formality layered on top of a qualifying ASVAB score. For this rating specifically, the ICD 704 family-citizenship requirement is a distinct, additional requirement beyond the general foreign-influence guideline -- a family member's citizenship in a non-low-risk country can be disqualifying independent of the applicant's own conduct.",
    "entry_requirements": {
     "asvab_line_score": "VE + AR (Verbal Expression + Arithmetic Reasoning) composite >= 107. CONFIRMED this session via search (navycs.com and corroborating sources); this is a Navy per-rating subtest-sum composite, consistent with data/interest-taxonomy.json's note that the Navy uses per-rating subtest sums rather than a single named line score for this cluster.",
     "security_clearance": "Eligibility for Top Secret clearance with continuous access to Sensitive Compartmented Information (SCI), determined by a Single Scope Background Investigation (SSBI) followed by reinvestigation every 5 years -- CONFIRMED this session via search. The applicant AND their immediate family must be U.S. citizens or from a country assessed low-risk under Intelligence Community Directive 704.",
@@ -2515,7 +2515,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2567,7 +2567,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "nd Class \u201cA\u201d Technical School in Great Lakes, IL, where you\u2019ll receive",
+     "stage": "nd Class “A” Technical School in Great Lakes, IL, where you’ll receive",
      "location": null,
      "length_weeks": 21,
      "source": "https://www.navy.com/careers-benefits/careers/electronics-technology/interior-communications-electrician"
@@ -2579,7 +2579,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2625,8 +2625,8 @@
    "depth": "deep",
    "what_it_is": "Minimum typing speed of 40 WPM required at time of enlistment (navycs.com, cross-corroborated this session).",
    "entry_requirements": {
-    "asvab_line_score": "VE + MK \u2265 105, OR VE + MK + CS \u2265 157, with a minimum VE (Verbal Expression) of 52 \u2014 all listed composites must be met simultaneously (navycs.com/cogn-iq.org, cross-corroborated this session). Consistent with data/interest-taxonomy.json, which notes the Navy uses per-rating subtest sums rather than a single published line score for this cluster. UNVERIFIED at primary-source level \u2014 mynavyhr.navy.mil was not independently fetched this session; confirm with a recruiter or Navy COOL.",
-    "security_clearance": "Secret clearance is standard for legal-office access to case records; not independently re-confirmed for LN specifically this session \u2014 reasoned by analogy to the sourced Army 27D requirement.",
+    "asvab_line_score": "VE + MK ≥ 105, OR VE + MK + CS ≥ 157, with a minimum VE (Verbal Expression) of 52 — all listed composites must be met simultaneously (navycs.com/cogn-iq.org, cross-corroborated this session). Consistent with data/interest-taxonomy.json, which notes the Navy uses per-rating subtest sums rather than a single published line score for this cluster. UNVERIFIED at primary-source level — mynavyhr.navy.mil was not independently fetched this session; confirm with a recruiter or Navy COOL.",
+    "security_clearance": "Secret clearance is standard for legal-office access to case records; not independently re-confirmed for LN specifically this session — reasoned by analogy to the sourced Army 27D requirement.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -2651,7 +2651,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2686,7 +2686,7 @@
    "what_it_is": "Involves handling of Navy post office operations and financial/accounting systems as part of A-school curriculum.",
    "entry_requirements": {
     "asvab_line_score": "VE+AR (Verbal Expression + Arithmetic Reasoning) combined score of 102 minimum, per navycs.com and corroborating sources; not independently confirmed by direct primary .mil fetch this session.",
-    "security_clearance": "Not confirmed as a blanket requirement; LS duties involving financial/postal systems may require some level of trust/clearance \u2014 not independently verified this session.",
+    "security_clearance": "Not confirmed as a blanket requirement; LS duties involving financial/postal systems may require some level of trust/clearance — not independently verified this session.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -2699,7 +2699,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "stage": "eport for specialized training including: Class “A” Technical School (",
      "location": null,
      "length_weeks": 9,
      "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/logistics-specialist"
@@ -2711,7 +2711,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2775,7 +2775,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2815,9 +2815,9 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "MM absorbed most of the Boiler Technician (BT) rating on October 1, 1996 (steam-plant operations) and, following a 2013 Navy rating realignment, absorbed roughly 2,000 Engineman (EN) sailors whose primary skills were in auxiliary-engineering systems \u2014 auxiliary shipboard machinery work now falls under MM. The EN rating itself was NOT eliminated: it continues to exist as a smaller, narrower rating focused specifically on diesel propulsion for amphibious ships and smaller craft. Correction to this project's taxonomy: data/interest-taxonomy.json lists EN as a separate example specialty for this cluster; this session's research indicates EN still exists but in a substantially narrowed scope post-2013, with most of its former auxiliary-machinery scope now under MM \u2014 flagged as a taxonomy nuance rather than silently reconciled. A separate, full EN SpecialtyRecord was not built this session given the 10-web-call budget; MM is the representative record for Navy shipboard mechanical/engineering work.",
+   "what_it_is": "MM absorbed most of the Boiler Technician (BT) rating on October 1, 1996 (steam-plant operations) and, following a 2013 Navy rating realignment, absorbed roughly 2,000 Engineman (EN) sailors whose primary skills were in auxiliary-engineering systems — auxiliary shipboard machinery work now falls under MM. The EN rating itself was NOT eliminated: it continues to exist as a smaller, narrower rating focused specifically on diesel propulsion for amphibious ships and smaller craft. Correction to this project's taxonomy: data/interest-taxonomy.json lists EN as a separate example specialty for this cluster; this session's research indicates EN still exists but in a substantially narrowed scope post-2013, with most of its former auxiliary-machinery scope now under MM — flagged as a taxonomy nuance rather than silently reconciled. A separate, full EN SpecialtyRecord was not built this session given the 10-web-call budget; MM is the representative record for Navy shipboard mechanical/engineering work.",
    "entry_requirements": {
-    "asvab_line_score": "UNVERIFIED \u2014 this session did not locate a specific MM ASVAB subtest-sum requirement (consistent with data/interest-taxonomy.json's note that the Navy uses per-rating subtest sums rather than a single published line score for most ratings in this cluster). navycs.com and mynavyhr.navy.mil pages exist but were not fetched to extract the exact composite this session. Confirm the current cutoff with a recruiter or the Navy COOL/MM rating page directly.",
+    "asvab_line_score": "UNVERIFIED — this session did not locate a specific MM ASVAB subtest-sum requirement (consistent with data/interest-taxonomy.json's note that the Navy uses per-rating subtest sums rather than a single published line score for most ratings in this cluster). navycs.com and mynavyhr.navy.mil pages exist but were not fetched to extract the exact composite this session. Confirm the current cutoff with a recruiter or the Navy COOL/MM rating page directly.",
     "security_clearance": "Not typically required for surface-fleet MM; submarine-track assignments commonly involve additional screening given the closed operating environment, though this session did not independently confirm a formal clearance requirement.",
     "education": "High school diploma or GED",
     "physical": null,
@@ -2831,7 +2831,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "ed training, including: Basic Engineering Common Core and \u201cA\u201d School (",
+     "stage": "ed training, including: Basic Engineering Common Core and “A” School (",
      "location": null,
      "length_weeks": 9,
      "source": "https://www.navy.com/careers-benefits/careers/industrial-mechanical/machinists-mate"
@@ -2856,9 +2856,9 @@
     "music-media"
    ],
    "depth": "deep",
-   "what_it_is": "NO AUDITION IS REQUIRED \u2014 this is the media/journalism sub-family. A 60-month (5-year) minimum enlistment obligation is reported for this rating, longer than the Navy's typical 4-year initial contract \u2014 NOT independently re-confirmed against a primary source this session.",
+   "what_it_is": "NO AUDITION IS REQUIRED — this is the media/journalism sub-family. A 60-month (5-year) minimum enlistment obligation is reported for this rating, longer than the Navy's typical 4-year initial contract — NOT independently re-confirmed against a primary source this session.",
    "entry_requirements": {
-    "asvab_line_score": "VE+AR composite of 115, and a standalone VE (Verbal Expression) score of 55 \u2014 per secondary-source corroboration (cogn-iq.org, ratemyasvab.com); NOT independently re-confirmed against a primary Navy source this session.",
+    "asvab_line_score": "VE+AR composite of 115, and a standalone VE (Verbal Expression) score of 55 — per secondary-source corroboration (cogn-iq.org, ratemyasvab.com); NOT independently re-confirmed against a primary Navy source this session.",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
@@ -2870,7 +2870,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2909,9 +2909,9 @@
     "law-enforcement-security"
    ],
    "depth": "deep",
-   "what_it_is": "Meeting the minimum line scores is necessary but not sufficient for assignment \u2014 available A-school seats, security-clearance eligibility, and the Navy's needs at the time also govern actual rating assignment (per cogn-iq.org).",
+   "what_it_is": "Meeting the minimum line scores is necessary but not sufficient for assignment — available A-school seats, security-clearance eligibility, and the Navy's needs at the time also govern actual rating assignment (per cogn-iq.org).",
    "entry_requirements": {
-    "asvab_line_score": "WK+AR \u2265 98 and WK \u2265 43 (both composites must be met simultaneously), per cogn-iq.org and ratemyasvab.com. UNVERIFIED at primary-source level \u2014 the official mynavyhr.navy.mil MA page returned HTTP 403 on fetch this session and was not independently confirmed. Consistent with data/interest-taxonomy.json's note that the Navy uses per-rating subtest sums rather than a single published line score for this cluster.",
+    "asvab_line_score": "WK+AR ≥ 98 and WK ≥ 43 (both composites must be met simultaneously), per cogn-iq.org and ratemyasvab.com. UNVERIFIED at primary-source level — the official mynavyhr.navy.mil MA page returned HTTP 403 on fetch this session and was not independently confirmed. Consistent with data/interest-taxonomy.json's note that the Navy uses per-rating subtest sums rather than a single published line score for this cluster.",
     "security_clearance": "Secret clearance typically required, per operationmilitarykids.org and navyenlisted.com. UNVERIFIED at primary-source level this session.",
     "education": "High school diploma or GED",
     "physical": null,
@@ -2925,7 +2925,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "ey will receive formal Navy technical training at \u201cA\u201d School for about",
+     "stage": "ey will receive formal Navy technical training at “A” School for about",
      "location": null,
      "length_weeks": 9,
      "source": "https://www.navy.com/careers-benefits/careers/first-responder/master-at-arms"
@@ -2937,7 +2937,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3011,7 +3011,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3070,7 +3070,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3113,9 +3113,9 @@
     "music-media"
    ],
    "depth": "deep",
-   "what_it_is": "Selection runs through the Navy Music Program (NMP) audition: performance of the National Anthem plus prepared repertoire across multiple styles, major/minor scales and arpeggios, sight-reading of standard sheet music, and (for vocalists) mic technique and stage presence. Per NMP materials, the large majority of successful candidates already hold a bachelor's degree or higher in music \u2014 the audition, not the ASVAB, is the real competitive barrier.",
+   "what_it_is": "Selection runs through the Navy Music Program (NMP) audition: performance of the National Anthem plus prepared repertoire across multiple styles, major/minor scales and arpeggios, sight-reading of standard sheet music, and (for vocalists) mic technique and stage presence. Per NMP materials, the large majority of successful candidates already hold a bachelor's degree or higher in music — the audition, not the ASVAB, is the real competitive barrier.",
    "entry_requirements": {
-    "asvab_line_score": "A figure of '31 on QT' was reported by one secondary source (navycs.com) but could not be independently confirmed against a primary Navy source this session, and sits awkwardly against this project's general finding that Navy ratings are qualified by per-rating ASVAB subtest sums rather than named line scores (interest-taxonomy.json) \u2014 treat as UNVERIFIED. What IS confirmed: both the ASVAB and a live audition are required, and the audition is the substantive gate.",
+    "asvab_line_score": "A figure of '31 on QT' was reported by one secondary source (navycs.com) but could not be independently confirmed against a primary Navy source this session, and sits awkwardly against this project's general finding that Navy ratings are qualified by per-rating ASVAB subtest sums rather than named line scores (interest-taxonomy.json) — treat as UNVERIFIED. What IS confirmed: both the ASVAB and a live audition are required, and the audition is the substantive requirement.",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
@@ -3127,7 +3127,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3217,7 +3217,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3240,18 +3240,18 @@
   },
   {
    "id": "navy-nuclear-field-enlisted",
-   "code": "MM(N) / EM(N) / ET(N) \u2014 Navy Nuclear Field (shipboard/submarine reactor-plant operation; entrants are assigned one of these three ratings, all trained through the same nuclear pipeline)",
-   "name": "Nuclear Field (Machinist's Mate, Electrician's Mate, and Electronics Technician \u2014 Nuclear)",
+   "code": "MM(N) / EM(N) / ET(N) — Navy Nuclear Field (shipboard/submarine reactor-plant operation; entrants are assigned one of these three ratings, all trained through the same nuclear pipeline)",
+   "name": "Nuclear Field (Machinist's Mate, Electrician's Mate, and Electronics Technician — Nuclear)",
    "branch": "Navy",
    "track": "enlisted",
    "interest_cluster_ids": [
     "maritime-nautical"
    ],
    "depth": "deep",
-   "what_it_is": "Entrants are assigned one of three ratings \u2014 Machinist's Mate (Nuclear, MM(N)), Electrician's Mate (Nuclear, EM(N)), or Electronics Technician (Nuclear, ET(N)) \u2014 based on program needs and candidate preference/aptitude, all of whom complete the same core nuclear-pipeline schools before diverging into rating-specific fleet duties. Nuclear Field also feeds Navy's submarine force specifically (a submarine-volunteer track requiring Basic Enlisted Submarine School) as well as nuclear-powered surface ships (aircraft carriers).",
+   "what_it_is": "Entrants are assigned one of three ratings — Machinist's Mate (Nuclear, MM(N)), Electrician's Mate (Nuclear, EM(N)), or Electronics Technician (Nuclear, ET(N)) — based on program needs and candidate preference/aptitude, all of whom complete the same core nuclear-pipeline schools before diverging into rating-specific fleet duties. Nuclear Field also feeds Navy's submarine force specifically (a submarine-volunteer track requiring Basic Enlisted Submarine School) as well as nuclear-powered surface ships (aircraft carriers).",
    "entry_requirements": {
-    "asvab_line_score": "Navy has no single named line score system; the Nuclear Field (NF) program instead uses ASVAB-derived composites that are, per this project's binding research brief, among the HIGHEST composite requirements in the entire U.S. military. Two qualification tracks (per navycs.com/Navy Advanced Programs Test materials, searched 2026-07-12): Alpha (NFA) \u2014 qualifies directly with one relevant composite (reported as VE+AR+MK+MC) \u2265 252, with AR+MK \u2265 110 also required, and no further testing needed. Bravo (NFB) \u2014 qualifies with the relevant composites \u2265 225 (rather than 252), but must additionally sit and pass the Navy Advanced Programs Test (NAPT), a 2-hour supplementary exam, with a minimum score of 50. UNVERIFIED at primary-source level \u2014 these figures are corroborated across multiple secondary/test-prep sources but were not independently confirmed via a direct fetch of a primary Navy/MyNavyHR nuclear-program page this session; confirm current cutoffs with a recruiter or Navy COOL before relying on them.",
-    "security_clearance": "Nuclear Field candidates undergo a rigorous background investigation and a personal interview process historically associated with Naval Reactors (the program with roots in Admiral Rickover's nuclear-propulsion program); a Secret clearance or higher is commonly reported as a practical requirement given access to reactor-plant technical data. Not independently confirmed to primary-source level this session \u2014 flagged as trained-knowledge/secondary-corroborated rather than freshly sourced.",
+    "asvab_line_score": "Navy has no single named line score system; the Nuclear Field (NF) program instead uses ASVAB-derived composites that are, per this project's binding research brief, among the HIGHEST composite requirements in the entire U.S. military. Two qualification tracks (per navycs.com/Navy Advanced Programs Test materials, searched 2026-07-12): Alpha (NFA) — qualifies directly with one relevant composite (reported as VE+AR+MK+MC) ≥ 252, with AR+MK ≥ 110 also required, and no further testing needed. Bravo (NFB) — qualifies with the relevant composites ≥ 225 (rather than 252), but must additionally sit and pass the Navy Advanced Programs Test (NAPT), a 2-hour supplementary exam, with a minimum score of 50. UNVERIFIED at primary-source level — these figures are corroborated across multiple secondary/test-prep sources but were not independently confirmed via a direct fetch of a primary Navy/MyNavyHR nuclear-program page this session; confirm current cutoffs with a recruiter or Navy COOL before relying on them.",
+    "security_clearance": "Nuclear Field candidates undergo a rigorous background investigation and a personal interview process historically associated with Naval Reactors (the program with roots in Admiral Rickover's nuclear-propulsion program); a Secret clearance or higher is commonly reported as a practical requirement given access to reactor-plant technical data. Not independently confirmed to primary-source level this session — flagged as trained-knowledge/secondary-corroborated rather than freshly sourced.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -3290,7 +3290,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "list role report to Class \u201cA\u201d Technical School in Great Lakes, IL, for",
+     "stage": "list role report to Class “A” Technical School in Great Lakes, IL, for",
      "location": null,
      "length_weeks": 10,
      "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/operations-specialist"
@@ -3302,7 +3302,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3355,7 +3355,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "stage": "eport for specialized training including: Class “A” Technical School (",
      "location": null,
      "length_weeks": 5,
      "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/personnel-specialist"
@@ -3367,7 +3367,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3419,8 +3419,8 @@
    "depth": "deep",
    "what_it_is": "One secondary source (navyweek.org) reports a 4-6 year enlistment obligation for QM; not independently confirmed against a primary Navy source this session.",
    "entry_requirements": {
-    "asvab_line_score": "Navy has no single named line score for this cluster \u2014 ratings sum raw ASVAB subtest standard scores. Search this session surfaced CONFLICTING secondary figures for QM: VE+AR \u2265 96 (cogn-iq.org); VE+AR+MK+AS = 210 (navyweek.org); VE+AR = 100 (operationmilitarykids.org); VE+AR \u2265 97 (navycs.com). UNVERIFIED and NOT reconciled against a primary Navy source this session (MyNavyHR returned HTTP 403 on a related BM fetch attempt; QM's MyNavyHR page was not separately fetched). Confirm the current cutoff with a recruiter before relying on any of these figures.",
-    "security_clearance": "Not required for the rating generally; access to certain navigation/mission-planning systems and spaces may carry incidental clearance requirements depending on the platform \u2014 not independently confirmed this session.",
+    "asvab_line_score": "Navy has no single named line score for this cluster — ratings sum raw ASVAB subtest standard scores. Search this session surfaced CONFLICTING secondary figures for QM: VE+AR ≥ 96 (cogn-iq.org); VE+AR+MK+AS = 210 (navyweek.org); VE+AR = 100 (operationmilitarykids.org); VE+AR ≥ 97 (navycs.com). UNVERIFIED and NOT reconciled against a primary Navy source this session (MyNavyHR returned HTTP 403 on a related BM fetch attempt; QM's MyNavyHR page was not separately fetched). Confirm the current cutoff with a recruiter before relying on any of these figures.",
+    "security_clearance": "Not required for the rating generally; access to certain navigation/mission-planning systems and spaces may carry incidental clearance requirements depending on the platform — not independently confirmed this session.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -3433,7 +3433,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "port for specialized training, including: Class \u201cA\u201d Technical School (",
+     "stage": "port for specialized training, including: Class “A” Technical School (",
      "location": null,
      "length_weeks": 9,
      "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/quartermaster"
@@ -3445,7 +3445,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3491,13 +3491,13 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "Newport, RI, where they receive formal Navy training at \u201cA\u201d School for",
+     "stage": "Newport, RI, where they receive formal Navy training at “A” School for",
      "location": null,
      "length_weeks": 8,
      "source": "https://www.navy.com/careers-benefits/careers/religious-services/religious-program-specialist"
     },
     {
-     "stage": "From there, Religious Program Specialists attend \u201cC\u201d School for",
+     "stage": "From there, Religious Program Specialists attend “C” School for",
      "location": null,
      "length_weeks": 5,
      "source": "https://www.navy.com/careers-benefits/careers/religious-services/religious-program-specialist"
@@ -3509,7 +3509,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3546,7 +3546,7 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "Manages Navy exchange retail operations \u2014 barber shops, tailor shops, uniform stores, laundries, and gas stations \u2014 ashore and aboard ship.",
+   "what_it_is": "Manages Navy exchange retail operations — barber shops, tailor shops, uniform stores, laundries, and gas stations — ashore and aboard ship.",
    "entry_requirements": {
     "asvab_line_score": "VE+AR>=83",
     "security_clearance": null,
@@ -3562,7 +3562,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "stage": "eport for specialized training including: Class “A” Technical School (",
      "location": null,
      "length_weeks": 5,
      "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/retail-services-specialist"
@@ -3574,7 +3574,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3633,19 +3633,19 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": ", you\u2019ll report to a Sonar Technician \u201cA\u201d School in San Diego, CA, for",
+     "stage": ", you’ll report to a Sonar Technician “A” School in San Diego, CA, for",
      "location": null,
      "length_weeks": 10,
      "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician"
     },
     {
-     "stage": "Once you complete that course, you\u2019ll spend an additional 6-",
+     "stage": "Once you complete that course, you’ll spend an additional 6-",
      "location": null,
      "length_weeks": 8,
      "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician"
     },
     {
-     "stage": "p, you\u2019ll report to Basic Enlisted Submarine School in Groton, CT, for",
+     "stage": "p, you’ll report to Basic Enlisted Submarine School in Groton, CT, for",
      "location": null,
      "length_weeks": 9,
      "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician"
@@ -3657,7 +3657,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3712,19 +3712,19 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": ", you\u2019ll report to a Sonar Technician \u201cA\u201d School in San Diego, CA, for",
+     "stage": ", you’ll report to a Sonar Technician “A” School in San Diego, CA, for",
      "location": null,
      "length_weeks": 10,
      "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician"
     },
     {
-     "stage": "Once you complete that course, you\u2019ll spend an additional 6-",
+     "stage": "Once you complete that course, you’ll spend an additional 6-",
      "location": null,
      "length_weeks": 8,
      "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician"
     },
     {
-     "stage": "p, you\u2019ll report to Basic Enlisted Submarine School in Groton, CT, for",
+     "stage": "p, you’ll report to Basic Enlisted Submarine School in Groton, CT, for",
      "location": null,
      "length_weeks": 9,
      "source": "https://www.navy.com/careers-benefits/careers/intelligence-information-cryptology/sonar-technician"
@@ -3736,7 +3736,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3781,7 +3781,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3834,7 +3834,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3880,7 +3880,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "elworker role report to Class \u201cA\u201d Technical School in Gulfport, MS for",
+     "stage": "elworker role report to Class “A” Technical School in Gulfport, MS for",
      "location": null,
      "length_weeks": 11,
      "source": "https://www.navy.com/careers-benefits/careers/construction/steelworker"
@@ -3892,7 +3892,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3962,7 +3962,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4022,7 +4022,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "to Class \u201cA\u201d Technical School at NCTC Sheppard Air Force Base, TX for",
+     "stage": "to Class “A” Technical School at NCTC Sheppard Air Force Base, TX for",
      "location": null,
      "length_weeks": 13,
      "source": "https://www.navy.com/careers-benefits/careers/construction/utilitiesman"
@@ -4034,7 +4034,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4076,8 +4076,8 @@
    "depth": "deep",
    "what_it_is": null,
    "entry_requirements": {
-    "asvab_line_score": "Navy ratings do not publish a single named 'line score' the way the Army does \u2014 data/interest-taxonomy.json documents this as 'no line score \u2014 per-rating subtest sums.' One secondary source (cogn-iq.org, retrieved 2026-07-12) reports a subtest-sum requirement of VE+MK+CS \u2265155 for YN. UNVERIFIED at primary-source level \u2014 mynavyhr.navy.mil returned HTTP 403 on direct fetch in this project's prior culinary-cluster research (data/specialties-culinary.json) and was not re-attempted this session given the ~10-web-call budget; confirm the current requirement with a recruiter or Navy COOL.",
-    "security_clearance": "Not typically required for general YN duty; UNVERIFIED whether assignments handling classified correspondence, military-justice/legal records, or flag-level staff work carry an elevated Secret-clearance requirement \u2014 not independently confirmed this session.",
+    "asvab_line_score": "Navy ratings do not publish a single named 'line score' the way the Army does — data/interest-taxonomy.json documents this as 'no line score — per-rating subtest sums.' One secondary source (cogn-iq.org, retrieved 2026-07-12) reports a subtest-sum requirement of VE+MK+CS ≥155 for YN. UNVERIFIED at primary-source level — mynavyhr.navy.mil returned HTTP 403 on direct fetch in this project's prior culinary-cluster research (data/specialties-culinary.json) and was not re-attempted this session given the ~10-web-call budget; confirm the current requirement with a recruiter or Navy COOL.",
+    "security_clearance": "Not typically required for general YN duty; UNVERIFIED whether assignments handling classified correspondence, military-justice/legal records, or flag-level staff work carry an elevated Secret-clearance requirement — not independently confirmed this session.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -4090,7 +4090,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "eport for specialized training including: Class \u201cA\u201d Technical School (",
+     "stage": "eport for specialized training including: Class “A” Technical School (",
      "location": null,
      "length_weeks": 7,
      "source": "https://www.navy.com/careers-benefits/careers/business-logistics-administration/yeoman"
@@ -4108,7 +4108,7 @@
    },
    "sources": [
     "navy.com career page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {

@@ -1,762 +1,762 @@
 {
-  "command": "PAY-DETAIL",
-  "retrieved_date": "2026-07-12",
-  "pay_year": "2026 (calendar year 2026, effective 2026-01-01, following the 3.8% across-the-board pay raise enacted in the FY2026 NDAA)",
-  "source_access_note": "Direct WebFetch to militarypay.defense.gov, dfas.mil, travel.dod.mil, army.mil, bls.gov, and fred.stlouisfed.org all returned HTTP 403 Forbidden this session (6 blocked fetch attempts across those domains). All figures below were obtained via web SEARCH (server-side retrieval) and, for the pay table, cross-corroborated by directly WebFetching two independent secondary aggregator pages (valoannetwork.com and militaryretirementcalc.com) that each transcribe the DFAS 2026 table and whose cell values matched each other to within rounding. Every other block (advanced-entry programs, promotion timeline, BAH, BAS, special pays, KFF, BLS) relies on WebSearch synthesis of secondary sources, not primary fetch, and is labeled 'search-sourced' throughout. Where sources conflicted or a figure could not be corroborated, it is marked UNVERIFIED rather than guessed. Tool budget was ~20 calls; approximately 25 were used, the overage spent specifically chasing BAH worked examples and BLS series precision per the anti-fabrication constraint (mirrors the precedent set in pay-tables.json, which used 18 of a 12-call budget for the same reason).",
-  "basic_pay_longevity_monthly_usd": {
-    "columns": [
-      "<2",
-      "2",
-      "3",
-      "4",
-      "6",
-      "8",
-      "10",
-      "12",
-      "14",
-      "16",
-      "18",
-      "20"
+ "command": "PAY-DETAIL",
+ "retrieved_date": "2026-07-12",
+ "pay_year": "2026 (calendar year 2026, effective 2026-01-01, following the 3.8% across-the-board pay raise enacted in the FY2026 NDAA)",
+ "source_access_note": "Direct WebFetch to militarypay.defense.gov, dfas.mil, travel.dod.mil, army.mil, bls.gov, and fred.stlouisfed.org all returned HTTP 403 Forbidden this session (6 blocked fetch attempts across those domains). All figures below were obtained via web SEARCH (server-side retrieval) and, for the pay table, cross-corroborated by directly WebFetching two independent secondary aggregator pages (valoannetwork.com and militaryretirementcalc.com) that each transcribe the DFAS 2026 table and whose cell values matched each other to within rounding. Every other block (advanced-entry programs, promotion timeline, BAH, BAS, special pays, KFF, BLS) relies on WebSearch synthesis of secondary sources, not primary fetch, and is labeled 'search-sourced' throughout. Where sources conflicted or a figure could not be corroborated, it is marked UNVERIFIED rather than guessed. Tool budget was ~20 calls; approximately 25 were used, the overage spent specifically chasing BAH worked examples and BLS series precision per the anti-fabrication constraint (mirrors the precedent set in pay-tables.json, which used 18 of a 12-call budget for the same reason).",
+ "basic_pay_longevity_monthly_usd": {
+  "columns": [
+   "<2",
+   "2",
+   "3",
+   "4",
+   "6",
+   "8",
+   "10",
+   "12",
+   "14",
+   "16",
+   "18",
+   "20"
+  ],
+  "enlisted": {
+   "E-1": {
+    "<2": 2407.2,
+    "2": 2407.2,
+    "3": 2407.2,
+    "4": 2407.2,
+    "6": 2407.2,
+    "8": 2407.2,
+    "10": 2407.2,
+    "12": 2407.2,
+    "14": 2407.2,
+    "16": 2407.2,
+    "18": 2407.2,
+    "20": 2407.2,
+    "note": "E-1 basic pay does not increase with longevity (flat rate; a separate lower <4-month rate of $2,225.70-2,226 exists for the first four months only, not shown as a column here)."
+   },
+   "E-2": {
+    "<2": 2698,
+    "2": 2698,
+    "3": 2698,
+    "4": 2698,
+    "6": 2698,
+    "8": 2698,
+    "10": 2698,
+    "12": 2698,
+    "14": 2698,
+    "16": 2698,
+    "18": 2698,
+    "20": 2698,
+    "note": "E-2 basic pay is flat; does not increase with longevity."
+   },
+   "E-3": {
+    "<2": 2837,
+    "2": 3015,
+    "3": 3198,
+    "4": 3198,
+    "6": 3198,
+    "8": 3198,
+    "10": 3198,
+    "12": 3198,
+    "14": 3198,
+    "16": 3198,
+    "18": 3198,
+    "20": 3198,
+    "note": "E-3 pay plateaus at the >3yr rate."
+   },
+   "E-4": {
+    "<2": 3142,
+    "2": 3303,
+    "3": 3482,
+    "4": 3659,
+    "6": 3815,
+    "8": 3815,
+    "10": 3815,
+    "12": 3815,
+    "14": 3815,
+    "16": 3815,
+    "18": 3815,
+    "20": 3815,
+    "note": "E-4 pay plateaus at the >6yr rate."
+   },
+   "E-5": {
+    "<2": 3343,
+    "2": 3598,
+    "3": 3776,
+    "4": 3947,
+    "6": 4110,
+    "8": 4300,
+    "10": 4395,
+    "12": 4422,
+    "14": 4422,
+    "16": 4422,
+    "18": 4422,
+    "20": 4422,
+    "note": "E-5 pay plateaus at the >12yr rate."
+   },
+   "E-6": {
+    "<2": 3401,
+    "2": 3743,
+    "3": 3908,
+    "4": 4069,
+    "6": 4236,
+    "8": 4613,
+    "10": 4759,
+    "12": 5043,
+    "14": 5130,
+    "16": 5194,
+    "18": 5268,
+    "20": 5268
+   },
+   "E-7": {
+    "<2": 3932,
+    "2": 4291,
+    "3": 4456,
+    "4": 4673,
+    "6": 4844,
+    "8": 5136,
+    "10": 5300,
+    "12": 5592,
+    "14": 5835,
+    "16": 6001,
+    "18": 6177,
+    "20": 6246
+   },
+   "E-8": {
+    "<2": "N/A",
+    "2": "N/A",
+    "3": "N/A",
+    "4": "N/A",
+    "6": "N/A",
+    "8": 5657,
+    "10": 5907,
+    "12": 6062,
+    "14": 6247,
+    "16": 6448,
+    "18": 6811,
+    "20": 6995,
+    "note": "E-8 is not a valid grade/YOS combination below ~8 years in the published table; those cells are N/A rather than $0."
+   },
+   "E-9": {
+    "<2": "N/A",
+    "2": "N/A",
+    "3": "N/A",
+    "4": "N/A",
+    "6": "N/A",
+    "8": "N/A",
+    "10": 6910,
+    "12": 7067,
+    "14": 7264,
+    "16": 7496,
+    "18": 7731,
+    "20": 8105,
+    "note": "E-9 is not a valid grade/YOS combination below 10 years in the published table; those cells are N/A rather than $0. E-9 continues to rise well past 20 years (up to ~$10,729 at 38+ years per one secondary source), not shown here since 20 is the requested ceiling."
+   }
+  },
+  "officer": {
+   "O-1": {
+    "<2": 4150.2,
+    "2": 4320,
+    "3": 5222,
+    "4": 5222,
+    "6": 5222,
+    "8": 5222,
+    "10": 5222,
+    "12": 5222,
+    "14": 5222,
+    "16": 5222,
+    "18": 5222,
+    "20": 5222,
+    "note": "O-1 pay plateaus at the >3yr rate."
+   },
+   "O-2": {
+    "<2": 4782,
+    "2": 5446,
+    "3": 6273,
+    "4": 6485,
+    "6": 6618,
+    "8": 6618,
+    "10": 6618,
+    "12": 6618,
+    "14": 6618,
+    "16": 6618,
+    "18": 6618,
+    "20": 6618,
+    "note": "O-2 pay plateaus at the >6yr rate."
+   },
+   "O-3": {
+    "<2": 5535,
+    "2": 6273,
+    "3": 6770,
+    "4": 7383,
+    "6": 7737,
+    "8": 8125,
+    "10": 8376,
+    "12": 8788,
+    "14": 9004,
+    "16": 9004,
+    "18": 9004,
+    "20": 9004,
+    "note": "O-3 pay plateaus at the >14yr rate."
+   }
+  },
+  "cross_corroboration_note": "The <2 and 2yr columns for all grades reuse the exact figures already verified in pay-tables.json (which independently confirmed E-1 <2yr and O-1 <2yr to the cent). The 3/4/6/8/10/12/14/16/18/20yr columns were newly researched this session and cross-corroborated between two independently operated secondary sources (valoannetwork.com/military-base-pay/ and militaryretirementcalc.com/blog/2026-military-pay-chart), whose cent-level figures matched each other's rounded-dollar figures in every cell checked. One outlier search-snippet claimed E-7 >12yr = $4,968/month, which conflicts with both full-table sources (which agree on $5,592) and was discarded as unreliable rather than used.",
+  "source": "valoannetwork.com/military-base-pay/ (WebFetch, full table) and militaryretirementcalc.com/blog/2026-military-pay-chart (WebFetch, full table for E-5-E-9 and O-1-O-3), both stating they transcribe the DFAS 2026 basic pay table effective 2026-01-01 (3.8% NDAA raise). Primary militarypay.defense.gov/dfas.mil pages returned HTTP 403 to direct fetch this session.",
+  "retrieved_date": "2026-07-12"
+ },
+ "advanced_entry_paygrade": {
+  "summary": "You do not have to start at E-1. Things you may have ALREADY DONE in high school can put you in at a higher paygrade from day one — permanently, and compounding for your entire career. This is the most actionable thing on this site, and almost nobody tells 16-year-olds about it.",
+  "entry_pay_reference": {
+   "E-1": 2407.2,
+   "E-2": 2698.0,
+   "E-3": 2837.0,
+   "E-4": 3142.0,
+   "note": "Monthly basic pay, under 2 years of service, 2026. Official longevity table."
+  },
+  "the_rule_nobody_mentions": {
+   "headline": "You can only use ONE.",
+   "detail": "These do not stack. If you are an Eagle Scout AND you have 48 college credits, you enter at E-3 — not E-4. Pick the single achievement that gives you the highest grade and make sure THAT one is the one written into your contract.",
+   "source": "liveabout.com, legalclarity.org (secondary), retrieved 2026-07-12"
+  },
+  "programs": [
+   {
+    "program": "Civil Air Patrol — General Billy Mitchell Award",
+    "plain": "Earn the Mitchell Award as a CAP cadet — usually about 2 years — and you enlist above E-1.",
+    "grants_by_branch": {
+     "Air Force": "E-3",
+     "Coast Guard": "E-3",
+     "Space Force": "E-3"
+    },
+    "grants": "E-3",
+    "branches": [
+     "Air Force",
+     "Coast Guard",
+     "Space Force (via DAF)"
     ],
-    "enlisted": {
-      "E-1": {
-        "<2": 2407.2,
-        "2": 2407.2,
-        "3": 2407.2,
-        "4": 2407.2,
-        "6": 2407.2,
-        "8": 2407.2,
-        "10": 2407.2,
-        "12": 2407.2,
-        "14": 2407.2,
-        "16": 2407.2,
-        "18": 2407.2,
-        "20": 2407.2,
-        "note": "E-1 basic pay does not increase with longevity (flat rate; a separate lower <4-month rate of $2,225.70-2,226 exists for the first four months only, not shown as a column here)."
-      },
-      "E-2": {
-        "<2": 2698,
-        "2": 2698,
-        "3": 2698,
-        "4": 2698,
-        "6": 2698,
-        "8": 2698,
-        "10": 2698,
-        "12": 2698,
-        "14": 2698,
-        "16": 2698,
-        "18": 2698,
-        "20": 2698,
-        "note": "E-2 basic pay is flat; does not increase with longevity."
-      },
-      "E-3": {
-        "<2": 2837,
-        "2": 3015,
-        "3": 3198,
-        "4": 3198,
-        "6": 3198,
-        "8": 3198,
-        "10": 3198,
-        "12": 3198,
-        "14": 3198,
-        "16": 3198,
-        "18": 3198,
-        "20": 3198,
-        "note": "E-3 pay plateaus at the >3yr rate."
-      },
-      "E-4": {
-        "<2": 3142,
-        "2": 3303,
-        "3": 3482,
-        "4": 3659,
-        "6": 3815,
-        "8": 3815,
-        "10": 3815,
-        "12": 3815,
-        "14": 3815,
-        "16": 3815,
-        "18": 3815,
-        "20": 3815,
-        "note": "E-4 pay plateaus at the >6yr rate."
-      },
-      "E-5": {
-        "<2": 3343,
-        "2": 3598,
-        "3": 3776,
-        "4": 3947,
-        "6": 4110,
-        "8": 4300,
-        "10": 4395,
-        "12": 4422,
-        "14": 4422,
-        "16": 4422,
-        "18": 4422,
-        "20": 4422,
-        "note": "E-5 pay plateaus at the >12yr rate."
-      },
-      "E-6": {
-        "<2": 3401,
-        "2": 3743,
-        "3": 3908,
-        "4": 4069,
-        "6": 4236,
-        "8": 4613,
-        "10": 4759,
-        "12": 5043,
-        "14": 5130,
-        "16": 5194,
-        "18": 5268,
-        "20": 5268
-      },
-      "E-7": {
-        "<2": 3932,
-        "2": 4291,
-        "3": 4456,
-        "4": 4673,
-        "6": 4844,
-        "8": 5136,
-        "10": 5300,
-        "12": 5592,
-        "14": 5835,
-        "16": 6001,
-        "18": 6177,
-        "20": 6246
-      },
-      "E-8": {
-        "<2": "N/A",
-        "2": "N/A",
-        "3": "N/A",
-        "4": "N/A",
-        "6": "N/A",
-        "8": 5657,
-        "10": 5907,
-        "12": 6062,
-        "14": 6247,
-        "16": 6448,
-        "18": 6811,
-        "20": 6995,
-        "note": "E-8 is not a valid grade/YOS combination below ~8 years in the published table; those cells are N/A rather than $0."
-      },
-      "E-9": {
-        "<2": "N/A",
-        "2": "N/A",
-        "3": "N/A",
-        "4": "N/A",
-        "6": "N/A",
-        "8": "N/A",
-        "10": 6910,
-        "12": 7067,
-        "14": 7264,
-        "16": 7496,
-        "18": 7731,
-        "20": 8105,
-        "note": "E-9 is not a valid grade/YOS combination below 10 years in the published table; those cells are N/A rather than $0. E-9 continues to rise well past 20 years (up to ~$10,729 at 38+ years per one secondary source), not shown here since 20 is the requested ceiling."
-      }
-    },
-    "officer": {
-      "O-1": {
-        "<2": 4150.2,
-        "2": 4320,
-        "3": 5222,
-        "4": 5222,
-        "6": 5222,
-        "8": 5222,
-        "10": 5222,
-        "12": 5222,
-        "14": 5222,
-        "16": 5222,
-        "18": 5222,
-        "20": 5222,
-        "note": "O-1 pay plateaus at the >3yr rate."
-      },
-      "O-2": {
-        "<2": 4782,
-        "2": 5446,
-        "3": 6273,
-        "4": 6485,
-        "6": 6618,
-        "8": 6618,
-        "10": 6618,
-        "12": 6618,
-        "14": 6618,
-        "16": 6618,
-        "18": 6618,
-        "20": 6618,
-        "note": "O-2 pay plateaus at the >6yr rate."
-      },
-      "O-3": {
-        "<2": 5535,
-        "2": 6273,
-        "3": 6770,
-        "4": 7383,
-        "6": 7737,
-        "8": 8125,
-        "10": 8376,
-        "12": 8788,
-        "14": 9004,
-        "16": 9004,
-        "18": 9004,
-        "20": 9004,
-        "note": "O-3 pay plateaus at the >14yr rate."
-      }
-    },
-    "cross_corroboration_note": "The <2 and 2yr columns for all grades reuse the exact figures already verified in pay-tables.json (which independently confirmed E-1 <2yr and O-1 <2yr to the cent). The 3/4/6/8/10/12/14/16/18/20yr columns were newly researched this session and cross-corroborated between two independently operated secondary sources (valoannetwork.com/military-base-pay/ and militaryretirementcalc.com/blog/2026-military-pay-chart), whose cent-level figures matched each other's rounded-dollar figures in every cell checked. One outlier search-snippet claimed E-7 >12yr = $4,968/month, which conflicts with both full-table sources (which agree on $5,592) and was discarded as unreliable rather than used.",
-    "source": "valoannetwork.com/military-base-pay/ (WebFetch, full table) and militaryretirementcalc.com/blog/2026-military-pay-chart (WebFetch, full table for E-5-E-9 and O-1-O-3), both stating they transcribe the DFAS 2026 basic pay table effective 2026-01-01 (3.8% NDAA raise). Primary militarypay.defense.gov/dfas.mil pages returned HTTP 403 to direct fetch this session.",
+    "requirement": "CAP cadet who has completed at least 8 weeks in Achievement 8; passed the Learn to Lead vol. 2 exam (80%+, closed book, 1 hour); passed the Aerospace Dimensions exam (80%+, closed book, 1 hour); attained the Healthy Fitness Zone on the Cadet Physical Fitness Test within the previous 180 days; and graduated from an encampment or equivalent.",
+    "typical_time": "Usually about 2 years in the CAP cadet programme.",
+    "verbatim": "If they choose to enlist in the Air Force, they may enter at the grade of E-3.",
+    "notes": "CAP's own page names only the Air Force — but that is CAP not speaking for other services, NOT other services refusing it. The Coast Guard's own advanced-paygrade programme grants E-3 for exactly this kind of background, and CAP cadets have entered the Coast Guard at E-3. ASK EVERY BRANCH — silence is not refusal.",
+    "source": "OFFICIAL — gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/mitchell; corroborated for the Coast Guard by gocoastguard.com/hiring-incentives",
+    "tier": "OFFICIAL",
     "retrieved_date": "2026-07-12"
-  },
-  "advanced_entry_paygrade": {
-    "summary": "You do not have to start at E-1. Things you may have ALREADY DONE in high school can put you in at a higher paygrade from day one \u2014 permanently, and compounding for your entire career. This is the most actionable thing on this site, and almost nobody tells 16-year-olds about it.",
-    "entry_pay_reference": {
-      "E-1": 2407.2,
-      "E-2": 2698.0,
-      "E-3": 2837.0,
-      "E-4": 3142.0,
-      "note": "Monthly basic pay, under 2 years of service, 2026. Official longevity table."
+   },
+   {
+    "program": "JROTC — 2 years",
+    "plain": "Two years of JROTC and you enlist above E-1. The Coast Guard grants a full E-3 for JROTC participation.",
+    "grants_by_branch": {
+     "Army": "E-2",
+     "Navy": "E-2",
+     "Air Force": "E-2",
+     "Coast Guard": "E-3"
     },
-    "the_rule_nobody_mentions": {
-      "headline": "You can only use ONE.",
-      "detail": "These do not stack. If you are an Eagle Scout AND you have 48 college credits, you enter at E-3 \u2014 not E-4. Pick the single achievement that gives you the highest grade and make sure THAT one is the one written into your contract.",
-      "source": "liveabout.com, legalclarity.org (secondary), retrieved 2026-07-12"
-    },
-    "programs": [
-      {
-        "program": "Civil Air Patrol \u2014 General Billy Mitchell Award",
-        "plain": "Earn the Mitchell Award as a CAP cadet \u2014 usually about 2 years \u2014 and you enlist above E-1.",
-        "grants_by_branch": {
-          "Air Force": "E-3",
-          "Coast Guard": "E-3",
-          "Space Force": "E-3"
-        },
-        "grants": "E-3",
-        "branches": [
-          "Air Force",
-          "Coast Guard",
-          "Space Force (via DAF)"
-        ],
-        "requirement": "CAP cadet who has completed at least 8 weeks in Achievement 8; passed the Learn to Lead vol. 2 exam (80%+, closed book, 1 hour); passed the Aerospace Dimensions exam (80%+, closed book, 1 hour); attained the Healthy Fitness Zone on the Cadet Physical Fitness Test within the previous 180 days; and graduated from an encampment or equivalent.",
-        "typical_time": "Usually about 2 years in the CAP cadet programme.",
-        "verbatim": "If they choose to enlist in the Air Force, they may enter at the grade of E-3.",
-        "notes": "CAP's own page names only the Air Force \u2014 but that is CAP not speaking for other services, NOT other services refusing it. The Coast Guard's own advanced-paygrade programme grants E-3 for exactly this kind of background, and CAP cadets have entered the Coast Guard at E-3. ASK EVERY BRANCH \u2014 silence is not refusal.",
-        "source": "OFFICIAL \u2014 gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/mitchell; corroborated for the Coast Guard by gocoastguard.com/hiring-incentives",
-        "tier": "OFFICIAL",
-        "retrieved_date": "2026-07-12"
-      },
-      {
-        "program": "JROTC \u2014 2 years",
-        "plain": "Two years of JROTC and you enlist above E-1. The Coast Guard grants a full E-3 for JROTC participation.",
-        "grants_by_branch": {
-          "Army": "E-2",
-          "Navy": "E-2",
-          "Air Force": "E-2",
-          "Coast Guard": "E-3"
-        },
-        "grants": "E-2",
-        "branches": [
-          "Army",
-          "Navy",
-          "Air Force",
-          "Coast Guard"
-        ],
-        "requirement": "Two academic years of Junior Reserve Officers' Training Corps.",
-        "notes": "The Coast Guard is the outlier and the best deal here: its official programme grants an immediate E-3 after boot camp for JROTC/ROTC participation, where the other services grant E-2 for two years. Marine Corps rules differ \u2014 confirm with a recruiter.",
-        "source": "liveabout.com, army-portal.com, legalclarity.org (SECONDARY). Coast Guard: OFFICIAL \u2014 gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
-        "tier": "SECONDARY",
-        "retrieved_date": "2026-07-12"
-      },
-      {
-        "program": "JROTC \u2014 3 years",
-        "plain": "Three years of JROTC and you enlist as an E-3 instead of an E-1.",
-        "grants_by_branch": {
-          "Army": "E-3",
-          "Navy": "E-3",
-          "Air Force": "E-3",
-          "Coast Guard": "E-3"
-        },
-        "grants": "E-3",
-        "branches": [
-          "Army",
-          "Navy",
-          "Air Force",
-          "Coast Guard"
-        ],
-        "requirement": "Three academic years of JROTC.",
-        "notes": "One extra year of something you were already doing moves you a whole paygrade.",
-        "source": "liveabout.com, army-portal.com, legalclarity.org (SECONDARY). Coast Guard: OFFICIAL \u2014 gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
-        "tier": "SECONDARY",
-        "retrieved_date": "2026-07-12"
-      },
-      {
-        "program": "Eagle Scout / Girl Scout Gold Award",
-        "plain": "Earn Eagle Scout (or the Girl Scout Gold Award) and you enlist above E-1 \u2014 but the grade DIFFERS BY BRANCH, and so does the money.",
-        "grants_by_branch": {
-          "Army": "E-3",
-          "Navy": "E-3",
-          "Coast Guard": "E-3",
-          "Air Force": "E-2"
-        },
-        "grants": "E-3",
-        "branches": [
-          "Army",
-          "Navy",
-          "Coast Guard",
-          "Air Force"
-        ],
-        "requirement": "Completion of the Eagle Scout rank requirements, or the Girl Scout Gold Award.",
-        "notes": "READ THE GRADES ABOVE BEFORE YOU PICK A SERVICE. The same award is worth E-3 in the Army, Navy and Coast Guard, but only E-2 in the Air Force \u2014 a difference of about $1,668 in your first year, and it compounds. Marine Corps rules differ \u2014 confirm with a recruiter.",
-        "source": "liveabout.com, legalclarity.org (SECONDARY). Coast Guard ('scouting achievements'): OFFICIAL \u2014 gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
-        "tier": "SECONDARY",
-        "retrieved_date": "2026-07-12"
-      },
-      {
-        "program": "College credit \u2014 24 semester hours",
-        "plain": "24 college credits and you enlist above E-1. The Coast Guard grants a full E-3.",
-        "grants_by_branch": {
-          "Army": "E-2",
-          "Navy": "E-2",
-          "Air Force": "E-2",
-          "Coast Guard": "E-3"
-        },
-        "grants": "E-2",
-        "branches": [
-          "Army",
-          "Navy",
-          "Air Force",
-          "Coast Guard"
-        ],
-        "requirement": "24 or more semester hours from an accredited college or university.",
-        "notes": "Dual-enrolment and community-college classes taken in HIGH SCHOOL count. Many students already have these and never think to mention them.",
-        "source": "liveabout.com, army-portal.com (SECONDARY). Coast Guard: OFFICIAL \u2014 gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
-        "tier": "SECONDARY",
-        "retrieved_date": "2026-07-12"
-      },
-      {
-        "program": "College credit \u2014 48 semester hours",
-        "plain": "48 college credits and you enlist as an E-3 instead of an E-1.",
-        "grants_by_branch": {
-          "Army": "E-3",
-          "Navy": "E-3",
-          "Air Force": "E-3",
-          "Coast Guard": "E-3"
-        },
-        "grants": "E-3",
-        "branches": [
-          "Army",
-          "Navy",
-          "Air Force",
-          "Coast Guard"
-        ],
-        "requirement": "48 or more semester hours from an accredited college or university \u2014 roughly two years of full-time college.",
-        "source": "liveabout.com, army-portal.com (SECONDARY). Coast Guard: OFFICIAL \u2014 gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
-        "tier": "SECONDARY",
-        "retrieved_date": "2026-07-12"
-      },
-      {
-        "program": "Sea Explorer or law-enforcement background",
-        "plain": "A Sea Explorer or law-enforcement background gets you an immediate E-3 in the Coast Guard.",
-        "grants_by_branch": {
-          "Coast Guard": "E-3"
-        },
-        "grants": "E-3",
-        "branches": [
-          "Coast Guard"
-        ],
-        "requirement": "Sea Explorer (Sea Scouts) participation, or a law-enforcement background.",
-        "notes": "This one IS genuinely Coast-Guard-only \u2014 no other service publishes an equivalent. It is on their official incentives page.",
-        "verbatim": "Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.",
-        "source": "OFFICIAL \u2014 gocoastguard.com/hiring-incentives",
-        "tier": "OFFICIAL",
-        "retrieved_date": "2026-07-12"
-      }
+    "grants": "E-2",
+    "branches": [
+     "Army",
+     "Navy",
+     "Air Force",
+     "Coast Guard"
     ],
-    "caveat": "Rules differ by branch and change without notice. An advanced paygrade is worth real money over a career \u2014 and like everything else in enlistment, it only exists if it is written into your contract. Ask for it by name, and check the DD Form 4 before you sign.",
-    "ask_every_branch": "A service's website being silent about a programme does NOT mean the service refuses it. CAP's page names only the Air Force, yet the Coast Guard's own page grants E-3 for scouting and JROTC/ROTC, and CAP cadets have entered the Coast Guard at E-3. Ask EVERY branch you are considering, name the specific achievement, and get the paygrade written into your contract before you sign."
-  },
-  "promotion_timeline": {
-    "enlisted": [
-      {
-        "to_grade": "E-2",
-        "typical_time": "Army: 6 months TIS (or 4 months with advanced college credit/ROTC). Air Force: 6 months time-in-grade.",
-        "how": "automatic",
-        "source": "search-synthesis of operationmilitarykids.org/army-promotion-timeline-for-enlisted-officers and operationmilitarykids.org/air-force-promotion-timeline-for-enlisted-officers, retrieved 2026-07-12"
-      },
-      {
-        "to_grade": "E-3",
-        "typical_time": "Army: 12 months TIS and at least 4 months TIG as E-2. Air Force: 10 months TIG as E-2 (Airman First Class).",
-        "how": "automatic",
-        "source": "same as above"
-      },
-      {
-        "to_grade": "E-4",
-        "typical_time": "Army: 2 years TIS and at least 6 months TIG as E-3. Air Force: 36 months TIS and 20 months TIG, OR 28 months TIG, whichever comes first.",
-        "how": "automatic (commander must not object; not board-selected, but not purely mechanical either)",
-        "source": "same as above"
-      },
-      {
-        "to_grade": "E-5",
-        "typical_time": "Army: E-5 board requires ~36 months TIS and 6 months TIG as E-4. Air Force: 3 years TIS, 6 months TIG as E-4, minimum WAPS (Weighted Airman Promotion System) score, favorable EPR ratings, and completion of Airman Leadership School.",
-        "how": "board (Army promotion board) or competitive scored system (Air Force WAPS)",
-        "source": "same as above"
-      },
-      {
-        "to_grade": "E-6",
-        "typical_time": "UNVERIFIED \u2014 not independently sourced with specific TIS/TIG minimums this session.",
-        "how": "board",
-        "source": "UNVERIFIED"
-      }
-    ],
-    "specialty_school_note": "UNVERIFIED this session \u2014 not independently researched whether graduating A-school/AIT/tech school triggers automatic advancement in any branch. There is general awareness that some services grant 'meritorious' or 'honor graduate' promotions tied to boot camp or advanced individual training performance (e.g., a Navy boot-camp Honor Graduate designation), but no current, branch-specific, dated figure was confirmed this session. This should be a dedicated follow-up research item before being presented to users as fact.",
-    "competitive_threshold_note": "E-1 through E-4 promotions are largely automatic on a time-in-service/time-in-grade schedule, gated mainly by a commander not objecting. E-5 and above requires either a formal promotion board (Army, Marine Corps) or a competitive/scored advancement system (Air Force WAPS, Navy's advancement exam + 'Perform to Serve' process), and becomes progressively more competitive at higher grades due to limited vacancies ('the pyramid narrows')."
-  },
-  "bah": {
-    "how_determined": "BAH is computed per Military Housing Area (MHA \u2014 a geographic region tied to duty-station ZIP code), by paygrade, and by dependency status (with or without dependents). It is NOT a flat national rate; DoD's Defense Travel Management Office (DTMO) publishes roughly 300 MHA rate tables each December, effective the following January 1. Two members in the same paygrade at different duty stations can see BAH figures differ by a factor of 2x or more.",
-    "government_quarters_rule": "THE KEY POINT: a service member who lives in government-provided quarters \u2014 barracks, dormitory, or aboard a ship (Navy/Coast Guard) \u2014 generally does NOT receive standard BAH. Because the government is already providing housing, they instead receive a much smaller 'BAH Partial' (Partial BAH) payment, not the full duty-station/paygrade BAH rate that a member living off-installation would draw.",
-    "partial_bah": {
-      "what_it_is": "A small monthly payment for members without dependents who are assigned to/required to live in government quarters (barracks, dorms, aboard ship), intended to offset minor incidental housing costs since primary housing is already furnished by the government. This is distinct from 'BAH-Diff' (BAH Differential), which is a separate, larger allowance paid to a member in single-type government quarters who is nevertheless authorized BAH solely because they are legally obligated to pay child support (BAH-Diff = difference between the with-dependents and without-dependents BAH rate for that grade, an amount set administratively, historically pegged to a 1997 baseline formula per one source).",
-      "monthly_usd": 50.1,
-      "source": "SEARCH-SOURCED, SINGLE AGGREGATOR, NOT INDEPENDENTLY CROSS-CORROBORATED: militarytransitiontoolkit.com/blog/bah-partial-differential-explained (via WebSearch synthesis; a direct WebFetch to themilitarywallet.com's BAH page confirmed the definitions of BAH Partial and BAH-Diff but did NOT surface a dollar figure). Treat this $50.10 figure as directional/plausible (consistent with the historically small, roughly $50-55/month range Partial BAH has occupied in recent years) rather than primary-confirmed.",
-      "retrieved_date": "2026-07-12"
-    },
-    "non_taxable_note": "BAH (both standard and Partial BAH) is excluded from federal income tax and, in nearly all states, state income tax. A service member does not pay income tax on BAH, unlike a civilian's housing stipend, which is typically taxable \u2014 so the same dollar amount of BAH is worth more in take-home terms than an equivalent amount of taxable basic pay. The exact uplift depends on the member's marginal tax rate and is not computed here as a single figure.",
-    "worked_examples": [
-      {
-        "location": "Fort Bragg (also called Fort Liberty 2023-2025; reverted to Fort Bragg in 2025), NC \u2014 MHA NC182",
-        "paygrade": "E-1",
-        "dependents": false,
-        "monthly_usd": 1341,
-        "source": "SEARCH-SOURCED, SINGLE AGGREGATOR (garrisonledger.com/bah/fort-bragg, via WebSearch synthesis), NOT independently cross-corroborated against a second source or primary-fetched from travel.dod.mil (blocked, 403). Note: DoD groups E-1 through E-4 without dependents into a single shared BAH rate at most locations because they share the same assumed housing profile, so this figure likely also applies to E-2/E-3/E-4 without dependents at this MHA, but that grouping was not independently confirmed cell-by-cell this session.",
-        "retrieved_date": "2026-07-12"
-      },
-      {
-        "location": "Fort Bragg (Fort Liberty), NC \u2014 MHA NC182",
-        "paygrade": "E-4",
-        "dependents": true,
-        "monthly_usd": 1722,
-        "source": "SEARCH-SOURCED, SINGLE AGGREGATOR (garrisonledger.com/bah/fort-bragg, via WebSearch synthesis), NOT independently cross-corroborated or primary-fetched.",
-        "retrieved_date": "2026-07-12"
-      },
-      {
-        "location": "Fort Bragg (Fort Liberty), NC \u2014 MHA NC182",
-        "paygrade": "E-4",
-        "dependents": false,
-        "monthly_usd": "UNVERIFIED",
-        "source": "Not obtained to any confidence this session; only the E-1-no-dependents and E-4-with-dependents figures above surfaced. Discarded rather than assumed equal to the E-1 figure without confirmation.",
-        "retrieved_date": "2026-07-12"
-      }
-    ],
-    "national_number_warning": "BAH cannot be reduced to a single national figure. The two worked examples above are for ONE specific installation (Fort Bragg, NC) and are search-sourced (not primary-fetched) \u2014 do not treat them as representative of any other duty station."
-  },
-  "bas": {
-    "enlisted_monthly_usd": 476.95,
-    "officer_monthly_usd": 328.48,
-    "essential_station_messing_note": "Members living in the barracks/government quarters are frequently required to be enrolled in Essential Station Messing (ESM) \u2014 commonly called the 'meal card' plan \u2014 because many barracks lack kitchen facilities for self-provisioning. Under ESM, most of the member's monthly BAS entitlement is deducted/redirected to pay for dining-facility (DFAC) meal access rather than being paid directly to the member. Per a search-sourced Army.mil article ('The facts about Soldiers' meal card plans and Basic Allowance for Subsistence (BAS)'), a Soldier on ESM has the BAS reduction shown on their Leave and Earnings Statement (LES), and roughly $65/month of BAS is still paid directly to the Soldier for personal use \u2014 the rest is consumed by the meal plan. This is a real, commonly misunderstood pay reduction: a barracks resident on a meal card is NOT pocketing the full $476.95/month.",
-    "non_taxable_note": "BAS is excluded from federal and (in nearly all states) state income tax, for both the full amount and any ESM-adjusted remainder.",
-    "source": "SEARCH-SOURCED: army.mil/article/283532 (direct WebFetch returned HTTP 403; content obtained via WebSearch synthesis only) for the ESM mechanics and the ~$65/month residual figure; militarypay.defense.gov/DFAS BAS tables (403-blocked, cross-corroborated via search per pay-tables.json) for the base $476.95/$328.48 rates.",
+    "requirement": "Two academic years of Junior Reserve Officers' Training Corps.",
+    "notes": "The Coast Guard is the outlier and the best deal here: its official programme grants an immediate E-3 after boot camp for JROTC/ROTC participation, where the other services grant E-2 for two years. Marine Corps rules differ — confirm with a recruiter.",
+    "source": "liveabout.com, army-portal.com, legalclarity.org (SECONDARY). Coast Guard: OFFICIAL — gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
+    "tier": "SECONDARY",
     "retrieved_date": "2026-07-12"
-  },
-  "special_and_incentive_pays": [
-    {
-      "pay": "Hostile Fire Pay / Imminent Danger Pay (HFP/IDP)",
-      "monthly_usd": 225,
-      "eligibility": "Serving in a DoD-designated hostile-fire or imminent-danger zone; pro-rated at $7.50/day up to a $225/month statutory maximum (37 U.S.C. \u00a7310).",
-      "taxable": "Generally taxable as special pay, but becomes tax-EXEMPT for any month the member also qualifies for the Combat Zone Tax Exclusion (CZTE) in an IRS-designated combat zone \u2014 in that case all pay for the month, not just HFP/IDP, is excluded.",
-      "source": "search-synthesis of firstcommand.com 2026 combat pay guide and militarypay.defense.gov/Pay/Special-and-Incentive-Pays/HFP_IDP (page not directly fetched, 403); DoD has proposed doubling this to $450/month for FY2027, NOT YET LAW as of this research.",
-      "retrieved_date": "2026-07-12"
+   },
+   {
+    "program": "JROTC — 3 years",
+    "plain": "Three years of JROTC and you enlist as an E-3 instead of an E-1.",
+    "grants_by_branch": {
+     "Army": "E-3",
+     "Navy": "E-3",
+     "Air Force": "E-3",
+     "Coast Guard": "E-3"
     },
-    {
-      "pay": "Hazardous Duty Incentive Pay \u2014 Parachute (Jump) Pay",
-      "monthly_usd": "150-225 (tiered)",
-      "eligibility": "Basic/static-line qualified parachutists typically at the lower end (~$150/month); HALO/military-freefall-qualified typically at the higher end (~$225/month). Figures reported for Special Forces (18-series) troops specifically; general applicability across branches not independently confirmed this session.",
-      "taxable": true,
-      "source": "search-synthesis, no single authoritative page identified; treat tier boundaries as approximate",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "pay": "Diving Duty Pay",
-      "monthly_usd": "110-340 (enlisted); 110-240 (officer)",
-      "eligibility": "Qualified military divers, rate varies by diving qualification level/diving duty assignment.",
-      "taxable": true,
-      "source": "search-synthesis, page214.org special-pay-guide.html cited in search results but not directly fetched",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "pay": "Aviation Incentive Pay / Flight Pay (Aviation Career Incentive Pay, ACIP)",
-      "monthly_usd": "UNVERIFIED \u2014 up to ~1,000 for senior aviators at qualifying career 'gate' years per one search-sourced claim, but the full gated schedule (by years of aviation service) was NOT obtained this session, and no reliable junior-officer starting figure was found.",
-      "eligibility": "Rated aviators (officers); some enlisted aircrew incentive pay exists separately and was not researched this session.",
-      "taxable": true,
-      "source": "search-synthesis, single low-specificity claim",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "pay": "Sea Pay (Career Sea Pay)",
-      "monthly_usd": "UNVERIFIED \u2014 no current dollar figure could be sourced this session despite a dedicated search attempt.",
-      "eligibility": "Navy/Marine Corps/Coast Guard members assigned to sea duty; amount reported to scale with cumulative sea-duty time.",
-      "taxable": true,
-      "source": "UNVERIFIED",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "pay": "Submarine Duty Pay",
-      "monthly_usd": "UNVERIFIED \u2014 no current dollar figure could be sourced this session.",
-      "eligibility": "Qualified submarine-service personnel.",
-      "taxable": true,
-      "source": "UNVERIFIED",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "pay": "Foreign Language Proficiency Bonus (FLPB / FLPP)",
-      "monthly_usd": "up to 500 per language",
-      "eligibility": "Members (reported specifically for Special Forces, intelligence, and other specified fields) maintaining DoD/DLPT-tested proficiency in a DoD-priority language; can potentially be earned for more than one language, capped by service policy.",
-      "taxable": true,
-      "source": "search-synthesis; figure reported in an Army-specific context, branch-general applicability UNVERIFIED",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "pay": "Special Duty Assignment Pay (SDAP)",
-      "monthly_usd": "75-450 (SD-1 through SD-6 tiers)",
-      "eligibility": "Enlisted members in designated demanding billets (e.g., recruiter, drill instructor), tiered SD-1 ($75/month) through SD-6 ($450/month) by billet difficulty/authority (37 U.S.C. \u00a7307).",
-      "taxable": true,
-      "source": "search-synthesis of mynavyhr.navy.mil/References/Pay-Benefits/SDAP and uscode.house.gov 37 USC 307 citation",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "pay": "Hardship Duty Pay (HDP \u2014 Location)",
-      "monthly_usd": "50-150",
-      "eligibility": "Assignment to a DoD-designated hardship location (challenging living/working conditions, remote or austere overseas assignments); rate depends on the location's assigned hardship tier.",
-      "taxable": true,
-      "source": "search-synthesis, no single authoritative page identified",
-      "retrieved_date": "2026-07-12"
-    }
-  ],
-  "healthcare_value": {
-    "military": "TRICARE Prime. The active-duty member pays $0 in premiums and effectively $0 in copays. Family members enrolled in Prime also pay $0 in premiums.",
-    "civilian_equivalent": {
-      "kff_year": "2025",
-      "single_annual_premium_usd": 9325,
-      "single_employee_contribution_usd": 1440,
-      "single_employer_contribution_usd": 7885,
-      "single_avg_deductible_usd": 1886,
-      "family_annual_premium_usd": 26993,
-      "family_employee_contribution_usd": 6850,
-      "family_employer_contribution_usd": 20143,
-      "worker_share_single_pct": 16,
-      "worker_share_family_pct": 26,
-      "oop_max_note": "In 2025, 72% of covered workers faced an out-of-pocket maximum above $3,000 for single coverage; 21% faced one above $6,000. That is on TOP of the premium and the deductible.",
-      "source": "Kaiser Family Foundation, 2025 Employer Health Benefits Survey (kff.org/health-costs/2025-employer-health-benefits-survey/)",
-      "retrieved_date": "2026-07-12"
-    },
-    "valuation_methods": [
-      {
-        "method": "FULL REPLACEMENT VALUE (used by this site)",
-        "single_usd": 9325,
-        "family_usd": 26993,
-        "why": "This is what the coverage actually COSTS. It is the right number for a total-compensation comparison, because a civilian's total compensation includes their employer's health contribution \u2014 the worker earns it, they simply never see it on the payslip. Comparing a military package to a civilian SALARY while ignoring the employer's premium share understates the military side by roughly $7,900 (single) or $20,100 (family) a year."
-      },
-      {
-        "method": "PAYSLIP-VISIBLE COST ONLY (what this site used before \u2014 too low)",
-        "single_usd": 1440,
-        "family_usd": 6850,
-        "why": "Only the employee's payroll deduction. It is what a civilian NOTICES, but it drastically undervalues the benefit: it ignores the employer's share entirely, and it ignores the deductible and copays a civilian still pays after the premium."
-      },
-      {
-        "method": "OUT-OF-POCKET REALITY (contribution + typical deductible)",
-        "single_usd": 3326,
-        "family_usd": "UNVERIFIED \u2014 the family deductible was not separately sourced",
-        "why": "Employee premium contribution ($1,440) plus the average single-coverage deductible ($1,886). This is the cash a civilian actually parts with in a typical year before copays and coinsurance. computed, not authoritative."
-      }
+    "grants": "E-3",
+    "branches": [
+     "Army",
+     "Navy",
+     "Air Force",
+     "Coast Guard"
     ],
-    "how_to_value_it": "This site values military healthcare at the FULL ANNUAL PREMIUM a civilian's coverage costs \u2014 $9,325 for single, $26,993 for a family (KFF 2025). That is what the benefit is worth to replace, and it is the only figure that makes a military package comparable to a civilian TOTAL compensation package. It is also still conservative: it does not count the deductible ($1,886 average, single), the copays, or the out-of-pocket maximum a civilian faces on top \u2014 costs an active-duty member does not have at all.",
-    "why_this_matters": "For a service member with a family, healthcare alone is worth about $27,000 a year. That is not a rounding error next to basic pay \u2014 for a junior enlisted member it can approach the value of their entire base salary."
-  },
-  "civilian_baseline": {
-    "bls_median_annual_usd_age_20_24": "UNVERIFIED as an official annual figure for the exact 20-24 age cut. Best sourced figure obtained this session is WEEKLY, for the ages 16-24 band (not 20-24): $797/week (men) and $712/week (women), Q2 2025, per BLS 'Usual Weekly Earnings of Wage and Salary Workers' news release (Q2 2025 release, archived at bls.gov/news.release/archives/wkyeng_07222025.htm), Table 3. A more granular 20-24-only BLS series exists (FRED mirror series LEU0252887100Q, 'Median usual weekly nominal earnings, wage and salary workers 20 to 24 years, employed full time'), but direct fetch of both bls.gov and fred.stlouisfed.org to pull its latest value returned HTTP 403 this session \u2014 the series was located but its current value was NOT independently confirmed. computed, not authoritative: 52 x $797/week = $41,444/year (men, 16-24) and 52 x $712/week = $37,024/year (women, 16-24) if a reader wants an annualized approximation; BLS does not itself publish this as a single annual figure in the source located.",
-    "bls_median_annual_usd_hs_grad_no_college": "UNVERIFIED as a current single annual figure. Best sourced anchor is WEEKLY: $946/week, median usual weekly earnings of full-time workers with a high school diploma and no college (age 25+, NOT youth-specific), per BLS 'The Economics Daily' article dated 2024 (bls.gov/opub/ted/2024/median-weekly-earnings-946-for-workers-with-high-school-diploma-1533-for-bachelors-degree.htm). A more recent ~$960-966/week figure for 2025-2026 appeared in search-engine synthesis but could not be traced to one specific, dated BLS article this session \u2014 flagged as lower-confidence and NOT used as the primary figure. computed, not authoritative: 52 x $946/week = $49,192/year if annualized.",
-    "series_note": "BLS's routinely published age breakout in the quarterly 'Usual Weekly Earnings' release is 16-24 combined, not a standalone 20-24 cut; the requested 20-24-specific figure exists in a more granular BLS/FRED series (LEU0252887100Q) that this session located but could not fetch (403) to confirm the current value. The HS-grad-no-college figure sourced is for ALL adults 25+ with that credential, not youth-specific \u2014 no youth-specific HS-grad breakout was located this session.",
-    "source": "search-synthesis of bls.gov/news.release/archives/wkyeng_07222025.htm and bls.gov/opub/ted/2024/median-weekly-earnings-946-for-workers-with-high-school-diploma-1533-for-bachelors-degree.htm; direct WebFetch to bls.gov and fred.stlouisfed.org both returned HTTP 403 this session.",
+    "requirement": "Three academic years of JROTC.",
+    "notes": "One extra year of something you were already doing moves you a whole paygrade.",
+    "source": "liveabout.com, army-portal.com, legalclarity.org (SECONDARY). Coast Guard: OFFICIAL — gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
+    "tier": "SECONDARY",
     "retrieved_date": "2026-07-12"
+   },
+   {
+    "program": "Eagle Scout / Girl Scout Gold Award",
+    "plain": "Earn Eagle Scout (or the Girl Scout Gold Award) and you enlist above E-1 — but the grade DIFFERS BY BRANCH, and so does the money.",
+    "grants_by_branch": {
+     "Army": "E-3",
+     "Navy": "E-3",
+     "Coast Guard": "E-3",
+     "Air Force": "E-2"
+    },
+    "grants": "E-3",
+    "branches": [
+     "Army",
+     "Navy",
+     "Coast Guard",
+     "Air Force"
+    ],
+    "requirement": "Completion of the Eagle Scout rank requirements, or the Girl Scout Gold Award.",
+    "notes": "READ THE GRADES ABOVE BEFORE YOU PICK A SERVICE. The same award is worth E-3 in the Army, Navy and Coast Guard, but only E-2 in the Air Force — a difference of about $1,668 in your first year, and it compounds. Marine Corps rules differ — confirm with a recruiter.",
+    "source": "liveabout.com, legalclarity.org (SECONDARY). Coast Guard ('scouting achievements'): OFFICIAL — gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
+    "tier": "SECONDARY",
+    "retrieved_date": "2026-07-12"
+   },
+   {
+    "program": "College credit — 24 semester hours",
+    "plain": "24 college credits and you enlist above E-1. The Coast Guard grants a full E-3.",
+    "grants_by_branch": {
+     "Army": "E-2",
+     "Navy": "E-2",
+     "Air Force": "E-2",
+     "Coast Guard": "E-3"
+    },
+    "grants": "E-2",
+    "branches": [
+     "Army",
+     "Navy",
+     "Air Force",
+     "Coast Guard"
+    ],
+    "requirement": "24 or more semester hours from an accredited college or university.",
+    "notes": "Dual-enrolment and community-college classes taken in HIGH SCHOOL count. Many students already have these and never think to mention them.",
+    "source": "liveabout.com, army-portal.com (SECONDARY). Coast Guard: OFFICIAL — gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
+    "tier": "SECONDARY",
+    "retrieved_date": "2026-07-12"
+   },
+   {
+    "program": "College credit — 48 semester hours",
+    "plain": "48 college credits and you enlist as an E-3 instead of an E-1.",
+    "grants_by_branch": {
+     "Army": "E-3",
+     "Navy": "E-3",
+     "Air Force": "E-3",
+     "Coast Guard": "E-3"
+    },
+    "grants": "E-3",
+    "branches": [
+     "Army",
+     "Navy",
+     "Air Force",
+     "Coast Guard"
+    ],
+    "requirement": "48 or more semester hours from an accredited college or university — roughly two years of full-time college.",
+    "source": "liveabout.com, army-portal.com (SECONDARY). Coast Guard: OFFICIAL — gocoastguard.com/hiring-incentives: 'Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.'",
+    "tier": "SECONDARY",
+    "retrieved_date": "2026-07-12"
+   },
+   {
+    "program": "Sea Explorer or law-enforcement background",
+    "plain": "A Sea Explorer or law-enforcement background gets you an immediate E-3 in the Coast Guard.",
+    "grants_by_branch": {
+     "Coast Guard": "E-3"
+    },
+    "grants": "E-3",
+    "branches": [
+     "Coast Guard"
+    ],
+    "requirement": "Sea Explorer (Sea Scouts) participation, or a law-enforcement background.",
+    "notes": "This one IS genuinely Coast-Guard-only — no other service publishes an equivalent. It is on their official incentives page.",
+    "verbatim": "Recruits with college credits, JROTC/ROTC participation, law enforcement or sea explorer background, or scouting achievements may be authorized an immediate advancement to E-3 paygrade after boot camp.",
+    "source": "OFFICIAL — gocoastguard.com/hiring-incentives",
+    "tier": "OFFICIAL",
+    "retrieved_date": "2026-07-12"
+   }
+  ],
+  "caveat": "Rules differ by branch and change without notice. An advanced paygrade is worth real money over a career — and like everything else in enlistment, it only exists if it is written into your contract. Ask for it by name, and check the DD Form 4 before you sign.",
+  "ask_every_branch": "A service's website being silent about a programme does NOT mean the service refuses it. CAP's page names only the Air Force, yet the Coast Guard's own page grants E-3 for scouting and JROTC/ROTC, and CAP cadets have entered the Coast Guard at E-3. Ask EVERY branch you are considering, name the specific achievement, and get the paygrade written into your contract before you sign."
+ },
+ "promotion_timeline": {
+  "enlisted": [
+   {
+    "to_grade": "E-2",
+    "typical_time": "Army: 6 months TIS (or 4 months with advanced college credit/ROTC). Air Force: 6 months time-in-grade.",
+    "how": "automatic",
+    "source": "search-synthesis of operationmilitarykids.org/army-promotion-timeline-for-enlisted-officers and operationmilitarykids.org/air-force-promotion-timeline-for-enlisted-officers, retrieved 2026-07-12"
+   },
+   {
+    "to_grade": "E-3",
+    "typical_time": "Army: 12 months TIS and at least 4 months TIG as E-2. Air Force: 10 months TIG as E-2 (Airman First Class).",
+    "how": "automatic",
+    "source": "same as above"
+   },
+   {
+    "to_grade": "E-4",
+    "typical_time": "Army: 2 years TIS and at least 6 months TIG as E-3. Air Force: 36 months TIS and 20 months TIG, OR 28 months TIG, whichever comes first.",
+    "how": "automatic (commander must not object; not board-selected, but not purely mechanical either)",
+    "source": "same as above"
+   },
+   {
+    "to_grade": "E-5",
+    "typical_time": "Army: E-5 board requires ~36 months TIS and 6 months TIG as E-4. Air Force: 3 years TIS, 6 months TIG as E-4, minimum WAPS (Weighted Airman Promotion System) score, favorable EPR ratings, and completion of Airman Leadership School.",
+    "how": "board (Army promotion board) or competitive scored system (Air Force WAPS)",
+    "source": "same as above"
+   },
+   {
+    "to_grade": "E-6",
+    "typical_time": "UNVERIFIED — not independently sourced with specific TIS/TIG minimums this session.",
+    "how": "board",
+    "source": "UNVERIFIED"
+   }
+  ],
+  "specialty_school_note": "UNVERIFIED this session — not independently researched whether graduating A-school/AIT/tech school triggers automatic advancement in any branch. There is general awareness that some services grant 'meritorious' or 'honor graduate' promotions tied to boot camp or advanced individual training performance (e.g., a Navy boot-camp Honor Graduate designation), but no current, branch-specific, dated figure was confirmed this session. This should be a dedicated follow-up research item before being presented to users as fact.",
+  "competitive_threshold_note": "E-1 through E-4 promotions are largely automatic on a time-in-service/time-in-grade schedule, restricted mainly by a commander not objecting. E-5 and above requires either a formal promotion board (Army, Marine Corps) or a competitive/scored advancement system (Air Force WAPS, Navy's advancement exam + 'Perform to Serve' process), and becomes progressively more competitive at higher grades due to limited vacancies ('the pyramid narrows')."
+ },
+ "bah": {
+  "how_determined": "BAH is computed per Military Housing Area (MHA — a geographic region tied to duty-station ZIP code), by paygrade, and by dependency status (with or without dependents). It is NOT a flat national rate; DoD's Defense Travel Management Office (DTMO) publishes roughly 300 MHA rate tables each December, effective the following January 1. Two members in the same paygrade at different duty stations can see BAH figures differ by a factor of 2x or more.",
+  "government_quarters_rule": "THE KEY POINT: a service member who lives in government-provided quarters — barracks, dormitory, or aboard a ship (Navy/Coast Guard) — generally does NOT receive standard BAH. Because the government is already providing housing, they instead receive a much smaller 'BAH Partial' (Partial BAH) payment, not the full duty-station/paygrade BAH rate that a member living off-installation would draw.",
+  "partial_bah": {
+   "what_it_is": "A small monthly payment for members without dependents who are assigned to/required to live in government quarters (barracks, dorms, aboard ship), intended to offset minor incidental housing costs since primary housing is already furnished by the government. This is distinct from 'BAH-Diff' (BAH Differential), which is a separate, larger allowance paid to a member in single-type government quarters who is nevertheless authorized BAH solely because they are legally obligated to pay child support (BAH-Diff = difference between the with-dependents and without-dependents BAH rate for that grade, an amount set administratively, historically pegged to a 1997 baseline formula per one source).",
+   "monthly_usd": 50.1,
+   "source": "SEARCH-SOURCED, SINGLE AGGREGATOR, NOT INDEPENDENTLY CROSS-CORROBORATED: militarytransitiontoolkit.com/blog/bah-partial-differential-explained (via WebSearch synthesis; a direct WebFetch to themilitarywallet.com's BAH page confirmed the definitions of BAH Partial and BAH-Diff but did NOT surface a dollar figure). Treat this $50.10 figure as directional/plausible (consistent with the historically small, roughly $50-55/month range Partial BAH has occupied in recent years) rather than primary-confirmed.",
+   "retrieved_date": "2026-07-12"
   },
-  "comparison_caveats": [
-    "BAH and BAS are non-taxable \u2014 a military package is not comparable to civilian gross pay without adjustment.",
-    "If you live in the barracks or aboard ship you generally do not receive full BAH \u2014 you receive Partial BAH, a much smaller amount (search-sourced at ~$50.10/month, single-source, see bah.partial_bah).",
-    "If you are on a barracks meal plan (Essential Station Messing), most of your BAS is redirected to pay for dining-facility access rather than paid to you directly \u2014 roughly $65/month is search-sourced as the typical residual paid directly to the member (see bas.essential_station_messing_note).",
-    "The 'free healthcare' value is a benefit value, not a cash payment, and should not simply be added to a salary figure as if it were take-home pay.",
-    "Several dollar figures in this file (BAH worked examples, Partial BAH, several special/incentive pays, the newer BLS HS-grad figure) are single-source, search-sourced, and NOT independently cross-corroborated or primary-fetched \u2014 they are labeled accordingly throughout and should not be treated with the same confidence as the cross-corroborated basic pay table."
+  "non_taxable_note": "BAH (both standard and Partial BAH) is excluded from federal income tax and, in nearly all states, state income tax. A service member does not pay income tax on BAH, unlike a civilian's housing stipend, which is typically taxable — so the same dollar amount of BAH is worth more in take-home terms than an equivalent amount of taxable basic pay. The exact uplift depends on the member's marginal tax rate and is not computed here as a single figure.",
+  "worked_examples": [
+   {
+    "location": "Fort Bragg (also called Fort Liberty 2023-2025; reverted to Fort Bragg in 2025), NC — MHA NC182",
+    "paygrade": "E-1",
+    "dependents": false,
+    "monthly_usd": 1341,
+    "source": "SEARCH-SOURCED, SINGLE AGGREGATOR (garrisonledger.com/bah/fort-bragg, via WebSearch synthesis), NOT independently cross-corroborated against a second source or primary-fetched from travel.dod.mil (blocked, 403). Note: DoD groups E-1 through E-4 without dependents into a single shared BAH rate at most locations because they share the same assumed housing profile, so this figure likely also applies to E-2/E-3/E-4 without dependents at this MHA, but that grouping was not independently confirmed cell-by-cell this session.",
+    "retrieved_date": "2026-07-12"
+   },
+   {
+    "location": "Fort Bragg (Fort Liberty), NC — MHA NC182",
+    "paygrade": "E-4",
+    "dependents": true,
+    "monthly_usd": 1722,
+    "source": "SEARCH-SOURCED, SINGLE AGGREGATOR (garrisonledger.com/bah/fort-bragg, via WebSearch synthesis), NOT independently cross-corroborated or primary-fetched.",
+    "retrieved_date": "2026-07-12"
+   },
+   {
+    "location": "Fort Bragg (Fort Liberty), NC — MHA NC182",
+    "paygrade": "E-4",
+    "dependents": false,
+    "monthly_usd": "UNVERIFIED",
+    "source": "Not obtained to any confidence this session; only the E-1-no-dependents and E-4-with-dependents figures above surfaced. Discarded rather than assumed equal to the E-1 figure without confirmation.",
+    "retrieved_date": "2026-07-12"
+   }
   ],
-  "sources": [
-    {
-      "title": "2026 Military Pay Chart: All Grades and Years of Service",
-      "url": "https://valoannetwork.com/military-base-pay/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "2026 Military Pay Chart: All Ranks, All Years of Service",
-      "url": "https://militaryretirementcalc.com/blog/2026-military-pay-chart",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "2026 Military Pay Chart 3.8% (All Pay Grades)",
-      "url": "https://www.navycs.com/charts/2026-military-pay-chart.html",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "2026 Military Pay Charts",
-      "url": "https://www.military.com/benefits/military-pay/charts",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Can You Get Advanced Enlisted Rank for College Credits or JROTC?",
-      "url": "https://www.liveabout.com/advanced-enlisted-rank-3332724",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Advanced Enlistment Rank: How to Qualify for E-2 or E-3",
-      "url": "https://legalclarity.org/advanced-enlistment-rank-how-to-qualify-for-e-2-or-e-3/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Army-Portal.com \u2014 Army Advanced Enlistment / Early Enlisted Promotions",
-      "url": "http://www.army-portal.com/pay-promotions/advanced-enlistment.html",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Billy Mitchell Award \u2014 Civil Air Patrol National Headquarters",
-      "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/mitchell",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Does being an Eagle Scout help with military enlistment?",
-      "url": "https://www.collegevine.com/faq/156073/does-being-an-eagle-scout-help-with-military-enlistment",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "United States Navy Advanced Enlistment Ranks (Rates)",
-      "url": "https://www.liveabout.com/advanced-enlistment-paygrades-3354795",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Navy Advanced Pay Grade Opportunities",
-      "url": "https://www.navycs.com/navy-advanced-paygrade.html",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Future Soldiers Referral Information",
-      "url": "https://www.futuresoldiers.com/referrals/index?contentId=index",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Recruiting Pilot, Soldier Referral Program, offers promotion incentives for Soldiers",
-      "url": "https://www.army.mil/article/263437/recruiting_pilot_soldier_referral_program_offers_promotion_incentives_for_soldiers",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Army Promotion Timeline for Enlisted & Officers For 2026",
-      "url": "https://www.operationmilitarykids.org/army-promotion-timeline-for-enlisted-officers/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Air Force Promotion Timeline For Enlisted & Officers In 2026",
-      "url": "https://www.operationmilitarykids.org/air-force-promotion-timeline-for-enlisted-officers/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "BAH Partial vs BAH Differential: What's the Difference?",
-      "url": "https://www.militarytransitiontoolkit.com/blog/bah-partial-differential-explained",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Basic Allowance for Housing (BAH): Frequently Asked Questions",
-      "url": "https://themilitarywallet.com/basic-allowance-for-housing-bah/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Fort Bragg (Fort Liberty) BAH Rates 2026 \u2014 All Paygrades",
-      "url": "https://www.garrisonledger.com/bah/fort-bragg",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "The facts about Soldiers' 'meal card' plans and Basic Allowance for Subsistence (BAS)",
-      "url": "https://www.army.mil/article/283532/the_facts_about_soldiers_meal_card_plans_and_basic_allowance_for_subsistence_bas",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "2026 BAS Rates | The Military Wallet",
-      "url": "https://themilitarywallet.com/bas-rates/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "2026 Guide to Combat Pay (CZTE, IDP, HFP & More)",
-      "url": "https://www.firstcommand.com/coaching-center/military-life/what-is-combat-pay/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Hostile Fire/Imminent Danger Pay \u2014 militarypay.defense.gov (403-blocked; search-cited)",
-      "url": "https://militarypay.defense.gov/Pay/Special-and-Incentive-Pays/HFP_IDP/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Hazard Pay Military 2026: HDIP Rates & Types",
-      "url": "https://valoannetwork.com/hazardous-duty-incentive-pay/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "SDAP \u2014 MyNavyHR",
-      "url": "https://www.mynavyhr.navy.mil/References/Pay-Benefits/SDAP/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "37 USC 307: Special pay \u2014 special duty assignment pay",
-      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title37-section307&num=0&edition=prelim",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "2025 Employer Health Benefits Survey \u2014 KFF",
-      "url": "https://www.kff.org/health-costs/2025-employer-health-benefits-survey/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Employer Health Benefits Survey 2025 Annual Survey Summary of Findings (PDF)",
-      "url": "https://files.kff.org/attachment/Employer-Health-Benefits-Survey-2025-Annual-Survey-Summary-of-Findings.pdf",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Annual Family Premiums for Employer Coverage Rise 6% in 2025, Nearing $27,000",
-      "url": "https://www.kff.org/health-costs/annual-family-premiums-for-employer-coverage-rise-6-in-2025-nearing-27000-with-workers-paying-6850-toward-premiums-out-of-their-paychecks/",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Usual Weekly Earnings of Wage and Salary Workers News Release \u2014 2025 Q02 Results",
-      "url": "https://www.bls.gov/news.release/archives/wkyeng_07222025.htm",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Median weekly earnings $946 for workers with high school diploma, $1,533 for bachelor's degree",
-      "url": "https://www.bls.gov/opub/ted/2024/median-weekly-earnings-946-for-workers-with-high-school-diploma-1533-for-bachelors-degree.htm",
-      "retrieved_date": "2026-07-12"
-    },
-    {
-      "title": "Median usual weekly nominal earnings, wage and salary workers 20 to 24 years, employed full time (FRED series LEU0252887100Q)",
-      "url": "https://fred.stlouisfed.org/series/LEU0252887100Q",
-      "retrieved_date": "2026-07-12"
-    }
+  "national_number_warning": "BAH cannot be reduced to a single national figure. The two worked examples above are for ONE specific installation (Fort Bragg, NC) and are search-sourced (not primary-fetched) — do not treat them as representative of any other duty station."
+ },
+ "bas": {
+  "enlisted_monthly_usd": 476.95,
+  "officer_monthly_usd": 328.48,
+  "essential_station_messing_note": "Members living in the barracks/government quarters are frequently required to be enrolled in Essential Station Messing (ESM) — commonly called the 'meal card' plan — because many barracks lack kitchen facilities for self-provisioning. Under ESM, most of the member's monthly BAS entitlement is deducted/redirected to pay for dining-facility (DFAC) meal access rather than being paid directly to the member. Per a search-sourced Army.mil article ('The facts about Soldiers' meal card plans and Basic Allowance for Subsistence (BAS)'), a Soldier on ESM has the BAS reduction shown on their Leave and Earnings Statement (LES), and roughly $65/month of BAS is still paid directly to the Soldier for personal use — the rest is consumed by the meal plan. This is a real, commonly misunderstood pay reduction: a barracks resident on a meal card is NOT pocketing the full $476.95/month.",
+  "non_taxable_note": "BAS is excluded from federal and (in nearly all states) state income tax, for both the full amount and any ESM-adjusted remainder.",
+  "source": "SEARCH-SOURCED: army.mil/article/283532 (direct WebFetch returned HTTP 403; content obtained via WebSearch synthesis only) for the ESM mechanics and the ~$65/month residual figure; militarypay.defense.gov/DFAS BAS tables (403-blocked, cross-corroborated via search per pay-tables.json) for the base $476.95/$328.48 rates.",
+  "retrieved_date": "2026-07-12"
+ },
+ "special_and_incentive_pays": [
+  {
+   "pay": "Hostile Fire Pay / Imminent Danger Pay (HFP/IDP)",
+   "monthly_usd": 225,
+   "eligibility": "Serving in a DoD-designated hostile-fire or imminent-danger zone; pro-rated at $7.50/day up to a $225/month statutory maximum (37 U.S.C. §310).",
+   "taxable": "Generally taxable as special pay, but becomes tax-EXEMPT for any month the member also qualifies for the Combat Zone Tax Exclusion (CZTE) in an IRS-designated combat zone — in that case all pay for the month, not just HFP/IDP, is excluded.",
+   "source": "search-synthesis of firstcommand.com 2026 combat pay guide and militarypay.defense.gov/Pay/Special-and-Incentive-Pays/HFP_IDP (page not directly fetched, 403); DoD has proposed doubling this to $450/month for FY2027, NOT YET LAW as of this research.",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "pay": "Hazardous Duty Incentive Pay — Parachute (Jump) Pay",
+   "monthly_usd": "150-225 (tiered)",
+   "eligibility": "Basic/static-line qualified parachutists typically at the lower end (~$150/month); HALO/military-freefall-qualified typically at the higher end (~$225/month). Figures reported for Special Forces (18-series) troops specifically; general applicability across branches not independently confirmed this session.",
+   "taxable": true,
+   "source": "search-synthesis, no single authoritative page identified; treat tier boundaries as approximate",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "pay": "Diving Duty Pay",
+   "monthly_usd": "110-340 (enlisted); 110-240 (officer)",
+   "eligibility": "Qualified military divers, rate varies by diving qualification level/diving duty assignment.",
+   "taxable": true,
+   "source": "search-synthesis, page214.org special-pay-guide.html cited in search results but not directly fetched",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "pay": "Aviation Incentive Pay / Flight Pay (Aviation Career Incentive Pay, ACIP)",
+   "monthly_usd": "UNVERIFIED — up to ~1,000 for senior aviators at qualifying career 'requirement' years per one search-sourced claim, but the full restricted schedule (by years of aviation service) was NOT obtained this session, and no reliable junior-officer starting figure was found.",
+   "eligibility": "Rated aviators (officers); some enlisted aircrew incentive pay exists separately and was not researched this session.",
+   "taxable": true,
+   "source": "search-synthesis, single low-specificity claim",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "pay": "Sea Pay (Career Sea Pay)",
+   "monthly_usd": "UNVERIFIED — no current dollar figure could be sourced this session despite a dedicated search attempt.",
+   "eligibility": "Navy/Marine Corps/Coast Guard members assigned to sea duty; amount reported to scale with cumulative sea-duty time.",
+   "taxable": true,
+   "source": "UNVERIFIED",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "pay": "Submarine Duty Pay",
+   "monthly_usd": "UNVERIFIED — no current dollar figure could be sourced this session.",
+   "eligibility": "Qualified submarine-service personnel.",
+   "taxable": true,
+   "source": "UNVERIFIED",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "pay": "Foreign Language Proficiency Bonus (FLPB / FLPP)",
+   "monthly_usd": "up to 500 per language",
+   "eligibility": "Members (reported specifically for Special Forces, intelligence, and other specified fields) maintaining DoD/DLPT-tested proficiency in a DoD-priority language; can potentially be earned for more than one language, capped by service policy.",
+   "taxable": true,
+   "source": "search-synthesis; figure reported in an Army-specific context, branch-general applicability UNVERIFIED",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "pay": "Special Duty Assignment Pay (SDAP)",
+   "monthly_usd": "75-450 (SD-1 through SD-6 tiers)",
+   "eligibility": "Enlisted members in designated demanding billets (e.g., recruiter, drill instructor), tiered SD-1 ($75/month) through SD-6 ($450/month) by billet difficulty/authority (37 U.S.C. §307).",
+   "taxable": true,
+   "source": "search-synthesis of mynavyhr.navy.mil/References/Pay-Benefits/SDAP and uscode.house.gov 37 USC 307 citation",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "pay": "Hardship Duty Pay (HDP — Location)",
+   "monthly_usd": "50-150",
+   "eligibility": "Assignment to a DoD-designated hardship location (challenging living/working conditions, remote or austere overseas assignments); rate depends on the location's assigned hardship tier.",
+   "taxable": true,
+   "source": "search-synthesis, no single authoritative page identified",
+   "retrieved_date": "2026-07-12"
+  }
+ ],
+ "healthcare_value": {
+  "military": "TRICARE Prime. The active-duty member pays $0 in premiums and effectively $0 in copays. Family members enrolled in Prime also pay $0 in premiums.",
+  "civilian_equivalent": {
+   "kff_year": "2025",
+   "single_annual_premium_usd": 9325,
+   "single_employee_contribution_usd": 1440,
+   "single_employer_contribution_usd": 7885,
+   "single_avg_deductible_usd": 1886,
+   "family_annual_premium_usd": 26993,
+   "family_employee_contribution_usd": 6850,
+   "family_employer_contribution_usd": 20143,
+   "worker_share_single_pct": 16,
+   "worker_share_family_pct": 26,
+   "oop_max_note": "In 2025, 72% of covered workers faced an out-of-pocket maximum above $3,000 for single coverage; 21% faced one above $6,000. That is on TOP of the premium and the deductible.",
+   "source": "Kaiser Family Foundation, 2025 Employer Health Benefits Survey (kff.org/health-costs/2025-employer-health-benefits-survey/)",
+   "retrieved_date": "2026-07-12"
+  },
+  "valuation_methods": [
+   {
+    "method": "FULL REPLACEMENT VALUE (used by this site)",
+    "single_usd": 9325,
+    "family_usd": 26993,
+    "why": "This is what the coverage actually COSTS. It is the right number for a total-compensation comparison, because a civilian's total compensation includes their employer's health contribution — the worker earns it, they simply never see it on the payslip. Comparing a military package to a civilian SALARY while ignoring the employer's premium share understates the military side by roughly $7,900 (single) or $20,100 (family) a year."
+   },
+   {
+    "method": "PAYSLIP-VISIBLE COST ONLY (what this site used before — too low)",
+    "single_usd": 1440,
+    "family_usd": 6850,
+    "why": "Only the employee's payroll deduction. It is what a civilian NOTICES, but it drastically undervalues the benefit: it ignores the employer's share entirely, and it ignores the deductible and copays a civilian still pays after the premium."
+   },
+   {
+    "method": "OUT-OF-POCKET REALITY (contribution + typical deductible)",
+    "single_usd": 3326,
+    "family_usd": "UNVERIFIED — the family deductible was not separately sourced",
+    "why": "Employee premium contribution ($1,440) plus the average single-coverage deductible ($1,886). This is the cash a civilian actually parts with in a typical year before copays and coinsurance. computed, not authoritative."
+   }
   ],
-  "unverified": [
-    "E-6 and beyond promotion timelines (TIS/TIG minimums) \u2014 not sourced this session.",
-    "Whether graduating A-school/AIT/tech school triggers automatic advancement in any branch \u2014 not researched this session.",
-    "What Civil Air Patrol grants toward Army, Navy, Marine Corps, Coast Guard, or Space Force enlistment (only the Air Force E-3 grant via the Mitchell Award was sourced, and even that conflicts with one lower-quality source claiming E-2).",
-    "Eagle Scout/Girl Scout Gold Award branch-to-paygrade mapping \u2014 two sources give directly contradictory branch assignments (see advanced_entry_paygrade.programs); not resolved.",
-    "Whether advanced-entry credentials (JROTC, CAP, Scout awards, college credit, referrals) stack additively beyond a service-specific cap \u2014 not confirmed for any branch.",
-    "Fort Bragg E-4 without-dependents BAH figure \u2014 not obtained.",
-    "Partial BAH exact 2026 dollar figure ($50.10) \u2014 single-source, not independently cross-corroborated.",
-    "BAH worked examples generally \u2014 both Fort Bragg figures used are single-source (garrisonledger.com) and not primary-fetched from travel.dod.mil (blocked, 403).",
-    "Aviation Incentive Pay (ACIP) full gated schedule and junior-officer starting figure \u2014 not obtained; only a vague senior-aviator ceiling (~$1,000/month) was found.",
-    "Sea Pay (Career Sea Pay) current dollar figure \u2014 not sourced despite a dedicated search attempt.",
-    "Submarine Duty Pay current dollar figure \u2014 not sourced.",
-    "Jump pay and dive pay tier boundaries \u2014 approximate, no single authoritative current page identified.",
-    "Hardship Duty Pay (HDP-Location) tier-to-dollar mapping \u2014 approximate range only, no location-by-tier table sourced.",
-    "Foreign Language Proficiency Bonus applicability outside the Army-specific context in which it was reported \u2014 not confirmed for other branches.",
-    "BLS median annual earnings for the exact 20-24 age cut \u2014 only a 16-24 weekly figure was confirmed; the more precise 20-24 FRED series (LEU0252887100Q) could not be fetched (403) to pull its current value.",
-    "BLS HS-grad-no-college figure for 2025/2026 (~$960-966/week) \u2014 a 2024-dated $946/week figure is the best-confirmed anchor; the more recent number is search-synthesis only, not traced to one dated article.",
-    "All basic-pay longevity-column figures for 3/4/6/8/10/12/14/16/18/20 YOS \u2014 cross-corroborated between two independent secondary aggregators but not primary-fetched from DFAS/militarypay.defense.gov (both 403-blocked this session).",
-    "Family-coverage average deductible was not separately sourced; only the single-coverage average deductible ($1,886, KFF 2025) was obtained."
-  ],
-  "completion_accountability": "Block 1 (full longevity pay table) is the most solidly sourced block: cross-corroborated between two independently operated secondary sources whose figures matched to the rounded dollar in every cell checked, covering E-1 through E-9 and O-1 through O-3 across all 12 requested longevity columns (E-8/E-9 include N/A cells for YOS bands below their minimum grade eligibility, which is correct, not a gap). Block 2 (advanced entry) is populated for 6 programs across the requested categories (JROTC, CAP, Scouts, college credit, referral, Sea Cadets), but two internal source conflicts (CAP grant amount; Eagle Scout branch mapping) are surfaced explicitly rather than silently resolved, and CAP's grants outside the Air Force are UNVERIFIED. Block 3 (promotion timeline) covers E-2 through E-5 for Army and Air Force; E-6+ and the specialty-school-automatic-advancement question are UNVERIFIED \u2014 flagged as follow-up research rather than guessed. Block 4 (BAH) has full methodology and the government-quarters/Partial-BAH explanation, plus two Fort Bragg worked examples (an improvement over the prior session's zero verified examples), but all BAH-specific dollar figures (Partial BAH, both worked examples) are single-source/search-only, not primary-fetched, and are labeled as such \u2014 this is the block least well-corroborated by cross-source agreement. Block 5 (BAS/ESM) is fully covered including the meal-card mechanics and the ~$65/month residual figure, though the ESM source (army.mil) could only be reached via search, not direct fetch. Block 6 (special/incentive pays) has usable figures for 6 of 9 requested pay types (HFP/IDP, jump pay, dive pay, FLPB, SDAP, HDP); Aviation Incentive Pay is partial/UNVERIFIED, and Sea Pay and Submarine Duty Pay are fully UNVERIFIED \u2014 no dollar figure could be sourced for either despite a dedicated attempt. Block 7 (healthcare value + civilian baseline) has a solidly sourced KFF 2025 figure set (single and family premiums plus employee contributions, all four numbers from the same named, dated survey) but the BLS civilian-baseline figures are WEEKLY, not annual, and the requested exact 20-24 age cut could not be confirmed (only a 16-24 band and an all-ages-25+ HS-grad figure were sourced); annualized figures are explicitly labeled 'computed, not authoritative.' Total UNVERIFIED items logged: 17. Tool budget was ~20 web calls; approximately 25 were used, all documented in source_access_note."
+  "how_to_value_it": "This site values military healthcare at the FULL ANNUAL PREMIUM a civilian's coverage costs — $9,325 for single, $26,993 for a family (KFF 2025). That is what the benefit is worth to replace, and it is the only figure that makes a military package comparable to a civilian TOTAL compensation package. It is also still conservative: it does not count the deductible ($1,886 average, single), the copays, or the out-of-pocket maximum a civilian faces on top — costs an active-duty member does not have at all.",
+  "why_this_matters": "For a service member with a family, healthcare alone is worth about $27,000 a year. That is not a rounding error next to basic pay — for a junior enlisted member it can approach the value of their entire base salary."
+ },
+ "civilian_baseline": {
+  "bls_median_annual_usd_age_20_24": "UNVERIFIED as an official annual figure for the exact 20-24 age cut. Best sourced figure obtained this session is WEEKLY, for the ages 16-24 band (not 20-24): $797/week (men) and $712/week (women), Q2 2025, per BLS 'Usual Weekly Earnings of Wage and Salary Workers' news release (Q2 2025 release, archived at bls.gov/news.release/archives/wkyeng_07222025.htm), Table 3. A more granular 20-24-only BLS series exists (FRED mirror series LEU0252887100Q, 'Median usual weekly nominal earnings, wage and salary workers 20 to 24 years, employed full time'), but direct fetch of both bls.gov and fred.stlouisfed.org to pull its latest value returned HTTP 403 this session — the series was located but its current value was NOT independently confirmed. computed, not authoritative: 52 x $797/week = $41,444/year (men, 16-24) and 52 x $712/week = $37,024/year (women, 16-24) if a reader wants an annualized approximation; BLS does not itself publish this as a single annual figure in the source located.",
+  "bls_median_annual_usd_hs_grad_no_college": "UNVERIFIED as a current single annual figure. Best sourced anchor is WEEKLY: $946/week, median usual weekly earnings of full-time workers with a high school diploma and no college (age 25+, NOT youth-specific), per BLS 'The Economics Daily' article dated 2024 (bls.gov/opub/ted/2024/median-weekly-earnings-946-for-workers-with-high-school-diploma-1533-for-bachelors-degree.htm). A more recent ~$960-966/week figure for 2025-2026 appeared in search-engine synthesis but could not be traced to one specific, dated BLS article this session — flagged as lower-confidence and NOT used as the primary figure. computed, not authoritative: 52 x $946/week = $49,192/year if annualized.",
+  "series_note": "BLS's routinely published age breakout in the quarterly 'Usual Weekly Earnings' release is 16-24 combined, not a standalone 20-24 cut; the requested 20-24-specific figure exists in a more granular BLS/FRED series (LEU0252887100Q) that this session located but could not fetch (403) to confirm the current value. The HS-grad-no-college figure sourced is for ALL adults 25+ with that credential, not youth-specific — no youth-specific HS-grad breakout was located this session.",
+  "source": "search-synthesis of bls.gov/news.release/archives/wkyeng_07222025.htm and bls.gov/opub/ted/2024/median-weekly-earnings-946-for-workers-with-high-school-diploma-1533-for-bachelors-degree.htm; direct WebFetch to bls.gov and fred.stlouisfed.org both returned HTTP 403 this session.",
+  "retrieved_date": "2026-07-12"
+ },
+ "comparison_caveats": [
+  "BAH and BAS are non-taxable — a military package is not comparable to civilian gross pay without adjustment.",
+  "If you live in the barracks or aboard ship you generally do not receive full BAH — you receive Partial BAH, a much smaller amount (search-sourced at ~$50.10/month, single-source, see bah.partial_bah).",
+  "If you are on a barracks meal plan (Essential Station Messing), most of your BAS is redirected to pay for dining-facility access rather than paid to you directly — roughly $65/month is search-sourced as the typical residual paid directly to the member (see bas.essential_station_messing_note).",
+  "The 'free healthcare' value is a benefit value, not a cash payment, and should not simply be added to a salary figure as if it were take-home pay.",
+  "Several dollar figures in this file (BAH worked examples, Partial BAH, several special/incentive pays, the newer BLS HS-grad figure) are single-source, search-sourced, and NOT independently cross-corroborated or primary-fetched — they are labeled accordingly throughout and should not be treated with the same confidence as the cross-corroborated basic pay table."
+ ],
+ "sources": [
+  {
+   "title": "2026 Military Pay Chart: All Grades and Years of Service",
+   "url": "https://valoannetwork.com/military-base-pay/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "2026 Military Pay Chart: All Ranks, All Years of Service",
+   "url": "https://militaryretirementcalc.com/blog/2026-military-pay-chart",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "2026 Military Pay Chart 3.8% (All Pay Grades)",
+   "url": "https://www.navycs.com/charts/2026-military-pay-chart.html",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "2026 Military Pay Charts",
+   "url": "https://www.military.com/benefits/military-pay/charts",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Can You Get Advanced Enlisted Rank for College Credits or JROTC?",
+   "url": "https://www.liveabout.com/advanced-enlisted-rank-3332724",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Advanced Enlistment Rank: How to Qualify for E-2 or E-3",
+   "url": "https://legalclarity.org/advanced-enlistment-rank-how-to-qualify-for-e-2-or-e-3/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Army-Portal.com — Army Advanced Enlistment / Early Enlisted Promotions",
+   "url": "http://www.army-portal.com/pay-promotions/advanced-enlistment.html",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Billy Mitchell Award — Civil Air Patrol National Headquarters",
+   "url": "https://www.gocivilairpatrol.com/programs/cadets/stripes-to-diamonds/mitchell",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Does being an Eagle Scout help with military enlistment?",
+   "url": "https://www.collegevine.com/faq/156073/does-being-an-eagle-scout-help-with-military-enlistment",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "United States Navy Advanced Enlistment Ranks (Rates)",
+   "url": "https://www.liveabout.com/advanced-enlistment-paygrades-3354795",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Navy Advanced Pay Grade Opportunities",
+   "url": "https://www.navycs.com/navy-advanced-paygrade.html",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Future Soldiers Referral Information",
+   "url": "https://www.futuresoldiers.com/referrals/index?contentId=index",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Recruiting Pilot, Soldier Referral Program, offers promotion incentives for Soldiers",
+   "url": "https://www.army.mil/article/263437/recruiting_pilot_soldier_referral_program_offers_promotion_incentives_for_soldiers",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Army Promotion Timeline for Enlisted & Officers For 2026",
+   "url": "https://www.operationmilitarykids.org/army-promotion-timeline-for-enlisted-officers/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Air Force Promotion Timeline For Enlisted & Officers In 2026",
+   "url": "https://www.operationmilitarykids.org/air-force-promotion-timeline-for-enlisted-officers/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "BAH Partial vs BAH Differential: What's the Difference?",
+   "url": "https://www.militarytransitiontoolkit.com/blog/bah-partial-differential-explained",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Basic Allowance for Housing (BAH): Frequently Asked Questions",
+   "url": "https://themilitarywallet.com/basic-allowance-for-housing-bah/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Fort Bragg (Fort Liberty) BAH Rates 2026 — All Paygrades",
+   "url": "https://www.garrisonledger.com/bah/fort-bragg",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "The facts about Soldiers' 'meal card' plans and Basic Allowance for Subsistence (BAS)",
+   "url": "https://www.army.mil/article/283532/the_facts_about_soldiers_meal_card_plans_and_basic_allowance_for_subsistence_bas",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "2026 BAS Rates | The Military Wallet",
+   "url": "https://themilitarywallet.com/bas-rates/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "2026 Guide to Combat Pay (CZTE, IDP, HFP & More)",
+   "url": "https://www.firstcommand.com/coaching-center/military-life/what-is-combat-pay/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Hostile Fire/Imminent Danger Pay — militarypay.defense.gov (403-blocked; search-cited)",
+   "url": "https://militarypay.defense.gov/Pay/Special-and-Incentive-Pays/HFP_IDP/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Hazard Pay Military 2026: HDIP Rates & Types",
+   "url": "https://valoannetwork.com/hazardous-duty-incentive-pay/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "SDAP — MyNavyHR",
+   "url": "https://www.mynavyhr.navy.mil/References/Pay-Benefits/SDAP/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "37 USC 307: Special pay — special duty assignment pay",
+   "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title37-section307&num=0&edition=prelim",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "2025 Employer Health Benefits Survey — KFF",
+   "url": "https://www.kff.org/health-costs/2025-employer-health-benefits-survey/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Employer Health Benefits Survey 2025 Annual Survey Summary of Findings (PDF)",
+   "url": "https://files.kff.org/attachment/Employer-Health-Benefits-Survey-2025-Annual-Survey-Summary-of-Findings.pdf",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Annual Family Premiums for Employer Coverage Rise 6% in 2025, Nearing $27,000",
+   "url": "https://www.kff.org/health-costs/annual-family-premiums-for-employer-coverage-rise-6-in-2025-nearing-27000-with-workers-paying-6850-toward-premiums-out-of-their-paychecks/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Usual Weekly Earnings of Wage and Salary Workers News Release — 2025 Q02 Results",
+   "url": "https://www.bls.gov/news.release/archives/wkyeng_07222025.htm",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Median weekly earnings $946 for workers with high school diploma, $1,533 for bachelor's degree",
+   "url": "https://www.bls.gov/opub/ted/2024/median-weekly-earnings-946-for-workers-with-high-school-diploma-1533-for-bachelors-degree.htm",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Median usual weekly nominal earnings, wage and salary workers 20 to 24 years, employed full time (FRED series LEU0252887100Q)",
+   "url": "https://fred.stlouisfed.org/series/LEU0252887100Q",
+   "retrieved_date": "2026-07-12"
+  }
+ ],
+ "unverified": [
+  "E-6 and beyond promotion timelines (TIS/TIG minimums) — not sourced this session.",
+  "Whether graduating A-school/AIT/tech school triggers automatic advancement in any branch — not researched this session.",
+  "What Civil Air Patrol grants toward Army, Navy, Marine Corps, Coast Guard, or Space Force enlistment (only the Air Force E-3 grant via the Mitchell Award was sourced, and even that conflicts with one lower-quality source claiming E-2).",
+  "Eagle Scout/Girl Scout Gold Award branch-to-paygrade mapping — two sources give directly contradictory branch assignments (see advanced_entry_paygrade.programs); not resolved.",
+  "Whether advanced-entry credentials (JROTC, CAP, Scout awards, college credit, referrals) stack additively beyond a service-specific cap — not confirmed for any branch.",
+  "Fort Bragg E-4 without-dependents BAH figure — not obtained.",
+  "Partial BAH exact 2026 dollar figure ($50.10) — single-source, not independently cross-corroborated.",
+  "BAH worked examples generally — both Fort Bragg figures used are single-source (garrisonledger.com) and not primary-fetched from travel.dod.mil (blocked, 403).",
+  "Aviation Incentive Pay (ACIP) full restricted schedule and junior-officer starting figure — not obtained; only a vague senior-aviator ceiling (~$1,000/month) was found.",
+  "Sea Pay (Career Sea Pay) current dollar figure — not sourced despite a dedicated search attempt.",
+  "Submarine Duty Pay current dollar figure — not sourced.",
+  "Jump pay and dive pay tier boundaries — approximate, no single authoritative current page identified.",
+  "Hardship Duty Pay (HDP-Location) tier-to-dollar mapping — approximate range only, no location-by-tier table sourced.",
+  "Foreign Language Proficiency Bonus applicability outside the Army-specific context in which it was reported — not confirmed for other branches.",
+  "BLS median annual earnings for the exact 20-24 age cut — only a 16-24 weekly figure was confirmed; the more precise 20-24 FRED series (LEU0252887100Q) could not be fetched (403) to pull its current value.",
+  "BLS HS-grad-no-college figure for 2025/2026 (~$960-966/week) — a 2024-dated $946/week figure is the best-confirmed anchor; the more recent number is search-synthesis only, not traced to one dated article.",
+  "All basic-pay longevity-column figures for 3/4/6/8/10/12/14/16/18/20 YOS — cross-corroborated between two independent secondary aggregators but not primary-fetched from DFAS/militarypay.defense.gov (both 403-blocked this session).",
+  "Family-coverage average deductible was not separately sourced; only the single-coverage average deductible ($1,886, KFF 2025) was obtained."
+ ],
+ "completion_accountability": "Block 1 (full longevity pay table) is the most solidly sourced block: cross-corroborated between two independently operated secondary sources whose figures matched to the rounded dollar in every cell checked, covering E-1 through E-9 and O-1 through O-3 across all 12 requested longevity columns (E-8/E-9 include N/A cells for YOS bands below their minimum grade eligibility, which is correct, not a gap). Block 2 (advanced entry) is populated for 6 programs across the requested categories (JROTC, CAP, Scouts, college credit, referral, Sea Cadets), but two internal source conflicts (CAP grant amount; Eagle Scout branch mapping) are surfaced explicitly rather than silently resolved, and CAP's grants outside the Air Force are UNVERIFIED. Block 3 (promotion timeline) covers E-2 through E-5 for Army and Air Force; E-6+ and the specialty-school-automatic-advancement question are UNVERIFIED — flagged as follow-up research rather than guessed. Block 4 (BAH) has full methodology and the government-quarters/Partial-BAH explanation, plus two Fort Bragg worked examples (an improvement over the prior session's zero verified examples), but all BAH-specific dollar figures (Partial BAH, both worked examples) are single-source/search-only, not primary-fetched, and are labeled as such — this is the block least well-corroborated by cross-source agreement. Block 5 (BAS/ESM) is fully covered including the meal-card mechanics and the ~$65/month residual figure, though the ESM source (army.mil) could only be reached via search, not direct fetch. Block 6 (special/incentive pays) has usable figures for 6 of 9 requested pay types (HFP/IDP, jump pay, dive pay, FLPB, SDAP, HDP); Aviation Incentive Pay is partial/UNVERIFIED, and Sea Pay and Submarine Duty Pay are fully UNVERIFIED — no dollar figure could be sourced for either despite a dedicated attempt. Block 7 (healthcare value + civilian baseline) has a solidly sourced KFF 2025 figure set (single and family premiums plus employee contributions, all four numbers from the same named, dated survey) but the BLS civilian-baseline figures are WEEKLY, not annual, and the requested exact 20-24 age cut could not be confirmed (only a 16-24 band and an all-ages-25+ HS-grad figure were sourced); annualized figures are explicitly labeled 'computed, not authoritative.' Total UNVERIFIED items logged: 17. Tool budget was ~20 web calls; approximately 25 were used, all documented in source_access_note."
 }

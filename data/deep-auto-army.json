@@ -1,7 +1,7 @@
 {
  "branch": "Army",
  "retrieved": "2026-07-12",
- "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded \u2014 it is a function of paygrade, not of the job.",
+ "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded — it is a function of paygrade, not of the job.",
  "specialties": [
   {
    "id": "army-15r",
@@ -13,13 +13,13 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll maintain the AH-64 helicopters also known as the Apache, which have been a vital part of Army missions since they were first used in the 1980\u2019s. You\u2019ll ensure that every one of them is safe and ready to fly.\n",
+   "what_it_is": "In this job, you’ll maintain the AH-64 helicopters also known as the Apache, which have been a vital part of Army missions since they were first used in the 1980’s. You’ll ensure that every one of them is safe and ready to fly.\n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 99",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -39,7 +39,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.15R.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -78,7 +78,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -98,7 +98,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.15Y.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -136,13 +136,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll have the important task of operating and maintaining Army surface-to-air advanced weapons systems, which provide vital defense protection against cruise missiles and other threats.\n",
+   "what_it_is": "In this job, you’ll have the important task of operating and maintaining Army surface-to-air advanced weapons systems, which provide vital defense protection against cruise missiles and other threats.\n",
    "entry_requirements": {
     "asvab_line_score": "Operators & Food (OF): 95",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -162,7 +162,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.14P.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -204,13 +204,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll use specialized skills to sustain air space superiority and protect against aerial and missile attacks by providing critical situational awareness, threat detection, and early warnings from airspace.\n",
+   "what_it_is": "In this job, you’ll use specialized skills to sustain air space superiority and protect against aerial and missile attacks by providing critical situational awareness, threat detection, and early warnings from airspace.\n",
    "entry_requirements": {
     "asvab_line_score": "General Technical (GT): 98, Mechanical Maintenance (MM): 91",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -230,7 +230,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.14G.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -267,13 +267,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll have the vital task of evaluating and communicating data about incoming enemy aerial and missile attacks and aerial surveillance in order to provide critical early detection needed to enable threat destruction.\n",
+   "what_it_is": "In this job, you’ll have the vital task of evaluating and communicating data about incoming enemy aerial and missile attacks and aerial surveillance in order to provide critical early detection needed to enable threat destruction.\n",
    "entry_requirements": {
     "asvab_line_score": "General Technical (GT): 98, Mechanical Maintenance (MM): 91",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -293,7 +293,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.14H.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -336,13 +336,13 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll help ensure flight safety, keeping our pilots safe by maintaining and installing vital air traffic control measures, control communications, navigation aids, and landing systems. \n",
+   "what_it_is": "In this job, you’ll help ensure flight safety, keeping our pilots safe by maintaining and installing vital air traffic control measures, control communications, navigation aids, and landing systems. \n",
    "entry_requirements": {
     "asvab_line_score": "Electronics (EL): 102",
     "security_clearance": "Secret",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -362,7 +362,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.94D.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -404,13 +404,13 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll track aircraft to ensure mission success while maintaining critical safe flight operations. You\u2019ll coordinate aircraft movement for takeoff, in flight, and landing to ensure the safety of every pilot and passenger.\u00a0\n",
+   "what_it_is": "In this job, you'll track aircraft to ensure mission success while maintaining critical safe flight operations. You’ll coordinate aircraft movement for takeoff, in flight, and landing to ensure the safety of every pilot and passenger. \n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 101",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -430,7 +430,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.15Q.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -466,13 +466,13 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll help keep today\u2019s sophisticated Army aircraft flying safely by supervising, inspecting, troubleshooting, and performing maintenance on aircraft electrical systems.\n",
+   "what_it_is": "In this job, you'll help keep today’s sophisticated Army aircraft flying safely by supervising, inspecting, troubleshooting, and performing maintenance on aircraft electrical systems.\n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 104",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -492,7 +492,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.15F.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -542,7 +542,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -562,7 +562,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.15H.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -601,7 +601,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -621,7 +621,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.15B.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -664,7 +664,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -684,7 +684,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.15D.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -729,7 +729,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -749,7 +749,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.15G.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -781,13 +781,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll supervise and perform the fabrication, repair, and modification of metallic and nonmetallic parts to ensure the Army\u2019s equipment is operating reliably. You\u2019ll learn to operate various machine shop equipment.\n",
+   "what_it_is": "In this job, you’ll supervise and perform the fabrication, repair, and modification of metallic and nonmetallic parts to ensure the Army’s equipment is operating reliably. You’ll learn to operate various machine shop equipment.\n",
    "entry_requirements": {
     "asvab_line_score": "General Maintenance (GM): 98 \nOR \nGeneral Maintenance (GM): 88, General Technical (GT): 95",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -807,7 +807,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.91E.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -849,13 +849,13 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be responsible for the highly specialized care and management of ammunition, explosives, and their components. You\u2019ll receive, store, issue, and inspect weapon systems, a crucial part of keeping our troops safe.\n",
+   "what_it_is": "In this job, you’ll be responsible for the highly specialized care and management of ammunition, explosives, and their components. You’ll receive, store, issue, and inspect weapon systems, a crucial part of keeping our troops safe.\n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 91",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -875,7 +875,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.89B.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -914,13 +914,13 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll perform stock control and accounting duties for ammunition, explosives and explosive components using automated and manual procedures.\n",
+   "what_it_is": "In this job, you’ll perform stock control and accounting duties for ammunition, explosives and explosive components using automated and manual procedures.\n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 91",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -940,7 +940,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.89A.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -978,13 +978,13 @@
     "healthcare-medical"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll help provide the best possible medical care and treatment for government-owned animals, similar to that of a veterinary technician. You\u2019ll also prevent and control the spread of diseases from animals to humans. \n",
+   "what_it_is": "In this job, you'll help provide the best possible medical care and treatment for government-owned animals, similar to that of a veterinary technician. You’ll also prevent and control the spread of diseases from animals to humans. \n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 91",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1004,7 +1004,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68T.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1037,13 +1037,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll supervise and gain the skills needed to perform maintenance and recovery operations on all self-propelled field artillery cannon weapon systems, keeping them mission-capable at all times.\n",
+   "what_it_is": "In this job, you’ll supervise and gain the skills needed to perform maintenance and recovery operations on all self-propelled field artillery cannon weapon systems, keeping them mission-capable at all times.\n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 99 \nOR\nMechanical Maintenance (MM): 88, General Technical (GT): 88 ",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1063,7 +1063,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.91P.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1106,13 +1106,13 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll perform maintenance management and warehouse functions to maintain equipment records, inventory, material control, accounting and supply reports. \n",
+   "what_it_is": "In this job, you’ll perform maintenance management and warehouse functions to maintain equipment records, inventory, material control, accounting and supply reports. \n",
    "entry_requirements": {
     "asvab_line_score": "Clerical (CL): 90",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1132,7 +1132,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.92A.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1175,13 +1175,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll prepare, operate, and fire the Avenger portable surface-to-air missile system designed to provide protection against cruise missiles, and low-flying aircraft.\n",
+   "what_it_is": "In this job, you’ll prepare, operate, and fire the Avenger portable surface-to-air missile system designed to provide protection against cruise missiles, and low-flying aircraft.\n",
    "entry_requirements": {
     "asvab_line_score": "Operators & Food (OF): 85",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -1201,7 +1201,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.14S.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1229,13 +1229,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be one of the most highly trained technically and tactically proficient Soldiers in the world. You\u2019ll supervise and perform repairs on the complex Avenger weapons system used to secure air space and protect ground forces.\n",
+   "what_it_is": "In this job, you’ll be one of the most highly trained technically and tactically proficient Soldiers in the world. You’ll supervise and perform repairs on the complex Avenger weapons system used to secure air space and protect ground forces.\n",
    "entry_requirements": {
     "asvab_line_score": "Electronics (EL): 98",
     "security_clearance": "Confidential",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1255,7 +1255,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.94T.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1296,13 +1296,13 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll perform field and sustainment level maintenance on avionic navigation flight control systems, stabilization systems and equipment. \n",
+   "what_it_is": "In this job, you’ll perform field and sustainment level maintenance on avionic navigation flight control systems, stabilization systems and equipment. \n",
    "entry_requirements": {
     "asvab_line_score": "Electronics (EL): 98",
     "security_clearance": "Secret",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1322,7 +1322,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.94R.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1363,13 +1363,13 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll keep Army planes and equipment safe and up to date, by performing maintenance duties.\n",
+   "what_it_is": "In this job, you’ll keep Army planes and equipment safe and up to date, by performing maintenance duties.\n",
    "entry_requirements": {
     "asvab_line_score": "Electronics (EL): 93",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -1389,7 +1389,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.15N.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1433,7 +1433,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1453,7 +1453,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68X.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1489,13 +1489,13 @@
     "healthcare-medical"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be responsible for servicing and maintaining all medical equipment. You\u2019ll perform preventive maintenance, troubleshoot and isolate malfunctions, and replace and repair defective components.\n",
+   "what_it_is": "In this job, you’ll be responsible for servicing and maintaining all medical equipment. You’ll perform preventive maintenance, troubleshoot and isolate malfunctions, and replace and repair defective components.\n",
    "entry_requirements": {
     "asvab_line_score": "Electronics (EL): 107",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1515,7 +1515,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68A.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1549,13 +1549,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll have the challenging task of performing repairs and maintenance exclusively on the range of Bradley fighting vehicles in order to maintain their peak performance. \n",
+   "what_it_is": "In this job, you’ll have the challenging task of performing repairs and maintenance exclusively on the range of Bradley fighting vehicles in order to maintain their peak performance. \n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 99 \nOR\nMechanical Maintenance (MM): 88, General Technical (GT): 92\n",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1575,7 +1575,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.91M.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1626,7 +1626,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1641,7 +1641,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.12C.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1684,13 +1684,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll play a vital role in helping the Army win during missions. You\u2019ll work with some of the most technologically advanced cannons ever created to support infantry and tank units during missions. \n",
+   "what_it_is": "In this job, you’ll play a vital role in helping the Army win during missions. You’ll work with some of the most technologically advanced cannons ever created to support infantry and tank units during missions. \n",
    "entry_requirements": {
     "asvab_line_score": "Field Artillery (FA): 93",
     "security_clearance": "None required for entry (directly stated by operationmilitarykids.org, retrieved 2026-07-12).",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1710,7 +1710,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.13B.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1743,13 +1743,13 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll be the expert for everything the Army moves by land, sea, or air, either manually or by operating material handling equipment. You\u2019ll ensure the Army receives supplies, weapons, the mail, and equipment daily all over the world. \n",
+   "what_it_is": "In this job, you'll be the expert for everything the Army moves by land, sea, or air, either manually or by operating material handling equipment. You’ll ensure the Army receives supplies, weapons, the mail, and equipment daily all over the world. \n",
    "entry_requirements": {
     "asvab_line_score": "General Maintenance (GM): 88",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1769,7 +1769,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.88H.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1814,7 +1814,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1834,7 +1834,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.12W.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1869,13 +1869,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll act as the eyes and ears on the field, gathering information about enemy positions, vehicles, weapons and activity.\n",
+   "what_it_is": "In this job, you’ll act as the eyes and ears on the field, gathering information about enemy positions, vehicles, weapons and activity.\n",
    "entry_requirements": {
     "asvab_line_score": "Combat (CO): 77",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -1890,7 +1890,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.19D.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1922,13 +1922,13 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll maintain and repair the CH-47 Helicopters (also known as the \u201cChinook\u201d) and ensure that they are safe and ready to fly.\n",
+   "what_it_is": "In this job, you’ll maintain and repair the CH-47 Helicopters (also known as the “Chinook”) and ensure that they are safe and ready to fly.\n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 104",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -1948,7 +1948,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.15U.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1982,13 +1982,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll protect the country against the threat of CBRN weapons of mass destruction. You\u2019ll train to lead the detection and decontamination of hazardous material spills or accidents. \n",
+   "what_it_is": "In this job, you’ll protect the country against the threat of CBRN weapons of mass destruction. You’ll train to lead the detection and decontamination of hazardous material spills or accidents. \n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 100",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2008,7 +2008,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.74D.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2050,13 +2050,13 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be the link between the Army and local civilians around the world. You\u2019ll identify what critical resources local citizens may need during missions or in crisis situations, and you\u2019ll participate in producing civil affairs related documents.\n",
+   "what_it_is": "In this job, you’ll be the link between the Army and local civilians around the world. You’ll identify what critical resources local citizens may need during missions or in crisis situations, and you’ll participate in producing civil affairs related documents.\n",
    "entry_requirements": {
     "asvab_line_score": "General Technical (GT): 107",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 34 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 34 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2076,7 +2076,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.38B.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2116,7 +2116,7 @@
     "security_clearance": "Not typically required for the base MOS; specific assignments involving demolitions/explosive ordnance coordination may carry additional screening not independently confirmed this session.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2131,7 +2131,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.12B.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2174,7 +2174,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · Meet Tattoo Guidelines · No Major Law Violations"
    },
    "training_pipeline": [
     {
@@ -2194,7 +2194,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68W.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2238,13 +2238,13 @@
     "technology-cyber"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll repair the most advanced computer systems to ensure they\u2019re in top operating condition, keeping equipment functioning, and making sure the Army is never at a disadvantage.\n",
+   "what_it_is": "In this job, you’ll repair the most advanced computer systems to ensure they’re in top operating condition, keeping equipment functioning, and making sure the Army is never at a disadvantage.\n",
    "entry_requirements": {
     "asvab_line_score": "Electronics (EL): 102",
     "security_clearance": "Secret",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2264,7 +2264,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.94F.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2308,13 +2308,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll keep the Army\u2019s engineer equipment safe and operational by repairing and maintaining trucks, bulldozers, power shovels, and other heavy equipment that is needed for construction. \n",
+   "what_it_is": "In this job, you'll keep the Army’s engineer equipment safe and operational by repairing and maintaining trucks, bulldozers, power shovels, and other heavy equipment that is needed for construction. \n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 92 \nOR\nMechanical Maintenance (MM): 87, General Technical (GT): 85\n",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2334,7 +2334,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.91L.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2376,13 +2376,13 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll conduct investigations to identify and detect foreign intelligence and international terrorist threats and plan the appropriate countermeasures.\n",
+   "what_it_is": "In this job, you’ll conduct investigations to identify and detect foreign intelligence and international terrorist threats and plan the appropriate countermeasures.\n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 101",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2402,7 +2402,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.35L.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2440,13 +2440,13 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll use your skills as a linguist to identify, categorize, translate, and summarize foreign language communications from a specific location. You\u2019ll also operate and oversee signal equipment used in signals intelligence operations. \n",
+   "what_it_is": "In this job, you’ll use your skills as a linguist to identify, categorize, translate, and summarize foreign language communications from a specific location. You’ll also operate and oversee signal equipment used in signals intelligence operations. \n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 91",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2481,7 +2481,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.35P.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2518,13 +2518,13 @@
     "culinary"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll prepare and serve large-scale meals comparable to any major restaurant so that Soldiers can sit down and enjoy a hot meal in between training or mission deployments. \n",
+   "what_it_is": "In this job, you’ll prepare and serve large-scale meals comparable to any major restaurant so that Soldiers can sit down and enjoy a hot meal in between training or mission deployments. \n",
    "entry_requirements": {
     "asvab_line_score": "Operators & Food (OF): 85",
     "security_clearance": "Not typically required.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2544,7 +2544,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.92G.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2589,13 +2589,13 @@
     "technology-cyber"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll defend the Army\u2019s crucial and complex data networks and capabilities against foreign and domestic cyber threats. You\u2019ll also gain an advantage on the enemy by targeting their activities. \n",
+   "what_it_is": "In this job, you’ll defend the Army’s crucial and complex data networks and capabilities against foreign and domestic cyber threats. You’ll also gain an advantage on the enemy by targeting their activities. \n",
    "entry_requirements": {
     "asvab_line_score": "General Technical (GT): 110, Skilled Technical (ST): 112",
-    "security_clearance": "Top Secret/SCI (TS/SCI); must be able to pass a Single Scope Background Investigation (SSBI). This is a hard gate independent of ASVAB score: per SEAD 4 (the government-wide National Security Adjudicative Guidelines), common disqualifiers include foreign influence/preference (close foreign-national contacts, dual citizenship, foreign-government ties), financial considerations (unresolved delinquent debt, bankruptcy pattern, tax delinquency), and drug involvement/substance misuse (recent illegal drug use or a pattern of misuse) - a qualifying ASVAB/GT score does not offset a disqualifying finding under these guidelines.",
+    "security_clearance": "Top Secret/SCI (TS/SCI); must be able to pass a Single Scope Background Investigation (SSBI). This is a hard requirement independent of ASVAB score: per SEAD 4 (the government-wide National Security Adjudicative Guidelines), common disqualifiers include foreign influence/preference (close foreign-national contacts, dual citizenship, foreign-government ties), financial considerations (unresolved delinquent debt, bankruptcy pattern, tax delinquency), and drug involvement/substance misuse (recent illegal drug use or a pattern of misuse) - a qualifying ASVAB/GT score does not offset a disqualifying finding under these guidelines.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Eligible for a Top Secret Security Clearance \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Eligible for a Top Secret Security Clearance · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2615,7 +2615,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.17C.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2661,13 +2661,13 @@
     "healthcare-medical"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll receive the specialized training needed to assist Army dentists in the examination and care of service members\u2019 teeth, perform preventative cleanings, take dental impressions and x-rays, and help manage dental offices.\n",
+   "what_it_is": "In this job, you'll receive the specialized training needed to assist Army dentists in the examination and care of service members’ teeth, perform preventative cleanings, take dental impressions and x-rays, and help manage dental offices.\n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 91",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2687,7 +2687,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68E.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2724,13 +2724,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll plan and execute electronic warfare operations to control the electromagnetic spectrum and defeat the enemy\u2019s electronic systems. \n",
+   "what_it_is": "In this job, you’ll plan and execute electronic warfare operations to control the electromagnetic spectrum and defeat the enemy’s electronic systems. \n",
    "entry_requirements": {
     "asvab_line_score": "Surveillance & Communications (SC): 105, Electronics (EL): 105, Skilled Technical (ST): 105",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Eligible for a Top Secret Security Clearance \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Eligible for a Top Secret Security Clearance · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2750,7 +2750,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.17E.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2765,7 +2765,7 @@
     "estimated_civilian_salary_range_usd": null,
     "civilian_median_salary_usd": null,
     "salary_source": null,
-    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight \u2014 it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 40 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, CompTIA Security+."
+    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight — it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 40 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, CompTIA Security+."
    }
   },
   {
@@ -2779,13 +2779,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be the Army\u2019s preeminent tactical and technical explosives expert. You\u2019ll have the advanced training and critical skills needed to disable and defeat explosive devices and weapons of mass destruction.\n",
+   "what_it_is": "In this job, you’ll be the Army’s preeminent tactical and technical explosives expert. You’ll have the advanced training and critical skills needed to disable and defeat explosive devices and weapons of mass destruction.\n",
    "entry_requirements": {
     "asvab_line_score": "General Maintenance (GM): 105",
     "security_clearance": "Top Secret (must be eligible)",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Top Secret Security clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Top Secret Security clearance"
    },
    "training_pipeline": [
     {
@@ -2805,7 +2805,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.89D.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2846,7 +2846,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2866,7 +2866,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68Y.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2904,13 +2904,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll have the vital task of detecting enemy forces using a highly specialized radar called a Firefinder, and alerting field artillery units to this critical targeting information.\n",
+   "what_it_is": "In this job, you’ll have the vital task of detecting enemy forces using a highly specialized radar called a Firefinder, and alerting field artillery units to this critical targeting information.\n",
    "entry_requirements": {
     "asvab_line_score": "Surveillance & Communications (SC): 98",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -2930,7 +2930,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.13R.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2946,7 +2946,7 @@
     "estimated_civilian_salary_range_usd": null,
     "civilian_median_salary_usd": null,
     "salary_source": null,
-    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight \u2014 it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 24 related credentials you would still have to earn separately, including CompTIA A+, Emergency Medical Technician (EMT), Microsoft Certified: Power BI Data Analyst Associate."
+    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight — it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 24 related credentials you would still have to earn separately, including CompTIA A+, Emergency Medical Technician (EMT), Microsoft Certified: Power BI Data Analyst Associate."
    }
   },
   {
@@ -2959,13 +2959,13 @@
     "business-admin"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll provide efficient and effective financial management for the Army\u2019s most important asset \u2013 the Soldiers. You\u2019ll budget, disburse and account for government funds, and make sure all financial matters are met. \n",
+   "what_it_is": "In this job, you'll provide efficient and effective financial management for the Army’s most important asset – the Soldiers. You’ll budget, disburse and account for government funds, and make sure all financial matters are met. \n",
    "entry_requirements": {
     "asvab_line_score": "Clerical (CL): 101",
-    "security_clearance": "Secondary sources commonly report a Secret clearance requirement for 36B given access to unit/soldier financial records and government funds. UNVERIFIED at primary-source level this session \u2014 confirm with a recruiter.",
+    "security_clearance": "Secondary sources commonly report a Secret clearance requirement for 36B given access to unit/soldier financial records and government funds. UNVERIFIED at primary-source level this session — confirm with a recruiter.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -2985,7 +2985,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.36B.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3020,13 +3020,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll use strategic skills to coordinate and integrate weapons operations. You\u2019ll process and relay tactical battlefield information to a network of joint fires in support of mission-based operations. \n",
+   "what_it_is": "In this job, you’ll use strategic skills to coordinate and integrate weapons operations. You’ll process and relay tactical battlefield information to a network of joint fires in support of mission-based operations. \n",
    "entry_requirements": {
     "asvab_line_score": "Field Artillery (FA): 93",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -3046,7 +3046,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.13J.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3090,13 +3090,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be responsible for gathering intelligence and enemy target location, operating radio communications, and determining where and how to deploy artillery in mission-based situations.\n",
+   "what_it_is": "In this job, you’ll be responsible for gathering intelligence and enemy target location, operating radio communications, and determining where and how to deploy artillery in mission-based situations.\n",
    "entry_requirements": {
     "asvab_line_score": "Field Artillery (FA): 96",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -3116,7 +3116,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.13F.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3149,13 +3149,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll have the vital task of protecting people\u2019s lives and property from fire. You\u2019ll control and prevent fires not only in Army structures, but also aboard aircraft and ships.\n",
+   "what_it_is": "In this job, you’ll have the vital task of protecting people’s lives and property from fire. You’ll control and prevent fires not only in Army structures, but also aboard aircraft and ships.\n",
    "entry_requirements": {
     "asvab_line_score": "General Maintenance (GM): 88",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -3175,7 +3175,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.12M.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3212,13 +3212,13 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll go to the Defense Language Institute (DLI) where you\u2019ll learn to speak, listen, and read in your target language. As a Foreign Language Specialist, you will be assessed and attend either 35M or 35P Advanced Individual Training.\n",
+   "what_it_is": "In this job, you’ll go to the Defense Language Institute (DLI) where you’ll learn to speak, listen, and read in your target language. As a Foreign Language Specialist, you will be assessed and attend either 35M or 35P Advanced Individual Training.\n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 101",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -3262,13 +3262,13 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll provide invaluable visualization of the land and battlefield in advance of sending troops into unfamiliar terrain. You\u2019ll extract and analyze geographic data from satellite imagery to understand the terrain and its possible effects. \n",
+   "what_it_is": "In this job, you’ll provide invaluable visualization of the land and battlefield in advance of sending troops into unfamiliar terrain. You’ll extract and analyze geographic data from satellite imagery to understand the terrain and its possible effects. \n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 100, General Technical (GT): 100",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -3288,7 +3288,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.12Y.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3332,13 +3332,13 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll analyze visual data to provide critical information to Army leaders about enemy forces, potential battle areas, and mission support. You\u2019ll use aerial imagery, geospatial data, full motion video, and other electronic monitoring.\n",
+   "what_it_is": "In this job, you’ll analyze visual data to provide critical information to Army leaders about enemy forces, potential battle areas, and mission support. You’ll use aerial imagery, geospatial data, full motion video, and other electronic monitoring.\n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 101",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -3358,7 +3358,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.35G.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3398,13 +3398,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll operate heavy construction equipment like bulldozers, tractors, cranes, excavators, and road graders on some of the largest construction projects for the Army.\n",
+   "what_it_is": "In this job, you’ll operate heavy construction equipment like bulldozers, tractors, cranes, excavators, and road graders on some of the largest construction projects for the Army.\n",
    "entry_requirements": {
     "asvab_line_score": "General Maintenance (GM): 90",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -3424,7 +3424,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.12N.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3461,13 +3461,13 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll collect intelligence about an adversary\u2019s intentions, strengths, vulnerabilities, and capabilities and you\u2019ll share this critical information to help Army leaders better understand the enemy.\n",
+   "what_it_is": "In this job, you’ll collect intelligence about an adversary’s intentions, strengths, vulnerabilities, and capabilities and you’ll share this critical information to help Army leaders better understand the enemy.\n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 101",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -3502,7 +3502,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.35M.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3547,13 +3547,13 @@
     "business-admin"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll play a crucial role assisting your fellow Soldiers progress in their Army careers. You\u2019ll ensure the necessary support is also provided to commanders across all branches. \n",
+   "what_it_is": "In this job, you’ll play a crucial role assisting your fellow Soldiers progress in their Army careers. You’ll ensure the necessary support is also provided to commanders across all branches. \n",
    "entry_requirements": {
     "asvab_line_score": "General Technical (GT): 100, Clerical (CL): 90",
-    "security_clearance": "Multiple secondary sources (usamm.com, battalionduty.com, retrieved 2026-07-12) report a Secret clearance requirement for 42A given routine access to soldiers' personnel and pay records (PII). UNVERIFIED at primary-source level this session \u2014 if accurate, this is a real qualifying gate (background investigation) separate from and in addition to the ASVAB score; confirm with a recruiter.",
+    "security_clearance": "Multiple secondary sources (usamm.com, battalionduty.com, retrieved 2026-07-12) report a Secret clearance requirement for 42A given routine access to soldiers' personnel and pay records (PII). UNVERIFIED at primary-source level this session — if accurate, this is a real qualifying requirement (background investigation) separate from and in addition to the ASVAB score; confirm with a recruiter.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -3573,7 +3573,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.42A.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3621,13 +3621,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be a member of a mortar squad, section or platoon. The mortar has the most power and range of any weapon in an infantry unit. \n",
+   "what_it_is": "In this job, you’ll be a member of a mortar squad, section or platoon. The mortar has the most power and range of any weapon in an infantry unit. \n",
    "entry_requirements": {
     "asvab_line_score": "Combat (CO): 77",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -3642,7 +3642,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.11C.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3674,13 +3674,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll defend our country on the ground as a Soldier in an infantry unit. You\u2019ll expose threats, engage enemy forces, assist in reconnaissance, and mobilize troops and weaponry as the ground combat force.\n\n",
+   "what_it_is": "In this job, you’ll defend our country on the ground as a Soldier in an infantry unit. You’ll expose threats, engage enemy forces, assist in reconnaissance, and mobilize troops and weaponry as the ground combat force.\n\n",
    "entry_requirements": {
     "asvab_line_score": "Combat (CO): 77",
-    "security_clearance": "UNVERIFIED \u2014 not independently confirmed at the MOS level this session. Unlike intelligence/cyber MOS, infantry accession does not appear to require clearance-eligibility screening as an enlistment gate; some operational billets may require Secret-level eligibility for unit weapons/communications systems access post-arrival, but this was not sourced to primary confidence.",
+    "security_clearance": "UNVERIFIED — not independently confirmed at the MOS level this session. Unlike intelligence/cyber MOS, infantry accession does not appear to require clearance-eligibility screening as an enlistment requirement; some operational billets may require Secret-level eligibility for unit weapons/communications systems access post-arrival, but this was not sourced to primary confidence.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -3695,7 +3695,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.11B.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3727,13 +3727,13 @@
     "technology-cyber"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll maintain, process and troubleshoot military computer systems and operations, dealing with highly sensitive information crucial security. \n",
+   "what_it_is": "In this job, you’ll maintain, process and troubleshoot military computer systems and operations, dealing with highly sensitive information crucial security. \n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 95",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -3753,7 +3753,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.25B.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3805,7 +3805,7 @@
     "security_clearance": "Secret",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -3825,7 +3825,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.94Y.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3872,13 +3872,13 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be responsible for providing the Army with crucial and reliable information about enemy forces and potential areas of conflict. Additionally, you'll analyze and distribute tactical intelligence. \n",
+   "what_it_is": "In this job, you’ll be responsible for providing the Army with crucial and reliable information about enemy forces and potential areas of conflict. Additionally, you'll analyze and distribute tactical intelligence. \n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 101",
     "security_clearance": "TS/SCI (Top Secret/Sensitive Compartmented Information) required -- must meet TS/SCI access eligibility, adjudicated via a Single Scope Background Investigation (SSBI)/Tier 5 investigation. An interim clearance lets a Soldier begin MOS training at Fort Huachuca before full adjudication completes; full adjudication must be reached within 12 months of MOS award, per secondary sourcing this session. U.S. citizenship is required.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -3898,7 +3898,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.35F.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3940,13 +3940,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll install, maintain, and safely distribute electricity, the driving force behind today\u2019s Army. You\u2019ll work on interior electrical systems, testing equipment and fixing any short circuits in wires and faulty equipment.\n",
+   "what_it_is": "In this job, you'll install, maintain, and safely distribute electricity, the driving force behind today’s Army. You’ll work on interior electrical systems, testing equipment and fixing any short circuits in wires and faulty equipment.\n",
    "entry_requirements": {
     "asvab_line_score": "Electronics (EL): 93",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -3966,7 +3966,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.12R.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4006,13 +4006,13 @@
     "law-enforcement-security"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be mainly responsible for overseeing the day-to-day operations in a military correctional facility or detention facility.\u00a0\n",
+   "what_it_is": "In this job, you’ll be mainly responsible for overseeing the day-to-day operations in a military correctional facility or detention facility. \n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 95",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4032,7 +4032,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.31E.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4074,13 +4074,13 @@
     "technology-cyber"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll use advanced electronic skills to perform maintenance on a variety of missile systems and determine shortcomings and malfunctions in electronic, electrical, mechanical, and circuit elements. \n",
+   "what_it_is": "In this job, you’ll use advanced electronic skills to perform maintenance on a variety of missile systems and determine shortcomings and malfunctions in electronic, electrical, mechanical, and circuit elements. \n",
    "entry_requirements": {
     "asvab_line_score": "Electronics (EL): 102",
     "security_clearance": "Secret",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4100,7 +4100,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.94A.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4144,13 +4144,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll perform maintenance on the suspension, steering, hydraulic, auxiliary power, fire suppression and gas systems of Abrams tanks.\n",
+   "what_it_is": "In this job, you’ll perform maintenance on the suspension, steering, hydraulic, auxiliary power, fire suppression and gas systems of Abrams tanks.\n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 99 \nOR\nMechanical Maintenance (MM): 88, General Technical (GT): 92\n",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4170,7 +4170,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.91A.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4207,13 +4207,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll work as part of a team to operate tanks and assault vehicles and fire weapons to engage and destroy the enemy.\n",
+   "what_it_is": "In this job, you’ll work as part of a team to operate tanks and assault vehicles and fire weapons to engage and destroy the enemy.\n",
    "entry_requirements": {
     "asvab_line_score": "Combat (CO): 77",
-    "security_clearance": "UNVERIFIED \u2014 not independently confirmed at the MOS level this session.",
+    "security_clearance": "UNVERIFIED — not independently confirmed at the MOS level this session.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4228,7 +4228,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.19K.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4260,13 +4260,13 @@
     "healthcare-medical"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll have the important responsibility of caring for and aiding in the diagnosis and treatment of the Soldiers. You\u2019ll collect samples from patients and perform chemical and biological tests to help diagnose.\n",
+   "what_it_is": "In this job, you'll have the important responsibility of caring for and aiding in the diagnosis and treatment of the Soldiers. You’ll collect samples from patients and perform chemical and biological tests to help diagnose.\n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 106",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4286,7 +4286,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68K.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4335,7 +4335,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4355,7 +4355,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68J.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4386,13 +4386,13 @@
     "technology-cyber"
    ],
    "depth": "deep",
-   "what_it_is": "In this job you\u2019ll make sure we can always find, know, and never lose the enemy by making sure the equipment used by the Military Intelligence Soldiers, including computers and networks, is kept in top working condition. \n",
+   "what_it_is": "In this job you’ll make sure we can always find, know, and never lose the enemy by making sure the equipment used by the Military Intelligence Soldiers, including computers and networks, is kept in top working condition. \n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 112",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4412,7 +4412,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.35T.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4454,13 +4454,13 @@
     "law-enforcement-security"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll protect peoples\u2019 lives and property on Army installations by enforcing military laws and regulations. You\u2019ll also control traffic, prevent crime, and respond to all emergencies. \n",
+   "what_it_is": "In this job, you’ll protect peoples’ lives and property on Army installations by enforcing military laws and regulations. You’ll also control traffic, prevent crime, and respond to all emergencies. \n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 91",
     "security_clearance": "Secret security clearance required, per multiple secondary sources (cogn-iq.org, operationmilitarykids.org). UNVERIFIED at primary-source level this session.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4475,7 +4475,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.31B.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4524,13 +4524,13 @@
     "law-enforcement-security"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be responsible for the care and training of a Military Working Dog, both at home and abroad, supporting missions and daily law enforcement.\u00a0\n",
+   "what_it_is": "In this job, you’ll be responsible for the care and training of a Military Working Dog, both at home and abroad, supporting missions and daily law enforcement. \n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 91",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4550,7 +4550,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.31K.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4590,7 +4590,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4610,7 +4610,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.92M.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4650,13 +4650,13 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll play an important part of the Army\u2019s transportation logistics team. You\u2019ll supervise and operate wheeled vehicles over all types of terrain to safely transport cargo, troops, and provide advanced mobility on all missions.\n",
+   "what_it_is": "In this job, you’ll play an important part of the Army’s transportation logistics team. You’ll supervise and operate wheeled vehicles over all types of terrain to safely transport cargo, troops, and provide advanced mobility on all missions.\n",
    "entry_requirements": {
     "asvab_line_score": "Operators & Food (OF): 85\n",
     "security_clearance": "Not confirmed as a standard requirement; not independently verified this session.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4676,7 +4676,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.88M.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4716,13 +4716,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll have the crucial job of maintaining and operating the entire multiple launch rocket system, launching various missiles and ammunition in quick strikes during missions to ensure battlefield success.\n",
+   "what_it_is": "In this job, you’ll have the crucial job of maintaining and operating the entire multiple launch rocket system, launching various missiles and ammunition in quick strikes during missions to ensure battlefield success.\n",
    "entry_requirements": {
     "asvab_line_score": "Operators & Food (OF): 95",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -4742,7 +4742,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.13M.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4787,13 +4787,13 @@
     "music-media"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll work as a professional musician, upholding a time-honored tradition of entertaining our Soldiers, performing in a variety of ensembles, and serving as a musical ambassador of our nation.\n",
+   "what_it_is": "In this job, you’ll work as a professional musician, upholding a time-honored tradition of entertaining our Soldiers, performing in a variety of ensembles, and serving as a musical ambassador of our nation.\n",
    "entry_requirements": {
     "asvab_line_score": "N/A (Audition Needed) ",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 34 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 34 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4818,7 +4818,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.42R.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4831,7 +4831,7 @@
     "estimated_civilian_salary_range_usd": null,
     "civilian_median_salary_usd": null,
     "salary_source": null,
-    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight \u2014 it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 4 related credentials you would still have to earn separately, including Music Therapist - Board Certified (MT-BC)."
+    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight — it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 4 related credentials you would still have to earn separately, including Music Therapist - Board Certified (MT-BC)."
    }
   },
   {
@@ -4844,13 +4844,13 @@
     "technology-cyber"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll supervise network management functions while helping troubleshoot and reengineer associated network assets. You\u2019ll also perform routine maintenance checks on assigned vehicles and equipment.\n",
+   "what_it_is": "In this job, you’ll supervise network management functions while helping troubleshoot and reengineer associated network assets. You’ll also perform routine maintenance checks on assigned vehicles and equipment.\n",
    "entry_requirements": {
     "asvab_line_score": null,
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -4870,7 +4870,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.25H.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4914,13 +4914,13 @@
     "healthcare-medical"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll provide healthy and nutritious diets for patients and medical nutrition therapy for military service members, their families, retirees, and veterans. You\u2019ll also teach wellness, nutrition, health, and good food choices.\n",
+   "what_it_is": "In this job, you'll provide healthy and nutritious diets for patients and medical nutrition therapy for military service members, their families, retirees, and veterans. You’ll also teach wellness, nutrition, health, and good food choices.\n",
    "entry_requirements": {
     "asvab_line_score": "Operators & Food (OF): 95",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4940,7 +4940,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68M.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4975,13 +4975,13 @@
     "healthcare-medical"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll work under a registered Occupational Therapist to supervise, test, and assist patients in performing daily life tasks after an illness or injury and help promote their day-to-day physical fitness.\u00a0\n",
+   "what_it_is": "In this job, you'll work under a registered Occupational Therapist to supervise, test, and assist patients in performing daily life tasks after an illness or injury and help promote their day-to-day physical fitness. \n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 101, General Technical (GT): 107",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -4996,7 +4996,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68L.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5036,7 +5036,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5056,7 +5056,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68D.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5097,7 +5097,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5117,7 +5117,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68H.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5157,7 +5157,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5177,7 +5177,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68B.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5214,13 +5214,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll ensure the safety of every paratrooper you work with. You\u2019ll inspect, test, and pack parachutes, their extraction and release systems, and all the associated components of the parachute system. \n",
+   "what_it_is": "In this job, you’ll ensure the safety of every paratrooper you work with. You’ll inspect, test, and pack parachutes, their extraction and release systems, and all the associated components of the parachute system. \n",
    "entry_requirements": {
     "asvab_line_score": "General Maintenance (GM): 88, Combat (CO): 87\n",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5240,7 +5240,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.92R.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5254,7 +5254,7 @@
     "estimated_civilian_salary_range_usd": null,
     "civilian_median_salary_usd": null,
     "salary_source": null,
-    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight \u2014 it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 19 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Associate Safety Professional (ASP)."
+    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight — it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 19 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Associate Safety Professional (ASP)."
    }
   },
   {
@@ -5267,13 +5267,13 @@
     "legal"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be an integral part of the U.S. Army\u2019s legal system. You\u2019ll provide important legal and administrative support, assist judges, lawyers, and unit commanders with legal matters and judicial work.\n",
+   "what_it_is": "In this job, you’ll be an integral part of the U.S. Army’s legal system. You’ll provide important legal and administrative support, assist judges, lawyers, and unit commanders with legal matters and judicial work.\n",
    "entry_requirements": {
     "asvab_line_score": "Clerical (CL): 105",
-    "security_clearance": "Secret security clearance required. The clearance investigation runs in parallel with enlistment processing and typically takes 2\u20136 months to complete (battalionduty.com, operationmilitarykids.org, cross-corroborated this session).",
+    "security_clearance": "Secret security clearance required. The clearance investigation runs in parallel with enlistment processing and typically takes 2–6 months to complete (battalionduty.com, operationmilitarykids.org, cross-corroborated this session).",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5293,7 +5293,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.27D.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5326,13 +5326,13 @@
     "healthcare-medical"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll be entrusted with serving the military community and their families and providing essential support to the clinical staff of a hospital. You\u2019ll perform administrative duties, manage records, and keep track of patient health.\n",
+   "what_it_is": "In this job, you'll be entrusted with serving the military community and their families and providing essential support to the clinical staff of a hospital. You’ll perform administrative duties, manage records, and keep track of patient health.\n",
    "entry_requirements": {
     "asvab_line_score": "Clerical (CL): 90",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5352,7 +5352,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68G.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5394,13 +5394,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be responsible for operating and maintaining the four major parts of the Patriot Fire Control system. You\u2019ll identify, track, and engage threats using one of the world\u2019s most advanced interceptor missile systems. \n",
+   "what_it_is": "In this job, you’ll be responsible for operating and maintaining the four major parts of the Patriot Fire Control system. You’ll identify, track, and engage threats using one of the world’s most advanced interceptor missile systems. \n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 92",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -5420,7 +5420,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.14E.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5462,13 +5462,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll operate and maintain the launching station for one of the world\u2019s most advanced missile systems called Patriot, you\u2019ll prepare the system for firing, and you\u2019ll perform crucial electronic diagnostic procedures.\n",
+   "what_it_is": "In this job, you’ll operate and maintain the launching station for one of the world’s most advanced missile systems called Patriot, you’ll prepare the system for firing, and you’ll perform crucial electronic diagnostic procedures.\n",
    "entry_requirements": {
     "asvab_line_score": "Operators & Food (OF): 87",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -5488,7 +5488,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.14T.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5532,13 +5532,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll become one of the most highly trained Soldiers in the world. You\u2019ll use your skills to perform field-level maintenance on one of the world\u2019s most advanced missile systems called Patriot.\n",
+   "what_it_is": "In this job, you’ll become one of the most highly trained Soldiers in the world. You’ll use your skills to perform field-level maintenance on one of the world’s most advanced missile systems called Patriot.\n",
    "entry_requirements": {
     "asvab_line_score": "Electronics (EL): 107",
     "security_clearance": "Secret",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5558,7 +5558,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.94S.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5600,13 +5600,13 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll supervise and conduct laboratory tests on petroleum, oil, and lubricant products to ensure fire prevention and safety control for our troops, to ensure they meet the Army\u2019s requirements, and our Soldiers can depend on them.\n",
+   "what_it_is": "In this job, you'll supervise and conduct laboratory tests on petroleum, oil, and lubricant products to ensure fire prevention and safety control for our troops, to ensure they meet the Army’s requirements, and our Soldiers can depend on them.\n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 91",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5626,7 +5626,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.92L.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5658,13 +5658,13 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll supply the Army with the fuel it needs to maintain a state of readiness at all times. You\u2019ll supervise and manage the reception, storage, and shipping of bulk or packaged petroleum-based products. \n",
+   "what_it_is": "In this job, you’ll supply the Army with the fuel it needs to maintain a state of readiness at all times. You’ll supervise and manage the reception, storage, and shipping of bulk or packaged petroleum-based products. \n",
    "entry_requirements": {
     "asvab_line_score": "Clerical (CL): 86, Operators & Food (OF): 85\n",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5684,7 +5684,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.92F.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5735,7 +5735,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5755,7 +5755,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68Q.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5798,7 +5798,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5818,7 +5818,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68F.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5857,13 +5857,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be crucial in keeping the Army operating smoothly by installing, repairing, and making construction plans for new pipe systems and insulation.  \n",
+   "what_it_is": "In this job, you’ll be crucial in keeping the Army operating smoothly by installing, repairing, and making construction plans for new pipe systems and insulation.  \n",
    "entry_requirements": {
     "asvab_line_score": "General Maintenance (GM): 88",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5883,7 +5883,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.12K.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5919,13 +5919,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll supply the power needed to run virtually every aspect of Army activity. You\u2019ll supervise and perform maintenance and repairs on power-generation equipment, internal combustion engines, and associated equipment. \n",
+   "what_it_is": "In this job, you’ll supply the power needed to run virtually every aspect of Army activity. You’ll supervise and perform maintenance and repairs on power-generation equipment, internal combustion engines, and associated equipment. \n",
    "entry_requirements": {
     "asvab_line_score": "General Maintenance (GM): 98 \nOR\nGeneral Maintenance (GM): 88, General Technical (GT): 88\n",
     "security_clearance": "Not typically required for the base MOS; generator/power support to command posts or sensitive sites may carry assignment-specific screening not independently confirmed this session.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -5945,7 +5945,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.91D.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5988,13 +5988,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll have the important responsibility of powering electricity to the Army. You\u2019ll build, install, and maintain electrical distribution systems that supply power for all operations.\n",
+   "what_it_is": "In this job, you'll have the important responsibility of powering electricity to the Army. You’ll build, install, and maintain electrical distribution systems that supply power for all operations.\n",
    "entry_requirements": {
     "asvab_line_score": "Electronics (EL): 93\n",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6014,7 +6014,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.12Q.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6054,7 +6054,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6074,7 +6074,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68C.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6117,7 +6117,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6137,7 +6137,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68S.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6175,13 +6175,13 @@
     "music-media"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be an expert at persuasion. You\u2019ll assess and develop the information needed to influence and engage specific audiences.\n",
+   "what_it_is": "In this job, you’ll be an expert at persuasion. You’ll assess and develop the information needed to influence and engage specific audiences.\n",
    "entry_requirements": {
     "asvab_line_score": "General Technical (GT): 107",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 34 Years Old \u00b7 High School Diploma or GED \u00b7 Eligible for a Top Secret Security Clearance \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 34 Years Old · High School Diploma or GED · Eligible for a Top Secret Security Clearance · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6251,7 +6251,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.37F.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6293,7 +6293,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6313,7 +6313,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.12G.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6351,13 +6351,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll use the latest technology to supervise or diagnose and perform repairs on chemical equipment, quartermaster machinery, forced air-heaters, and special purpose equipment to ensure that they are ready to support our troops.\n",
+   "what_it_is": "In this job, you’ll use the latest technology to supervise or diagnose and perform repairs on chemical equipment, quartermaster machinery, forced air-heaters, and special purpose equipment to ensure that they are ready to support our troops.\n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 92 \nOR\nMechanical Maintenance (MM): 87, General Technical (GT): 85",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6377,7 +6377,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.91J.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6428,7 +6428,7 @@
     "security_clearance": "Secret",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6448,7 +6448,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.94M.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6488,13 +6488,13 @@
     "technology-cyber"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll perform or supervise preventative maintenance checks and services on radios, transmitters, communication security equipment, and other associated equipment to ensure secure communication is always available.\n",
+   "what_it_is": "In this job, you’ll perform or supervise preventative maintenance checks and services on radios, transmitters, communication security equipment, and other associated equipment to ensure secure communication is always available.\n",
    "entry_requirements": {
     "asvab_line_score": "Electronics (EL): 102",
     "security_clearance": "Secret",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6514,7 +6514,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.94E.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6562,7 +6562,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6582,7 +6582,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68P.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6619,13 +6619,13 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll supervise the Army\u2019s rail network capabilities and help with safe transportation of important cargo. You\u2019ll oversee rail assets and planning while carrying out instructions received from signal towers or other trains.\n",
+   "what_it_is": "In this job, you’ll supervise the Army’s rail network capabilities and help with safe transportation of important cargo. You’ll oversee rail assets and planning while carrying out instructions received from signal towers or other trains.\n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 92",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6645,7 +6645,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.88U.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6686,13 +6686,13 @@
     "business-admin"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll have the rewarding responsibility of supporting the unit ministry and the Chaplains during missions and everyday activities. You\u2019ll assist in religious operations, circulate the unit ministry team, and ensure spiritual readiness.\n",
+   "what_it_is": "In this job, you’ll have the rewarding responsibility of supporting the unit ministry and the Chaplains during missions and everyday activities. You’ll assist in religious operations, circulate the unit ministry team, and ensure spiritual readiness.\n",
    "entry_requirements": {
     "asvab_line_score": "Clerical (CL): 90",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. Citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. Citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6712,7 +6712,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.56M.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6753,7 +6753,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6773,7 +6773,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68V.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6809,10 +6809,10 @@
    "what_it_is": "In this job, you'll be responsible for all technical aspects of satellite equipment installation, operations, configuration, and alignment to maintain timely and reliable communications to achieve victory in the field.\n",
    "entry_requirements": {
     "asvab_line_score": "Electronics (EL): 117",
-    "security_clearance": "Secret security clearance from the Department of Defense, including an in-depth background investigation of character and financial history; a documented history of alcohol or drug abuse can disqualify. This is the baseline MOS-qualifying requirement found in sourced material \u2014 it is Secret, not TS/SCI, for this specific MOS as documented; assignment to higher-echelon strategic SATCOM or missile-warning-adjacent units may carry higher clearance requirements in practice, but that was not independently confirmed this session.",
+    "security_clearance": "Secret security clearance from the Department of Defense, including an in-depth background investigation of character and financial history; a documented history of alcohol or drug abuse can disqualify. This is the baseline MOS-qualifying requirement found in sourced material — it is Secret, not TS/SCI, for this specific MOS as documented; assignment to higher-echelon strategic SATCOM or missile-warning-adjacent units may carry higher clearance requirements in practice, but that was not independently confirmed this session.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -6832,7 +6832,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.25S.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6876,13 +6876,13 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be responsible for establishing and performing personnel laundry and shower operations.\n",
+   "what_it_is": "In this job, you’ll be responsible for establishing and performing personnel laundry and shower operations.\n",
    "entry_requirements": {
     "asvab_line_score": "General Maintenance (GM): 84",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -6902,7 +6902,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.92S.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6937,13 +6937,13 @@
     "technology-cyber"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll maintain vital signal support systems and terminal devices; the equipment that needs to consistently work in order for commanders to stay informed, track, and direct the movement of their troops.\n",
+   "what_it_is": "In this job, you’ll maintain vital signal support systems and terminal devices; the equipment that needs to consistently work in order for commanders to stay informed, track, and direct the movement of their troops.\n",
    "entry_requirements": {
     "asvab_line_score": "Surveillance & Communications (SC): 95, Electronics (EL): 95",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -6963,7 +6963,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.25U.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7006,7 +7006,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7026,7 +7026,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.35S.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7063,13 +7063,13 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll examine and analyze foreign communications and activity to find intelligence, and you\u2019ll relay this critical information to senior leaders by producing strategic and tactical reports based on your analysis.\n",
+   "what_it_is": "In this job, you’ll examine and analyze foreign communications and activity to find intelligence, and you’ll relay this critical information to senior leaders by producing strategic and tactical reports based on your analysis.\n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 112",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7089,7 +7089,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.35N.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7126,13 +7126,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll perform maintenance and repairs and keep a wide array of weapons, from small arms to field artillery and large ballistic missiles operating properly.\n",
+   "what_it_is": "In this job, you’ll perform maintenance and repairs and keep a wide array of weapons, from small arms to field artillery and large ballistic missiles operating properly.\n",
    "entry_requirements": {
     "asvab_line_score": "General Maintenance (GM): 93 \nOR\nGeneral Maintenance (GM): 88, General Technical (GT): 85 ",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7152,7 +7152,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.91F.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7197,13 +7197,13 @@
     "music-media"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll perform in the U.S. Army Band, U.S. Army Field Band, U.S. Military Academy Band or the 3rd Infantry (The Old Guard) Fife and Drum Corps.\n",
+   "what_it_is": "In this job, you’ll perform in the U.S. Army Band, U.S. Army Field Band, U.S. Military Academy Band or the 3rd Infantry (The Old Guard) Fife and Drum Corps.\n",
    "entry_requirements": {
     "asvab_line_score": "N/A (Audition Needed) ",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 34 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 34 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7223,7 +7223,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.42S.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7236,7 +7236,7 @@
     "estimated_civilian_salary_range_usd": null,
     "civilian_median_salary_usd": null,
     "salary_source": null,
-    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight \u2014 it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 5 related credentials you would still have to earn separately, including Music Therapist - Board Certified (MT-BC)."
+    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight — it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 5 related credentials you would still have to earn separately, including Music Therapist - Board Certified (MT-BC)."
    }
   },
   {
@@ -7249,13 +7249,13 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be given the opportunity to become a member of one of the most highly skilled forces in the world.\n",
+   "what_it_is": "In this job, you’ll be given the opportunity to become a member of one of the most highly skilled forces in the world.\n",
    "entry_requirements": {
     "asvab_line_score": "General Technical (GT): 110, Combat (CO): 100",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Be 18 years old by ship date and not have turned 32 prior to leaving"
+    "other": "Be a U.S. citizen · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Be 18 years old by ship date and not have turned 32 prior to leaving"
    },
    "training_pipeline": [
     {
@@ -7275,7 +7275,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.18X.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7304,13 +7304,13 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll collect intelligence for special missions by employing conventional and unconventional warfare tactics and strategies and provide guidance to Army personnel. \n",
+   "what_it_is": "In this job, you’ll collect intelligence for special missions by employing conventional and unconventional warfare tactics and strategies and provide guidance to Army personnel. \n",
    "entry_requirements": {
     "asvab_line_score": "General Technical (GT): 110, Combat (CO): 105",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 34 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 34 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7330,7 +7330,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.18F.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7370,13 +7370,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll work as part of a team to maintain the Stryker vehicles and keep the vehicles and the operating systems running smoothly. You\u2019ll diagnose and troubleshoot malfunctions, and repair and replace components.\n",
+   "what_it_is": "In this job, you’ll work as part of a team to maintain the Stryker vehicles and keep the vehicles and the operating systems running smoothly. You’ll diagnose and troubleshoot malfunctions, and repair and replace components.\n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 87, General Technical (GT): 85 \nOR\nMechanical Maintenance (MM): 92",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7396,7 +7396,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.91S.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7439,13 +7439,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll oversee construction site planning and development. You\u2019ll gain experience conducting technical investigations, surveying land, drafting plans, and making maps as a member of the U.S. Army Corps of Engineers.\n",
+   "what_it_is": "In this job, you’ll oversee construction site planning and development. You’ll gain experience conducting technical investigations, surveying land, drafting plans, and making maps as a member of the U.S. Army Corps of Engineers.\n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 101",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7465,7 +7465,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.12T.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7513,7 +7513,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7533,7 +7533,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.94H.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7575,13 +7575,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll perform maintenance on tracked vehicles and supervise activities that include fuel and electrical system repair and maintenance.\n",
+   "what_it_is": "In this job, you’ll perform maintenance on tracked vehicles and supervise activities that include fuel and electrical system repair and maintenance.\n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 92 \nOR\nMechanical Maintenance (MM): 87, General Technical (GT): 85",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7601,7 +7601,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.91H.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7652,7 +7652,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7672,7 +7672,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.88N.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7714,13 +7714,13 @@
     "maritime-nautical"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll have the unique skills to conduct reconnaissance, demolition, and salvage underwater. You\u2019ll also assist with underwater construction and specialize in either scuba diving or deep-sea diving.\n",
+   "what_it_is": "In this job, you’ll have the unique skills to conduct reconnaissance, demolition, and salvage underwater. You’ll also assist with underwater construction and specialize in either scuba diving or deep-sea diving.\n",
    "entry_requirements": {
-    "asvab_line_score": "Skilled Technical (ST): 106 OR\u00a0General Maintenance (GM): 98, General Technical (GT): 107",
+    "asvab_line_score": "Skilled Technical (ST): 106 OR General Maintenance (GM): 98, General Technical (GT): 107",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7740,7 +7740,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.12D.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7785,10 +7785,10 @@
    "what_it_is": "In this job, you'll repair and maintain UH-60 (\"Black Hawk\") Helicopters.\n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 104",
-    "security_clearance": "UNVERIFIED \u2014 not independently confirmed this session. Aviation-maintenance MOSs commonly require at least a Secret clearance for flightline/technical-manual access at many duty stations, but a 15T-specific requirement was not sourced; confirm with a recruiter or the official goarmy.com 15T page.",
+    "security_clearance": "UNVERIFIED — not independently confirmed this session. Aviation-maintenance MOSs commonly require at least a Secret clearance for flightline/technical-manual access at many duty stations, but a 15T-specific requirement was not sourced; confirm with a recruiter or the official goarmy.com 15T page.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns \u00b7 Eligible for a Secret Security Clearance"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns · Eligible for a Secret Security Clearance"
    },
    "training_pipeline": [
     {
@@ -7808,7 +7808,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.15T.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7841,13 +7841,13 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be responsible for supervising and maintaining all Army supplies and equipment. You\u2019ll receive, inspect, inventory, load and unload, store, issue, and deliver all supplies and equipment. \n",
+   "what_it_is": "In this job, you’ll be responsible for supervising and maintaining all Army supplies and equipment. You’ll receive, inspect, inventory, load and unload, store, issue, and deliver all supplies and equipment. \n",
    "entry_requirements": {
     "asvab_line_score": "Clerical (CL): 90",
-    "security_clearance": "Not confirmed. Base-level unit supply duties do not universally require a clearance; some assignments (e.g., sensitive-item or classified-materiel accountability) may require Secret \u2014 not independently verified per-assignment this session.",
+    "security_clearance": "Not confirmed. Base-level unit supply duties do not universally require a clearance; some assignments (e.g., sensitive-item or classified-materiel accountability) may require Secret — not independently verified per-assignment this session.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7867,7 +7867,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.92Y.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7912,13 +7912,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll supervise and perform maintenance on vital utilities equipment and support systems such as air conditioners and refrigeration units, to make sure they are kept in top working condition.\n",
+   "what_it_is": "In this job, you’ll supervise and perform maintenance on vital utilities equipment and support systems such as air conditioners and refrigeration units, to make sure they are kept in top working condition.\n",
    "entry_requirements": {
     "asvab_line_score": "General Maintenance (GM): 98 \nOR\nGeneral Maintenance (GM): 88, General Technical (GT): 83",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7938,7 +7938,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.91C.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7957,7 +7957,7 @@
     "estimated_civilian_salary_range_usd": null,
     "civilian_median_salary_usd": null,
     "salary_source": null,
-    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight \u2014 it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 135 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Hazardous Materials Manager (CHMM), Certified Strength and Conditioning Specialist (CSCS)."
+    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight — it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 135 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Hazardous Materials Manager (CHMM), Certified Strength and Conditioning Specialist (CSCS)."
    }
   },
   {
@@ -7970,13 +7970,13 @@
     "healthcare-medical"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll be at the forefront of food safety and defense, using statistical sampling methods to ensure freshness, proper storage, and safety, not of animal food, but the food that you and your fellow soldiers will consume.\n",
+   "what_it_is": "In this job, you’ll be at the forefront of food safety and defense, using statistical sampling methods to ensure freshness, proper storage, and safety, not of animal food, but the food that you and your fellow soldiers will consume.\n",
    "entry_requirements": {
     "asvab_line_score": "Skilled Technical (ST): 95",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet qualifications to work in a medical setting \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet qualifications to work in a medical setting · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -7996,7 +7996,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.68R.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8037,7 +8037,7 @@
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -8057,7 +8057,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.46T.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8098,13 +8098,13 @@
     "music-media"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll supervise, plan and operate electronic and film-based still, video and audio equipment in order to document combat and noncombat operations. \n",
+   "what_it_is": "In this job, you’ll supervise, plan and operate electronic and film-based still, video and audio equipment in order to document combat and noncombat operations. \n",
    "entry_requirements": {
     "asvab_line_score": "ST 91 / EL 93",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -8124,7 +8124,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.46V.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8166,13 +8166,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you'll be responsible for supervising and installing water purification equipment and making sure clean water is stored and available anywhere it is needed. You\u2019ll perform water quality tests and inspect facilities and food supplies.\n",
+   "what_it_is": "In this job, you'll be responsible for supervising and installing water purification equipment and making sure clean water is stored and available anywhere it is needed. You’ll perform water quality tests and inspect facilities and food supplies.\n",
    "entry_requirements": {
     "asvab_line_score": "General Maintenance (GM): 88",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -8192,7 +8192,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.92W.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8222,13 +8222,13 @@
     "maritime-nautical"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll supervise or perform maintenance and repairs on Army watercraft and auxiliary equipment such as gasoline and diesel engines, propulsion machinery, and electrical systems in order to keep them running at all times. \n",
+   "what_it_is": "In this job, you’ll supervise or perform maintenance and repairs on Army watercraft and auxiliary equipment such as gasoline and diesel engines, propulsion machinery, and electrical systems in order to keep them running at all times. \n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 99",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -8248,7 +8248,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.88L.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8287,13 +8287,13 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "In this job, you\u2019ll supervise and perform maintenance, repair, and recovery operations on wheeled vehicles and select armored vehicles that serve the Army in a variety of mission-critical roles. \n",
+   "what_it_is": "In this job, you’ll supervise and perform maintenance, repair, and recovery operations on wheeled vehicles and select armored vehicles that serve the Army in a variety of mission-critical roles. \n",
    "entry_requirements": {
     "asvab_line_score": "Mechanical Maintenance (MM): 92 \nOR\nMechanical Maintenance (MM): 87, General Technical (GT): 85\n",
     "security_clearance": "Not typically required.",
     "education": "High school diploma or GED",
     "physical": null,
-    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  \u00b7 17 to 42 Years Old \u00b7 High School Diploma or GED \u00b7 Meet Tattoo Guidelines \u00b7 No Major Law Violations \u00b7 No Medical Concerns"
+    "other": "Be a U.S. citizen or permanent resident with a valid Green Card  · 17 to 42 Years Old · High School Diploma or GED · Meet Tattoo Guidelines · No Major Law Violations · No Medical Concerns"
    },
    "training_pipeline": [
     {
@@ -8313,7 +8313,7 @@
    },
    "sources": [
     "https://www.goarmy.com/bin/aemservlet/cmtjobs.en.91B.json (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {

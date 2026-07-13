@@ -43,7 +43,7 @@ export default function Home() {
 
           <div className="tldr">
             <div>
-              <strong>The ASVAB gates you twice</strong>
+              <strong>The ASVAB decides two separate things</strong>
               Your AFQT percentile decides <em>whether</em> you can enlist. Separate
               line scores decide <em>which job</em> you can hold. A high AFQT alone
               never guarantees a specialty.

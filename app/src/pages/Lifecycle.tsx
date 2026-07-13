@@ -142,7 +142,7 @@ export default function Lifecycle() {
           <p>{s(skillbridge?.description)}</p>
           <Note tone="warn">
             <div>
-              <b>The real gate.</b> {s(skillbridge?.approval_reality)}
+              <b>The catch nobody mentions.</b> {s(skillbridge?.approval_reality)}
             </div>
           </Note>
         </div>

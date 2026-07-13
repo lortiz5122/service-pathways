@@ -1,7 +1,7 @@
 {
  "branch": "Coast Guard",
  "retrieved": "2026-07-12",
- "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded \u2014 it is a function of paygrade, not of the job.",
+ "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded — it is a function of paygrade, not of the job.",
  "specialties": [
   {
    "id": "coast-guard-amt-aviation-maintenance-technician",
@@ -14,9 +14,9 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "Aircrew duty is common \u2014 AMTs frequently fly as flight mechanics.",
+   "what_it_is": "Aircrew duty is common — AMTs frequently fly as flight mechanics.",
    "entry_requirements": {
-    "asvab_line_score": "UNVERIFIED \u2014 the Coast Guard has NO line-score composites; each rating sums raw subtest standard scores. The AMT requirement is published in Enclosure 3 of COMDTINST M1510.10, which is not publicly fetchable. AFQT minimum to enlist is 32.",
+    "asvab_line_score": "UNVERIFIED — the Coast Guard has NO line-score composites; each rating sums raw subtest standard scores. The AMT requirement is published in Enclosure 3 of COMDTINST M1510.10, which is not publicly fetchable. AFQT minimum to enlist is 32.",
     "security_clearance": "Secret (UNVERIFIED for this specific rating).",
     "education": "High school diploma or GED",
     "physical": null,
@@ -42,7 +42,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -88,7 +88,7 @@
    "depth": "deep",
    "what_it_is": "ASTs are the Coast Guard's rescue swimmers. They also provide emergency medical support and maintain survival equipment.",
    "entry_requirements": {
-    "asvab_line_score": "UNVERIFIED \u2014 no Coast Guard line scores; the rating requirement is in COMDTINST M1510.10 Enclosure 3, not publicly fetchable. AFQT minimum to enlist is 32.",
+    "asvab_line_score": "UNVERIFIED — no Coast Guard line scores; the rating requirement is in COMDTINST M1510.10 Enclosure 3, not publicly fetchable. AFQT minimum to enlist is 32.",
     "security_clearance": "Secret (UNVERIFIED).",
     "education": "High school diploma or GED",
     "physical": null,
@@ -126,7 +126,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -166,7 +166,7 @@
    "depth": "deep",
    "what_it_is": "Aircrew duty is common.",
    "entry_requirements": {
-    "asvab_line_score": "UNVERIFIED \u2014 no Coast Guard line scores; requirement is in COMDTINST M1510.10 Enclosure 3. AFQT minimum to enlist is 32. Expect a high electronics-subtest requirement.",
+    "asvab_line_score": "UNVERIFIED — no Coast Guard line scores; requirement is in COMDTINST M1510.10 Enclosure 3. AFQT minimum to enlist is 32. Expect a high electronics-subtest requirement.",
     "security_clearance": "Secret (UNVERIFIED).",
     "education": "High school diploma or GED",
     "physical": null,
@@ -192,7 +192,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -239,7 +239,7 @@
    "depth": "deep",
    "what_it_is": null,
    "entry_requirements": {
-    "asvab_line_score": "Coast Guard has no line-score system \u2014 ratings sum raw ASVAB subtest standard scores (per data/interest-taxonomy.json: 'USCG: no line score \u2014 per-rating subtest sums'). One secondary source (study.com, searched 2026-07-12) reports BM A-School requires AR+VE \u2265 100 with no separate minimum on any individual subtest. UNVERIFIED at primary-source level \u2014 not independently confirmed via a direct fetch of an official uscg.mil/gocoastguard.com rating-requirements page this session. The Coast Guard's general enlistment floor is an AFQT of 32 (50+ for GED holders), per a different secondary source in the same search; this is the enlistment gate, not the BM-specific rating gate. Do NOT invent a named composite \u2014 Coast Guard, like Navy, uses raw subtest sums per rating, not a composite name.",
+    "asvab_line_score": "Coast Guard has no line-score system — ratings sum raw ASVAB subtest standard scores (per data/interest-taxonomy.json: 'USCG: no line score — per-rating subtest sums'). One secondary source (study.com, searched 2026-07-12) reports BM A-School requires AR+VE ≥ 100 with no separate minimum on any individual subtest. UNVERIFIED at primary-source level — not independently confirmed via a direct fetch of an official uscg.mil/gocoastguard.com rating-requirements page this session. The Coast Guard's general enlistment floor is an AFQT of 32 (50+ for GED holders), per a different secondary source in the same search; this is the enlistment requirement, not the BM-specific rating requirement. Do NOT invent a named composite — Coast Guard, like Navy, uses raw subtest sums per rating, not a composite name.",
     "security_clearance": "Not typically required for the general rating; law-enforcement/homeland-security-adjacent boat-crew duties (e.g., maritime law enforcement boardings) may carry additional screening, not independently confirmed to primary-source level this session.",
     "education": "High school diploma or GED",
     "physical": null,
@@ -265,7 +265,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -311,9 +311,9 @@
     "culinary"
    ],
    "depth": "deep",
-   "what_it_is": "NAMING NOTE: The Coast Guard renamed this rating from 'Food Service Specialist (FS)' to 'Culinary Specialist (CS)' on 2017-01-06, to better reflect the culinary skill level involved (per Wikipedia summary of official Coast Guard messaging, cross-referenced against gocoastguard.com/careers/enlisted/cs which uses 'CS' and 'Culinary Specialist' throughout). data/interest-taxonomy.json still lists this rating as 'FS \u2014 Food Service Specialist,' which is the pre-2017 name; recommend the taxonomy file be updated to 'CS \u2014 Culinary Specialist' in a future pass. Flagged here rather than silently corrected.",
+   "what_it_is": "NAMING NOTE: The Coast Guard renamed this rating from 'Food Service Specialist (FS)' to 'Culinary Specialist (CS)' on 2017-01-06, to better reflect the culinary skill level involved (per Wikipedia summary of official Coast Guard messaging, cross-referenced against gocoastguard.com/careers/enlisted/cs which uses 'CS' and 'Culinary Specialist' throughout). data/interest-taxonomy.json still lists this rating as 'FS — Food Service Specialist,' which is the pre-2017 name; recommend the taxonomy file be updated to 'CS — Culinary Specialist' in a future pass. Flagged here rather than silently corrected.",
    "entry_requirements": {
-    "asvab_line_score": "UNVERIFIED \u2014 no rating-specific composite score located this session. Coast Guard uses summed raw subtest scores per rating (like the Navy) rather than a single published line score, consistent with data/interest-taxonomy.json's 'no line score \u2014 per-rating subtest sums' note for this cluster. The general Coast Guard AFQT floor is 32 with a high school diploma (50 with a GED), lowered from 40 in November 2023, but this is the general accession floor, not a CS-specific rating cutoff. Confirm the current CS-specific subtest requirement with a recruiter.",
+    "asvab_line_score": "UNVERIFIED — no rating-specific composite score located this session. Coast Guard uses summed raw subtest scores per rating (like the Navy) rather than a single published line score, consistent with data/interest-taxonomy.json's 'no line score — per-rating subtest sums' note for this cluster. The general Coast Guard AFQT floor is 32 with a high school diploma (50 with a GED), lowered from 40 in November 2023, but this is the general accession floor, not a CS-specific rating cutoff. Confirm the current CS-specific subtest requirement with a recruiter.",
     "security_clearance": "Not typically required.",
     "education": "High school diploma or GED",
     "physical": null,
@@ -339,7 +339,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -402,7 +402,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "nalysis Risk identification Training You'll Get CMSs attend the Navy\u2019s",
+     "stage": "nalysis Risk identification Training You'll Get CMSs attend the Navy’s",
      "location": null,
      "length_weeks": 27,
      "source": "https://www.gocoastguard.com/careers/enlisted/cms"
@@ -414,7 +414,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -434,7 +434,7 @@
     "estimated_civilian_salary_range_usd": null,
     "civilian_median_salary_usd": null,
     "salary_source": null,
-    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight \u2014 it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 138 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, Certified Information Systems Security Professional (CISSP)."
+    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight — it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 138 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, Certified Information Systems Security Professional (CISSP)."
    }
   },
   {
@@ -449,7 +449,7 @@
    "depth": "deep",
    "what_it_is": null,
    "entry_requirements": {
-    "asvab_line_score": "VE+AR+MK+MC = 156 (Verbal Expression + Arithmetic Reasoning + Mathematics Knowledge + Mechanical Comprehension), per asvabtestbank.com/ratemyasvab.com. UNVERIFIED at primary-source level \u2014 confirm with a recruiter or Coast Guard COOL.",
+    "asvab_line_score": "VE+AR+MK+MC = 156 (Verbal Expression + Arithmetic Reasoning + Mathematics Knowledge + Mechanical Comprehension), per asvabtestbank.com/ratemyasvab.com. UNVERIFIED at primary-source level — confirm with a recruiter or Coast Guard COOL.",
     "security_clearance": "Not typically required.",
     "education": "High school diploma or GED",
     "physical": null,
@@ -475,7 +475,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -539,7 +539,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -601,7 +601,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -679,7 +679,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -757,7 +757,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -800,9 +800,9 @@
     "healthcare-medical"
    ],
    "depth": "deep",
-   "what_it_is": "Independent Duty Health Services Technician (IDHS) follow-on qualification requires operating with minimal on-site physician oversight aboard cutters/at remote stations \u2014 this is a real operational responsibility bar but was not independently sourced to a specific additional entry criterion this session.",
+   "what_it_is": "Independent Duty Health Services Technician (IDHS) follow-on qualification requires operating with minimal on-site physician oversight aboard cutters/at remote stations — this is a real operational responsibility bar but was not independently sourced to a specific additional entry criterion this session.",
    "entry_requirements": {
-    "asvab_line_score": "UNVERIFIED \u2014 no specific HS-rating ASVAB line-score requirement was found in any search result this session (multiple sources checked, none stated a numeric HS-specific composite). Only the Coast Guard-wide AFQT floor of 40 (the highest minimum AFQT of any branch) was confirmed. Verify the HS-specific line score at gocoastguard.com/careers/enlisted/hs or with a recruiter before publishing.",
+    "asvab_line_score": "UNVERIFIED — no specific HS-rating ASVAB line-score requirement was found in any search result this session (multiple sources checked, none stated a numeric HS-specific composite). Only the Coast Guard-wide AFQT floor of 40 (the highest minimum AFQT of any branch) was confirmed. Verify the HS-specific line score at gocoastguard.com/careers/enlisted/hs or with a recruiter before publishing.",
     "security_clearance": null,
     "education": "High school diploma or GED",
     "physical": null,
@@ -828,7 +828,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -881,7 +881,7 @@
    "what_it_is": "U.S. citizenship required. The Coast Guard is a Department of Homeland Security component, not DoD - administrative and benefit specifics can differ from the other five branches even where dollar figures happen to align.",
    "entry_requirements": {
     "asvab_line_score": "AR + MK + EI + GS >= 171 (Arithmetic Reasoning + Mathematics Knowledge + Electronics Information + General Science subtest sum). The Coast Guard has no named 'line score' composite system, consistent with data/interest-taxonomy.json's note. Search-sourced (ratemyasvab.com, operationmilitarykids.org); not independently fetched to primary-source (uscg.mil) confidence this session.",
-    "security_clearance": "Not independently confirmed to a specific tier this session. The rating description ('system administrator for unclassified and classified systems') implies at least a Secret clearance is required for many IT billets - flagged as inference, not a directly sourced clearance-level statement. Whatever tier applies, clearance eligibility is a hard gate independent of ASVAB score: per SEAD 4 (the government-wide National Security Adjudicative Guidelines, applied DHS-wide including the Coast Guard), common disqualifiers include foreign influence/preference (close foreign-national contacts, dual citizenship, foreign-government ties), financial considerations (unresolved delinquent debt, bankruptcy pattern, tax delinquency), and drug involvement/substance misuse (recent illegal drug use or a pattern of misuse) - a qualifying aptitude score does not offset a disqualifying finding under these guidelines.",
+    "security_clearance": "Not independently confirmed to a specific tier this session. The rating description ('system administrator for unclassified and classified systems') implies at least a Secret clearance is required for many IT billets - flagged as inference, not a directly sourced clearance-level statement. Whatever tier applies, clearance eligibility is a hard requirement independent of ASVAB score: per SEAD 4 (the government-wide National Security Adjudicative Guidelines, applied DHS-wide including the Coast Guard), common disqualifiers include foreign influence/preference (close foreign-national contacts, dual citizenship, foreign-government ties), financial considerations (unresolved delinquent debt, bankruptcy pattern, tax delinquency), and drug involvement/substance misuse (recent illegal drug use or a pattern of misuse) - a qualifying aptitude score does not offset a disqualifying finding under these guidelines.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -906,7 +906,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -956,7 +956,7 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "Under DoD's 13 Adjudicative Guidelines (Security Executive Agent Directive 4 / 32 CFR Part 147), none of the following are automatic mechanical disqualifiers under the 'whole person' standard, but they are the dominant real-world reasons applicants and incumbents are denied or lose eligibility, and each can rule out this specialty even with a fully qualifying ASVAB score: (1) unresolved foreign contacts, foreign relatives in certain countries, foreign property/financial interests, or foreign romantic ties that create potential foreign leverage (Guideline B, Foreign Influence); (2) a pattern of serious financial delinquency -- unresolved debt (especially over $10,000), recent bankruptcy, wage garnishment, or repeated late payment patterns (Guideline F; financial issues are cited as roughly 45% of DoD clearance denials); (3) illegal drug use, misuse of prescription medication, or continued use after applying (Guideline H); and (4), treated especially seriously, deliberately concealing or falsifying any of the above -- including an UNREPORTED dual citizenship or undisclosed foreign contact -- during the application or investigation (Guideline E, Personal Conduct). A 16-24-year-old considering this cluster should treat clearance eligibility as a real, independent gate, not a formality layered on top of a qualifying ASVAB score.",
+   "what_it_is": "Under DoD's 13 Adjudicative Guidelines (Security Executive Agent Directive 4 / 32 CFR Part 147), none of the following are automatic mechanical disqualifiers under the 'whole person' standard, but they are the dominant real-world reasons applicants and incumbents are denied or lose eligibility, and each can rule out this specialty even with a fully qualifying ASVAB score: (1) unresolved foreign contacts, foreign relatives in certain countries, foreign property/financial interests, or foreign romantic ties that create potential foreign leverage (Guideline B, Foreign Influence); (2) a pattern of serious financial delinquency -- unresolved debt (especially over $10,000), recent bankruptcy, wage garnishment, or repeated late payment patterns (Guideline F; financial issues are cited as roughly 45% of DoD clearance denials); (3) illegal drug use, misuse of prescription medication, or continued use after applying (Guideline H); and (4), treated especially seriously, deliberately concealing or falsifying any of the above -- including an UNREPORTED dual citizenship or undisclosed foreign contact -- during the application or investigation (Guideline E, Personal Conduct). A 16-24-year-old considering this cluster should treat clearance eligibility as a real, independent requirement, not a formality layered on top of a qualifying ASVAB score.",
    "entry_requirements": {
     "asvab_line_score": "UNVERIFIED at the rating-specific line-score level. The Coast Guard's general enlistment AFQT minimum is 40 -- the highest floor of any branch (per search results this session and data/branch-profiles.json) -- but a rating-specific IS line-score/composite requirement was not located this session; gocoastguard.com/careers/enlisted/is was fetched directly this session and did not surface a specific numeric requirement in the fetched content.",
     "security_clearance": "UNVERIFIED at the specific-tier level (Secret vs. TS/SCI) this session. The IS rating page fetched this session describes the role as requiring personnel who are 'comfortable keeping secrets' and whose training includes 'protecting classified information,' consistent with this cluster's pattern across every other branch (TS/SCI, SSBI-adjudicated), but the fetched page did not state an explicit clearance tier -- treat TS/SCI as the working assumption pending direct recruiter confirmation.",
@@ -984,7 +984,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1024,7 +1024,7 @@
    "depth": "deep",
    "what_it_is": null,
    "entry_requirements": {
-    "asvab_line_score": "UNVERIFIED \u2014 this session did not locate a specific MK ASVAB subtest-sum requirement. The general Coast Guard AFQT floor (32 with a high school diploma) was independently confirmed in this project's prior EDU-BENEFITS/culinary research passes, but a rating-specific MK composite was not found this session \u2014 confirm with a recruiter or the Coast Guard COOL MK overview page directly.",
+    "asvab_line_score": "UNVERIFIED — this session did not locate a specific MK ASVAB subtest-sum requirement. The general Coast Guard AFQT floor (32 with a high school diploma) was independently confirmed in this project's prior EDU-BENEFITS/culinary research passes, but a rating-specific MK composite was not found this session — confirm with a recruiter or the Coast Guard COOL MK overview page directly.",
     "security_clearance": "Not typically required for the base rating.",
     "education": "High school diploma or GED",
     "physical": null,
@@ -1050,7 +1050,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1125,7 +1125,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1161,8 +1161,8 @@
    "depth": "deep",
    "what_it_is": "Valid state driver's license required, plus a minimum 24 months of obligated service remaining from the date of ME 'A' School graduation, per forcecom.uscg.mil.",
    "entry_requirements": {
-    "asvab_line_score": "No ME-specific ASVAB subtest requirement was located this session; only the general Coast Guard AFQT floor (reported as 32 with a diploma, per data/branch-profiles.json's general_eligibility.education note) applies as the general accession gate. UNVERIFIED at the rating-specific level.",
-    "security_clearance": "Background investigation/security clearance required; no conviction for domestic violence and no restraining order that would prohibit firearm possession \u2014 a specific ME eligibility gate, since MEs must be armed to perform the rating's core boarding-officer duties (per gocoastguard.com).",
+    "asvab_line_score": "No ME-specific ASVAB subtest requirement was located this session; only the general Coast Guard AFQT floor (reported as 32 with a diploma, per data/branch-profiles.json's general_eligibility.education note) applies as the general accession requirement. UNVERIFIED at the rating-specific level.",
+    "security_clearance": "Background investigation/security clearance required; no conviction for domestic violence and no restraining order that would prohibit firearm possession — a specific ME eligibility requirement, since MEs must be armed to perform the rating's core boarding-officer duties (per gocoastguard.com).",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -1187,7 +1187,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1235,8 +1235,8 @@
    "depth": "deep",
    "what_it_is": null,
    "entry_requirements": {
-    "asvab_line_score": "Coast Guard has no line-score system \u2014 ratings sum raw ASVAB subtest standard scores (per data/interest-taxonomy.json). No specific OS subtest-sum threshold was found or confirmed this session (search returned only general Coast Guard enlistment-floor information, not an OS-specific figure). UNVERIFIED \u2014 do NOT infer a number; confirm current OS requirements directly with a Coast Guard recruiter or gocoastguard.com. Qualitative requirement reported by the official career page: a good working knowledge of arithmetic, ability to work with modern computing/display equipment, strong communication skills, and good manual dexterity. Must be a U.S. citizen and able to meet all security clearance requirements.",
-    "security_clearance": "Required \u2014 OS candidates must be U.S. citizens and able to meet all security clearance requirements, per the official career description (gocoastguard.com/careers/enlisted/os, searched 2026-07-12), since the rating handles classified tactical and operational information.",
+    "asvab_line_score": "Coast Guard has no line-score system — ratings sum raw ASVAB subtest standard scores (per data/interest-taxonomy.json). No specific OS subtest-sum threshold was found or confirmed this session (search returned only general Coast Guard enlistment-floor information, not an OS-specific figure). UNVERIFIED — do NOT infer a number; confirm current OS requirements directly with a Coast Guard recruiter or gocoastguard.com. Qualitative requirement reported by the official career page: a good working knowledge of arithmetic, ability to work with modern computing/display equipment, strong communication skills, and good manual dexterity. Must be a U.S. citizen and able to meet all security clearance requirements.",
+    "security_clearance": "Required — OS candidates must be U.S. citizens and able to meet all security clearance requirements, per the official career description (gocoastguard.com/careers/enlisted/os, searched 2026-07-12), since the rating handles classified tactical and operational information.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -1261,7 +1261,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1321,7 +1321,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1365,7 +1365,7 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "As DHS (not DoD) personnel, Coast Guard members' benefits administration and trademark statute (14 U.S.C. \u00a7934) differ in some respects from the five DoD branches \u2014 noted per this project's master prompt, not independently re-verified per-SK-billet this session.",
+   "what_it_is": "As DHS (not DoD) personnel, Coast Guard members' benefits administration and trademark statute (14 U.S.C. §934) differ in some respects from the five DoD branches — noted per this project's master prompt, not independently re-verified per-SK-billet this session.",
    "entry_requirements": {
     "asvab_line_score": "VE+AR (Verbal Expression + Arithmetic Reasoning) combined score of 105 minimum, per the official U.S. Coast Guard ASVAB/AFCT Process Guide (uscg.mil, PDF).",
     "security_clearance": "Not confirmed as a blanket requirement; not independently verified this session.",
@@ -1393,7 +1393,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1443,9 +1443,9 @@
     "business-admin"
    ],
    "depth": "deep",
-   "what_it_is": "YN can also be 'struck' \u2014 earned via on-the-job qualification at the first duty station without attending the resident Class A school \u2014 or completed via distance learning, per forcecom.uscg.mil and gocoastguard.com (retrieved 2026-07-12). This is an accession path distinct from the other branches' admin ratings researched in this file.",
+   "what_it_is": "YN can also be 'struck' — earned via on-the-job qualification at the first duty station without attending the resident Class A school — or completed via distance learning, per forcecom.uscg.mil and gocoastguard.com (retrieved 2026-07-12). This is an accession path distinct from the other branches' admin ratings researched in this file.",
    "entry_requirements": {
-    "asvab_line_score": "VE+AR \u2265105 per this session's search (asvabusa.org and corroborating sources, retrieved 2026-07-12), consistent with data/interest-taxonomy.json's 'no line score \u2014 per-rating subtest sums' Coast Guard structure. UNVERIFIED at primary-source level \u2014 gocoastguard.com's official YN page did not surface a numeric cutoff in this session's search-based review.",
+    "asvab_line_score": "VE+AR ≥105 per this session's search (asvabusa.org and corroborating sources, retrieved 2026-07-12), consistent with data/interest-taxonomy.json's 'no line score — per-rating subtest sums' Coast Guard structure. UNVERIFIED at primary-source level — gocoastguard.com's official YN page did not surface a numeric cutoff in this session's search-based review.",
     "security_clearance": "Not typically required for general YN duty; UNVERIFIED whether legal-specialty-trained YNs supporting Coast Guard Judge Advocates (per data/interest-taxonomy.json's legal-cluster note on Coast Guard YNs) carry an elevated requirement.",
     "education": "High school diploma or GED",
     "physical": null,
@@ -1471,7 +1471,7 @@
    },
    "sources": [
     "gocoastguard.com rating page (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {

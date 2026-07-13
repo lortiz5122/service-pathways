@@ -39,7 +39,7 @@ export const BRANCHES: Branch[] = [
     primary: '#111111',
     accent: '#FFD700',
     onPrimary: '#FFFFFF',
-    tagline: 'Largest force; 10 ASVAB composites gate the widest MOS catalog.',
+    tagline: 'Largest force; 10 ASVAB composites decide who gets which of the widest job catalogue in the military.',
     afqtTier1: '31',
     afqtTier2: '50',
     afqtNote:
@@ -73,7 +73,7 @@ export const BRANCHES: Branch[] = [
     primary: '#AF1E2D',
     accent: '#C8A951',
     onPrimary: '#FFFFFF',
-    tagline: 'Two separate 300-point tests a year; GT gates combat MOSs.',
+    tagline: 'Two separate 300-point tests a year; your GT score decides whether you can hold a combat MOS.',
     afqtTier1: '31',
     afqtTier2: '50',
     afqtNote:
@@ -199,7 +199,7 @@ export function afqtCategory(score: number) {
 export const COMPOSITE_SYSTEMS = [
   {
     branch: 'Army',
-    body: '10 composites: GT (General Technical = VE+AR), CL, EL, MM, GM, FA, OF, SC, ST (Skilled Technical), CO. GT gates intelligence, Special Forces selection and officer programs.',
+    body: '10 composites: GT (General Technical = VE+AR), CL, EL, MM, GM, FA, OF, SC, ST (Skilled Technical), CO. Your GT score is what decides whether you can go into intelligence, try out for Special Forces, or apply for officer programs.',
     examples: [
       '35F Intelligence Analyst needs ST 101',
       '25S SATCOM Operator needs EL 117',
@@ -217,7 +217,7 @@ export const COMPOSITE_SYSTEMS = [
   {
     branch: 'Marine Corps',
     body: 'Three composites: GT (VE+AR), EL (GS+AR+MK+EI), MM (GS+AS+MK+EI).',
-    examples: ['GT still gates infantry and combat MOSs'],
+    examples: ['Your GT score still decides whether you can hold an infantry or combat MOS'],
   },
   {
     branch: 'Navy & Coast Guard',
@@ -690,7 +690,7 @@ export const PRIOR_SERVICE_ROUTES = [
 
 export const PRIOR_SERVICE_NOTES = [
   {
-    label: 'Re-entry gates',
+    label: 'What decides if you can come back',
     body: 'Your RE (reenlistment) code and discharge characterization govern eligibility. RE-1 plus Honorable is cleanest. Less-than-honorable discharges typically require waivers and command clearance.',
   },
   {

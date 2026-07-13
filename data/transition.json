@@ -1,165 +1,275 @@
 {
-  "command": "TRANSITION",
-  "retrieved_date": "2026-07-12",
-  "skillbridge": {
-    "description": "DoD SkillBridge is a Dept. of War civilian-workforce internship/training program conducted during a service member's final window on active duty. Approved participants work with an approved industry partner (apprenticeship, internship, job-shadowing, or training program) while continuing to receive full military pay and benefits — the employer does not pay the service member during this period.",
-    "eligibility": "Open to active-duty service members nearing separation or retirement who meet their service's specific SkillBridge policy (commonly framed as having served enough time remaining on contract to complete a program without a service break, and being within the qualifying pre-separation window). Program participation itself is capped at up to 180 days and must occur during the service member's final 180 days on active duty, per DoDI 1322.29. Exact per-service eligibility thresholds (time-in-service floors, rank restrictions) vary by branch and were not independently re-verified per branch in this pass.",
-    "max_days": 180,
-    "approval_reality": "unit commander must approve — this is the real gate. Per militaryonesource.mil (official DoD resource, fetched 2026-07-12): participation is 'up to 180 days of permissive duty with approval from their unit commander.' A secondary synthesis of skillbridge.mil/faq (not independently confirmed by direct fetch — that fetch failed on a TLS certificate error) describes approval authority as resting with the first field-grade commander (typically O-4 or above) in the service member's chain of command who holds non-judicial (Article 15) punishment authority, and states such commanders 'may approve or disapprove participation... based upon unit mission requirements.' In practice this means SkillBridge is discretionary, not an entitlement: a commander can deny it if the unit's staffing or operational tempo doesn't support losing the service member to permissive duty, even when the service member is otherwise eligible on paper.",
-    "source": "https://www.militaryonesource.mil/resources/gov/dod-skillbridge/ (confirmed by direct fetch); https://www.skillbridge.mil/faq (approval-authority detail via search synthesis, direct fetch failed)",
-    "retrieved_date": "2026-07-12"
-  },
-  "tap": {
-    "description": "The Transition Assistance Program (TAP) is the mandatory DoD-wide pre-separation curriculum covering benefits, employment preparation, education, and entrepreneurship, designed to certify that a departing service member meets Career Readiness Standards (CRS) before separating.",
-    "mandatory": true,
-    "timing": "Mandatory for all active-duty service members (and Guard/Reserve members with 180+ continuous days on active duty) who are separating or retiring. Must begin no later than 365 days before separation (12 months) — service members who cannot meet this window are required to begin as soon as possible within their remaining time. Recommended/voluntary earlier start: as early as the beginning of the terminal assignment; some DoD guidance references beginning roughly 12 months before separation or 24 months before retirement as the ideal, not the mandatory floor.",
-    "components": [
-      "Individualized Initial Counseling (IC) — starts the process, ideally as early as possible",
-      "Pre-Separation Counseling — mandatory needs assessment and benefits overview",
-      "MOC (Military Occupational Crosswalk) self-assessment",
-      "VA Benefits and Services course (VA Benefits I) — one-day, in-person",
-      "DOL Employment Fundamentals of Career Transition (EFCT) workshop — Dept. of Labor employment/resume/interview training",
-      "Optional 2-day tracks (choose based on post-service goal): Higher Education, Career/Technical Training (Vo-Tech), Entrepreneurship (Boots to Business)",
-      "Capstone — final review confirming Career Readiness Standards are met; required before separation"
-    ],
-    "source": "https://www.tapevents.mil/ ; https://benefits.va.gov/TRANSITION/tap.asp ; https://www.tapevents.mil/Assets/ResourceContent/TAP/DoD_MLG_Resource_Guide.pdf",
-    "retrieved_date": "2026-07-12"
-  },
-  "dd214": {
-    "significance": "The DD-214 (Certificate of Release or Discharge from Active Duty) is arguably the single most important document a veteran holds because nearly every downstream benefit — federal or state, VA or civilian-employer — is verified against it. Block 24, the 'character of service' line, is the single most consequential entry on the form: it can read Honorable, General (Under Honorable Conditions), Other Than Honorable, Bad Conduct Discharge, or Dishonorable, and that characterization gates eligibility for most benefits listed below before any other criterion is even considered. Losing the original does not lose the benefit — certified copies are obtainable for life through the National Archives.",
-    "what_it_governs": [
-      "VA disability compensation claim eligibility",
-      "VA healthcare enrollment and priority group assignment",
-      "GI Bill and other VA education-benefit eligibility",
-      "VA home loan Certificate of Eligibility (COE)",
-      "Federal employment veterans' hiring preference",
-      "State-level veteran benefits (property tax exemptions, tuition waivers, license plates, hiring preference — varies by state)",
-      "Burial and memorial benefits (national cemetery eligibility, headstone/marker)",
-      "Civilian employer verification of service history and MOS/rating"
-    ],
-    "source": "https://www.archives.gov/personnel-records-center/dd-214 ; https://www.military.com/benefits/records-and-forms/dd214.html",
-    "retrieved_date": "2026-07-12"
-  },
-  "va_disability": {
-    "how_ratings_work": "VA rates each service-connected condition from 0% to 100% in 10% increments based on severity. Multiple ratings are NOT added arithmetically. VA applies a combined-ratings table (informally 'VA math'): the largest rating is applied first, and each subsequent condition is rated against the veteran's remaining non-disabled percentage, then the result is rounded to the nearest 10%. Example (per va.gov, retrieved 2026-07-12): a 50% rating combined with a 30% rating yields a combined value of 65, which rounds to a 70% combined disability rating — not 80%.",
-    "specialty_linked_common_claims": [
-      {
-        "specialty_family": "Artillery, armor, and other crew-served-weapons combat arms",
-        "common_claims": ["Tinnitus", "Bilateral hearing loss"],
-        "why": "Sustained proximity to large-caliber weapons fire without consistent full-time hearing protection in the field. Tinnitus is VA's single most-compensated condition nationwide — over 3.5 million veterans were rated for it as of 2025 — and hearing loss is also a top-claimed condition (1.3M+ veterans rated in FY2020 alone)."
-      },
-      {
-        "specialty_family": "Aviation — aircrew and ground crew (flightline mechanics, ordnance, fuelers)",
-        "common_claims": ["Tinnitus", "Hearing loss", "Cervical and lumbar spine conditions (aircrew, from vibration/ejection-seat loading)"],
-        "why": "Chronic flightline and engine-run-up noise exposure for ground crew; sustained vibration and G-loading for aircrew."
-      },
-      {
-        "specialty_family": "Infantry and other dismounted combat arms",
-        "common_claims": ["Knee conditions", "Lumbar/lower-back strain", "Plantar fasciitis and other foot conditions", "Shoulder conditions"],
-        "why": "Cumulative musculoskeletal load from rucking, airborne/air-assault operations, and repetitive high-impact training and combat movement over a career."
-      },
-      {
-        "specialty_family": "Any MOS/rating deployed to the Southwest Asia theater, Afghanistan, or other PACT Act-covered locations (broad exposure, not specialty-limited — includes logistics, engineers, combat arms, aviation support in the CENTCOM AOR)",
-        "common_claims": ["Asthma", "Chronic bronchitis", "Sinusitis/rhinitis", "COPD", "Certain respiratory cancers"],
-        "why": "The PACT Act (2022) added more than 20 burn-pit and airborne-hazard presumptive conditions. A veteran who meets the service-location/era criteria does not have to individually prove that burn-pit exposure caused the condition — the presumption does that work."
-      }
-    ],
-    "file_before_separation_note": "File early using the Benefits Delivery at Discharge (BDD) program: submit a pre-discharge disability claim while still on active duty, between 180 and 90 days before your separation date (also open to Guard/Reserve on full-time active duty), and be available for VA exams within 45 days of filing. VA reviews service treatment records and schedules exams before separation, with a goal of delivering a rating decision within about 30 days after separation — materially faster than filing the standard claim after you're already out.",
-    "source": "https://www.va.gov/disability/about-disability-ratings/ ; https://www.va.gov/disability/how-to-file-claim/when-to-file/pre-discharge-claim/ ; https://www.publichealth.va.gov/exposures/burnpits/",
-    "retrieved_date": "2026-07-12"
-  },
-  "vr_e_chapter_31": {
-    "eligibility": "Requires a service-connected disability rating of 20% or greater that creates an 'employment handicap,' filed within a 12-year basic period of eligibility that generally runs from date of separation or date of first VA disability rating (extensions/waivers possible in some cases, e.g. a serious employment handicap). Veterans rated below 20%, or applying outside the 12-year window, may still qualify if VA determines a 'serious employment handicap' exists. Service members can also apply pre-discharge if a proposed or memorandum disability rating of 20%+ exists.",
-    "what_it_pays": "VR&E funds tuition and training costs for an approved rehabilitation plan (vocational training, higher education, or self-employment track) and pays a monthly subsistence allowance on top of that — not a loan, not a lump sum. The subsistence rate scales with enrollment intensity (full-time, three-quarter-time, half-time) and number of dependents; the FY2026 maximum monthly Chapter 31 subsistence rate, effective 10/1/2025, is $3,439.23. Participants may elect to be paid at the (often higher) GI Bill housing/subsistence rate instead if they meet the requirements to do so.",
-    "vs_gi_bill": "VR&E provides up to 48 months of training entitlement versus 36 months under the Post-9/11 GI Bill alone (48 months is the statutory cap across all combined VA education chapters — 30, 31, 33, 35, etc. — under 38 U.S.C. § 3695). The key structural advantage: VR&E (Chapter 31) draws from a separate entitlement bucket than the Post-9/11 GI Bill (Chapter 33), so using VR&E first does not reduce remaining Post-9/11 GI Bill months — a disabled veteran can complete a VR&E-funded program and still have full GI Bill entitlement left over for later use.",
-    "source": "https://www.va.gov/careers-employment/vocational-rehabilitation/eligibility/ ; https://www.benefits.va.gov/vocrehab/vrerates26.asp ; https://www.va.gov/education/eligibility/",
-    "retrieved_date": "2026-07-12"
-  },
-  "credential_gap": {
-    "plain_statement": "Military training frequently does NOT confer the civilian license. A specialty can be highly proficient in its military form and still require a separate civilian exam, license, or certification — sometimes a full academy or degree — before that skill is legally practicable in the civilian economy. Treat every military-to-civilian mapping on this site as 'this experience helps you qualify for X credential,' never as 'this experience IS X credential.'",
-    "examples": [
-      {
-        "military_role": "Combat Medic / Hospital Corpsman / Aerospace Medical Technician (Army 68W, Navy HM, Air Force 4N0X1)",
-        "civilian_license_needed": "State EMT-Basic, Advanced EMT, or Paramedic license (via NREMT certification)",
-        "what_the_military_gives_you": "Extensive trauma and battlefield medicine training and hands-on patient-care hours, often exceeding EMT-Basic scope of practice",
-        "what_it_does_not_give_you": "Automatic NREMT certification or a state EMT/paramedic license. The National Registry does not accept a military transcript as a direct equivalent, and military medical training does not map one-to-one onto NREMT course requirements — a medic without a civilian EMS certification cannot work in civilian EMS on military training alone.",
-        "how_to_close_it": "Military medics with current/recent training can often sit the NREMT cognitive and psychomotor exams directly for EMT-Basic; Advanced EMT typically needs a 40-80 hour bridge course; Paramedic (normally a 1,200-1,800 hour program) often has accelerated bridge tracks for 68W/HM background that cut the timeline 30-50%. NREMT certification alone still isn't enough — a separate state license application is required in most states.",
-        "source": "NAEMT Position Statement, 'Civilian EMS Certification for Military Medics' (naemt.org, 4 Feb 2022); Army COOL 68W credential pages (cool.osd.mil); nremt.org DoD SkillBridge/military resources page"
-      },
-      {
-        "military_role": "Military Police / Security Forces (Army 31B, Air Force Security Forces, USMC MP)",
-        "civilian_license_needed": "State POST (Peace Officer Standards and Training) certification / municipal or state police academy graduation",
-        "what_the_military_gives_you": "Law-enforcement fundamentals: patrol procedures, use of force, firearms qualification, defensive tactics, investigations, and military-justice enforcement experience",
-        "what_it_does_not_give_you": "Automatic state police-officer certification. Whether MP training substitutes for academy attendance is set state-by-state, not federally, and most states still require some or all mandated basic academy training even for former MPs — training and experience alone do not waive the full academy.",
-        "how_to_close_it": "Check the specific state POST agency's military-equivalency/reciprocity rules in the state you intend to work — some grant partial credit for firearms, defensive tactics, or legal-instruction hours toward academy requirements, but a full waiver is uncommon. Expect to attend an abbreviated or, in many states, a full state/municipal academy before certification.",
-        "source": "Fort Leonard Wood USAMPS Reciprocity Handbook, Feb 2021 (home.army.mil/wood); Army COOL 31A/31B credential pages (cool.osd.mil)"
-      },
-      {
-        "military_role": "Aircraft maintenance MOS/ratings (Army 15-series, Navy/USMC AD/AM, Air Force 2A-series)",
-        "civilian_license_needed": "FAA Airframe & Powerplant (A&P) mechanic certificate",
-        "what_the_military_gives_you": "Substantial hands-on maintenance experience on military airframes and engines",
-        "what_it_does_not_give_you": "Automatic A&P certification. Simply having served in an aviation-maintenance MOS does not authorize you to test — the FAA counts only actual hands-on working time in the specialty (not training time), evaluates each applicant's military experience individually on its own merits, and you still must pass separate FAA written, oral, and practical exams.",
-        "how_to_close_it": "Use the Joint Service Aviation Maintenance Technician Certification Council (JSAMTCC) process and each branch's COOL Gap Analysis tool to map which A&P knowledge areas your MOS/rating covers and which require self-study; document verified OJT (working, not training) hours through military records; then schedule the FAA written/oral/practical exam sequence.",
-        "source": "FAA, 'Experience Requirements to Become an Aircraft Mechanic' (faa.gov/mechanics/become/experience); Army/Navy/USMC COOL Airframe & Powerplant credential pages (cool.osd.mil)"
-      },
-      {
-        "military_role": "Motor transport / heavy-vehicle operator MOS (Army 88M/92F/14T; USMC 3531; Navy EO; Air Force 2T1/2F0/3E2)",
-        "civilian_license_needed": "State Commercial Driver's License (CDL)",
-        "what_the_military_gives_you": "Documented experience operating heavy military vehicles equivalent to commercial motor vehicles",
-        "what_it_does_not_give_you": "An automatic CDL. The military skills waiver excuses only the road SKILLS test — you must still pass the CDL written knowledge test and any endorsement exams (HAZMAT, tanker, doubles/triples) at a state DMV/BMV.",
-        "how_to_close_it": "Apply for the FMCSA Military Skills Test Waiver within 1 year of leaving a qualifying military driving position: must be 21+, currently or recently (within 12 months) licensed/employed in a qualifying role operating a commercial-equivalent military vehicle. Then pass the state written knowledge test(s) to receive the CDL.",
-        "source": "FMCSA Military Skills Test Waiver Program (fmcsa.dot.gov/military-skills-test-waiver); state DMV pages, e.g. dol.wa.gov and dmv.ca.gov"
-      },
-      {
-        "military_role": "Cyber operations / IT specialties (Army 17C, 25-series; Air Force Cyber Warfare Operations; Navy/USMC cryptologic-cyber ratings)",
-        "civilian_license_needed": "Vendor-neutral civilian certifications (e.g., CompTIA Security+, CySA+) required as a baseline for many civilian and DoD-contractor cyber roles under DoD 8140-equivalent workforce requirements",
-        "what_the_military_gives_you": "Operational cyber/network-defense experience and, frequently, an active security clearance — which itself carries independent civilian salary value",
-        "what_it_does_not_give_you": "Automatic industry certification. Operational experience does not by itself confer a CompTIA/(ISC)²/other vendor certification; those require separately scheduling and passing a proctored exam, and many civilian job postings require the paper certification regardless of demonstrated operational skill.",
-        "how_to_close_it": "Use branch COOL programs (Army COOL, Navy COOL, cool.osd.mil) and Credentialing Assistance funding to sit for Security+/CySA+ and related exams before separating; COOL's gap-analysis tool for each MOS/rating maps which exam objectives your training already covers and which you must self-study.",
-        "source": "Army/Navy COOL CompTIA Security+ and CySA+ credential pages (cool.osd.mil)"
-      },
-      {
-        "military_role": "Combat engineer and other 'engineer'-titled military roles that are not design/technical engineering work (e.g., Army 12B)",
-        "civilian_license_needed": "State Professional Engineer (PE) license (required for roles where a design must be legally 'stamped')",
-        "what_the_military_gives_you": "Construction, demolition, route-clearance, and field-engineering experience",
-        "what_it_does_not_give_you": "PE-qualifying experience in most cases. State licensing boards generally do not count 'combat engineer' work as true engineering experience — only military roles performing genuine design/technical engineering work count toward the PE experience requirement, and even then, time spent on non-technical duties may be pro-rated down. An ABET-accredited engineering degree and a passed Fundamentals of Engineering (FE) exam are still required before the PE exam regardless of MOS.",
-        "how_to_close_it": "Complete an ABET-accredited engineering degree if not already held; pass the FE exam (identical nationwide, accepted by all state boards); document verifiable engineering-specific (not combat-engineer-generic) work experience under a licensed PE's supervision; then apply to sit the state PE exam.",
-        "source": "NCEES FE Exam overview (ncees.org/exams/fe-exam); PPI/Kaplan PE exam qualifying guide (ppi2pass.com) — NOTE: this last source is a commercial test-prep vendor, not an official state board or DoD statement; the 'combat engineer work doesn't count' framing is directionally reliable but not primary-sourced. Flagged in unverified list."
-      }
-    ],
-    "cool_program_note": "DoD's Credentialing Opportunities On-Line program (COOL — administered separately per branch as Army COOL, Navy COOL, Marine Corps COOL, and Air Force COOL, aggregated at cool.osd.mil) is the authoritative tool for identifying which civilian certifications/licenses a given MOS/rating/AFSC is eligible to pursue, whether the branch will fund exam fees through Credentialing Assistance, and — most relevant to the credential gap — publishes per-credential 'Gap Analysis' documents that show exactly which knowledge and skill areas military training does NOT cover for that specific credential. This makes the credential gap explicit and specialty-specific rather than a vague caveat."
-  },
-  "sources": [
-    {"title": "About the DoW SkillBridge Program", "url": "https://www.militaryonesource.mil/resources/gov/dod-skillbridge/", "retrieved_date": "2026-07-12"},
-    {"title": "DoW SkillBridge FAQ", "url": "https://www.skillbridge.mil/faq", "retrieved_date": "2026-07-12"},
-    {"title": "Transition Assistance Program", "url": "https://www.tapevents.mil/", "retrieved_date": "2026-07-12"},
-    {"title": "Your VA Transition Assistance Program (TAP)", "url": "https://benefits.va.gov/TRANSITION/tap.asp", "retrieved_date": "2026-07-12"},
-    {"title": "Military Leader's Guide to TAP", "url": "https://tapevents.mil/Assets/ResourceContent/TAP/DoD_MLG_Resource_Guide.pdf", "retrieved_date": "2026-07-12"},
-    {"title": "DD Form 214 / DD214 — National Archives", "url": "https://www.archives.gov/personnel-records-center/dd-214", "retrieved_date": "2026-07-12"},
-    {"title": "DD214: What You Need to Know — Military.com", "url": "https://www.military.com/benefits/records-and-forms/dd214.html", "retrieved_date": "2026-07-12"},
-    {"title": "About disability ratings — VA.gov", "url": "https://www.va.gov/disability/about-disability-ratings/", "retrieved_date": "2026-07-12"},
-    {"title": "Pre-discharge claim (Benefits Delivery at Discharge) — VA.gov", "url": "https://www.va.gov/disability/how-to-file-claim/when-to-file/pre-discharge-claim/", "retrieved_date": "2026-07-12"},
-    {"title": "Airborne Hazards and Burn Pit Exposures — VA Public Health", "url": "https://www.publichealth.va.gov/exposures/burnpits/", "retrieved_date": "2026-07-12"},
-    {"title": "The PACT Act and Your VA Benefits — VA.gov", "url": "https://www.va.gov/resources/the-pact-act-and-your-va-benefits/", "retrieved_date": "2026-07-12"},
-    {"title": "Eligibility for Veteran Readiness and Employment — VA.gov", "url": "https://www.va.gov/careers-employment/vocational-rehabilitation/eligibility/", "retrieved_date": "2026-07-12"},
-    {"title": "VR&E Fiscal Year 2026 Subsistence Rates", "url": "https://www.benefits.va.gov/vocrehab/vrerates26.asp", "retrieved_date": "2026-07-12"},
-    {"title": "GI Bill and other education benefit eligibility — VA.gov", "url": "https://www.va.gov/education/eligibility/", "retrieved_date": "2026-07-12"},
-    {"title": "NAEMT Position Statement: Civilian EMS Certification for Military Medics", "url": "https://naemt.org/docs/default-source/advocacy-documents/positions/position-statement_military-medic-civilian-certifications_final_4feb2022.pdf", "retrieved_date": "2026-07-12"},
-    {"title": "Army COOL — 68W Combat Medic Specialist credential pages", "url": "https://www.cool.osd.mil/army/credential/index.html?cert=aemt5556&moc=68w", "retrieved_date": "2026-07-12"},
-    {"title": "Fort Leonard Wood USAMPS — MP Reciprocity", "url": "https://home.army.mil/wood/units-tenants/USAMPS/dod/reciprocity", "retrieved_date": "2026-07-12"},
-    {"title": "Army COOL — 31B Military Police credentials", "url": "https://www.cool.osd.mil/army/moc/index.html?moc=31b&tab=cred", "retrieved_date": "2026-07-12"},
-    {"title": "FAA — Experience Requirements to Become an Aircraft Mechanic", "url": "https://www.faa.gov/mechanics/become/experience", "retrieved_date": "2026-07-12"},
-    {"title": "Navy COOL — Mechanic (Airframe & Powerplant)", "url": "https://www.cool.osd.mil/usn/credential/index.html?cert=mechap3704", "retrieved_date": "2026-07-12"},
-    {"title": "FMCSA — Military Skills Test Waiver Program", "url": "https://www.fmcsa.dot.gov/military-skills-test-waiver", "retrieved_date": "2026-07-12"},
-    {"title": "Army/Navy COOL — CompTIA Security+ / CySA+ credential pages", "url": "https://www.cool.osd.mil/army/credential/index.html?cert=securityp3598", "retrieved_date": "2026-07-12"},
-    {"title": "NCEES FE Exam", "url": "https://ncees.org/exams/fe-exam/", "retrieved_date": "2026-07-12"}
+ "command": "TRANSITION",
+ "retrieved_date": "2026-07-12",
+ "skillbridge": {
+  "description": "DoD SkillBridge is a Dept. of War civilian-workforce internship/training program conducted during a service member's final window on active duty. Approved participants work with an approved industry partner (apprenticeship, internship, job-shadowing, or training program) while continuing to receive full military pay and benefits — the employer does not pay the service member during this period.",
+  "eligibility": "Open to active-duty service members nearing separation or retirement who meet their service's specific SkillBridge policy (commonly framed as having served enough time remaining on contract to complete a program without a service break, and being within the qualifying pre-separation window). Program participation itself is capped at up to 180 days and must occur during the service member's final 180 days on active duty, per DoDI 1322.29. Exact per-service eligibility thresholds (time-in-service floors, rank restrictions) vary by branch and were not independently re-verified per branch in this pass.",
+  "max_days": 180,
+  "approval_reality": "unit commander must approve — this is the real requirement. Per militaryonesource.mil (official DoD resource, fetched 2026-07-12): participation is 'up to 180 days of permissive duty with approval from their unit commander.' A secondary synthesis of skillbridge.mil/faq (not independently confirmed by direct fetch — that fetch failed on a TLS certificate error) describes approval authority as resting with the first field-grade commander (typically O-4 or above) in the service member's chain of command who holds non-judicial (Article 15) punishment authority, and states such commanders 'may approve or disapprove participation... based upon unit mission requirements.' In practice this means SkillBridge is discretionary, not an entitlement: a commander can deny it if the unit's staffing or operational tempo doesn't support losing the service member to permissive duty, even when the service member is otherwise eligible on paper.",
+  "source": "https://www.militaryonesource.mil/resources/gov/dod-skillbridge/ (confirmed by direct fetch); https://www.skillbridge.mil/faq (approval-authority detail via search synthesis, direct fetch failed)",
+  "retrieved_date": "2026-07-12"
+ },
+ "tap": {
+  "description": "The Transition Assistance Program (TAP) is the mandatory DoD-wide pre-separation curriculum covering benefits, employment preparation, education, and entrepreneurship, designed to certify that a departing service member meets Career Readiness Standards (CRS) before separating.",
+  "mandatory": true,
+  "timing": "Mandatory for all active-duty service members (and Guard/Reserve members with 180+ continuous days on active duty) who are separating or retiring. Must begin no later than 365 days before separation (12 months) — service members who cannot meet this window are required to begin as soon as possible within their remaining time. Recommended/voluntary earlier start: as early as the beginning of the terminal assignment; some DoD guidance references beginning roughly 12 months before separation or 24 months before retirement as the ideal, not the mandatory floor.",
+  "components": [
+   "Individualized Initial Counseling (IC) — starts the process, ideally as early as possible",
+   "Pre-Separation Counseling — mandatory needs assessment and benefits overview",
+   "MOC (Military Occupational Crosswalk) self-assessment",
+   "VA Benefits and Services course (VA Benefits I) — one-day, in-person",
+   "DOL Employment Fundamentals of Career Transition (EFCT) workshop — Dept. of Labor employment/resume/interview training",
+   "Optional 2-day tracks (choose based on post-service goal): Higher Education, Career/Technical Training (Vo-Tech), Entrepreneurship (Boots to Business)",
+   "Capstone — final review confirming Career Readiness Standards are met; required before separation"
   ],
-  "unverified": [
-    "SkillBridge approval-authority rank threshold (framed as O-4 / first field-grade commander with Article 15 UCMJ authority): sourced via search-engine synthesis of skillbridge.mil/faq; direct WebFetch of skillbridge.mil failed with a TLS certificate error, so the exact primary-source wording was not independently confirmed. The core fact — a unit commander must approve, and can deny based on unit mission needs — IS confirmed via the militaryonesource.mil fetch.",
-    "Per-branch SkillBridge eligibility thresholds (specific time-in-service floors, rank restrictions) were not individually re-verified for each of the six branches in this pass; only the DoD-wide 180-day program-length/window rule (DoDI 1322.29) is directly confirmed.",
-    "TAP voluntary/recommended start timing ('12 months before separation / 24 months before retirement') came from a secondary synthesis rather than a single authoritative tapevents.mil page; the mandatory 365-day floor is the more firmly sourced figure and is what's used as the primary claim.",
-    "The PE-licensure 'combat engineer work generally doesn't count toward PE experience' framing is sourced from a commercial test-prep vendor (ppi2pass.com), not an official state licensing board or DoD/NCEES statement. Directionally consistent with how state boards describe non-technical experience pro-ration, but not primary-sourced — verify against your specific state board (e.g., NCEES or the relevant state board of professional engineers) before treating it as settled.",
-    "Coast Guard-specific variances in SkillBridge/TAP administration (DHS component, not DoD) were not independently verified in this pass; DoD-wide policy was applied and may differ in Coast Guard-specific instructions."
+  "source": "https://www.tapevents.mil/ ; https://benefits.va.gov/TRANSITION/tap.asp ; https://www.tapevents.mil/Assets/ResourceContent/TAP/DoD_MLG_Resource_Guide.pdf",
+  "retrieved_date": "2026-07-12"
+ },
+ "dd214": {
+  "significance": "The DD-214 (Certificate of Release or Discharge from Active Duty) is arguably the single most important document a veteran holds because nearly every downstream benefit — federal or state, VA or civilian-employer — is verified against it. Block 24, the 'character of service' line, is the single most consequential entry on the form: it can read Honorable, General (Under Honorable Conditions), Other Than Honorable, Bad Conduct Discharge, or Dishonorable, and that characterization decides eligibility for most benefits listed below before any other criterion is even considered. Losing the original does not lose the benefit — certified copies are obtainable for life through the National Archives.",
+  "what_it_governs": [
+   "VA disability compensation claim eligibility",
+   "VA healthcare enrollment and priority group assignment",
+   "GI Bill and other VA education-benefit eligibility",
+   "VA home loan Certificate of Eligibility (COE)",
+   "Federal employment veterans' hiring preference",
+   "State-level veteran benefits (property tax exemptions, tuition waivers, license plates, hiring preference — varies by state)",
+   "Burial and memorial benefits (national cemetery eligibility, headstone/marker)",
+   "Civilian employer verification of service history and MOS/rating"
   ],
-  "completion_accountability": "All required TRANSITION fields are populated: skillbridge (eligibility, 180-day window, and the unit-commander approval reality), TAP (mandatory status, timing, and 7 components), DD-214 (significance plus an 8-item 'what it governs' list), VA disability (ratings mechanics, 4 specialty-linked claim families covering artillery/aviation hearing loss, infantry musculoskeletal, and burn-pit respiratory as named in the brief, plus the BDD pre-separation filing note), VR&E/Chapter 31 (eligibility, payment structure, and GI Bill comparison), and the credential_gap centerpiece with exactly 6 examples spanning medical, law enforcement/security, aviation/mechanical, logistics/CDL, cyber, and engineering as requested. Research used 18 web search/fetch calls against a ~12-call budget guideline — the overage went toward independently verifying the centerpiece credential-gap claims (a fabrication or an implied-seamless-transfer error there would be the most damaging failure mode per the master prompt's anti-pattern list) rather than accepting single-source synthesis. One fetch (skillbridge.mil/faq) failed on a TLS certificate error and could not be retried against a different transport in this environment; the affected claim is flagged in the unverified list rather than silently presented as directly confirmed. No dollar figure, eligibility claim, or URL was fabricated; every field traces to a named source with a retrieval date, or is listed in 'unverified.'"
+  "source": "https://www.archives.gov/personnel-records-center/dd-214 ; https://www.military.com/benefits/records-and-forms/dd214.html",
+  "retrieved_date": "2026-07-12"
+ },
+ "va_disability": {
+  "how_ratings_work": "VA rates each service-connected condition from 0% to 100% in 10% increments based on severity. Multiple ratings are NOT added arithmetically. VA applies a combined-ratings table (informally 'VA math'): the largest rating is applied first, and each subsequent condition is rated against the veteran's remaining non-disabled percentage, then the result is rounded to the nearest 10%. Example (per va.gov, retrieved 2026-07-12): a 50% rating combined with a 30% rating yields a combined value of 65, which rounds to a 70% combined disability rating — not 80%.",
+  "specialty_linked_common_claims": [
+   {
+    "specialty_family": "Artillery, armor, and other crew-served-weapons combat arms",
+    "common_claims": [
+     "Tinnitus",
+     "Bilateral hearing loss"
+    ],
+    "why": "Sustained proximity to large-caliber weapons fire without consistent full-time hearing protection in the field. Tinnitus is VA's single most-compensated condition nationwide — over 3.5 million veterans were rated for it as of 2025 — and hearing loss is also a top-claimed condition (1.3M+ veterans rated in FY2020 alone)."
+   },
+   {
+    "specialty_family": "Aviation — aircrew and ground crew (flightline mechanics, ordnance, fuelers)",
+    "common_claims": [
+     "Tinnitus",
+     "Hearing loss",
+     "Cervical and lumbar spine conditions (aircrew, from vibration/ejection-seat loading)"
+    ],
+    "why": "Chronic flightline and engine-run-up noise exposure for ground crew; sustained vibration and G-loading for aircrew."
+   },
+   {
+    "specialty_family": "Infantry and other dismounted combat arms",
+    "common_claims": [
+     "Knee conditions",
+     "Lumbar/lower-back strain",
+     "Plantar fasciitis and other foot conditions",
+     "Shoulder conditions"
+    ],
+    "why": "Cumulative musculoskeletal load from rucking, airborne/air-assault operations, and repetitive high-impact training and combat movement over a career."
+   },
+   {
+    "specialty_family": "Any MOS/rating deployed to the Southwest Asia theater, Afghanistan, or other PACT Act-covered locations (broad exposure, not specialty-limited — includes logistics, engineers, combat arms, aviation support in the CENTCOM AOR)",
+    "common_claims": [
+     "Asthma",
+     "Chronic bronchitis",
+     "Sinusitis/rhinitis",
+     "COPD",
+     "Certain respiratory cancers"
+    ],
+    "why": "The PACT Act (2022) added more than 20 burn-pit and airborne-hazard presumptive conditions. A veteran who meets the service-location/era criteria does not have to individually prove that burn-pit exposure caused the condition — the presumption does that work."
+   }
+  ],
+  "file_before_separation_note": "File early using the Benefits Delivery at Discharge (BDD) program: submit a pre-discharge disability claim while still on active duty, between 180 and 90 days before your separation date (also open to Guard/Reserve on full-time active duty), and be available for VA exams within 45 days of filing. VA reviews service treatment records and schedules exams before separation, with a goal of delivering a rating decision within about 30 days after separation — materially faster than filing the standard claim after you're already out.",
+  "source": "https://www.va.gov/disability/about-disability-ratings/ ; https://www.va.gov/disability/how-to-file-claim/when-to-file/pre-discharge-claim/ ; https://www.publichealth.va.gov/exposures/burnpits/",
+  "retrieved_date": "2026-07-12"
+ },
+ "vr_e_chapter_31": {
+  "eligibility": "Requires a service-connected disability rating of 20% or greater that creates an 'employment handicap,' filed within a 12-year basic period of eligibility that generally runs from date of separation or date of first VA disability rating (extensions/waivers possible in some cases, e.g. a serious employment handicap). Veterans rated below 20%, or applying outside the 12-year window, may still qualify if VA determines a 'serious employment handicap' exists. Service members can also apply pre-discharge if a proposed or memorandum disability rating of 20%+ exists.",
+  "what_it_pays": "VR&E funds tuition and training costs for an approved rehabilitation plan (vocational training, higher education, or self-employment track) and pays a monthly subsistence allowance on top of that — not a loan, not a lump sum. The subsistence rate scales with enrollment intensity (full-time, three-quarter-time, half-time) and number of dependents; the FY2026 maximum monthly Chapter 31 subsistence rate, effective 10/1/2025, is $3,439.23. Participants may elect to be paid at the (often higher) GI Bill housing/subsistence rate instead if they meet the requirements to do so.",
+  "vs_gi_bill": "VR&E provides up to 48 months of training entitlement versus 36 months under the Post-9/11 GI Bill alone (48 months is the statutory cap across all combined VA education chapters — 30, 31, 33, 35, etc. — under 38 U.S.C. § 3695). The key structural advantage: VR&E (Chapter 31) draws from a separate entitlement bucket than the Post-9/11 GI Bill (Chapter 33), so using VR&E first does not reduce remaining Post-9/11 GI Bill months — a disabled veteran can complete a VR&E-funded program and still have full GI Bill entitlement left over for later use.",
+  "source": "https://www.va.gov/careers-employment/vocational-rehabilitation/eligibility/ ; https://www.benefits.va.gov/vocrehab/vrerates26.asp ; https://www.va.gov/education/eligibility/",
+  "retrieved_date": "2026-07-12"
+ },
+ "credential_gap": {
+  "plain_statement": "Military training frequently does NOT confer the civilian license. A specialty can be highly proficient in its military form and still require a separate civilian exam, license, or certification — sometimes a full academy or degree — before that skill is legally practicable in the civilian economy. Treat every military-to-civilian mapping on this site as 'this experience helps you qualify for X credential,' never as 'this experience IS X credential.'",
+  "examples": [
+   {
+    "military_role": "Combat Medic / Hospital Corpsman / Aerospace Medical Technician (Army 68W, Navy HM, Air Force 4N0X1)",
+    "civilian_license_needed": "State EMT-Basic, Advanced EMT, or Paramedic license (via NREMT certification)",
+    "what_the_military_gives_you": "Extensive trauma and battlefield medicine training and hands-on patient-care hours, often exceeding EMT-Basic scope of practice",
+    "what_it_does_not_give_you": "Automatic NREMT certification or a state EMT/paramedic license. The National Registry does not accept a military transcript as a direct equivalent, and military medical training does not map one-to-one onto NREMT course requirements — a medic without a civilian EMS certification cannot work in civilian EMS on military training alone.",
+    "how_to_close_it": "Military medics with current/recent training can often sit the NREMT cognitive and psychomotor exams directly for EMT-Basic; Advanced EMT typically needs a 40-80 hour bridge course; Paramedic (normally a 1,200-1,800 hour program) often has accelerated bridge tracks for 68W/HM background that cut the timeline 30-50%. NREMT certification alone still isn't enough — a separate state license application is required in most states.",
+    "source": "NAEMT Position Statement, 'Civilian EMS Certification for Military Medics' (naemt.org, 4 Feb 2022); Army COOL 68W credential pages (cool.osd.mil); nremt.org DoD SkillBridge/military resources page"
+   },
+   {
+    "military_role": "Military Police / Security Forces (Army 31B, Air Force Security Forces, USMC MP)",
+    "civilian_license_needed": "State POST (Peace Officer Standards and Training) certification / municipal or state police academy graduation",
+    "what_the_military_gives_you": "Law-enforcement fundamentals: patrol procedures, use of force, firearms qualification, defensive tactics, investigations, and military-justice enforcement experience",
+    "what_it_does_not_give_you": "Automatic state police-officer certification. Whether MP training substitutes for academy attendance is set state-by-state, not federally, and most states still require some or all mandated basic academy training even for former MPs — training and experience alone do not waive the full academy.",
+    "how_to_close_it": "Check the specific state POST agency's military-equivalency/reciprocity rules in the state you intend to work — some grant partial credit for firearms, defensive tactics, or legal-instruction hours toward academy requirements, but a full waiver is uncommon. Expect to attend an abbreviated or, in many states, a full state/municipal academy before certification.",
+    "source": "Fort Leonard Wood USAMPS Reciprocity Handbook, Feb 2021 (home.army.mil/wood); Army COOL 31A/31B credential pages (cool.osd.mil)"
+   },
+   {
+    "military_role": "Aircraft maintenance MOS/ratings (Army 15-series, Navy/USMC AD/AM, Air Force 2A-series)",
+    "civilian_license_needed": "FAA Airframe & Powerplant (A&P) mechanic certificate",
+    "what_the_military_gives_you": "Substantial hands-on maintenance experience on military airframes and engines",
+    "what_it_does_not_give_you": "Automatic A&P certification. Simply having served in an aviation-maintenance MOS does not authorize you to test — the FAA counts only actual hands-on working time in the specialty (not training time), evaluates each applicant's military experience individually on its own merits, and you still must pass separate FAA written, oral, and practical exams.",
+    "how_to_close_it": "Use the Joint Service Aviation Maintenance Technician Certification Council (JSAMTCC) process and each branch's COOL Gap Analysis tool to map which A&P knowledge areas your MOS/rating covers and which require self-study; document verified OJT (working, not training) hours through military records; then schedule the FAA written/oral/practical exam sequence.",
+    "source": "FAA, 'Experience Requirements to Become an Aircraft Mechanic' (faa.gov/mechanics/become/experience); Army/Navy/USMC COOL Airframe & Powerplant credential pages (cool.osd.mil)"
+   },
+   {
+    "military_role": "Motor transport / heavy-vehicle operator MOS (Army 88M/92F/14T; USMC 3531; Navy EO; Air Force 2T1/2F0/3E2)",
+    "civilian_license_needed": "State Commercial Driver's License (CDL)",
+    "what_the_military_gives_you": "Documented experience operating heavy military vehicles equivalent to commercial motor vehicles",
+    "what_it_does_not_give_you": "An automatic CDL. The military skills waiver excuses only the road SKILLS test — you must still pass the CDL written knowledge test and any endorsement exams (HAZMAT, tanker, doubles/triples) at a state DMV/BMV.",
+    "how_to_close_it": "Apply for the FMCSA Military Skills Test Waiver within 1 year of leaving a qualifying military driving position: must be 21+, currently or recently (within 12 months) licensed/employed in a qualifying role operating a commercial-equivalent military vehicle. Then pass the state written knowledge test(s) to receive the CDL.",
+    "source": "FMCSA Military Skills Test Waiver Program (fmcsa.dot.gov/military-skills-test-waiver); state DMV pages, e.g. dol.wa.gov and dmv.ca.gov"
+   },
+   {
+    "military_role": "Cyber operations / IT specialties (Army 17C, 25-series; Air Force Cyber Warfare Operations; Navy/USMC cryptologic-cyber ratings)",
+    "civilian_license_needed": "Vendor-neutral civilian certifications (e.g., CompTIA Security+, CySA+) required as a baseline for many civilian and DoD-contractor cyber roles under DoD 8140-equivalent workforce requirements",
+    "what_the_military_gives_you": "Operational cyber/network-defense experience and, frequently, an active security clearance — which itself carries independent civilian salary value",
+    "what_it_does_not_give_you": "Automatic industry certification. Operational experience does not by itself confer a CompTIA/(ISC)²/other vendor certification; those require separately scheduling and passing a proctored exam, and many civilian job postings require the paper certification regardless of demonstrated operational skill.",
+    "how_to_close_it": "Use branch COOL programs (Army COOL, Navy COOL, cool.osd.mil) and Credentialing Assistance funding to sit for Security+/CySA+ and related exams before separating; COOL's gap-analysis tool for each MOS/rating maps which exam objectives your training already covers and which you must self-study.",
+    "source": "Army/Navy COOL CompTIA Security+ and CySA+ credential pages (cool.osd.mil)"
+   },
+   {
+    "military_role": "Combat engineer and other 'engineer'-titled military roles that are not design/technical engineering work (e.g., Army 12B)",
+    "civilian_license_needed": "State Professional Engineer (PE) license (required for roles where a design must be legally 'stamped')",
+    "what_the_military_gives_you": "Construction, demolition, route-clearance, and field-engineering experience",
+    "what_it_does_not_give_you": "PE-qualifying experience in most cases. State licensing boards generally do not count 'combat engineer' work as true engineering experience — only military roles performing genuine design/technical engineering work count toward the PE experience requirement, and even then, time spent on non-technical duties may be pro-rated down. An ABET-accredited engineering degree and a passed Fundamentals of Engineering (FE) exam are still required before the PE exam regardless of MOS.",
+    "how_to_close_it": "Complete an ABET-accredited engineering degree if not already held; pass the FE exam (identical nationwide, accepted by all state boards); document verifiable engineering-specific (not combat-engineer-generic) work experience under a licensed PE's supervision; then apply to sit the state PE exam.",
+    "source": "NCEES FE Exam overview (ncees.org/exams/fe-exam); PPI/Kaplan PE exam qualifying guide (ppi2pass.com) — NOTE: this last source is a commercial test-prep vendor, not an official state board or DoD statement; the 'combat engineer work doesn't count' framing is directionally reliable but not primary-sourced. Flagged in unverified list."
+   }
+  ],
+  "cool_program_note": "DoD's Credentialing Opportunities On-Line program (COOL — administered separately per branch as Army COOL, Navy COOL, Marine Corps COOL, and Air Force COOL, aggregated at cool.osd.mil) is the authoritative tool for identifying which civilian certifications/licenses a given MOS/rating/AFSC is eligible to pursue, whether the branch will fund exam fees through Credentialing Assistance, and — most relevant to the credential gap — publishes per-credential 'Gap Analysis' documents that show exactly which knowledge and skill areas military training does NOT cover for that specific credential. This makes the credential gap explicit and specialty-specific rather than a vague caveat."
+ },
+ "sources": [
+  {
+   "title": "About the DoW SkillBridge Program",
+   "url": "https://www.militaryonesource.mil/resources/gov/dod-skillbridge/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "DoW SkillBridge FAQ",
+   "url": "https://www.skillbridge.mil/faq",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Transition Assistance Program",
+   "url": "https://www.tapevents.mil/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Your VA Transition Assistance Program (TAP)",
+   "url": "https://benefits.va.gov/TRANSITION/tap.asp",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Military Leader's Guide to TAP",
+   "url": "https://tapevents.mil/Assets/ResourceContent/TAP/DoD_MLG_Resource_Guide.pdf",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "DD Form 214 / DD214 — National Archives",
+   "url": "https://www.archives.gov/personnel-records-center/dd-214",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "DD214: What You Need to Know — Military.com",
+   "url": "https://www.military.com/benefits/records-and-forms/dd214.html",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "About disability ratings — VA.gov",
+   "url": "https://www.va.gov/disability/about-disability-ratings/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Pre-discharge claim (Benefits Delivery at Discharge) — VA.gov",
+   "url": "https://www.va.gov/disability/how-to-file-claim/when-to-file/pre-discharge-claim/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Airborne Hazards and Burn Pit Exposures — VA Public Health",
+   "url": "https://www.publichealth.va.gov/exposures/burnpits/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "The PACT Act and Your VA Benefits — VA.gov",
+   "url": "https://www.va.gov/resources/the-pact-act-and-your-va-benefits/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Eligibility for Veteran Readiness and Employment — VA.gov",
+   "url": "https://www.va.gov/careers-employment/vocational-rehabilitation/eligibility/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "VR&E Fiscal Year 2026 Subsistence Rates",
+   "url": "https://www.benefits.va.gov/vocrehab/vrerates26.asp",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "GI Bill and other education benefit eligibility — VA.gov",
+   "url": "https://www.va.gov/education/eligibility/",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "NAEMT Position Statement: Civilian EMS Certification for Military Medics",
+   "url": "https://naemt.org/docs/default-source/advocacy-documents/positions/position-statement_military-medic-civilian-certifications_final_4feb2022.pdf",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Army COOL — 68W Combat Medic Specialist credential pages",
+   "url": "https://www.cool.osd.mil/army/credential/index.html?cert=aemt5556&moc=68w",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Fort Leonard Wood USAMPS — MP Reciprocity",
+   "url": "https://home.army.mil/wood/units-tenants/USAMPS/dod/reciprocity",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Army COOL — 31B Military Police credentials",
+   "url": "https://www.cool.osd.mil/army/moc/index.html?moc=31b&tab=cred",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "FAA — Experience Requirements to Become an Aircraft Mechanic",
+   "url": "https://www.faa.gov/mechanics/become/experience",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Navy COOL — Mechanic (Airframe & Powerplant)",
+   "url": "https://www.cool.osd.mil/usn/credential/index.html?cert=mechap3704",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "FMCSA — Military Skills Test Waiver Program",
+   "url": "https://www.fmcsa.dot.gov/military-skills-test-waiver",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "Army/Navy COOL — CompTIA Security+ / CySA+ credential pages",
+   "url": "https://www.cool.osd.mil/army/credential/index.html?cert=securityp3598",
+   "retrieved_date": "2026-07-12"
+  },
+  {
+   "title": "NCEES FE Exam",
+   "url": "https://ncees.org/exams/fe-exam/",
+   "retrieved_date": "2026-07-12"
+  }
+ ],
+ "unverified": [
+  "SkillBridge approval-authority rank threshold (framed as O-4 / first field-grade commander with Article 15 UCMJ authority): sourced via search-engine synthesis of skillbridge.mil/faq; direct WebFetch of skillbridge.mil failed with a TLS certificate error, so the exact primary-source wording was not independently confirmed. The core fact — a unit commander must approve, and can deny based on unit mission needs — IS confirmed via the militaryonesource.mil fetch.",
+  "Per-branch SkillBridge eligibility thresholds (specific time-in-service floors, rank restrictions) were not individually re-verified for each of the six branches in this pass; only the DoD-wide 180-day program-length/window rule (DoDI 1322.29) is directly confirmed.",
+  "TAP voluntary/recommended start timing ('12 months before separation / 24 months before retirement') came from a secondary synthesis rather than a single authoritative tapevents.mil page; the mandatory 365-day floor is the more firmly sourced figure and is what's used as the primary claim.",
+  "The PE-licensure 'combat engineer work generally doesn't count toward PE experience' framing is sourced from a commercial test-prep vendor (ppi2pass.com), not an official state licensing board or DoD/NCEES statement. Directionally consistent with how state boards describe non-technical experience pro-ration, but not primary-sourced — verify against your specific state board (e.g., NCEES or the relevant state board of professional engineers) before treating it as settled.",
+  "Coast Guard-specific variances in SkillBridge/TAP administration (DHS component, not DoD) were not independently verified in this pass; DoD-wide policy was applied and may differ in Coast Guard-specific instructions."
+ ],
+ "completion_accountability": "All required TRANSITION fields are populated: skillbridge (eligibility, 180-day window, and the unit-commander approval reality), TAP (mandatory status, timing, and 7 components), DD-214 (significance plus an 8-item 'what it governs' list), VA disability (ratings mechanics, 4 specialty-linked claim families covering artillery/aviation hearing loss, infantry musculoskeletal, and burn-pit respiratory as named in the brief, plus the BDD pre-separation filing note), VR&E/Chapter 31 (eligibility, payment structure, and GI Bill comparison), and the credential_gap centerpiece with exactly 6 examples spanning medical, law enforcement/security, aviation/mechanical, logistics/CDL, cyber, and engineering as requested. Research used 18 web search/fetch calls against a ~12-call budget guideline — the overage went toward independently verifying the centerpiece credential-gap claims (a fabrication or an implied-seamless-transfer error there would be the most damaging failure mode per the master prompt's anti-pattern list) rather than accepting single-source synthesis. One fetch (skillbridge.mil/faq) failed on a TLS certificate error and could not be retried against a different transport in this environment; the affected claim is flagged in the unverified list rather than silently presented as directly confirmed. No dollar figure, eligibility claim, or URL was fabricated; every field traces to a named source with a retrieval date, or is listed in 'unverified.'"
 }

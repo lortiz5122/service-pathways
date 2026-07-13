@@ -1,7 +1,7 @@
 {
  "branch": "Marine Corps",
  "retrieved": "2026-07-12",
- "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded \u2014 it is a function of paygrade, not of the job.",
+ "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded — it is a function of paygrade, not of the job.",
  "specialties": [
   {
    "id": "marine-corps-1834",
@@ -29,7 +29,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -40,7 +40,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -85,7 +85,7 @@
    "what_it_is": null,
    "entry_requirements": {
     "asvab_line_score": "EL 110",
-    "security_clearance": "Not typically required for general administrative duty; UNVERIFIED whether specific billets (e.g., legal administration, casualty affairs) carry an elevated requirement \u2014 not independently confirmed this session.",
+    "security_clearance": "Not typically required for general administrative duty; UNVERIFIED whether specific billets (e.g., legal administration, casualty affairs) carry an elevated requirement — not independently confirmed this session.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -98,7 +98,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -110,7 +110,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -176,7 +176,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -188,7 +188,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -244,7 +244,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -256,7 +256,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -290,7 +290,7 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "NOT AN ENTRY-LEVEL MOS. NAVMC 1200.1M requires you to already be a qualified MOS 7257 or 7291. You reach 7252 from inside the air traffic control field \u2014 the entry point is the ATC trainee pipeline (7251 \u2192 7257), and 7252 is awarded when you qualify for and are issued the FAA Control Tower Credential.",
+   "what_it_is": "NOT AN ENTRY-LEVEL MOS. NAVMC 1200.1M requires you to already be a qualified MOS 7257 or 7291. You reach 7252 from inside the air traffic control field — the entry point is the ATC trainee pipeline (7251 → 7257), and 7252 is awarded when you qualify for and are issued the FAA Control Tower Credential.",
    "entry_requirements": {
     "asvab_line_score": null,
     "security_clearance": "Secret",
@@ -306,7 +306,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -317,7 +317,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -345,7 +345,7 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "The entry route is MOS 7251 (ATC trainee): you must meet the 7251 prerequisites and complete the Air Traffic Control Basic Course (N2367A2), then qualify on a live control position at an air station before the 7257 MOS is awarded \u2014 the manual allows up to 12 months after graduation. Lateral-move applicants must be a Cpl or below with less than 5 years in service.",
+   "what_it_is": "The entry route is MOS 7251 (ATC trainee): you must meet the 7251 prerequisites and complete the Air Traffic Control Basic Course (N2367A2), then qualify on a live control position at an air station before the 7257 MOS is awarded — the manual allows up to 12 months after graduation. Lateral-move applicants must be a Cpl or below with less than 5 years in service.",
    "entry_requirements": {
     "asvab_line_score": "GT 110",
     "security_clearance": "Secret (or temporary SCI)",
@@ -361,7 +361,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -373,7 +373,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -403,7 +403,7 @@
   {
    "id": "marine-corps-7253",
    "code": "7253",
-   "name": "Air Traffic Controller\u2013Radar Arrival/Departure Controller",
+   "name": "Air Traffic Controller–Radar Arrival/Departure Controller",
    "branch": "Marine Corps",
    "track": "enlisted",
    "interest_cluster_ids": [
@@ -426,7 +426,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -437,7 +437,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -481,7 +481,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -492,7 +492,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -548,7 +548,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -560,7 +560,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -614,7 +614,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -626,7 +626,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -678,7 +678,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -690,7 +690,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -743,7 +743,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -755,7 +755,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -809,7 +809,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -821,7 +821,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -875,7 +875,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -887,7 +887,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -941,7 +941,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -953,7 +953,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1007,7 +1007,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1019,7 +1019,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1078,7 +1078,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1090,7 +1090,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1149,7 +1149,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1161,7 +1161,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1220,7 +1220,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1232,7 +1232,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1287,7 +1287,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1299,7 +1299,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1356,7 +1356,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1368,7 +1368,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1423,7 +1423,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1434,7 +1434,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1494,7 +1494,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1505,7 +1505,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1522,7 +1522,7 @@
     "estimated_civilian_salary_range_usd": null,
     "civilian_median_salary_usd": null,
     "salary_source": null,
-    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight \u2014 it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 14 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Emergency Medical Responder (EMR), Emergency Medical Technician (EMT)."
+    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight — it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 14 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Emergency Medical Responder (EMR), Emergency Medical Technician (EMT)."
    }
   },
   {
@@ -1551,7 +1551,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1593,7 +1593,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1605,7 +1605,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1660,7 +1660,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1672,7 +1672,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1721,7 +1721,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1760,7 +1760,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1772,7 +1772,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1819,7 +1819,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1831,7 +1831,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1888,7 +1888,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1899,7 +1899,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -1959,7 +1959,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -1970,7 +1970,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2005,7 +2005,7 @@
     "mechanical-engineering"
    ],
    "depth": "deep",
-   "what_it_is": "3521 Marines also conduct convoy operations and assist with movement control, which is a notable duty beyond pure shop-based repair work \u2014 worth naming since it distinguishes this MOS from a purely garrison-based mechanic role.",
+   "what_it_is": "3521 Marines also conduct convoy operations and assist with movement control, which is a notable duty beyond pure shop-based repair work — worth naming since it distinguishes this MOS from a purely garrison-based mechanic role.",
    "entry_requirements": {
     "asvab_line_score": "EL 100 or MM 100",
     "security_clearance": "Not typically required.",
@@ -2021,7 +2021,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2033,7 +2033,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2099,7 +2099,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2111,7 +2111,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2168,7 +2168,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2180,7 +2180,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2218,7 +2218,7 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it.",
+   "what_it_is": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS — a civilian cannot enlist directly into it.",
    "entry_requirements": {
     "asvab_line_score": null,
     "security_clearance": "Must meet sensitive compartmented information (SCI) eligibility guidelines based on a single scope background investigation/T5 investigation",
@@ -2234,7 +2234,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2245,7 +2245,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2289,7 +2289,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2301,7 +2301,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2354,7 +2354,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2366,7 +2366,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2421,7 +2421,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2432,7 +2432,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2476,7 +2476,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2487,7 +2487,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2543,7 +2543,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2555,7 +2555,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2611,7 +2611,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2622,7 +2622,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2678,7 +2678,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2689,7 +2689,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2745,7 +2745,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2756,7 +2756,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2800,7 +2800,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2811,7 +2811,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2831,7 +2831,7 @@
   },
   {
    "id": "usmc-combat-correspondent",
-   "code": "CODE STATUS: UNVERIFIED-CURRENT. Historically MOS 4341 Combat Correspondent \u2014 still referenced as the MOS awarded by DINFOS's Combat Correspondent Course per DINFOS's own training-department page (secondary-corroborated 2026-07-12). Administratively, the Marine Corps merged the legacy 43XX (Public Affairs) and 46XX (Combat Camera) fields into a new 45XX (Communication Strategy and Operations) occupational field per MARADMIN 484/17 (30 Aug 2017) and MARADMIN 534/17 (28 Sep 2017). A third-party MOS aggregator (mosroadmap.com) lists a '4531 Combat Mass Communicator' code within the 45XX field that may be 4341's current successor, but this was NOT confirmed against a primary Marine Corps MOS manual this session \u2014 presented with both the legacy designation and the known successor field, not guessed.",
+   "code": "CODE STATUS: UNVERIFIED-CURRENT. Historically MOS 4341 Combat Correspondent — still referenced as the MOS awarded by DINFOS's Combat Correspondent Course per DINFOS's own training-department page (secondary-corroborated 2026-07-12). Administratively, the Marine Corps merged the legacy 43XX (Public Affairs) and 46XX (Combat Camera) fields into a new 45XX (Communication Strategy and Operations) occupational field per MARADMIN 484/17 (30 Aug 2017) and MARADMIN 534/17 (28 Sep 2017). A third-party MOS aggregator (mosroadmap.com) lists a '4531 Combat Mass Communicator' code within the 45XX field that may be 4341's current successor, but this was NOT confirmed against a primary Marine Corps MOS manual this session — presented with both the legacy designation and the known successor field, not guessed.",
    "name": "Combat Correspondent (Public Affairs / Communication Strategy and Operations)",
    "branch": "Marine Corps",
    "track": "enlisted",
@@ -2839,7 +2839,7 @@
     "music-media"
    ],
    "depth": "deep",
-   "what_it_is": "NO PERFORMANCE AUDITION (this is the media sub-family, not the musician sub-family) \u2014 but candidates must be interviewed by, and receive approval from, a public affairs officer or public affairs NCO before being assigned a training seat, functioning as a soft screening gate beyond the ASVAB/GT score. Must be a U.S. citizen.",
+   "what_it_is": "NO PERFORMANCE AUDITION (this is the media sub-family, not the musician sub-family) — but candidates must be interviewed by, and receive approval from, a public affairs officer or public affairs NCO before being assigned a training seat, functioning as a soft screening requirement beyond the ASVAB/GT score. Must be a U.S. citizen.",
    "entry_requirements": {
     "asvab_line_score": "GT (General Technical) score of 110 or higher and VE (Verbal Expression) score of 45 or higher.",
     "security_clearance": null,
@@ -2855,7 +2855,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2894,7 +2894,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2906,7 +2906,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -2964,7 +2964,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -2976,7 +2976,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3032,7 +3032,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3044,7 +3044,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3097,7 +3097,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3109,7 +3109,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3160,7 +3160,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3171,7 +3171,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3229,7 +3229,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3241,7 +3241,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3298,7 +3298,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3309,7 +3309,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3353,7 +3353,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3364,7 +3364,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3410,7 +3410,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3422,7 +3422,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3486,7 +3486,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3498,7 +3498,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3556,7 +3556,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3567,7 +3567,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3619,7 +3619,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3630,7 +3630,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3683,7 +3683,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3694,7 +3694,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3747,7 +3747,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3758,7 +3758,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3807,7 +3807,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3819,7 +3819,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3881,7 +3881,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3893,7 +3893,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -3949,7 +3949,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -3961,7 +3961,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4017,7 +4017,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4029,7 +4029,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4091,7 +4091,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4102,7 +4102,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4146,7 +4146,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4158,7 +4158,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4203,7 +4203,7 @@
    "what_it_is": "U.S. citizen required (secondary-sourced).",
    "entry_requirements": {
     "asvab_line_score": "GT 95 or MM 95",
-    "security_clearance": "UNVERIFIED \u2014 not independently confirmed at the MOS level this session.",
+    "security_clearance": "UNVERIFIED — not independently confirmed at the MOS level this session.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -4216,7 +4216,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4228,7 +4228,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4278,7 +4278,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4290,7 +4290,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4337,7 +4337,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4349,7 +4349,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4363,7 +4363,7 @@
     "estimated_civilian_salary_range_usd": null,
     "civilian_median_salary_usd": null,
     "salary_source": null,
-    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight \u2014 it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 21 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Associate Safety Professional (ASP)."
+    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight — it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 21 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Associate Safety Professional (ASP)."
    }
   },
   {
@@ -4392,7 +4392,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4404,7 +4404,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4462,7 +4462,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4474,7 +4474,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4529,7 +4529,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4541,7 +4541,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4588,7 +4588,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4599,7 +4599,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4649,7 +4649,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4661,7 +4661,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4705,7 +4705,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4717,7 +4717,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4761,7 +4761,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4773,7 +4773,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4817,7 +4817,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4829,7 +4829,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4873,7 +4873,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4885,7 +4885,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4929,7 +4929,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4941,7 +4941,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -4985,7 +4985,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -4997,7 +4997,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5041,7 +5041,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5053,7 +5053,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5097,7 +5097,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5109,7 +5109,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5153,7 +5153,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5165,7 +5165,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5209,7 +5209,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5221,7 +5221,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5265,7 +5265,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5277,7 +5277,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5321,7 +5321,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5333,7 +5333,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5377,7 +5377,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5389,7 +5389,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5433,7 +5433,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5445,7 +5445,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5497,7 +5497,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5509,7 +5509,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5568,7 +5568,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5607,7 +5607,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5619,7 +5619,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5674,7 +5674,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5685,7 +5685,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5733,7 +5733,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5744,7 +5744,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5801,7 +5801,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5812,7 +5812,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5869,7 +5869,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5880,7 +5880,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5935,7 +5935,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -5946,7 +5946,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -5990,7 +5990,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6002,7 +6002,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6046,7 +6046,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6058,7 +6058,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6102,7 +6102,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6114,7 +6114,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6158,7 +6158,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6170,7 +6170,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6214,7 +6214,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6226,7 +6226,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6270,7 +6270,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6282,7 +6282,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6326,7 +6326,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6338,7 +6338,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6382,7 +6382,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6394,7 +6394,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6438,7 +6438,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6450,7 +6450,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6478,7 +6478,7 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "NOT AN ENTRY-LEVEL MOS. It is an NMOS: NAVMC 1200.1M requires you to meet all requirements and prerequisites for the primary H-1 MOS first. The manual states no separate ASVAB line score or security clearance for 7313 \u2014 the gates are inherited from the underlying H-1 MOS.",
+   "what_it_is": "NOT AN ENTRY-LEVEL MOS. It is an NMOS: NAVMC 1200.1M requires you to meet all requirements and prerequisites for the primary H-1 MOS first. The manual states no separate ASVAB line score or security clearance for 7313 — the decides are inherited from the underlying H-1 MOS.",
    "entry_requirements": {
     "asvab_line_score": null,
     "security_clearance": null,
@@ -6494,7 +6494,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6505,7 +6505,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6549,7 +6549,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6561,7 +6561,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6605,7 +6605,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6617,7 +6617,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6661,7 +6661,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6673,7 +6673,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6730,7 +6730,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6753,7 +6753,7 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "Under DoD's 13 Adjudicative Guidelines (Security Executive Agent Directive 4 / 32 CFR Part 147), none of the following are automatic mechanical disqualifiers under the 'whole person' standard, but they are the dominant real-world reasons applicants and incumbents are denied or lose eligibility, and each can rule out this specialty even with a fully qualifying ASVAB score: (1) unresolved foreign contacts, foreign relatives in certain countries, foreign property/financial interests, or foreign romantic ties that create potential foreign leverage (Guideline B, Foreign Influence); (2) a pattern of serious financial delinquency -- unresolved debt (especially over $10,000), recent bankruptcy, wage garnishment, or repeated late payment patterns (Guideline F; financial issues are cited as roughly 45% of DoD clearance denials); (3) illegal drug use, misuse of prescription medication, or continued use after applying (Guideline H); and (4), treated especially seriously, deliberately concealing or falsifying any of the above -- including an UNREPORTED dual citizenship or undisclosed foreign contact -- during the application or investigation (Guideline E, Personal Conduct). A 16-24-year-old considering this cluster should treat clearance eligibility as a real, independent gate, not a formality layered on top of a qualifying ASVAB score.",
+   "what_it_is": "Under DoD's 13 Adjudicative Guidelines (Security Executive Agent Directive 4 / 32 CFR Part 147), none of the following are automatic mechanical disqualifiers under the 'whole person' standard, but they are the dominant real-world reasons applicants and incumbents are denied or lose eligibility, and each can rule out this specialty even with a fully qualifying ASVAB score: (1) unresolved foreign contacts, foreign relatives in certain countries, foreign property/financial interests, or foreign romantic ties that create potential foreign leverage (Guideline B, Foreign Influence); (2) a pattern of serious financial delinquency -- unresolved debt (especially over $10,000), recent bankruptcy, wage garnishment, or repeated late payment patterns (Guideline F; financial issues are cited as roughly 45% of DoD clearance denials); (3) illegal drug use, misuse of prescription medication, or continued use after applying (Guideline H); and (4), treated especially seriously, deliberately concealing or falsifying any of the above -- including an UNREPORTED dual citizenship or undisclosed foreign contact -- during the application or investigation (Guideline E, Personal Conduct). A 16-24-year-old considering this cluster should treat clearance eligibility as a real, independent requirement, not a formality layered on top of a qualifying ASVAB score.",
    "entry_requirements": {
     "asvab_line_score": "GT (General Technical) composite >= 110. CONFIRMED this session via search (cogn-iq.org, corroborated by the official intelligence.marines.mil 0231 fact sheet PDF surfaced in search results though not independently fetched this session).",
     "security_clearance": "Top Secret clearance with access to Sensitive Compartmented Information (SCI), based on a completed Single Scope Background Investigation (SSBI) -- CONFIRMED this session via search. Must be a U.S. citizen.",
@@ -6769,7 +6769,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6780,7 +6780,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6818,7 +6818,7 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "ISR Systems Engineers\u2019 duties encompass all-inclusive encrypted communications with tactical radio platforms, satellite platforms, and data network services from local-level to enterprise-level designs which include but not limited to specialized communications equipment, unit-unique intelligence repositories and...",
+   "what_it_is": "ISR Systems Engineers’ duties encompass all-inclusive encrypted communications with tactical radio platforms, satellite platforms, and data network services from local-level to enterprise-level designs which include but not limited to specialized communications equipment, unit-unique intelligence repositories and...",
    "entry_requirements": {
     "asvab_line_score": "GT 110",
     "security_clearance": null,
@@ -6834,7 +6834,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6845,7 +6845,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6893,7 +6893,7 @@
    "depth": "deep",
    "what_it_is": "Must type 35 WPM. Must have received no NJPs and have no court-martial or civilian convictions for controlled-substance offenses or offenses involving moral turpitude (operationmilitarykids.org, cross-corroborated this session).",
    "entry_requirements": {
-    "asvab_line_score": "GT (General Technical) \u2265 100 AND CL (Clerical) \u2265 105, per operationmilitarykids.org/liveabout.com this session, consistent with the Army/USMC:GT and Army:CL composites referenced for this cluster in data/interest-taxonomy.json. UNVERIFIED at primary-source level \u2014 marines.com was not independently fetched this session.",
+    "asvab_line_score": "GT (General Technical) ≥ 100 AND CL (Clerical) ≥ 105, per operationmilitarykids.org/liveabout.com this session, consistent with the Army/USMC:GT and Army:CL composites referenced for this cluster in data/interest-taxonomy.json. UNVERIFIED at primary-source level — marines.com was not independently fetched this session.",
     "security_clearance": "Not independently confirmed to a specific level this session; reasoned by analogy to Army 27D's sourced Secret requirement, given comparable exposure to case records.",
     "education": "High school diploma or GED",
     "physical": null,
@@ -6907,7 +6907,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6918,7 +6918,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -6969,7 +6969,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -6980,7 +6980,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7012,7 +7012,7 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it.",
+   "what_it_is": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS — a civilian cannot enlist directly into it.",
    "entry_requirements": {
     "asvab_line_score": null,
     "security_clearance": "Must be TS/SCI security eligible",
@@ -7028,7 +7028,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7039,7 +7039,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7076,7 +7076,7 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it.",
+   "what_it_is": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS — a civilian cannot enlist directly into it.",
    "entry_requirements": {
     "asvab_line_score": null,
     "security_clearance": "Must be TS/SCI security eligible",
@@ -7092,7 +7092,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7103,7 +7103,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7156,7 +7156,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7167,7 +7167,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7218,7 +7218,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7229,7 +7229,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7286,7 +7286,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7298,7 +7298,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7329,10 +7329,10 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "Must first qualify and serve as an infantry rifleman (0311 pipeline) before follow-on machine-gunner training \u2014 0331 is not a direct initial accession MOS in the sense that Marines attend the standard Infantry Training Battalion first.",
+   "what_it_is": "Must first qualify and serve as an infantry rifleman (0311 pipeline) before follow-on machine-gunner training — 0331 is not a direct initial accession MOS in the sense that Marines attend the standard Infantry Training Battalion first.",
    "entry_requirements": {
     "asvab_line_score": "EL 90 or GT 90 or MM 90",
-    "security_clearance": "UNVERIFIED \u2014 not independently confirmed at the MOS level this session.",
+    "security_clearance": "UNVERIFIED — not independently confirmed at the MOS level this session.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -7345,7 +7345,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7357,7 +7357,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7405,7 +7405,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7417,7 +7417,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7471,7 +7471,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7482,7 +7482,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7519,7 +7519,7 @@
     "combat-arms"
    ],
    "depth": "deep",
-   "what_it_is": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it.",
+   "what_it_is": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS — a civilian cannot enlist directly into it.",
    "entry_requirements": {
     "asvab_line_score": "GT score of 105 or higher",
     "security_clearance": "(a) Completed finalized adjudicated secret clearance based on a national agency check, law enforcement and credit check (NACLC) or T3 background investigation prior to attending ITC (NOTE: interim secret clearance eligibility will not be accepted). (b) Meet TS/SCI eligibility guidelines upon ITC graduation and assignment to the Marine raider regiment",
@@ -7535,7 +7535,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7546,7 +7546,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7599,7 +7599,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7610,7 +7610,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7638,7 +7638,7 @@
     "music-media"
    ],
    "depth": "deep",
-   "what_it_is": "Drum and Bugle Corps (D&B) Members perform music or music- related duties in support of military ceremonies, official functions, community relations, Marine Corps recruiting, and Marine \"esprit de corps\u201d.",
+   "what_it_is": "Drum and Bugle Corps (D&B) Members perform music or music- related duties in support of military ceremonies, official functions, community relations, Marine Corps recruiting, and Marine \"esprit de corps”.",
    "entry_requirements": {
     "asvab_line_score": null,
     "security_clearance": null,
@@ -7654,7 +7654,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7693,7 +7693,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7705,7 +7705,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7765,7 +7765,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7777,7 +7777,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7837,7 +7837,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7862,9 +7862,9 @@
     "law-enforcement-security"
    ],
    "depth": "deep",
-   "what_it_is": "No conviction by special or general court-martial; no felony conviction; no misdemeanor domestic-violence conviction from civil courts (per operationmilitarykids.org) \u2014 this suitability pattern is consistent across every branch's MP/security-forces specialty documented in this file.",
+   "what_it_is": "No conviction by special or general court-martial; no felony conviction; no misdemeanor domestic-violence conviction from civil courts (per operationmilitarykids.org) — this suitability pattern is consistent across every branch's MP/security-forces specialty documented in this file.",
    "entry_requirements": {
-    "asvab_line_score": "GT score \u2265 100, waiverable by MCRC to as low as 95 for entry-level recruits, per operationmilitarykids.org (single-source this session, not independently cross-confirmed against a primary marines.com/MCRC page).",
+    "asvab_line_score": "GT score ≥ 100, waiverable by MCRC to as low as 95 for entry-level recruits, per operationmilitarykids.org (single-source this session, not independently cross-confirmed against a primary marines.com/MCRC page).",
     "security_clearance": "Eligible for a Secret security clearance required.",
     "education": "High school diploma or GED",
     "physical": null,
@@ -7878,7 +7878,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7889,7 +7889,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -7951,7 +7951,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -7963,7 +7963,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8022,7 +8022,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8034,7 +8034,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8083,7 +8083,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8095,7 +8095,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8139,9 +8139,9 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "Must hold a valid state driver's license before assignment and pass a Motor Vehicle Records (MVR) check confirming no active state license suspension/revocation. This is an ordinary CIVILIAN state license held before and during service \u2014 it is NOT a Commercial Driver's License (CDL) and does not by itself satisfy any civilian CDL requirement. Age 21+ is a separate, later gate that applies to the CIVILIAN CDL skills-test waiver described in civilian_crosswalk below, not to Marine Corps entry into 3531 itself.",
+   "what_it_is": "Must hold a valid state driver's license before assignment and pass a Motor Vehicle Records (MVR) check confirming no active state license suspension/revocation. This is an ordinary CIVILIAN state license held before and during service — it is NOT a Commercial Driver's License (CDL) and does not by itself satisfy any civilian CDL requirement. Age 21+ is a separate, later requirement that applies to the CIVILIAN CDL skills-test waiver described in civilian_crosswalk below, not to Marine Corps entry into 3531 itself.",
    "entry_requirements": {
-    "asvab_line_score": "MM (Mechanical Maintenance) 85 minimum, per multiple corroborating secondary sources (asvabtestbank.com, mosdb.com, militaryyearbookproject.org); not independently confirmed by direct primary .mil/marines.com fetch this session \u2014 the official Marine Corps COOL overview page for 3531 (cool.osd.mil/usmc/moc/index.html?moc=3531&tab=overview) failed to fetch with a TLS certificate error ('unable to verify the first certificate'), the same cool.osd.mil issue documented elsewhere in this project (data/education-benefits.json unverified list).",
+    "asvab_line_score": "MM (Mechanical Maintenance) 85 minimum, per multiple corroborating secondary sources (asvabtestbank.com, mosdb.com, militaryyearbookproject.org); not independently confirmed by direct primary .mil/marines.com fetch this session — the official Marine Corps COOL overview page for 3531 (cool.osd.mil/usmc/moc/index.html?moc=3531&tab=overview) failed to fetch with a TLS certificate error ('unable to verify the first certificate'), the same cool.osd.mil issue documented elsewhere in this project (data/education-benefits.json unverified list).",
     "security_clearance": "Not confirmed as a blanket requirement; not independently verified this session.",
     "education": "High school diploma or GED",
     "physical": null,
@@ -8155,7 +8155,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8166,7 +8166,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8225,7 +8225,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8236,7 +8236,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8280,7 +8280,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8292,7 +8292,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8345,7 +8345,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8356,7 +8356,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8408,7 +8408,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8419,7 +8419,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8463,7 +8463,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8474,7 +8474,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8518,7 +8518,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8557,7 +8557,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8568,7 +8568,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8623,7 +8623,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8634,7 +8634,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8694,7 +8694,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8705,7 +8705,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8749,7 +8749,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8760,7 +8760,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8804,7 +8804,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8816,7 +8816,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8856,7 +8856,7 @@
    "what_it_is": "U.S. citizen or permanent resident alien required.",
    "entry_requirements": {
     "asvab_line_score": "CL 90 or GT 90",
-    "security_clearance": "UNVERIFIED \u2014 not independently confirmed at the MOS level this session.",
+    "security_clearance": "UNVERIFIED — not independently confirmed at the MOS level this session.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -8869,7 +8869,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8881,7 +8881,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8929,7 +8929,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8940,7 +8940,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -8968,7 +8968,7 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "NOT AN ENTRY-LEVEL MOS. NAVMC 1200.1M requires PMOS 7257, NMOS 7252, and either NMOS 7253 or 7254 \u2014 with no waivers. Grade range MGySgt to GySgt. This is the top of the ATC career ladder, roughly 10+ years in.",
+   "what_it_is": "NOT AN ENTRY-LEVEL MOS. NAVMC 1200.1M requires PMOS 7257, NMOS 7252, and either NMOS 7253 or 7254 — with no waivers. Grade range MGySgt to GySgt. This is the top of the ATC career ladder, roughly 10+ years in.",
    "entry_requirements": {
     "asvab_line_score": "CL 110 or GT 110",
     "security_clearance": "Secret",
@@ -8984,7 +8984,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -8996,7 +8996,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9049,7 +9049,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9060,7 +9060,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9118,7 +9118,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9130,7 +9130,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9190,7 +9190,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9201,7 +9201,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9258,7 +9258,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9270,7 +9270,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9327,7 +9327,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9338,7 +9338,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9382,7 +9382,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9394,7 +9394,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9440,7 +9440,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9463,7 +9463,7 @@
     "logistics-supply"
    ],
    "depth": "deep",
-   "what_it_is": "Marine Corps COOL currently lists this MOS under the working title 'Supply Chain Specialist,' distinct from (but referring to the same MOS code as) the formal MOS title 'Supply Administration and Operations Specialist' used in official MOS manuals \u2014 both terms refer to MOS 3043.",
+   "what_it_is": "Marine Corps COOL currently lists this MOS under the working title 'Supply Chain Specialist,' distinct from (but referring to the same MOS code as) the formal MOS title 'Supply Administration and Operations Specialist' used in official MOS manuals — both terms refer to MOS 3043.",
    "entry_requirements": {
     "asvab_line_score": "CL (Clerical) 100 minimum, per search-sourced ASVAB study-guide data; not independently confirmed by direct primary .mil fetch this session.",
     "security_clearance": "Not confirmed as a blanket requirement; not independently verified this session.",
@@ -9479,7 +9479,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9490,7 +9490,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9556,7 +9556,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9567,7 +9567,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9625,7 +9625,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9637,7 +9637,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9679,7 +9679,7 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "The MOS Manual lists no ASVAB line score for 7372 and states that VMGR-452 assigns this MOS \u2014 it is an assigned/lateral aircrew MOS reached from inside the squadron, not one you enlist directly into. Grade range MGySgt to LCpl.",
+   "what_it_is": "The MOS Manual lists no ASVAB line score for 7372 and states that VMGR-452 assigns this MOS — it is an assigned/lateral aircrew MOS reached from inside the squadron, not one you enlist directly into. Grade range MGySgt to LCpl.",
    "entry_requirements": {
     "asvab_line_score": null,
     "security_clearance": "Secret",
@@ -9695,7 +9695,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9706,7 +9706,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9734,7 +9734,7 @@
     "intelligence-analysis"
    ],
    "depth": "deep",
-   "what_it_is": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it.",
+   "what_it_is": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS — a civilian cannot enlist directly into it.",
    "entry_requirements": {
     "asvab_line_score": null,
     "security_clearance": "Must have a current single scope background investigation/T5 investigation and adjudicated for sensitive compartmented information (SCI) eligibility",
@@ -9750,7 +9750,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9761,7 +9761,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9805,7 +9805,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9817,7 +9817,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9861,7 +9861,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9873,7 +9873,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9901,10 +9901,10 @@
     "aviation"
    ],
    "depth": "deep",
-   "what_it_is": "6116 sits within the Marine Corps aviation occupational field (6000 series): the first two digits designate primary-position mechanic (60), helicopter mechanic (61), or fixed-wing mechanic (62) \u2014 per the official Marine Corps aircraft-maintenance careers page (marines.com, fetched 2026-07-12), which lists dozens of specific airframe MOSs in this field, including 6113 (Helicopter Mechanic, CH-53), 6116 (Tiltrotor Mechanic, MV-22), 6217/6218 (Fixed-Wing Aircraft Mechanic, F/A-18 and F-35), and the crew-chief/aircrew MOSs (617X series). 6116 was selected for this record as a genuinely distinctive, current, high-profile Marine Corps airframe (the MV-22B Osprey tiltrotor) rather than an arbitrary pick. A secondary source (UNVERIFIED) reports a five-year minimum enlistment term for this MOS.",
+   "what_it_is": "6116 sits within the Marine Corps aviation occupational field (6000 series): the first two digits designate primary-position mechanic (60), helicopter mechanic (61), or fixed-wing mechanic (62) — per the official Marine Corps aircraft-maintenance careers page (marines.com, fetched 2026-07-12), which lists dozens of specific airframe MOSs in this field, including 6113 (Helicopter Mechanic, CH-53), 6116 (Tiltrotor Mechanic, MV-22), 6217/6218 (Fixed-Wing Aircraft Mechanic, F/A-18 and F-35), and the crew-chief/aircrew MOSs (617X series). 6116 was selected for this record as a genuinely distinctive, current, high-profile Marine Corps airframe (the MV-22B Osprey tiltrotor) rather than an arbitrary pick. A secondary source (UNVERIFIED) reports a five-year minimum enlistment term for this MOS.",
    "entry_requirements": {
     "asvab_line_score": "EL 105 or MM 105",
-    "security_clearance": "UNVERIFIED \u2014 not independently confirmed this session. Flightline/technical-manual access commonly requires at least a Secret clearance for equivalent aviation-maintenance MOSs in the other branches covered by this file.",
+    "security_clearance": "UNVERIFIED — not independently confirmed this session. Flightline/technical-manual access commonly requires at least a Secret clearance for equivalent aviation-maintenance MOSs in the other branches covered by this file.",
     "education": "High school diploma or GED",
     "physical": null,
     "other": null
@@ -9917,7 +9917,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9929,7 +9929,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -9973,7 +9973,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -9985,7 +9985,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -10004,7 +10004,7 @@
     "estimated_civilian_salary_range_usd": null,
     "civilian_median_salary_usd": null,
     "salary_source": null,
-    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight \u2014 it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 31 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, GIAC Security Essentials Certification (GSEC)."
+    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight — it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 31 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, GIAC Security Essentials Certification (GSEC)."
    }
   },
   {
@@ -10033,7 +10033,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -10044,7 +10044,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -10095,7 +10095,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -10107,7 +10107,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -10161,7 +10161,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -10202,7 +10202,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -10213,7 +10213,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -10268,7 +10268,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -10279,7 +10279,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -10323,7 +10323,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -10334,7 +10334,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -10378,7 +10378,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -10389,7 +10389,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -10433,7 +10433,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -10445,7 +10445,7 @@
    },
    "sources": [
     "NAVMC 1200.1L, FY26 Marine Corps MOS Manual (official)",
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -10506,7 +10506,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -10517,7 +10517,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -10570,7 +10570,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."
@@ -10581,7 +10581,7 @@
     "va_disability_common_claims": []
    },
    "sources": [
-    "DoD COOL \u2014 cool.osd.mil (official)"
+    "DoD COOL — cool.osd.mil (official)"
    ],
    "confidence": "official",
    "civilian_crosswalk": {
@@ -10625,7 +10625,7 @@
      "source": "Published service-wide recruit-training length."
     },
     {
-     "stage": "MOS school (length not published \u2014 the Marine Corps does not publish per-MOS course lengths publicly)",
+     "stage": "MOS school (length not published — the Marine Corps does not publish per-MOS course lengths publicly)",
      "location": null,
      "length_weeks": null,
      "source": "NAVMC 1200.1L names the producing school but not its length."

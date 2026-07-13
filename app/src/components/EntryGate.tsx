@@ -94,7 +94,7 @@ export function EntryGate({ s }: { s: SpecialtyRecord }) {
         {test ? (
           <div className="eb-qual">
             <div className="k">
-              The test that actually gates it <Chip tone="alert">not the ASVAB</Chip>
+              The test that actually decides it <Chip tone="alert">not the ASVAB</Chip>
             </div>
             <div className="v">
               <b>{test.name}</b> — {test.note}

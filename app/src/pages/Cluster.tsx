@@ -47,7 +47,7 @@ export default function Cluster() {
           </ul>
         </div>
         <div className="card">
-          <h3>ASVAB composites that gate this work</h3>
+          <h3>ASVAB scores this work asks for</h3>
           <div className="chiprow">
             {cluster.related_asvab_composites.map((c, i) => (
               <Chip key={i} tone="brand">
@@ -56,8 +56,8 @@ export default function Cluster() {
             ))}
           </div>
           <p style={{ marginTop: 12 }}>
-            These are the <em>job</em> gates. They are separate from the AFQT
-            percentile, which only decides whether you can enlist at all.
+            These decide which <em>job</em> you can have. They are separate from
+            the AFQT percentile, which only decides whether you can enlist at all.
           </p>
           <Link to="/prep" className="inline-link">
             See how the ASVAB actually works →
