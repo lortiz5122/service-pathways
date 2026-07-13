@@ -1,0 +1,2718 @@
+{
+ "branch": "Marine Corps",
+ "retrieved": "2026-07-12",
+ "source": "NAVMC 1200.1L (FY26 Marine Corps MOS Manual), 974 pp. marines.mil serves it behind Akamai (HTTP 403 on every route); retrieved from the Internet Archive snapshot of the official PDF: http://web.archive.org/web/20251206195548/https://www.marines.mil/portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf",
+ "method": "Every MOS entry in the manual carries a rank range (e.g. 'Sgt to Pvt'). The BOTTOM rank is the structural answer: an MOS a Private can hold is awarded at an entry-level school; one that bottoms out above Private requires you to already be serving. FAIL CLOSED on any MOS absent from the manual.",
+ "jobs": [
+  {
+   "id": "marine-corps-0161",
+   "code": "0161",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0211",
+   "code": "0211",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0239",
+   "code": "0239",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMSgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0241",
+   "code": "0241",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0245",
+   "code": "0245",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMSgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0261",
+   "code": "0261",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMSgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0271",
+   "code": "0271",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0275",
+   "code": "0275",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cLtCol to 1stLt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0291",
+   "code": "0291",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to MSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0313",
+   "code": "0313",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0321",
+   "code": "0321",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0341",
+   "code": "0341",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0352",
+   "code": "0352",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0363",
+   "code": "0363",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0369",
+   "code": "0369",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0372",
+   "code": "0372",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0393",
+   "code": "0393",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0399",
+   "code": "0399",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to MSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0411",
+   "code": "0411",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0441",
+   "code": "0441",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0451",
+   "code": "0451",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0471",
+   "code": "0471",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0472",
+   "code": "0472",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0491",
+   "code": "0491",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to GySgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0511",
+   "code": "0511",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0521",
+   "code": "0521",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMSgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0522",
+   "code": "0522",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0532",
+   "code": "0532",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-0580",
+   "code": "0580",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCol to Capt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0621",
+   "code": "0621",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0629",
+   "code": "0629",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCWO5 to WO\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0631",
+   "code": "0631",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCWO4 to WO\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0639",
+   "code": "0639",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCWO5 to WO\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0648",
+   "code": "0648",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCWO5 to WO\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0671",
+   "code": "0671",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0679",
+   "code": "0679",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCWO5 to WO\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6432",
+   "code": "6432",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6469",
+   "code": "6469",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6482",
+   "code": "6482",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6483",
+   "code": "6483",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6486",
+   "code": "6486",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6491",
+   "code": "6491",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6492",
+   "code": "6492",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6493",
+   "code": "6493",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6499",
+   "code": "6499",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6531",
+   "code": "6531",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6532",
+   "code": "6532",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6541",
+   "code": "6541",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6577",
+   "code": "6577",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cLtCol to Capt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6591",
+   "code": "6591",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6617",
+   "code": "6617",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to GySgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6672",
+   "code": "6672",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6673",
+   "code": "6673",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6694",
+   "code": "6694",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMSgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6842",
+   "code": "6842",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6852",
+   "code": "6852",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7011",
+   "code": "7011",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7041",
+   "code": "7041",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7051",
+   "code": "7051",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7212",
+   "code": "7212",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7240",
+   "code": "7240",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7252",
+   "code": "7252",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7253",
+   "code": "7253",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7257",
+   "code": "7257",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7276",
+   "code": "7276",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCapt to 2ndLt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7291",
+   "code": "7291",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7313",
+   "code": "7313",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7314",
+   "code": "7314",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7316",
+   "code": "7316",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7372",
+   "code": "7372",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-7382",
+   "code": "7382",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8018",
+   "code": "8018",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCol to 1stLt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "usmc-6116-tiltrotor-mechanic-mv22",
+   "code": "6116",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0111-administrative-specialist",
+   "code": "0111",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "usmc-0311-rifleman",
+   "code": "0311",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "usmc-0331-machine-gunner",
+   "code": "0331",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "usmc-0811-field-artillery-cannoneer",
+   "code": "0811",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3381-food-service-specialist",
+   "code": "3381",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0231-intelligence-specialist",
+   "code": "0231",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5811-military-police",
+   "code": "5811",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-4421-legal-services-specialist",
+   "code": "4421",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "usmc-3043-supply-administration-operations",
+   "code": "3043",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCpl to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "usmc-3531-motor-vehicle-operator",
+   "code": "3531",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0316-crrc-coxswain",
+   "code": "0316 (additional/secondary MOS, not a standalone primary accession MOS \u2014 see entry_requirements.other)",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-1371-combat-engineer",
+   "code": "1371",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3521-automotive-maintenance-technician",
+   "code": "3521",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "usmc-marine-band-musician",
+   "code": "5500 (Basic Musician) accession lineage, filled via the U.S. Marine Band's own independent audition program rather than the general Marine Corps Musician Enlistment Option Program (MEOP). The exact internal designator specific to the premier-band track was not independently confirmed beyond the general 5500 Basic Musician MOS this session.",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "usmc-combat-correspondent",
+   "code": "CODE STATUS: UNVERIFIED-CURRENT. Historically MOS 4341 Combat Correspondent \u2014 still referenced as the MOS awarded by DINFOS's Combat Correspondent Course per DINFOS's own training-department page (secondary-corroborated 2026-07-12). Administratively, the Marine Corps merged the legacy 43XX (Public Affairs) and 46XX (Combat Camera) fields into a new 45XX (Communication Strategy and Operations) occupational field per MARADMIN 484/17 (30 Aug 2017) and MARADMIN 534/17 (28 Sep 2017). A third-party MOS aggregator (mosroadmap.com) lists a '4531 Combat Mass Communicator' code within the 45XX field that may be 4341's current successor, but this was NOT confirmed against a primary Marine Corps MOS manual this session \u2014 presented with both the legacy designation and the known successor field, not guessed.",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1721-cyberspace-warfare-operator",
+   "code": "1721",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cLtCol to Capt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0681",
+   "code": "0681",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0699",
+   "code": "0699",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cLtCol to Capt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0814",
+   "code": "0814",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0842",
+   "code": "0842",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0844",
+   "code": "0844",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0847",
+   "code": "0847",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0848",
+   "code": "0848",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0861",
+   "code": "0861",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0869",
+   "code": "0869",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to GySgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0871",
+   "code": "0871",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0911",
+   "code": "0911",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cLtCol to 1stLt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0913",
+   "code": "0913",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cLtCol to 1stLt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0914",
+   "code": "0914",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0916",
+   "code": "0916",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0917",
+   "code": "0917",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0918",
+   "code": "0918",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0919-force-fitness-instructor",
+   "code": "0919",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cLtCol to 2ndLt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0931",
+   "code": "0931",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0932",
+   "code": "0932",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0933",
+   "code": "0933",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to PFC\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-0951",
+   "code": "0951",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1141",
+   "code": "1141",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cLtCol to Maj\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1164",
+   "code": "1164",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1169",
+   "code": "1169",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to GySgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1171",
+   "code": "1171",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1316",
+   "code": "1316",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1341",
+   "code": "1341",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1342",
+   "code": "1342",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1343",
+   "code": "1343",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-1345",
+   "code": "1345",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1349",
+   "code": "1349",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1361",
+   "code": "1361",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1391",
+   "code": "1391",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1392",
+   "code": "1392",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1711",
+   "code": "1711",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-1751",
+   "code": "1751",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1795",
+   "code": "1795",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to MSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1799",
+   "code": "1799",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1833",
+   "code": "1833",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1834",
+   "code": "1834",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1868",
+   "code": "1868",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-1869",
+   "code": "1869",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2111",
+   "code": "2111",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2112",
+   "code": "2112",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2131",
+   "code": "2131",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2141",
+   "code": "2141",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2146",
+   "code": "2146",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2147",
+   "code": "2147",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2149",
+   "code": "2149",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2161",
+   "code": "2161",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cLtCol to 2ndLt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2171",
+   "code": "2171",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2181",
+   "code": "2181",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2311",
+   "code": "2311",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2336",
+   "code": "2336",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2611",
+   "code": "2611",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2621",
+   "code": "2621",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2623",
+   "code": "2623",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2629",
+   "code": "2629",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2631",
+   "code": "2631",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2641",
+   "code": "2641",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2651",
+   "code": "2651",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2652",
+   "code": "2652",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2691",
+   "code": "2691",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2831",
+   "code": "2831",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2841",
+   "code": "2841",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2847",
+   "code": "2847",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2862",
+   "code": "2862",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2871",
+   "code": "2871",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2874",
+   "code": "2874",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2887",
+   "code": "2887",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-2891",
+   "code": "2891",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to MSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3044",
+   "code": "3044",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3051",
+   "code": "3051",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCpl to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3072",
+   "code": "3072",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-3112",
+   "code": "3112",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3152",
+   "code": "3152",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3311",
+   "code": "3311",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-3361",
+   "code": "3361",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-3372",
+   "code": "3372",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3432",
+   "code": "3432",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3441",
+   "code": "3441",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-3451",
+   "code": "3451",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3524",
+   "code": "3524",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3528",
+   "code": "3528",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMSgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3529",
+   "code": "3529",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3534",
+   "code": "3534",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to PFC\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3536",
+   "code": "3536",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to PFC\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3537",
+   "code": "3537",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-3599",
+   "code": "3599",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-4133",
+   "code": "4133",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-4313",
+   "code": "4313",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-4422",
+   "code": "4422",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-4511",
+   "code": "4511",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-4512",
+   "code": "4512",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-4541",
+   "code": "4541",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-4571",
+   "code": "4571",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-4591",
+   "code": "4591",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-4821",
+   "code": "4821",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5511",
+   "code": "5511",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5512",
+   "code": "5512",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5519",
+   "code": "5519",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to MSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5521",
+   "code": "5521",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5522",
+   "code": "5522",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5523",
+   "code": "5523",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5567",
+   "code": "5567",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5571",
+   "code": "5571",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-5574",
+   "code": "5574",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-5576",
+   "code": "5576",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-5577",
+   "code": "5577",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-5579",
+   "code": "5579",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-5592",
+   "code": "5592",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-5593",
+   "code": "5593",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-5711",
+   "code": "5711",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5713",
+   "code": "5713",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5769",
+   "code": "5769",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5812",
+   "code": "5812",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5813",
+   "code": "5813",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5814",
+   "code": "5814",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5816",
+   "code": "5816",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5821",
+   "code": "5821",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5822",
+   "code": "5822",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5831",
+   "code": "5831",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCWO5 to WO\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5832",
+   "code": "5832",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCWO5 to WO\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5939",
+   "code": "5939",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5948",
+   "code": "5948",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCWO5 to WO\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5952",
+   "code": "5952",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5953",
+   "code": "5953",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCWO5 to WO\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5954",
+   "code": "5954",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cCWO5 to WO\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5955",
+   "code": "5955",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5959",
+   "code": "5959",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to MSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5974",
+   "code": "5974",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5977",
+   "code": "5977",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cLtCol to Capt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5979",
+   "code": "5979",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cLtCol to Capt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-5993",
+   "code": "5993",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6011",
+   "code": "6011",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6012",
+   "code": "6012",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6016",
+   "code": "6016",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6017",
+   "code": "6017",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6018",
+   "code": "6018",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6019",
+   "code": "6019",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to MSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6023",
+   "code": "6023",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6024",
+   "code": "6024",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6033",
+   "code": "6033",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6042",
+   "code": "6042",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6043",
+   "code": "6043",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6044-additive-manufacturing-specialist",
+   "code": "6044",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMaj to 2ndLt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6046",
+   "code": "6046",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6048",
+   "code": "6048",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6049",
+   "code": "6049",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6062",
+   "code": "6062",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6073",
+   "code": "6073",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to GySgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6074",
+   "code": "6074",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6092",
+   "code": "6092",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6113",
+   "code": "6113",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6114",
+   "code": "6114",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6122",
+   "code": "6122",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6123",
+   "code": "6123",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6124",
+   "code": "6124",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6132",
+   "code": "6132",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6153",
+   "code": "6153",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6154",
+   "code": "6154",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6156",
+   "code": "6156",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6162",
+   "code": "6162",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6171",
+   "code": "6171",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6173",
+   "code": "6173",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6174",
+   "code": "6174",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6176",
+   "code": "6176",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6177",
+   "code": "6177",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6178",
+   "code": "6178",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6179",
+   "code": "6179",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6181",
+   "code": "6181",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to LCpl\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6199",
+   "code": "6199",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6212",
+   "code": "6212",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6213",
+   "code": "6213",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6214",
+   "code": "6214",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6216",
+   "code": "6216",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6217",
+   "code": "6217",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6218",
+   "code": "6218",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6222",
+   "code": "6222",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6223",
+   "code": "6223",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6226",
+   "code": "6226",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6227",
+   "code": "6227",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6242",
+   "code": "6242",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6243",
+   "code": "6243",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6244",
+   "code": "6244",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6246",
+   "code": "6246",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6247",
+   "code": "6247",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6252",
+   "code": "6252",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6253",
+   "code": "6253",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6256",
+   "code": "6256",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6257",
+   "code": "6257",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6258",
+   "code": "6258",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6276",
+   "code": "6276",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSgt to Cpl\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6282",
+   "code": "6282",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6283",
+   "code": "6283",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6286",
+   "code": "6286",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6287",
+   "code": "6287",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6288",
+   "code": "6288",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6314",
+   "code": "6314",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6316",
+   "code": "6316",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6317",
+   "code": "6317",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6323",
+   "code": "6323",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6324",
+   "code": "6324",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6326",
+   "code": "6326",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6332",
+   "code": "6332",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6336",
+   "code": "6336",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6337",
+   "code": "6337",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6338",
+   "code": "6338",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6344",
+   "code": "6344",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6391",
+   "code": "6391",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to MSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-6412",
+   "code": "6412",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6413",
+   "code": "6413",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6422",
+   "code": "6422",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-6423",
+   "code": "6423",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-8022",
+   "code": "8022",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to Pvt\u201d. A Private can hold it, so it is awarded at an entry-level school and a recruit can be assigned it. Note: the Marine Corps contracts you into an occupational FIELD, not a specific MOS \u2014 the exact MOS is assigned during training.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-8033",
+   "code": "8033",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8112",
+   "code": "8112",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8114",
+   "code": "8114",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8230",
+   "code": "8230",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8231",
+   "code": "8231",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8412",
+   "code": "8412",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-8421",
+   "code": "8421",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cSSgt to Sgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-8422",
+   "code": "8422",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to GySgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  },
+  {
+   "id": "marine-corps-8431",
+   "code": "8431",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8511",
+   "code": "8511",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8513",
+   "code": "8513",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8530",
+   "code": "8530",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8531",
+   "code": "8531",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8532",
+   "code": "8532",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8534",
+   "code": "8534",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8538",
+   "code": "8538",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8541",
+   "code": "8541",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8552",
+   "code": "8552",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8563",
+   "code": "8563",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8611",
+   "code": "8611",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8652",
+   "code": "8652",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8653",
+   "code": "8653",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8654",
+   "code": "8654",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8915",
+   "code": "8915",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8921",
+   "code": "8921",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8991",
+   "code": "8991",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "This MOS does not appear in the current Marine Corps MOS Manual (NAVMC 1200.1L, FY26). It has most likely been renumbered, consolidated or retired \u2014 0532 Civil Affairs, for example, became 1732. We will not offer a job whose entry path we cannot verify.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "marine-corps-8999",
+   "code": "8999",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "NAVMC 1200.1L lists this MOS at ranks \u201cMGySgt to SSgt\u201d \u2014 the lowest rank that can hold it is above Private. It is awarded by lateral move or promotion once you are already serving; a civilian cannot enlist into it.",
+   "confidence": "official"
+  }
+ ],
+ "unverified": [
+  "0532 Civil Affairs Specialist: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6482 Aircraft Electronic Countermeasures Systems Technician, Fixed Wing, IMA: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6486 Advanced Aircraft Electronic Countermeasures Technician, IMA: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6491 Aviation Precision Measurement Equipment (PME) Chief: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6493 Aviation Meteorological Equipment Technician: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6532 A4 Aviation Ordnance Technician: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6673 Automated Information Systems (AIS) Computer Operator: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "7382 Airborne Radio Operator/In-flight Refueling Observer/Loadmaster: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "0316 (additional/secondary MOS, not a standalone primary accession MOS \u2014 see entry_requirements.other) Combat Rubber Reconnaissance Craft (CRRC) Coxswain: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "5500 (Basic Musician) accession lineage, filled via the U.S. Marine Band's own independent audition program rather than the general Marine Corps Musician Enlistment Option Program (MEOP). The exact internal designator specific to the premier-band track was not independently confirmed beyond the general 5500 Basic Musician MOS this session. Musician \u2014 U.S. Marine Band \"The President's Own\" (premier ensemble): no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "1343 Assault Breacher Vehicle Mechanic: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "1711 Offensive Cyberspace Warfare Operator: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "3072 Aviation Supply Clerk: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "3311 Baker Food Service Marine: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "3361 Subsistence Supply Clerk: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "3441 Non-appropriated fund (NAF) Audit Technician: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "3599 1stSgt Select: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "4313 Broadcast Journalist: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "5571 Drum and Bugle Corps Drum Major: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "5574 Soprano or Mellophone Bugle: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "5576 French horn Bugle: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "5577 Bass Baritone Bugle: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "5579 Contrabass Bugle: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "5592 Drum and Bugle Corps Arranger: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "5593 Percussion: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6024 Aircraft F-4 Phantom II Power Plants GE-J79-8 & -10 Mechanic: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6162 Presidential Support Specialist: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6179 VH-3D Presidential Helicopter Crew Chief: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6243 Fixed-Wing Transport Aircraft Specialist, C-9: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6244 Fixed-Wing Transport Aircraft Specialist, C-12: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6247 Fixed-Wing Transport Aircraft Specialist, UC-35: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6253 Fixed-Wing Aircraft Airframe Mechanic, EA-6: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6283 Fixed-Wing Aircraft Safety Equipment Mechanic, EA-6: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6344 Aircraft Electric Systems Technician, UH-1N/AH-1T: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6412 Aircraft Communications Systems Technician, IMA: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6413 Aircraft Navigation Systems Technician, IFF/RADAR/TACAN, IMA: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "6422 Aircraft Cryptographic Systems Technician, IMA: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8033 Quality Assurance Technician (Subsistence): no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8112 Riverine Assault Craft (RAC) Crewman: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8114 Rigid Raiding Craft (RRC)/Rigid Hull Inflatable Boat (RHIB) Coxswain: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8230 Foreign Area Staff Non-Commissioned Officer Basic/In-Training Foreign Area SNCO: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8231 Education Assistant: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8431 Psychological Operations Noncommissioned Officer: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8511 Drill Instructor: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8513 Marine Combat Instructor: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8530 Marksmanship Coach: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8531 Billet Designator\u2014Marksmanship Instructor: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8532 Small Arms Weapons Instructor: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8534 Equal Opportunity Advisor (EOA): no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8538 Substance Abuse Counselor: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8541 Surveillance, Target Acquisition, and Night Observation (STANO) Marine: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8552 Martial Arts Instructor: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8563 Water Safety/Survival Instructor: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8611 Interpreter (Designated Language): no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8652 Reconnaissance Man, Parachute Qualified: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8653 Reconnaissance Man, Combatant Diver Qualified: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8654 Reconnaissance Man, Parachute and Combatant Diver Qualified: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8915 Billet Designator\u2014Food Service Attendant: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8921 Billet Designator\u2014Athletic and Recreation Assistant: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired",
+  "8991 Sergeant Major of the Marine Corps: no rank range found in NAVMC 1200.1L \u2014 likely renumbered or retired"
+ ]
+}

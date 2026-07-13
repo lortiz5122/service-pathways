@@ -1,0 +1,3382 @@
+{
+  "batch": 1,
+  "branch": "Marine Corps",
+  "retrieved": "2026-07-12",
+  "specialties": [
+    {
+      "id": "marine-corps-0161",
+      "code": "0161",
+      "name": "Postal Clerk",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "depth": "deep",
+      "what_it_is": "Postal Clerks run the Marine Corps' military post offices. They accept, sort, manifest and dispatch personal and official mail, sell stamps and USPS money orders, handle registered mail that can contain classified material, and set up mail service for deployed units. It is a customer-service and logistics job inside a post office, on base and in the field.",
+      "entry_requirements": {
+        "asvab_line_score": "CL score of 95 or higher",
+        "afqt_note": null,
+        "security_clearance": "Must be U.S citizens and have favorable entrance national agency check (ENTNAC), national agency check (NAC) on file",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": null,
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT), School of Infantry \u2014 29 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 4.1
+        },
+        {
+          "stage": "Postal Operations Course (A350151)",
+          "location": "Fort Jackson, SC",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "43-5051.00",
+          "43-5052.00",
+          "43-5053.00"
+        ],
+        "civilian_titles": [
+          "Postal Service Clerks",
+          "Postal Service Mail Carriers",
+          "Postal Service Mail Sorters, Processors, and Processing Machine Operators"
+        ],
+        "relevant_certifications": [
+          "Certified Associate in Project Management (CAPM)",
+          "Foundational-Level Certified Logistics Associate 4.0 (CLA)",
+          "Microsoft Office Specialist (MOS): Excel Associate (Office 2019)",
+          "Microsoft Office Specialist (MOS): Microsoft Access Expert (Office 2019)",
+          "Microsoft Office Specialist (MOS): Microsoft Excel Expert (Office 2019)",
+          "Microsoft Office Specialist (MOS): Microsoft Word Expert (Office 2019)",
+          "Microsoft Office Specialist (MOS): Outlook Associate (Office 2019)",
+          "Microsoft Office Specialist (MOS): PowerPoint Associate (Office 2019)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          42600,
+          74050
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 43-5051 \u2014 Postal Service Clerks: 10th pct $42,600, median $61,630, 90th pct $74,050",
+        "credential_gap_note": "The Postal Operations Course is DoD military-postal training, not USPS employment training. It does not make you a USPS employee and gives no hiring preference beyond standard veterans' preference \u2014 USPS still requires you to apply, pass its entry assessment and be hired competitively. COOL's high-attainability credentials for 0161 are general office certs (Microsoft Office Specialist, Certified Logistics Associate), not postal credentials."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0161",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0211",
+      "code": "0211",
+      "name": "Counterintelligence/Human Intelligence (CI/HUMINT) Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "CI/HUMINT Specialists collect intelligence from people rather than from sensors. They run source operations, conduct interrogations and debriefings, screen local nationals, and do counterintelligence work to detect and disrupt foreign intelligence collection against Marine units. The job is heavy on interviewing, report writing and operating in foreign environments.",
+      "entry_requirements": {
+        "asvab_line_score": "Minimum GT score of 105, or a minimum CL score of 105, or a minimum AFQT score of 55",
+        "afqt_note": "NAVMC 1200.1L also accepts a minimum AFQT score of 55 as an alternative to the GT/CL composite.",
+        "security_clearance": "Must meet sensitive compartmented information (SCI) eligibility guidelines based on a single scope background investigation/T5 investigation. (12) Must be a volunteer corporal, sergeant, or staff sergeant of any MOS. Lance Corporals and gunnery sergeants may apply for lateral move if determined exceptionally qualified by the 0211 MOS specialist, 02XX occupational field manager, and/or MOS sponsor. Lance Corporals will not receive PMOS 0211 until successful completion of the PMOS 0211 producing school and achieving the rank of corporal. (13) Waivers to any prerequisites or requirements must be submitted to and approved by the 02XX occupational field manager",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "MAGTF CI/HUMINT Course (N46HFW2)",
+          "location": "Marine Corps Detachment, Dam Neck, VA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "33-3021.06"
+        ],
+        "civilian_titles": [
+          "Intelligence Analysts"
+        ],
+        "relevant_certifications": [
+          "ACTFL Oral Proficiency Interview (OPI)",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Collection Management Professional - Fundamental (CCMP-F)",
+          "Certified Department of Defense All-Source Analyst I (CDASA-I)",
+          "Cisco Certified Network Associate (CCNA)",
+          "CompTIA A+",
+          "CompTIA Network+",
+          "CompTIA Project+"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          54160,
+          159410
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 33-3021 \u2014 Detectives and Criminal Investigators: 10th pct $54,160, median $93,580, 90th pct $159,410",
+        "credential_gap_note": "This is a lateral-move MOS: you cannot enlist directly into 0211. You must already be a Marine, be 21 by graduation, pass a suitability assessment run by CI/HUMINT personnel, and hold SCI eligibility. The training builds interrogation and source-handling skill but confers no federal law-enforcement credential \u2014 FBI, DIA and police-detective roles all run their own selection and academy. Realistically the TS/SCI clearance you carry out is worth more on the civilian market than the MOS code."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0211",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0239",
+      "code": "0239",
+      "name": "Intelligence Analyst",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "Intelligence Analysts fuse reporting from every intelligence discipline \u2014 human, signals, imagery, geospatial \u2014 into all-source assessments for a commander. They maintain the enemy picture, produce briefs and estimates, and support targeting and planning.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": "Must have a current single scope background investigation/T5 investigation and adjudicated for sensitive compartmented information (SCI) eligibility",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "MAGTF Intelligence Analysis Course (N460JB2)",
+          "location": "Marine Corps Intelligence Schools, MARDET Dam Neck, VA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: NAVMC 1200.1L lists 'Related SOC: None' for this MOS and Marine Corps COOL has no page for it, so no civilian occupation exists to price.",
+        "credential_gap_note": "0239 is a necessary MOS (NMOS), not an entry MOS: you must already hold PMOS 0211, 0231, 0241, 0261 or 2629. NAVMC 1200.1L lists 'Related Standard Occupational Classification (SOC): None' for it \u2014 the Marine Corps itself publishes no civilian equivalent \u2014 and Marine Corps COOL has no page for it, so no credential list exists. Analytic tradecraft does transfer to federal and contractor intelligence work, but that path is gated on the TS/SCI clearance, not on the MOS."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0241",
+      "code": "0241",
+      "name": "Imagery Analysis Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "Imagery Intelligence Specialists exploit pictures and sensor data \u2014 satellite and aircraft imagery, infrared, radar, electro-optical \u2014 to work out what an adversary has and is doing. They measure and annotate imagery, build imagery-intelligence products, and brief what they found.",
+      "entry_requirements": {
+        "asvab_line_score": "GT score of 110 or higher",
+        "afqt_note": null,
+        "security_clearance": "Must meet sensitive compartmented information (SCI) eligibility guidelines based on a single scope background investigation/T5 investigation",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": "Must have normal color vision and normal stereoscopic acuity verified by a medical officer.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT), School of Infantry \u2014 29 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 4.1
+        },
+        {
+          "stage": "Tactical Imagery Analysis Course (TIAC) (N46CTY2)",
+          "location": "Marine Corps Detachment, Dam Neck, VA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "17-1021.00",
+          "17-3031.00",
+          "19-2099.01",
+          "33-3021.06"
+        ],
+        "civilian_titles": [
+          "Cartographers and Photogrammetrists",
+          "Surveying and Mapping Technicians",
+          "Remote Sensing Scientists and Technologists",
+          "Intelligence Analysts"
+        ],
+        "relevant_certifications": [
+          "ArcGIS Developer Foundation 2201",
+          "ArcGIS Pro Associate 2101",
+          "ArcGIS Pro Foundation 2101",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Collection Management Professional - Fundamental (CCMP-F)",
+          "Certified Department of Defense All-Source Analyst I (CDASA-I)",
+          "GIAC Cyber Threat Intelligence (GCTI)",
+          "GIAC Strategic OSINT Analyst (GSOA)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          50500,
+          121440
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 17-1021 \u2014 Cartographers and Photogrammetrists: 10th pct $50,500, median $78,380, 90th pct $121,440",
+        "credential_gap_note": "The skills map onto GIS and remote-sensing work and COOL will fund ArcGIS and GIS Fundamentals certifications \u2014 but the MOS school awards no GIS credential and no degree. Civilian geospatial employers typically want an ArcGIS certification or a geography/GIS degree. Earn the ArcGIS certs on COOL funding while you serve, or you separate with experience and no paper."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0241",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0245",
+      "code": "0245",
+      "name": "Target Mensuration Analyst",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "Target Mensuration Analysts do the precise measurement work behind targeting: deriving exact coordinates and dimensions from imagery to the accuracy standard required before a weapon can be employed, and running collateral-damage estimation. CJCSI 3505.01 requires this work be done by certified personnel.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": "Must have a current single scope background investigation/T5 investigation and adjudicated for sensitive compartmented information (SCI) eligibility",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Air Force Precise Point Positioning (AFP4) Initial Qualification Training Course (F13YLC0), 20th Intelligence Squadron",
+          "location": "Offutt AFB, NE",
+          "length_weeks": null
+        },
+        {
+          "stage": "Collateral Damage Estimation (CDE) Course (N46F333), Joint Targeting School",
+          "location": "NAS Oceana Dam Neck Annex, VA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "17-1021",
+          "17-3031"
+        ],
+        "civilian_titles": [
+          "Cartographers and Photogrammetrists",
+          "Surveying and Mapping Technicians"
+        ],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": [
+          50500,
+          121440
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 17-1021 \u2014 Cartographers and Photogrammetrists: 10th pct $50,500, median $78,380, 90th pct $121,440",
+        "credential_gap_note": "0245 is an NMOS layered on MOS 0241 \u2014 you cannot enlist into it. What you earn is a DoD precise-point-mensuration certification tied to weapons targeting; it has no civilian licence equivalent. The transferable part is the underlying photogrammetry, which is why the manual's crosswalk points at Cartographers and Photogrammetrists."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0261",
+      "code": "0261",
+      "name": "Geospatial Intelligence Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "Geospatial Intelligence Specialists build the terrain and map picture a commander plans on. They collect and process geophysical and geographic data, run GIS software, produce maps and terrain analyses, and answer how ground, weather and infrastructure will affect an operation.",
+      "entry_requirements": {
+        "asvab_line_score": "CL Score of 110 or GT score of 110 or higher",
+        "afqt_note": null,
+        "security_clearance": "Must meet sensitive compartmented information (SCI) eligibility guidelines based on a single scope background investigation/T5 investigation",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": "Must have normal color vision and normal stereoscopic acuity.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT), School of Infantry \u2014 29 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 4.1
+        },
+        {
+          "stage": "Basic Geographic Intelligence Specialist (BGIS) Course (N46HB22)",
+          "location": "Marine Corps Detachment, Dam Neck, VA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "17-1021.00",
+          "17-3031.00"
+        ],
+        "civilian_titles": [
+          "Cartographers and Photogrammetrists",
+          "Surveying and Mapping Technicians"
+        ],
+        "relevant_certifications": [
+          "ACTFL Oral Proficiency Interview (OPI)",
+          "ArcGIS Developer Foundation 2201",
+          "ArcGIS Pro Associate 2101",
+          "ArcGIS Pro Foundation 2101",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Collection Management Professional - Fundamental (CCMP-F)",
+          "Certified Department of Defense All-Source Analyst I (CDASA-I)",
+          "CompTIA Data+"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          50500,
+          121440
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 17-1021 \u2014 Cartographers and Photogrammetrists: 10th pct $50,500, median $78,380, 90th pct $121,440",
+        "credential_gap_note": "This is the closest thing in the Corps to a civilian GIS job, and COOL funds ArcGIS Pro and GIS Fundamentals certifications for it \u2014 but the BGIS course grants no GIS certification, and most civilian GIS analyst postings ask for a bachelor's degree in geography or GIS. Take the ArcGIS certs on COOL funding before you separate; the MOS alone is not a credential. Note the MOS is now titled Geospatial (not Geographic) Intelligence Specialist."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0261",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0271",
+      "code": "0271",
+      "name": "Aviation Intelligence Specialists",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "Aviation Intelligence Specialists are the intelligence section of a flying squadron. They brief and debrief aircrew, build the threat picture for a mission, maintain target and threat materials, and support aviation mission planning.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": "Must meet sensitive compartmented information (SCI) eligibility guidelines based on a single scope background investigation/T5 investigation",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Squadron Intelligence Training Certification Course (N46F022), Marine Corps Intelligence Schools",
+          "location": "Marine Corps Detachment, Dam Neck, VA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "55-3019"
+        ],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: the only occupational code published for this MOS is a military-only SOC (55-xxxx), for which BLS publishes no civilian wage.",
+        "credential_gap_note": "0271 is a necessary MOS attached to PMOS 0231 \u2014 not a job you can enlist for. NAVMC 1200.1L lists its Related SOC as 55-3019, a military-only code for which BLS publishes no civilian wage, and Marine Corps COOL has no page for the MOS. There is no civilian licence for aircrew intelligence briefing."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0275",
+      "code": "0275",
+      "name": "Collection Management Officer (II/III)",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "Collection managers turn a commander's intelligence gaps into a synchronised plan that tasks the right sensors and collectors, then track whether the questions actually got answered.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": "Must meet sensitive compartmented information eligibility guidelines based on a single scope background investigation/T5 investigation",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Naval Collection Manager's Course (N46KY32)",
+          "location": "MARDET Dam Neck, VA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "55-1015"
+        ],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: the only occupational code published for this MOS is a military-only SOC (55-xxxx), for which BLS publishes no civilian wage.",
+        "credential_gap_note": "IMPORTANT \u2014 this is not an enlisted job. In NAVMC 1200.1L, MOS 0275 is 'Collection Management Officer (II/III)', graded LtCol to 1stLt and CWO5 to WO, and is an NMOS requiring PMOS 0202, 0205, 0210 or 2602. It is an officer / warrant-officer MOS and cannot be enlisted into; it should probably not appear in an enlisted careers list. Its listed SOC (55-1015) is military-only with no BLS civilian wage."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0291",
+      "code": "0291",
+      "name": "Intelligence Chief (MGySgt)",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "The Intelligence Chief is the senior enlisted Marine in an intelligence section \u2014 a Master Gunnery Sergeant who runs the section's people, training and administration and advises the commander on intelligence.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "No producing school listed in NAVMC 1200.1L; awarded on promotion to MGySgt from PMOS 0211/0231/0241/0261",
+          "location": "N/A",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-1021.00",
+          "33-3021.06"
+        ],
+        "civilian_titles": [
+          "General and Operations Managers",
+          "Intelligence Analysts"
+        ],
+        "relevant_certifications": [
+          "ArcGIS Developer Foundation 2201",
+          "ArcGIS Pro Associate 2101",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Collection Management Professional - Fundamental (CCMP-F)",
+          "Certified Department of Defense All-Source Analyst I (CDASA-I)",
+          "CompTIA Project+",
+          "GIAC Cyber Threat Intelligence (GCTI)",
+          "Intelligence Fundamentals Professional Certification (IFPC)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          54160,
+          159410
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 33-3021 \u2014 Detectives and Criminal Investigators: 10th pct $54,160, median $93,580, 90th pct $159,410",
+        "credential_gap_note": "An E-9 capstone MOS, not something you enlist into: it requires already holding PMOS 0211, 0231, 0241 or 0261 and reaching Master Gunnery Sergeant, which in practice means 20+ years of service. COOL maps it to management and intelligence-analysis occupations, but what carries into civilian work at that point is two decades of leadership plus a TS/SCI \u2014 not the MOS code."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0291",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0313",
+      "code": "0313",
+      "name": "Light Armored Reconnaissance Marine",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "depth": "deep",
+      "what_it_is": "LAR Marines are infantry who fight from the LAV-25, an eight-wheeled light armoured vehicle. They crew and scout from the vehicle \u2014 driving, gunning, dismounting to patrol \u2014 doing armoured reconnaissance and screening well forward of the main force.",
+      "entry_requirements": {
+        "asvab_line_score": "CL score of 90 or GT score of 90 or higher",
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": "Must have WS-B water survival qualification. Must possess normal color vision, normal depth perception and visual acuity of 20/200 (correctable to 20/20).",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Infantry Marine Course, School of Infantry \u2014 Infantry Training Battalion, 52 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 7.4
+        },
+        {
+          "stage": "Light Armored Reconnaissance Marine Course (LARMC) (M10H2F2)",
+          "location": "Camp Pendleton, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-3013.01",
+          "11-9161.00",
+          "21-1092.00",
+          "33-1011.00"
+        ],
+        "civilian_titles": [
+          "Security Managers",
+          "Emergency Management Directors",
+          "Probation Officers and Correctional Treatment Specialists",
+          "First-Line Supervisors of Correctional Officers"
+        ],
+        "relevant_certifications": [
+          "Associate Emergency Manager (AEM)",
+          "Automobile Service Consultant (C1)",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Jail Manager (CJM)",
+          "Certified Jail Officer (CJO)",
+          "Commercial Driver's License (CDL)",
+          "CompTIA Project+",
+          "General Radiotelephone Operator License (PG)"
+        ],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: Marine Corps COOL rates every civilian occupation it lists for this MOS as only a partial ('some duties') match, so quoting any one occupation's wage would misrepresent the crosswalk.",
+        "credential_gap_note": "Blunt reality: Marine Corps COOL lists NO civilian occupation for which 0313 meets 'most' duties \u2014 every civilian match it publishes is partial ('some duties'). The credentials COOL funds for 0313 are generic (CompTIA Project+, Microsoft Office, Associate Emergency Manager) and unrelated to the job you actually did. You do not leave with a CDL or a mechanic's licence from the MOS itself. If you want a trade out of this, you must deliberately chase a credential on COOL or tuition assistance while serving."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0313",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0321",
+      "code": "0321",
+      "name": "Reconnaissance Marine",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "depth": "deep",
+      "what_it_is": "Reconnaissance Marines get eyes on the enemy before anyone else does. They insert by land, sea, air or parachute, move undetected, watch and report, and get out. The job is gated on water ability \u2014 the manual requires advanced water-survival qualification plus a reconnaissance physical assessment and aquatic competency test.",
+      "entry_requirements": {
+        "asvab_line_score": "CL score of 105 or GT score of 105 or higher",
+        "afqt_note": null,
+        "security_clearance": "Must have minimum interim secret security clearance based on national agency check, law enforcement and credit check (NACLC)",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": "Marines must possess a water survival-intermediate (WS-I), water survival qualification to enter the reconnaissance physical assessment program (RTAP). Must possess a water survival-advanced (WS-A), water survival qualification to enter the Basic Reconnaissance Course (BRC) (M10AHK2). Must obtain a passing score in all following land and aquatic events during the reconnaissance physical assessment program (RTAP): (a) Max set pullups\u2013min 8/target reps 15+ 2:00 minute rest. Obstacle course x2\u2013min 8:00. 500-meter swim 15 min (side or breaststroke, continuous swim). 25-meter underwater swim. Marin",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) (M10M922 / M03M924)",
+          "location": "SOI-West, Camp Pendleton, CA or SOI-East, Camp Lejeune, NC",
+          "length_weeks": null
+        },
+        {
+          "stage": "Reconnaissance Training Assessment Program (RTAP) (M100Z22)",
+          "location": "Camp Pendleton, CA",
+          "length_weeks": null
+        },
+        {
+          "stage": "Basic Reconnaissance Course (BRC) (M10AHK2)",
+          "location": "Camp Pendleton, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-3013.01",
+          "11-9161.00",
+          "15-1299.02",
+          "17-3031.00"
+        ],
+        "civilian_titles": [
+          "Security Managers",
+          "Emergency Management Directors",
+          "Geographic Information Systems Technologists and Technicians",
+          "Surveying and Mapping Technicians"
+        ],
+        "relevant_certifications": [
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Jail Manager (CJM)",
+          "Certified Jail Officer (CJO)",
+          "Commercial Driver's License (CDL)",
+          "CompTIA A+",
+          "CompTIA Network+",
+          "CompTIA Project+",
+          "GMDSS Radio Maintainer License (DM)"
+        ],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: Marine Corps COOL rates every civilian occupation it lists for this MOS as only a partial ('some duties') match, so quoting any one occupation's wage would misrepresent the crosswalk.",
+        "credential_gap_note": "Marine Corps COOL lists no civilian occupation matching 'most' of a Recon Marine's duties \u2014 all published matches are partial. Elite reconnaissance has almost no direct civilian licence: the dive and parachute qualifications earned here are military qualifications, and a civilian commercial-diving or FAA rigger/skydiving licence is a separate certification you would still have to obtain. The credible civilian paths (federal law enforcement, contracting) hire on clearance, fitness and record \u2014 not on the MOS code."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0321",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0341",
+      "code": "0341",
+      "name": "Mortarman",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "depth": "deep",
+      "what_it_is": "Mortarmen employ the M224 60mm and M252 81mm mortars \u2014 indirect-fire tubes that lob shells onto targets the rifle squad cannot see or reach. They carry and set up the gun, compute firing data, and put rounds on target for the infantry they support.",
+      "entry_requirements": {
+        "asvab_line_score": "CL score of 90 or GT score of 90 or higher",
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": "Must have a WS-B water survival.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Infantry Marine Course, School of Infantry \u2014 Infantry Training Battalion, 52 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 7.4
+        },
+        {
+          "stage": "Infantry Mortarman Course (M030344 / M100342)",
+          "location": "SOI-East, Camp Lejeune, NC or SOI-West, Camp Pendleton, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "33-3051.00",
+          "33-9032.00",
+          "47-4041.00",
+          "47-5032.00"
+        ],
+        "civilian_titles": [
+          "Police and Sheriff's Patrol Officers",
+          "Security Guards",
+          "Hazardous Materials Removal Workers",
+          "Explosives Workers, Ordnance Handling Experts, and Blasters"
+        ],
+        "relevant_certifications": [
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Jail Manager (CJM)",
+          "Certified Jail Officer (CJO)",
+          "Commercial Driver's License (CDL)",
+          "CompTIA Project+",
+          "General Radiotelephone Operator License (PG)",
+          "Microsoft Office Specialist (MOS): Excel Associate (Office 2019)",
+          "Microsoft Office Specialist (MOS): Microsoft Access Expert (Office 2019)"
+        ],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: Marine Corps COOL rates every civilian occupation it lists for this MOS as only a partial ('some duties') match, so quoting any one occupation's wage would misrepresent the crosswalk.",
+        "credential_gap_note": "Marine Corps COOL lists no civilian occupation matching 'most' of a Mortarman's duties. The high-attainability credentials COOL funds for 0341 are Microsoft Office Specialist and CompTIA Project+ \u2014 office certifications with nothing to do with the job you did. Ballistics and indirect fire have no civilian market. Treat this MOS as one that gives you leadership, discipline and the GI Bill, and plan the civilian credential separately and early."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0341",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0352",
+      "code": "0352",
+      "name": "Antitank Missile Gunner",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "depth": "deep",
+      "what_it_is": "Antitank Missile Gunners kill armour. They employ the TOW heavy antitank missile and the shoulder-fired Javelin, operate the tactical vehicles that carry those systems, and handle anti-armour gunnery and target engagement for the infantry.",
+      "entry_requirements": {
+        "asvab_line_score": "GT score of 95 or MM score of 95 or higher",
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": "Must have a WS-B water survival. Must have normal color vision, and vision of 20/200, correctable to 20/20.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Infantry Marine Course, School of Infantry \u2014 Infantry Training Battalion, 52 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 7.4
+        },
+        {
+          "stage": "Infantry Anti-Tank Missile Gunner Course (M10T2B2 / M03T2B4)",
+          "location": "SOI-West, Camp Pendleton, CA or SOI-East, Camp Lejeune, NC",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-3013.01",
+          "11-9161.00",
+          "21-1092.00",
+          "33-1011.00"
+        ],
+        "civilian_titles": [
+          "Security Managers",
+          "Emergency Management Directors",
+          "Probation Officers and Correctional Treatment Specialists",
+          "First-Line Supervisors of Correctional Officers"
+        ],
+        "relevant_certifications": [
+          "Associate Emergency Manager (AEM)",
+          "Automobile Service Consultant (C1)",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Jail Manager (CJM)",
+          "Certified Jail Officer (CJO)",
+          "Commercial Driver's License (CDL)",
+          "CompTIA Project+",
+          "General Radiotelephone Operator License (PG)"
+        ],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: Marine Corps COOL rates every civilian occupation it lists for this MOS as only a partial ('some duties') match, so quoting any one occupation's wage would misrepresent the crosswalk.",
+        "credential_gap_note": "Marine Corps COOL lists no civilian occupation matching 'most' of a 0352's duties, and the credentials it funds are generic office and project-management ones. Guided-missile gunnery does not convert into a civilian trade or licence. Note the current manual sets entry at GT 95 or MM 95 \u2014 lower than the GT 100 commonly quoted."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0352",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0363",
+      "code": "0363",
+      "name": "Light Armored Reconnaissance Unit Leader",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "depth": "deep",
+      "what_it_is": "The LAR Unit Leader is the Staff NCO who advises an LAR commander and runs the tactical employment of light armoured reconnaissance vehicles and their crews.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": "Must be TS/SCI security eligible",
+        "education": null,
+        "physical": "Must have WS-I water survival qualification.",
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Light Armored Reconnaissance Vehicle Commanders Course (M10H3V2)",
+          "location": "Camp Pendleton, CA",
+          "length_weeks": null
+        },
+        {
+          "stage": "Light Armored Reconnaissance Leader Course (M10H3W2)",
+          "location": "Camp Pendleton, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-3013.01",
+          "11-9161.00",
+          "21-1092.00",
+          "33-1011.00"
+        ],
+        "civilian_titles": [
+          "Security Managers",
+          "Emergency Management Directors",
+          "Probation Officers and Correctional Treatment Specialists",
+          "First-Line Supervisors of Correctional Officers"
+        ],
+        "relevant_certifications": [
+          "Associate Emergency Manager (AEM)",
+          "Associate Professional in Human Resources (aPHR)",
+          "Automobile Service Consultant (C1)",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Instructional Trainer (CIT)",
+          "Certified Jail Manager (CJM)",
+          "Certified Jail Officer (CJO)",
+          "Commercial Driver's License (CDL)"
+        ],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: Marine Corps COOL rates every civilian occupation it lists for this MOS as only a partial ('some duties') match, so quoting any one occupation's wage would misrepresent the crosswalk.",
+        "credential_gap_note": "Not an entry MOS: it requires already holding PMOS 0313, the rank of SSgt-GySgt, TS/SCI eligibility and a water-survival qualification. Marine Corps COOL lists no civilian occupation matching 'most' of its duties. What transfers is supervisory experience, not a credential."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0363",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0369",
+      "code": "0369",
+      "name": "Infantry Unit Leader",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "depth": "deep",
+      "what_it_is": "The Infantry Unit Leader is the Staff NCO who plans and runs infantry operations for a commander \u2014 employing the unit's organic weapons systems, training the Marines, and leading platoons and sections in the field.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance required",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Infantry Unit Leader Course (M03H5K4 / M10H5K2)",
+          "location": "School of Infantry, Camp Lejeune, NC or SOI-West, Camp Pendleton, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-1021.00",
+          "11-3071.00",
+          "11-9161.00",
+          "17-3031.00"
+        ],
+        "civilian_titles": [
+          "General and Operations Managers",
+          "Transportation, Storage, and Distribution Managers",
+          "Emergency Management Directors",
+          "Surveying and Mapping Technicians"
+        ],
+        "relevant_certifications": [
+          "Associate Professional in Human Resources (aPHR)",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Instructional Trainer (CIT)",
+          "Certified Jail Manager (CJM)",
+          "Certified Jail Officer (CJO)",
+          "Commercial Driver's License (CDL)",
+          "CompTIA Project+",
+          "General Radiotelephone Operator License (PG)"
+        ],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: Marine Corps COOL rates every civilian occupation it lists for this MOS as only a partial ('some duties') match, so quoting any one occupation's wage would misrepresent the crosswalk.",
+        "credential_gap_note": "Not an entry MOS: it requires promotion to Staff Sergeant and having held 0311, 0331, 0341 or 0352. COOL lists no civilian occupation matching 'most' of its duties; the credentials it funds are generic (aPHR, CompTIA Project+, Microsoft Office). Leadership at this level is genuinely valuable to employers, but it is experience you have to translate on a r\u00e9sum\u00e9 \u2014 not a licence you hold."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0369",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0372",
+      "code": "0372",
+      "name": "Marine Raider",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "depth": "deep",
+      "what_it_is": "Marine Raiders are Marine Corps special operators. They run direct action, special reconnaissance and counter-terrorism, and train and advise partner forces overseas, working in small teams under MARSOC. Entry is by Assessment & Selection followed by the Individual Training Course.",
+      "entry_requirements": {
+        "asvab_line_score": "GT score of 105 or higher",
+        "afqt_note": null,
+        "security_clearance": "(a) Completed finalized adjudicated secret clearance based on a national agency check, law enforcement and credit check (NACLC) or T3 background investigation prior to attending ITC (NOTE: interim secret clearance eligibility will not be accepted). (b) Meet TS/SCI eligibility guidelines upon ITC graduation and assignment to the Marine raider regiment",
+        "education": null,
+        "physical": "Not exceeding an 8:00 maximum time while conducting two repetitions of the obstacle course. Water survival intermediate (WSI), to include not exceeding a 13:00 maximum time for a 300-meter swim using the breaststroke or side stroke.",
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "MARFORSOC Assessment & Selection (A&S)",
+          "location": "Camp Lejeune, NC",
+          "length_weeks": null
+        },
+        {
+          "stage": "MARFORSOC Individual Training Course (ITC) (M03KZ4K)",
+          "location": "Camp Lejeune, NC",
+          "length_weeks": null
+        },
+        {
+          "stage": "SERE Level C Course (M03M47K)",
+          "location": "Location not specified in NAVMC 1200.1L",
+          "length_weeks": null
+        },
+        {
+          "stage": "Basic Airborne Course (A030CG1)",
+          "location": "Fort Moore (Benning), GA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-1021.00",
+          "11-3013.01",
+          "11-3071.00",
+          "11-9161.00"
+        ],
+        "civilian_titles": [
+          "General and Operations Managers",
+          "Security Managers",
+          "Transportation, Storage, and Distribution Managers",
+          "Emergency Management Directors"
+        ],
+        "relevant_certifications": [
+          "Associate Emergency Manager (AEM)",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Jail Manager (CJM)",
+          "Certified Jail Officer (CJO)",
+          "Commercial Driver's License (CDL)",
+          "CompTIA A+",
+          "CompTIA Data+",
+          "CompTIA DataSys+"
+        ],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: Marine Corps COOL rates every civilian occupation it lists for this MOS as only a partial ('some duties') match, so quoting any one occupation's wage would misrepresent the crosswalk.",
+        "credential_gap_note": "You cannot enlist into 0372. Per NAVMC 1200.1L you must already be at least a Corporal with no more than eight years in service, pass A&S, and graduate ITC. Despite the depth of the training, Marine Corps COOL lists no civilian occupation matching 'most' of a Raider's duties \u2014 special operations has no civilian licence. The language, medical and technical skills picked up along the way are the transferable pieces, and each needs its own civilian certification. Note the MOS is now titled Marine Raider, not Critical Skills Operator."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0372",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0393",
+      "code": "0393",
+      "name": "Light Armored Reconnaissance Operations Chief",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "depth": "deep",
+      "what_it_is": "The LAR Operations Chief is the senior enlisted tactical advisor to the commander and staff of a Light Armored Reconnaissance company or battalion.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": "Must be TS/SCI security eligible",
+        "education": null,
+        "physical": "Must have WS-I water survival qualification.",
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Operations and Tactics Instructor Chief Course (M09HE35)",
+          "location": "Location not specified in NAVMC 1200.1L",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-1021.00",
+          "11-3013.01",
+          "11-3071.00",
+          "11-9161.00"
+        ],
+        "civilian_titles": [
+          "General and Operations Managers",
+          "Security Managers",
+          "Transportation, Storage, and Distribution Managers",
+          "Emergency Management Directors"
+        ],
+        "relevant_certifications": [
+          "Associate Emergency Manager (AEM)",
+          "Associate Professional in Human Resources (aPHR)",
+          "Automobile Service Consultant (C1)",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Instructional Trainer (CIT)",
+          "Certified Jail Manager (CJM)",
+          "Certified Jail Officer (CJO)",
+          "Commercial Driver's License (CDL)"
+        ],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: Marine Corps COOL rates every civilian occupation it lists for this MOS as only a partial ('some duties') match, so quoting any one occupation's wage would misrepresent the crosswalk.",
+        "credential_gap_note": "A senior-SNCO capstone MOS (MSgt/MGySgt) requiring prior PMOS 0363 and TS/SCI eligibility \u2014 not something a recruit can be assigned. Marine Corps COOL lists no civilian occupation matching 'most' of its duties."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0393",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0399",
+      "code": "0399",
+      "name": "Operations Chief",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "combat-arms"
+      ],
+      "depth": "deep",
+      "what_it_is": "The Operations Chief is the senior enlisted Marine in an operations shop, helping the commander plan, train for and execute operations and synchronise the MAGTF's warfighting functions.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": "(a) Top secret security clearance eligibility required for master sergeant",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "No producing school listed in NAVMC 1200.1L; awarded from PMOS 0369",
+          "location": "N/A",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-1021.00",
+          "11-3071.00",
+          "11-9161.00",
+          "17-3031.00"
+        ],
+        "civilian_titles": [
+          "General and Operations Managers",
+          "Transportation, Storage, and Distribution Managers",
+          "Emergency Management Directors",
+          "Surveying and Mapping Technicians"
+        ],
+        "relevant_certifications": [
+          "Associate Professional in Human Resources (aPHR)",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Instructional Trainer (CIT)",
+          "Certified Jail Manager (CJM)",
+          "Certified Jail Officer (CJO)",
+          "Commercial Driver's License (CDL)",
+          "CompTIA Project+",
+          "General Radiotelephone Operator License (PG)"
+        ],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: Marine Corps COOL rates every civilian occupation it lists for this MOS as only a partial ('some duties') match, so quoting any one occupation's wage would misrepresent the crosswalk.",
+        "credential_gap_note": "Requires having held MOS 0369 and reaching Master Sergeant or Master Gunnery Sergeant with a top secret clearance \u2014 a 15-to-20-year capstone, not an entry job. NAVMC 1200.1L lists 'Related SOC: None', and COOL publishes no civilian occupation matching 'most' of its duties."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0399",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0411",
+      "code": "0411",
+      "name": "Maintenance Management Analyst",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "depth": "deep",
+      "what_it_is": "Maintenance Management Analysts run the data and paperwork behind keeping ground equipment working: maintenance records, readiness reporting, parts and work orders, and advising commodity managers on keeping gear in service. It is an analytics and administration job inside a maintenance organisation \u2014 not turning wrenches.",
+      "entry_requirements": {
+        "asvab_line_score": "CL of 95 or GT score of 95 or higher",
+        "afqt_note": null,
+        "security_clearance": "Must have a favorable national agency check, local agency check, and credit check (NACLC)",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": null,
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT), School of Infantry \u2014 29 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 4.1
+        },
+        {
+          "stage": "Basic Maintenance Management Specialist Course (BMMSC) (M03LAD7), Logistics Operations School, MCCSSS",
+          "location": "Camp Johnson, NC",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "49-9071.00"
+        ],
+        "civilian_titles": [
+          "Maintenance and Repair Workers, General"
+        ],
+        "relevant_certifications": [
+          "Certified Maintenance and Reliability Professionals (CMRP)",
+          "Certified Maintenance and Reliability Technician (CMRT)",
+          "Commercial Driver's License (CDL)",
+          "CompTIA Project+",
+          "Foundational-Level Certified Logistics Associate 4.0 (CLA)",
+          "Operations and Performance Management Professional (OPMP) - Recertification Only"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          33860,
+          76110
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 49-9071 \u2014 Maintenance and Repair Workers, General: 10th pct $33,860, median $48,620, 90th pct $76,110",
+        "credential_gap_note": "You manage maintenance data; you do not become a mechanic, and the MOS awards no repair licence. COOL funds a Certified Maintenance and Reliability Technician (CMRT) and a CDL as high-attainability credentials for 0411 \u2014 those, not the MOS, are what a civilian employer recognises. Note the current manual titles this Maintenance Management Analyst and sets the line score at CL 95 or GT 95, not GT 100."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0411",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0441",
+      "code": "0441",
+      "name": "Logistics Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "depth": "deep",
+      "what_it_is": "Logistics Specialists plan and coordinate how a unit gets supplied and moved \u2014 tracking supply, maintenance and transportation requirements, building embarkation and distribution plans, and keeping the materiel picture straight for the commander.",
+      "entry_requirements": {
+        "asvab_line_score": "GT score of 100 or higher",
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance eligibility",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": null,
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT), School of Infantry \u2014 29 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 4.1
+        },
+        {
+          "stage": "Basic Logistics Course (M030DQ7), Logistics Operations School, MCCSSS",
+          "location": "Camp Johnson / Camp Lejeune, NC",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-3071.00",
+          "13-1081.00",
+          "43-5011.00",
+          "43-5071.00"
+        ],
+        "civilian_titles": [
+          "Transportation, Storage, and Distribution Managers",
+          "Logisticians",
+          "Cargo and Freight Agents",
+          "Shipping, Receiving, and Inventory Clerks"
+        ],
+        "relevant_certifications": [
+          "Commercial Driver's License (CDL)",
+          "Foundational-Level Certified Logistics Associate 4.0 (CLA)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          49260,
+          132110
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 13-1081 \u2014 Logisticians: 10th pct $49,260, median $80,880, 90th pct $132,110",
+        "credential_gap_note": "One of the better-transferring MOSs, and COOL maps it to Logisticians (SOC 13-1081) \u2014 but COOL funds only two high-attainability credentials for 0441 (a Certified Logistics Associate and a CDL), and many civilian logistician postings ask for a bachelor's degree. The MOS gives you real experience; the degree or the CLA/CDL is what gets you the interview."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0441",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0451",
+      "code": "0451",
+      "name": "Airborne and Air Delivery Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "depth": "deep",
+      "what_it_is": "Airborne and Air Delivery Specialists are the Corps' parachute riggers. They pack, inspect and maintain the parachutes and airdrop equipment used to drop people and cargo out of aircraft, and they rig loads for air delivery. They are jump-qualified and jump with the gear they pack.",
+      "entry_requirements": {
+        "asvab_line_score": "CL score of 95 or EL score of 95 or GT score of 100 or higher",
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance eligibility",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": "Must have initial recruit training swim qualification of WS-B (+) water survival qualification. army physical fitness test prior to shipping to Airborne Course (A030CG1), U. army physical fitness test upon checking into the U.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT), School of Infantry \u2014 29 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 4.1
+        },
+        {
+          "stage": "Basic Airborne Course (A030CG1), U.S. Army Infantry School",
+          "location": "Fort Moore (Benning), GA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "53-2022.00",
+          "53-2031.00",
+          "53-6051.01"
+        ],
+        "civilian_titles": [
+          "Airfield Operations Specialists",
+          "Flight Attendants",
+          "Aviation Inspectors"
+        ],
+        "relevant_certifications": [
+          "Foundational-Level Certified Logistics Associate 4.0 (CLA)",
+          "Senior Parachute Rigger"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          35200,
+          111030
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 53-2022 \u2014 Airfield Operations Specialists: 10th pct $35,200, median $56,750, 90th pct $111,030",
+        "credential_gap_note": "One of the few MOSs with a genuine civilian credential attached: COOL lists Senior Parachute Rigger as a high-attainability credential. But the FAA Parachute Rigger certificate is a separate FAA rating (14 CFR Part 65) \u2014 military rigging experience makes you eligible to sit for it, it is not automatically awarded with the MOS. Chase the FAA rating before you separate, or the skill does not travel."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0451",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0471",
+      "code": "0471",
+      "name": "Personnel Retrieval and Processing Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "depth": "deep",
+      "what_it_is": "Personnel Retrieval and Processing Specialists handle the dead. They search for and recover human remains, process and tentatively identify them, handle personal effects, and manage interment, disinterment and transportation \u2014 in combat and in disaster response. The manual requires you to volunteer for it.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance eligibility",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": null,
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT), School of Infantry \u2014 29 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 4.1
+        },
+        {
+          "stage": "Fatality Management Specialist Course (A14M2B1), U.S. Army Quartermaster School",
+          "location": "Fort Gregg-Adams, VA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "39-4021.00"
+        ],
+        "civilian_titles": [
+          "Funeral Attendants"
+        ],
+        "relevant_certifications": [
+          "Foundational-Level Certified Logistics Associate 4.0 (CLA)",
+          "National Board Examination (NBE)",
+          "Registry Certification (basic)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          26820,
+          46690
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 39-4021 \u2014 Funeral Attendants: 10th pct $26,820, median $34,610, 90th pct $46,690",
+        "credential_gap_note": "You are trained in fatality management, not funeral service. This does NOT make you a licensed funeral director or embalmer: every state licenses those through mortuary-science schooling (typically an associate degree), a national board exam and an apprenticeship. COOL does list the National Board Examination as a high-attainability credential, which is the right target if this is the career you want \u2014 but the licence still requires the civilian schooling."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0471",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0472",
+      "code": "0472",
+      "name": "Personnel Retrieval and Processing Technician",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "depth": "deep",
+      "what_it_is": "Personnel Retrieval and Processing Technicians are the more senior remains-handling specialists, working in joint and single-service theatres of operations on the recovery, processing and repatriation of human remains.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": null,
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT), School of Infantry \u2014 29 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 4.1
+        },
+        {
+          "stage": "Formal courses of instruction at the U.S. Army mortuary affairs school (course name not fully specified in NAVMC 1200.1L)",
+          "location": "Fort Gregg-Adams, VA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "39-4021"
+        ],
+        "civilian_titles": [
+          "Funeral Attendants"
+        ],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": [
+          26820,
+          46690
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 39-4021 \u2014 Funeral Attendants: 10th pct $26,820, median $34,610, 90th pct $46,690",
+        "credential_gap_note": "The same gap as 0471, and sharper: military mortuary affairs is not a path to a funeral-director or embalmer licence, which every state issues on the basis of mortuary-science education, the National Board Exam and an apprenticeship. Marine Corps COOL has no page for 0472, so no credential list is published for it at all. The manual also requires a 7-month combat-theatre deployment under school-trained PRP supervision."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0491",
+      "code": "0491",
+      "name": "Logistics/Mobility Chief",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply"
+      ],
+      "depth": "deep",
+      "what_it_is": "The Logistics/Mobility Chief is the senior enlisted planner for logistics, embarkation and landing-support operations \u2014 moving units and their equipment by sea, air and land.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "No single producing school named in NAVMC 1200.1L; follow-on courses are listed in the MOS Roadmap in MCTIMS",
+          "location": "N/A",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-3071.00",
+          "13-1081.00",
+          "43-5011.00",
+          "43-5071.00"
+        ],
+        "civilian_titles": [
+          "Transportation, Storage, and Distribution Managers",
+          "Logisticians",
+          "Cargo and Freight Agents",
+          "Shipping, Receiving, and Inventory Clerks"
+        ],
+        "relevant_certifications": [
+          "Commercial Driver's License (CDL)",
+          "Customs Broker License",
+          "Foundational-Level Certified Logistics Associate 4.0 (CLA)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          49260,
+          132110
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 13-1081 \u2014 Logisticians: 10th pct $49,260, median $80,880, 90th pct $132,110",
+        "credential_gap_note": "Not an entry MOS: it requires previous duty as an 0441 (or reserve 0471) and the rank of Gunnery Sergeant or above. NAVMC 1200.1L names no single producing school. COOL funds a CDL and a Customs Broker License for it \u2014 those are the transferable credentials, not the MOS itself."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0491",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0511",
+      "code": "0511",
+      "name": "MAGTF Planning Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "MAGTF Planning Specialists do force-deployment planning: building and maintaining the data that says which units and equipment move where and when, supporting Global Force Management and Joint Combat Capability Assessment, and keeping the deployment picture accurate for planners.",
+      "entry_requirements": {
+        "asvab_line_score": "CL score of 100 or GT score of 100 or higher",
+        "afqt_note": null,
+        "security_clearance": "(a) Must be eligible for a top secret (TS) security clearance and access to Sensitive Compartmented Information (SCI) predicated on a completed single scope background investigation (SSBI). Application for TS security clearance must be submitted during recruit training or prior to attendance of the MAGTF Planner Basic Course (N46KAG2), MARDET Dam Neck, Virginia Beach, VA. (b) Marines with the MOS 0511 who are re-enlisting must possess an adjudicated Secret security clearance and are required to submit a application for a top-secret security clearance prior to finalizing their re- enlistment. Interim Secret security clearances shall not be authorized. (c) Marines conducting lateral moves to the 0511 MOS must possess an adjudicated secret security clearance. Upon favorable recommendation from MOS screening interview, lateral move request Marines are required to submit an application for a top-secret security clearance prior to attending the MAGTF Planner Basic Course. Students arriving with interim secret clearances will not be allowed to complete the training",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": null,
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT), School of Infantry \u2014 29 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 4.1
+        },
+        {
+          "stage": "MAGTF Planning Specialist Course (N46KAG2)",
+          "location": "MARDET Dam Neck, Virginia Beach, VA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "13-1199.05",
+          "43-5061.00"
+        ],
+        "civilian_titles": [
+          "Sustainability Specialists",
+          "Production, Planning, and Expediting Clerks"
+        ],
+        "relevant_certifications": [
+          "Certified Maintenance and Reliability Professionals (CMRP)",
+          "Certified Maintenance and Reliability Technician (CMRT)",
+          "CompTIA Data+",
+          "CompTIA Project+",
+          "Foundational-Level Certified Logistics Associate 4.0 (CLA)",
+          "IT Specialist - Device Configuration and Management",
+          "Intelligence Fundamentals Professional Certification (IFPC)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          38570,
+          84810
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 43-5061 \u2014 Production, Planning, and Expediting Clerks: 10th pct $38,570, median $57,770, 90th pct $84,810",
+        "credential_gap_note": "A niche staff-planning MOS. COOL's best civilian match is Production, Planning and Expediting Clerks \u2014 a much narrower job than the one you did, and the wage below reflects that clerk role, not the responsibility you carried. There is no civilian licence for force-deployment planning. The TS/SCI is the real asset: the manual requires you to apply for it during recruit training, and students who arrive at the course with only an interim secret are not allowed to complete it."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0511",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0521",
+      "code": "0521",
+      "name": "Psychological Operations (PSYOP) Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "This MOS could not be verified. MOS 0521 has no entry of its own in NAVMC 1200.1L (FY26); it appears only as a parenthetical code on the header of MOS 0522, Psychological Operations (PSYOP) Non-Commissioned Officer.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: MOS 0521 has no entry in NAVMC 1200.1L and no Marine Corps COOL page, so no civilian occupation is published for it.",
+        "credential_gap_note": "IMPORTANT \u2014 UNVERIFIED MOS. NAVMC 1200.1L contains no standalone entry for 0521 and Marine Corps COOL has no page for it, so no ASVAB score, clearance, school, salary or credential is published for it in any official source reachable. The current enlisted MOSs in this space are 0522 (PSYOP Non-Commissioned Officer) and, in the new Information Maneuver occupational field, 1751 (Influence Specialist). Do not rely on this record \u2014 check 0522 or 1751 instead."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "mixed"
+    },
+    {
+      "id": "marine-corps-0522",
+      "code": "0522",
+      "name": "Psychological Operations (PSYOP) Non-Commissioned Officer",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "PSYOP Marines plan and run military information support operations \u2014 messaging aimed at foreign audiences to influence their behaviour in support of an operation. The work is target-audience analysis, product development, and assessing whether the message actually changed anything.",
+      "entry_requirements": {
+        "asvab_line_score": "GT score of 100 or higher",
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance. SNCOs must be eligible for a TS/SCI",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Psychological Operations Specialists Course (A05M301), U.S. Army JFK Special Warfare Center and School",
+          "location": "Fort Bragg, NC",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "55-3019"
+        ],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: the only occupational code published for this MOS is a military-only SOC (55-xxxx), for which BLS publishes no civilian wage.",
+        "credential_gap_note": "Per NAVMC 1200.1L you must already reside in, or be under orders to fill, a 0522 billet \u2014 so this is not a recruit-entry MOS. Marine Corps COOL has no page for 0522, so no credential list is published, and its manual SOC (55-3019) is a military-only code with no BLS civilian wage. Influence and communications work civilianises into marketing and comms, but nothing here awards a credential in either. Note the manual requires only a secret clearance at entry (SNCOs must be TS/SCI-eligible), not TS/SCI."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0532",
+      "code": "0532",
+      "name": "Civil Affairs Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "Civil Affairs Specialists are the link between a Marine unit and the civilian population around it. They conduct civil reconnaissance, engage local leaders and institutions, and plan civil-military operations so the civil environment supports rather than obstructs the mission.",
+      "entry_requirements": {
+        "asvab_line_score": "GT score of 100 or higher",
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance eligibility",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Civil Affairs Specialist Course (M02ZSGD), MCCMOS",
+          "location": "MCB Quantico, VA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "13-1199.04"
+        ],
+        "civilian_titles": [
+          "Business Continuity Planners"
+        ],
+        "relevant_certifications": [
+          "ACTFL Oral Proficiency Interview (OPI)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          46230,
+          147830
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 13-1199 \u2014 Business Operations Specialists, All Other: 10th pct $46,230, median $81,270, 90th pct $147,830",
+        "credential_gap_note": "IMPORTANT \u2014 THE CODE HAS CHANGED. In NAVMC 1200.1L the Civil Affairs Specialist MOS is 1732, not 0532; the manual states plainly, 'The MOS was previously listed as 0532.' It is now a RESERVE-COMPONENT-ONLY PMOS and requires being a Corporal or above \u2014 so it is not an active-duty entry-level job. Every figure in this record is taken from the 1732 entry. On the civilian side COOL funds only one high-attainability credential (an ACTFL language proficiency interview); civil affairs work resembles emergency management and international development but confers a licence in neither."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=1732",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0580",
+      "code": "0580",
+      "name": "Foreign Disclosure Representative (FDR)",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "intelligence-analysis"
+      ],
+      "depth": "deep",
+      "what_it_is": "Foreign Disclosure Representatives decide and coordinate what classified or controlled U.S. military information may be released to foreign governments and partner militaries, and process those release requests.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": "Minimum of secret clearance. The primary command FDO requires a T5 or T5R investigation",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Foreign Disclosure Officer Course (SSC: OB2), managed by PP&O",
+          "location": "Location not specified in NAVMC 1200.1L",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: NAVMC 1200.1L lists 'Related SOC: None' for this MOS and Marine Corps COOL has no page for it, so no civilian occupation exists to price.",
+        "credential_gap_note": "A free MOS (FMOS) for Staff Sergeants and above, with a secret clearance minimum \u2014 not an entry-level job. NAVMC 1200.1L lists 'Related SOC: None' and Marine Corps COOL has no page for it, so no civilian occupation, wage or credential is officially published for this MOS at all."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0621",
+      "code": "0621",
+      "name": "Transmissions System Operator",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "depth": "deep",
+      "what_it_is": "Transmission Systems Operators put up the radio and satellite links that let a commander talk. They set up, operate and troubleshoot line-of-sight radio, troposcatter and satellite terminals \u2014 antennas, cabling, power, and the equipment that carries voice and data in the field.",
+      "entry_requirements": {
+        "asvab_line_score": "CL score of 100 or EL score of 100 or higher",
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance eligibility",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": "Must have normal color vision.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT), School of Infantry \u2014 29 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 4.1
+        },
+        {
+          "stage": "Basic Communications Course (M09KJT1)",
+          "location": "MCCES, Twentynine Palms, CA",
+          "length_weeks": null
+        },
+        {
+          "stage": "Narrowband Terrestrial System Operator Course (M0925U1), Marine Corps Communication-Electronics School",
+          "location": "Twentynine Palms, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "15-1244.00",
+          "27-4012.00",
+          "43-5031.00",
+          "43-5032.00"
+        ],
+        "civilian_titles": [
+          "Network and Computer Systems Administrators",
+          "Broadcast Technicians",
+          "Public Safety Telecommunicators",
+          "Dispatchers, Except Police, Fire, and Ambulance"
+        ],
+        "relevant_certifications": [
+          "Amateur Radio Service Operator License - General Class",
+          "Amateur Radio Service Operator License - Technician Class",
+          "Associate Electronics Technician (CETa)",
+          "Certified Satellite Installer (CSI)",
+          "Cisco Certified Network Associate (CCNA)",
+          "CompTIA A+",
+          "CompTIA Network+",
+          "CompTIA Security+"
+        ],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: Marine Corps COOL rates every civilian occupation it lists for this MOS as only a partial ('some duties') match, so quoting any one occupation's wage would misrepresent the crosswalk.",
+        "credential_gap_note": "Marine Corps COOL lists no civilian occupation for which 0621 meets 'most' duties \u2014 every match is partial, which is why no salary is quoted here. That said, COOL funds a genuinely marketable set of electronics credentials for it (Associate Electronics Technician CETa, FCC amateur-radio licences, electronics modules). The MOS itself is not a credential: to get the civilian telecom or electronics job, sit the CETa or an FCC licence on COOL funding while you serve. Note the current manual sets the line score at CL 100 or EL 100, not EL 105."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0621",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0629",
+      "code": "0629",
+      "name": "Transmissions Chief",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "depth": "deep",
+      "what_it_is": "Transmissions Chiefs supervise transmission operations: planning communication sites for line-of-sight, troposcatter and satellite systems, coordinating the unit's communications-electronics operating instructions, and leading the Marines who run the gear.",
+      "entry_requirements": {
+        "asvab_line_score": "EL score of 105 or higher",
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance eligibility. Some operational billets may require top secret",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Transmissions Chief Course (M09BNL1), Marine Corps Communication-Electronics School",
+          "location": "Twentynine Palms, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "49-1011.00"
+        ],
+        "civilian_titles": [
+          "First-Line Supervisors of Mechanics, Installers, and Repairers"
+        ],
+        "relevant_certifications": [
+          "Amateur Radio Service Operator License - General Class",
+          "Amateur Radio Service Operator License - Technician Class",
+          "Associate Electronics Technician (CETa)",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Information Privacy Technologist (CIPT)",
+          "Certified Satellite Installer (CSI)",
+          "Certified Wireless Network Administrator (CWNA)",
+          "Cisco Certified Network Associate (CCNA)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          48460,
+          124280
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 49-1011 \u2014 First-Line Supervisors of Mechanics, Installers, and Repairers: 10th pct $48,460, median $78,300, 90th pct $124,280",
+        "credential_gap_note": "A Staff NCO MOS (SSgt-GySgt), so not a recruit entry point \u2014 the course is 'recommended within two years of promotion to SSgt'. COOL maps it to First-Line Supervisors of Mechanics, Installers and Repairers and funds strong electronics credentials (CETa, Certified Satellite Installer). The supervisory experience transfers; the credential still has to be earned separately."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0629",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0631",
+      "code": "0631",
+      "name": "Network Administrator",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "depth": "deep",
+      "what_it_is": "Network Administrators build and run the Marine Corps' tactical and garrison networks \u2014 installing and operating LANs and WANs, configuring switches and routers, and keeping alive the data links a command post depends on.",
+      "entry_requirements": {
+        "asvab_line_score": "CL score of 105 or EL score of 105 or higher",
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance eligibility",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": "Must have normal color vision.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT), School of Infantry \u2014 29 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 4.1
+        },
+        {
+          "stage": "Basic Communications Course (M09KJT1)",
+          "location": "MCCES, Twentynine Palms, CA",
+          "length_weeks": null
+        },
+        {
+          "stage": "Network Administrator Course (M09CVS1), Marine Corps Communication-Electronics School",
+          "location": "Twentynine Palms, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "49-2022.00",
+          "49-9052.00"
+        ],
+        "civilian_titles": [
+          "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+          "Telecommunications Line Installers and Repairers"
+        ],
+        "relevant_certifications": [
+          "Amateur Radio Service Operator License - Amateur Extra Class",
+          "Associate Cloud Engineer",
+          "Associate Electronics Technician (CETa)",
+          "Certified Internet of Things Practitioner (CloTP)",
+          "Certified Satellite Installer (CSI)",
+          "Cisco Certified Network Associate (CCNA)",
+          "CompTIA A+",
+          "CompTIA Network+"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          42440,
+          94970
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 49-2022 \u2014 Telecommunications Equipment Installers and Repairers, Except Line Installers: 10th pct $42,440, median $62,630, 90th pct $94,970",
+        "credential_gap_note": "One of the strongest civilian crosswalks in this batch, with one catch: the Network Administrator Course awards no CompTIA or Cisco certification. COOL funds CCNA and CompTIA A+/Network+/Security+ for 0631 \u2014 but you must actually sit those exams. Marines who separate without them have the experience and not the paper the hiring filter screens on. Security+ in particular is the standard gate for DoD-contractor IT work."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0631",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0639",
+      "code": "0639",
+      "name": "Network Chief",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "depth": "deep",
+      "what_it_is": "Network Chiefs supervise the Marines who install, operate and maintain LANs and WANs, and are responsible for the design and health of a unit's network.",
+      "entry_requirements": {
+        "asvab_line_score": "EL score of 105 or higher",
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance eligibility. Some operational billets may require top secret",
+        "education": null,
+        "physical": "Must have normal color vision.",
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Network Chief Course (M0923X1), Marine Corps Communication-Electronics School",
+          "location": "Twentynine Palms, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "49-1011.00"
+        ],
+        "civilian_titles": [
+          "First-Line Supervisors of Mechanics, Installers, and Repairers"
+        ],
+        "relevant_certifications": [
+          "Amateur Radio Service Operator License - Amateur Extra Class",
+          "Associate Cloud Engineer",
+          "Certified Associate in Project Management (CAPM)",
+          "Certified Internet of Things Practitioner (CloTP)",
+          "Certified Wireless Network Administrator (CWNA)",
+          "Cisco Certified Network Associate (CCNA)",
+          "CompTIA A+",
+          "CompTIA Network+"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          48460,
+          124280
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 49-1011 \u2014 First-Line Supervisors of Mechanics, Installers, and Repairers: 10th pct $48,460, median $78,300, 90th pct $124,280",
+        "credential_gap_note": "A Staff NCO MOS (SSgt-GySgt) \u2014 not a recruit entry point; the chief's course is recommended within two years of promotion to SSgt. COOL funds high-value credentials here (CCNA, Security+, several GIAC certs), but none is conferred by the MOS school. Get the certifications on COOL funding while you serve."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0639",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0648",
+      "code": "0648",
+      "name": "Electromagnetic Spectrum Management Chief",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "depth": "deep",
+      "what_it_is": "Electromagnetic Spectrum Managers deconflict the airwaves. They coordinate which frequencies every radio, radar and jammer in a Marine Air-Ground Task Force may use, so friendly systems do not interfere with one another in a crowded electromagnetic environment.",
+      "entry_requirements": {
+        "asvab_line_score": "GT score of 105 or higher and CL score of 105 or higher",
+        "afqt_note": null,
+        "security_clearance": "Top secret with sensitive compartmented information access eligibility",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Electromagnetic Spectrum Management Course (F0224L1)",
+          "location": "Biloxi, MS (Keesler AFB)",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": "Deliberately null: NAVMC 1200.1L lists 'Related SOC: None' for this MOS and Marine Corps COOL has no page for it, so no civilian occupation exists to price.",
+        "credential_gap_note": "An NMOS requiring an existing 06XX communications MOS and, for Sergeants, the Transmissions Supervisor Course \u2014 not an entry-level job. Marine Corps COOL has no page for 0648, so no credential list or civilian occupation is officially published for it. Spectrum management is a real civilian field (FCC, broadcast, telecom engineering) but no credential comes with the MOS. Note the current manual titles this Electromagnetic Spectrum Management Chief and requires GT 105 AND CL 105 \u2014 both, not either."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0671",
+      "code": "0671",
+      "name": "Data Systems Administrator",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "depth": "deep",
+      "what_it_is": "Data Systems Administrators run the servers and services behind a Marine network: Windows, Linux and Unix systems, Active Directory, DNS and PKI, databases, unified communications, and the cybersecurity wrapped around them.",
+      "entry_requirements": {
+        "asvab_line_score": "CL score of 100 or EL score of 100 or higher",
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance eligibility",
+        "education": "High school diploma (Marine Corps enlistment standard)",
+        "physical": "Must have normal color vision.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Marine Corps Recruit Training (boot camp)",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT), School of Infantry \u2014 29 days",
+          "location": "SOI-East (Camp Lejeune, NC) or SOI-West (Camp Pendleton, CA)",
+          "length_weeks": 4.1
+        },
+        {
+          "stage": "Basic Communications Course (M09KJT1)",
+          "location": "MCCES, Twentynine Palms, CA",
+          "length_weeks": null
+        },
+        {
+          "stage": "Data Systems Administrator Course (M09CVQ1), Marine Corps Communication-Electronics School",
+          "location": "Twentynine Palms, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "15-1231.00",
+          "15-1244.00"
+        ],
+        "civilian_titles": [
+          "Computer Network Support Specialists",
+          "Network and Computer Systems Administrators"
+        ],
+        "relevant_certifications": [
+          "AWS Certified Cloud Practitioner",
+          "AWS Certified CloudOps Engineer - Associate (formerly AWS Certified SysOps Administrator - Associate)",
+          "AWS Certified DevOps Engineer - Professional",
+          "AWS Certified Developer - Associate",
+          "AWS Certified Solutions Architect - Associate",
+          "AWS Certified Solutions Architect - Professional",
+          "Associate Cloud Engineer",
+          "Associate Electronics Technician (CETa)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          60320,
+          150320
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 15-1244 \u2014 Network and Computer Systems Administrators: 10th pct $60,320, median $96,800, 90th pct $150,320",
+        "credential_gap_note": "The best civilian crosswalk in this batch \u2014 but the school itself awards no certification. COOL lists 113 credentials for 0671 (80 rated high-attainability), including CCNA and CompTIA A+/Network+/Security+/DataSys+, and will fund them. The MOS gives you the hands-on hours; the certificate is what a civilian employer screens on, and DoD-contractor work effectively requires Security+ under DoD 8140. Sit the exams while the Corps is paying. Note the current manual sets the line score at CL 100 or EL 100, not EL 105."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0671",
+        "https://www.marines.com/becoming-a-marine/recruit-training/",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-0679",
+      "code": "0679",
+      "name": "Data Systems Chief",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "technology-cyber"
+      ],
+      "depth": "deep",
+      "what_it_is": "Data Systems Chiefs lead the Marines running data systems, virtualisation, unified communications and application development for a command.",
+      "entry_requirements": {
+        "asvab_line_score": "EL score of 105 or higher",
+        "afqt_note": null,
+        "security_clearance": "Secret security clearance eligibility. Some operational billets may require top secret",
+        "education": null,
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1L this MOS is awarded by lateral move or promotion from another PMOS \u2014 a civilian cannot enlist directly into it."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Data Systems Chief Course (M0923W1), Marine Corps Communication-Electronics School",
+          "location": "Twentynine Palms, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "15-1231.00",
+          "15-1244.00"
+        ],
+        "civilian_titles": [
+          "Computer Network Support Specialists",
+          "Network and Computer Systems Administrators"
+        ],
+        "relevant_certifications": [
+          "AWS Certified Cloud Practitioner",
+          "AWS Certified CloudOps Engineer - Associate (formerly AWS Certified SysOps Administrator - Associate)",
+          "AWS Certified DevOps Engineer - Professional",
+          "AWS Certified Developer - Associate",
+          "AWS Certified Solutions Architect - Associate",
+          "AWS Certified Solutions Architect - Professional",
+          "Associate Cloud Engineer",
+          "Certified Associate in Project Management (CAPM)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          60320,
+          150320
+        ],
+        "salary_source": "BLS OES May 2024 (national), SOC 15-1244 \u2014 Network and Computer Systems Administrators: 10th pct $60,320, median $96,800, 90th pct $150,320",
+        "credential_gap_note": "A Staff NCO MOS (SSgt-GySgt) \u2014 not a recruit entry point. COOL lists 115 credentials (80 high-attainability) including CCNA, Security+ and GIAC cloud-security certs. The same gap as 0671: the Corps gives you the experience and will fund the exam, but the MOS confers no certification by itself."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.bls.gov/oes/current/oes_nat.htm",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=0679",
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1L%20(SECURED).pdf"
+      ],
+      "confidence": "official"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "marine-corps-0161",
+      "code": "0161",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0161",
+      "code": "0161",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0161",
+      "code": "0161",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0161",
+      "code": "0161",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0211",
+      "code": "0211",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0211",
+      "code": "0211",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0211",
+      "code": "0211",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0211",
+      "code": "0211",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0239",
+      "code": "0239",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0239",
+      "code": "0239",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0239",
+      "code": "0239",
+      "field": "civilian_crosswalk.onet_soc_codes",
+      "reason": "Marine Corps COOL has no page for this MOS and NAVMC 1200.1L lists 'Related SOC: None'."
+    },
+    {
+      "id": "marine-corps-0239",
+      "code": "0239",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "No civilian SOC published for this MOS in NAVMC 1200.1L or Marine Corps COOL."
+    },
+    {
+      "id": "marine-corps-0239",
+      "code": "0239",
+      "field": "civilian_crosswalk.relevant_certifications",
+      "reason": "Marine Corps COOL has no page for this MOS, so no credential list is published."
+    },
+    {
+      "id": "marine-corps-0239",
+      "code": "0239",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0239",
+      "code": "0239",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0239",
+      "code": "0239",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0241",
+      "code": "0241",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0241",
+      "code": "0241",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0241",
+      "code": "0241",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0245",
+      "code": "0245",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0245",
+      "code": "0245",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0245",
+      "code": "0245",
+      "field": "civilian_crosswalk.relevant_certifications",
+      "reason": "Marine Corps COOL has no page for this MOS, so no credential list is published."
+    },
+    {
+      "id": "marine-corps-0245",
+      "code": "0245",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0245",
+      "code": "0245",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0245",
+      "code": "0245",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0261",
+      "code": "0261",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0261",
+      "code": "0261",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0261",
+      "code": "0261",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0271",
+      "code": "0271",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0271",
+      "code": "0271",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0271",
+      "code": "0271",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "No civilian SOC published for this MOS in NAVMC 1200.1L or Marine Corps COOL."
+    },
+    {
+      "id": "marine-corps-0271",
+      "code": "0271",
+      "field": "civilian_crosswalk.relevant_certifications",
+      "reason": "Marine Corps COOL has no page for this MOS, so no credential list is published."
+    },
+    {
+      "id": "marine-corps-0271",
+      "code": "0271",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0271",
+      "code": "0271",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0271",
+      "code": "0271",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0275",
+      "code": "0275",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0275",
+      "code": "0275",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0275",
+      "code": "0275",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "No civilian SOC published for this MOS in NAVMC 1200.1L or Marine Corps COOL."
+    },
+    {
+      "id": "marine-corps-0275",
+      "code": "0275",
+      "field": "civilian_crosswalk.relevant_certifications",
+      "reason": "Marine Corps COOL has no page for this MOS, so no credential list is published."
+    },
+    {
+      "id": "marine-corps-0275",
+      "code": "0275",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0275",
+      "code": "0275",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0275",
+      "code": "0275",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0291",
+      "code": "0291",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0291",
+      "code": "0291",
+      "field": "entry_requirements.security_clearance",
+      "reason": "No security requirement stated in the NAVMC 1200.1L entry for this MOS."
+    },
+    {
+      "id": "marine-corps-0291",
+      "code": "0291",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0291",
+      "code": "0291",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0291",
+      "code": "0291",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0291",
+      "code": "0291",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0313",
+      "code": "0313",
+      "field": "entry_requirements.security_clearance",
+      "reason": "No security requirement stated in the NAVMC 1200.1L entry for this MOS."
+    },
+    {
+      "id": "marine-corps-0313",
+      "code": "0313",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "Marine Corps COOL publishes no civilian occupation meeting 'most' duties for this MOS, so there is no defensible single SOC to price."
+    },
+    {
+      "id": "marine-corps-0313",
+      "code": "0313",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0313",
+      "code": "0313",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0313",
+      "code": "0313",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0321",
+      "code": "0321",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "Marine Corps COOL publishes no civilian occupation meeting 'most' duties for this MOS, so there is no defensible single SOC to price."
+    },
+    {
+      "id": "marine-corps-0321",
+      "code": "0321",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0321",
+      "code": "0321",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0321",
+      "code": "0321",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0341",
+      "code": "0341",
+      "field": "entry_requirements.security_clearance",
+      "reason": "No security requirement stated in the NAVMC 1200.1L entry for this MOS."
+    },
+    {
+      "id": "marine-corps-0341",
+      "code": "0341",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "Marine Corps COOL publishes no civilian occupation meeting 'most' duties for this MOS, so there is no defensible single SOC to price."
+    },
+    {
+      "id": "marine-corps-0341",
+      "code": "0341",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0341",
+      "code": "0341",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0341",
+      "code": "0341",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0352",
+      "code": "0352",
+      "field": "entry_requirements.security_clearance",
+      "reason": "No security requirement stated in the NAVMC 1200.1L entry for this MOS."
+    },
+    {
+      "id": "marine-corps-0352",
+      "code": "0352",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "Marine Corps COOL publishes no civilian occupation meeting 'most' duties for this MOS, so there is no defensible single SOC to price."
+    },
+    {
+      "id": "marine-corps-0352",
+      "code": "0352",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0352",
+      "code": "0352",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0352",
+      "code": "0352",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0363",
+      "code": "0363",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0363",
+      "code": "0363",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "Marine Corps COOL publishes no civilian occupation meeting 'most' duties for this MOS, so there is no defensible single SOC to price."
+    },
+    {
+      "id": "marine-corps-0363",
+      "code": "0363",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0363",
+      "code": "0363",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0363",
+      "code": "0363",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0369",
+      "code": "0369",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0369",
+      "code": "0369",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0369",
+      "code": "0369",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "Marine Corps COOL publishes no civilian occupation meeting 'most' duties for this MOS, so there is no defensible single SOC to price."
+    },
+    {
+      "id": "marine-corps-0369",
+      "code": "0369",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0369",
+      "code": "0369",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0369",
+      "code": "0369",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0372",
+      "code": "0372",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "Marine Corps COOL publishes no civilian occupation meeting 'most' duties for this MOS, so there is no defensible single SOC to price."
+    },
+    {
+      "id": "marine-corps-0372",
+      "code": "0372",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0372",
+      "code": "0372",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0372",
+      "code": "0372",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0393",
+      "code": "0393",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0393",
+      "code": "0393",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "Marine Corps COOL publishes no civilian occupation meeting 'most' duties for this MOS, so there is no defensible single SOC to price."
+    },
+    {
+      "id": "marine-corps-0393",
+      "code": "0393",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0393",
+      "code": "0393",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0393",
+      "code": "0393",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0399",
+      "code": "0399",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0399",
+      "code": "0399",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0399",
+      "code": "0399",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "Marine Corps COOL publishes no civilian occupation meeting 'most' duties for this MOS, so there is no defensible single SOC to price."
+    },
+    {
+      "id": "marine-corps-0399",
+      "code": "0399",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0399",
+      "code": "0399",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0399",
+      "code": "0399",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0411",
+      "code": "0411",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0411",
+      "code": "0411",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0411",
+      "code": "0411",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0411",
+      "code": "0411",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0441",
+      "code": "0441",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0441",
+      "code": "0441",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0441",
+      "code": "0441",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0441",
+      "code": "0441",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0451",
+      "code": "0451",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0451",
+      "code": "0451",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0451",
+      "code": "0451",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0471",
+      "code": "0471",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0471",
+      "code": "0471",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0471",
+      "code": "0471",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0471",
+      "code": "0471",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0471",
+      "code": "0471",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0472",
+      "code": "0472",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0472",
+      "code": "0472",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0472",
+      "code": "0472",
+      "field": "civilian_crosswalk.relevant_certifications",
+      "reason": "Marine Corps COOL has no page for this MOS, so no credential list is published."
+    },
+    {
+      "id": "marine-corps-0472",
+      "code": "0472",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0472",
+      "code": "0472",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0472",
+      "code": "0472",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0491",
+      "code": "0491",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0491",
+      "code": "0491",
+      "field": "entry_requirements.security_clearance",
+      "reason": "No security requirement stated in the NAVMC 1200.1L entry for this MOS."
+    },
+    {
+      "id": "marine-corps-0491",
+      "code": "0491",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0491",
+      "code": "0491",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0491",
+      "code": "0491",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0491",
+      "code": "0491",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0511",
+      "code": "0511",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0511",
+      "code": "0511",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0511",
+      "code": "0511",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0511",
+      "code": "0511",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0521",
+      "code": "0521",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "MOS 0521 has no entry in NAVMC 1200.1L (FY26) and no Marine Corps COOL page; no ASVAB composite is published in any official source."
+    },
+    {
+      "id": "marine-corps-0521",
+      "code": "0521",
+      "field": "entry_requirements.security_clearance",
+      "reason": "No security requirement stated in the NAVMC 1200.1L entry for this MOS."
+    },
+    {
+      "id": "marine-corps-0521",
+      "code": "0521",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0521",
+      "code": "0521",
+      "field": "civilian_crosswalk.onet_soc_codes",
+      "reason": "Marine Corps COOL has no page for this MOS and NAVMC 1200.1L lists 'Related SOC: None'."
+    },
+    {
+      "id": "marine-corps-0521",
+      "code": "0521",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "No civilian SOC published for this MOS in NAVMC 1200.1L or Marine Corps COOL."
+    },
+    {
+      "id": "marine-corps-0521",
+      "code": "0521",
+      "field": "civilian_crosswalk.relevant_certifications",
+      "reason": "Marine Corps COOL has no page for this MOS, so no credential list is published."
+    },
+    {
+      "id": "marine-corps-0521",
+      "code": "0521",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0521",
+      "code": "0521",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0522",
+      "code": "0522",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0522",
+      "code": "0522",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "No civilian SOC published for this MOS in NAVMC 1200.1L or Marine Corps COOL."
+    },
+    {
+      "id": "marine-corps-0522",
+      "code": "0522",
+      "field": "civilian_crosswalk.relevant_certifications",
+      "reason": "Marine Corps COOL has no page for this MOS, so no credential list is published."
+    },
+    {
+      "id": "marine-corps-0522",
+      "code": "0522",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0522",
+      "code": "0522",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0522",
+      "code": "0522",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0532",
+      "code": "0532",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0532",
+      "code": "0532",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0532",
+      "code": "0532",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0532",
+      "code": "0532",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0580",
+      "code": "0580",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1L lists no ASVAB composite for this MOS: it is a lateral-move / promotion MOS whose prerequisite is already holding another PMOS, so no line score gates entry."
+    },
+    {
+      "id": "marine-corps-0580",
+      "code": "0580",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0580",
+      "code": "0580",
+      "field": "civilian_crosswalk.onet_soc_codes",
+      "reason": "Marine Corps COOL has no page for this MOS and NAVMC 1200.1L lists 'Related SOC: None'."
+    },
+    {
+      "id": "marine-corps-0580",
+      "code": "0580",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "No civilian SOC published for this MOS in NAVMC 1200.1L or Marine Corps COOL."
+    },
+    {
+      "id": "marine-corps-0580",
+      "code": "0580",
+      "field": "civilian_crosswalk.relevant_certifications",
+      "reason": "Marine Corps COOL has no page for this MOS, so no credential list is published."
+    },
+    {
+      "id": "marine-corps-0580",
+      "code": "0580",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0580",
+      "code": "0580",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0580",
+      "code": "0580",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0621",
+      "code": "0621",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "Marine Corps COOL publishes no civilian occupation meeting 'most' duties for this MOS, so there is no defensible single SOC to price."
+    },
+    {
+      "id": "marine-corps-0621",
+      "code": "0621",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0621",
+      "code": "0621",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0621",
+      "code": "0621",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0629",
+      "code": "0629",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0629",
+      "code": "0629",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0629",
+      "code": "0629",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0629",
+      "code": "0629",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0631",
+      "code": "0631",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0631",
+      "code": "0631",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0631",
+      "code": "0631",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0639",
+      "code": "0639",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0639",
+      "code": "0639",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0639",
+      "code": "0639",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0648",
+      "code": "0648",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0648",
+      "code": "0648",
+      "field": "civilian_crosswalk.onet_soc_codes",
+      "reason": "Marine Corps COOL has no page for this MOS and NAVMC 1200.1L lists 'Related SOC: None'."
+    },
+    {
+      "id": "marine-corps-0648",
+      "code": "0648",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "No civilian SOC published for this MOS in NAVMC 1200.1L or Marine Corps COOL."
+    },
+    {
+      "id": "marine-corps-0648",
+      "code": "0648",
+      "field": "civilian_crosswalk.relevant_certifications",
+      "reason": "Marine Corps COOL has no page for this MOS, so no credential list is published."
+    },
+    {
+      "id": "marine-corps-0648",
+      "code": "0648",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0648",
+      "code": "0648",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0648",
+      "code": "0648",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0671",
+      "code": "0671",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0671",
+      "code": "0671",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0671",
+      "code": "0671",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    },
+    {
+      "id": "marine-corps-0679",
+      "code": "0679",
+      "field": "entry_requirements.physical",
+      "reason": "NAVMC 1200.1L states no MOS-specific physical, vision or hearing standard beyond the Marine Corps-wide standards."
+    },
+    {
+      "id": "marine-corps-0679",
+      "code": "0679",
+      "field": "special_pays",
+      "reason": "No official source reachable naming a bonus or incentive pay tied to this MOS (DFAS pay pages are JavaScript-gated). Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0679",
+      "code": "0679",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No VA source found publishing disability claim rates by Marine Corps MOS. Left empty rather than guessed."
+    },
+    {
+      "id": "marine-corps-0679",
+      "code": "0679",
+      "field": "training_pipeline.length_weeks",
+      "reason": "No official course length published for the MOS school stage(s). Marine Corps course lengths live in MCTIMS, which is not public, and trngcmd.marines.mil course pages are unreachable. Recruit training (13 weeks), ITB (52 days) and MCT (29 days) ARE sourced from marines.com."
+    }
+  ]
+}

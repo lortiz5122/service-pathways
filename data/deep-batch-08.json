@@ -1,0 +1,3017 @@
+{
+  "batch": 8,
+  "branch": "Marine Corps",
+  "retrieved": "2026-07-12",
+  "specialties": [
+    {
+      "id": "marine-corps-6432",
+      "code": "6432",
+      "name": "Aircraft Electrical/Instrument/Flight Control Systems Technician, Fixed Wing, IMA",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "You work in an Intermediate Maintenance Activity (IMA) — a back-shop, not the flight line. Aircraft come out of the squadron and broken electrical, instrument and flight-control components come to you. You test them on the bench, isolate the fault down to the module, card or printed circuit board, repair or replace it, and certify the part back into the supply system. Expect bench work, test sets, wiring diagrams and soldering rather than turning wrenches on an aircraft.",
+      "entry_requirements": {
+        "asvab_line_score": "EL 105",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "Normal color perception required. U.S. citizenship required.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Aviation Electrician's Mate Course, Strand Class A1 (N23A972)",
+          "location": "NATTC, NAS Pensacola, FL",
+          "length_weeks": null
+        },
+        {
+          "stage": "Rotary Wing Avionics Maintenance System IMA Course (M23A9X1)",
+          "location": "CNATT Unit, Camp Pendleton, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "49-2091"
+        ],
+        "civilian_titles": [
+          "Avionics Technicians"
+        ],
+        "relevant_certifications": [
+          "ASTM NCATT Aircraft Electronics Technician (AET)",
+          "Basic Electricity and Electronics - Alternating Current (BEE-AC)",
+          "Basic Electricity and Electronics - Analog (BEE-A)",
+          "Basic Electricity and Electronics - Digital (BEE-D)",
+          "Basic Electricity and Electronics - Direct Current (BEE-DC)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          49770,
+          113580
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 49-2091 (Avionics Technicians); 10th–90th percentile annual. Median $81,390.",
+        "credential_gap_note": "The Marine Corps does not give you an FAA certificate. Marine Corps COOL maps this MOS to electronics credentials (NCATT/ASTM Aircraft Electronics Technician, ETA and SpaceTEC electronics certs) — it does NOT map it to the FAA Airframe & Powerplant (A&P) mechanic certificate, which is the license most civilian aircraft-maintenance jobs are built around. To close the gap: FAA rules let you count documented military maintenance experience toward A&P eligibility, but you must still be signed off and pass the FAA written, oral and practical tests yourself. Separately, civilian avionics work at an FAA repair station is normally done under a certificated repairman or A&P holder, so plan on either the A&P route or an employer-sponsored repairman certificate. Get the NCATT AET and the ETA electronics certs while you are still in — COOL funds them."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6432",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6469",
+      "code": "6469",
+      "name": "Advanced Automatic Test Equipment Technician, IMA",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "You maintain and repair the Reconfigurable Transportable Consolidated Automated Support System (RTCASS) — the big automated test stations the Marine Corps uses to diagnose aircraft electronic boxes. When a fault cannot be isolated by the normal procedures, the part comes to your station and you go deeper. This is troubleshooting the test equipment itself as much as the aircraft parts, so it is heavy on electronics theory, test benches and diagnostic software.",
+      "entry_requirements": {
+        "asvab_line_score": "EL 105",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "Normal color perception required. U.S. citizenship required.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Avionics Technician Intermediate Level Class (N23A952)",
+          "location": "NATTC, NAS Pensacola, FL",
+          "length_weeks": null
+        },
+        {
+          "stage": "USMC CASS High Power Configuration Operator/Maintainer Technician Course (N25A725 / M17A728)",
+          "location": "CNATTU NAS Oceana, VA or CNATTU Miramar, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "49-1011",
+          "49-2091"
+        ],
+        "civilian_titles": [
+          "First-Line Supervisors of Mechanics, Installers, and Repairers",
+          "Avionics Technicians"
+        ],
+        "relevant_certifications": [
+          "ASTM NCATT Aircraft Electronics Technician (AET)",
+          "Associate Electronics Technician (CETa)",
+          "Avionics Electronics Technician (AVN)",
+          "Basic Electricity and Electronics - Alternating Current (BEE-AC)",
+          "Basic Electricity and Electronics - Analog (BEE-A)",
+          "Basic Electricity and Electronics - Digital (BEE-D)",
+          "Basic Electricity and Electronics - Direct Current (BEE-DC)",
+          "Electronics Module AC (EM2)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          49770,
+          113580
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 49-2091 (Avionics Technicians); 10th–90th percentile annual. Median $81,390.",
+        "credential_gap_note": "Same core gap as the other avionics MOSs: no FAA certificate comes with the job. Note also that NAVMC 1200.1M maps 6469 to SOC 49-1011 (First-Line Supervisors of Mechanics) — a supervisor code — which does not describe what a junior Marine in this MOS actually does; the honest entry-level civilian analog is Avionics Technician (49-2091), and that is the wage range shown here. The genuinely transferable asset is automated-test-equipment (ATE) and electronics troubleshooting skill, which maps to defense-contractor depot and test-engineering-technician work. Get the ETA/NCATT electronics certifications through COOL before you separate — they are what an employer can actually read."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6469",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6482",
+      "code": "6482",
+      "name": "Aircraft Electronic Countermeasures Systems Technician, Fixed Wing, IMA",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "UNVERIFIED — MOS 6482 could not be confirmed as a current Marine Corps MOS. This code does not appear anywhere in NAVMC 1200.1M (the current MOS Manual), nor in editions 1200.1L, 1200.1J or 1200.1E, and it has no page on Marine Corps COOL. The description previously carried for this record could not be sourced to any official publication. Treat this entry as unconfirmed: it is likely a deleted, merged or erroneous code. Nothing further is asserted about it here.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": null,
+        "physical": null,
+        "other": "MOS code not found in NAVMC 1200.1M/L/J/E or Marine Corps COOL."
+      },
+      "training_pipeline": [],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": null,
+        "credential_gap_note": "Cannot be assessed — the MOS itself could not be verified against any official source."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6482"
+      ],
+      "confidence": "secondary"
+    },
+    {
+      "id": "marine-corps-6483",
+      "code": "6483",
+      "name": "Aircraft Electronic Countermeasures Systems Technician, Helicopter, IMA",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "At the intermediate maintenance level you repair the boxes that make a Marine aircraft talk, navigate, encrypt and defend itself — communication, navigation, cryptographic and countermeasures systems. Broken weapon-replaceable and shop-replaceable assemblies come to your bench; you test, fault-isolate and repair them down to the component level. Because the work touches cryptographic gear, the clearance and citizenship rules are strict.",
+      "entry_requirements": {
+        "asvab_line_score": "EL 105",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "Normal color perception required. U.S. citizenship required.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Avionics Technician I Level Class A1 Course (N23A952)",
+          "location": "NATTC, NAS Pensacola, FL",
+          "length_weeks": null
+        },
+        {
+          "stage": "Aircraft Communication/Navigation/Cryptographic/Countermeasures Course (M04A286)",
+          "location": "CNATT Marine Unit, Cherry Point, NC",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "49-2091"
+        ],
+        "civilian_titles": [
+          "Avionics Technicians"
+        ],
+        "relevant_certifications": [
+          "Basic Electricity and Electronics - Alternating Current (BEE-AC)",
+          "Basic Electricity and Electronics - Analog (BEE-A)",
+          "Basic Electricity and Electronics - Digital (BEE-D)",
+          "Basic Electricity and Electronics - Direct Current (BEE-DC)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          49770,
+          113580
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 49-2091 (Avionics Technicians); 10th–90th percentile annual. Median $81,390.",
+        "credential_gap_note": "The Marine Corps does not give you an FAA certificate. Marine Corps COOL maps this MOS to electronics credentials (NCATT/ASTM Aircraft Electronics Technician, ETA and SpaceTEC electronics certs) — it does NOT map it to the FAA Airframe & Powerplant (A&P) mechanic certificate, which is the license most civilian aircraft-maintenance jobs are built around. To close the gap: FAA rules let you count documented military maintenance experience toward A&P eligibility, but you must still be signed off and pass the FAA written, oral and practical tests yourself. Separately, civilian avionics work at an FAA repair station is normally done under a certificated repairman or A&P holder, so plan on either the A&P route or an employer-sponsored repairman certificate. Get the NCATT AET and the ETA electronics certs while you are still in — COOL funds them."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6483",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6486",
+      "code": "6486",
+      "name": "Advanced Aircraft Electronic Countermeasures Technician, IMA",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "UNVERIFIED — MOS 6486 could not be confirmed as a current Marine Corps MOS. This code does not appear anywhere in NAVMC 1200.1M (the current MOS Manual), nor in editions 1200.1L, 1200.1J or 1200.1E, and it has no page on Marine Corps COOL. The description previously carried for this record could not be sourced to any official publication. Treat this entry as unconfirmed: it is likely a deleted, merged or erroneous code. Nothing further is asserted about it here.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": null,
+        "physical": null,
+        "other": "MOS code not found in NAVMC 1200.1M/L/J/E or Marine Corps COOL."
+      },
+      "training_pipeline": [],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": null,
+        "credential_gap_note": "Cannot be assessed — the MOS itself could not be verified against any official source."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6486"
+      ],
+      "confidence": "secondary"
+    },
+    {
+      "id": "marine-corps-6491",
+      "code": "6491",
+      "name": "Aviation Precision Measurement Equipment (PME) Chief",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "UNVERIFIED — MOS 6491 could not be confirmed as a current Marine Corps MOS. This code does not appear anywhere in NAVMC 1200.1M (the current MOS Manual), nor in editions 1200.1L, 1200.1J or 1200.1E, and it has no page on Marine Corps COOL. The description previously carried for this record could not be sourced to any official publication. Treat this entry as unconfirmed: it is likely a deleted, merged or erroneous code. Nothing further is asserted about it here.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": null,
+        "physical": null,
+        "other": "MOS code not found in NAVMC 1200.1M/L/J/E or Marine Corps COOL."
+      },
+      "training_pipeline": [],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": null,
+        "credential_gap_note": "Cannot be assessed — the MOS itself could not be verified against any official source."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6491"
+      ],
+      "confidence": "secondary"
+    },
+    {
+      "id": "marine-corps-6492",
+      "code": "6492",
+      "name": "Aviation Precision Measurement Equipment/Calibration and Repair Technician, IMA",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "You are the person who makes sure the test equipment itself is telling the truth. Aviation Precision Measurement Equipment (PME) technicians calibrate and repair the gauges, meters, torque wrenches and automatic test equipment that every other maintenance shop relies on, working to traceable measurement standards in a controlled lab environment. It is meticulous, standards-driven bench work with very little tolerance for 'close enough'.",
+      "entry_requirements": {
+        "asvab_line_score": "EL 110",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "Normal color perception required. U.S. citizenship required.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Avionics Technician I Level Class A1 Course (N23A952)",
+          "location": "NATTC, NAS Pensacola, FL",
+          "length_weeks": null
+        },
+        {
+          "stage": "Aviation Basic Calibration Technician Pipeline Course (N61A621)",
+          "location": "CNATT Unit, Keesler AFB, Biloxi, MS",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "49-9069"
+        ],
+        "civilian_titles": [
+          "Precision Instrument and Equipment Repairers, All Other"
+        ],
+        "relevant_certifications": [
+          "ASTM NCATT Aircraft Electronics Technician (AET)",
+          "Avionics Electronics Technician (AVN)",
+          "Basic Electricity and Electronics - Alternating Current (BEE-AC)",
+          "Basic Electricity and Electronics - Analog (BEE-A)",
+          "Basic Electricity and Electronics - Digital (BEE-D)",
+          "Basic Electricity and Electronics - Direct Current (BEE-DC)",
+          "Certified Calibration Technician (CCT)",
+          "Certified Control Systems Technician - Level I (CCST-I)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          44530,
+          100730
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 49-9069 (Precision Instrument and Equipment Repairers, All Other); 10th–90th percentile annual. Median $67,080.",
+        "credential_gap_note": "This is one of the better civilian crosswalks in Marine aviation, but the paperwork still does not follow you automatically. Marine Corps COOL maps 6492 to the ASQ Certified Calibration Technician (CCT) and the NCATT/ETA electronics certifications — you have to sit those exams yourself; the MOS school does not award them. The CCT in particular has an experience requirement and is the credential that civilian calibration labs, metrology departments and defense contractors actually recognize. Note the highest EL gate in this batch (110). Do the CCT through COOL funding before you separate; without it you are an unlicensed technician competing against certified ones."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6492",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6493",
+      "code": "6493",
+      "name": "Aviation Meteorological Equipment Technician",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "UNVERIFIED — MOS 6493 could not be confirmed as a current Marine Corps MOS. This code does not appear anywhere in NAVMC 1200.1M (the current MOS Manual), nor in editions 1200.1L, 1200.1J or 1200.1E, and it has no page on Marine Corps COOL. The description previously carried for this record could not be sourced to any official publication. Treat this entry as unconfirmed: it is likely a deleted, merged or erroneous code. Nothing further is asserted about it here.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": null,
+        "physical": null,
+        "other": "MOS code not found in NAVMC 1200.1M/L/J/E or Marine Corps COOL."
+      },
+      "training_pipeline": [],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": null,
+        "credential_gap_note": "Cannot be assessed — the MOS itself could not be verified against any official source."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6493"
+      ],
+      "confidence": "secondary"
+    },
+    {
+      "id": "marine-corps-6499",
+      "code": "6499",
+      "name": "Mobile Facilities Technician",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "Mobile Facilities are the containerized, deployable shelters that a Marine aviation unit works out of in the field — and the environmental control units, generators and electrical systems that keep them running. You inspect, service and repair all of it. In practice this is HVAC, refrigeration, generator and electrical work performed on expeditionary equipment rather than avionics bench work, despite sitting in the avionics occupational field.",
+      "entry_requirements": {
+        "asvab_line_score": "EL 105",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "Normal color perception required. U.S. citizenship required. Must meet the requirements to obtain a state driver's license.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Aviation Electrician's Mate Course, Strand Class A1 (N23A972)",
+          "location": "NATTC, NAS Pensacola, FL",
+          "length_weeks": null
+        },
+        {
+          "stage": "Mobile Maintenance Facilities Program Course (N28T5U7 / N37T5U2)",
+          "location": "CNATT Unit North Island, CA or CNATT Unit Jacksonville, FL",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "49-9021"
+        ],
+        "civilian_titles": [
+          "Heating, Air Conditioning, and Refrigeration Mechanics and Installers"
+        ],
+        "relevant_certifications": [
+          "Air Conditioning Installation",
+          "Air Conditioning Service",
+          "Basic Electricity and Electronics - Alternating Current (BEE-AC)",
+          "Basic Electricity and Electronics - Analog (BEE-A)",
+          "Basic Electricity and Electronics - Digital (BEE-D)",
+          "Basic Electricity and Electronics - Direct Current (BEE-DC)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          39130,
+          91020
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 49-9021 (Heating, Air Conditioning, and Refrigeration Mechanics and Installers); 10th–90th percentile annual. Median $59,810.",
+        "credential_gap_note": "The skills transfer to civilian HVAC/refrigeration work, but the license does not. Civilian HVAC is a licensed trade in most states and — critically — anyone who buys, handles or disposes of refrigerant must hold an EPA Section 608 Technician Certification. Nothing in the MOS pipeline awards it. Marine Corps COOL maps this MOS to Air Conditioning Installation and Air Conditioning Service credentials plus the electronics certs; those are exams you take, not things you are handed. To close the gap: get EPA 608 (cheap, and the single most important card in the trade), then a state HVAC license or an apprenticeship, and use COOL funding for the AC certs while you still have it."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6499",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6531",
+      "code": "6531",
+      "name": "Aircraft Ordnance Technician",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "You build up, load and download the weapons a Marine aircraft carries — bombs, missiles, rockets, gun systems — and you maintain the armament equipment on the aircraft itself. Work happens on the flight line in aircrews and load teams, frequently at night, in poor weather and against a launch clock. Because you handle live explosives, the medical, certification and licensing rules around you are unusually strict.",
+      "entry_requirements": {
+        "asvab_line_score": "GT 105",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "Normal color perception. Valid state driver's license. Must meet the medical requirements for Explosive Handlers and Explosive Vehicle Operators (Manual of the Medical Department, Article 15-107). Must be qualified and certified to handle explosives.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Aviation Ordnance 'A' School Course (N23G3U2)",
+          "location": "NATTC, NAS Pensacola, FL",
+          "length_weeks": null
+        },
+        {
+          "stage": "Type/Model/Series CNATT AO (C) Course — e.g. F-35 Aircraft Ordnance System Technician (N56FA32), F/A-18 Armament System Organizational Maintenance (N25G3L5), or H-1Y/Z Ordnance Maintenance (M2368V1)",
+          "location": "Eglin AFB, FL / NAS Oceana, VA / MCAS Camp Pendleton, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "49-9071",
+          "47-5032"
+        ],
+        "civilian_titles": [
+          "Maintenance and Repair Workers, General",
+          "Explosives Workers, Ordnance Handling Experts, and Blasters"
+        ],
+        "relevant_certifications": [
+          "ASTM NCATT Foreign Object Elimination (FOE)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          33860,
+          76110
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 49-9071 (Maintenance and Repair Workers, General); 10th–90th percentile annual. Median $48,620.",
+        "credential_gap_note": "Loading live ordnance on a fighter is a real skill with almost no direct civilian equivalent, and that is the honest problem with this MOS. There is no civilian licence for 'aircraft ordnance'. Marine Corps COOL lists exactly one credential as directly related — NCATT Foreign Object Elimination — which is a minor certificate, not a career. The explosives SOC the Marine Corps maps you to (47-5032) covers mining and demolition blasters, which is a different trade with its own state and ATF licensing you will not have. Realistic civilian paths are defense-contractor munitions and weapons-loading work on government contracts (where the clearance and the ordnance experience are the product), or general maintenance. If you want this MOS to pay off outside a defense contract, use tuition assistance while you serve and leave with a credential in something else."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6531",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6532",
+      "code": "6532",
+      "name": "A4 Aviation Ordnance Technician",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "UNVERIFIED — MOS 6532 could not be confirmed as a current Marine Corps MOS. This code does not appear anywhere in NAVMC 1200.1M (the current MOS Manual), nor in editions 1200.1L, 1200.1J or 1200.1E, and it has no page on Marine Corps COOL. The description previously carried for this record could not be sourced to any official publication. Treat this entry as unconfirmed: it is likely a deleted, merged or erroneous code. Nothing further is asserted about it here.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": null,
+        "physical": null,
+        "other": "MOS code not found in NAVMC 1200.1M/L/J/E or Marine Corps COOL."
+      },
+      "training_pipeline": [],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": null,
+        "credential_gap_note": "Cannot be assessed — the MOS itself could not be verified against any official source."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6532"
+      ],
+      "confidence": "secondary"
+    },
+    {
+      "id": "marine-corps-6541",
+      "code": "6541",
+      "name": "Aviation Ordnance Systems Technician",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "You are on the back-shop side of aviation ordnance: accounting for, storing, breaking out, testing, assembling and transporting airborne weapons, air-launched missiles, conventional munitions and the handling equipment that moves them. Less flight-line loading than 6531 and more magazine, assembly-area and munitions-logistics work — with the same explosives-handling medical and certification rules.",
+      "entry_requirements": {
+        "asvab_line_score": "GT 105",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "Normal color perception. Valid state driver's license. Must meet the medical requirements for Explosives Handlers and Explosives Vehicle Operators (Manual of the Medical Department, Article 15-107).",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Aviation Ordnance 'A' School Course (N23G3U2)",
+          "location": "NATTC, NAS Pensacola, FL",
+          "length_weeks": null
+        },
+        {
+          "stage": "CNATT AO (C) Course (M04G3M6 or M04G4C6)",
+          "location": "CNATT Marine Unit, Cherry Point, NC",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "47-5032",
+          "49-9071"
+        ],
+        "civilian_titles": [
+          "Explosives Workers, Ordnance Handling Experts, and Blasters",
+          "Maintenance and Repair Workers, General"
+        ],
+        "relevant_certifications": [
+          "Certified Maintenance and Reliability Technician (CMRT)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          45160,
+          104210
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 47-5032 (Explosives Workers, Ordnance Handling Experts, and Blasters); 10th–90th percentile annual. Median $59,110.",
+        "credential_gap_note": "Same structural problem as 6531: the Marine Corps maps you to SOC 47-5032 (Explosives Workers, Ordnance Handling Experts and Blasters), but civilian blasting is a state-licensed and ATF-regulated trade and none of that licensing comes with the MOS. Marine Corps COOL lists the Certified Maintenance and Reliability Technician (CMRT) as the one directly-related credential — a maintenance cert, not an explosives one. The parts of this job that genuinely sell outside the military are hazmat handling, inventory/accountability of dangerous goods and material-handling-equipment licensing: COOL maps Certified Dangerous Goods Professional and Certified Hazardous Materials Manager here, and those DO have real civilian demand in logistics and shipping. Chase those two, not the blasting SOC."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6541",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6577",
+      "code": "6577",
+      "name": "Aviation Ordnance Weapons and Tactics Instructor",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "A senior aviation-ordnance Marine certified as a Weapons and Tactics Instructor. You are the subject-matter expert who teaches ordnance employment and tactics at the schoolhouse and at MAWTS-1. This is not a job anyone enlists into — it is earned after years in the ordnance field.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": null,
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. NAVMC 1200.1M requires you already hold MOS 6531, 6541 or 6591, plus an 8023 quality-assurance safety-observer qualification on your assigned type/model/series aircraft with 12 consecutive months of active use. You reach this MOS from inside the aviation-ordnance field, not from the recruiting office."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Prerequisite: already hold MOS 6531, 6541 or 6591 and an 8023 QA safety-observer qualification",
+          "location": "Fleet Marine Force",
+          "length_weeks": null
+        },
+        {
+          "stage": "Weapons and Tactics Instructor (WTI) Expeditionary Ordnance Course (M14G221)",
+          "location": "MAWTS-1, MCAS Yuma, AZ",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "25-3099"
+        ],
+        "civilian_titles": [
+          "Teachers and Instructors, All Other"
+        ],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": [
+          33280,
+          116690
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 25-3099 (Teachers and Instructors, All Other); 10th–90th percentile annual. Median $64,690.",
+        "credential_gap_note": "The MOS Manual maps this to SOC 25-3099 (Teachers and Instructors, All Other) and the instructional skill is real — but no civilian teaching credential is awarded. Civilian K-12 teaching requires a state licence and, in most states, a bachelor's degree; corporate/technical training generally wants a degree or an instructional-design certificate. What you can actually convert is the military instructor experience plus a formal train-the-trainer or CPLP/ATD credential, which you must earn separately. Marine Corps COOL does not publish a credential map for 6577."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6591",
+      "code": "6591",
+      "name": "Aviation Ordnance Chief",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "The staff-NCO who runs an aviation ordnance shop or department — establishing and supervising ordnance operations, safety, certification and accountability rather than personally loading aircraft. Assigned automatically on promotion to Gunnery Sergeant within the ordnance field.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret (certain key billets require Top Secret eligibility)",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "Must be qualified and certified to handle explosives; must meet the medical requirements for Explosives Handlers and Explosives Vehicle Operators (Article 15-107).",
+        "other": "NOT AN ENTRY-LEVEL MOS. Per NAVMC 1200.1M the 6591 MOS is assigned upon promotion to Gunnery Sergeant — it is a career progression from 6531/6541, typically 10+ years in. Grade range MGySgt to GySgt."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Prerequisite: serve in an aviation ordnance MOS (6531/6541) and promote to Gunnery Sergeant",
+          "location": "Fleet Marine Force",
+          "length_weeks": null
+        },
+        {
+          "stage": "Defense Acquisition University certification (for billets coded with an additional skill designator), within 24 months of billet assignment",
+          "location": "Defense Acquisition University",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "49-1011"
+        ],
+        "civilian_titles": [
+          "First-Line Supervisors of Mechanics, Installers, and Repairers"
+        ],
+        "relevant_certifications": [
+          "Certified Dangerous Goods Professional (CDGP)",
+          "Certified Hazardous Materials Manager (CHMM)",
+          "Certified Hazardous Materials Practitioner (CHMP)",
+          "Certified Maintenance and Reliability Professionals (CMRP)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          48460,
+          124280
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 49-1011 (First-Line Supervisors of Mechanics, Installers, and Repairers); 10th–90th percentile annual. Median $78,300.",
+        "credential_gap_note": "The supervisory SOC (49-1011, First-Line Supervisors of Mechanics) is a genuinely good civilian match and the wage range reflects a supervisor, not a trainee — but you arrive there after a decade of service, so do not read this as an entry-level salary. Marine Corps COOL lists no directly-related ('Most') credential for 6591; the closest are hazardous-materials and reliability certifications (CHMM, CDGP, CMRP), all of which you must sit for yourself. Industrial maintenance supervision is where this experience sells; the explosives half of it does not transfer without civilian blasting licensure."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6591",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6617",
+      "code": "6617",
+      "name": "Enlisted Aviation Logistician",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply",
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "A senior enlisted aviation logistician on a headquarters or staff, trained to build Aviation Logistics (AVLOG) support plans — the planning side of keeping Marine aviation supplied and maintained across a deployment. Desk, staff and planning work at the MAGTF level.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. NAVMC 1200.1M requires you already hold MOS 6019 (Aircraft Maintenance Chief), 6042 (IMRL Asset Manager), 6391 (Avionics Chief), 6591 (Aviation Ordnance Chief) or 6672 (Aviation Supply Specialist). Grade range is MGySgt to GySgt — this is a late-career NMOS."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Prerequisite: already hold MOS 6019, 6042, 6391, 6591 or 6672 and be a GySgt or above",
+          "location": "Fleet Marine Force",
+          "length_weeks": null
+        },
+        {
+          "stage": "Complete at least two of: MPF Staff Planning Course; Joint Logistics Course (A14L232); JOPES Action Officer Course (JD2101); JOPES Support Personnel Course (JD1102)",
+          "location": "Expeditionary Warfare Training Group / Army Logistics University, Ft. Lee, VA / Ft. Eustis, VA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-1021",
+          "11-3012",
+          "11-3071",
+          "13-1081",
+          "15-2031"
+        ],
+        "civilian_titles": [
+          "General and Operations Managers",
+          "Administrative Services Managers",
+          "Transportation, Storage, and Distribution Managers",
+          "Logisticians",
+          "Operations Research Analysts"
+        ],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": [
+          49260,
+          132110
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 13-1081 (Logisticians); 10th–90th percentile annual. Median $80,880.",
+        "credential_gap_note": "The MOS Manual maps this to management SOCs (General and Operations Managers, Logisticians, Logistics Analysts). The experience is real and senior, but civilian logistics hiring runs on credentials and degrees that this MOS does not award: APICS/ASCM CSCP or CPIM, CPL, or a supply-chain degree. The wage range shown is for SOC 13-1081 (Logisticians), the most representative of the codes the Marine Corps lists — the manager codes (11-1021) would overstate what the MOS alone buys you. Marine Corps COOL publishes no credential map for 6617. Use tuition assistance and get the ASCM certification while you serve."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6672",
+      "code": "6672",
+      "name": "Aviation Supply Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply",
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "You run aviation supply — ordering, receiving, storing, issuing and accounting for the parts that keep Marine aircraft flying, and tracking them through the aviation logistics IT systems. It is inventory, records, requisitions and warehouse work specific to aviation, and it is largely a computer-and-paperwork job rather than a hands-on-aircraft job.",
+      "entry_requirements": {
+        "asvab_line_score": "CL 95",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "U.S. citizenship required. Must meet the requirements to obtain a state driver's license.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Marine Aviation Supply Specialist Course (N3330B1)",
+          "location": "NAS Meridian, MS",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "13-1081",
+          "13-2011",
+          "15-1242",
+          "43-4051",
+          "43-5011",
+          "43-5061",
+          "43-5071",
+          "53-7065",
+          "43-9021",
+          "53-3033"
+        ],
+        "civilian_titles": [
+          "Logisticians",
+          "Accountants and Auditors",
+          "Database Administrators",
+          "Customer Service Representatives",
+          "Cargo and Freight Agents",
+          "Production, Planning, and Expediting Clerks",
+          "Shipping, Receiving, and Inventory Clerks",
+          "Stockers and Order Fillers",
+          "Data Entry Keyers",
+          "Light Truck Drivers"
+        ],
+        "relevant_certifications": [
+          "SCPro Level One",
+          "SCPro Level Two- Analysis and Application of Supply Chain Challenges"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          38570,
+          84810
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 43-5061 (Production, Planning, and Expediting Clerks); 10th–90th percentile annual. Median $57,770.",
+        "credential_gap_note": "This MOS gives you real inventory and supply-chain experience and no certificate at all. Marine Corps COOL maps it to the ASCM/APICS SCPro credentials — which you must earn yourself; the school does not award them. Two honest cautions: (1) the Marine Corps' own SOC list for 6672 spans everything from Logisticians (13-1081) to Data Entry Keyers (43-9021), and the wage figure here uses SOC 43-5061 (Production, Planning and Expediting Clerks) as the most representative entry-level match — the Logistician code would flatter the record. (2) Civilian employers reading a resume want a credential: SCPro, APICS CPIM/CSCP, or a forklift/material-handling certification. Get at least one through COOL before you separate."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6672",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6673",
+      "code": "6673",
+      "name": "Automated Information Systems (AIS) Computer Operator",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply",
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "UNVERIFIED — MOS 6673 could not be confirmed as a current Marine Corps MOS. This code does not appear anywhere in NAVMC 1200.1M (the current MOS Manual), nor in editions 1200.1L, 1200.1J or 1200.1E, and it has no page on Marine Corps COOL. The description previously carried for this record could not be sourced to any official publication. Treat this entry as unconfirmed: it is likely a deleted, merged or erroneous code. Nothing further is asserted about it here.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": null,
+        "physical": null,
+        "other": "MOS code not found in NAVMC 1200.1M/L/J/E or Marine Corps COOL."
+      },
+      "training_pipeline": [],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": null,
+        "credential_gap_note": "Cannot be assessed — the MOS itself could not be verified against any official source."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6673"
+      ],
+      "confidence": "secondary"
+    },
+    {
+      "id": "marine-corps-6694",
+      "code": "6694",
+      "name": "Aviation Logistics Information Management System (ALIMS) Specialists",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "logistics-supply",
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "You are the IT and network side of Marine aviation logistics: installing, operating and maintaining the network infrastructure and information systems that the aviation maintenance and supply community runs on. Servers, network gear, user support, accounts and the ALIMS applications themselves. In practice this is a systems/network administration job wearing an aviation badge.",
+      "entry_requirements": {
+        "asvab_line_score": "EL 110",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "Normal color perception required. U.S. citizenship required.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Aviation Information Systems (AIS) Specialist Pipeline Course (N0562Z7)",
+          "location": "NAVSTA Newport, RI",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "11-3021",
+          "15-1244",
+          "15-1241",
+          "15-1232",
+          "15-1231",
+          "49-2011"
+        ],
+        "civilian_titles": [
+          "Computer and Information Systems Managers",
+          "Network and Computer Systems Administrators",
+          "Computer Network Architects",
+          "Computer User Support Specialists",
+          "Computer Network Support Specialists",
+          "Computer, Automated Teller, and Office Machine Repairers"
+        ],
+        "relevant_certifications": [
+          "Cisco Certified Network Associate (CCNA)",
+          "Cisco Certified Network Professional (CCNP) Enterprise",
+          "CompTIA A+",
+          "CompTIA Cybersecurity Analyst (CySA+)",
+          "CompTIA Linux+",
+          "CompTIA Network+",
+          "CompTIA Security+",
+          "CompTIA Server+"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          60320,
+          150320
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 15-1244 (Network and Computer Systems Administrators); 10th–90th percentile annual. Median $96,800.",
+        "credential_gap_note": "This is the strongest civilian crosswalk in the whole batch and the gap is the smallest — but it is not zero. Marine Corps COOL lists 24 directly-related credentials for 6694, including CompTIA A+, Network+, Security+, CySA+, Linux+ and Cisco CCNA/CCNP. None of them is awarded by the MOS school; each is an exam you sit. The difference between a Marine who separates from 6694 with Security+ and CCNA and one who separates with neither is roughly the difference between walking into a $70–90k network job and starting over at a help desk. DoD work also effectively requires Security+ under the DoD 8140/8570 baseline. COOL will fund these while you serve — this is the single highest-return use of COOL funding in this batch. Wage range shown is SOC 15-1244 (Network and Computer Systems Administrators)."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6694",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6842",
+      "code": "6842",
+      "name": "METOC Analyst Forecaster",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "You are the Marine Corps' weather forecaster. You observe, collect and quality-control meteorological and oceanographic data, run it through models, and turn it into forecasts and environmental assessments that commanders use to decide whether aircraft fly and operations go. You also maintain the sensors and systems that collect the data.",
+      "entry_requirements": {
+        "asvab_line_score": "GT 105",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Top Secret / SCI eligibility (single-scope background investigation / T5)",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "U.S. citizenship required. Must have 36 months of obligated service remaining upon graduation from the MOS-producing school.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Meteorological and Oceanographic Analyst Forecaster Course, ITRO Phase 1 (F02WAK1)",
+          "location": "MARDET, Keesler AFB, MS",
+          "length_weeks": null
+        },
+        {
+          "stage": "Marine Corps Meteorological Oceanographer Analyst Forecaster Course, Phase 2 (F02WAM2)",
+          "location": "MARDET, Keesler AFB, MS",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "19-2021"
+        ],
+        "civilian_titles": [
+          "Atmospheric and Space Scientists"
+        ],
+        "relevant_certifications": [
+          "Certified GIS/LIS Technologist",
+          "Certified Remote Sensing Technologist"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          49990,
+          160710
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 19-2021 (Atmospheric and Space Scientists); 10th–90th percentile annual. Median $97,450.",
+        "credential_gap_note": "Read the salary figure carefully. NAVMC 1200.1M maps 6842 to SOC 19-2021 (Atmospheric and Space Scientists) — but the BLS entry requirement for that occupation is a bachelor's degree in meteorology or atmospheric science, and the National Weather Service will not hire you as a meteorologist without one. The MOS teaches you to forecast; it does not give you the degree that the civilian occupation is gated on, so the wage range here is what degreed meteorologists earn, not what a separating 6842 walks into. The realistic path is: use tuition assistance and the GI Bill to finish an atmospheric-science degree while or after you serve — your operational forecasting experience then makes you a strong candidate rather than an unqualified one. Marine Corps COOL maps 6842 to GIS and remote-sensing technologist certifications, which are a genuine and much shorter alternative route. Note this MOS requires TS/SCI eligibility, which is itself a valuable asset."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6842",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-6852",
+      "code": "6852",
+      "name": "METOC Impact Analyst",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "UNVERIFIED — MOS 6852 could not be confirmed as a current Marine Corps MOS. This code does not appear anywhere in NAVMC 1200.1M (the current MOS Manual), nor in editions 1200.1L, 1200.1J or 1200.1E, and it has no page on Marine Corps COOL. The description previously carried for this record could not be sourced to any official publication. Treat this entry as unconfirmed: it is likely a deleted, merged or erroneous code. Nothing further is asserted about it here.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": null,
+        "physical": null,
+        "other": "MOS code not found in NAVMC 1200.1M/L/J/E or Marine Corps COOL."
+      },
+      "training_pipeline": [],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": null,
+        "credential_gap_note": "Cannot be assessed — the MOS itself could not be verified against any official source."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=6852"
+      ],
+      "confidence": "secondary"
+    },
+    {
+      "id": "marine-corps-7011",
+      "code": "7011",
+      "name": "Expeditionary Airfield Systems Technician",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "Expeditionary Airfield (EAF) Marines build airfields where there are none. You install and maintain the matting that forms the runway, the arresting gear that catches aircraft, the airfield lighting, and the visual landing aids — the kit that turns a stretch of dirt into a place a jet can land. It is heavy, outdoor, hands-on construction and mechanical work.",
+      "entry_requirements": {
+        "asvab_line_score": "MM 95",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "Vision correctable to 20/20 and normal color acuity.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Marine Expeditionary Airfield Course (N2370D2)",
+          "location": "NAS Pensacola, FL",
+          "length_weeks": null
+        },
+        {
+          "stage": "Marine Expeditionary Airfield Advanced Course (N2370L2) — MSgt to SSgt",
+          "location": "NAS Pensacola, FL",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "55-3012",
+          "53-2022",
+          "49-9071"
+        ],
+        "civilian_titles": [
+          "Airfield Operations Specialists",
+          "Maintenance and Repair Workers, General"
+        ],
+        "relevant_certifications": [
+          "ASTM NCATT Foreign Object Elimination (FOE)",
+          "Basic Electricity and Electronics - Alternating Current (BEE-AC)",
+          "Basic Electricity and Electronics - Analog (BEE-A)",
+          "Basic Electricity and Electronics - Digital (BEE-D)",
+          "Basic Electricity and Electronics - Direct Current (BEE-DC)",
+          "Certified Dangerous Goods Professional (CDGP)",
+          "Certified Fire Protection Specialist (CFPS)",
+          "Certified Maintenance and Reliability Technician (CMRT)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          33860,
+          76110
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 49-9071 (Maintenance and Repair Workers, General); 10th–90th percentile annual. Median $48,620.",
+        "credential_gap_note": "The MOS Manual maps 7011 to SOC 55-3012, which is a military-only occupation code — BLS publishes no civilian wage data for it at all, because no civilian job does this. That is the gap in one sentence: there is no civilian expeditionary-airfield industry. The wage range shown is for SOC 49-9071 (Maintenance and Repair Workers, General), taken from the Marine Corps COOL O*NET crosswalk as the closest real civilian occupation. COOL lists no directly-related credential for 7011 — only loosely-related ones (hazmat, fire-protection, electronics). What transfers is heavy-equipment operation, arresting-gear/hydraulics and airfield-lighting electrical work; convert it deliberately by getting a CDL, an electrical apprenticeship or a hazmat credential through COOL before you separate."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=7011",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7041",
+      "code": "7041",
+      "name": "Aviation Operations Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "Aviation Operations Specialists run the squadron or air-station operations office. You build and publish the flight schedule, maintain aircrew flight and qualification records, log flight hours, handle flight-planning paperwork and keep the operational reporting systems current. It is an administrative and coordination job at the centre of how a flying unit runs — typing speed is an actual, stated prerequisite.",
+      "entry_requirements": {
+        "asvab_line_score": "CL 95",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "U.S. citizenship required. Must be able to type at a stated net WPM rate (25 WPM for LCpl and below, 30 for Cpl, 35 for Sgt and above).",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Aviation Operations Specialist Course (N3370C1)",
+          "location": "NAS Meridian, MS",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "53-2022"
+        ],
+        "civilian_titles": [
+          "Airfield Operations Specialists"
+        ],
+        "relevant_certifications": [
+          "Certified School Safety Manager (CSSM)",
+          "Microsoft Office Specialist (MOS): Excel Associate (Office 2019)",
+          "Microsoft Office Specialist (MOS): Microsoft Access Expert (Office 2019)",
+          "Microsoft Office Specialist (MOS): Microsoft Excel Expert (Office 2019)",
+          "Microsoft Office Specialist (MOS): Microsoft Word Expert (Office 2019)",
+          "Microsoft Office Specialist (MOS): Outlook Associate (Office 2019)",
+          "Microsoft Office Specialist (MOS): PowerPoint Associate (Office 2019)",
+          "Microsoft Office Specialist (MOS): Word Associate (Office 2019)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          35200,
+          111030
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 53-2022 (Airfield Operations Specialists); 10th–90th percentile annual. Median $56,750.",
+        "credential_gap_note": "The Marine Corps maps this to SOC 53-2022 (Airfield Operations Specialists), which is a fair match — but civilian airfield operations and airline dispatch are credentialed. The FAA Aircraft Dispatcher certificate requires its own approved course and FAA knowledge and practical tests; nothing in this MOS awards it. Marine Corps COOL lists no directly-related credential for 7041 — the closest are Microsoft Office Specialist certifications, which tells you honestly what the civilian market reads this experience as: strong aviation-adjacent administrative work. If you want the aviation career rather than the admin career, use COOL/GI Bill for the FAA Aircraft Dispatcher certificate, which is a short course and a genuine licence."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=7041",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7051",
+      "code": "7051",
+      "name": "Aircraft Rescue and Firefighting Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "Aircraft Rescue and Firefighting (ARFF) Marines stand by the runway for the worst day. You respond to aircraft crashes and airfield emergencies, drive and operate the crash trucks, fight fuel and wreckage fires and pull aircrew out of burning aircraft. It is a structured, high-standard, physically demanding job with strict medical screening — including a firefighter physical before you can even start the school.",
+      "entry_requirements": {
+        "asvab_line_score": "MM 95",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "U.S. citizenship, valid state driver's licence. Minimum height 60 inches. Must pass a firefighter physical (SECNAV 5100 '707 exam') and meet DODM 6055.05 occupational medical and OSHA 29 CFR 1910.134 respirator standards. No history of mental, nervous or emotional disorders that could impair safe job performance — no waivers.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Fire Protection Apprentice Course (F0764T2)",
+          "location": "Goodfellow AFB, San Angelo, TX",
+          "length_weeks": null
+        },
+        {
+          "stage": "Firefighter physical (required before attending the Fire Protection Apprentice Course)",
+          "location": "—",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "33-2011"
+        ],
+        "civilian_titles": [
+          "Firefighters"
+        ],
+        "relevant_certifications": [
+          "ASTM NCATT Foreign Object Elimination (FOE)",
+          "Certified Fire Protection Specialist (CFPS)",
+          "Certified School Safety Manager (CSSM)",
+          "Emergency Medical Responder (EMR)",
+          "Emergency Medical Technician (EMT)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          34490,
+          101330
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 33-2011 (Firefighters); 10th–90th percentile annual. Median $59,530.",
+        "credential_gap_note": "THE EMT GAP. This is the one to understand. Marine ARFF trains you to fight aircraft fires, and the DoD fire academy certifications you earn are genuinely portable — but Marine Corps COOL lists Emergency Medical Technician and Emergency Medical Responder as credentials still to be earned, not held. That matters because the overwhelming majority of civilian municipal fire departments require EMT certification as a condition of hire (many now require Paramedic), and most run their own civil-service exam, CPAT physical test and academy on top of it. A Marine ARFF veteran is a strong candidate — but is not a civilian firefighter on separation and cannot be hired as one without the EMT card. Close it while you are still in: get EMT through COOL funding, and get your DoD/Pro Board and IFSAC certifications documented before you check out. Federal (DoD civilian) fire departments are the fastest path because they recognise the same certifications you already hold."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=7051",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7212",
+      "code": "7212",
+      "name": "Low Altitude Air Defense Gunner",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "LAAD gunners are the Marine Corps' short-range air defence. You employ the Stinger missile and related systems to shoot down low-flying aircraft and drones threatening a Marine force, operating in small teams, often detached and dug in. It is an infantry-adjacent, field-heavy job: you live outdoors, carry weight and provide security as much as you shoot missiles.",
+      "entry_requirements": {
+        "asvab_line_score": "GT 90",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "U.S. citizenship. At least 64 inches in height. Normal colour vision. 20/20 vision (correctable). Hearing loss no greater than 15 dB between 500 Hz and 2000 Hz. Valid state driver's licence. Must meet MOS classification standards and initial strength test standards.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Basic LAAD Gunner Course (LAADGC) (M092141)",
+          "location": "MCAS Yuma, AZ / Fleet Marine Force",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "55-3014",
+          "33-9093"
+        ],
+        "civilian_titles": [
+          "Transportation Security Screeners"
+        ],
+        "relevant_certifications": [
+          "Certified Sport Security Professional (CSSP)",
+          "Physical Security Professional (PSP)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          45010,
+          75940
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 33-9093 (Transportation Security Screeners); 10th–90th percentile annual. Median $63,360.",
+        "credential_gap_note": "Be honest with yourself about this one. NAVMC 1200.1M maps 7212 to SOC 55-3014, a military-only occupation code for which BLS publishes no civilian wage data — because firing surface-to-air missiles has no civilian equivalent. Marine Corps COOL lists no directly-related credential for 7212 at all; the nearest are physical-security certifications (PSP, CSSP). The wage range shown is for SOC 33-9093 (Transportation Security Screeners) drawn from COOL's own O*NET crosswalk, and it is a modest number — that is the truthful picture, not a knock on the job. If you take this MOS, take it because you want the job, and plan your civilian credential separately: use tuition assistance from day one, and consider the security-management certifications COOL points to. The counterweight: the counter-drone skillset is becoming genuinely relevant to a growing civilian and contractor market."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=7212",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7240",
+      "code": "7240",
+      "name": "Tactical Air Control Operator",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "Tactical Air Control Operators work inside the Marine air command and control system, operating the radar, radios and data links used to detect aircraft, identify them and direct friendly aircraft and air defence. You sit at a scope and a radio in an air-defence or air-support control agency — a tactical, warfighting version of air traffic control, not an FAA one.",
+      "entry_requirements": {
+        "asvab_line_score": "GT 100",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "U.S. citizenship. Normal colour vision. 12 months of time in service remaining at expected graduation date.",
+        "other": null
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Tactical Air Control Operator Course (M0972B1)",
+          "location": "MCAS/MCAGCC Twentynine Palms, CA",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "55-3015",
+          "53-2022",
+          "53-2021"
+        ],
+        "civilian_titles": [
+          "Airfield Operations Specialists",
+          "Air Traffic Controllers"
+        ],
+        "relevant_certifications": [
+          "Air Traffic Control Tower Operator (CTO)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          35200,
+          111030
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 53-2022 (Airfield Operations Specialists); 10th–90th percentile annual. Median $56,750.",
+        "credential_gap_note": "Do not confuse this with being an air traffic controller. The MOS Manual maps 7240 to SOC 55-3015 — a military-only code with no BLS wage data — and the job is tactical air control, not civil air traffic control. Marine Corps COOL does map the FAA Control Tower Operator (CTO) certificate to this MOS as directly related, and if you can earn the CTO it is worth real money; but the FAA controller career itself has a hard gate that catches people by surprise: entry-level FAA applicants must be under the age of 31, and the experienced-controller hiring path requires 52 consecutive weeks of actively separating air traffic plus being age 35 or under. A 7240 does not automatically accumulate that experience the way a 7257 does. The wage range shown here is the conservative one — SOC 53-2022, Airfield Operations Specialists — because quoting air-traffic-controller wages for this MOS would overstate it."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=7240",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip",
+        "https://www.faa.gov/air-traffic-controller-qualifications",
+        "https://www.faa.gov/jobs/career_fields/aviation_careers/experienced_controllers"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7252",
+      "code": "7252",
+      "name": "Air Traffic Controller",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "A tower controller. Working from the control tower at a Marine air station or an expeditionary airfield, you control aircraft and vehicles in the airspace and on the runways around the field by looking out the window and talking on the radio — takeoffs, landings, taxi and ground movement.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. NAVMC 1200.1M requires you to already be a qualified MOS 7257 or 7291. You reach 7252 from inside the air traffic control field — the entry point is the ATC trainee pipeline (7251 → 7257), and 7252 is awarded when you qualify for and are issued the FAA Control Tower Credential."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Prerequisite: qualify as MOS 7257 or 7291",
+          "location": "Marine Corps Air Station / Air Facility",
+          "length_weeks": null
+        },
+        {
+          "stage": "Qualify for and be issued an FAA Control Tower Operator credential at an ATC facility with 7252 issuance authority",
+          "location": "Marine Corps Air Station / Air Facility",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "53-2021"
+        ],
+        "civilian_titles": [
+          "Air Traffic Controllers"
+        ],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": [
+          76090,
+          210410
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 53-2021 (Air Traffic Controllers); 10th–90th percentile annual. Median $144,580.",
+        "credential_gap_note": "This is the best civilian payoff in the batch, and it has a clock on it. You genuinely earn the FAA Control Tower Operator (CTO) certificate — NAVMC 1200.1M makes an FAA credential a formal requirement of the MOS — and Marine Corps COOL lists CTO and Aircraft Dispatcher as directly related. But holding the CTO is not the same as being hired by the FAA, and the FAA's own rules are unforgiving about age: entry-level applicants must be under the age of 31 (faa.gov). The route that matters for you is the FAA's 'experienced controller' announcement, which requires a minimum of 52 consecutive weeks of air traffic control experience involving the full-time active separation of air traffic after receipt of a facility rating, within five years of application, at a military or DoD facility — and you must be age 35 or under on the closing date. Translation: enlist young, get rated fast, make sure you bank 52 consecutive weeks of actual control time, keep the documentation, and apply before the window shuts. Marines who drift into non-controlling billets and let five years pass lose the qualification. Also note civilian ATC still requires passing the FAA medical and, for the entry path, the FAA Academy in Oklahoma City."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip",
+        "https://www.faa.gov/air-traffic-controller-qualifications",
+        "https://www.faa.gov/jobs/career_fields/aviation_careers/experienced_controllers"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7253",
+      "code": "7253",
+      "name": "Air Traffic Controller–Radar Arrival/Departure Controller",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "A radar controller on the arrival and departure side. Working in a radar facility, you use radar to sequence and separate aircraft coming into and leaving the airfield's airspace — the approach-control job rather than the look-out-the-window tower job.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. NAVMC 1200.1M requires you to already be a qualified MOS 7257 or 7291, and 7253 is awarded on being issued the FAA Arrival Control credential."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Prerequisite: qualify as MOS 7257 or 7291",
+          "location": "Marine Corps Air Station / Air Facility",
+          "length_weeks": null
+        },
+        {
+          "stage": "Qualify for and be issued an FAA Arrival Control credential at an ATC facility with 7253 issuance authority",
+          "location": "Marine Corps Air Station / Air Facility",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "53-2021"
+        ],
+        "civilian_titles": [
+          "Air Traffic Controllers"
+        ],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": [
+          76090,
+          210410
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 53-2021 (Air Traffic Controllers); 10th–90th percentile annual. Median $144,580.",
+        "credential_gap_note": "This is the best civilian payoff in the batch, and it has a clock on it. You genuinely earn the FAA Control Tower Operator (CTO) certificate — NAVMC 1200.1M makes an FAA credential a formal requirement of the MOS — and Marine Corps COOL lists CTO and Aircraft Dispatcher as directly related. But holding the CTO is not the same as being hired by the FAA, and the FAA's own rules are unforgiving about age: entry-level applicants must be under the age of 31 (faa.gov). The route that matters for you is the FAA's 'experienced controller' announcement, which requires a minimum of 52 consecutive weeks of air traffic control experience involving the full-time active separation of air traffic after receipt of a facility rating, within five years of application, at a military or DoD facility — and you must be age 35 or under on the closing date. Translation: enlist young, get rated fast, make sure you bank 52 consecutive weeks of actual control time, keep the documentation, and apply before the window shuts. Marines who drift into non-controlling billets and let five years pass lose the qualification. Also note civilian ATC still requires passing the FAA medical and, for the entry path, the FAA Academy in Oklahoma City."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip",
+        "https://www.faa.gov/air-traffic-controller-qualifications",
+        "https://www.faa.gov/jobs/career_fields/aviation_careers/experienced_controllers"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7257",
+      "code": "7257",
+      "name": "Air Traffic Controller",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "This is the Marine air traffic controller. You control friendly aircraft in the airspace and on the ground at an air station, expeditionary airfield or remote landing site — separating traffic, issuing clearances and instructions by radio, and keeping aircraft from hitting each other. It is a high-pressure, high-standard job with a washout rate to match, and the qualification is earned on position after school, not handed to you at graduation.",
+      "entry_requirements": {
+        "asvab_line_score": "GT 110",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret (or temporary SCI)",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "U.S. citizenship required.",
+        "other": "The entry route is MOS 7251 (ATC trainee): you must meet the 7251 prerequisites and complete the Air Traffic Control Basic Course (N2367A2), then qualify on a live control position at an air station before the 7257 MOS is awarded — the manual allows up to 12 months after graduation. Lateral-move applicants must be a Cpl or below with less than 5 years in service."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Air Traffic Control Basic Course, AC(A1) (N2367A2) — awarded MOS 7251 (trainee)",
+          "location": "NATTC, NAS Pensacola, FL",
+          "length_weeks": null
+        },
+        {
+          "stage": "Qualify on a live control position (tower, ground control, radar final or flight data) at a Marine Corps Air Station or Air Facility — required for award of PMOS 7257",
+          "location": "Marine Corps Air Station / Air Facility",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "53-2021"
+        ],
+        "civilian_titles": [
+          "Air Traffic Controllers"
+        ],
+        "relevant_certifications": [
+          "Air Traffic Control Tower Operator (CTO)",
+          "Aircraft Dispatcher"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          76090,
+          210410
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 53-2021 (Air Traffic Controllers); 10th–90th percentile annual. Median $144,580.",
+        "credential_gap_note": "This is the best civilian payoff in the batch, and it has a clock on it. You genuinely earn the FAA Control Tower Operator (CTO) certificate — NAVMC 1200.1M makes an FAA credential a formal requirement of the MOS — and Marine Corps COOL lists CTO and Aircraft Dispatcher as directly related. But holding the CTO is not the same as being hired by the FAA, and the FAA's own rules are unforgiving about age: entry-level applicants must be under the age of 31 (faa.gov). The route that matters for you is the FAA's 'experienced controller' announcement, which requires a minimum of 52 consecutive weeks of air traffic control experience involving the full-time active separation of air traffic after receipt of a facility rating, within five years of application, at a military or DoD facility — and you must be age 35 or under on the closing date. Translation: enlist young, get rated fast, make sure you bank 52 consecutive weeks of actual control time, keep the documentation, and apply before the window shuts. Marines who drift into non-controlling billets and let five years pass lose the qualification. Also note civilian ATC still requires passing the FAA medical and, for the entry path, the FAA Academy in Oklahoma City."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=7257",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip",
+        "https://www.faa.gov/air-traffic-controller-qualifications",
+        "https://www.faa.gov/jobs/career_fields/aviation_careers/experienced_controllers"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7276",
+      "code": "7276",
+      "name": "Low Altitude Air Defense (LAAD) Enhancement Training Instructor (LETI)",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "A LAAD Marine certified to instruct the Low Altitude Air Defense enhancement course — teaching other Marines to employ LAAD missile systems. An instructor billet earned from inside the LAAD community.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. NAVMC 1200.1M requires you to already hold PMOS 7212 (LAAD Gunner), plus approval by APX7."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Prerequisite: hold PMOS 7212 (LAAD Gunner)",
+          "location": "Fleet Marine Force",
+          "length_weeks": null
+        },
+        {
+          "stage": "MAWTS-1 LAAD Enhancement Training Instructor (LETI) Course",
+          "location": "MAWTS-1, MCAS Yuma, AZ",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": null,
+        "credential_gap_note": "NAVMC 1200.1M lists 'Related Standard Occupational Classification: None' for 7276 — the Marine Corps itself does not claim a civilian occupation for this MOS, and Marine Corps COOL publishes no credential map for it. There is no civilian wage figure to give you and inventing one would be dishonest. Treat 7276 as a leadership and instructional credential inside the LAAD field; everything said about the 7212 civilian gap applies here too."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7291",
+      "code": "7291",
+      "name": "Senior Air Traffic Controller",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "The senior air traffic controller — the Gunnery Sergeant and above who runs an ATC branch as Tower Chief, Radar Chief or Training Chief. Supervision, training, certification and facility management rather than routine time on position.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. NAVMC 1200.1M requires PMOS 7257, NMOS 7252, and either NMOS 7253 or 7254 — with no waivers. Grade range MGySgt to GySgt. This is the top of the ATC career ladder, roughly 10+ years in."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Prerequisite: hold PMOS 7257 plus NMOS 7252 and either 7253 or 7254; promote to GySgt (no waivers)",
+          "location": "Marine Corps Air Station / Air Facility",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "53-2021"
+        ],
+        "civilian_titles": [
+          "Air Traffic Controllers"
+        ],
+        "relevant_certifications": [
+          "Microsoft Office Specialist (MOS): Word Associate (Office 2019)"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          76090,
+          210410
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 53-2021 (Air Traffic Controllers); 10th–90th percentile annual. Median $144,580.",
+        "credential_gap_note": "A 7291 is the most employable air traffic controller the Marine Corps produces — but the FAA's age rules still bite, and they bite hardest here. The FAA's experienced-controller path requires you to be age 35 or under on the closing date of the application period, and a Marine typically does not reach GySgt/7291 until well into their thirties. Read that carefully: it is entirely possible to become one of the most qualified controllers in the Marine Corps and age out of FAA hiring. The 52 consecutive weeks of active traffic separation must also be within five years of application, and senior chiefs often stop controlling. If FAA employment is your goal, apply while you are a 7257/7252 — not after you make 7291. Private-sector and DoD-contract tower jobs (federal contract towers) have no such age limit and are the realistic route for senior controllers."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=7291",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip",
+        "https://www.faa.gov/air-traffic-controller-qualifications",
+        "https://www.faa.gov/jobs/career_fields/aviation_careers/experienced_controllers"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7313",
+      "code": "7313",
+      "name": "Helicopter Specialist, AH-1Z/UH-1Y",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "Ground maintenance technicians and aircrew on the AH-1Z Viper attack helicopter and UH-1Y Venom utility helicopter. This is a follow-on skill designator layered on top of an existing H-1 maintenance MOS, covering maintenance and — for aircrew — flying as a crew member on the aircraft.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": null,
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. It is an NMOS: NAVMC 1200.1M requires you to meet all requirements and prerequisites for the primary H-1 MOS first. The manual states no separate ASVAB line score or security clearance for 7313 — the gates are inherited from the underlying H-1 MOS."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Prerequisite: meet all requirements/prerequisites for the primary H-1 MOS",
+          "location": "Fleet Marine Force",
+          "length_weeks": null
+        },
+        {
+          "stage": "Appropriate formal school",
+          "location": "NAMTRAGRU MARDET, MCAS Camp Pendleton, CA",
+          "length_weeks": null
+        },
+        {
+          "stage": "MATMEP Level II asterisk items; aircrew complete NATOPS requirements for the AH-1Z/UH-1Y",
+          "location": "Fleet Marine Force",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "55-3011"
+        ],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": null,
+        "credential_gap_note": "NAVMC 1200.1M maps 7313 to SOC 55-3011 (Air Crew Members) — a military-only occupation code for which BLS publishes no civilian wage data, and Marine Corps COOL publishes no page for this MOS. So there is no defensible civilian salary figure and none is given here. The transferable asset is helicopter maintenance experience, and the credential that converts it is the FAA Airframe & Powerplant (A&P) certificate — which this MOS does NOT award. FAA rules let documented military maintenance experience count toward A&P eligibility, but you must still be signed off and pass the FAA written, oral and practical tests yourself. Civil helicopter operators (EMS, offshore, utility, tour) hire A&P mechanics; they do not hire 'former 7313s'. Start the A&P paperwork before you separate."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7314",
+      "code": "7314",
+      "name": "Unmanned Aerial Vehicle (UAV) Air Vehicle Operator",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "NOTE: NAVMC 1200.1M now titles MOS 7314 'Sensor Operator (SO)' — the older 'UAV Air Vehicle Operator' title is out of date. You fly the sensors on the MQ-9A Reaper: operating the cameras, targeting pods and other payloads from a ground control station, finding and tracking what the aircraft is looking at, and working as half of a crew with the aircraft commander. The gates on this MOS are among the hardest in the Marine Corps — a five-year enlistment, GT 110 with no waivers, no dual citizenship, a flight physical and TS/SCI.",
+      "entry_requirements": {
+        "asvab_line_score": "GT 110",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Top Secret / SCI (single-scope background investigation / T5); must be initiated before the BUQ course",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "U.S. citizen and NOT a dual citizen (no waivers). Must pass the normal colour perception test (no waivers). Must pass a Class IV flight physical before the Basic UAS Qualification course.",
+        "other": "Requires a five-year term of enlistment. GT 110 minimum with no waivers. Awarded the Marine Unmanned Aircraft System breast insignia on receipt of the MOS."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Basic Unmanned Aircraft Systems (UAS) Qualification Course — BUQ-IV (M04VASD)",
+          "location": "MCAS Cherry Point, NC",
+          "length_weeks": null
+        },
+        {
+          "stage": "MQ-9A Sensor Operator Category I FRS Training Course (M04H37D) or USAF MQ-9 Enlisted Initial Qualification Training (F34RPD1)",
+          "location": "MCAS Cherry Point, NC or Holloman AFB, NM",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "17-3024",
+          "53-2011",
+          "49-2091"
+        ],
+        "civilian_titles": [
+          "Electro-Mechanical and Mechatronics Technologists and Technicians",
+          "Airline Pilots, Copilots, and Flight Engineers",
+          "Avionics Technicians"
+        ],
+        "relevant_certifications": [
+          "Remote Pilot"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          47770,
+          109580
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 17-3024 (Electro-Mechanical and Mechatronics Technologists and Technicians); 10th–90th percentile annual. Median $70,760.",
+        "credential_gap_note": "Two gaps, and the second one is the one nobody mentions. First: the only directly-related civilian credential Marine Corps COOL maps to 7314 is the FAA Part 107 Remote Pilot certificate — a roughly $175 knowledge test that a civilian teenager can pass in a weekend. Flying an MQ-9 for the Marine Corps does not make you an FAA-certificated pilot of anything, and the manual's SOC list even includes 53-2011 (Airline Pilots) which is flatly misleading — no pilot certificate is conferred. Second: the civilian large-drone industry is small; the jobs that actually pay for MQ-9 experience are defence-contractor billets, and what makes you hireable for those is the TS/SCI clearance and the documented flight hours far more than the flying skill. So: keep the clearance current, log and document every hour, get Part 107 (cheap, do it immediately), and understand that the wage range shown — SOC 17-3024, Electro-Mechanical and Mechatronics Technicians — is the realistic technical analog, not airline pay."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=7314",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7316",
+      "code": "7316",
+      "name": "Small Unmanned Aerial System (SUAS) Operator",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "NOTE: NAVMC 1200.1M titles MOS 7316 'Small Unmanned Aircraft System (SUAS) Specialist'. You operate the small drones that a ground unit carries with it — launching, flying and recovering them, and running the sensors to give the unit its own overhead picture. Compared with 7314 this is a smaller aircraft, a shorter pipeline and a far more field-and-infantry-adjacent job, but it still requires a five-year enlistment and GT 110.",
+      "entry_requirements": {
+        "asvab_line_score": "GT 110",
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": "U.S. citizenship. Normal colour vision and depth perception (waiver requires an aeromedical officer). Must meet the annual UAS medical screening exam (Manual of the Medical Department, Article 15-63).",
+        "other": "Requires a five-year term of enlistment. GT 110 minimum (waivers reviewed by the 7316 occupational field specialists). Awarded the Marine Unmanned Aircraft System breast insignia."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Small Unmanned Aircraft Systems (SUAS) Specialist Schoolhouse East — BUQ-II (M03VAN4)",
+          "location": "Camp Lejeune, NC",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "17-3024",
+          "13-2099"
+        ],
+        "civilian_titles": [
+          "Electro-Mechanical and Mechatronics Technologists and Technicians",
+          "Financial Specialists, All Other"
+        ],
+        "relevant_certifications": [
+          "Remote Pilot"
+        ],
+        "estimated_civilian_salary_range_usd": [
+          47770,
+          109580
+        ],
+        "salary_source": "BLS OEWS national, May 2024, SOC 17-3024 (Electro-Mechanical and Mechatronics Technologists and Technicians); 10th–90th percentile annual. Median $70,760.",
+        "credential_gap_note": "The honest headline: the civilian credential this MOS maps to is the FAA Part 107 Remote Pilot certificate, and Part 107 is a knowledge test that costs about $175 and requires no military service whatsoever. That is the only credential Marine Corps COOL lists as directly related to 7316. Military SUAS experience makes you better at flying drones than a fresh Part 107 holder, but it does not give you a credential a civilian employer can distinguish from theirs — you have to go get the same card they have. Do it while you are in, through COOL. Where the experience genuinely pays is in survey, inspection, mapping and public-safety drone work combined with a real technical skill (GIS, surveying, thermography) or a clearance-holding contractor job. The wage range shown is SOC 17-3024 (Electro-Mechanical and Mechatronics Technicians); COOL also maps remote-sensing technician roles here."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=7316",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html",
+        "https://www.bls.gov/oes/special-requests/oesm24nat.zip"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7372",
+      "code": "7372",
+      "name": "Tactical Systems Operator/Mission Specialist",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "Tactical Systems Operators / Mission Specialists are enlisted aircrew on Marine transport and refuelling aircraft. You perform tactical navigation, threat assessment and mission planning, and work in-flight tasks including aerial refuelling, aerial delivery, low-level and night-vision flight. You fly as a crew member — you are not the pilot.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": null,
+        "other": "The MOS Manual lists no ASVAB line score for 7372 and states that VMGR-452 assigns this MOS — it is an assigned/lateral aircrew MOS reached from inside the squadron, not one you enlist directly into. Grade range MGySgt to LCpl."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Survival, Evasion, Resistance and Escape (SERE) School Course (N51M5Q1)",
+          "location": "Brunswick, ME",
+          "length_weeks": null
+        },
+        {
+          "stage": "Assignment of the MOS by VMGR-452",
+          "location": "VMGR-452",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [
+          "53-2011"
+        ],
+        "civilian_titles": [
+          "Airline Pilots, Copilots, and Flight Engineers"
+        ],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": null,
+        "credential_gap_note": "Read this one carefully, because the official crosswalk is actively misleading. NAVMC 1200.1M maps MOS 7372 to SOC 53-2011 — 'Airline Pilots, Copilots, and Flight Engineers' — an occupation whose BLS median exceeds $200,000. This MOS confers no FAA pilot certificate of any kind. Publishing airline-pilot wages against an enlisted aircrew MOS would badly mislead you, so no salary figure is given here rather than a wrong one. What the job actually gives you is aircrew experience, SERE qualification and a security clearance. If you want to fly for a living, the path runs through civilian flight training and FAA certificates (Private → Instrument → Commercial → ATP, roughly 1,500 hours for ATP) paid for largely by you and the GI Bill — your military aircrew time does not count toward those hours unless you were the pilot. Marine Corps COOL publishes no page for 7372."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html"
+      ],
+      "confidence": "official"
+    },
+    {
+      "id": "marine-corps-7382",
+      "code": "7382",
+      "name": "Airborne Radio Operator/In-flight Refueling Observer/Loadmaster",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "aviation"
+      ],
+      "depth": "deep",
+      "what_it_is": "UNVERIFIED — MOS 7382 could not be confirmed as a current Marine Corps MOS. This code does not appear anywhere in NAVMC 1200.1M (the current MOS Manual), nor in editions 1200.1L, 1200.1J or 1200.1E, and it has no page on Marine Corps COOL. The description previously carried for this record could not be sourced to any official publication. Treat this entry as unconfirmed: it is likely a deleted, merged or erroneous code. Nothing further is asserted about it here.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": null,
+        "security_clearance": null,
+        "education": null,
+        "physical": null,
+        "other": "MOS code not found in NAVMC 1200.1M/L/J/E or Marine Corps COOL."
+      },
+      "training_pipeline": [],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": null,
+        "credential_gap_note": "Cannot be assessed — the MOS itself could not be verified against any official source."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.cool.osd.mil/usmc/moc/index.html?moc=7382"
+      ],
+      "confidence": "secondary"
+    },
+    {
+      "id": "marine-corps-8018",
+      "code": "8018",
+      "name": "Congressional Marine Liaison",
+      "branch": "Marine Corps",
+      "track": "enlisted",
+      "interest_cluster_ids": [
+        "business-admin"
+      ],
+      "depth": "deep",
+      "what_it_is": "An enlisted Marine serving as the Marine Corps' liaison to the U.S. Congress, working out of the Office of Legislative Affairs. You support the relationship between the Service and Capitol Hill — briefings, congressional inquiries, escorting, and staff work. It is a Washington staff job, not a field job.",
+      "entry_requirements": {
+        "asvab_line_score": null,
+        "afqt_note": "Minimum AFQT 31 to enlist in the Marine Corps; 50+ if you hold a GED or nontraditional diploma (marines.com enlistment requirements). This is separate from the MOS line-score gate above.",
+        "security_clearance": "Secret, with eligibility for Top Secret",
+        "education": "High school diploma or GED (Marine Corps enlistment standard).",
+        "physical": null,
+        "other": "NOT AN ENTRY-LEVEL MOS. This is a 'Free MOS'. NAVMC 1200.1M requires you to complete a 12-month tour as a Congressional Fellow on Capitol Hill and then serve a minimum of 18 months within the Office of Legislative Affairs. The certifying authority is the Legislative Assistant to the Commandant. You reach this MOS as an established senior Marine, not from the recruiting office."
+      },
+      "training_pipeline": [
+        {
+          "stage": "Recruit Training",
+          "location": "MCRD Parris Island, SC or MCRD San Diego, CA",
+          "length_weeks": 13
+        },
+        {
+          "stage": "Marine Combat Training (MCT) — 29-day course",
+          "location": "School of Infantry East (Camp Geiger, NC) or West (Camp Pendleton, CA)",
+          "length_weeks": 4
+        },
+        {
+          "stage": "Prerequisite: selection as a Congressional Fellow",
+          "location": "Office of Legislative Affairs, HQMC",
+          "length_weeks": null
+        },
+        {
+          "stage": "Congressional Fellowship — 12-month tour on Capitol Hill",
+          "location": "U.S. Capitol, Washington, DC",
+          "length_weeks": null
+        },
+        {
+          "stage": "Minimum 18 months of service within the Office of Legislative Affairs (OLA)",
+          "location": "HQMC, Washington, DC",
+          "length_weeks": null
+        }
+      ],
+      "civilian_crosswalk": {
+        "onet_soc_codes": [],
+        "civilian_titles": [],
+        "relevant_certifications": [],
+        "estimated_civilian_salary_range_usd": null,
+        "salary_source": null,
+        "credential_gap_note": "NAVMC 1200.1M lists 'Related Standard Occupational Classification: None' for 8018 — the Marine Corps claims no civilian occupation for it — and Marine Corps COOL publishes no credential map. No BLS wage figure can honestly be attached, so none is given. In practice the experience is genuinely valuable in government relations, lobbying and congressional staff work, but that market hires on network and demonstrated Hill experience rather than on any certificate, and typically expects a degree. No credential closes this gap because no credential exists for it."
+      },
+      "special_pays": [],
+      "transition": {
+        "va_disability_common_claims": []
+      },
+      "sources": [
+        "https://www.marines.mil/Portals/1/Publications/NAVMC%201200.1M%20(SECURED).pdf",
+        "https://www.marines.com/become/recruit-training.html",
+        "https://www.marines.com/become/preparing-for-operating-forces.html",
+        "https://www.marines.com/become/requirements.html"
+      ],
+      "confidence": "official"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "marine-corps-6482",
+      "code": "6482",
+      "field": "entire record",
+      "reason": "MOS 6482 (Aircraft Electronic Countermeasures Systems Technician, Fixed Wing, IMA) appears in ZERO of the four NAVMC 1200.1 editions checked (M, L, J, E) and has no Marine Corps COOL page. It could not be verified as a current or former Marine Corps MOS. Every field left null rather than guessed. Recommend removing this record or re-deriving it from an authoritative MOS list."
+    },
+    {
+      "id": "marine-corps-6486",
+      "code": "6486",
+      "field": "entire record",
+      "reason": "MOS 6486 (Advanced Aircraft Electronic Countermeasures Technician, IMA) appears in ZERO of the four NAVMC 1200.1 editions checked (M, L, J, E) and has no Marine Corps COOL page. It could not be verified as a current or former Marine Corps MOS. Every field left null rather than guessed. Recommend removing this record or re-deriving it from an authoritative MOS list."
+    },
+    {
+      "id": "marine-corps-6491",
+      "code": "6491",
+      "field": "entire record",
+      "reason": "MOS 6491 (Aviation Precision Measurement Equipment (PME) Chief) appears in ZERO of the four NAVMC 1200.1 editions checked (M, L, J, E) and has no Marine Corps COOL page. It could not be verified as a current or former Marine Corps MOS. Every field left null rather than guessed. Recommend removing this record or re-deriving it from an authoritative MOS list."
+    },
+    {
+      "id": "marine-corps-6493",
+      "code": "6493",
+      "field": "entire record",
+      "reason": "MOS 6493 (Aviation Meteorological Equipment Technician) appears in ZERO of the four NAVMC 1200.1 editions checked (M, L, J, E) and has no Marine Corps COOL page. It could not be verified as a current or former Marine Corps MOS. Every field left null rather than guessed. Recommend removing this record or re-deriving it from an authoritative MOS list."
+    },
+    {
+      "id": "marine-corps-6532",
+      "code": "6532",
+      "field": "entire record",
+      "reason": "MOS 6532 (A4 Aviation Ordnance Technician) appears in ZERO of the four NAVMC 1200.1 editions checked (M, L, J, E) and has no Marine Corps COOL page. It could not be verified as a current or former Marine Corps MOS. Every field left null rather than guessed. Recommend removing this record or re-deriving it from an authoritative MOS list."
+    },
+    {
+      "id": "marine-corps-6577",
+      "code": "6577",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1M states no ASVAB line-score prerequisite for this MOS — it is a follow-on/NMOS or an assigned MOS whose gate is holding a prior MOS or reaching a rank, not a test score. Left null (correctly), not guessed."
+    },
+    {
+      "id": "marine-corps-6591",
+      "code": "6591",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1M states no ASVAB line-score prerequisite for this MOS — it is a follow-on/NMOS or an assigned MOS whose gate is holding a prior MOS or reaching a rank, not a test score. Left null (correctly), not guessed."
+    },
+    {
+      "id": "marine-corps-6617",
+      "code": "6617",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1M states no ASVAB line-score prerequisite for this MOS — it is a follow-on/NMOS or an assigned MOS whose gate is holding a prior MOS or reaching a rank, not a test score. Left null (correctly), not guessed."
+    },
+    {
+      "id": "marine-corps-6673",
+      "code": "6673",
+      "field": "entire record",
+      "reason": "MOS 6673 (Automated Information Systems (AIS) Computer Operator) appears in ZERO of the four NAVMC 1200.1 editions checked (M, L, J, E) and has no Marine Corps COOL page. It could not be verified as a current or former Marine Corps MOS. Every field left null rather than guessed. Recommend removing this record or re-deriving it from an authoritative MOS list."
+    },
+    {
+      "id": "marine-corps-6852",
+      "code": "6852",
+      "field": "entire record",
+      "reason": "MOS 6852 (METOC Impact Analyst) appears in ZERO of the four NAVMC 1200.1 editions checked (M, L, J, E) and has no Marine Corps COOL page. It could not be verified as a current or former Marine Corps MOS. Every field left null rather than guessed. Recommend removing this record or re-deriving it from an authoritative MOS list."
+    },
+    {
+      "id": "marine-corps-7252",
+      "code": "7252",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1M states no ASVAB line-score prerequisite for this MOS — it is a follow-on/NMOS or an assigned MOS whose gate is holding a prior MOS or reaching a rank, not a test score. Left null (correctly), not guessed."
+    },
+    {
+      "id": "marine-corps-7253",
+      "code": "7253",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1M states no ASVAB line-score prerequisite for this MOS — it is a follow-on/NMOS or an assigned MOS whose gate is holding a prior MOS or reaching a rank, not a test score. Left null (correctly), not guessed."
+    },
+    {
+      "id": "marine-corps-7276",
+      "code": "7276",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1M states no ASVAB line-score prerequisite for this MOS — it is a follow-on/NMOS or an assigned MOS whose gate is holding a prior MOS or reaching a rank, not a test score. Left null (correctly), not guessed."
+    },
+    {
+      "id": "marine-corps-7276",
+      "code": "7276",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "No defensible civilian wage figure. NAVMC 1200.1M lists 'Related SOC: None' for this MOS and Marine Corps COOL has no page for it."
+    },
+    {
+      "id": "marine-corps-7291",
+      "code": "7291",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1M states no ASVAB line-score prerequisite for this MOS — it is a follow-on/NMOS or an assigned MOS whose gate is holding a prior MOS or reaching a rank, not a test score. Left null (correctly), not guessed."
+    },
+    {
+      "id": "marine-corps-7313",
+      "code": "7313",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1M states no ASVAB line-score prerequisite for this MOS — it is a follow-on/NMOS or an assigned MOS whose gate is holding a prior MOS or reaching a rank, not a test score. Left null (correctly), not guessed."
+    },
+    {
+      "id": "marine-corps-7313",
+      "code": "7313",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "No defensible civilian wage figure. NAVMC 1200.1M maps this MOS to a military-only SOC (55-xxxx) for which BLS publishes no wage data, and no official civilian crosswalk (COOL) exists for this MOS."
+    },
+    {
+      "id": "marine-corps-7372",
+      "code": "7372",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1M states no ASVAB line-score prerequisite for this MOS — it is a follow-on/NMOS or an assigned MOS whose gate is holding a prior MOS or reaching a rank, not a test score. Left null (correctly), not guessed."
+    },
+    {
+      "id": "marine-corps-7372",
+      "code": "7372",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "No defensible civilian wage figure. NAVMC 1200.1M maps this MOS to SOC 53-2011 (Airline Pilots), but the MOS confers no FAA pilot certificate; publishing airline-pilot wages here would materially mislead. Left null deliberately."
+    },
+    {
+      "id": "marine-corps-7382",
+      "code": "7382",
+      "field": "entire record",
+      "reason": "MOS 7382 (Airborne Radio Operator/In-flight Refueling Observer/Loadmaster) appears in ZERO of the four NAVMC 1200.1 editions checked (M, L, J, E) and has no Marine Corps COOL page. It could not be verified as a current or former Marine Corps MOS. Every field left null rather than guessed. Recommend removing this record or re-deriving it from an authoritative MOS list."
+    },
+    {
+      "id": "marine-corps-8018",
+      "code": "8018",
+      "field": "entry_requirements.asvab_line_score",
+      "reason": "NAVMC 1200.1M states no ASVAB line-score prerequisite for this MOS — it is a follow-on/NMOS or an assigned MOS whose gate is holding a prior MOS or reaching a rank, not a test score. Left null (correctly), not guessed."
+    },
+    {
+      "id": "marine-corps-8018",
+      "code": "8018",
+      "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+      "reason": "No defensible civilian wage figure. NAVMC 1200.1M lists 'Related SOC: None' for this MOS and Marine Corps COOL has no page for it."
+    },
+    {
+      "id": "marine-corps-6432",
+      "code": "6432",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6432",
+      "code": "6432",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6432",
+      "code": "6432",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-6469",
+      "code": "6469",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6469",
+      "code": "6469",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6469",
+      "code": "6469",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-6483",
+      "code": "6483",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6483",
+      "code": "6483",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6483",
+      "code": "6483",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-6492",
+      "code": "6492",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6492",
+      "code": "6492",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6492",
+      "code": "6492",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-6499",
+      "code": "6499",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6499",
+      "code": "6499",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6499",
+      "code": "6499",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-6531",
+      "code": "6531",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6531",
+      "code": "6531",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6531",
+      "code": "6531",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-6541",
+      "code": "6541",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6541",
+      "code": "6541",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6541",
+      "code": "6541",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-6577",
+      "code": "6577",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6577",
+      "code": "6577",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6577",
+      "code": "6577",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-6591",
+      "code": "6591",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6591",
+      "code": "6591",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6591",
+      "code": "6591",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-6617",
+      "code": "6617",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6617",
+      "code": "6617",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6617",
+      "code": "6617",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-6672",
+      "code": "6672",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6672",
+      "code": "6672",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6672",
+      "code": "6672",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-6694",
+      "code": "6694",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6694",
+      "code": "6694",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6694",
+      "code": "6694",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-6842",
+      "code": "6842",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-6842",
+      "code": "6842",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-6842",
+      "code": "6842",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7011",
+      "code": "7011",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7011",
+      "code": "7011",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7011",
+      "code": "7011",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7041",
+      "code": "7041",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7041",
+      "code": "7041",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7041",
+      "code": "7041",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7051",
+      "code": "7051",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7051",
+      "code": "7051",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7051",
+      "code": "7051",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7212",
+      "code": "7212",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7212",
+      "code": "7212",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7212",
+      "code": "7212",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7240",
+      "code": "7240",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7240",
+      "code": "7240",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7240",
+      "code": "7240",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7252",
+      "code": "7252",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7252",
+      "code": "7252",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7252",
+      "code": "7252",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7253",
+      "code": "7253",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7253",
+      "code": "7253",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7253",
+      "code": "7253",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7257",
+      "code": "7257",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7257",
+      "code": "7257",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7257",
+      "code": "7257",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7276",
+      "code": "7276",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7276",
+      "code": "7276",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7276",
+      "code": "7276",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7291",
+      "code": "7291",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7291",
+      "code": "7291",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7291",
+      "code": "7291",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7313",
+      "code": "7313",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7313",
+      "code": "7313",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7313",
+      "code": "7313",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7314",
+      "code": "7314",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7314",
+      "code": "7314",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7314",
+      "code": "7314",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7316",
+      "code": "7316",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7316",
+      "code": "7316",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7316",
+      "code": "7316",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-7372",
+      "code": "7372",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-7372",
+      "code": "7372",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-7372",
+      "code": "7372",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    },
+    {
+      "id": "marine-corps-8018",
+      "code": "8018",
+      "field": "training_pipeline[].length_weeks (MOS schools)",
+      "reason": "NAVMC 1200.1M names each MOS school and its location but publishes no course length. CANTRAC (the Navy course catalogue that holds course lengths by CIN) is not publicly reachable. Recruit Training (13 wks) and MCT (29 days) ARE sourced to marines.com. All MOS-school length_weeks left null rather than guessed."
+    },
+    {
+      "id": "marine-corps-8018",
+      "code": "8018",
+      "field": "transition.va_disability_common_claims",
+      "reason": "No source publishes VA disability claim rates by Marine Corps MOS. Left [] rather than guessed."
+    },
+    {
+      "id": "marine-corps-8018",
+      "code": "8018",
+      "field": "special_pays",
+      "reason": "NAVMC 1200.1M states no MOS-specific bonus or incentive pay for this MOS. Note: aircrew MOSs (7313, 7372) and UAS crew (7314) may draw Hazardous Duty Incentive Pay / aviation incentive pay, but no per-MOS source states it, so [] rather than an inferred entry."
+    }
+  ]
+}

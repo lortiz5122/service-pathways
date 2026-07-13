@@ -1,0 +1,1052 @@
+{
+ "branch": "Air Force",
+ "retrieved": "2026-07-12",
+ "source": "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers \u2014 the Air Force's own live careers catalogue (234 published AFSCs), which flags each as ENLISTED or OFFICER.",
+ "method": "Joined our catalogue codes against the Air Force's published list. FAIL CLOSED: a code absent from the Air Force's own catalogue is treated as NOT entry level.",
+ "jobs": [
+  {
+   "id": "air-force-3f5x1",
+   "code": "3F5X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a3x5",
+   "code": "2A3X5",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a6x2-aerospace-ground-equipment",
+   "code": "2A6X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4n0x1-aerospace-medical-service",
+   "code": "4N0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1h0x1",
+   "code": "1H0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a6x1",
+   "code": "2A6X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1c1x1-air-traffic-control",
+   "code": "1C1X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2t2x1-air-transportation",
+   "code": "2T2X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1a8x1",
+   "code": "1A8X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1a8x2",
+   "code": "1A8X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1a3x1",
+   "code": "1A3X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2w1x1",
+   "code": "2W1X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a6x6",
+   "code": "2A6X6",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a6x4",
+   "code": "2A6X4",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a6x5",
+   "code": "2A6X5",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a7x1",
+   "code": "2A7X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a7x3",
+   "code": "2A7X3",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a6x3",
+   "code": "2A6X3",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1p0x1",
+   "code": "1P0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1c7x1",
+   "code": "1C7X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a5x1",
+   "code": "2A5X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1n0x1-all-source-intelligence-analyst",
+   "code": "1N0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1c3x1",
+   "code": "1C3X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1c0x2",
+   "code": "1C0X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a0x1",
+   "code": "2A0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a0x1",
+   "code": "2A0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1c5x1",
+   "code": "1C5X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4b0x1",
+   "code": "4B0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4a2x1",
+   "code": "4A2X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a9x3",
+   "code": "2A9X3",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a9x1",
+   "code": "2A9X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a9x2",
+   "code": "2A9X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1d7x3",
+   "code": "1D7X3",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3d1x1",
+   "code": "3D1X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1z2x1",
+   "code": "1Z2X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3d0x4-1d7x1",
+   "code": "3D0X4, 1D7X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-6c0x1",
+   "code": "6C0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1n4x2",
+   "code": "1N4X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1n3x1",
+   "code": "1N3X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1d7x1",
+   "code": "1D7X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1n4x1",
+   "code": "1N4X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3d0x2",
+   "code": "3D0X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3d1x2",
+   "code": "3D1X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1b4x1-cyber-warfare-operations",
+   "code": "1B4X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4y0x1",
+   "code": "4Y0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4y0x2",
+   "code": "4Y0X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4r0x1",
+   "code": "4R0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4d0x1",
+   "code": "4D0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3e0x2",
+   "code": "3E0X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3e0x1",
+   "code": "3E0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3e9x1",
+   "code": "3E9X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3e5x1",
+   "code": "3E5X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1a1x8",
+   "code": "1A1X8",
+   "entry_level": false,
+   "reason": "The Air Force publishes this as an officer \u2014 not an enlisted accession.",
+   "confidence": "official",
+   "closed_kind": "in-service"
+  },
+  {
+   "id": "air-force-3e8x1",
+   "code": "3E8X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a3x4",
+   "code": "2A3X4",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-6f0x1",
+   "code": "6F0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3e7x1",
+   "code": "3E7X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2t3x7",
+   "code": "2T3X7",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2f0x1",
+   "code": "2F0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1n1x1",
+   "code": "1N1X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2t1x1",
+   "code": "2T1X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4a0x1",
+   "code": "4A0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3e1x1",
+   "code": "3E1X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a5x2",
+   "code": "2A5X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4t0x2",
+   "code": "4T0X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3d0x1",
+   "code": "3D0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2g0x1",
+   "code": "2G0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a7x5",
+   "code": "2A7X5",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2r1x1",
+   "code": "2R1X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2s0x1-materiel-management",
+   "code": "2S0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4t0x1",
+   "code": "4T0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4a1x1",
+   "code": "4A1X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4c0x1",
+   "code": "4C0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a2x1",
+   "code": "2A2X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2m0x3",
+   "code": "2M0X3",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2m0x1",
+   "code": "2M0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2m0x2",
+   "code": "2M0X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2t3x1",
+   "code": "2T3X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a5x3",
+   "code": "2A5X3",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a8x1",
+   "code": "2A8X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a8x2",
+   "code": "2A8X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1a1x2",
+   "code": "1A1X2",
+   "entry_level": false,
+   "reason": "The Air Force publishes this as an officer \u2014 not an enlisted accession.",
+   "confidence": "official",
+   "closed_kind": "in-service"
+  },
+  {
+   "id": "air-force-1a1x4",
+   "code": "1A1X4",
+   "entry_level": false,
+   "reason": "The Air Force publishes this as an officer \u2014 not an enlisted accession.",
+   "confidence": "official",
+   "closed_kind": "in-service"
+  },
+  {
+   "id": "air-force-2w0x1",
+   "code": "2W0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "af-3n1x1-musician",
+   "code": "3N1X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a7x2",
+   "code": "2A7X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2w2x1",
+   "code": "2W2X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1nox1",
+   "code": "1NOX1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3e6x1",
+   "code": "3E6X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4v0x1",
+   "code": "4V0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-5j0x1-paralegal",
+   "code": "5J0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1t2x1-pararescue",
+   "code": "1T2X1",
+   "entry_level": false,
+   "reason": "Not published on the Air Force's own careers catalogue as an accession AFSC. Special-duty and reporting identifiers (recruiter, military training instructor, first sergeant and similar) are awarded by retraining after you are already serving \u2014 a civilian cannot enlist into them. We could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "air-force-3e2x1",
+   "code": "3E2X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3f0x1-personnel",
+   "code": "3F0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3e4x3",
+   "code": "3E4X3",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4p0x1",
+   "code": "4P0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4j0x2",
+   "code": "4J0X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2p0x1",
+   "code": "2P0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3n2x1-3n3x1",
+   "code": "3N2X1, 3N3X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "af-3n0x6-public-affairs",
+   "code": "3N0X6 \u2014 CURRENT CODE, REPLACING THE LEGACY 3N0X1 (PUBLIC AFFAIRS WRITER), 3N0X2 (BROADCAST JOURNALIST), AND 3N0X5 (PHOTOJOURNALIST) AFSCS IN A 2020 CONSOLIDATION; AIRMEN HOLDING A LEGACY CODE HAD TO COMPLETE PUBLIC AFFAIRS CONSOLIDATION TRAINING BY 31 OCT 2021. NOTE: THIS PROJECT'S EARLIER TAXONOMY PASS (INTEREST-TAXONOMY.JSON) LISTED THE NOW-SUPERSEDED 3N0X2 CODE \u2014 3N0X6 IS THE CURRENT DESIGNATION CONFIRMED IN THIS SESSION'S RESEARCH.",
+   "entry_level": false,
+   "reason": "Not published on the Air Force's own careers catalogue as an accession AFSC. Special-duty and reporting identifiers (recruiter, military training instructor, first sergeant and similar) are awarded by retraining after you are already serving \u2014 a civilian cannot enlist into them. We could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "air-force-4e0x1",
+   "code": "4E0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1c8x3",
+   "code": "1C8X3",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3d1x3",
+   "code": "3D1X3",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1d7x2",
+   "code": "1D7X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a5x4",
+   "code": "2A5X4",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-5r0x1",
+   "code": "5R0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a3x8",
+   "code": "2A3X8",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4h0x1",
+   "code": "4H0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1s0x1",
+   "code": "1S0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-9s100",
+   "code": "9S100",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3p0x1-security-forces",
+   "code": "3P0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1u0x1",
+   "code": "1U0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3f1x1-services-food-service",
+   "code": "3F1X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1n2x1",
+   "code": "1N2X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1c6x1-space-systems-operations",
+   "code": "1C6X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1a1x3",
+   "code": "1A1X3",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a2x3",
+   "code": "2A2X3",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a2x2",
+   "code": "2A2X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1z4x1",
+   "code": "1Z4X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1d7x2",
+   "code": "1D7X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3e3x1-3e331",
+   "code": "3E3X1, 3E331",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-4n1x1",
+   "code": "4N1X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1t0x1",
+   "code": "1T0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1z3x1",
+   "code": "1Z3X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2a3x3-tactical-aircraft-maintenance",
+   "code": "2A3X3",
+   "entry_level": false,
+   "reason": "The Air Force publishes this as OFFICER \u2014 not an enlisted accession.",
+   "confidence": "official",
+   "closed_kind": "in-service"
+  },
+  {
+   "id": "air-force-1n8x1",
+   "code": "1N8X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2t0x1",
+   "code": "2T0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-2t3x2",
+   "code": "2T3X2",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-3e4x1-water-fuel-systems-maintenance",
+   "code": "3E4X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "air-force-1w0x1",
+   "code": "1W0X1",
+   "entry_level": true,
+   "reason": "Published on the Air Force's careers catalogue as an ENLISTED accession AFSC with a Basic Military Training and technical-school pipeline \u2014 an initial-entry path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  }
+ ],
+ "unverified": [
+  "1T2X1: absent from airforce.com careers API \u2014 classified false by fail-closed rule",
+  "3N0X6 \u2014 CURRENT CODE, REPLACING THE LEGACY 3N0X1 (PUBLIC AFFAIRS WRITER), 3N0X2 (BROADCAST JOURNALIST), AND 3N0X5 (PHOTOJOURNALIST) AFSCS IN A 2020 CONSOLIDATION; AIRMEN HOLDING A LEGACY CODE HAD TO COMPLETE PUBLIC AFFAIRS CONSOLIDATION TRAINING BY 31 OCT 2021. NOTE: THIS PROJECT'S EARLIER TAXONOMY PASS (INTEREST-TAXONOMY.JSON) LISTED THE NOW-SUPERSEDED 3N0X2 CODE \u2014 3N0X6 IS THE CURRENT DESIGNATION CONFIRMED IN THIS SESSION'S RESEARCH.: absent from airforce.com careers API \u2014 classified false by fail-closed rule"
+ ]
+}

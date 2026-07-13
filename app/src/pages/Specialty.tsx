@@ -8,8 +8,18 @@ import { PayForSpecialty } from '../components/PayForSpecialty';
 import { shortCode, trainingWeeks } from '../lib/format';
 import { EntryGate } from '../components/EntryGate';
 
-/** Renders any of the loosely-typed lifecycle blocks as a definition list. */
-function Block({ obj }: { obj: Record<string, unknown> }) {
+/**
+ * Renders any of the loosely-typed lifecycle blocks as a definition list.
+ *
+ * A block can be genuinely ABSENT. The researched entry-level records carry the
+ * fields their sources actually supported and nothing more — a job with no
+ * published retirement or transition data has no such section, by design, because
+ * inventing one is the failure this site exists to prevent. So a missing block
+ * renders as nothing, not as a crash. (It used to crash: Object.entries(undefined)
+ * took down every specialty page the moment the first researched batch landed.)
+ */
+function Block({ obj }: { obj?: Record<string, unknown> | null }) {
+  if (!obj || typeof obj !== 'object') return null;
   const rows = Object.entries(obj).filter(
     ([k, v]) =>
       !['source', 'retrieved_date'].includes(k) &&

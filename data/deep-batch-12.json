@@ -1,0 +1,2502 @@
+{
+ "batch": 12,
+ "branch": "Air Force",
+ "retrieved": "2026-07-12",
+ "specialties": [
+  {
+   "id": "air-force-2w2x1",
+   "code": "2W2X1",
+   "name": "Nuclear Weapons",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You inspect, maintain, store, handle and repair nuclear weapons, their components, and the test and handling equipment used on them. Day to day this is highly proceduralized bench and bay work done under the two-person rule, with constant inspection and documentation. You are held to the Personnel Reliability Assurance Program, meaning your medical, financial and legal record is reviewed continuously and a single lapse can pull you off the job.",
+   "entry_requirements": {
+    "asvab_line_score": "M 60",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": "Single Scope Background Investigation (SSBI) required (airforce.com); clearance LEVEL is not stated on the page",
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision and depth perception. No record of sustained, untreatable emotional instability. Must be screened for and meet the requirements of the Personnel Reliability Assurance Program (PRAP).",
+    "other": "Must be a U.S. citizen. Knowledge of electrical and mechanical principles. PRAP screening is a CONTINUING requirement, not a one-time gate."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Sheppard AFB, TX",
+     "length_weeks": null,
+     "source_text": "57 days",
+     "length_days": 57
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-5032.00",
+     "51-9061.00"
+    ],
+    "civilian_titles": [
+     "Explosives Workers, Ordnance Handling Experts, and Blasters",
+     "Inspectors, Testers, Sorters, Samplers, and Weighers"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     40480,
+     99360
+    ],
+    "salary_source": "BLS OEWS national, SOC 47-5032 (Explosives Workers, Ordnance Handling Experts, and Blasters), May 2025; 10th pct $40,480 - 90th pct $99,360, median $61,390",
+    "credential_gap_note": "There is no civilian nuclear-weapons job. What transfers is precision electro-mechanical maintenance, ordnance handling and quality inspection under a strict technical-order regime -- experience, not a credential. Nothing in this pipeline licenses you for the commercial nuclear power industry (that is an NRC-licensed operator path with its own training and exams) or for commercial blasting (that requires a state explosives/blaster licence, usually with a documented apprenticeship). Tech school awards credit toward a CCAF Munitions Systems Technology associate's degree, which you must finish on your own time."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/science-and-technology/nuclear-weapons",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=2W2X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3d0x1",
+   "code": "3D0X1",
+   "name": "Knowledge Operations Management",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber",
+    "business-admin"
+   ],
+   "depth": "deep",
+   "what_it_is": "You manage the Air Force's information: records, correspondence, publications, forms, and the SharePoint-style systems that hold them. Day to day you run a unit's records program, control official documents through their lifecycle, and build and maintain the workflows and knowledge-sharing sites other Airmen use. This is administrative and information-systems work, not programming.",
+   "entry_requirements": {
+    "asvab_line_score": "G 64",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": null,
+    "other": "airforce.com's ASVAB section for this AFSC names the composite ('General') but prints NO number; the number G64 comes from the same site's career-card data."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Keesler AFB, MS",
+     "length_weeks": null,
+     "source_text": "41 days",
+     "length_days": 41
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "15-1299.03",
+     "43-9061.00"
+    ],
+    "civilian_titles": [
+     "Document Management Specialists",
+     "Office Clerks, General"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     55940,
+     188470
+    ],
+    "salary_source": "BLS OEWS national, SOC 15-1299 (Computer Occupations, All Other), May 2025; 10th pct $55,940 - 90th pct $188,470, median $116,580",
+    "credential_gap_note": "Despite the 3D 'cyber' prefix, this is records and information management -- you are NOT trained as a system administrator or a developer. Read the salary figure with care: BLS 15-1299 is 'Computer Occupations, All Other', a broad catch-all whose upper end reflects engineers, not records managers, so the realistic entry point is the low end, and Office Clerks, General (43-9061, median $45,010) is closer to an honest civilian comparison. No civilian certification is conferred. Employers value a records/information-governance credential, which you would have to pursue yourself. Credit is awarded toward a CCAF Information Management degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/logistics-and-administration/knowledge-operations-management",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3D0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3d0x2",
+   "code": "3D0X2",
+   "name": "Cyber Systems Operations",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "You install, configure and maintain the Air Force's servers, operating systems and the network services running on them -- accounts, email, storage, patching, backups. Day to day it is systems administration: standing up and hardening servers, responding to outages, and keeping systems compliant with security configuration standards.",
+   "entry_requirements": {
+    "asvab_line_score": "M 45 & E 60",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": "Single Scope Background Investigation (SSBI) required (airforce.com); clearance LEVEL is not stated on the page",
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": null,
+    "other": "Alternate entry path published by airforce.com: M45 and E55 PLUS a score of 60 on the Air Force Cyber Test. The Cyber Test is only available to non-prior-service applicants."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Keesler AFB, MS",
+     "length_weeks": null,
+     "source_text": "66 days",
+     "length_days": 66
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "15-1244.00",
+     "15-1232.00",
+     "15-1212.00"
+    ],
+    "civilian_titles": [
+     "Network and Computer Systems Administrators",
+     "Computer User Support Specialists",
+     "Information Security Analysts"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     62640,
+     155050
+    ],
+    "salary_source": "BLS OEWS national, SOC 15-1244 (Network and Computer Systems Administrators), May 2025; 10th pct $62,640 - 90th pct $155,050, median $99,130",
+    "credential_gap_note": "You get real, directly transferable systems-administration experience -- but experience is not a certificate. Civilian employers screen on certifications (CompTIA Security+/Network+, Microsoft, Linux, cloud); the Air Force generally funds them, but you must actually sit the exams, and the AFSC alone confers none of them. Be aware that the security clearance you hold is often worth more to a defense employer than the technical skill itself. Also read the salary honestly: the BLS 15-1244 range assumes a full sysadmin role, whereas an Airman separating at four years typically enters near the 10th percentile or into help-desk work (15-1232, median $61,860)."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/intelligence/cyber-systems-operations",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3D0X2",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3d0x4-1d7x1",
+   "code": "3D0X4, 1D7X1",
+   "name": "Computer Systems Programming",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "You write, test and maintain the software and databases the Air Force runs on, and you protect operating systems, software and databases from unauthorized access. Day to day it is a mix of programming, database administration and applying security controls to systems already in service.",
+   "entry_requirements": {
+    "asvab_line_score": "G 64",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": "Single Scope Background Investigation (SSBI) required (airforce.com); clearance LEVEL is not stated on the page",
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": null,
+    "other": "A minimum score of 71 on the Air Force Electronic Data Processing Test (EDPT) is required (airforce.com). airforce.com's ASVAB section names the composite ('General') but prints NO number; G64 comes from the same site's career-card data. NOTE: airforce.com maps this single career page to BOTH 3D0X4 (Computer Systems Programming) and 1D7X1 (Cyber Defense Operations), which are different jobs; the site separately lists 1D7X1 on its own with a different score (G45 & E60)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Keesler AFB MS",
+     "length_weeks": null,
+     "source_text": "70 Days",
+     "length_days": 70
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "15-1251.00",
+     "15-1252.00",
+     "15-1212.00"
+    ],
+    "civilian_titles": [
+     "Computer Programmers",
+     "Software Developers",
+     "Information Security Analysts"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     57710,
+     160460
+    ],
+    "salary_source": "BLS OEWS national, SOC 15-1251 (Computer Programmers), May 2025; 10th pct $57,710 - 90th pct $160,460, median $100,390",
+    "credential_gap_note": "You will write code, but you will not graduate a software engineer by civilian hiring standards. Employers hire on a portfolio, a CS degree, or a demonstrable modern stack -- and Air Force programming work often sits on older, government-specific systems. The pipeline awards credit toward a CCAF Computer Science Technology associate's degree, not a bachelor's. Closing the gap means finishing a CS degree (tuition assistance / GI Bill) and building public work of your own. Note also that the BLS occupation quoted here, Computer Programmers (15-1251), is a DECLINING occupation; Software Developers (15-1252, median $135,980) is the better target but carries a substantially higher bar."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/intelligence/computer-systems-programming",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3D0X4",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3d1x1",
+   "code": "3D1X1",
+   "name": "Client Systems",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are the Air Force's desktop and end-user support technician. You install and configure operating systems and applications, image and issue laptops and workstations, manage user accounts and peripherals, and fix what base personnel break. Day to day this is help-desk and client-device work.",
+   "entry_requirements": {
+    "asvab_line_score": "E 60",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision.",
+    "other": "Valid state driver's license required to operate government motor vehicles. airforce.com's ASVAB section names the composite ('Electronics') but prints NO number; E60 comes from the same site's career-card data."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Keesler AFB MS",
+     "length_weeks": null,
+     "source_text": "67 days",
+     "length_days": 67
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2011.00"
+    ],
+    "civilian_titles": [
+     "Computer, Automated Teller, and Office Machine Repairers"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     35910,
+     71730
+    ],
+    "salary_source": "BLS OEWS national, SOC 49-2011 (Computer, Automated Teller, and Office Machine Repairers), May 2025; 10th pct $35,910 - 90th pct $71,730, median $47,810",
+    "credential_gap_note": "This is genuine IT help-desk experience and it maps cleanly to civilian desktop support -- but it is the lowest-paid rung of the IT ladder and it confers no certification. CompTIA A+ (then Network+ and Security+) is the standard civilian entry credential, and you must earn it yourself, though the Air Force will usually pay for the attempt. Without certifications or a degree you will compete for the same help-desk roles as someone with no military service. Treat A+ as the minimum exit condition."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/intelligence/client-systems",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3D1X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3d1x2",
+   "code": "3D1X2",
+   "name": "Cyber Transport Systems",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "You build and sustain the physical network: routers, switches, cabling, fiber, cryptographic and transmission equipment, and the circuits connecting a base to the rest of the world. Day to day you upgrade and replace systems and circuits, pull and terminate cable, configure network devices, and troubleshoot links that have gone down.",
+   "entry_requirements": {
+    "asvab_line_score": "E 70",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": "Single Scope Background Investigation (SSBI) required (airforce.com); clearance LEVEL is not stated on the page",
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision.",
+    "other": "Valid state driver's license required. Experience in the installation of voice, data and video network infrastructure."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Keesler AFB, MS",
+     "length_weeks": null,
+     "source_text": "136 days",
+     "length_days": 136
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2022.00",
+     "15-1231.00",
+     "15-1241.01"
+    ],
+    "civilian_titles": [
+     "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+     "Computer Network Support Specialists",
+     "Telecommunications Engineering Specialists"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     44240,
+     96730
+    ],
+    "salary_source": "BLS OEWS national, SOC 49-2022 (Telecommunications Equipment Installers and Repairers, Except Line Installers), May 2025; 10th pct $44,240 - 90th pct $96,730, median $63,890",
+    "credential_gap_note": "Strong hands-on networking experience, but no automatic credential. Civilian network roles gate on Cisco's CCNA (or CompTIA Network+); tech school teaches the underlying skills without awarding either. Fiber work may additionally want an industry fiber-optic certification. This AFSC earns credit toward a CCAF Electronic Systems Technology degree. Getting the CCNA before you separate is the single highest-leverage step you can take."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/intelligence/cyber-transport-systems",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3D1X2",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3d1x3",
+   "code": "3D1X3",
+   "name": "Radio Frequency Transmission Systems",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "You install, maintain and repair the radio and satellite gear the Air Force talks on -- ground radio, satellite terminals, antennas and the towers they hang on. Day to day it is antenna and transmitter maintenance, cable and waveguide work, alignment and fault isolation, frequently outdoors and frequently at height.",
+   "entry_requirements": {
+    "asvab_line_score": "E 70",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": "National Agency Check with Local Agency Checks and Credit (NACLC) required (airforce.com); clearance LEVEL is not stated on the page",
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision. Work is performed outdoors and at height.",
+    "other": null
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Keesler AFB, MS",
+     "length_weeks": null,
+     "source_text": "96 days",
+     "length_days": 96
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2021.00",
+     "49-2094.00"
+    ],
+    "civilian_titles": [
+     "Radio, Cellular, and Tower Equipment Installers and Repairers",
+     "Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     44460,
+     103990
+    ],
+    "salary_source": "BLS OEWS national, SOC 49-2021 (Radio, Cellular, and Tower Equipment Installers and Repairers), May 2025; 10th pct $44,460 - 90th pct $103,990, median $63,520",
+    "credential_gap_note": "This maps unusually well to the civilian cell-tower and broadcast industry, where the military background is respected. The gap is SAFETY CREDENTIALING, not skill: commercial tower work requires an authorized-climber and rescue certification (and usually an OSHA card), which the Air Force does not issue in a civilian-recognized form. Expect to obtain a tower-climbing safety certification, and for some broadcast roles an FCC licence. Credit is awarded toward a CCAF Electronic Systems Technology degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/science-and-technology/radio-frequency-transmission-systems",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3D1X3",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3e0x1",
+   "code": "3E0X1",
+   "name": "Electrical Systems",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are the base electrician. You install, service, modify and repair an installation's electrical distribution and interior wiring -- transformers, panels, circuits, street and airfield lighting. Day to day it is licensed-trade electrical work: pulling and terminating wire, troubleshooting dead circuits, and working energized systems under lockout/tagout.",
+   "entry_requirements": {
+    "asvab_line_score": "M 43 & E 45",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision. No fear of heights.",
+    "other": "Valid state driver's license required."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Sheppard AFB, TX",
+     "length_weeks": null,
+     "source_text": "99 days",
+     "length_days": 99
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-2111.00",
+     "49-9051.00"
+    ],
+    "civilian_titles": [
+     "Electricians",
+     "Electrical Power-Line Installers and Repairers"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     42640,
+     108510
+    ],
+    "salary_source": "BLS OEWS national, SOC 47-2111 (Electricians), May 2025; 10th pct $42,640 - 90th pct $108,510, median $63,190",
+    "credential_gap_note": "THIS IS THE BIG ONE: you can do an electrician's work for years and still not BE a licensed electrician. Every state licenses electricians through a documented apprenticeship (commonly around 8,000 hours / 4 years) plus a state exam. Military hours are frequently -- but NOT automatically -- credited toward that apprenticeship, the rules vary state by state, and the burden is on you to get your hours formally documented BEFORE you leave. DoD registered-apprenticeship pathways exist precisely to close this gap. Separate without documentation and you restart as an apprentice, at apprentice pay, despite doing the job competently for four years."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/maintenance-and-repair/electrical-systems",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3E0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3e0x2",
+   "code": "3E0X2",
+   "name": "Electrical Power Production",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You keep the power on when the grid is not there. You install, operate, inspect and repair generators, aircraft arresting systems, and the standby and prime power plants a base depends on. Day to day it is diesel-engine and generator maintenance, switchgear and controls work, load testing, and emergency response when a feed drops.",
+   "entry_requirements": {
+    "asvab_line_score": "M 56 & E 40",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision.",
+    "other": "Valid state driver's license required."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Sheppard AFB, TX",
+     "length_weeks": null,
+     "source_text": "55 days",
+     "length_days": 55
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "51-8013.00",
+     "49-2095.00",
+     "49-9012.00"
+    ],
+    "civilian_titles": [
+     "Power Plant Operators",
+     "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",
+     "Control and Valve Installers and Repairers, Except Mechanical Door"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     61790,
+     131940
+    ],
+    "salary_source": "BLS OEWS national, SOC 51-8013 (Power Plant Operators), May 2025; 10th pct $61,790 - 90th pct $131,940, median $102,040",
+    "credential_gap_note": "Excellent generator and prime-power experience -- but DO NOT read the headline salary as your starting salary. BLS 51-8013 Power Plant Operators (median $102,040) describes utility plant operators, a role that generally requires NERC system-operator certification and a competitive utility hiring process. The nearer-term civilian match is industrial generator and standby-power field service, which pays less. No civilian licence is conferred, and if you want to work as an electrician you face the same state apprenticeship and licensing gap as 3E0X1. Credit is awarded toward a CCAF Mechanical & Electrical Technology degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/maintenance-and-repair/electrical-power-production",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3E0X2",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3e1x1",
+   "code": "3E1X1",
+   "name": "Heating, Ventilation, Air Conditioning and Refrigeration",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You install, maintain and repair heating, ventilation, air-conditioning and refrigeration systems across a base -- from barracks air handlers to the precision cooling that keeps aircraft systems and computer rooms alive. Day to day it is diagnosing failed units, recovering and charging refrigerant, brazing lines, and servicing compressors, chillers and controls.",
+   "entry_requirements": {
+    "asvab_line_score": "M 55 & E 45",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision.",
+    "other": "Valid state driver's license required."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Sheppard AFB, TX",
+     "length_weeks": null,
+     "source_text": "98 days",
+     "length_days": 98
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-9021.00",
+     "49-9012.00"
+    ],
+    "civilian_titles": [
+     "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+     "Control and Valve Installers and Repairers, Except Mechanical Door"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     40050,
+     95210
+    ],
+    "salary_source": "BLS OEWS national, SOC 49-9021 (Heating, Air Conditioning, and Refrigeration Mechanics and Installers), May 2025; 10th pct $40,050 - 90th pct $95,210, median $61,010",
+    "credential_gap_note": "One of the cleanest military-to-civilian trade matches in the Air Force -- with one hard LEGAL gate. Anyone who buys or handles refrigerant in the civilian sector must hold an EPA Section 608 Technician Certification. That is federal law, not an employer preference. The Air Force trains you to do the work but the certification is a separate exam you must sit. Many states additionally license HVAC contractors. Get EPA 608 (and ideally the industry NATE certification) before you separate and this AFSC converts almost directly into a civilian trade."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/maintenance-and-repair/heating-ventilation-air-conditioning-and-refrigeration",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3E1X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3e2x1",
+   "code": "3E2X1",
+   "name": "Pavements and Construction Equipment",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You operate and maintain heavy construction equipment -- dozers, graders, loaders, excavators, rollers -- to build and repair roads, airfields and runways. Day to day it is running iron, laying and compacting asphalt and concrete, performing rapid runway repair, and doing operator-level maintenance on the machines.",
+   "entry_requirements": {
+    "asvab_line_score": "M 40",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision.",
+    "other": "Valid state driver's license required."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Leonard Wood, MO",
+     "length_weeks": null,
+     "source_text": "61 days",
+     "length_days": 61
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-2073.00",
+     "47-2071.00",
+     "47-2051.00"
+    ],
+    "civilian_titles": [
+     "Operating Engineers and Other Construction Equipment Operators",
+     "Paving, Surfacing, and Tamping Equipment Operators",
+     "Cement Masons and Concrete Finishers"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     42190,
+     101090
+    ],
+    "salary_source": "BLS OEWS national, SOC 47-2073 (Operating Engineers and Other Construction Equipment Operators), May 2025; 10th pct $42,190 - 90th pct $101,090, median $59,850",
+    "credential_gap_note": "Real seat time on real equipment, which civilian contractors value. The gap is licensing and paperwork, not skill: most civilian heavy-equipment and paving jobs expect a Commercial Driver's License to move equipment between sites, and the Air Force does not automatically issue a civilian CDL -- although states offer a military-skills waiver for the CDL skills test that you should use BEFORE you separate. Union operating-engineer work is apprenticeship-gated. Credit is awarded toward a CCAF Construction Technology degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/maintenance-and-repair/pavements-and-construction-equipment",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3E2X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3e3x1-3e331",
+   "code": "3E3X1, 3E331",
+   "name": "Structural",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are the base's carpenter, mason and general builder. You construct, maintain and repair wooden, masonry and concrete buildings and structures -- footings, foundations, walls, floor slabs, piers and columns -- plus roofing, drywall, glazing and framing. Day to day it is trade construction and facility repair, including expedient structures in the field.",
+   "entry_requirements": {
+    "asvab_line_score": "M 40",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision.",
+    "other": "Valid state driver's license required. NOTE: airforce.com's career-card data lists M47 for this AFSC while the same page's 'ASVAB SCORE REQUIREMENTS' section states 40 Mechanical (M). The site disagrees with itself; M47 is the safer figure to aim for."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Gulfport, MS",
+     "length_weeks": null,
+     "source_text": "91 Days",
+     "length_days": 91
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-2031.00",
+     "47-2051.00",
+     "47-2021.00"
+    ],
+    "civilian_titles": [
+     "Carpenters",
+     "Cement Masons and Concrete Finishers",
+     "Brickmasons and Blockmasons"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     40410,
+     99910
+    ],
+    "salary_source": "BLS OEWS national, SOC 47-2031 (Carpenters), May 2025; 10th pct $40,410 - 90th pct $99,910, median $60,580",
+    "credential_gap_note": "Broad, genuine construction-trade skill -- but 'competent at several trades' is a weakness in a civilian market that hires specialists through apprenticeships. Carpentry, masonry and concrete each have their own union or state apprenticeship ladders, and military experience shortens but does not replace them. No civilian licence is conferred. Document your hours, pick ONE trade, and target a registered apprenticeship that grants advanced standing for military time. Credit is awarded toward a CCAF Construction Technology degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/maintenance-and-repair/structural",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3E3X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3e4x3",
+   "code": "3E4X3",
+   "name": "Pest Management",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You run the base's pest and vegetation control program. You survey for insects, rodents and other pests, identify them, and apply pesticides and herbicides to control them -- including disease-carrying pests that threaten the force. Day to day it is inspection, trapping, spraying, record-keeping, and the safe handling, mixing and disposal of regulated chemicals.",
+   "entry_requirements": {
+    "asvab_line_score": "G 38",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision. No record of fear of insects, spiders, snakes or animals; no claustrophobia; no fear of heights; no hypersensitivity to chemicals or to arthropod and snake venoms.",
+    "other": "Valid state driver's license required. G38 is the lowest ASVAB bar of any technical AFSC in this batch."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Sheppard AFB, TX",
+     "length_weeks": null,
+     "source_text": "33 days",
+     "length_days": 33
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "37-2021.00",
+     "37-3012.00",
+     "19-5012.00"
+    ],
+    "civilian_titles": [
+     "Pest Control Workers",
+     "Pesticide Handlers, Sprayers, and Applicators, Vegetation",
+     "Occupational Health and Safety Technicians"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     34680,
+     61890
+    ],
+    "salary_source": "BLS OEWS national, SOC 37-2021 (Pest Control Workers), May 2025; 10th pct $34,680 - 90th pct $61,890, median $45,250",
+    "credential_gap_note": "Civilian pesticide application is LEGALLY GATED: every state requires a certified/licensed pesticide applicator credential, issued by that state (usually under an EPA-approved certification plan), with its own exam and continuing-education requirements. Military training and any DoD certification do NOT automatically convert into a state licence -- you generally must test in the state where you intend to work. Check reciprocity before you separate. Credit is awarded toward a CCAF Environmental Systems Technology degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/maintenance-and-repair/pest-management",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3E4X3",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3e5x1",
+   "code": "3E5X1",
+   "name": "Engineering",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "logistics-supply"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are the engineering technician behind base construction: you conduct reconnaissance and site-location surveys, run construction and mapping surveys, draft plans and drawings, and manage project documentation and materials estimates. Day to day it is survey instruments, CAD drafting, and the paperwork that turns a design into a buildable project.",
+   "entry_requirements": {
+    "asvab_line_score": "G 49",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision.",
+    "other": "Valid driver's license required. Knowledge of computer operations, software applications and mathematics."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Leonard Wood, MO",
+     "length_weeks": null,
+     "source_text": "71 Days",
+     "length_days": 71
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "17-3031.00",
+     "17-3022.00",
+     "17-3011.00"
+    ],
+    "civilian_titles": [
+     "Surveying and Mapping Technicians",
+     "Civil Engineering Technologists and Technicians",
+     "Architectural and Civil Drafters"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     37520,
+     81630
+    ],
+    "salary_source": "BLS OEWS national, SOC 17-3031 (Surveying and Mapping Technicians), May 2025; 10th pct $37,520 - 90th pct $81,630, median $54,240",
+    "credential_gap_note": "The AFSC is called 'Engineering', but you are trained as a TECHNICIAN, not an engineer or a licensed surveyor -- and neither licence is conferred. A Professional Surveyor licence requires a specific degree plus years of supervised experience and state board exams. A Professional Engineer licence requires an ABET-accredited engineering degree, the FE and PE exams, and supervised experience. This AFSC's CCAF credit is toward a Construction Technology degree, not an engineering degree. The realistic civilian landing is survey or CAD technician, with licensure as a multi-year project you begin afterwards."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/logistics-and-administration/engineering",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3E5X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3e6x1",
+   "code": "3E6X1",
+   "name": "Operations Management",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "logistics-supply"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are the planning and scheduling hub of a civil engineer squadron. You take in work requests, schedule and track jobs, monitor work costs against legal limits and support agreements, and manage the materials and contracts that keep projects moving. Day to day it is production control -- planning, estimating, scheduling and reporting. It is desk work that keeps the trades busy.",
+   "entry_requirements": {
+    "asvab_line_score": "G 44",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": null,
+    "other": "Valid state driver's license required. Ability to speak clearly, concisely and distinctly."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Sheppard AFB, TX",
+     "length_weeks": null,
+     "source_text": "28-43 Days",
+     "length_days_range": [
+      28,
+      43
+     ]
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "43-5061.00",
+     "13-1199.00",
+     "11-9021.00"
+    ],
+    "civilian_titles": [
+     "Production, Planning, and Expediting Clerks",
+     "Business Operations Specialists, All Other",
+     "Construction Managers"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     40080,
+     86000
+    ],
+    "salary_source": "BLS OEWS national, SOC 43-5061 (Production, Planning, and Expediting Clerks), May 2025; 10th pct $40,080 - 90th pct $86,000, median $59,650",
+    "credential_gap_note": "You gain genuine project-controls and scheduling experience, which construction and facilities employers do use. But you learn NO TRADE, so you have nothing to fall back on, and the role confers no credential. Civilian project or construction management screens on a degree or on a project-management certification; the CCAF credit here is toward a Maintenance Production Technology degree. Treat the 'Construction Managers' title in the crosswalk (11-9021) as a long-term destination, not an entry-level landing."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/logistics-and-administration/operations-management",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3E6X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3e7x1",
+   "code": "3E7X1",
+   "name": "Fire Protection",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "law-enforcement-security"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are a firefighter on a military installation. You fight structural and aircraft fires, perform rescue and extrication, respond to hazardous-materials incidents, administer emergency first aid, and conduct fire-prevention inspections. Day to day is station life -- apparatus and equipment checks, drills, inspections and training -- punctuated by emergency response.",
+   "entry_requirements": {
+    "asvab_line_score": "G 57",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": "National Agency Check with Local Agency Checks and Credit (NACLC) required (airforce.com); clearance LEVEL is not stated on the page",
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Must meet National Fire Protection Association physical standards. Normal color vision. No record of pyrophobia, acrophobia or claustrophobia. Ability to speak distinctly.",
+    "other": "Valid driver's license required."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Goodfellow AFB, TX",
+     "length_weeks": null,
+     "source_text": "68 days",
+     "length_days": 68
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "33-2011.00",
+     "29-2042.00",
+     "33-2021.00"
+    ],
+    "civilian_titles": [
+     "Firefighters",
+     "Emergency Medical Technicians",
+     "Fire Inspectors and Investigators"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     34910,
+     101040
+    ],
+    "salary_source": "BLS OEWS national, SOC 33-2011 (Firefighters), May 2025; 10th pct $34,910 - 90th pct $101,040, median $59,280",
+    "credential_gap_note": "This is one of the strongest credential stories in the Air Force and a genuine exception to most of the warnings on this site. Air Force fire protection training runs through the DoD fire academy, and Airmen typically earn nationally recognized Pro Board / IFSAC certifications (Firefighter I and II, Hazmat, Airport Firefighter) that civilian departments accept. The remaining gap is MEDICAL: most civilian departments require EMT certification -- increasingly Paramedic -- plus a state licence, and you must still pass their physical ability test and competitive hiring process. Confirm exactly which certifications you hold, and that they are Pro Board/IFSAC-registered, before you separate. Credit is awarded toward a CCAF Fire Science degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/law-and-order/fire-protection",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3E7X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3e8x1",
+   "code": "3E8X1",
+   "name": "Explosive Ordnance Disposal (EOD)",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering",
+    "law-enforcement-security"
+   ],
+   "depth": "deep",
+   "what_it_is": "You find, identify, render safe and dispose of explosive hazards -- conventional bombs, improvised explosive devices, and chemical and nuclear ordnance. In garrison, day to day is training, equipment and robot maintenance, and responding to suspicious packages and old ordnance; deployed, it is the real thing. The pipeline has a high attrition rate, and the job carries a genuine risk of death or serious injury.",
+   "entry_requirements": {
+    "asvab_line_score": "M 47 & G 50",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": "Top Secret (airforce.com: 'Ability to receive and maintain a Top Secret security clearance')",
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Height must be no less than 60 inches and no more than 78 inches. Must successfully complete the EOD Initial Fitness Test (IFT) TWICE. Published IFT standards (2 minutes each): 6 pull-ups, 40 sit-ups, 40 push-ups, and a 1.5-mile run in under 11:00. Must pass a color vision evaluation. No record of emotional instability or treatment within the last 12 months.",
+    "other": "A minimum score of 54 on the Predictive Success Model (PSM) is required -- the PSM is generated from raw ASVAB scores combined with the TAPAS personality assessment. Note that the airforce.com EOD page states the PSM requirement and does NOT state a MAGE composite; the M47 & G50 figure comes from the site's career-card data."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training (BMT)",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "EOD Preliminary Course (EOD PRELIM)",
+     "location": "Sheppard AFB, TX",
+     "length_weeks": null,
+     "length_days": 26,
+     "source_text": "26 days"
+    },
+    {
+     "stage": "Naval School, Explosive Ordnance Disposal (NAVSCOLEOD) - joint-service schoolhouse",
+     "location": "Eglin AFB, FL",
+     "length_weeks": null,
+     "length_days": 143,
+     "source_text": "143 days"
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-5032.00",
+     "47-4041.00",
+     "33-3021.00"
+    ],
+    "civilian_titles": [
+     "Explosives Workers, Ordnance Handling Experts, and Blasters",
+     "Hazardous Materials Removal Workers",
+     "Detectives and Criminal Investigators"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     40480,
+     99360
+    ],
+    "salary_source": "BLS OEWS national, SOC 47-5032 (Explosives Workers, Ordnance Handling Experts, and Blasters), May 2025; 10th pct $40,480 - 90th pct $99,360, median $61,390",
+    "credential_gap_note": "The obvious civilian path -- a police bomb squad -- is NOT an entry-level job. Bomb technician is a specialty assigned to already-sworn police officers, so you would first have to be hired as a police officer, complete a police academy, serve, and then be selected for the squad and sent to the FBI's Hazardous Devices School. Your military EOD training does not substitute for being a sworn officer. The direct civilian routes are government and contractor UXO technician work, and commercial explosives handling (which needs a state blaster's licence). Note the BLS 47-5032 range does not capture defense-contractor EOD/UXO pay, which can run substantially higher. Weigh all of this against the physical and psychological toll: EOD carries some of the highest rates of blast-related injury and PTSD in the force."
+   },
+   "special_pays": [
+    {
+     "name": "Enlistment bonus of up to $60,000",
+     "detail": "Bonuses are earned upon completion of the EOD training pipeline and a six-year enlistment contract, and vary depending on whether you join Air Force active duty, the Air National Guard or the Air Force Reserve.",
+     "source": "https://www.airforce.com/careers/special-warfare-and-combat-support/explosive-ordnance-disposal-eod"
+    }
+   ],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/special-warfare-and-combat-support/explosive-ordnance-disposal-eod",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3E8X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3e9x1",
+   "code": "3E9X1",
+   "name": "Emergency Management",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "law-enforcement-security"
+   ],
+   "depth": "deep",
+   "what_it_is": "You run the base's disaster and CBRN (chemical, biological, radiological, nuclear) readiness program. You train other Airmen to survive and operate in a contaminated environment, maintain detection and protective equipment, and execute the coordinated response to hazardous-materials incidents and CBRN attacks. Day to day it is instructing, inspecting equipment, writing emergency plans and exercising them.",
+   "entry_requirements": {
+    "asvab_line_score": "G 62",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": "National Agency Check with Local Agency Checks and Credit (NACLC) required (airforce.com); clearance LEVEL is not stated on the page",
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision. No record of claustrophobia. Ability to speak distinctly.",
+    "other": "Valid state driver's license required."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Leonard Wood, MO",
+     "length_weeks": null,
+     "source_text": "74 days",
+     "length_days": 74
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "11-9161.00",
+     "19-5012.00",
+     "47-4041.00"
+    ],
+    "civilian_titles": [
+     "Emergency Management Directors",
+     "Occupational Health and Safety Technicians",
+     "Hazardous Materials Removal Workers"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     54210,
+     166430
+    ],
+    "salary_source": "BLS OEWS national, SOC 11-9161 (Emergency Management Directors), May 2025; 10th pct $54,210 - 90th pct $166,430, median $93,330",
+    "credential_gap_note": "BE CAREFUL WITH THE SALARY FIGURE. BLS 11-9161 Emergency Management Directors (median $93,330) is a senior, usually degree-required municipal or corporate role -- a destination, not a landing spot for a separating Airman. Entry-level civilian emergency management typically wants a bachelor's degree, and the respected professional credential requires years of documented experience plus a degree. The nearer-term realistic matches are hazmat technician and safety technician work (19-5012, median $61,560). The tech school confers no civilian certification."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/law-and-order/emergency-management",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3E9X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3f5x1",
+   "code": "3F5X1",
+   "name": "Administration",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "business-admin"
+   ],
+   "depth": "deep",
+   "what_it_is": "You provide administrative support to Air Force, DoD and joint organizations: managing correspondence, official records, publications and forms; running office workflows; and handling the paperwork that moves personnel actions along. Day to day it is office work -- drafting and routing documents, maintaining files, and supporting a commander or staff.",
+   "entry_requirements": {
+    "asvab_line_score": "A 55",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Keesler AFB, MS",
+     "length_weeks": null,
+     "source_text": "41 Days",
+     "length_days": 41
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "43-6014.00",
+     "43-9061.00",
+     "43-4161.00"
+    ],
+    "civilian_titles": [
+     "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",
+     "Office Clerks, General",
+     "Human Resources Assistants, Except Payroll and Timekeeping"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     33280,
+     66350
+    ],
+    "salary_source": "BLS OEWS national, SOC 43-6014 (Secretaries and Administrative Assistants, Except Legal, Medical, and Executive), May 2025; 10th pct $33,280 - 90th pct $66,350, median $47,540",
+    "credential_gap_note": "Transferable office and records skill, but no credential and no technical specialty to fall back on -- this is among the least differentiated exits in the Air Force, and civilian administrative pay is correspondingly modest. The tech school is short (about 41 days) precisely because the skill bar is low. If you take this AFSC, understand that the real benefit is the time and tuition assistance to finish a degree while serving; credit is awarded toward a CCAF Information Management degree. Leaving after four years with only this AFSC and no degree is the weakest outcome in this batch."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/logistics-and-administration/administration",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3F5X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-3n2x1-3n3x1",
+   "code": "3N2X1, 3N3X1",
+   "name": "Premier Band",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "music-media"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are a full-time professional musician. You perform in and with Air Force ensembles throughout the United States and around the world -- ceremonies, state functions, concerts and recruiting events. Day to day is rehearsal, performance and travel. The musical standard is that of a professional orchestra or service band, and you compete for a specific instrumental chair.",
+   "entry_requirements": {
+    "asvab_line_score": "A 21 & G 24",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": null,
+    "other": "AUDITION REQUIRED. Mastery of a music performance specialty, knowledge of music notation and terminology, and experience rehearsing and performing in multiple ensembles. In practice the Premier Bands (the Washington, D.C.-area ensembles) are among the most competitive enlisted accessions in the Air Force: entry is by winning a national audition for a specific vacant chair, NOT by ASVAB score."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "27-2042.00",
+     "27-2041.00",
+     "25-1121.00"
+    ],
+    "civilian_titles": [
+     "Musicians and Singers",
+     "Music Directors and Composers",
+     "Art, Drama, and Music Teachers, Postsecondary"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": null,
+    "salary_source": "BLS OEWS national, SOC 27-2042 (Musicians and Singers), May 2025: annual wages are SUPPRESSED for this occupation. Hourly only: 10th pct $20.35/hr, median $47.8/hr, 90th pct $132.56/hr.",
+    "credential_gap_note": "The ASVAB bar (A21/G24) is the lowest in this batch and it badly MISREPRESENTS the difficulty of getting in: the real gate is a national-standard audition that most applicants fail, and you must already be an accomplished musician before you apply -- the Air Force does not teach you to play. On the civilian side, BLS does not publish an annual wage for Musicians and Singers (27-2042) AT ALL, because the work is largely hourly and irregular; the published hourly figures are $20.35 at the 10th percentile, $47.80 median, and $132.56 at the 90th. That absence is itself the lesson: civilian performance work is unstable and rarely salaried, which is exactly what makes a full-time band chair valuable and rare. No certification applies."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/logistics-and-administration/premier-band",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=3N2X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4a0x1",
+   "code": "4A0X1",
+   "name": "Health Services Management",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You run the administrative machinery of a military hospital or clinic: patient records and appointments, medical coding and documentation, personnel and readiness paperwork, and support to the entire medical staff. Day to day it is health-information and front-office work.",
+   "entry_requirements": {
+    "asvab_line_score": "G 44",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft Sam Houston, TX",
+     "length_weeks": null,
+     "source_text": "36 Days",
+     "length_days": 36
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "43-6013.00",
+     "29-2072.00",
+     "11-9111.00"
+    ],
+    "civilian_titles": [
+     "Medical Secretaries and Administrative Assistants",
+     "Medical Records Specialists",
+     "Medical and Health Services Managers"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     35930,
+     60530
+    ],
+    "salary_source": "BLS OEWS national, SOC 43-6013 (Medical Secretaries and Administrative Assistants), May 2025; 10th pct $35,930 - 90th pct $60,530, median $45,930",
+    "credential_gap_note": "Understand this clearly before you sign: it is a healthcare ADMINISTRATION job, not a clinical one. You do not treat patients and you gain no clinical credential -- if patient care is what you want, this is the wrong AFSC. What transfers is medical records, coding and clinic operations, which does map to civilian health-information roles, but those increasingly expect a medical-coding or health-information certification that this pipeline does not award. Tech school is about 36 days; credit is toward a CCAF Health Care Management degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/health-services-management",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4A0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4a1x1",
+   "code": "4A1X1",
+   "name": "Medical Materiel",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are the supply chain for a military treatment facility. You order, receive, store, inventory and issue medical and non-medical supplies and equipment -- including drugs, reagents and temperature-controlled items -- from government and civilian sources. Day to day it is warehouse and procurement work with a medical-specific compliance layer.",
+   "entry_requirements": {
+    "asvab_line_score": "A 48",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": null,
+    "other": "Valid state driver's license required."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Sam Houston, TX",
+     "length_weeks": null,
+     "source_text": "24 days",
+     "length_days": 24
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "43-5071.00",
+     "43-3061.00",
+     "11-3071.04"
+    ],
+    "civilian_titles": [
+     "Shipping, Receiving, and Inventory Clerks",
+     "Procurement Clerks",
+     "Supply Chain Managers"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     34650,
+     62190
+    ],
+    "salary_source": "BLS OEWS national, SOC 43-5071 (Shipping, Receiving, and Inventory Clerks), May 2025; 10th pct $34,650 - 90th pct $62,190, median $45,260",
+    "credential_gap_note": "This is LOGISTICS, not healthcare -- despite the '4' medical prefix in the AFSC, you gain no clinical skill and no clinical credential. The experience is real, and medical-materiel management is a genuine civilian niche, but entry-level civilian pay for inventory and procurement clerks is modest and no certification is conferred. Supply-chain certifications and a degree are what raise the ceiling; credit here is toward a CCAF Logistics degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/medical-materiel",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4A1X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4a2x1",
+   "code": "4A2X1",
+   "name": "Biomedical Equipment",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "You install, calibrate, repair and modify medical equipment -- ventilators, defibrillators, imaging systems, anesthesia machines, patient monitors, and the support systems behind them. Day to day it is electronics troubleshooting and scheduled calibration on devices where a fault can kill a patient, plus the documentation proving the device is safe to use.",
+   "entry_requirements": {
+    "asvab_line_score": "M 60 & E 70",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision. Must be at least 18 years old before entering technical training.",
+    "other": "This AFSC has one of the highest ASVAB bars in the batch (M60 AND E70) and one of the longest tech schools (about 207 days)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Sam Houston, TX",
+     "length_weeks": null,
+     "source_text": "207 days",
+     "length_days": 207
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-9062.00",
+     "49-2094.00",
+     "17-2031.00"
+    ],
+    "civilian_titles": [
+     "Medical Equipment Repairers",
+     "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+     "Bioengineers and Biomedical Engineers"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     38490,
+     98280
+    ],
+    "salary_source": "BLS OEWS national, SOC 49-9062 (Medical Equipment Repairers), May 2025; 10th pct $38,490 - 90th pct $98,280, median $61,660",
+    "credential_gap_note": "One of the best technical exits in the Air Force: civilian biomedical equipment technician (BMET) work is in demand and hospitals actively recruit out of this pipeline, so the SKILL gap is genuinely small. What is missing is the certification -- the industry credential is a certified biomedical equipment technician qualification, which you must sit for yourself and which typically requires documented experience. The roughly 207-day tech school awards credit toward a CCAF Biomedical Equipment Technology degree. Note that the 'Bioengineers and Biomedical Engineers' title (17-2031) in the crosswalk requires an engineering degree and is NOT an entry-level exit from this AFSC."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/science-and-technology/biomedical-equipment",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4A2X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4b0x1",
+   "code": "4B0X1",
+   "name": "Bioenvironmental Engineering",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are the base's industrial-hygiene and occupational-health technician. You conduct preventive medicine studies -- sampling air, water, noise and chemical exposures in workplaces -- and recommend controls that reduce health risk to personnel. Day to day it is field sampling, respirator fit-testing, hazard surveys, and the lab and report work behind them.",
+   "entry_requirements": {
+    "asvab_line_score": "G 49",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Must be able to wear a 40-pound air pack while carrying 40 pounds of equipment in a totally encapsulating chemical protective suit without exhibiting signs of claustrophobia. Must be at least 18 years old before entering technical training.",
+    "other": "Mandatory completion of Algebra I, chemistry, biology and English composition in high school."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Wright Patterson AFB, OH",
+     "length_weeks": null,
+     "source_text": "68 days",
+     "length_days": 68
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "19-5012.00",
+     "19-4042.00",
+     "19-5011.00"
+    ],
+    "civilian_titles": [
+     "Occupational Health and Safety Technicians",
+     "Environmental Science and Protection Technicians, Including Health",
+     "Occupational Health and Safety Specialists"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     46280,
+     100160
+    ],
+    "salary_source": "BLS OEWS national, SOC 19-5012 (Occupational Health and Safety Technicians), May 2025; 10th pct $46,280 - 90th pct $100,160, median $61,560",
+    "credential_gap_note": "Despite the name, you are NOT an engineer and this AFSC does not make you one -- an environmental or safety engineering role requires an ABET-accredited engineering degree and, for a PE, licensure. You exit as a technician. That is a real, hireable civilian occupation, but the credentials that raise the ceiling (a certified industrial hygienist or certified safety professional qualification) require a bachelor's degree plus years of documented experience. Credit is awarded toward a CCAF Bioenvironmental Engineering Technology degree -- an associate's, not a bachelor's."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/law-and-order/bioenvironmental-engineering",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4B0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4c0x1",
+   "code": "4C0X1",
+   "name": "Mental Health Service",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You work alongside psychiatrists, psychologists and social workers in mental-health and substance-abuse clinics. You perform initial assessments to obtain a patient's clinical information, help run individual and group treatment programs, manage cases and documentation, and support crisis response. Day to day it is structured clinical support under a licensed provider's supervision -- you are a technician, not a therapist.",
+   "entry_requirements": {
+    "asvab_line_score": "G 57",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "No record of emotional instability; no evidence of personality disorder or unresolved mental health problems. Requires completion of the Minnesota Multiphasic Personality Inventory (MMPI) assessment and a standardized entry interview.",
+    "other": "NOTE: airforce.com's career-card data lists A57 for this AFSC while the same page's 'ASVAB SCORE REQUIREMENTS' section states 57 General (G). The site's own two fields disagree on the composite LETTER (the number, 57, is the same in both)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Sam Houston, TX",
+     "length_weeks": null,
+     "source_text": "66 days",
+     "length_days": 66
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "29-2053.00",
+     "21-1093.00",
+     "21-1011.00"
+    ],
+    "civilian_titles": [
+     "Psychiatric Technicians",
+     "Social and Human Service Assistants",
+     "Substance Abuse and Behavioral Disorder Counselors"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     35090,
+     60750
+    ],
+    "salary_source": "BLS OEWS national, SOC 29-2053 (Psychiatric Technicians), May 2025; 10th pct $35,090 - 90th pct $60,750, median $45,130",
+    "credential_gap_note": "THE GAP HERE IS LARGE AND ROUTINELY MISUNDERSTOOD. You are not a counselor, therapist, psychologist or social worker, and this training does not put you on a short path to becoming one. Every one of those civilian titles requires a graduate degree (typically a master's), supervised clinical hours, and state licensure. What you actually exit with is psychiatric-technician and human-services-assistant experience -- honest, useful, and paid accordingly (29-2053, median $45,130). Substance-abuse counselling (21-1011) is the most reachable licensed step and still requires state-specific coursework, supervised hours and an exam. If clinical work is the real goal, plan on tuition assistance and the GI Bill for a degree from day one."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/mental-health-service",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4C0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4d0x1",
+   "code": "4D0X1",
+   "name": "Diet Therapy",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You support the clinical nutrition program in a military treatment facility. You conduct comprehensive nutritional assessments of patients, help plan and prepare therapeutic diets, educate patients on medical nutrition therapy, and manage food-service operations and food safety. Day to day it splits between clinical nutrition support under a dietitian and hospital food-service management.",
+   "entry_requirements": {
+    "asvab_line_score": "G 44",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Sam Houston, TX",
+     "length_weeks": null,
+     "source_text": "33 Days",
+     "length_days": 33
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "29-2051.00",
+     "29-1031.00",
+     "11-9051.00"
+    ],
+    "civilian_titles": [
+     "Dietetic Technicians",
+     "Dietitians and Nutritionists",
+     "Food Service Managers"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     29720,
+     54020
+    ],
+    "salary_source": "BLS OEWS national, SOC 29-2051 (Dietetic Technicians), May 2025; 10th pct $29,720 - 90th pct $54,020, median $37,640",
+    "credential_gap_note": "You are not a dietitian and this does not make you one. Becoming a Registered Dietitian Nutritionist now requires a MASTER'S degree plus a supervised practice program and a national exam -- a multi-year path that this AFSC shortens far less than most recruits assume. You exit as a dietetic technician (29-2051, median $37,640 -- the LOWEST median in this batch), and even the registered version of that technician title requires an accredited associate-level program and an exam. Credit is awarded toward a CCAF Dietetics and Nutrition degree. Go in clear-eyed about the ceiling."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/diet-therapy",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4D0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4e0x1",
+   "code": "4E0X1",
+   "name": "Public Health",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You protect the health of the force at the population level. You control disease transmission through patient interviews and contact investigations, run food-safety and facility inspections, manage occupational health surveillance, and lead community health outreach programs. Day to day it is epidemiology fieldwork, inspections and reporting -- not patient treatment.",
+   "entry_requirements": {
+    "asvab_line_score": "A 48",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision. Must pass a Reading Aloud Test (RAT).",
+    "other": "Valid state driver's license required. Knowledge of basic biological and physical sciences."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Wright Patterson AFB, OH",
+     "length_weeks": null,
+     "source_text": "47 days",
+     "length_days": 47
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "19-5012.00",
+     "21-1094.00",
+     "19-4042.00"
+    ],
+    "civilian_titles": [
+     "Occupational Health and Safety Technicians",
+     "Community Health Workers",
+     "Environmental Science and Protection Technicians, Including Health"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     46280,
+     100160
+    ],
+    "salary_source": "BLS OEWS national, SOC 19-5012 (Occupational Health and Safety Technicians), May 2025; 10th pct $46,280 - 90th pct $100,160, median $61,560",
+    "credential_gap_note": "This is public health PRACTICE, not clinical care -- you gain no patient-care credential. The civilian public-health field is heavily degree-gated: an epidemiologist role requires at least a master's (typically an MPH), and many health-inspector posts require a bachelor's or a state registered-sanitarian credential. What transfers most directly is food-safety and environmental-health inspection experience. Credit is awarded toward a CCAF Public Health Technology degree; treat the bachelor's or MPH as the real unlock."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/public-health",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4E0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4h0x1",
+   "code": "4H0X1",
+   "name": "Respiratory Care Practitioner",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You work with physicians and other health professionals to diagnose and treat diseases of the heart and lungs. You manage patients on mechanical ventilators, deliver oxygen and aerosol therapies, perform pulmonary function and cardiac diagnostic tests, draw and analyze arterial blood gases, and respond to codes. Day to day it is hands-on critical-care work in ICUs, emergency departments and on aeromedical evacuation flights.",
+   "entry_requirements": {
+    "asvab_line_score": "G 44",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": null,
+    "other": "COLLEGE COURSEWORK IS REQUIRED FOR ENTRY, beyond a high school diploma: English Composition I (3 credits), Speech (3 credits), College Algebra (3 credits), Humanities (3 credits) and Social Sciences (3 credits). airforce.com's ASVAB section names the composite ('General') but prints NO number; G44 comes from the same site's career-card data."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Phase I: Ft Sam Houston, TX. Phase II: Designated Medical Facility",
+     "length_weeks": null,
+     "source_text": "240 Days",
+     "length_days": 240
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "29-1126.00",
+     "29-2031.00"
+    ],
+    "civilian_titles": [
+     "Respiratory Therapists",
+     "Cardiovascular Technologists and Technicians"
+    ],
+    "relevant_certifications": [
+     "Registered Respiratory Therapist (RRT) -- airforce.com states graduates complete the pipeline holding this certification",
+     "Certified Cardiology Technologist -- airforce.com states graduates complete the pipeline holding this certification",
+     "Associate's Degree in Respiratory Care -- airforce.com states this is awarded on completion"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     63660,
+     118050
+    ],
+    "salary_source": "BLS OEWS national, SOC 29-1126 (Respiratory Therapists), May 2025; 10th pct $63,660 - 90th pct $118,050, median $82,280",
+    "credential_gap_note": "This is the strongest healthcare credential in the batch and one of the very few AFSCs with almost NO gap. airforce.com states that graduates finish with an ASSOCIATE'S DEGREE in Respiratory Care plus Registered Respiratory Therapist and cardiology-technologist certification -- that is the actual civilian credential, not merely credit toward one. The remaining step is a STATE LICENCE to practise respiratory therapy, which nearly every state requires and normally grants on the basis of the national RRT credential you already hold, plus an application and fee. Verify your specific certifications on your transcript before separating. The price of entry is real, though: college coursework is required BEFORE you enlist, and tech school runs about 240 days."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/respiratory-care-practitioner",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4H0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4j0x2",
+   "code": "4J0X2",
+   "name": "Physical Medicine",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You assist physical therapists with patient evaluations and tests, and you deliver treatment itself -- therapeutic exercise, modalities, gait training and rehabilitation for injured Airmen. You also work within the orthotic scope of practice, fabricating and fitting supportive devices. Day to day it is hands-on rehabilitation work in a clinic under a physical therapist's direction.",
+   "entry_requirements": {
+    "asvab_line_score": "G 60",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": null,
+    "other": "Completion of high school or college coursework in human anatomy and physiology, biology and physical sciences is mandatory, plus oral communication (Speech, 3 semester hours) and written communication (English). A Direct Accessions Program lets an ALREADY-LICENSED PTA who graduated from a CAPTE-accredited institution bypass technical training after BMT. NOTE: airforce.com's career-card data lists A51 while the same page's 'ASVAB SCORE REQUIREMENTS' section states 60 General (G) -- the site's two fields disagree on BOTH letter and number; G60 is the stricter figure."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Sam Houston, TX",
+     "length_weeks": null,
+     "source_text": "81 days",
+     "length_days": 81
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "31-2021.00",
+     "31-2022.00",
+     "29-2091.00"
+    ],
+    "civilian_titles": [
+     "Physical Therapist Assistants",
+     "Physical Therapist Aides",
+     "Orthotists and Prosthetists"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     47750,
+     89510
+    ],
+    "salary_source": "BLS OEWS national, SOC 31-2021 (Physical Therapist Assistants), May 2025; 10th pct $47,750 - 90th pct $89,510, median $68,380",
+    "credential_gap_note": "You are not a physical therapist -- that is a doctoral degree (DPT) plus licensure. And the nearer title, Physical Therapist Assistant (31-2021, median $68,380), is ITSELF licensed in nearly every state and requires graduation from a CAPTE-ACCREDITED PTA PROGRAM plus the national PTA exam. Air Force technical training is not automatically CAPTE-accredited, so military experience alone does not make you eligible to sit that exam. The clearest evidence of which way the credential flows: the Air Force runs a Direct Accessions Program specifically for people who ALREADY hold a PTA licence and a CAPTE degree. Confirm precisely what your training articulates to before you count on the PTA title -- otherwise you exit nearer to a physical therapist AIDE (31-2022), which pays substantially less."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/physical-medicine",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4J0X2",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4n1x1",
+   "code": "4N1X1",
+   "name": "Surgical Technologist",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are the scrub tech in an operating room. You set up and maintain the sterile field, prepare instruments and supplies, pass instruments to the surgeon during the procedure, handle specimens, and assist anesthesia personnel. Day to day it is long hours on your feet in the OR, with total responsibility for sterility.",
+   "entry_requirements": {
+    "asvab_line_score": "G 44",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "No record of emotional instability. No limitations for continuous standing. No latex sensitivity. No fear of blood.",
+    "other": "A minimum score of 23 on the TAPAS/PSM is also required (airforce.com)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Sam Houston, TX, Designated Medical Facility",
+     "length_weeks": null,
+     "source_text": "32 - 46 days",
+     "length_days_range": [
+      32,
+      46
+     ]
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "29-2055.00",
+     "29-9093.00",
+     "31-9093.00"
+    ],
+    "civilian_titles": [
+     "Surgical Technologists",
+     "Surgical Assistants",
+     "Medical Equipment Preparers"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     45940,
+     96940
+    ],
+    "salary_source": "BLS OEWS national, SOC 29-2055 (Surgical Technologists), May 2025; 10th pct $45,940 - 90th pct $96,940, median $64,650",
+    "credential_gap_note": "The work is essentially identical to the civilian job, which makes this a good exit -- but the credential does not come automatically. Civilian employers, and a growing number of states that now regulate the role, expect the certified surgical technologist credential, which is earned by exam and generally requires graduating an accredited surgical technology program. Military training is a recognized route to exam ELIGIBILITY, but YOU must sit the exam -- do it before you separate. Credit is awarded toward a CCAF Surgical Services Technology degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/surgical-technologist",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4N1X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4p0x1",
+   "code": "4P0X1",
+   "name": "Pharmacy",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You prepare and dispense medication in a military pharmacy. You read and fill drug orders, compound preparations, manage inventory and controlled substances, and counsel patients on how to take what they have been given -- all under a pharmacist's supervision. Day to day it is high-volume, detail-critical dispensing work where an error harms a patient.",
+   "entry_requirements": {
+    "asvab_line_score": "A 40",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision.",
+    "other": "Completion of one year of high school algebra or one unit of college algebra. Ability to type at 25 words per minute. NOTE: airforce.com's career-card data lists A48 for this AFSC while the same page's 'ASVAB SCORE REQUIREMENTS' section states 40 Administrative (A). A48 is the safer figure to aim for."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Sam Houston, TX",
+     "length_weeks": null,
+     "source_text": "110 days",
+     "length_days": 110
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "29-2052.00",
+     "31-9095.00"
+    ],
+    "civilian_titles": [
+     "Pharmacy Technicians",
+     "Pharmacy Aides"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     36020,
+     61040
+    ],
+    "salary_source": "BLS OEWS national, SOC 29-2052 (Pharmacy Technicians), May 2025; 10th pct $36,020 - 90th pct $61,040, median $45,750",
+    "credential_gap_note": "You are a pharmacy TECHNICIAN, not a pharmacist -- a pharmacist holds a doctoral degree (PharmD) plus a state licence, and this AFSC is not a step on that ladder. Within the technician role the gap is small but real: most states now require technicians to be registered or licensed, and employers expect the national certified pharmacy technician credential, which is a separate exam you must sit. Military experience prepares you for it but does not confer it. Credit is awarded toward a CCAF Pharmacy Technology degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/pharmacy",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4P0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4r0x1",
+   "code": "4R0X1",
+   "name": "Diagnostic Imaging",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You operate imaging equipment to perform radiological exams -- X-ray, CT and fluoroscopy, and with advanced training MRI and other modalities. You position patients, set exposure factors, protect the patient and yourself from radiation, and produce the images a radiologist reads. Day to day it is patient-facing technical work in a radiology department or a deployed field hospital.",
+   "entry_requirements": {
+    "asvab_line_score": "G 50",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Must be at least 18 years old before entering technical training.",
+    "other": "Requires college English Composition and Speech. NOTE: airforce.com's career-card data lists G44 for this AFSC while the same page's 'ASVAB SCORE REQUIREMENTS' section states 50 General (G). G50 is the safer figure to aim for."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft Sam Houston, TX",
+     "length_weeks": null,
+     "source_text": "340 - 450 Days",
+     "length_days_range": [
+      340,
+      450
+     ]
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "29-2034.00",
+     "29-2035.00",
+     "29-2032.00"
+    ],
+    "civilian_titles": [
+     "Radiologic Technologists and Technicians",
+     "Magnetic Resonance Imaging Technologists",
+     "Diagnostic Medical Sonographers"
+    ],
+    "relevant_certifications": [
+     "ARRT registration -- airforce.com states graduates are ELIGIBLE to become nationally registered through the American Registry of Radiologic Technologists (eligibility, not registration)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     55980,
+     118660
+    ],
+    "salary_source": "BLS OEWS national, SOC 29-2034 (Radiologic Technologists and Technicians), May 2025; 10th pct $55,980 - 90th pct $118,660, median $80,110",
+    "credential_gap_note": "Read airforce.com's exact wording: graduates are 'eligible to become nationally registered through ARRT' -- ELIGIBLE, not registered. ARRT registration is a separate national exam you must pass, and most states additionally require a state licence to operate radiologic equipment; without it you cannot legally work as a rad tech in much of the country. The training itself is long (roughly 340-450 days) and genuinely equivalent, so the gap is an exam and a licence application rather than years of school -- but if you skip the exam, this entire pipeline converts into nothing civilian. Sit for ARRT before you separate."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/diagnostic-imaging",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4R0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4t0x1",
+   "code": "4T0X1",
+   "name": "Medical Laboratory",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You run the clinical laboratory. You test and analyze blood, tissue and other specimens using chemistry, hematology, microbiology, immunology and blood-banking techniques, operate and calibrate laboratory instruments, and report the results that drive diagnosis and treatment. Day to day it is bench work under strict quality control, and you also support blood-donor and transfusion services.",
+   "entry_requirements": {
+    "asvab_line_score": "G 62",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision.",
+    "other": "At roughly 268 days this is one of the longest tech schools in the batch, and G62 is one of its higher ASVAB bars."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Sam Houston, TX Designated Medical Facility",
+     "length_weeks": null,
+     "source_text": "268 Days",
+     "length_days": 268
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "29-2012.00",
+     "29-2011.00",
+     "31-9097.00"
+    ],
+    "civilian_titles": [
+     "Medical and Clinical Laboratory Technicians",
+     "Medical and Clinical Laboratory Technologists",
+     "Phlebotomists"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     38910,
+     100990
+    ],
+    "salary_source": "BLS OEWS national, SOC 29-2010 (Clinical Laboratory Technologists and Technicians), May 2025; 10th pct $38,910 - 90th pct $100,990, median $62,930",
+    "credential_gap_note": "The laboratory skills transfer, but civilian clinical labs are CREDENTIAL-GATED: employers -- and the states that license lab personnel outright -- expect national certification as a medical laboratory technician or technologist, earned by exam and normally requiring an accredited academic program. Military training is a recognized eligibility route for the TECHNICIAN-level exam, but you must sit it; the TECHNOLOGIST level generally requires a bachelor's degree. You cannot simply walk in. Note the salary figure quoted is the combined BLS category 29-2010 (Clinical Laboratory Technologists and Technicians), which blends the degree-holding technologist tier with the technician tier, so the median OVERSTATES a technician-only exit. Credit is awarded toward a CCAF Medical Laboratory Technology degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/medical-laboratory",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4T0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4t0x2",
+   "code": "4T0X2",
+   "name": "Histopathology",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You prepare tissue for diagnosis. You receive surgical specimens, process and embed them, cut them on a microtome into sections microns thick, stain them, and prepare the slides a pathologist reads to determine whether a tumour is cancer. You also support autopsies. Day to day it is exacting, hands-on bench work in a pathology laboratory.",
+   "entry_requirements": {
+    "asvab_line_score": "G 44",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision.",
+    "other": "Completion of high school or college coursework in algebra, chemistry and biological sciences (anatomy and physiology, botany, general biology, microbiology, zoology) is mandatory."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Sam Houston, TX",
+     "length_weeks": null,
+     "source_text": "180 days",
+     "length_days": 180
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "29-2012.01",
+     "29-2011.04",
+     "29-2012.00"
+    ],
+    "civilian_titles": [
+     "Histology Technicians",
+     "Histotechnologists",
+     "Medical and Clinical Laboratory Technicians"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     38910,
+     100990
+    ],
+    "salary_source": "BLS OEWS national, SOC 29-2010 (Clinical Laboratory Technologists and Technicians), May 2025; 10th pct $38,910 - 90th pct $100,990, median $62,930",
+    "credential_gap_note": "A narrow but genuinely skilled specialty with a direct civilian equivalent -- histotechnician -- though the civilian role is certification-gated: employers expect national certification as a histotechnician or histotechnologist, earned by exam, with eligibility routes that normally require accredited coursework or documented laboratory experience. Military training and experience can establish that eligibility, but the exam is yours to pass, and some states license laboratory personnel. Note the salary figure is the broad BLS 29-2010 clinical-laboratory category, NOT a histology-specific wage. Credit is awarded toward a CCAF Histologic Technology degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/histopathology",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4T0X2",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4v0x1",
+   "code": "4V0X1",
+   "name": "Ophthalmic",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You assist optometrists and ophthalmologists in examining and treating patients' eyes. You perform visual acuity, visual field and eye-pressure tests, take patient histories, dilate eyes, assist in minor procedures, and fabricate, fit and repair spectacles -- including the ballistic eyewear aircrew depend on. Day to day it is patient-facing clinical testing plus optical laboratory work.",
+   "entry_requirements": {
+    "asvab_line_score": "G 52",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Vision correctable to at least 20/30 in either eye. No detectable central scotoma in either eye at best acuity.",
+    "other": "NOTE: this job carried NO ASVAB score in the source data for this project, and airforce.com's career-card field shows the placeholder 'A0'. The G52 figure comes from the same page's 'ASVAB SCORE REQUIREMENTS' section, which states 52 General (G)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft. Sam Houston, TX",
+     "length_weeks": null,
+     "source_text": "53 days",
+     "length_days": 53
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "29-2057.00",
+     "29-2081.00",
+     "51-9083.00"
+    ],
+    "civilian_titles": [
+     "Ophthalmic Medical Technicians",
+     "Opticians, Dispensing",
+     "Ophthalmic Laboratory Technicians"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     35700,
+     61940
+    ],
+    "salary_source": "BLS OEWS national, SOC 29-2057 (Ophthalmic Medical Technicians), May 2025; 10th pct $35,700 - 90th pct $61,940, median $45,570",
+    "credential_gap_note": "You are not an optometrist -- that is a doctoral degree plus licensure -- and this AFSC is not a route to becoming one. The civilian equivalents, ophthalmic medical technician and dispensing optician, are genuinely reachable, but both are credential-driven: ophthalmic technicians are certified by examination through a national certifying body, and many states license or register dispensing opticians. Military training prepares you for those exams but does not award the certification. Tech school is about 53 days; credit is awarded toward a CCAF Ophthalmic Technician degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/ophthalmic",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4V0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "air-force-4y0x1",
+   "code": "4Y0X1",
+   "name": "Dental Assistant",
+   "branch": "Air Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "You assist Air Force dentists in treating patients. You set up and sterilize instruments, pass instruments and suction during procedures, take and process dental X-rays, take impressions, apply preventive treatments, and manage patient records and infection control. Day to day it is chairside clinical support.",
+   "entry_requirements": {
+    "asvab_line_score": "G 44",
+    "afqt_note": "Air Force uses MAGE composites (Mechanical, Administrative, General, Electronics), not Army line scores. Applicants who are not high school graduates or alternate-credential holders must score at least 65 AFQT (airforce.com).",
+    "security_clearance": null,
+    "education": "High school diploma or equivalent; must be 17-42 years of age on the date of enlistment and a U.S. citizen or otherwise eligible for the AFSC",
+    "physical": "Normal color vision. Must be at least 18 years old before entering technical training.",
+    "other": "CAUTION: airforce.com's qualifications list for this AFSC states 'Completion of a minimum two-year American Dental Association-accredited degree awarding Dental Hygiene program'. That is a dental HYGIENIST prerequisite and is inconsistent with an entry-level dental ASSISTANT accession. Treat it as a probable site error to confirm with a recruiter rather than as a real barrier."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Military Training",
+     "location": "Lackland AFB, TX",
+     "length_weeks": 7.5
+    },
+    {
+     "stage": "Technical Training (tech school)",
+     "location": "Ft Sam Houston, TX",
+     "length_weeks": null,
+     "source_text": "48 Days",
+     "length_days": 48
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "31-9091.00",
+     "29-1292.00",
+     "51-9081.00"
+    ],
+    "civilian_titles": [
+     "Dental Assistants",
+     "Dental Hygienists",
+     "Dental Laboratory Technicians"
+    ],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": [
+     37130,
+     62250
+    ],
+    "salary_source": "BLS OEWS national, SOC 31-9091 (Dental Assistants), May 2025; 10th pct $37,130 - 90th pct $62,250, median $48,070",
+    "credential_gap_note": "Chairside experience transfers, but the credential does not come free, and requirements vary sharply by state: many states require dental assistants to be registered or licensed, and taking dental X-rays generally requires a specific state radiology permit or certification. The widely recognized national credential (certified dental assistant) is a separate exam. Above all, do NOT confuse this with dental HYGIENIST (29-1292) -- that is a licensed, degree-required profession with far higher pay, and it is NOT what this AFSC trains you for, notwithstanding the confusing wording on the airforce.com qualifications list. Credit is awarded toward a CCAF Dental Assisting degree."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://www.airforce.com/careers/healthcare/dental-assistant",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.onetonline.org/crosswalk/MOC?b=af&s=4Y0X1",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  }
+ ],
+ "unverified": [
+  {
+   "id": "air-force-3e3x1-3e331",
+   "code": "3E3X1, 3E331",
+   "field": "entry_requirements.asvab_line_score",
+   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'M 47' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'M 40'. I recorded 'M 40'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a CAC-gated link on myfss.us.af.mil. Verify with a recruiter.",
+   "sources_tried": [
+    "https://www.airforce.com/careers/maintenance-and-repair/structural",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://tmd.texas.gov/Data/Sites/1/media/tmd-jobs/ang-dsg-vacancy/fy26/quarter-1/5763-dafecd--31-october-25-v2.5-final.pdf (Attachment 4 table not embedded in the PDF)"
+   ]
+  },
+  {
+   "id": "air-force-4c0x1",
+   "code": "4C0X1",
+   "field": "entry_requirements.asvab_line_score",
+   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'A 57' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'G 57'. I recorded 'G 57'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a CAC-gated link on myfss.us.af.mil. Verify with a recruiter.",
+   "sources_tried": [
+    "https://www.airforce.com/careers/healthcare/mental-health-service",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://tmd.texas.gov/Data/Sites/1/media/tmd-jobs/ang-dsg-vacancy/fy26/quarter-1/5763-dafecd--31-october-25-v2.5-final.pdf (Attachment 4 table not embedded in the PDF)"
+   ]
+  },
+  {
+   "id": "air-force-4j0x2",
+   "code": "4J0X2",
+   "field": "entry_requirements.asvab_line_score",
+   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'A 51' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'G 60'. I recorded 'G 60'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a CAC-gated link on myfss.us.af.mil. Verify with a recruiter.",
+   "sources_tried": [
+    "https://www.airforce.com/careers/healthcare/physical-medicine",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://tmd.texas.gov/Data/Sites/1/media/tmd-jobs/ang-dsg-vacancy/fy26/quarter-1/5763-dafecd--31-october-25-v2.5-final.pdf (Attachment 4 table not embedded in the PDF)"
+   ]
+  },
+  {
+   "id": "air-force-4p0x1",
+   "code": "4P0X1",
+   "field": "entry_requirements.asvab_line_score",
+   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'A 48' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'A 40'. I recorded 'A 40'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a CAC-gated link on myfss.us.af.mil. Verify with a recruiter.",
+   "sources_tried": [
+    "https://www.airforce.com/careers/healthcare/pharmacy",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://tmd.texas.gov/Data/Sites/1/media/tmd-jobs/ang-dsg-vacancy/fy26/quarter-1/5763-dafecd--31-october-25-v2.5-final.pdf (Attachment 4 table not embedded in the PDF)"
+   ]
+  },
+  {
+   "id": "air-force-4r0x1",
+   "code": "4R0X1",
+   "field": "entry_requirements.asvab_line_score",
+   "reason": "airforce.com contradicts ITSELF. Its career-card/filter data lists 'G 44' (this is the value that was in the batch input), while the 'ASVAB SCORE REQUIREMENTS' section of the same career page states 'G 50'. I recorded 'G 50'. The authoritative tie-breaker -- DAFECD Attachment 4, the MAGE cutoff table -- is NOT publicly retrievable: the published DAFECD PDF externalizes that table to a CAC-gated link on myfss.us.af.mil. Verify with a recruiter.",
+   "sources_tried": [
+    "https://www.airforce.com/careers/healthcare/diagnostic-imaging",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://tmd.texas.gov/Data/Sites/1/media/tmd-jobs/ang-dsg-vacancy/fy26/quarter-1/5763-dafecd--31-october-25-v2.5-final.pdf (Attachment 4 table not embedded in the PDF)"
+   ]
+  },
+  {
+   "id": "air-force-4v0x1",
+   "code": "4V0X1",
+   "field": "entry_requirements.asvab_line_score",
+   "reason": "Batch input carried NO ASVAB score for this AFSC, and airforce.com's career-card field shows the placeholder 'A0' (minScore 0). 'A0' is not a real score -- the same placeholder appears on officer careers such as Flight Nurse and Developmental Engineer. I recorded 'G 52' from the 'ASVAB SCORE REQUIREMENTS' section of the airforce.com Ophthalmic career page, which states '52 General (G)' (verified against the live page HTML, not just the API). First-party, but unconfirmable against DAFECD Attachment 4, which is CAC-gated.",
+   "sources_tried": [
+    "https://www.airforce.com/careers/healthcare/ophthalmic",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://tmd.texas.gov/Data/Sites/1/media/tmd-jobs/ang-dsg-vacancy/fy26/quarter-1/5763-dafecd--31-october-25-v2.5-final.pdf"
+   ]
+  },
+  {
+   "id": "air-force-3d0x1",
+   "code": "3D0X1",
+   "field": "entry_requirements.asvab_line_score",
+   "reason": "airforce.com's 'ASVAB SCORE REQUIREMENTS' section for this AFSC names the composite LETTER only, with no number. The number recorded comes from the same site's career-card data, which agrees on the composite letter, and matches the batch input. The number itself is not independently confirmed (DAFECD Attachment 4 is CAC-gated).",
+   "sources_tried": [
+    "https://www.airforce.com/careers/logistics-and-administration/knowledge-operations-management",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://tmd.texas.gov/Data/Sites/1/media/tmd-jobs/ang-dsg-vacancy/fy26/quarter-1/5763-dafecd--31-october-25-v2.5-final.pdf"
+   ]
+  },
+  {
+   "id": "air-force-3d0x4-1d7x1",
+   "code": "3D0X4, 1D7X1",
+   "field": "entry_requirements.asvab_line_score",
+   "reason": "airforce.com's 'ASVAB SCORE REQUIREMENTS' section for this AFSC names the composite LETTER only, with no number. The number recorded comes from the same site's career-card data, which agrees on the composite letter, and matches the batch input. The number itself is not independently confirmed (DAFECD Attachment 4 is CAC-gated).",
+   "sources_tried": [
+    "https://www.airforce.com/careers/intelligence/computer-systems-programming",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://tmd.texas.gov/Data/Sites/1/media/tmd-jobs/ang-dsg-vacancy/fy26/quarter-1/5763-dafecd--31-october-25-v2.5-final.pdf"
+   ]
+  },
+  {
+   "id": "air-force-3d1x1",
+   "code": "3D1X1",
+   "field": "entry_requirements.asvab_line_score",
+   "reason": "airforce.com's 'ASVAB SCORE REQUIREMENTS' section for this AFSC names the composite LETTER only, with no number. The number recorded comes from the same site's career-card data, which agrees on the composite letter, and matches the batch input. The number itself is not independently confirmed (DAFECD Attachment 4 is CAC-gated).",
+   "sources_tried": [
+    "https://www.airforce.com/careers/intelligence/client-systems",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://tmd.texas.gov/Data/Sites/1/media/tmd-jobs/ang-dsg-vacancy/fy26/quarter-1/5763-dafecd--31-october-25-v2.5-final.pdf"
+   ]
+  },
+  {
+   "id": "air-force-4h0x1",
+   "code": "4H0X1",
+   "field": "entry_requirements.asvab_line_score",
+   "reason": "airforce.com's 'ASVAB SCORE REQUIREMENTS' section for this AFSC names the composite LETTER only, with no number. The number recorded comes from the same site's career-card data, which agrees on the composite letter, and matches the batch input. The number itself is not independently confirmed (DAFECD Attachment 4 is CAC-gated).",
+   "sources_tried": [
+    "https://www.airforce.com/careers/healthcare/respiratory-care-practitioner",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://tmd.texas.gov/Data/Sites/1/media/tmd-jobs/ang-dsg-vacancy/fy26/quarter-1/5763-dafecd--31-october-25-v2.5-final.pdf"
+   ]
+  },
+  {
+   "id": "air-force-3e8x1",
+   "code": "3E8X1",
+   "field": "entry_requirements.asvab_line_score",
+   "reason": "Recorded 'M 47 & G 50' from the career-card data / batch input. Note that the 'Test Score Requirements' section of the airforce.com EOD page does NOT state a MAGE composite at all -- it states only a minimum score of 54 on the Predictive Success Model (PSM), derived from raw ASVAB scores combined with the TAPAS personality assessment. Both figures are recorded (PSM under entry_requirements.other). Which gate actually binds for a given applicant is unconfirmed.",
+   "sources_tried": [
+    "https://www.airforce.com/careers/special-warfare-and-combat-support/explosive-ordnance-disposal-eod",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers"
+   ]
+  },
+  {
+   "id": "air-force-3n2x1-3n3x1",
+   "code": "3N2X1, 3N3X1",
+   "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+   "reason": "NULL ON PURPOSE -- not a research failure. BLS OEWS (May 2025) SUPPRESSES the annual wage estimates for SOC 27-2042 (Musicians and Singers): A_PCT10, A_MEDIAN and A_PCT90 are all '*', because the work is not typically full-time year-round. Only hourly wages are published: $20.35/hr at the 10th percentile, $47.80/hr median, $132.56/hr at the 90th. Annualizing those would be fabrication, so no range is given; the hourly figures are preserved in salary_source.",
+   "sources_tried": [
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ]
+  },
+  {
+   "id": "air-force-4t0x1 + air-force-4t0x2",
+   "code": "4T0X1, 4T0X2",
+   "field": "civilian_crosswalk.estimated_civilian_salary_range_usd",
+   "reason": "SOC 29-2012 (Medical and Clinical Laboratory Technicians) NO LONGER EXISTS as a separate detailed occupation in the May 2025 BLS OEWS file. BLS now publishes the combined detailed occupation 29-2010 (Clinical Laboratory Technologists and Technicians), which is what the salary range is drawn from. That category BLENDS the degree-holding technologist tier with the technician tier, so its median ($62,930) overstates a technician-only exit. The O*NET codes retained (29-2012.00 / 29-2012.01 / 29-2011.04) are still valid O*NET codes; only the BLS wage bucket changed.",
+   "sources_tried": [
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ]
+  },
+  {
+   "id": "air-force-3n2x1-3n3x1",
+   "code": "3N2X1, 3N3X1",
+   "field": "training_pipeline",
+   "reason": "Only Basic Military Training (7.5 weeks) is recorded because airforce.com publishes NO tech-school stage for Premier Band -- its trainingInfo block lists BMT and then an empty entry. This is consistent with the AFSC being audition-gated (you must already be an accomplished musician; the Air Force does not teach you to play), but the absence of a tech-school stage is NOT positively confirmed to mean there is none. Verify with a recruiter.",
+   "sources_tried": [
+    "https://www.airforce.com/careers/logistics-and-administration/premier-band",
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers"
+   ]
+  },
+  {
+   "id": "ALL",
+   "code": "ALL",
+   "field": "training_pipeline[].length_weeks",
+   "reason": "length_weeks is NULL for every tech-school stage BY DESIGN. airforce.com publishes tech-school length in DAYS, not weeks, and does not state whether these are calendar days or instructional days -- so any weeks conversion would be a guess. The sourced day count is preserved verbatim in 'source_text' plus a numeric 'length_days' (or 'length_days_range' where the site publishes a range, e.g. 4R0X1 '340-450 Days'). BMT length (7.5 weeks) IS published in weeks and is recorded as such. BMT location (Lackland AFB, TX) is sourced from the airforce.com EOD career-page training carousel; the generic airforce.com BMT page 404s.",
+   "sources_tried": [
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://www.airforce.com/education-and-training/basic-military-training/ (404)"
+   ]
+  },
+  {
+   "id": "ALL",
+   "code": "ALL",
+   "field": "civilian_crosswalk.relevant_certifications",
+   "reason": "AIR FORCE COOL COULD NOT BE REACHED, so this field is [] for every AFSC except the two where airforce.com ITSELF names a credential (4H0X1 Respiratory Care -> RRT + cardiology certification, stated under 'Status Upon Completion'; 4R0X1 Diagnostic Imaging -> ARRT *eligibility*, stated the same way). Two blockers: (1) cool.osd.mil no longer hosts the Air Force at all -- its root page links only to Army/Navy/USMC/USCG/DoD-Civilian, and every /usaf/ path returns 403 even with full browser headers; (2) AF COOL now lives at afvec.us.af.mil, which is unreachable from the public internet (connection refused, not a 403). CONSEQUENCE TO NOTE: credentials discussed inside credential_gap_note are described generically and BY CATEGORY on purpose (e.g. 'a state pesticide applicator licence', 'the national surgical-technologist certification'). Their exact names, issuing bodies and eligibility rules were NOT verified against COOL and must be confirmed there before being published as fact.",
+   "sources_tried": [
+    "https://www.cool.osd.mil/ (200, but links no USAF section)",
+    "https://www.cool.osd.mil/usaf/afsc/afsc_4r0x1.htm (403)",
+    "https://www.cool.osd.mil/usaf/afsc/index.html (403)",
+    "https://afvec.us.af.mil/afvec/af-cool/welcome (unreachable)"
+   ]
+  },
+  {
+   "id": "ALL",
+   "code": "ALL",
+   "field": "entry_requirements.security_clearance",
+   "reason": "airforce.com names an INVESTIGATION (Single Scope Background Investigation, or National Agency Check with Local Agency Checks and Credit) rather than a clearance LEVEL for most of these AFSCs. I recorded the investigation verbatim rather than inferring a level -- e.g. I did NOT translate 'SSBI' into 'Top Secret', though SSBI is the investigation associated with TS eligibility -- because the spec forbids guessing. Only 3E8X1 (EOD) states a level outright: 'Ability to receive and maintain a Top Secret security clearance'. AFSCs whose pages carry no clearance language at all are null (that includes 2W2X1 Nuclear Weapons, whose page names SSBI and PRAP but no level). Someone with access to DAFECD or a recruiter should resolve the levels.",
+   "sources_tried": [
+    "https://www.airforce.com/bin/api/careers?careersRootPath=/content/airforce/en/careers",
+    "https://tmd.texas.gov/Data/Sites/1/media/tmd-jobs/ang-dsg-vacancy/fy26/quarter-1/5763-dafecd--31-october-25-v2.5-final.pdf"
+   ]
+  },
+  {
+   "id": "ALL",
+   "code": "ALL",
+   "field": "transition.va_disability_common_claims",
+   "reason": "[] for every record. No source broken out by Air Force job family was found, and the spec forbids guessing. Populating this would require VA/VBA disability data disaggregated by AFSC, which does not appear to be published. Note this is NOT a claim that these jobs carry no disability risk -- several plainly do (3E8X1 EOD blast exposure; 3D1X3 and 3E0X1 working at height; 3E7X1 firefighting smoke/hearing exposure) -- only that no per-AFSC source was located to cite.",
+   "sources_tried": []
+  }
+ ]
+}

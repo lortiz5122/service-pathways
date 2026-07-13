@@ -5,6 +5,7 @@ import { clusters } from '../lib/data';
 import { BranchLogo } from '../branding/Logo';
 import { branchOrder, BRANCH_THEME, type BranchId } from '../lib/types';
 import { shortClearance, shortCode, shortLineScore } from '../lib/format';
+import { entryLevelReason } from '../lib/entrylevel';
 import { Chip, Note, SectionHead } from '../components/Bits';
 import { MarkDisclaimer } from '../components/Disclaimer';
 
@@ -181,6 +182,10 @@ function JobRow({ job }: { job: Job }) {
   // says so in two characters instead of dumping an essay into a 60px slot.
   const code = shortCode(job.code);
 
+  // Real job, real career — but you cannot enlist into it off the street. Say so
+  // where the reader is looking, not in a footnote.
+  const closed = entryLevelReason(job.id);
+
   const inner = (
     <>
       <span className={`job-code${code ? '' : ' unknown'}`}>{code ?? 'no code'}</span>
@@ -190,6 +195,7 @@ function JobRow({ job }: { job: Job }) {
         {clr ? <Chip tone="warn">{clr}</Chip> : null}
         {job.track === 'officer' ? <Chip tone="alert">Officer</Chip> : null}
         {job.notOpenYet ? <Chip tone="warn">Not open yet</Chip> : null}
+        {closed ? <Chip tone="alert">In-service only</Chip> : null}
         {deep ? (
           <Chip tone="ok">Full record</Chip>
         ) : (
@@ -200,11 +206,15 @@ function JobRow({ job }: { job: Job }) {
   );
 
   return deep ? (
-    <Link to={`/specialty/${job.id}`} className="jobrow deep">
+    <Link
+      to={`/specialty/${job.id}`}
+      className="jobrow deep"
+      title={closed ?? undefined}
+    >
       {inner}
     </Link>
   ) : (
-    <div className="jobrow" title={job.notOpenYet ?? job.what ?? undefined}>
+    <div className="jobrow" title={closed ?? job.notOpenYet ?? job.what ?? undefined}>
       {inner}
     </div>
   );

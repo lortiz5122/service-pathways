@@ -1,5 +1,6 @@
 import { allSpecialties } from './data';
 import { BRANCH_NAME_TO_ID, type BranchId, type SpecialtyRecord } from './types';
+import { classifiedCount, isEntryLevel } from './entrylevel';
 
 /**
  * The complete job catalogue.
@@ -65,12 +66,48 @@ const catalogEntries: CatalogEntry[] = Object.values(catalogModules)
   .flatMap((m) => m.default?.specialties ?? [])
   .filter((e) => e?.code && e?.name);
 
-/** A stable id for a catalogue entry. */
-const catId = (e: CatalogEntry) =>
-  `${(BRANCH_NAME_TO_ID[e.branch] ?? e.branch).toString()}-${e.code}`
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
+/**
+ * A stable, UNIQUE id for a catalogue entry.
+ *
+ * The code alone is not an identity, for two independent reasons:
+ *   - Placeholders. Every Space Force entry carries the literal code "UNVERIFIED",
+ *     so a code-derived id collapsed all seven onto `space-force-unverified`.
+ *   - Genuine collisions. Three Air Force nurse-practitioner specialties really do
+ *     share code 46YX, and Marine 0919 and 6044 are each shared by an enlisted and
+ *     an officer variant.
+ *
+ * So: build the natural id, then disambiguate anything that repeats by folding in
+ * the job name. Deterministic, stable, and it never silently merges two jobs into
+ * one — which is the failure this whole file exists to prevent.
+ */
+const slug = (s: string) =>
+  s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+function assignIds(entries: CatalogEntry[]): Map<CatalogEntry, string> {
+  const base = new Map<CatalogEntry, string>();
+  const counts = new Map<string, number>();
+
+  for (const e of entries) {
+    const known = e.code && !/unverified|unknown/i.test(e.code);
+    const id = slug(`${BRANCH_NAME_TO_ID[e.branch] ?? e.branch}-${known ? e.code : e.name}`);
+    base.set(e, id);
+    counts.set(id, (counts.get(id) ?? 0) + 1);
+  }
+
+  const out = new Map<CatalogEntry, string>();
+  const used = new Set<string>();
+  for (const e of entries) {
+    let id = base.get(e)!;
+    if ((counts.get(id) ?? 0) > 1) id = slug(`${id}-${e.name}`);
+    // Last resort: still colliding, so number it rather than merge two real jobs.
+    let final = id;
+    let n = 2;
+    while (used.has(final)) final = `${id}-${n++}`;
+    used.add(final);
+    out.set(e, final);
+  }
+  return out;
+}
 
 const norm = (s: string) =>
   s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
@@ -138,6 +175,8 @@ const deepKeys = new Set(
     .map((j) => `${j.branch}|${j.code.trim().toUpperCase()}`),
 );
 
+const catIds = assignIds(catalogEntries);
+
 const catalogJobs: Job[] = catalogEntries
   // A deep record always wins. Never show the same job twice at two depths.
   .filter((e) => {
@@ -146,7 +185,7 @@ const catalogJobs: Job[] = catalogEntries
     return !deepMatch(e);
   })
   .map((e) => ({
-    id: catId(e),
+    id: catIds.get(e)!,
     code: e.code,
     name: e.name,
     branch: e.branch,
@@ -221,5 +260,8 @@ export function entryLevelJobs(interests: string[]): Job[] {
 
   return pool
     .filter((j) => j.track === 'enlisted')
+    // Same fail-closed gate as the recommender. A job listed here as something the
+    // reader "can walk into" had better be one he can actually walk into.
+    .filter((j) => (classifiedCount > 0 ? isEntryLevel(j.id) : true))
     .sort((a, b) => a.name.localeCompare(b.name));
 }

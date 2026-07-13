@@ -1,4 +1,6 @@
 import { allSpecialties, branchIdOf } from './data';
+import { entryPath } from './entry';
+import { classifiedCount, isEntryLevel } from './entrylevel';
 import { evaluate, type Tier } from '../data/eligibility';
 import type { SpecialtyRecord } from './types';
 
@@ -133,11 +135,37 @@ export function recommend(
   afqt: number,
   tier: Tier,
 ): Scored[] {
+  /**
+   * ENTRY LEVEL ONLY. This is a hard gate, not a preference.
+   *
+   * The tool is answering "what could I actually do", and it is answering it for
+   * someone who in most cases is seventeen and has no degree. An officer or warrant
+   * record surfacing here is not a helpful stretch goal — it is a job the reader
+   * cannot apply for, presented beside jobs they can, with nothing marking the
+   * difference. A Naval Aviator listed as a "match" for a high-school senior is
+   * misinformation, however true the record behind it is.
+   *
+   * Officer and warrant paths are real and the site covers them properly — on the
+   * job pages, in the pay tables, and in the commissioning routes. Not here.
+   */
+  const entryLevel = allSpecialties.filter((s) => {
+    // Never an officer or warrant route. That gate is structural.
+    if (entryPath(s).kind !== 'enlisted') return false;
+
+    // And never a job a civilian cannot actually enlist into. "Enlisted" is not
+    // "entry level": lateral-move, reclassification and promotion-only specialties
+    // pass the track check and are still impossible for a 17-year-old to choose.
+    // FAIL CLOSED — no verdict means it does not appear.
+    if (classifiedCount > 0) return isEntryLevel(s.id);
+
+    return true; // no classification data loaded at all (dev only)
+  });
+
   const pool = interests.length
-    ? allSpecialties.filter((s) =>
+    ? entryLevel.filter((s) =>
         (s.interest_cluster_ids ?? []).some((c) => interests.includes(c)),
       )
-    : allSpecialties;
+    : entryLevel;
 
   if (!pool.length) return [];
 

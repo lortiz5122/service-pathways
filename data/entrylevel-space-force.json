@@ -1,0 +1,84 @@
+{
+ "branch": "Space Force",
+ "retrieved": "2026-07-12",
+ "source": "https://www.spaceforce.com/careers \u2014 the Space Force publishes seven enlisted careers by NAME. It publishes no numeric Space Force Specialty Code (SFSC) publicly; the official crosswalk PDF returns HTTP 403. Matching is therefore by career name, which is what the Space Force itself uses.",
+ "method": "Name-matched against the Space Force's own published enlisted career list. FAIL CLOSED: anything not on that list is not offered.",
+ "jobs": [
+  {
+   "id": "space-force-administrative-financial-management-specialist",
+   "code": "UNVERIFIED \u2014 Space Force draws on the shared Air Force AFSC structure (3F0X1 Personnel; 6F0X1 Financial Management) for these functions rather than a documented independent Space Force Specialty Code (SFSC). The official spaceforce.mil SFSC crosswalk PDF returned HTTP 403 on fetch in this project's TAXONOMY research (data/interest-taxonomy.json) and was not re-attempted this session.",
+   "entry_level": false,
+   "reason": "Not among the seven enlisted careers the Space Force publishes as open to civilian accession. We could not confirm an initial-entry path for it, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "space-force-unverified",
+   "code": "UNVERIFIED",
+   "entry_level": true,
+   "reason": "The Space Force publishes this as one of its seven enlisted careers open to civilian accession (Basic Military Training, then technical training). Note the Space Force does not publish a numeric specialty code for it.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "space-force-unverified",
+   "code": "UNVERIFIED",
+   "entry_level": true,
+   "reason": "The Space Force publishes this as one of its seven enlisted careers open to civilian accession (Basic Military Training, then technical training). Note the Space Force does not publish a numeric specialty code for it.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "space-force-cyber-operations",
+   "code": "UNVERIFIED - no confirmed numeric Space Force Specialty Code (SFSC) was found this session. The official spaceforce.mil SFSC crosswalk PDF returns HTTP 403 on fetch, consistent with data/interest-taxonomy.json's prior finding. One low-confidence search summary returned a code ('3D1X2') that appears to conflate an Air Force AFSC with a Space Force-specific code; it is NOT used here per the no-fabrication rule. Do not publish a numeric code for this record until independently confirmed against a live spaceforce.mil/af.mil source.",
+   "entry_level": true,
+   "reason": "The Space Force publishes this as one of its seven enlisted careers open to civilian accession (Basic Military Training, then technical training). Note the Space Force does not publish a numeric specialty code for it.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "space-force-unverified",
+   "code": "UNVERIFIED",
+   "entry_level": true,
+   "reason": "The Space Force publishes this as one of its seven enlisted careers open to civilian accession (Basic Military Training, then technical training). Note the Space Force does not publish a numeric specialty code for it.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "space-force-intelligence-specialist",
+   "code": "UNVERIFIED \u2014 no confirmed numeric Space Force Specialty Code (SFSC) located this session",
+   "entry_level": false,
+   "reason": "Not among the seven enlisted careers the Space Force publishes as open to civilian accession. We could not confirm an initial-entry path for it, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "space-force-unverified",
+   "code": "UNVERIFIED",
+   "entry_level": true,
+   "reason": "The Space Force publishes this as one of its seven enlisted careers open to civilian accession (Basic Military Training, then technical training). Note the Space Force does not publish a numeric specialty code for it.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "space-force-space-systems-operator-enlisted",
+   "code": "UNVERIFIED",
+   "entry_level": true,
+   "reason": "The Space Force publishes this as one of its seven enlisted careers open to civilian accession (Basic Military Training, then technical training). Note the Space Force does not publish a numeric specialty code for it.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "space-force-unverified",
+   "code": "UNVERIFIED",
+   "entry_level": true,
+   "reason": "The Space Force publishes this as one of its seven enlisted careers open to civilian accession (Basic Military Training, then technical training). Note the Space Force does not publish a numeric specialty code for it.",
+   "confidence": "official",
+   "closed_kind": null
+  }
+ ],
+ "unverified": [
+  "Administrative / Financial Management Support (shared Air Force career field): not on the Space Force's published enlisted career list \u2014 classified false by fail-closed rule",
+  "Intelligence (space-domain-awareness focused): not on the Space Force's published enlisted career list \u2014 classified false by fail-closed rule"
+ ]
+}

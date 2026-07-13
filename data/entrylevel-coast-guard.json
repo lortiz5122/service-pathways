@@ -1,0 +1,196 @@
+{
+ "branch": "Coast Guard",
+ "retrieved": "2026-07-12",
+ "source": "https://www.gocoastguard.com/careers/enlisted \u2014 the Coast Guard's 21 published enlisted ratings.",
+ "method": "Joined on code, falling back to the rating name where a record carries prose in its code field. FAIL CLOSED.",
+ "jobs": [
+  {
+   "id": "coast-guard-amt-aviation-maintenance-technician",
+   "code": "AMT",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-ast-aviation-survival-technician",
+   "code": "AST",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-aet-avionics-electrical-technician",
+   "code": "AET",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-yn-yeoman",
+   "code": "YN",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-cs-culinary-specialist",
+   "code": "CS",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-hs-health-services-technician",
+   "code": "HS",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-is-intelligence-specialist",
+   "code": "IS",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-me-maritime-enforcement-specialist",
+   "code": "ME",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-yn-legal-specialty",
+   "code": "YN (LEGAL SPECIALTY/PARALEGAL ADD-ON TRAINING; NOT A DEDICATED ENLISTED LEGAL RATING)",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "Not among the 21 enlisted ratings the Coast Guard currently publishes, and we could not confirm an initial-entry path.",
+   "confidence": "official-absence"
+  },
+  {
+   "id": "uscg-sk-storekeeper",
+   "code": "SK",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-bm-boatswains-mate",
+   "code": "BM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-os-operations-specialist",
+   "code": "OS",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-mk-machinery-technician",
+   "code": "MK",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-dc-damage-controlman",
+   "code": "DC",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-band-musician",
+   "code": "MU",
+   "entry_level": false,
+   "closed_kind": "unconfirmed",
+   "reason": "The Coast Guard Band is a real direct-entry enlisted path, filled by audition \u2014 but the official auditions page returns HTTP 403 and we could not confirm the current entry requirements from any source. We will not offer a job whose entry path we cannot verify. Contact the Coast Guard Band directly.",
+   "confidence": "unconfirmed"
+  },
+  {
+   "id": "coast-guard-it-information-systems-technician",
+   "code": "IT",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-cms",
+   "code": "CMS",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-dv",
+   "code": "DV",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-em",
+   "code": "EM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-et",
+   "code": "ET",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-gm",
+   "code": "GM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-mst",
+   "code": "MST",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  },
+  {
+   "id": "coast-guard-pa",
+   "code": "PA",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Coast Guard publishes this as one of its 21 enlisted ratings. A civilian reaches it without prior military service \u2014 on a guaranteed A-School contract at enlistment, or by serving as a non-rate and striking for the rating.",
+   "confidence": "official"
+  }
+ ],
+ "unverified": [
+  "YN (LEGAL SPECIALTY/PARALEGAL ADD-ON TRAINING; NOT A DEDICATED ENLISTED LEGAL RATING): absent from the Coast Guard's published rating list",
+  "MU (Coast Guard Band): uscg.mil auditions page 403s \u2014 entry path real but UNCONFIRMED, so not offered"
+ ]
+}

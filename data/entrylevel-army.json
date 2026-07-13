@@ -1,0 +1,1297 @@
+{
+ "branch": "Army",
+ "retrieved": "2026-07-12",
+ "source": "https://www.goarmy.com/bin/aemservlet/cmtjobs?language=en \u2014 the Army's own live careers catalogue (262 published MOSs), which publishes an explicit entry_level_requirement flag per MOS.",
+ "method": "Joined our catalogue codes against the Army's published list. FAIL CLOSED: a code absent from the Army's own catalogue is treated as NOT entry level rather than assumed available.",
+ "jobs": [
+  {
+   "id": "army-15r",
+   "code": "15R",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-15y",
+   "code": "15Y",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-14p",
+   "code": "14P",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-14g",
+   "code": "14G",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-14h",
+   "code": "14H",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-94d",
+   "code": "94D",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-15q",
+   "code": "15Q",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-15k",
+   "code": "15K",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-15f",
+   "code": "15F",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-15h",
+   "code": "15H",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-15b",
+   "code": "15B",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-15d",
+   "code": "15D",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-15g",
+   "code": "15G",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-91e",
+   "code": "91E",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-89b",
+   "code": "89B",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-89a",
+   "code": "89A",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68t",
+   "code": "68T",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-91p",
+   "code": "91P",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-92a",
+   "code": "92A",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-14s",
+   "code": "14S",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-94t",
+   "code": "94T",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-93p",
+   "code": "93P",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-94r",
+   "code": "94R",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-15n",
+   "code": "15N",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68x",
+   "code": "68X",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68a",
+   "code": "68A",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-91m",
+   "code": "91M",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-12c",
+   "code": "12C",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-25l",
+   "code": "25L",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-13b-cannon-crewmember",
+   "code": "13B",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-79s",
+   "code": "79S",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-88h",
+   "code": "88H",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-12w",
+   "code": "12W",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-19d",
+   "code": "19D",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-15u",
+   "code": "15U",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-74d",
+   "code": "74D",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-38b",
+   "code": "38B",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-25v",
+   "code": "25V",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-12b-combat-engineer",
+   "code": "12B",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68w-combat-medic-specialist",
+   "code": "68W",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-94f",
+   "code": "94F",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-12v",
+   "code": "12V",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-91l",
+   "code": "91L",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-35l",
+   "code": "35L",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-31d-cid-special-agent",
+   "code": "31D",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-35q",
+   "code": "35Q",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-35p",
+   "code": "35P",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-92g-culinary-specialist",
+   "code": "92G",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-25d",
+   "code": "25D",
+   "entry_level": false,
+   "reason": "The Army publishes this as entry_level_requirement=false \u2014 it is awarded by reclassification, in-service selection or promotion, not at initial entry.",
+   "confidence": "official",
+   "closed_kind": "in-service"
+  },
+  {
+   "id": "army-17c-cyber-operations-specialist",
+   "code": "17C",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68e",
+   "code": "68E",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-17e",
+   "code": "17E",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-89d",
+   "code": "89D",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68y",
+   "code": "68Y",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-13r",
+   "code": "13R",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-13t",
+   "code": "13T",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-36b-financial-management-technician",
+   "code": "36B",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-91g",
+   "code": "91G",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-13j",
+   "code": "13J",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-13f",
+   "code": "13F",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-12m",
+   "code": "12M",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-35w",
+   "code": "35W",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-12y",
+   "code": "12Y",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-35g",
+   "code": "35G",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-12n",
+   "code": "12N",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-35m",
+   "code": "35M",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-42a-human-resources-specialist",
+   "code": "42A",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-11c",
+   "code": "11C",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-11b-infantryman",
+   "code": "11B",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-25b",
+   "code": "25B",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-94y",
+   "code": "94Y",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-35f-intelligence-analyst",
+   "code": "35F",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-12r",
+   "code": "12R",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-31e",
+   "code": "31E",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-09l",
+   "code": "09L",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-94a",
+   "code": "94A",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-91a",
+   "code": "91A",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-19k-armor-crewman",
+   "code": "19K",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68k",
+   "code": "68K",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68j",
+   "code": "68J",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-25p",
+   "code": "25P",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-35t",
+   "code": "35T",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-31b-military-police",
+   "code": "31B",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-31k",
+   "code": "31K",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-92m",
+   "code": "92M",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-88m-motor-transport-operator",
+   "code": "88M",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-25q",
+   "code": "25Q",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-13m",
+   "code": "13M",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-42r-musician",
+   "code": "42R",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-25h",
+   "code": "25H",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-25n",
+   "code": "25N",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-68m",
+   "code": "68M",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68l",
+   "code": "68L",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68d",
+   "code": "68D",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68h",
+   "code": "68H",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68b",
+   "code": "68B",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-92r",
+   "code": "92R",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-27d-paralegal-specialist",
+   "code": "27D",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68g",
+   "code": "68G",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-14e",
+   "code": "14E",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-14t",
+   "code": "14T",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-94s",
+   "code": "94S",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-92l",
+   "code": "92L",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-92f",
+   "code": "92F",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68q",
+   "code": "68Q",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68f",
+   "code": "68F",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-12k",
+   "code": "12K",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-91d-power-generation-equipment-repairer",
+   "code": "91D",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-12q",
+   "code": "12Q",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68c-practical-nursing-specialist",
+   "code": "68C",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68s",
+   "code": "68S",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-12p",
+   "code": "12P",
+   "entry_level": false,
+   "reason": "The Army publishes this as entry_level_requirement=false \u2014 it is awarded by reclassification, in-service selection or promotion, not at initial entry.",
+   "confidence": "official",
+   "closed_kind": "in-service"
+  },
+  {
+   "id": "army-37f",
+   "code": "37F",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-46s-public-affairs",
+   "code": "46S (CONSOLIDATED OCTOBER 1, 2018 FROM THE LEGACY 46Q PUBLIC AFFAIRS SPECIALIST AND 46R BROADCAST JOURNALIST MOSS, ACROSS ALL THREE ARMY COMPONENTS)",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-12g",
+   "code": "12G",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-91j",
+   "code": "91J",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-94m",
+   "code": "94M",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-94e",
+   "code": "94E",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-25c",
+   "code": "25C",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-68p",
+   "code": "68P",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-88u",
+   "code": "88U",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-88t",
+   "code": "88T",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-79r",
+   "code": "79R",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-56m",
+   "code": "56M",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68v",
+   "code": "68V",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-25s-satcom-operator-maintainer",
+   "code": "25S",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-92s",
+   "code": "92S",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-25u",
+   "code": "25U",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-35s",
+   "code": "35S",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-35n",
+   "code": "35N",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-91f",
+   "code": "91F",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-42s",
+   "code": "42S",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-18x",
+   "code": "18X",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-18e",
+   "code": "18E",
+   "entry_level": false,
+   "reason": "The Army publishes this as entry_level_requirement=false \u2014 it is awarded by reclassification, in-service selection or promotion, not at initial entry.",
+   "confidence": "official",
+   "closed_kind": "in-service"
+  },
+  {
+   "id": "army-18c",
+   "code": "18C",
+   "entry_level": false,
+   "reason": "The Army publishes this as entry_level_requirement=false \u2014 it is awarded by reclassification, in-service selection or promotion, not at initial entry.",
+   "confidence": "official",
+   "closed_kind": "in-service"
+  },
+  {
+   "id": "army-18f",
+   "code": "18F",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-18d",
+   "code": "18D",
+   "entry_level": false,
+   "reason": "The Army publishes this as entry_level_requirement=false \u2014 it is awarded by reclassification, in-service selection or promotion, not at initial entry.",
+   "confidence": "official",
+   "closed_kind": "in-service"
+  },
+  {
+   "id": "army-18b",
+   "code": "18B",
+   "entry_level": false,
+   "reason": "The Army publishes this as entry_level_requirement=false \u2014 it is awarded by reclassification, in-service selection or promotion, not at initial entry.",
+   "confidence": "official",
+   "closed_kind": "in-service"
+  },
+  {
+   "id": "army-91s",
+   "code": "91S",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-40d",
+   "code": "40D",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-42t",
+   "code": "42T",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-12t",
+   "code": "12T",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-94h",
+   "code": "94H",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-91h",
+   "code": "91H",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-88n",
+   "code": "88N",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-12d",
+   "code": "12D",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-15t-uh60-helicopter-repairer",
+   "code": "15T",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-92y-unit-supply-specialist",
+   "code": "92Y",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-15w",
+   "code": "15W",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-15e",
+   "code": "15E",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-91c",
+   "code": "91C",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-68r",
+   "code": "68R",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-46t",
+   "code": "46T",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-46v",
+   "code": "46V",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-92w",
+   "code": "92W",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-88l",
+   "code": "88L",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  },
+  {
+   "id": "army-88k-watercraft-operator",
+   "code": "88K (COMPANION MOS: 88L \u2014 WATERCRAFT ENGINEER, SAME ARMY WATERCRAFT FIELD, ENGINEERING/MARINE-PROPULSION-MAINTENANCE COUNTERPART TO 88K'S DECK/OPERATIONS ROLE \u2014 VERIFIED REAL VIA ARMY COOL AND GOARMY.COM THIS SESSION, NOT PREVIOUSLY CONFIRMED IN DATA/INTEREST-TAXONOMY.JSON)",
+   "entry_level": false,
+   "reason": "Not present in the Army's live careers catalogue (goarmy cmtjobs, 262 published MOSs). It may be reclassification-only, consolidated, or discontinued \u2014 we could not confirm an initial-entry path, so it is not offered.",
+   "confidence": "official-absence",
+   "closed_kind": "unconfirmed"
+  },
+  {
+   "id": "army-91b-wheeled-vehicle-mechanic",
+   "code": "91B",
+   "entry_level": true,
+   "reason": "The Army publishes this as an enlisted MOS with entry_level_requirement=true \u2014 an initial-entry (off-the-street) accession path exists.",
+   "confidence": "official",
+   "closed_kind": null
+  }
+ ],
+ "unverified": [
+  "15K: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "93P: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "25L: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "79S: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "25V: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "12V: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "31D: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "35Q: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "13T: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "91G: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "09L: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "25P: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "25Q: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "25N: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "46S (CONSOLIDATED OCTOBER 1, 2018 FROM THE LEGACY 46Q PUBLIC AFFAIRS SPECIALIST AND 46R BROADCAST JOURNALIST MOSS, ACROSS ALL THREE ARMY COMPONENTS): absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "25C: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "88T: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "79R: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "40D: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "42T: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "15W: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "15E: absent from goarmy cmtjobs \u2014 classified false by fail-closed rule",
+  "88K (COMPANION MOS: 88L \u2014 WATERCRAFT ENGINEER, SAME ARMY WATERCRAFT FIELD, ENGINEERING/MARINE-PROPULSION-MAINTENANCE COUNTERPART TO 88K'S DECK/OPERATIONS ROLE \u2014 VERIFIED REAL VIA ARMY COOL AND GOARMY.COM THIS SESSION, NOT PREVIOUSLY CONFIRMED IN DATA/INTEREST-TAXONOMY.JSON): absent from goarmy cmtjobs \u2014 classified false by fail-closed rule"
+ ]
+}

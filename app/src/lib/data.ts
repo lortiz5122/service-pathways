@@ -39,8 +39,18 @@ export const assets = assetJson as Record<string, unknown>;
  * and a cluster that was never researched simply has no specialties — which the
  * UI reports honestly rather than hiding.
  */
+/**
+ * Two shapes of researched record, one pool.
+ *
+ * `specialties-*.json` are the original hand-curated deep records, one file per
+ * interest cluster. `deep-batch-*.json` are the researched entry-level specialties
+ * — same schema, produced in batches, covering every enlisted job a reader can
+ * actually walk into. Both are DEEP records and both are scoreable; they differ
+ * only in how they were produced, which is not a distinction a reader should ever
+ * have to care about.
+ */
 const specialtyModules = import.meta.glob<{ default: SpecialtyFile }>(
-  '../research/specialties-*.json',
+  ['../research/specialties-*.json', '../research/deep-batch-*.json'],
   { eager: true },
 );
 

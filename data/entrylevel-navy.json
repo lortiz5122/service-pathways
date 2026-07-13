@@ -1,0 +1,548 @@
+{
+ "branch": "Navy",
+ "retrieved": "2026-07-12",
+ "source": "https://www.navy.com/sitemap.xml \u2014 the Navy's published career pages (141 careers it actively recruits into).",
+ "method": "Normalised name match plus an explicit alias table for ratings whose formal name differs from the Navy's marketing slug (SO=navy-seal, SB=special-warfare-combat-crewman, PR=aviation-survival-equipmentman, the nuclear field). FAIL CLOSED on anything unmatched.",
+ "jobs": [
+  {
+   "id": "navy-ad-aviation-machinists-mate",
+   "code": "AD",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aviation-machinists-mate). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-airr-aviation-rescue-swimmer",
+   "code": "AWS / AWR (Naval Aircrewman)",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aviation-rescue-swimmer). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-yn-yeoman",
+   "code": "YN",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: yeoman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-cs-culinary-specialist",
+   "code": "CS (surface); CSS (submarine specialization)",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: culinary-specialist). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-hm-hospital-corpsman",
+   "code": "HM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: hospital-corpsman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-is-intelligence-specialist",
+   "code": "IS",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: navy-intelligence-specialist). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ma-master-at-arms",
+   "code": "MA",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: master-at-arms). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ln-legalman",
+   "code": "LN",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: legalman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ls-logistics-specialist",
+   "code": "LS",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: logistics-specialist). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-bm-boatswains-mate",
+   "code": "BM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: boatswains-mate). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-qm-quartermaster",
+   "code": "QM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: quartermaster). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-nuclear-field-enlisted",
+   "code": "MM(N) / EM(N) / ET(N) \u2014 Navy Nuclear Field (shipboard/submarine reactor-plant operation; entrants are assigned one of these three ratings, all trained through the same nuclear pipeline)",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: machinists-mate-nuclear / electricians-mate-nuclear / electronics-technician-nuclear). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-bu-builder-seabee",
+   "code": "BU",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: builder). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-mm-machinists-mate",
+   "code": "MM (Surface); MM (Submarine, distinct pipeline)",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: machinists-mate). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-mu-musician",
+   "code": "MU",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: navy-musician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-mc-mass-communication-specialist",
+   "code": "MC",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: mass-communication-specialist). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-cwt-cyber-warfare-technician",
+   "code": "CWT",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: cyber-warfare-technician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ab",
+   "code": "AB",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aviation). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-as",
+   "code": "AS",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aviation-support-equipment-technician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-aw",
+   "code": "AW",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: naval-aircrewman-avionics). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ac",
+   "code": "AC",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: air-traffic-controller). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ag",
+   "code": "AG",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aerographers-mate). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-am",
+   "code": "AM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aviation-structural-mechanic). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ame",
+   "code": "AME",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aviation-structural-mechanic). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ao",
+   "code": "AO",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aviation-ordnanceman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-at",
+   "code": "AT",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aviation-electronics-technician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ae",
+   "code": "AE",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aviation-electricians-mate). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-pr",
+   "code": "PR",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aviation-survival-equipmentman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-az",
+   "code": "AZ",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aviation-maintenance-administrationman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ce",
+   "code": "CE",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: construction-electrician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-cm",
+   "code": "CM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: construction-mechanic). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ea",
+   "code": "EA",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: engineering-aide). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-eo",
+   "code": "EO",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: equipment-operator). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-sw",
+   "code": "SW",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: steelworker). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ut",
+   "code": "UT",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: utilitiesman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-cti",
+   "code": "CTI",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: cryptologic-technician-interpretive). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ctt",
+   "code": "CTT",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: cryptologic-technician-technical). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ctm",
+   "code": "CTM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: cryptologic-technician-maintenance). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ctr",
+   "code": "CTR",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: cryptologic-technician-collection). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-dc",
+   "code": "DC",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: damage-controlman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-em",
+   "code": "EM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: electricians-mate). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-en",
+   "code": "EN",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: engineman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-et",
+   "code": "ET",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: aviation-electronics-technician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-fc",
+   "code": "FC",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: fire-controlman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ft",
+   "code": "FT",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: fire-control-technician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-gse",
+   "code": "GSE",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: gas-turbine-systems-technician-electrical). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-gsm",
+   "code": "GSM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: gas-turbine-systems-technician-electrical). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-gm",
+   "code": "GM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: gunners-mate). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ht",
+   "code": "HT",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: hull-maintenance-technician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ic",
+   "code": "IC",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: interior-communications-electrician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-mr",
+   "code": "MR",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: machinery-repairman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-mn",
+   "code": "MN",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: mineman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-mt",
+   "code": "MT",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: missile-technician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-tm",
+   "code": "TM",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: torpedomans-mate). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-ps",
+   "code": "PS",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: personnel-specialist). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-nc",
+   "code": "NC",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "The Navy does not publish this as a career open to new recruits. It is reached by conversion from another rating after you are already serving \u2014 you cannot pick it at MEPS.",
+   "confidence": "official-absence"
+  },
+  {
+   "id": "navy-rp",
+   "code": "RP",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: religious-program-specialist). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-rs",
+   "code": "RS",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: retail-services-specialist). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-os",
+   "code": "OS",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: operations-specialist). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-stg",
+   "code": "STG",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: sonar-technician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-sts",
+   "code": "STS",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: sonar-technician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-nd",
+   "code": "ND",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: navy-diver). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-sb",
+   "code": "SB",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: special-warfare-combat-crewman). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-so",
+   "code": "SO",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: navy-seal). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-it",
+   "code": "IT",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: information-systems-technician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  },
+  {
+   "id": "navy-rw",
+   "code": "RW",
+   "entry_level": false,
+   "closed_kind": "in-service",
+   "reason": "The Navy does not publish this as a career open to new recruits. It is reached by conversion from another rating after you are already serving \u2014 you cannot pick it at MEPS.",
+   "confidence": "official-absence"
+  },
+  {
+   "id": "navy-eod",
+   "code": "EOD",
+   "entry_level": true,
+   "closed_kind": null,
+   "reason": "The Navy publishes this as a career it actively recruits into (navy.com career page: explosive-ordnance-disposal-technician). Enlisted ratings are reached from boot camp plus an A-School.",
+   "confidence": "official"
+  }
+ ],
+ "unverified": [
+  "NC Navy Counselor: absent from the Navy's published career list \u2014 treated as conversion-only",
+  "RW Robotics Warfare Specialist: absent from the Navy's published career list \u2014 treated as conversion-only"
+ ]
+}

@@ -1,0 +1,1865 @@
+{
+ "batch": 19,
+ "branch": "Army",
+ "retrieved": "2026-07-12",
+ "specialties": [
+  {
+   "id": "army-91e",
+   "code": "91E",
+   "name": "Allied Trade Specialist",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You run an Army machine shop. You cut and shape metal parts on engine lathes, drill presses, grinders and milling machines, and you weld -- oxyacetylene, electric arc and inert-gas -- to fabricate or repair parts that keep vehicles and weapons in service. Much of the work is making a replacement part that is not in the supply system, or repairing one that is too expensive to throw away. It is shop work: measuring, setting up machines, cutting, welding, inspecting.",
+   "entry_requirements": {
+    "asvab_line_score": "GM 98; or GM 88 and GT 95",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222222. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision is mandatory. Near and distance visual acuity correctable to at least 20/30 in each eye. Finger dexterity in both hands required.",
+    "other": "ACASP-designated MOS: 2 years' experience as a machinist and welder, or NIMS + AWS certification in machining and welding, can shorten initial training (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School, Fort Gregg-Adams, VA",
+     "length_weeks": 19
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "51-4041.00",
+     "49-9071.00",
+     "51-9161.00"
+    ],
+    "civilian_titles": [
+     "Machinist",
+     "Welder",
+     "Maintenance and Repair Worker, General",
+     "CNC Tool Operator"
+    ],
+    "relevant_certifications": [
+     "NIMS machining credentials (Turning, Milling, Grinding, CNC Lathe/Mill, Job Planning, Benchwork & Layout, Measurement/Materials/Safety)",
+     "AWS Certified Associate Welding Inspector (CAWI)",
+     "AWS Certified Welding Inspector (CWI)",
+     "AWS Certified Welding Supervisor (CWS)",
+     "AWS Certified Welding Educator (CWE)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     39200,
+     80010
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 51-4041",
+    "credential_gap_note": "AIT teaches you to run the machines and to weld, but it does not hand you a civilian welding or machining credential. Employers and shops look for AWS and NIMS certifications, and those are separate paid exams with their own experience prerequisites -- AWS's Certified Welding Inspector, for example, requires years of documented welding experience on top of the exam. Close the gap by stacking NIMS Level I/II machining credentials and an AWS welder qualification while you are still in (Army COOL/Credentialing Assistance pays for them). Without them you are a skilled hand with no paper."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/91e-allied-trade-specialist/",
+    "https://www.cool.osd.mil/army/enlisted/91e.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-91f",
+   "code": "91F",
+   "name": "Small Arms/Artillery Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are the Army's gunsmith. You inspect, troubleshoot, repair and test small arms (rifles, machine guns, pistols), towed artillery and their fire-control and mount hardware. The day is bench work in an arms room or maintenance shop: disassembly, gauging parts for wear, replacing components, headspace and timing checks, and function-testing before the weapon goes back to a unit.",
+   "entry_requirements": {
+    "asvab_line_score": "GM 93; or GM 87 and GT 85",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision. Finger dexterity in both hands. Must not be allergic to petroleum-related products.",
+    "other": "ACASP-designated MOS: 2 years as a firearms examiner, firearms assembler or gunsmith can shorten initial training (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School",
+     "length_weeks": 15
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-9071.00",
+     "51-9061.00",
+     "49-9098.00"
+    ],
+    "civilian_titles": [
+     "Maintenance and Repair Worker, General",
+     "Inspector, Tester, Sorter, Sampler and Weigher",
+     "Gunsmith"
+    ],
+    "relevant_certifications": [
+     "ASE Military Tactical Wheeled Vehicle - PMCS (MIL8)",
+     "ETA Associate Electronics Technician (CETa)",
+     "IFPS Industrial Hydraulic Mechanic (IHM)",
+     "IFPS Pneumatic Mechanic (PM)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     35350,
+     77180
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-9071",
+    "credential_gap_note": "There is no civilian occupation that maps cleanly onto this MOS -- BLS has no 'gunsmith' SOC code, and Army COOL's own best matches are the generic maintenance and inspector codes. Nothing in AIT gives you a Federal Firearms License, which is what a civilian gunsmithing business actually runs on, and an FFL is an ATF application with a premises and a background check, not a course. Expect to either convert the mechanical skills into a broader maintenance job or add an FFL and a civilian gunsmithing school certificate."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/91f-small-arms-towed-artillery-repair/",
+    "https://www.cool.osd.mil/army/enlisted/91f.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-91g",
+   "code": "91G",
+   "name": "Fire Control Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "MOS 91G does not appear in any current official Army source checked for this record. It is absent from DA Pam 611-21 Chapter 10C (Enlisted MOS Specifications, Nov 2024), absent from the goarmy.com live job catalog, and absent from the Army COOL MOC list. Treat 91G as a legacy code that is no longer offered to new enlistees. Anyone interested in this kind of work (electronics/optics on weapon systems) should look at the current 94-series electronic-maintenance MOSs instead. No requirements, training length, or salary are published for it, so none are given here.",
+   "entry_requirements": {
+    "asvab_line_score": null,
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": null,
+    "physical": null,
+    "other": "Not listed as a current MOS in DA Pam 611-21 Ch 10C, goarmy.com, or Army COOL."
+   },
+   "training_pipeline": [],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [],
+    "civilian_titles": [],
+    "relevant_certifications": [],
+    "estimated_civilian_salary_range_usd": null,
+    "salary_source": null,
+    "credential_gap_note": null
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://www.goarmy.com/careers-and-jobs/browse-jobs",
+    "https://www.cool.osd.mil/army/enlisted/index.htm"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-91h",
+   "code": "91H",
+   "name": "Track Vehicle Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You keep tracked vehicles running -- diesel engines, power trains, final drives, hydraulics, electrical systems, suspension and the track itself. You troubleshoot a fault, pull and replace the failed component, and road-test the vehicle. It is heavy, greasy diesel-mechanic work, done in a motor pool or in the field, often on your back under several tons of steel.",
+   "entry_requirements": {
+    "asvab_line_score": "MM 90; or MM 85 and GT 85",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222232. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision. Finger dexterity in both hands. Must not be allergic to petroleum-related products.",
+    "other": "ACASP-designated MOS: 2 years repairing/overhauling tracked-vehicle engines, power trains or chassis, or two or more ASE automotive/truck certifications, can shorten initial training (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School, Fort Gregg-Adams, VA",
+     "length_weeks": 13
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-3042.00",
+     "49-3031.00",
+     "49-9071.00"
+    ],
+    "civilian_titles": [
+     "Mobile Heavy Equipment Mechanic",
+     "Bus and Truck Mechanic / Diesel Engine Specialist",
+     "Heavy Equipment Field Mechanic"
+    ],
+    "relevant_certifications": [
+     "ASE Medium/Heavy Truck: Diesel Engines (T2), Drive Train (T3), Brakes (T4), Electrical/Electronic Systems (T6), HVAC (T7)",
+     "ASE Military Tactical Wheeled Vehicle series (MIL2-MIL8)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     46820,
+     94460
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-3042",
+    "credential_gap_note": "Army AIT gives you the hands and the diagnostic habits, not the paper. Civilian heavy-diesel shops hire on ASE certification, and ASE requires two years of documented hands-on experience (military time counts) plus a passing exam per test -- the Army does not issue them for you. Two more gaps people miss: most civilian heavy-equipment jobs expect a Commercial Driver's License, which the Army does not automatically give a 91H, and you have been trained on tracks while nearly every civilian job is wheeled. Take the ASE T-series and MIL-series exams through Army COOL/Credentialing Assistance before you get out."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/91h-track-vehicle-repairer/",
+    "https://www.cool.osd.mil/army/enlisted/91h.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-91j",
+   "code": "91J",
+   "name": "Quartermaster and Chemical Equipment Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You repair the support equipment a deployed unit lives on: field refrigeration and air conditioners, forced-air heaters, water pumps, generators' accessories, laundry and shower systems, and chemical-decontamination equipment. You diagnose the fault, tear the unit down, replace parts, and test it. A lot of it is refrigeration and small-engine work.",
+   "entry_requirements": {
+    "asvab_line_score": "MM 87; or MM 82 and GT 85",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222222. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision. Finger dexterity in both hands. Must not be allergic to petroleum-related products.",
+    "other": null
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School",
+     "length_weeks": 10
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-9021.00",
+     "49-9041.00",
+     "49-9071.00"
+    ],
+    "civilian_titles": [
+     "Heating, Air Conditioning and Refrigeration Mechanic and Installer",
+     "Industrial Machinery Mechanic",
+     "Maintenance and Repair Worker, General"
+    ],
+    "relevant_certifications": [
+     "ASE Military Tactical Wheeled Vehicle - HVAC (MIL7)",
+     "ASE Military Tactical Wheeled Vehicle - PMCS (MIL8)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     40050,
+     95210
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-9021",
+    "credential_gap_note": "The single biggest gap is EPA Section 608 certification. You will spend the job handling refrigerant, but working on refrigeration or A/C equipment as a civilian is illegal without an EPA 608 card, and the Army does not issue one with the MOS. It is a cheap, fast exam -- get it before you leave. Beyond that, HVAC employers in many states want a state contractor or journeyman license, and Army COOL lists only two ASE credentials as directly recommended for 91J, which is a thin stack. Plan on adding EPA 608 plus an HVAC certificate (NATE or similar) to be competitive."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/91j-quartermaster-chemical-equipment-repairer/",
+    "https://www.cool.osd.mil/army/enlisted/91j.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-91l",
+   "code": "91L",
+   "name": "Construction Equipment Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You maintain and repair Army engineer equipment -- bulldozers, graders, scrapers, loaders, cranes, rock crushers, asphalt and concrete plants, air compressors, water pumps and powered bridging. You replace injectors, hydraulic pumps and cylinders, drive shafts, brakes and turbochargers, adjust governors and clutches, and troubleshoot engines, power trains and hydraulic systems. At the higher skill levels you also weld and cut to make the repair.",
+   "entry_requirements": {
+    "asvab_line_score": "MM 87; or MM 82 and GT 85",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222222. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision. Finger dexterity in both hands. Must not be allergic to refrigerant gases or petroleum-related products.",
+    "other": "ACASP-designated MOS (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School",
+     "length_weeks": 8
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-3042.00",
+     "49-9071.00"
+    ],
+    "civilian_titles": [
+     "Mobile Heavy Equipment Mechanic",
+     "Construction Equipment Mechanic",
+     "Maintenance and Repair Worker, General"
+    ],
+    "relevant_certifications": [
+     "ASE Medium/Heavy Truck: Diesel Engines (T2), Drive Train (T3), Brakes (T4), Electrical/Electronic Systems (T6)",
+     "ASE Military Tactical Wheeled Vehicle series (MIL2-MIL8)",
+     "IFPS Pneumatic Mechanic (PM)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     46820,
+     94460
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-3042",
+    "credential_gap_note": "This is one of the better civilian translations in the 91 series -- but the AIT is only 8 weeks, the shortest of any mechanic MOS in this batch, so you are leaving school with a foundation, not a trade. Civilian heavy-equipment shops hire on ASE certification and often require a CDL to move the machines; the Army gives you neither automatically. Some dealer networks (Caterpillar, John Deere, Komatsu) run their own brand-specific certification that the Army does not touch at all. Use Credentialing Assistance for ASE T-series and get your CDL before separation."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/91l-construction-equipment-repairer/",
+    "https://www.cool.osd.mil/army/enlisted/91l.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-91m",
+   "code": "91M",
+   "name": "Bradley Fighting Vehicle System Maintainer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You work only on the Bradley family of fighting vehicles. You maintain and repair its engine, transmission and suspension, its turret and the fire-control system that aims the gun, and its electrical and hydraulic systems. It is diesel and electro-mechanical troubleshooting on one specific, complicated tracked vehicle -- deep knowledge of a narrow platform.",
+   "entry_requirements": {
+    "asvab_line_score": "MM 99; or MM 88 and GT 90",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222222. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision. Finger dexterity in both hands. Must not be allergic to petroleum-related products.",
+    "other": null
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School",
+     "length_weeks": 12
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-9071.00",
+     "49-9098.00"
+    ],
+    "civilian_titles": [
+     "Maintenance and Repair Worker, General",
+     "Helper -- Installation, Maintenance and Repair Worker"
+    ],
+    "relevant_certifications": [
+     "ASE Military Tactical Wheeled Vehicle series (MIL2-MIL8)",
+     "IFPS Pneumatic Mechanic (PM)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     35350,
+     77180
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-9071",
+    "credential_gap_note": "Read the crosswalk honestly: Army COOL's best civilian matches for 91M are 'Maintenance and Repair Workers, General' and 'Helpers' -- the two lowest-paying codes in this whole batch. That is what platform-specific training buys you. Nothing outside the Army has a Bradley, so the vehicle knowledge itself is worth nothing on the outside; only the underlying diesel, hydraulic and electrical skills transfer, and you have to prove those with ASE certifications the Army does not issue. If a civilian mechanic career is the goal, a broader MOS (91H, 91L, 91B) crosswalks far better -- or plan from day one to test into ASE and get a CDL."
+   },
+   "special_pays": [
+    {
+     "name": "Enlistment bonus",
+     "amount_usd": 20000,
+     "note": "goarmy.com advertises an enlistment bonus of up to $20,000 for this MOS. Bonus amounts are set by Army recruiting policy and change frequently; confirm the current figure with a recruiter.",
+     "source": "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/91m-bradley-vehicle-system-maintainer/"
+    }
+   ],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/91m-bradley-vehicle-system-maintainer/",
+    "https://www.cool.osd.mil/army/enlisted/91m.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-91p",
+   "code": "91P",
+   "name": "Artillery Mechanic",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You maintain self-propelled artillery -- the Paladin howitzer and its ammunition carrier. That means the automotive side (diesel engine, transmission, tracks, suspension), the turret and its hydraulics, the fire-control subsystem, and the chemical-protection system, plus recovery operations when a vehicle goes down. You check hydraulic pressures, troubleshoot electrical faults, and replace major assemblies.",
+   "entry_requirements": {
+    "asvab_line_score": "MM 99; or MM 88 and GT 90",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222222. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision. Finger dexterity in both hands. Must not be allergic to petroleum-related products.",
+    "other": null
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School",
+     "length_weeks": 15
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-3042.00",
+     "49-9098.00"
+    ],
+    "civilian_titles": [
+     "Mobile Heavy Equipment Mechanic",
+     "Helper -- Installation, Maintenance and Repair Worker"
+    ],
+    "relevant_certifications": [
+     "ASE Medium/Heavy Truck: Diesel Engines (T2), Drive Train (T3), Brakes (T4), Electrical/Electronic Systems (T6)",
+     "ASE Military Tactical Wheeled Vehicle series (MIL2-MIL8)",
+     "IFPS Pneumatic Mechanic (PM)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     46820,
+     94460
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-3042",
+    "credential_gap_note": "The diesel and hydraulic half of this job transfers to heavy-equipment work; the turret and fire-control half has no civilian equivalent at all, so roughly half your training is non-transferable the day you take the uniform off. Civilian shops hire on ASE certification and usually a CDL, neither of which the Army awards with the MOS. Test into the ASE T-series and MIL-series through Army COOL while you are in, and get the CDL -- otherwise you are competing as an unlicensed general maintenance worker."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/91p-self-propelled-artillery-maintainer/",
+    "https://www.cool.osd.mil/army/enlisted/91p.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-91s",
+   "code": "91S",
+   "name": "Stryker Systems Maintainer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You maintain the Stryker, an eight-wheeled armored combat vehicle, and its subsystems. You diagnose and troubleshoot faults using electronic test equipment and technical manuals, then repair or replace components across the engine, drivetrain, hydraulics, electrical and weapon-station systems. Because the Stryker is wheeled and heavily computerized, the work leans more toward electronic diagnostics than older tracked-vehicle MOSs do.",
+   "entry_requirements": {
+    "asvab_line_score": "MM 92; or MM 87 and GT 85",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222222. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision. Finger dexterity in both hands. Must not be allergic to refrigerant gases or petroleum-related products.",
+    "other": null
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School",
+     "length_weeks": 17
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-3042.00",
+     "49-3031.00",
+     "49-9098.00"
+    ],
+    "civilian_titles": [
+     "Mobile Heavy Equipment Mechanic",
+     "Bus and Truck Mechanic / Diesel Engine Specialist",
+     "Heavy Equipment Field Mechanic"
+    ],
+    "relevant_certifications": [
+     "ASE Military Tactical Wheeled Vehicle series (MIL2-MIL8)",
+     "IFPS Pneumatic Mechanic (PM)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     46820,
+     94460
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-3042",
+    "credential_gap_note": "Because the Stryker is wheeled, this MOS crosswalks to civilian heavy-truck and heavy-equipment work better than the tracked-vehicle MOSs do -- but you still leave with no certification. ASE is the currency in civilian diesel shops and it takes a separate exam per test plus two years of documented experience; the Army does not enroll you. You also will not have a CDL, and most civilian heavy-vehicle jobs want one. Use Credentialing Assistance for the ASE MIL- and T-series and get the CDL before you separate."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/91s-stryker-systems-maintainer/",
+    "https://www.cool.osd.mil/army/enlisted/91s.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-92a",
+   "code": "92A",
+   "name": "Automated Logistical Specialist",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "logistics-supply"
+   ],
+   "depth": "deep",
+   "what_it_is": "You run the Army's supply room and warehouse. You receive, inspect, store, issue and ship parts, equipment and supplies, and you keep the records straight in the Army's automated logistics system -- requisitions, inventories, turn-ins, maintenance-related stock. Expect a mix of computer work and physical warehouse work: forklifts, pallets, load plans, cycle counts.",
+   "entry_requirements": {
+    "asvab_line_score": "CL 90",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Significant (Gray). Physical profile 222222. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run).",
+    "other": "Per AR 600-8-19, promotion to MSG/SGM later in the career requires an interim Secret eligibility or higher -- but no clearance is required to enlist into 92A (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": null,
+     "length_weeks": 9
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "43-5071.00",
+     "53-7062.00",
+     "53-7065.00",
+     "43-4151.00",
+     "11-3071.00"
+    ],
+    "civilian_titles": [
+     "Shipping, Receiving and Inventory Clerk",
+     "Stocker and Order Filler",
+     "Warehouse/Distribution Supervisor",
+     "Transportation, Storage and Distribution Manager"
+    ],
+    "relevant_certifications": [
+     "MSSC Certified Logistics Technician 4.0 (CLT 4.0)",
+     "MSSC Foundational-Level Certified Logistics Associate 4.0 (CLA)",
+     "ISM Certified Professional in Supply Management (CPSM)",
+     "CSCMP SCPro Level One"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     34650,
+     62190
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 43-5071",
+    "credential_gap_note": "The honest problem here is not a missing licence -- it is that the entry-level civilian job this maps to (warehouse/inventory clerk, 10th percentile around $35k) is a job you could get without the Army. The Army experience only pays off if you convert it into supply-chain credentials: MSSC CLA/CLT is the entry rung, and CPSM or CSCMP SCPro is what moves you toward the $107k transportation/distribution-manager band. Also note you will be fluent in GCSS-Army, a system no civilian employer runs -- SAP, Oracle or WMS experience is what they ask for. Get the certifications through Army COOL/Credentialing Assistance; the MOS alone is not enough."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/support-logistics/transportation-inventory/92a-automated-logistical-specialist/",
+    "https://www.cool.osd.mil/army/enlisted/92a.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-92f",
+   "code": "92F",
+   "name": "Petroleum Supply Specialist",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "logistics-supply"
+   ],
+   "depth": "deep",
+   "what_it_is": "You move and manage the Army's fuel. You receive, store, test and issue bulk and packaged petroleum -- operating pumps, hoses, tanks, fuel trucks and pipeline equipment, taking samples, checking for water and contamination, and refueling vehicles, generators and aircraft. It is physical, outdoors, and unforgiving about safety procedures.",
+   "entry_requirements": {
+    "asvab_line_score": "CL 86 and OF 85",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Significant (Gray). Physical profile 211221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision.",
+    "other": "Must hold a valid state or U.S. territory driver's license to ship to Basic/AIT. Per AR 600-8-19, promotion to MSG/SGM later requires interim Secret eligibility or higher -- no clearance is required to enlist (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": null,
+     "length_weeks": 10
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "51-8093.00",
+     "51-1011.00",
+     "53-3032.00",
+     "43-5061.00"
+    ],
+    "civilian_titles": [
+     "Petroleum Pump System Operator / Refinery Operator / Gauger",
+     "Fuel Truck Driver",
+     "First-Line Supervisor of Production and Operating Workers"
+    ],
+    "relevant_certifications": [
+     "NPMC Certified Petroleum Apprentice (CPA) - Level 1",
+     "NPMC Certified Petroleum Journeyman (CPJ) - Level 2",
+     "NPMC Certified Petroleum Specialist (CPS) - Level 3",
+     "NPMC Certified Petroleum Craftsman (CPC) - Level 4",
+     "NPMC Certified Petroleum Professional (CPP) - Level 5"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     57110,
+     115880
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 51-8093",
+    "credential_gap_note": "The BLS band for refinery/pump operators looks excellent (median around $97k), but that is an industry you do not walk into with an Army fuel-handler background alone -- refinery operator jobs typically want a process-technology certificate or associate degree and run long, competitive hiring pipelines. The realistic near-term civilian job is fuel-truck driving or terminal work, and that needs a Commercial Driver's License with a HAZMAT endorsement. The Army requires you to have a driver's license, but does not hand you a CDL or the HAZMAT endorsement with the MOS. Get the CDL + HAZMAT and stack the NPMC petroleum credentials through Army COOL."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/support-logistics/transportation-inventory/92f-petroleum-supply-specialist/",
+    "https://www.cool.osd.mil/army/enlisted/92f.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-92l",
+   "code": "92L",
+   "name": "Petroleum Laboratory Specialist",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "logistics-supply"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are a lab technician for fuel. You take samples of jet fuel, diesel, gasoline, oils and lubricants and run physical and chemical tests on them -- flash point, water content, particulates, contamination -- to decide whether a batch is safe to put in an aircraft or a vehicle. You maintain lab equipment, log results, and your call is what releases or condemns the fuel.",
+   "entry_requirements": {
+    "asvab_line_score": "ST 91",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 211221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision.",
+    "other": "ACASP-designated MOS: 2 years as a petroleum refinery laboratory technician can shorten initial training (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Quartermaster School, Fort Gregg-Adams, VA",
+     "length_weeks": 7
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "19-4043.00"
+    ],
+    "civilian_titles": [
+     "Geological Technician",
+     "Petroleum Laboratory Technician",
+     "Quality Control Laboratory Technician"
+    ],
+    "relevant_certifications": [
+     "NPMC Certified Petroleum Apprentice (CPA) - Level 1",
+     "NPMC Certified Petroleum Journeyman (CPJ) - Level 2",
+     "NPMC Certified Petroleum Specialist (CPS) - Level 3",
+     "NPMC Certified Petroleum Craftsman (CPC) - Level 4",
+     "NPMC Certified Petroleum Professional (CPP) - Level 5",
+     "BCSP Certified Safety Professional (CSP)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     35770,
+     99560
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 19-4043",
+    "credential_gap_note": "You will be doing real analytical chemistry, but with 7 weeks of AIT and no degree -- and civilian lab work is gated on education, not on hands. Chemical and materials lab technician postings almost always ask for an associate degree in chemistry, chemical technology or process technology; the Army gives you the bench skill and none of the credit hours. The fix is to use Tuition Assistance while you are in and finish an A.S. in chemical or laboratory technology, and to stack the NPMC petroleum credentials. Note too that Certified Safety Professional, which COOL flags for this MOS, requires a bachelor's degree plus experience -- it is a long-term goal, not an exit credential."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/science-medicine/research/92l-petroleum-laboratory-specialist/",
+    "https://www.cool.osd.mil/army/enlisted/92l.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-92m",
+   "code": "92M",
+   "name": "Mortuary Affairs Specialist",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "logistics-supply"
+   ],
+   "depth": "deep",
+   "what_it_is": "You recover, identify, process and evacuate the remains of the dead, and you inventory and return their personal effects to their families. It is the only job in the Army whose entire purpose is handling human remains, and the Army screens for it explicitly: the standard is no aversion to the sight and handling of blood, human tissue, skeletal and decomposed remains. Note the Army now calls this MOS Fatality Management Specialist.",
+   "entry_requirements": {
+    "asvab_line_score": "GM 84",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Heavy (Black). Physical profile 222221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). This is the highest physical demands category of any MOS in this batch. The Army also requires no aversion to the sight and handling of needles, human tissue, blood, and skeletal or decomposed human remains.",
+    "other": "Per AR 600-8-19, promotion to MSG/SGM later requires interim Secret eligibility or higher -- no clearance is required to enlist (DA Pam 611-21). DA Pam 611-21 lists the current MOS title as 'Fatality Management Specialist'."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Quartermaster School",
+     "length_weeks": 7
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "39-4031.00",
+     "11-9171.00"
+    ],
+    "civilian_titles": [
+     "Mortician, Undertaker and Funeral Arranger",
+     "Funeral Home Manager",
+     "Medicolegal Death Investigator"
+    ],
+    "relevant_certifications": [
+     "ABMDI Registry Certification (basic) -- medicolegal death investigator",
+     "ABMDI Board Certification (advanced)",
+     "ICFSEB National Board Examination (NBE) -- funeral service"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     33350,
+     88620
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 39-4031",
+    "credential_gap_note": "This is the sharpest credential gap in the batch. A Mortuary Affairs Specialist is not a funeral director and is not an embalmer. Every state licenses those, and licensure requires an accredited mortuary-science degree, a supervised apprenticeship, and the ICFSEB national board exam -- 7 weeks of AIT counts for none of it. The one credential that does travel is ABMDI registry certification as a medicolegal death investigator, which is exam-based and attainable on the experience you actually get. Also be clear-eyed about the second cost: this MOS has a documented psychological toll, and the Army itself screens applicants for aversion to handling remains. Go in knowing what the work is."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/support-logistics/admin-financial-support/92m-mortuary-affairs-specialist/",
+    "https://www.cool.osd.mil/army/enlisted/92m.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-92r",
+   "code": "92R",
+   "name": "Parachute Rigger",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You inspect, repair, pack and rig parachutes -- both the ones people jump and the ones used to airdrop vehicles, ammunition and supplies. You sew and repair canopies and harnesses, build airdrop loads, and certify them. You are also required to be airborne-qualified and to jump on the chutes you pack. The job is exacting sewing-and-inspection work where a missed detail kills someone.",
+   "entry_requirements": {
+    "asvab_line_score": "GM 78 and CO 77",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Significant (Gray). Physical profile 111121. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision. Must meet the airborne physical requirements of AR 40-501, and must be able to run five miles in 44-45 minutes before starting airborne training.",
+    "other": "Must complete the Basic Airborne Course and be qualified as a parachutist. Per AR 600-8-19, promotion to MSG/SGM later requires interim Secret eligibility or higher -- no clearance is required to enlist (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Quartermaster School",
+     "length_weeks": 12
+    },
+    {
+     "stage": "Basic Airborne Course (required to hold the MOS)",
+     "location": null,
+     "length_weeks": null
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-9071.00",
+     "51-6031.00",
+     "51-1011.00"
+    ],
+    "civilian_titles": [
+     "Parachute Rigger (FAA-certificated)",
+     "Sewing Machine Operator",
+     "First-Line Supervisor of Production and Operating Workers"
+    ],
+    "relevant_certifications": [
+     "FAA Senior Parachute Rigger certificate",
+     "FAA Master Parachute Rigger certificate",
+     "FAA Remote Pilot certificate",
+     "NCCCO rigging and crane-operator credentials (Rigger Level I/II, Signalperson)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     35350,
+     77180
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-9071",
+    "credential_gap_note": "There IS a real civilian version of this job -- FAA-certificated parachute rigger -- and the Army does not automatically give it to you. The FAA Senior and Master Rigger certificates are separate written, oral and practical tests administered by an FAA examiner, with their own packing-experience requirements. Army COOL flags the Senior Parachute Rigger certificate as the top credential for this MOS precisely because it is the gap. Take it while you are in. Be aware also that the civilian rigger market is small -- BLS has no dedicated SOC code for it, and COOL's best statistical matches are generic maintenance and sewing occupations, which is why the salary band shown here looks modest."
+   },
+   "special_pays": [
+    {
+     "name": "Enlistment bonus",
+     "amount_usd": 20000,
+     "note": "goarmy.com advertises an enlistment bonus of up to $20,000 for this MOS. Bonus amounts are set by Army recruiting policy and change frequently; confirm the current figure with a recruiter.",
+     "source": "https://www.goarmy.com/careers-and-jobs/support-logistics/transportation-inventory/92r-parachute-rigger/"
+    }
+   ],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/support-logistics/transportation-inventory/92r-parachute-rigger/",
+    "https://www.cool.osd.mil/army/enlisted/92r.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-92s",
+   "code": "92S",
+   "name": "Shower, Laundry and Clothing Repair Specialist",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "logistics-supply"
+   ],
+   "depth": "deep",
+   "what_it_is": "You set up and run field shower and laundry operations for deployed units, and you repair clothing and canvas -- running industrial washers and dryers, maintaining the water and power hookups that feed them, and operating sewing machines. The Army's current title for this MOS is Shower and Laundry Specialist.",
+   "entry_requirements": {
+    "asvab_line_score": "GM 84",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Significant (Gray). Physical profile 222222. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run).",
+    "other": "ACASP-designated MOS: 2 years in laundry operation, washer/dryer operation, tailoring, sewing-machine operation or clothing repair can shorten initial training. Per AR 600-8-19, promotion to MSG/SGM later requires interim Secret eligibility or higher -- no clearance is required to enlist (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Quartermaster School",
+     "length_weeks": 6
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "51-6011.00",
+     "49-9099.01"
+    ],
+    "civilian_titles": [
+     "Laundry and Dry-Cleaning Worker",
+     "Laundry/Linen Services Manager"
+    ],
+    "relevant_certifications": [
+     "ALM Registered Laundry and Linen Director (RLLD)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     27440,
+     43190
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 51-6011",
+    "credential_gap_note": "Be blunt with yourself about this one: it has the shortest AIT (6 weeks) and by far the lowest civilian ceiling in the batch -- the BLS 90th percentile for laundry work is about $43k, which is below the 10th percentile of most of the mechanic and electronics MOSs here. Army COOL lists only six credentials for it at all, and only one recommended. There is no licence to close, because there is no gated profession on the other side; the gap is that the MOS itself buys you very little civilian leverage. If you take it, take it for the enlistment (it is a Reserve-heavy, low-barrier way in) and plan on Tuition Assistance or reclassification, not on the trade."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/support-logistics/admin-financial-support/92s-shower-laundry-clothing/",
+    "https://www.cool.osd.mil/army/enlisted/92s.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-92w",
+   "code": "92W",
+   "name": "Water Treatment Specialist",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You make water drinkable. You install, operate and maintain the Army's water purification equipment -- reverse-osmosis units, pumps, storage bags and distribution systems -- and you run the quality tests (chlorine residual, pH, turbidity, bacteriological) that decide whether the water goes to soldiers. You also inspect water and food-storage facilities for contamination.",
+   "entry_requirements": {
+    "asvab_line_score": "GM 88",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Significant (Gray). Physical profile 211221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision.",
+    "other": null
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Quartermaster School",
+     "length_weeks": 11
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "51-8031.00"
+    ],
+    "civilian_titles": [
+     "Water and Wastewater Treatment Plant and System Operator"
+    ],
+    "relevant_certifications": [
+     "NPMC Certified Petroleum Craftsman (CPC) - Level 4",
+     "NPMC Certified Petroleum Professional (CPP) - Level 5"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     39110,
+     91060
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 51-8031",
+    "credential_gap_note": "The job maps almost one-to-one onto a real civilian occupation -- and that occupation is state-licensed. Every state requires water and wastewater treatment plant operators to hold a graded operator licence (typically Class I through IV), earned through a state exam plus documented operating hours at a permitted plant. The Army does not issue one, and military operating time does not always count toward the state's hour requirement. Start the licensing process while you are still in: find your target state's Class I/II exam early, because that licence -- not the MOS -- is what gets you hired."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/science-medicine/research/92w-water-treatment-specialist/",
+    "https://www.cool.osd.mil/army/enlisted/92w.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-93p",
+   "code": "15P",
+   "name": "Aviation Operations Specialist",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "IMPORTANT: this record was requested as MOS 93P, but 93P does not appear in any current official Army source -- the Army's current code for Aviation Operations Specialist is 15P, and that is what is described below. You are the dispatcher for Army aviation. You schedule and dispatch aircraft missions, process and file flight plans, coordinate airspace and clearances, maintain flight logs and records, brief crews on weather and hazards, and alert crash and rescue crews when there is an emergency. It is a control-room job with real consequences for aircraft in the air.",
+   "entry_requirements": {
+    "asvab_line_score": "ST 91",
+    "afqt_note": null,
+    "security_clearance": "Secret",
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run).",
+    "other": "U.S. citizenship required. A Secret security eligibility is required both for initial award of the MOS and to keep it (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Aviation Center of Excellence, Fort Novosel, AL",
+     "length_weeks": 7
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "53-2022.00"
+    ],
+    "civilian_titles": [
+     "Airfield Operations Specialist",
+     "Aircraft Dispatcher",
+     "Flight Operations Coordinator"
+    ],
+    "relevant_certifications": [
+     "FAA Aircraft Dispatcher certificate",
+     "FCC General Radiotelephone Operator License (PG)",
+     "SPACETEC ASTM NCATT Foreign Object Elimination (FOE)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     35870,
+     102120
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 53-2022",
+    "credential_gap_note": "You will do dispatcher work for years and still not be a dispatcher on the outside. The FAA Aircraft Dispatcher certificate -- the licence an airline requires -- is earned through an approved course and an FAA written, practical and oral exam; the Army's AIT is not that course and does not confer it. Army COOL flags the FAA Aircraft Dispatcher certificate as the top credential for 15P for exactly this reason. It is very attainable with your experience and Credentialing Assistance will pay for it, but you have to go get it. Note also that this MOS is not air traffic control -- ATC is a different job with a different FAA certification path."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/aviation/managing-piloting-aircraft/15p-aviation-operations-specialist/",
+    "https://www.cool.osd.mil/army/enlisted/15p.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-94a",
+   "code": "94A",
+   "name": "Land Combat Electronic Missile System Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering",
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are an electronics technician for missile systems -- TOW, Javelin, and the fire-control electronics on the Bradley. You use test equipment and schematics to isolate faults down to the circuit-card or component level in electronic, electrical and mechanical assemblies, then repair or replace them, run quality-control checks, and document the work.",
+   "entry_requirements": {
+    "asvab_line_score": "EL 102; or EL 97 and ST 90",
+    "afqt_note": null,
+    "security_clearance": "Secret",
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision. Finger dexterity in both hands.",
+    "other": "U.S. citizenship required; must be eligible for Secret access under AR 380-67. ACASP-designated MOS (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School, Fort Gregg-Adams, VA",
+     "length_weeks": 12
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2094.00",
+     "17-3023.00",
+     "49-1011.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronics Repairer, Commercial and Industrial Equipment",
+     "Electrical and Electronic Engineering Technician",
+     "First-Line Supervisor of Mechanics, Installers and Repairers"
+    ],
+    "relevant_certifications": [
+     "ETA Associate Electronics Technician (CETa)",
+     "ETA Senior Certified Electronics Technician (CETsr)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     46840,
+     105590
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-2094",
+    "credential_gap_note": "The electronics troubleshooting genuinely transfers -- this is one of the better-paying crosswalks in the batch. The gap is proof: civilian employers hire on ETA or ISCET electronics certification, and the Army does not issue either with the MOS. Army COOL recommends ETA's CETa (entry) and CETsr (senior) precisely because they are the missing paper. The other thing to plan for: your Secret clearance is a real asset in the defense contractor market, but it lapses after you leave, so line up a cleared job before it does."
+   },
+   "special_pays": [
+    {
+     "name": "Enlistment bonus",
+     "amount_usd": 13000,
+     "note": "goarmy.com advertises an enlistment bonus of up to $13,000 for this MOS. Bonus amounts are set by Army recruiting policy and change frequently; confirm the current figure with a recruiter.",
+     "source": "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/94a-land-missile-system-repairer/"
+    }
+   ],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/94a-land-missile-system-repairer/",
+    "https://www.cool.osd.mil/army/enlisted/94a.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-94d",
+   "code": "94D",
+   "name": "Air Traffic Control Equipment Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering",
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "You maintain the electronics that let aircraft land safely: air traffic control communications systems, navigational aids (NAVAIDS), and landing systems. You use test equipment and test program sets to isolate faults, then repair, align and calibrate the gear. Note the AIT is long -- goarmy lists 27 weeks -- because the equipment is complex and the tolerance for error is zero.",
+   "entry_requirements": {
+    "asvab_line_score": "EL 102; or EL 97 and ST 90",
+    "afqt_note": null,
+    "security_clearance": "Secret",
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Heavy. Physical profile 211221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Note: DA Pam 611-21 lists a physical demands rating of Heavy for this MOS -- the only 94-series MOS in this batch rated above Moderate.",
+    "other": "U.S. citizenship required. A documented history of alcohol or drug abuse is disqualifying for this MOS and is not routinely waived. ACASP-designated MOS (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School, Fort Gregg-Adams, VA",
+     "length_weeks": 27
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2094.00",
+     "49-1011.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronics Repairer, Commercial and Industrial Equipment",
+     "Avionics/NAVAIDS Technician",
+     "First-Line Supervisor of Mechanics, Installers and Repairers"
+    ],
+    "relevant_certifications": [
+     "ETA Associate Electronics Technician (CETa)",
+     "ETA Avionics Electronics Technician (AVN)",
+     "ETA Senior Certified Electronics Technician (CETsr)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     46840,
+     105590
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-2094",
+    "credential_gap_note": "Two gaps worth naming. First: this MOS maintains ATC equipment -- it does not make you an air traffic controller, which is a completely separate FAA certification and career. Do not confuse the two. Second: the FAA does hire technicians to maintain NAVAIDS and airport systems, and your experience is directly relevant, but FAA technician hiring goes through USAJOBS with its own qualification standards, and private employers look for ETA certification, which the Army does not award. Take the ETA CETa/AVN exams through Credentialing Assistance and start watching FAA airway-transportation-systems-specialist vacancies before you separate."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/aviation/repairing-aircraft/94d-air-traffic-control-equipment-repairer/",
+    "https://www.cool.osd.mil/army/enlisted/94d.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-94e",
+   "code": "94E",
+   "name": "Radio and Communications Security (COMSEC) Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "You maintain and repair the Army's radios and its communications-security (encryption) equipment. You run preventive-maintenance checks, calibrate and align components, troubleshoot down to the module and circuit-card level, and repair or replace what has failed -- on transmitters, receivers and the crypto gear that keeps the traffic secure.",
+   "entry_requirements": {
+    "asvab_line_score": "EL 102; or EL 97 and ST 90",
+    "afqt_note": null,
+    "security_clearance": "Secret",
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision.",
+    "other": "U.S. citizenship required. ACASP-designated MOS (DA Pam 611-21). goarmy.com lists the AIT as 21 weeks and one day."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School, Fort Gregg-Adams, VA",
+     "length_weeks": 21
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2021.00",
+     "49-1011.00"
+    ],
+    "civilian_titles": [
+     "Radio, Cellular and Tower Equipment Installer and Repairer",
+     "Electronics Repair Technician",
+     "First-Line Supervisor of Mechanics, Installers and Repairers"
+    ],
+    "relevant_certifications": [
+     "ETA Associate Electronics Technician (CETa)",
+     "ETA Senior Certified Electronics Technician (CETsr)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     44460,
+     103990
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-2021",
+    "credential_gap_note": "The RF and electronics skills transfer well to tower, radio and telecom work, but the COMSEC/crypto half of the job is classified and effectively unshowable on a resume -- you cannot describe most of it, and there is no civilian equivalent outside cleared defense work. What you can carry out is ETA electronics certification, which the Army does not issue and which COOL flags as the top credential here. Also note the civilian tower/telecom world increasingly wants fibre and safety credentials (climbing, RF-awareness) that the MOS does not cover. Your Secret clearance is your single most marketable asset -- use it before it lapses."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/signal-intelligence/locations-stats-frequencies/94e-radio-equipment-repairer/",
+    "https://www.cool.osd.mil/army/enlisted/94e.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-94f",
+   "code": "94F",
+   "name": "Computer/Detection Systems Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "You repair the Army's computer and detection systems -- everything from electromechanical telecommunications equipment to field-artillery digital fire-control devices and chemical/radiological detection gear. The work is board- and component-level electronics diagnosis: isolate the fault with test equipment, replace the module, verify.",
+   "entry_requirements": {
+    "asvab_line_score": "EL 102; or EL 97 and ST 90",
+    "afqt_note": null,
+    "security_clearance": "Secret",
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision.",
+    "other": "U.S. citizenship required. ACASP-designated MOS (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School, Fort Gregg-Adams, VA",
+     "length_weeks": 20
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2011.00",
+     "49-1011.00",
+     "49-2098.00"
+    ],
+    "civilian_titles": [
+     "Computer, Automated Teller and Office Machine Repairer",
+     "Electronics Repair Technician",
+     "Security and Fire Alarm Systems Installer"
+    ],
+    "relevant_certifications": [
+     "ETA Associate Electronics Technician (CETa)",
+     "ETA Senior Certified Electronics Technician (CETsr)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     35910,
+     71730
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-2011",
+    "credential_gap_note": "Careful with the job title. 'Computer repairer' in the Army means hardware and board-level electronics -- it is not IT, not networking, and not cyber, and the civilian code it maps to (computer/office-machine repairer, median about $48k) is one of the lower-paid electronics codes. If the goal is an IT career, this MOS does not get you there by itself: you would need CompTIA A+/Network+/Security+ on top, none of which the Army awards with the MOS. If the goal is electronics technician work, take ETA's CETa and CETsr. Either way the credential is a separate step, and Credentialing Assistance will pay for it."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/signal-intelligence/locations-stats-frequencies/94f-computer-detection-systems-repairer/",
+    "https://www.cool.osd.mil/army/enlisted/94f.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-94h",
+   "code": "94H",
+   "name": "Test, Measurement, and Diagnostic Equipment Maintenance Support Specialist",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You are the person who calibrates the instruments everyone else trusts. You maintain, repair and calibrate the Army's test, measurement and diagnostic equipment -- the meters, gauges, oscilloscopes and standards that other mechanics and technicians use to decide whether a part is good. You also adjust and synchronize timing devices. It is precision metrology work, and the AIT is 33 weeks, among the longest in the Army.",
+   "entry_requirements": {
+    "asvab_line_score": "EL 107; or EL 102 and ST 90",
+    "afqt_note": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision.",
+    "other": "Requires credit for one year of high school algebra and one year of general science. DA Pam 611-21 does not state a security clearance requirement for initial award of 94H. ACASP-designated MOS."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School, Fort Gregg-Adams, VA",
+     "length_weeks": 33
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-1011.00",
+     "49-2094.00",
+     "17-3023.00",
+     "49-9069.00"
+    ],
+    "civilian_titles": [
+     "Calibration Technician",
+     "Precision Instrument and Equipment Repairer",
+     "Electrical and Electronic Engineering Technician",
+     "First-Line Supervisor of Mechanics, Installers and Repairers"
+    ],
+    "relevant_certifications": [
+     "ASQ Certified Calibration Technician (CCT)",
+     "ETA Associate Electronics Technician (CETa)",
+     "ETA Senior Certified Electronics Technician (CETsr)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     49600,
+     126790
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-1011",
+    "credential_gap_note": "Calibration/metrology is a real, in-demand civilian trade and 33 weeks of Army training in it is substantial -- but the hiring gate is the ASQ Certified Calibration Technician credential, which the Army does not award. ASQ CCT requires documented work experience plus a proctored exam, and Army COOL lists it as the recommended credential for exactly this reason. Get it, plus ETA electronics certification, through Credentialing Assistance. Note also that this is the one 94-series MOS here where DA Pam 611-21 does not require a clearance for entry, so you will not automatically carry that advantage into the cleared job market."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/94h-diagnostic-equipment-maintenance-specialist/",
+    "https://www.cool.osd.mil/army/enlisted/94h.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-94m",
+   "code": "94M",
+   "name": "Radar Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You maintain and repair ground surveillance and counter-fire radar -- the systems that detect incoming artillery and mortar rounds -- plus associated and meteorological equipment. You troubleshoot assemblies, subassemblies and modules down to the circuit level, align and calibrate the system, and repair or replace what failed. goarmy lists the AIT at 37 weeks, the second-longest in this batch.",
+   "entry_requirements": {
+    "asvab_line_score": "EL 107; or EL 102 and ST 90",
+    "afqt_note": null,
+    "security_clearance": "Secret",
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision.",
+    "other": "U.S. citizenship required. High school graduate or equivalent required (DA Pam 611-21 states this explicitly for 94M). ACASP-designated MOS."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School, Fort Gregg-Adams, VA",
+     "length_weeks": 37
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2094.00",
+     "49-1011.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronics Repairer, Commercial and Industrial Equipment",
+     "Radar/RF Systems Technician",
+     "First-Line Supervisor of Mechanics, Installers and Repairers"
+    ],
+    "relevant_certifications": [
+     "ETA Associate Electronics Technician (CETa)",
+     "ETA Senior Certified Electronics Technician (CETsr)",
+     "ETA Fiber Optics Technician (Inside Plant / Outside Plant)",
+     "FCC Ship Radar Endorsement"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     46840,
+     105590
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-2094",
+    "credential_gap_note": "Radar work outside the military lives almost entirely inside defense contractors, the FAA and marine electronics -- it is a narrow market, and your clearance is often the thing that actually gets you the interview, not the radar knowledge. The clearance lapses after you separate, so line the job up before it does. The credential gap is ETA electronics certification (CETa/CETsr) plus, if you want the marine route, the FCC Ship Radar Endorsement -- an actual federal licence that the Army does not give you and that COOL flags for this MOS. The fibre-optic certifications are the best hedge into commercial telecom."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/signal-intelligence/locations-stats-frequencies/94m-radar-repairer/",
+    "https://www.cool.osd.mil/army/enlisted/94m.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-94r",
+   "code": "94R",
+   "name": "Avionic and Survivability Equipment Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "You perform field and sustainment maintenance on aircraft avionics -- navigation and flight control systems, stabilization systems -- and on survivability equipment such as the countermeasures that protect an aircraft from missiles. You troubleshoot with test sets, replace line-replaceable units, and verify the system before the aircraft flies again.",
+   "entry_requirements": {
+    "asvab_line_score": "EL 98",
+    "afqt_note": null,
+    "security_clearance": "Secret",
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision.",
+    "other": "A documented history of alcohol or drug abuse is disqualifying for this MOS and is not routinely waived (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School, Fort Gregg-Adams, VA",
+     "length_weeks": 17
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2091.00",
+     "49-3011.00"
+    ],
+    "civilian_titles": [
+     "Avionics Technician",
+     "Aircraft Mechanic and Service Technician"
+    ],
+    "relevant_certifications": [
+     "ETA Avionics Electronics Technician (AVN)",
+     "SPACETEC Basic Electricity and Electronics - Alternating Current (BEE-AC)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     49410,
+     113680
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-2091",
+    "credential_gap_note": "This is the best-paying civilian crosswalk in the batch (avionics technicians, median about $82k) and the gap is well-defined: civilian avionics work on certificated aircraft requires either an FAA Airframe & Powerplant (A&P) certificate or an FCC licence plus employer training -- the Army's 17 weeks of AIT gives you neither. The A&P is the big one: the FAA will let you apply on the strength of documented military maintenance experience, but you must still pass three written exams plus an oral and practical. Start that paperwork (FAA Form 8610-2 military-experience route) well before you separate, and take ETA's AVN certification through Credentialing Assistance in the meantime."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/aviation/repairing-aircraft/94r-avionic-survivability-equipment-repairer/",
+    "https://www.cool.osd.mil/army/enlisted/94r.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-94s",
+   "code": "94S",
+   "name": "PATRIOT System Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You perform field-level maintenance on the Patriot air-and-missile-defense system -- its phased-array radar, engagement control station, launchers and power plants. You run system tests, isolate faults in the electronics, and repair or replace components. The AIT is the longest in this batch: goarmy lists 45 weeks, close to a year of school before you reach a unit.",
+   "entry_requirements": {
+    "asvab_line_score": "EL 107; or EL 102 and ST 90",
+    "afqt_note": null,
+    "security_clearance": "Secret",
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision.",
+    "other": "U.S. citizenship required (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School, Fort Gregg-Adams, VA",
+     "length_weeks": 45
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2094.00",
+     "17-3023.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronics Repairer, Commercial and Industrial Equipment",
+     "Electrical and Electronic Engineering Technician",
+     "Field Service Technician"
+    ],
+    "relevant_certifications": [
+     "ETA Associate Electronics Technician (CETa)",
+     "ETA Senior Certified Electronics Technician (CETsr)",
+     "ETA Fiber Optics Technician (Inside Plant / Outside Plant)",
+     "FCC Ship Radar Endorsement"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     46840,
+     105590
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-2094",
+    "credential_gap_note": "Forty-five weeks of electronics school is a serious technical education -- but every hour of it is about one weapon system that exists nowhere in civilian life. What transfers is the underlying skill (RF, radar, power, board-level troubleshooting) and the clearance, and neither comes with a certificate. Raytheon and other Patriot contractors do hire ex-94S as field service reps, and that is the highest-value path -- but it depends on an active clearance, which expires after you leave. Take ETA CETa/CETsr through Credentialing Assistance so you have something portable if the defense route does not work out."
+   },
+   "special_pays": [
+    {
+     "name": "Enlistment bonus",
+     "amount_usd": 20000,
+     "note": "goarmy.com advertises an enlistment bonus of up to $20,000 for this MOS. Bonus amounts are set by Army recruiting policy and change frequently; confirm the current figure with a recruiter.",
+     "source": "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/94s-patriot-system-repairer/"
+    }
+   ],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/94s-patriot-system-repairer/",
+    "https://www.cool.osd.mil/army/enlisted/94s.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-94t",
+   "code": "94T",
+   "name": "AVENGER System Repairer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You maintain and repair the Army's short-range air defense systems, including Avenger. You troubleshoot and repair the electronics, electrical and mechanical subsystems -- the missile launcher, the turret, the sighting and tracking electronics -- and test the system after repair. DA Pam 611-21 now titles this MOS Short Range Air Defense System Repairer.",
+   "entry_requirements": {
+    "asvab_line_score": "EL 98; or EL 93 and GT 85",
+    "afqt_note": null,
+    "security_clearance": "Confidential",
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision. Finger dexterity in both hands.",
+    "other": "U.S. citizenship required. Note this is the only MOS in this batch whose stated clearance is Confidential rather than Secret (DA Pam 611-21). DA Pam 611-21 lists the current MOS title as 'Short Range Air Defense System Repairer'."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School, Fort Gregg-Adams, VA",
+     "length_weeks": 17
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2094.00",
+     "49-1011.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronics Repairer, Commercial and Industrial Equipment",
+     "Electronics Repair Technician",
+     "First-Line Supervisor of Mechanics, Installers and Repairers"
+    ],
+    "relevant_certifications": [
+     "ETA Associate Electronics Technician (CETa)",
+     "ETA Senior Certified Electronics Technician (CETsr)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     46840,
+     105590
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-2094",
+    "credential_gap_note": "Same shape as the other 94-series records: the electronics troubleshooting transfers, the weapon system does not, and the certificate that proves the skill (ETA CETa/CETsr) is a separate exam the Army does not give you. One thing specific to 94T: your clearance is Confidential, not Secret, which is materially less useful in the defense-contractor job market than the Secret that most of the other 94-series MOSs carry. Do not count on the clearance to carry your resume -- count on the certifications, and get them through Credentialing Assistance."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/94t-short-range-air-defense-systems-repairer/",
+    "https://www.cool.osd.mil/army/enlisted/94t.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  },
+  {
+   "id": "army-94y",
+   "code": "94Y",
+   "name": "Integrated Family of Test Equipment Operator/Maintainer",
+   "branch": "Army",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "You operate and maintain the Army's standardized automatic test equipment -- the big diagnostic systems that other maintenance units plug a failed component into to find out what is wrong with it. You keep the test sets calibrated, programmed and running, and you troubleshoot them when they fail. goarmy lists the AIT at 30 weeks. The Army also calls this MOS Automatic Test Systems Operator/Maintainer.",
+   "entry_requirements": {
+    "asvab_line_score": "EL 107; or EL 102 and ST 90",
+    "afqt_note": null,
+    "security_clearance": "Secret",
+    "education": "High school diploma or GED (goarmy.com enlistment requirements)",
+    "physical": "DA Pam 611-21 physical demands rating: Moderate (Gold). Physical profile 222221. Entry OPAT standard for this category is required (Standing Long Jump, Seated Power Throw, Strength Deadlift, Interval Aerobic Run). Normal color vision.",
+    "other": "U.S. citizenship required. ACASP-designated MOS: 2 years using diagnostic test equipment similar to that used for land combat support systems, with formal contractor training, can shorten initial training (DA Pam 611-21)."
+   },
+   "training_pipeline": [
+    {
+     "stage": "Basic Combat Training",
+     "location": null,
+     "length_weeks": 10
+    },
+    {
+     "stage": "Advanced Individual Training (AIT)",
+     "location": "U.S. Army Ordnance School, Fort Gregg-Adams, VA",
+     "length_weeks": 30
+    }
+   ],
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2094.00",
+     "17-3023.00",
+     "49-1011.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronics Repairer, Commercial and Industrial Equipment",
+     "Electrical and Electronic Engineering Technician",
+     "Automated Test Equipment Technician"
+    ],
+    "relevant_certifications": [
+     "ETA Associate Electronics Technician (CETa)",
+     "ETA Senior Certified Electronics Technician (CETsr)",
+     "ETA Computer Service Technician (CST)",
+     "ETA Network Systems Technician (NST)"
+    ],
+    "estimated_civilian_salary_range_usd": [
+     46840,
+     105590
+    ],
+    "salary_source": "BLS OEWS, May 2025 National, SOC 49-2094",
+    "credential_gap_note": "Automatic test equipment is a real niche in manufacturing and defense electronics, and 30 weeks of school in it is genuinely valuable -- but there is no licence or certificate at the end, so on paper you are indistinguishable from anyone else claiming 'electronics experience'. The four ETA certifications COOL recommends (CETa, CETsr, CST, NST) are what make the experience legible to an employer, and the Army does not issue any of them. Take them through Credentialing Assistance. As with the rest of the 94 series, the Secret clearance is a large part of your market value and it expires after you leave."
+   },
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "https://api.army.mil/e2/c/downloads/2024/11/20/bf11d2d2/chapter-10c-enlisted-mos-specifications.pdf",
+    "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1026045",
+    "https://www.goarmy.com/careers-and-jobs/mechanics-engineering/test-repair/94y-automated-test-set-operator/",
+    "https://www.cool.osd.mil/army/enlisted/94y.htm",
+    "https://www.bls.gov/oes/special-requests/oesm25nat.zip"
+   ],
+   "confidence": "official"
+  }
+ ],
+ "unverified": [
+  {
+   "id": "army-91g",
+   "field": "entire record",
+   "reason": "MOS 91G (Fire Control Repairer) could not be verified as a current Army MOS. It is absent from DA Pam 611-21 Chapter 10C (Enlisted MOS Specifications, Nov 2024), absent from the goarmy.com live job catalog (262 jobs, checked), and absent from the Army COOL Army MOC list (765 entries, checked). All fields left null rather than sourced from secondary sites. Secondary sources (mosdb, nationalguard.com, a RallyPoint thread) still describe 91G and one thread claims it was replaced by 94Y around Oct 2018, but no official source confirms that, so it is NOT asserted here."
+  },
+  {
+   "id": "army-93p",
+   "field": "code / entire record",
+   "reason": "MOS 93P does not appear in DA Pam 611-21 Chapter 10C, the goarmy.com job catalog, or the Army COOL MOC list. The current Army MOS for Aviation Operations Specialist -- the same job title and duties the batch input gave for 93P -- is 15P, which appears in all three official sources. This record was therefore populated with officially sourced 15P data and the `code` field set to 15P. The id (army-93p) is unchanged as the join key. The date/mechanism of the 93P-to-15P redesignation was NOT verified against an official source and is not asserted."
+  },
+  {
+   "id": "ALL",
+   "field": "training_pipeline[].location",
+   "reason": "Basic Combat Training location is left null for every record: BCT is run at several installations and assignment is not a function of the MOS. AIT locations are given ONLY where DA Pam 611-21 Ch 10C names the school and its installation (U.S. Army Ordnance School, Fort Gregg-Adams, VA; U.S. Army Quartermaster School, Fort Gregg-Adams, VA; USAACE, Fort Novosel, AL). Where the Pam names the proponent school but not an installation, only the school name is given. Where it names neither (92A, 92F), location is null. No AIT campus was inferred."
+  },
+  {
+   "id": "ALL",
+   "field": "training_pipeline[].length_weeks",
+   "reason": "AIT week counts are taken from the `testing_requirements` field of goarmy.com's live job data -- the field the public MOS pages actually render. The same records contain a second, legacy `requirements` text field that disagrees for several MOSs (e.g. 91E: 19 weeks rendered vs 13 weeks in the legacy field; 91J: 10 vs 10; 91M: 12 vs 13; 91P: 15 vs 14; 92A: 9 vs 12; 92F: 10 vs 11; 92L: 7 vs 10; 92R: 12 vs 16; 92W: 11 vs 14; 94E: 21 vs 16). The rendered value was used in every case. DA Pam 611-21 does not publish course lengths, so these could not be cross-checked against the authoritative source. Treat all AIT lengths as goarmy-sourced, not Pam-confirmed."
+  },
+  {
+   "id": "army-92f",
+   "field": "asvab_line_score",
+   "reason": "Conflict between sources. DA Pam 611-21 Ch 10C says 'a minimum score of 86 in aptitude area CL and 85 in aptitude area OF'. goarmy.com's rendered ASVAB JSON says CL 89 / OF 85, while goarmy's own legacy text field says CL 86 / OF 85. The authoritative Pam value (CL 86, OF 85) was used. Double-check with a recruiter."
+  },
+  {
+   "id": "army-94t",
+   "field": "asvab_line_score",
+   "reason": "DA Pam 611-21 Ch 10C prints the alternate combination as '93 EL and 85 ET'. 'ET' is not one of the ten Army aptitude-area composites and appears to be a typo/OCR artifact for GT. goarmy.com's rendered ASVAB JSON gives EL 93 / GT 85 for the same combination, so GT was used. Flagging because the authoritative document literally says ET."
+  },
+  {
+   "id": "army-92r",
+   "field": "special_pays",
+   "reason": "92R must be airborne-qualified and jumps, so Parachute Duty Pay (hazardous duty incentive pay) is very likely to apply -- but no official DFAS rate page for it was successfully retrieved this session, so no figure is recorded. Only the goarmy-sourced enlistment bonus is listed. Verify parachute duty pay on the DFAS special-and-incentive-pay tables."
+  },
+  {
+   "id": "ALL",
+   "field": "transition.va_disability_common_claims",
+   "reason": "Left [] for every record. No source specific to these MOS families (VA or otherwise) was located that ties particular disability claims to these occupations. Guessing 'hearing loss / tinnitus' from the fact that mechanics work around noise would have been an invention, so nothing was written."
+  },
+  {
+   "id": "ALL",
+   "field": "entry_requirements.afqt_note",
+   "reason": "Left null everywhere. Neither DA Pam 611-21 Ch 10C nor the goarmy job records state an MOS-specific AFQT minimum -- AFQT is an Army-wide enlistment gate, not a per-MOS gate, so nothing MOS-specific could be sourced."
+  },
+  {
+   "id": "army-91f, army-91m, army-92r, army-92a, army-94h",
+   "field": "estimated_civilian_salary_range_usd",
+   "reason": "For these MOSs Army COOL's best 'most duties met' O*NET matches are generic codes (Maintenance and Repair Workers General; Helpers; First-Line Supervisors; Shipping/Receiving Clerks) rather than a specific occupation. The BLS band shown is a true 10th-90th percentile read for the single SOC named in salary_source, but it may understate (91F gunsmithing, 92R FAA rigging, 94H calibration have no clean SOC) or overstate (94H is anchored on the supervisor code COOL flagged) the realistic entry-level figure. The SOC used is always named -- check it."
+  },
+  {
+   "id": "ALL",
+   "field": "credential_gap_note",
+   "reason": "The named credentials and the fact that the Army does not award them are sourced from Army COOL's credential list per MOS (which exists precisely because these are gaps). The specific prerequisite details asserted for individual civilian credentials (e.g. EPA 608 for refrigerant handling, FAA A&P via military experience, state operator licensing for water treatment, ASE experience requirements, mortuary-science degree for funeral director licensure) were NOT each re-verified against the issuing body's current published requirements this session. They are the standard, long-stable requirements for those credentials, but a reader should confirm the current rule with the issuing body before relying on it."
+  }
+ ]
+}

@@ -165,6 +165,51 @@ for (const s of data.allSpecialties) {
     //     on the id ("Army"), so the lookup never matched and ZERO rows rendered for
     //     every query, while the count line kept reporting "1017 jobs match". The
     //     count agreeing with the data is not evidence the reader can see anything.
+    // 12. THE DISCOVERY TOOL MUST NEVER RECOMMEND A JOB THE READER CANNOT ENTER.
+    //     It is answering "what could I actually do" for a 17-year-old with no
+    //     degree. An officer or warrant record surfacing beside enlisted ones, with
+    //     nothing marking the difference, is misinformation however true the record
+    //     behind it is.
+    {
+      const rec = await vite.ssrLoadModule('/src/lib/recommend.ts');
+      const ent = await vite.ssrLoadModule('/src/lib/entry.ts');
+      const el = await vite.ssrLoadModule('/src/lib/entrylevel.ts');
+
+      for (const c of data.clusters) {
+        const out = rec.recommend([c.id], [], 60, 'tier1');
+
+        const officer = out.filter((r) => ent.entryPath(r.specialty).kind !== 'enlisted');
+        if (officer.length)
+          bad(
+            `discovery tool offers ${officer.length} officer/warrant job(s) for "${c.name}" — e.g. ${officer[0].specialty.name}`,
+          );
+
+        // 13. EVERY RECOMMENDED JOB MUST CARRY A SOURCED "a civilian can enlist into
+        //     this" VERDICT. "Enlisted" is not "entry level" — a fifth of the Marine
+        //     Corps MOS list is lateral-move only, and every one of them passes the
+        //     track check. Fail closed: an unclassified job may not be recommended.
+        const unclassified = out.filter((r) => !el.isEntryLevel(r.specialty.id));
+        if (unclassified.length)
+          bad(
+            `discovery tool offers ${unclassified.length} job(s) with no sourced entry-level verdict for "${c.name}" — e.g. ${unclassified[0].specialty.name} (${unclassified[0].specialty.branch})`,
+          );
+      }
+    }
+
+    // 14. NO TWO JOBS MAY SHARE AN ID. All seven Space Force catalogue entries carry
+    //     the literal code "UNVERIFIED", and an id built from the code collapsed them
+    //     onto ONE id — seven different jobs, one identity. That breaks routing, React
+    //     keys, and every join that keys on id (including the entry-level verdict).
+    {
+      const ids = new Map();
+      for (const j of cat.allJobs) ids.set(j.id, (ids.get(j.id) ?? 0) + 1);
+      const dupes = [...ids.entries()].filter(([, n]) => n > 1);
+      if (dupes.length)
+        bad(
+          `${dupes.length} duplicate job id(s) — e.g. "${dupes[0][0]}" is used by ${dupes[0][1]} different jobs`,
+        );
+    }
+
     const rowCount = (jobsHtml.match(/class="jobrow/g) ?? []).length;
     if (rowCount < cat.jobCounts.total)
       bad(

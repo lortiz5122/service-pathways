@@ -94,7 +94,27 @@ export default function Methodology() {
   const researched = clusters.filter((c) =>
     specialtyFiles.some((f) => f.cluster_id === c.id),
   );
-  const clusterUnverified = specialtyFiles.flatMap((f) => f.unverified ?? []);
+  /**
+   * The UNVERIFIED register.
+   *
+   * Different research passes recorded a gap differently — some as a sentence, some
+   * as {id, code, field, reason}. Both are legitimate; a React child is not. Flatten
+   * to readable lines rather than dropping the structured ones, because the whole
+   * point of this page is that the gaps get PUBLISHED, not quietly swallowed.
+   */
+  const clusterUnverified: string[] = specialtyFiles
+    .flatMap((f) => f.unverified ?? [])
+    .map((u: unknown) => {
+      if (typeof u === 'string') return u;
+      if (u && typeof u === 'object') {
+        const o = u as Record<string, unknown>;
+        const who = [o.code, o.id].find(Boolean);
+        const what = [o.field, o.reason, o.note, o.why].filter(Boolean).join(' — ');
+        return [who, what].filter(Boolean).join(': ') || JSON.stringify(o);
+      }
+      return String(u);
+    })
+    .filter(Boolean);
 
   return (
     <div className="wrap">
