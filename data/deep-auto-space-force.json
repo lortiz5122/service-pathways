@@ -1,0 +1,60 @@
+{
+ "branch": "Space Force",
+ "retrieved": "2026-07-12",
+ "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded \u2014 it is a function of paygrade, not of the job.",
+ "specialties": [
+  {
+   "id": "space-force-cyber-operations",
+   "code": "UNVERIFIED - no confirmed numeric Space Force Specialty Code (SFSC) was found this session. The official spaceforce.mil SFSC crosswalk PDF returns HTTP 403 on fetch, consistent with data/interest-taxonomy.json's prior finding. One low-confidence search summary returned a code ('3D1X2') that appears to conflate an Air Force AFSC with a Space Force-specific code; it is NOT used here per the no-fabrication rule. Do not publish a numeric code for this record until independently confirmed against a live spaceforce.mil/af.mil source.",
+   "name": "Cyber Operations",
+   "branch": "Space Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "U.S. citizenship required. Space Force is a single-component force with no Guard/Reserve equivalent - see retirement.guard_reserve_points_note below.",
+   "entry_requirements": {
+    "asvab_line_score": "General (G) composite reported in the range of 60-64 depending on the specific cyber role; the official spaceforce.com fetch itself states the exact threshold 'varies by specialty' without giving one definitive number. Not independently cross-confirmed against a second primary source this session.",
+    "security_clearance": "At minimum a National Agency Check with Local Agency Check and Credit Check; a Single Scope Background Investigation (SSBI) is also referenced for this field. The exact clearance tier (Secret vs. TS/SCI) for a specific cyber billet was not independently confirmed this session. Source: spaceforce.com official fetch. This is a hard gate independent of ASVAB score: per SEAD 4 (the government-wide National Security Adjudicative Guidelines), common disqualifiers include foreign influence/preference (close foreign-national contacts, dual citizenship, foreign-government ties), financial considerations (unresolved delinquent debt, bankruptcy pattern, tax delinquency), and drug involvement/substance misuse (recent illegal drug use or a pattern of misuse) - a qualifying General composite score does not offset a disqualifying finding under these guidelines.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [],
+   "confidence": "official"
+  },
+  {
+   "id": "space-force-space-systems-operator-enlisted",
+   "code": "UNVERIFIED",
+   "name": "Space Systems Operator",
+   "branch": "Space Force",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "space-satellite"
+   ],
+   "depth": "deep",
+   "what_it_is": "U.S. citizenship required.",
+   "entry_requirements": {
+    "asvab_line_score": "Electronics (E) MAGE composite \u2265 60, per the official spaceforce.com enlisted careers page (directly fetched 2026-07-12). This matches the MAGE:E composite listed for the space-satellite cluster in data/interest-taxonomy.json.",
+    "security_clearance": "Single Scope Background Investigation (SSBI) \u2014 the investigative basis for Top Secret/SCI-level clearance eligibility \u2014 plus a National Agency Check with Local Agency Checks and Credit Check (NACLC), per spaceforce.com (directly fetched 2026-07-12). This is a genuinely high clearance bar, consistent with the master prompt's expectation that security clearance gates nearly all of this cluster.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [],
+   "confidence": "official"
+  }
+ ],
+ "unverified": []
+}

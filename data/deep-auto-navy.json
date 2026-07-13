@@ -1,0 +1,3344 @@
+{
+ "branch": "Navy",
+ "retrieved": "2026-07-12",
+ "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded \u2014 it is a function of paygrade, not of the job.",
+ "specialties": [
+  {
+   "id": "navy-ag",
+   "code": "AG",
+   "name": "Aerographer's Mate",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "The Navy's weather forecasters; trained in meteorology and aerological instruments, and prepare weather maps and forecasts used to plan flight operations and weapons delivery.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+MK+GS>=162 -OR- VE+MK+GS>=165 (PAY 80)",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "19-2021.00"
+    ],
+    "civilian_titles": [
+     "Atmospheric and Space Scientists"
+    ],
+    "relevant_certifications": [
+     "Aircraft Dispatcher",
+     "Certified Remote Sensing Technologist",
+     "Certified Broadcast Meteorologist (CBM)",
+     "Certified GIS/LIS Technologist",
+     "Remote Pilot",
+     "ArcGIS Developer Foundation 2201",
+     "ArcGIS Pro Foundation 2101",
+     "Enterprise System Design Professional 2201"
+    ],
+    "total_credentials_in_cool": 11,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 99740,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Atmospheric and Space Scientists. The training itself awards no civilian licence or certification. COOL lists 11 related credentials you would still have to earn separately."
+   }
+  },
+  {
+   "id": "navy-ac",
+   "code": "AC",
+   "name": "Air Traffic Controller",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "Directs and controls aircraft traffic, operates field lighting and ground-controlled approach (GCA) systems, and interprets radar to plot aircraft positions.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+MC>=220 -OR- PC+AR+MK>=166",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "53-2021.00"
+    ],
+    "civilian_titles": [
+     "Air Traffic Controllers"
+    ],
+    "relevant_certifications": [
+     "Air Traffic Control Tower Operator (CTO)",
+     "Aircraft Dispatcher",
+     "Amateur Radio Service Operator License - Amateur Extra Class"
+    ],
+    "total_credentials_in_cool": 3,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 130420,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Air Traffic Controllers. The training itself awards no civilian licence or certification. COOL lists 3 related credentials you would still have to earn separately."
+   }
+  },
+  {
+   "id": "navy-pr",
+   "code": "PR",
+   "name": "Aircrew Survival Equipmentman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "Packs and maintains parachutes, flight clothing, life rafts, life jackets, oxygen-breathing apparatus, and air-sea rescue equipment.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+AS>=185 -OR- MK+AS+AO>=140",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-9099.01",
+     "51-9061.00",
+     "49-9071.00",
+     "11-3051.01",
+     "11-3131.00"
+    ],
+    "civilian_titles": [
+     "Geothermal Technicians",
+     "Inspectors, Testers, Sorters, Samplers, and Weighers",
+     "Maintenance and Repair Workers, General",
+     "Quality Control Systems Managers",
+     "Training and Development Managers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 6,
+    "estimated_civilian_salary_range_usd": [
+     40460,
+     115640
+    ],
+    "civilian_median_salary_usd": 42480,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 5 civilian occupations: Geothermal Technicians, Inspectors, Testers, Sorters, Samplers, and Weighers, Maintenance and Repair Workers, General, and 2 more. The training itself awards no civilian licence or certification. COOL lists 6 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "navy-ab",
+   "code": "AB",
+   "name": "Aviation Boatswain's Mate",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "General rating covering flight-deck launch/recovery equipment, aviation fuels, and aircraft handling, with sailors later specializing into the ABE (Launching & Recovery), ABF (Fuels), or ABH (Aircraft Handling) service ratings.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+AS>=161",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "55-2013.00"
+    ],
+    "civilian_titles": [
+     "First-Line Supervisors of All Other Tactical Operations Specialists"
+    ],
+    "relevant_certifications": [],
+    "total_credentials_in_cool": 0,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 0,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: First-Line Supervisors of All Other Tactical Operations Specialists. COOL lists no civilian credential this job maps to. Assume you leave with experience and no certificate, and that an employer will want the certificate."
+   }
+  },
+  {
+   "id": "navy-ae",
+   "code": "AE",
+   "name": "Aviation Electrician's Mate",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "Maintains aircraft electrical power generating and converting systems, including lighting, control, and flight/engine instrument systems.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+AO>=217** -OR- VE+AR+MK+MC>=217** (navycs.com lists this figure jointly for AT and AE under an informal \"AV\" avionics grouping; Wikipedia's rating-structure table lists AT and AE as two separate current general ratings)",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "17-3021.00",
+     "49-2091.00",
+     "49-9012.00",
+     "17-3023.00",
+     "49-1011.00",
+     "49-9098.00"
+    ],
+    "civilian_titles": [
+     "Aerospace Engineering and Operations Technologists and Technicians",
+     "Avionics Technicians",
+     "Control and Valve Installers and Repairers, Except Mechanical Door",
+     "Electrical and Electronic Engineering Technologists and Technicians",
+     "First-Line Supervisors of Mechanics, Installers, and Repairers",
+     "Helpers--Installation, Maintenance, and Repair Workers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 26,
+    "estimated_civilian_salary_range_usd": [
+     31760,
+     70240
+    ],
+    "civilian_median_salary_usd": 67840,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 6 civilian occupations: Aerospace Engineering and Operations Technologists and Technicians, Avionics Technicians, Control and Valve Installers and Repairers, Except Mechanical Door, and 3 more. The training itself awards no civilian licence or certification. COOL lists 26 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "navy-at",
+   "code": "AT",
+   "name": "Aviation Electronics Technician",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "Maintains and calibrates aircraft radar, avionics, and navigation systems.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+AO>=217** -OR- VE+AR+MK+MC>=217** (navycs.com lists this figure jointly for AT and AE under an informal \"AV\" avionics grouping; Wikipedia's rating-structure table lists AT and AE as two separate current general ratings)",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2091.00",
+     "49-2092.00",
+     "17-3023.00",
+     "49-1011.00"
+    ],
+    "civilian_titles": [
+     "Avionics Technicians",
+     "Electric Motor, Power Tool, and Related Repairers",
+     "Electrical and Electronic Engineering Technologists and Technicians",
+     "First-Line Supervisors of Mechanics, Installers, and Repairers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 28,
+    "estimated_civilian_salary_range_usd": [
+     46590,
+     70240
+    ],
+    "civilian_median_salary_usd": 67840,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 4 civilian occupations: Avionics Technicians, Electric Motor, Power Tool, and Related Repairers, Electrical and Electronic Engineering Technologists and Technicians, and 1 more. The training itself awards no civilian licence or certification. COOL lists 28 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Maintenance and Reliability Professionals (CMRP), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "navy-ad-aviation-machinists-mate",
+   "code": "AD",
+   "name": "Aviation Machinist's Mate",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "AD splits into Helo, Turbojet, or Turboprop engine-specialization strands after core 'A' School (see training_pipeline).",
+   "entry_requirements": {
+    "asvab_line_score": "Conflicting figures found this session: ratemyasvab.com/cogn-iq.org report a composite of VE+AR+MK+AS = 210, while another source combination reads VE+MK+EI=152 or VE+MK+AS=152. UNVERIFIED \u2014 not reconciled against a primary Navy source this session (mynavyhr.navy.mil's AD community page was not independently fetched). Consistent with data/interest-taxonomy.json, which notes the Navy uses per-rating subtest sums rather than a single published line score. Confirm the current cutoff with a recruiter or Navy COOL.",
+    "security_clearance": "UNVERIFIED \u2014 not independently confirmed this session.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-3011.00"
+    ],
+    "civilian_titles": [
+     "Aircraft Mechanics and Service Technicians"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 30,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 66440,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Aircraft Mechanics and Service Technicians. The training itself awards no civilian licence or certification. COOL lists 30 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Maintenance and Reliability Technician (CMRT), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "navy-az",
+   "code": "AZ",
+   "name": "Aviation Maintenance Administrationman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation",
+    "business-admin"
+   ],
+   "depth": "deep",
+   "what_it_is": "Performs clerical, administrative, and managerial work that schedules and coordinates aircraft maintenance workload, inspections, and modifications.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR>=102",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "43-1011.00",
+     "43-3061.00",
+     "43-5061.00"
+    ],
+    "civilian_titles": [
+     "First-Line Supervisors of Office and Administrative Support Workers",
+     "Procurement Clerks",
+     "Production, Planning, and Expediting Clerks"
+    ],
+    "relevant_certifications": [
+     "Project Management Professional (PMP)"
+    ],
+    "total_credentials_in_cool": 13,
+    "estimated_civilian_salary_range_usd": [
+     44740,
+     58450
+    ],
+    "civilian_median_salary_usd": 49640,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 3 civilian occupations: First-Line Supervisors of Office and Administrative Support Workers, Procurement Clerks, Production, Planning, and Expediting Clerks. The training itself awards no civilian licence or certification. COOL lists 13 related credentials you would still have to earn separately, including Project Management Professional (PMP)."
+   }
+  },
+  {
+   "id": "navy-ao",
+   "code": "AO",
+   "name": "Aviation Ordnanceman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "Operates and handles aviation ordnance \u2014 guns, bombs, torpedoes, rockets, and missiles \u2014 including stowing, issuing, and loading munitions and small arms.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+AS>=173 -OR- MK+AS+AO>=131",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "51-2011.00",
+     "43-3031.00",
+     "17-3024.00",
+     "17-2111.00",
+     "49-9098.00",
+     "49-9071.00"
+    ],
+    "civilian_titles": [
+     "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",
+     "Bookkeeping, Accounting, and Auditing Clerks",
+     "Electro-Mechanical and Mechatronics Technologists and Technicians",
+     "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+     "Helpers--Installation, Maintenance, and Repair Workers",
+     "Maintenance and Repair Workers, General"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Hazardous Materials Manager (CHMM)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 18,
+    "estimated_civilian_salary_range_usd": [
+     31760,
+     94240
+    ],
+    "civilian_median_salary_usd": 53160,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 6 civilian occupations: Aircraft Structure, Surfaces, Rigging, and Systems Assemblers, Bookkeeping, Accounting, and Auditing Clerks, Electro-Mechanical and Mechatronics Technologists and Technicians, and 3 more. The training itself awards no civilian licence or certification. COOL lists 18 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Hazardous Materials Manager (CHMM), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "navy-airr-aviation-rescue-swimmer",
+   "code": "AWS / AWR (Naval Aircrewman)",
+   "name": "Aviation Rescue Swimmer (AIRR)",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation",
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "This is the Navy's direct counterpart to the Coast Guard AST. Rescue swimmers deploy from helicopters.",
+   "entry_requirements": {
+    "asvab_line_score": "UNVERIFIED \u2014 the Navy has NO line-score composites; ratings sum raw subtest standard scores. The AIRR requirement was not obtainable from a fetchable source this session.",
+    "security_clearance": "Secret (UNVERIFIED).",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [],
+   "confidence": "official"
+  },
+  {
+   "id": "navy-am",
+   "code": "AM",
+   "name": "Aviation Structural Mechanic",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "Maintains aircraft structural parts such as wings, fuselage, tail, control surfaces, landing gear, and hydraulic systems.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+AS>=210** -OR- VE+AR+MK+MC>=210** (source-marked ** footnote, not defined on the page fetched)",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-3011.00",
+     "51-2011.00",
+     "49-1011.00",
+     "49-9043.00"
+    ],
+    "civilian_titles": [
+     "Aircraft Mechanics and Service Technicians",
+     "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",
+     "First-Line Supervisors of Mechanics, Installers, and Repairers",
+     "Maintenance Workers, Machinery"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 57,
+    "estimated_civilian_salary_range_usd": [
+     50100,
+     70240
+    ],
+    "civilian_median_salary_usd": 66440,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 4 civilian occupations: Aircraft Mechanics and Service Technicians, Aircraft Structure, Surfaces, Rigging, and Systems Assemblers, First-Line Supervisors of Mechanics, Installers, and Repairers, and 1 more. The training itself awards no civilian licence or certification. COOL lists 57 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Maintenance and Reliability Professionals (CMRP), Certified Maintenance and Reliability Technician (CMRT)."
+   }
+  },
+  {
+   "id": "navy-ame",
+   "code": "AME",
+   "name": "Aviation Structural Mechanic \u2014 Safety Equipment",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "Service rating of Aviation Structural Mechanic that maintains and repairs oxygen systems, cockpit/cabin pressurization, and ejection-seat systems.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+AS>=210 -OR- VE+AR+MK+AO>=210",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-3011.00",
+     "53-6051.01",
+     "51-9061.00"
+    ],
+    "civilian_titles": [
+     "Aircraft Mechanics and Service Technicians",
+     "Aviation Inspectors",
+     "Inspectors, Testers, Sorters, Samplers, and Weighers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 21,
+    "estimated_civilian_salary_range_usd": [
+     40460,
+     78400
+    ],
+    "civilian_median_salary_usd": 66440,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 3 civilian occupations: Aircraft Mechanics and Service Technicians, Aviation Inspectors, Inspectors, Testers, Sorters, Samplers, and Weighers. The training itself awards no civilian licence or certification. COOL lists 21 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Maintenance and Reliability Professionals (CMRP), Certified Maintenance and Reliability Technician (CMRT)."
+   }
+  },
+  {
+   "id": "navy-as",
+   "code": "AS",
+   "name": "Aviation Support Equipment Technician",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "Performs intermediate maintenance on aviation accessory support equipment at naval air stations and aboard carriers, including gasoline/diesel engines, gas-turbine compressor units, and electrical systems.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+MC>=206 -OR- VE+AR+MK+EI>=206 -OR- AS+MK+AO>=157",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-3023.00",
+     "49-3031.00",
+     "49-1011.00",
+     "49-9098.00",
+     "49-9071.00"
+    ],
+    "civilian_titles": [
+     "Automotive Service Technicians and Mechanics",
+     "Bus and Truck Mechanics and Diesel Engine Specialists",
+     "First-Line Supervisors of Mechanics, Installers, and Repairers",
+     "Helpers--Installation, Maintenance, and Repair Workers",
+     "Maintenance and Repair Workers, General"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 85,
+    "estimated_civilian_salary_range_usd": [
+     31760,
+     70240
+    ],
+    "civilian_median_salary_usd": 44050,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 5 civilian occupations: Automotive Service Technicians and Mechanics, Bus and Truck Mechanics and Diesel Engine Specialists, First-Line Supervisors of Mechanics, Installers, and Repairers, and 2 more. The training itself awards no civilian licence or certification. COOL lists 85 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Maintenance and Reliability Professionals (CMRP), Certified Maintenance and Reliability Technician (CMRT)."
+   }
+  },
+  {
+   "id": "navy-bm-boatswains-mate",
+   "code": "BM",
+   "name": "Boatswain's Mate",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": "navyenlisted.com reports a 60-month (5-year) initial service obligation for BM, longer than several other ratings' typical 4-year first contract \u2014 not independently confirmed against a primary Navy source this session.",
+   "entry_requirements": {
+    "asvab_line_score": "Navy has no single named line score for this cluster \u2014 ratings sum raw ASVAB subtest standard scores (per data/interest-taxonomy.json: 'Navy: no line score \u2014 per-rating subtest sums'). Secondary sources (cogn-iq.org, gyfted.me) report BM requires VE+AR+MK+AS \u2265 175 AND MK+AS+AO \u2265 135 (both must be met simultaneously). UNVERIFIED at primary-source level \u2014 MyNavyHR (mynavyhr.navy.mil) returned HTTP 403 on direct fetch this session; confirm the current cutoff with a recruiter or the official BM rating page before relying on it.",
+    "security_clearance": "Not typically required for the general rating. Assignment to a Visit, Board, Search, and Seizure (VBSS) team or certain security-adjacent boat-crew billets may require one \u2014 not confirmed to primary-source level this session.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "53-5021.00",
+     "51-9124.00",
+     "53-5022.00",
+     "49-9096.00",
+     "53-5011.00"
+    ],
+    "civilian_titles": [
+     "Captains, Mates, and Pilots of Water Vessels",
+     "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",
+     "Motorboat Operators",
+     "Riggers",
+     "Sailors and Marine Oilers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Professional Certified Investigator (PCI)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 44,
+    "estimated_civilian_salary_range_usd": [
+     39060,
+     77130
+    ],
+    "civilian_median_salary_usd": 50850,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 5 civilian occupations: Captains, Mates, and Pilots of Water Vessels, Coating, Painting, and Spraying Machine Setters, Operators, and Tenders, Motorboat Operators, and 2 more. The training itself awards no civilian licence or certification. COOL lists 44 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Professional Certified Investigator (PCI), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "navy-bu-builder-seabee",
+   "code": "BU",
+   "name": "Builder (Seabee)",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "ALL Seabee ratings (Builder BU, Construction Mechanic CM, Equipment Operator EO, Utilitiesman UT, Steelworker SW, Engineering Aide EA) require a minimum 5-year enlistment, longer than the Navy's typical 4-year first-term contract \u2014 per navycs.com. This is a real, binding commitment difference worth naming to a candidate weighing this rating.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MC+AS = 136, OR VE+AR+MK+AO = 197 \u2014 per navycs.com. UNVERIFIED at primary-source level \u2014 mynavyhr.navy.mil's BU community page was found via search but not fetched this session (consistent with this project's recurring finding that mynavyhr.navy.mil blocks direct fetch).",
+    "security_clearance": "Not typically required for the base rating.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-2031.00",
+     "47-2051.00",
+     "47-2061.00",
+     "47-4031.00",
+     "47-3011.00",
+     "47-3012.00"
+    ],
+    "civilian_titles": [
+     "Carpenters",
+     "Cement Masons and Concrete Finishers",
+     "Construction Laborers",
+     "Fence Erectors",
+     "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",
+     "Helpers--Carpenters"
+    ],
+    "relevant_certifications": [
+     "Certified Facility Manager (CFM)",
+     "Project Management Professional (PMP)",
+     "Certified Associate in Project Management (CAPM)",
+     "LEED Green Associate",
+     "Construction Health and Safety Technician (CHST)"
+    ],
+    "total_credentials_in_cool": 111,
+    "estimated_civilian_salary_range_usd": [
+     31640,
+     59450
+    ],
+    "civilian_median_salary_usd": 37890,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 10 civilian occupations: Carpenters, Cement Masons and Concrete Finishers, Construction Laborers, and 7 more. The training itself awards no civilian licence or certification. COOL lists 111 related credentials you would still have to earn separately, including Certified Facility Manager (CFM), Project Management Professional (PMP), Certified Associate in Project Management (CAPM)."
+   }
+  },
+  {
+   "id": "navy-ce",
+   "code": "CE",
+   "name": "Construction Electrician",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Seabee rating responsible for power production and electrical work needed to build and operate airfields, roads, barracks, and hospitals.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MK+EI+GS>=201",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-9051.00",
+     "47-2111.00"
+    ],
+    "civilian_titles": [
+     "Electrical Power-Line Installers and Repairers",
+     "Electricians"
+    ],
+    "relevant_certifications": [
+     "Certified Facility Manager (CFM)",
+     "Project Management Professional (PMP)",
+     "Certified Associate in Project Management (CAPM)",
+     "Construction Health and Safety Technician (CHST)"
+    ],
+    "total_credentials_in_cool": 68,
+    "estimated_civilian_salary_range_usd": [
+     56900,
+     75030
+    ],
+    "civilian_median_salary_usd": 75030,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 2 civilian occupations: Electrical Power-Line Installers and Repairers, Electricians. The training itself awards no civilian licence or certification. COOL lists 68 related credentials you would still have to earn separately, including Certified Facility Manager (CFM), Project Management Professional (PMP), Certified Associate in Project Management (CAPM)."
+   }
+  },
+  {
+   "id": "navy-cm",
+   "code": "CM",
+   "name": "Construction Mechanic",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Seabee rating that maintains construction machinery \u2014 buses, dump trucks, bulldozers, cranes, backhoes, and pile drivers \u2014 and their engines, transmissions, and hydraulic/electrical systems.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MC+AS>=162",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-3031.00",
+     "49-3042.00"
+    ],
+    "civilian_titles": [
+     "Bus and Truck Mechanics and Diesel Engine Specialists",
+     "Mobile Heavy Equipment Mechanics, Except Engines"
+    ],
+    "relevant_certifications": [
+     "Project Management Professional (PMP)",
+     "Certified Associate in Project Management (CAPM)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Construction Health and Safety Technician (CHST)"
+    ],
+    "total_credentials_in_cool": 87,
+    "estimated_civilian_salary_range_usd": [
+     50200,
+     55350
+    ],
+    "civilian_median_salary_usd": 55350,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 2 civilian occupations: Bus and Truck Mechanics and Diesel Engine Specialists, Mobile Heavy Equipment Mechanics, Except Engines. The training itself awards no civilian licence or certification. COOL lists 87 related credentials you would still have to earn separately, including Project Management Professional (PMP), Certified Associate in Project Management (CAPM), Certified Maintenance and Reliability Professionals (CMRP)."
+   }
+  },
+  {
+   "id": "navy-ctr",
+   "code": "CTR",
+   "name": "Cryptologic Technician Collection",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "intelligence-analysis"
+   ],
+   "depth": "deep",
+   "what_it_is": "Handles Morse code communications and operates radio direction-finding equipment for signals collection.",
+   "entry_requirements": {
+    "asvab_line_score": "MK+PC>=110 -OR- AR+PC>=110 -OR- AR+MK+PC>=164",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "43-2099.00"
+    ],
+    "civilian_titles": [
+     "Communications Equipment Operators, All Other"
+    ],
+    "relevant_certifications": [
+     "Certified Information Systems Security Professional (CISSP)",
+     "CompTIA Security+",
+     "CompTIA SecurityX (formerly CASP+)"
+    ],
+    "total_credentials_in_cool": 47,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 46680,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Communications Equipment Operators, All Other. The training itself awards no civilian licence or certification. COOL lists 47 related credentials you would still have to earn separately, including Certified Information Systems Security Professional (CISSP), CompTIA Security+, CompTIA SecurityX (formerly CASP+)."
+   }
+  },
+  {
+   "id": "navy-cti",
+   "code": "CTI",
+   "name": "Cryptologic Technician Interpretive",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "intelligence-analysis"
+   ],
+   "depth": "deep",
+   "what_it_is": "Handles radiotelephone communications and foreign-language translation in support of signals intelligence.",
+   "entry_requirements": {
+    "asvab_line_score": "PC+MK>=108 -OR- VE+MK>108 -AND- DLAB>=110 -OR- MK+VE>=126",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "27-3091.00"
+    ],
+    "civilian_titles": [
+     "Interpreters and Translators"
+    ],
+    "relevant_certifications": [
+     "Certified Information Systems Security Professional (CISSP)",
+     "Systems Security Certified Practitioner (SSCP)",
+     "CompTIA Security+",
+     "CompTIA SecurityX (formerly CASP+)",
+     "Core Certification Healthcare Interpreter"
+    ],
+    "total_credentials_in_cool": 28,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 52330,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Interpreters and Translators. The training itself awards no civilian licence or certification. COOL lists 28 related credentials you would still have to earn separately, including Certified Information Systems Security Professional (CISSP), Systems Security Certified Practitioner (SSCP), CompTIA Security+."
+   }
+  },
+  {
+   "id": "navy-ctm",
+   "code": "CTM",
+   "name": "Cryptologic Technician Maintenance",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "intelligence-analysis"
+   ],
+   "depth": "deep",
+   "what_it_is": "Maintains the electronic and electromechanical equipment used by the cryptologic/information-warfare community.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MK+EI+VE>=221",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2094.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+    ],
+    "relevant_certifications": [
+     "CompTIA A+",
+     "CompTIA Network+",
+     "Certified Information Systems Security Professional (CISSP)",
+     "GIAC Security Essentials Certification (GSEC)",
+     "Systems Security Certified Practitioner (SSCP)",
+     "CompTIA Security+",
+     "GIAC Security Leadership Certification (GSLC)",
+     "Cisco Certified Network Associate (CCNA)"
+    ],
+    "total_credentials_in_cool": 63,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 62010,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Electrical and Electronics Repairers, Commercial and Industrial Equipment. The training itself awards no civilian licence or certification. COOL lists 63 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, Certified Information Systems Security Professional (CISSP)."
+   }
+  },
+  {
+   "id": "navy-ctt",
+   "code": "CTT",
+   "name": "Cryptologic Technician Technical",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "intelligence-analysis"
+   ],
+   "depth": "deep",
+   "what_it_is": "Focuses on electronic warfare, collecting, analyzing, and providing electronic intelligence support against inbound threats and anti-ship missiles; an advanced Advanced Electronics Field (AEF) accession track exists with a higher qualifying score.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+2MK+GS>=212 OR AR+MK+CT>=159 and CT>=60*",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "55-3019.00",
+     "49-2022.00"
+    ],
+    "civilian_titles": [
+     "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other",
+     "Telecommunications Equipment Installers and Repairers, Except Line Installers"
+    ],
+    "relevant_certifications": [
+     "CompTIA A+",
+     "CompTIA Network+",
+     "Certified Information Systems Security Professional (CISSP)",
+     "CompTIA Security+",
+     "Red Hat Certified System Administrator (RHCSA)",
+     "CompTIA SecurityX (formerly CASP+)",
+     "Cisco Certified Network Associate (CCNA)"
+    ],
+    "total_credentials_in_cool": 50,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     61470
+    ],
+    "civilian_median_salary_usd": 61470,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 2 civilian occupations: Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other, Telecommunications Equipment Installers and Repairers, Except Line Installers. The training itself awards no civilian licence or certification. COOL lists 50 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, Certified Information Systems Security Professional (CISSP)."
+   }
+  },
+  {
+   "id": "navy-cs-culinary-specialist",
+   "code": "CS (surface); CSS (submarine specialization)",
+   "name": "Culinary Specialist",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "culinary"
+   ],
+   "depth": "deep",
+   "what_it_is": "CSS (submarine) is a sub-specialization of the same rating requiring volunteer selection for submarine duty and completion of Basic Enlisted Submarine School.",
+   "entry_requirements": {
+    "asvab_line_score": "Conflicting figures found this session: one source states VE+AR \u2265 76 on the official CS community overview; another states VE+AR \u2265 88. UNVERIFIED \u2014 the two figures were not reconciled against a directly fetched primary Navy source (mynavyhr.navy.mil returned HTTP 403 on fetch this session). Consistent with data/interest-taxonomy.json, which notes the Navy uses per-rating subtest sums rather than a single published line score for this cluster. Confirm the current cutoff with a recruiter or the Navy COOL/CS rating page directly.",
+    "security_clearance": "Not required for the rating generally. Assignment to Flag Mess (serving admirals/senior executives) or the White House Mess (serving the President) is a competitive special-duty assignment that requires a background investigation/security clearance \u2014 a genuine prestige/advancement path within this rating. (navycs.com, fetched 2026-07-12)",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [],
+   "confidence": "official"
+  },
+  {
+   "id": "navy-cwt-cyber-warfare-technician",
+   "code": "CWT",
+   "name": "Cyber Warfare Technician",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "CORRECTION to this project's interest-taxonomy.json: the taxonomy's listed example, 'CTN - Cryptologic Technician Networks,' was disestablished June 28, 2023; its personnel and duties transferred to the newly established Cyber Warfare Technician (CWT) rating used in this record. U.S. citizenship required.",
+   "entry_requirements": {
+    "asvab_line_score": "No single Navy 'line score' - Navy ratings qualify via ASVAB subtest-sum combinations, consistent with interest-taxonomy.json's note that Navy has no line-score system. For CWT: AR + 2(MK) + GS >= 255, OR VE + AR + MK + MC >= 235, OR CT + MK + VE >= 173 AND CT >= 60 (CT = Cyber Test, a supplemental Navy aptitude test beyond the standard ASVAB). Search-sourced (ratemyasvab.com); not independently confirmed against a primary Navy COOL/NAVET document this session.",
+    "security_clearance": "Top Secret/Sensitive Compartmented Information (TS/SCI) required. Confirmed via official navy.com fetch. This is a hard gate independent of ASVAB score: per SEAD 4 (the government-wide National Security Adjudicative Guidelines), common disqualifiers include foreign influence/preference (close foreign-national contacts, dual citizenship, foreign-government ties), financial considerations (unresolved delinquent debt, bankruptcy pattern, tax delinquency), and drug involvement/substance misuse (recent illegal drug use or a pattern of misuse) - a qualifying ASVAB/CT score does not offset a disqualifying finding under these guidelines.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "15-1212.00"
+    ],
+    "civilian_titles": [
+     "Information Security Analysts"
+    ],
+    "relevant_certifications": [
+     "CompTIA A+",
+     "CompTIA Network+",
+     "Certified Information Systems Security Professional (CISSP)",
+     "Red Hat Certified Engineer (RHCE)",
+     "GIAC Certified Incident Handler (GCIH)",
+     "GIAC Certified Intrusion Analyst (GCIA)",
+     "GIAC Security Essentials Certification (GSEC)",
+     "Systems Security Certified Practitioner (SSCP)"
+    ],
+    "total_credentials_in_cool": 157,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 103590,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Information Security Analysts. The training itself awards no civilian licence or certification. COOL lists 157 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, Certified Information Systems Security Professional (CISSP)."
+   }
+  },
+  {
+   "id": "navy-dc",
+   "code": "DC",
+   "name": "Damage Controlman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Performs firefighting and damage-control work, prepares defenses against chemical/biological/radiological attack, and repairs damage-control equipment.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+AS>=193 -OR- VE+AR+MK+MC>=193",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "33-2011.00",
+     "49-9099.00"
+    ],
+    "civilian_titles": [
+     "Firefighters",
+     "Installation, Maintenance, and Repair Workers, All Other"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Associate Safety Professional (ASP)",
+     "Construction Health and Safety Technician (CHST)"
+    ],
+    "total_credentials_in_cool": 41,
+    "estimated_civilian_salary_range_usd": [
+     42480,
+     52500
+    ],
+    "civilian_median_salary_usd": 52500,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 2 civilian occupations: Firefighters, Installation, Maintenance, and Repair Workers, All Other. The training itself awards no civilian licence or certification. COOL lists 41 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Associate Safety Professional (ASP), Construction Health and Safety Technician (CHST)."
+   }
+  },
+  {
+   "id": "navy-em",
+   "code": "EM",
+   "name": "Electrician's Mate",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Operates and repairs a ship's or station's electrical power plant, distribution switchboards, generators, and motors; a nuclear-qualified EMN service rating operates nuclear-reactor electrical subsystems.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+MC>=210 -OR- AR+MK+EI+GS>=210",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-9012.00",
+     "49-2092.00",
+     "17-3023.00",
+     "51-2022.00",
+     "49-2094.00",
+     "47-2111.00"
+    ],
+    "civilian_titles": [
+     "Control and Valve Installers and Repairers, Except Mechanical Door",
+     "Electric Motor, Power Tool, and Related Repairers",
+     "Electrical and Electronic Engineering Technologists and Technicians",
+     "Electrical and Electronic Equipment Assemblers",
+     "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+     "Electricians"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Associate in Project Management (CAPM)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 37,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     95100
+    ],
+    "civilian_median_salary_usd": 60580,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 11 civilian occupations: Control and Valve Installers and Repairers, Except Mechanical Door, Electric Motor, Power Tool, and Related Repairers, Electrical and Electronic Engineering Technologists and Technicians, and 8 more. The training itself awards no civilian licence or certification. COOL lists 37 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Associate in Project Management (CAPM), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "navy-et",
+   "code": "ET",
+   "name": "Electronics Technician",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Maintains, repairs, and calibrates electronic equipment used for communications, detection, tracking, and navigation; recruited jointly with Fire Controlman under the Advanced Electronics/Computer Field (AECF) surface accession pathway per the source. Submarine service ratings exist (Wikipedia lists ETN \u2014 nuclear power, ETV \u2014 navigation, and ETR \u2014 communications); navycs.com separately lists a combined 'ET Submarine' ASVAB requirement of AR+MK+EI+GS>=218 -OR- VE+AR+MK+MC>=218 without confirming which submarine service-rating code(s) that figure applies to.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MK+EI+GS>=222 -OR- AR+2MK+GS>=226 Note 1",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "17-3023.00",
+     "49-2093.00",
+     "49-2094.00",
+     "49-1011.00",
+     "49-9098.00",
+     "49-2021.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronic Engineering Technologists and Technicians",
+     "Electrical and Electronics Installers and Repairers, Transportation Equipment",
+     "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+     "First-Line Supervisors of Mechanics, Installers, and Repairers",
+     "Helpers--Installation, Maintenance, and Repair Workers",
+     "Radio, Cellular, and Tower Equipment Installers and Repairers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "CompTIA A+",
+     "CompTIA Network+",
+     "CompTIA Server+",
+     "Registered Communications Distribution Designer (RCDD)",
+     "CompTIA Security+",
+     "Associate Safety Professional (ASP)",
+     "CompTIA SecurityX (formerly CASP+)"
+    ],
+    "total_credentials_in_cool": 103,
+    "estimated_civilian_salary_range_usd": [
+     31760,
+     70240
+    ],
+    "civilian_median_salary_usd": 67550,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 6 civilian occupations: Electrical and Electronic Engineering Technologists and Technicians, Electrical and Electronics Installers and Repairers, Transportation Equipment, Electrical and Electronics Repairers, Commercial and Industrial Equipment, and 3 more. The training itself awards no civilian licence or certification. COOL lists 103 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), CompTIA A+, CompTIA Network+."
+   }
+  },
+  {
+   "id": "navy-ea",
+   "code": "EA",
+   "name": "Engineering Aid",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Seabee rating that surveys roads, airfields, and buildings, performs soil tests, and prepares topographic and hydrographic maps to support construction engineers.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+2MK+GS>=207",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "17-1021.00",
+     "17-1022.00"
+    ],
+    "civilian_titles": [
+     "Cartographers and Photogrammetrists",
+     "Surveyors"
+    ],
+    "relevant_certifications": [
+     "Certified Construction Specifier (CCS)",
+     "Certified Quality Engineer (CQE)",
+     "Certified Facility Manager (CFM)",
+     "Project Management Professional (PMP)",
+     "Certified Associate in Project Management (CAPM)",
+     "LEED Green Associate",
+     "Construction Health and Safety Technician (CHST)"
+    ],
+    "total_credentials_in_cool": 115,
+    "estimated_civilian_salary_range_usd": [
+     65590,
+     68380
+    ],
+    "civilian_median_salary_usd": 68380,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 2 civilian occupations: Cartographers and Photogrammetrists, Surveyors. The training itself awards no civilian licence or certification. COOL lists 115 related credentials you would still have to earn separately, including Certified Construction Specifier (CCS), Certified Quality Engineer (CQE), Certified Facility Manager (CFM)."
+   }
+  },
+  {
+   "id": "navy-en",
+   "code": "EN",
+   "name": "Engineman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Maintains internal diesel and gasoline engines, refrigeration, air-conditioning, and distilling-plant equipment.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+AS>=188 -OR- VE+AR+MK+AO>=193",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-1011.00",
+     "49-9098.00",
+     "49-9041.00",
+     "49-3051.00",
+     "53-5031.00",
+     "51-8021.00"
+    ],
+    "civilian_titles": [
+     "First-Line Supervisors of Mechanics, Installers, and Repairers",
+     "Helpers--Installation, Maintenance, and Repair Workers",
+     "Industrial Machinery Mechanics",
+     "Motorboat Mechanics and Service Technicians",
+     "Ship Engineers",
+     "Stationary Engineers and Boiler Operators"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 79,
+    "estimated_civilian_salary_range_usd": [
+     31760,
+     75990
+    ],
+    "civilian_median_salary_usd": 55490,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 7 civilian occupations: First-Line Supervisors of Mechanics, Installers, and Repairers, Helpers--Installation, Maintenance, and Repair Workers, Industrial Machinery Mechanics, and 4 more. The training itself awards no civilian licence or certification. COOL lists 79 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Maintenance and Reliability Professionals (CMRP), Certified Maintenance and Reliability Technician (CMRT)."
+   }
+  },
+  {
+   "id": "navy-eo",
+   "code": "EO",
+   "name": "Equipment Operator",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Seabee rating that operates heavy construction machinery such as bulldozers, power shovels, and pile drivers to excavate, grade, and pour concrete on construction sites.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MC+AS>=145**",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-2073.00"
+    ],
+    "civilian_titles": [
+     "Operating Engineers and Other Construction Equipment Operators"
+    ],
+    "relevant_certifications": [
+     "Project Management Professional (PMP)",
+     "Certified Associate in Project Management (CAPM)",
+     "Construction Health and Safety Technician (CHST)"
+    ],
+    "total_credentials_in_cool": 56,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 49770,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Operating Engineers and Other Construction Equipment Operators. The training itself awards no civilian licence or certification. COOL lists 56 related credentials you would still have to earn separately, including Project Management Professional (PMP), Certified Associate in Project Management (CAPM), Construction Health and Safety Technician (CHST)."
+   }
+  },
+  {
+   "id": "navy-eod",
+   "code": "EOD",
+   "name": "Explosive Ordnance Disposal",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Locates, identifies, renders safe, and disposes of conventional, nuclear, chemical, biological, and improvised ordnance, sometimes using parachute, helicopter, or deep-sea-diving insertion.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+VE>=109 AND MC>=51 -OR- GS+MC+EI>=169",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-5032.00",
+     "47-4041.00"
+    ],
+    "civilian_titles": [
+     "Explosives Workers, Ordnance Handling Experts, and Blasters",
+     "Hazardous Materials Removal Workers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Hazardous Materials Manager (CHMM)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 27,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     45270
+    ],
+    "civilian_median_salary_usd": 45270,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 2 civilian occupations: Explosives Workers, Ordnance Handling Experts, and Blasters, Hazardous Materials Removal Workers. The training itself awards no civilian licence or certification. COOL lists 27 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Hazardous Materials Manager (CHMM), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "navy-ft",
+   "code": "FT",
+   "name": "Fire Control Technician",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Maintains the electronic, electrical, and mechanical equipment used in submarine weapons-systems fire control.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MK+EI+GS>=218 -OR- VE+AR+MK+MC>=218",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "55-3014.00",
+     "51-2022.00",
+     "49-2094.00",
+     "17-3024.00",
+     "49-1011.00",
+     "55-3019.00"
+    ],
+    "civilian_titles": [
+     "Artillery and Missile Crew Members",
+     "Electrical and Electronic Equipment Assemblers",
+     "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+     "Electro-Mechanical and Mechatronics Technologists and Technicians",
+     "First-Line Supervisors of Mechanics, Installers, and Repairers",
+     "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "CompTIA A+",
+     "CompTIA Network+",
+     "Systems Security Certified Practitioner (SSCP)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 34,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     70240
+    ],
+    "civilian_median_salary_usd": 59800,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 6 civilian occupations: Artillery and Missile Crew Members, Electrical and Electronic Equipment Assemblers, Electrical and Electronics Repairers, Commercial and Industrial Equipment, and 3 more. The training itself awards no civilian licence or certification. COOL lists 34 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), CompTIA A+, CompTIA Network+."
+   }
+  },
+  {
+   "id": "navy-fc",
+   "code": "FC",
+   "name": "Fire Controlman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Maintains the radar, computer, and weapons-direction equipment used in surface-ship gun and guided-missile fire-control systems; recruited jointly with Electronics Technician under the Advanced Electronics/Computer Field (AECF) accession pathway per the source. An Aegis-qualified FCA service rating maintains the Aegis Combat System.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MK+EI+GS>=222 -OR- AR+2MK+GS>=226 Note 1",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "55-3014.00"
+    ],
+    "civilian_titles": [
+     "Artillery and Missile Crew Members"
+    ],
+    "relevant_certifications": [
+     "CompTIA A+",
+     "CompTIA Network+",
+     "CompTIA Security+"
+    ],
+    "total_credentials_in_cool": 35,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 0,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Artillery and Missile Crew Members. The training itself awards no civilian licence or certification. COOL lists 35 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, CompTIA Security+."
+   }
+  },
+  {
+   "id": "navy-gse",
+   "code": "GSE",
+   "name": "Gas Turbine System Technician \u2014 Electrical",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Maintains the electrical and electronic circuitry, alarm systems, and propulsion-control systems of shipboard gas-turbine engines.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+MC>=210 -OR- AR+MK+EI+GS>=210",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "17-3023.00",
+     "49-2094.00",
+     "49-9071.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronic Engineering Technologists and Technicians",
+     "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+     "Maintenance and Repair Workers, General"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 53,
+    "estimated_civilian_salary_range_usd": [
+     40850,
+     67550
+    ],
+    "civilian_median_salary_usd": 62010,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 3 civilian occupations: Electrical and Electronic Engineering Technologists and Technicians, Electrical and Electronics Repairers, Commercial and Industrial Equipment, Maintenance and Repair Workers, General. The training itself awards no civilian licence or certification. COOL lists 53 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Maintenance and Reliability Professionals (CMRP), Certified Maintenance and Reliability Technician (CMRT)."
+   }
+  },
+  {
+   "id": "navy-gsm",
+   "code": "GSM",
+   "name": "Gas Turbine System Technician \u2014 Mechanical",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Maintains gas-turbine engines and mechanical propulsion machinery, including gears, shafting, and controllable-pitch propellers.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+AS>=200 -OR- VE+AR+MK+AO>=205",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "17-3023.00",
+     "49-1011.00",
+     "49-9071.00",
+     "51-8013.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronic Engineering Technologists and Technicians",
+     "First-Line Supervisors of Mechanics, Installers, and Repairers",
+     "Maintenance and Repair Workers, General",
+     "Power Plant Operators"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 46,
+    "estimated_civilian_salary_range_usd": [
+     40850,
+     84650
+    ],
+    "civilian_median_salary_usd": 70240,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 4 civilian occupations: Electrical and Electronic Engineering Technologists and Technicians, First-Line Supervisors of Mechanics, Installers, and Repairers, Maintenance and Repair Workers, General, and 1 more. The training itself awards no civilian licence or certification. COOL lists 46 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Maintenance and Reliability Professionals (CMRP), Certified Maintenance and Reliability Technician (CMRT)."
+   }
+  },
+  {
+   "id": "navy-gm",
+   "code": "GM",
+   "name": "Gunner's Mate",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Operates and maintains guns, guided-missile launching systems, rocket launchers, and turrets, and tests ammunition and ordnance components.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MK+EI+GS>=205 -OR- GS+AR+2MK>=205",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "55-3014.00"
+    ],
+    "civilian_titles": [
+     "Artillery and Missile Crew Members"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 15,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 0,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Artillery and Missile Crew Members. The training itself awards no civilian licence or certification. COOL lists 15 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "navy-hm-hospital-corpsman",
+   "code": "HM",
+   "name": "Hospital Corpsman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "5-year minimum service commitment reported for HM accession (source: navyenlisted.com); not cross-checked against a primary Navy source this session.",
+   "entry_requirements": {
+    "asvab_line_score": "Composite line-score thresholds: VE+MK+GS >= 156, OR AR+WK > 105, OR VE+AR+MK+GS > 210. Source: cogn-iq.org, cross-referenced against an ASVAB Validation Technical Report for Hospital Corpsman found via search (apps.dtic.mil/sti/trecms/pdf/AD1200541.pdf) \u2014 the DTIC report was surfaced via search synthesis, not independently fetched this session. Meeting the minimum does not guarantee rating assignment; training-slot availability and Navy needs also apply.",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "29-2042.00",
+     "29-2061.00",
+     "31-9092.00",
+     "31-1131.00",
+     "31-1132.00",
+     "29-2043.00"
+    ],
+    "civilian_titles": [
+     "Emergency Medical Technicians",
+     "Licensed Practical and Licensed Vocational Nurses",
+     "Medical Assistants",
+     "Nursing Assistants",
+     "Orderlies",
+     "Paramedics"
+    ],
+    "relevant_certifications": [
+     "Registered Dental Assistant (RDA)",
+     "Certified Safety Professional (CSP)",
+     "Certified Surgical Technologist (CST)",
+     "Emergency Medical Responder (EMR)",
+     "Radiography (R)",
+     "PTCB Certified Pharmacy Technician (PTCB-CPhT)",
+     "Certified Surgical First Assistant (CSFA)",
+     "Certified Pulmonary Function Technologist (CPFT)"
+    ],
+    "total_credentials_in_cool": 329,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     48820
+    ],
+    "civilian_median_salary_usd": 30850,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 6 civilian occupations: Emergency Medical Technicians, Licensed Practical and Licensed Vocational Nurses, Medical Assistants, and 3 more. The training itself awards no civilian licence or certification. COOL lists 329 related credentials you would still have to earn separately, including Registered Dental Assistant (RDA), Certified Safety Professional (CSP), Certified Surgical Technologist (CST)."
+   }
+  },
+  {
+   "id": "navy-ht",
+   "code": "HT",
+   "name": "Hull Maintenance Technician",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Maintains ships' hulls, piping systems, plumbing, and safety/survival equipment, and performs damage-control-related repair work.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+AS>=193 -OR- VE+AR+MK+MC>=193",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-2152.00",
+     "47-2211.00",
+     "51-2041.00"
+    ],
+    "civilian_titles": [
+     "Plumbers, Pipefitters, and Steamfitters",
+     "Sheet Metal Workers",
+     "Structural Metal Fabricators and Fitters"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Associate Welding Inspector (CAWI)",
+     "Certified Welding Inspector (CWI)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 61,
+    "estimated_civilian_salary_range_usd": [
+     41780,
+     56330
+    ],
+    "civilian_median_salary_usd": 51370,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 3 civilian occupations: Plumbers, Pipefitters, and Steamfitters, Sheet Metal Workers, Structural Metal Fabricators and Fitters. The training itself awards no civilian licence or certification. COOL lists 61 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Associate Welding Inspector (CAWI), Certified Welding Inspector (CWI)."
+   }
+  },
+  {
+   "id": "navy-it",
+   "code": "IT",
+   "name": "Information Systems Technician",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "Installs, operates, and maintains Navy information systems, local/wide-area networks, and telecommunications, and administers computer-system operations. The source lists a surface general track, an Advanced Technical Field (IT-ATF) track, and a combined submarine track under the same rating code; Wikipedia's rating-structure table separately lists three submarine service ratings \u2014 ITE (Electronic Warfare), ITR (Communications), and ITN (Network).",
+   "entry_requirements": {
+    "asvab_line_score": "AR+VE+MK+GS>=212 Note 2 -OR- VE+MK+GS>=156 Note 2 -OR- CT+MK+VE>=156 and CT>=60 Note 2",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "11-3021.00",
+     "15-1231.00",
+     "15-1211.00",
+     "15-1232.00",
+     "49-2011.00",
+     "15-1212.00"
+    ],
+    "civilian_titles": [
+     "Computer and Information Systems Managers",
+     "Computer Network Support Specialists",
+     "Computer Systems Analysts",
+     "Computer User Support Specialists",
+     "Computer, Automated Teller, and Office Machine Repairers",
+     "Information Security Analysts"
+    ],
+    "relevant_certifications": [
+     "CompTIA A+",
+     "CompTIA Network+",
+     "CompTIA Server+",
+     "Registered Communications Distribution Designer (RCDD)",
+     "Certified Information Systems Auditor (CISA)",
+     "Certified Information Systems Security Professional (CISSP)",
+     "Red Hat Certified Engineer (RHCE)",
+     "GIAC Certified Incident Handler (GCIH)"
+    ],
+    "total_credentials_in_cool": 167,
+    "estimated_civilian_salary_range_usd": [
+     41090,
+     151150
+    ],
+    "civilian_median_salary_usd": 92870,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 9 civilian occupations: Computer and Information Systems Managers, Computer Network Support Specialists, Computer Systems Analysts, and 6 more. The training itself awards no civilian licence or certification. COOL lists 167 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, CompTIA Server+."
+   }
+  },
+  {
+   "id": "navy-is-intelligence-specialist",
+   "code": "IS",
+   "name": "Intelligence Specialist",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "intelligence-analysis"
+   ],
+   "depth": "deep",
+   "what_it_is": "Under DoD's 13 Adjudicative Guidelines (Security Executive Agent Directive 4 / 32 CFR Part 147), none of the following are automatic mechanical disqualifiers under the 'whole person' standard, but they are the dominant real-world reasons applicants and incumbents are denied or lose eligibility, and each can rule out this specialty even with a fully qualifying ASVAB score: (1) unresolved foreign contacts, foreign relatives in certain countries, foreign property/financial interests, or foreign romantic ties that create potential foreign leverage (Guideline B, Foreign Influence); (2) a pattern of serious financial delinquency -- unresolved debt (especially over $10,000), recent bankruptcy, wage garnishment, or repeated late payment patterns (Guideline F; financial issues are cited as roughly 45% of DoD clearance denials); (3) illegal drug use, misuse of prescription medication, or continued use after applying (Guideline H); and (4), treated especially seriously, deliberately concealing or falsifying any of the above -- including an UNREPORTED dual citizenship or undisclosed foreign contact -- during the application or investigation (Guideline E, Personal Conduct). A 16-24-year-old considering this cluster should treat clearance eligibility as a real, independent gate, not a formality layered on top of a qualifying ASVAB score. For this rating specifically, the ICD 704 family-citizenship requirement is a distinct, additional gate beyond the general foreign-influence guideline -- a family member's citizenship in a non-low-risk country can be disqualifying independent of the applicant's own conduct.",
+   "entry_requirements": {
+    "asvab_line_score": "VE + AR (Verbal Expression + Arithmetic Reasoning) composite >= 107. CONFIRMED this session via search (navycs.com and corroborating sources); this is a Navy per-rating subtest-sum composite, consistent with data/interest-taxonomy.json's note that the Navy uses per-rating subtest sums rather than a single named line score for this cluster.",
+    "security_clearance": "Eligibility for Top Secret clearance with continuous access to Sensitive Compartmented Information (SCI), determined by a Single Scope Background Investigation (SSBI) followed by reinvestigation every 5 years -- CONFIRMED this session via search. The applicant AND their immediate family must be U.S. citizens or from a country assessed low-risk under Intelligence Community Directive 704.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "33-3021.06"
+    ],
+    "civilian_titles": [
+     "Intelligence Analysts"
+    ],
+    "relevant_certifications": [
+     "CompTIA A+",
+     "Certified Protection Professional (CPP)",
+     "GIAC Security Essentials Certification (GSEC)",
+     "CompTIA Security+",
+     "CompTIA SecurityX (formerly CASP+)",
+     "Certified Information Privacy Professional/United States (CIPP/US)",
+     "Certified Information Privacy Technologist (CIPT)"
+    ],
+    "total_credentials_in_cool": 66,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 86940,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Intelligence Analysts. The training itself awards no civilian licence or certification. COOL lists 66 related credentials you would still have to earn separately, including CompTIA A+, Certified Protection Professional (CPP), GIAC Security Essentials Certification (GSEC)."
+   }
+  },
+  {
+   "id": "navy-ic",
+   "code": "IC",
+   "name": "Interior Communications Electrician",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Operates and repairs a ship's interior communications systems, shipboard entertainment/announcing systems, and gyrocompass systems; the source lists general (IC-SG) and Advanced Technical Field (IC-ATF) accession tracks under the same rating code.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MK+EI+GS>=213 -OR- VE+AR+MK+AO=218 -OR- GS+AR+MK=163",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2093.00",
+     "49-2098.00",
+     "49-2022.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronics Installers and Repairers, Transportation Equipment",
+     "Security and Fire Alarm Systems Installers",
+     "Telecommunications Equipment Installers and Repairers, Except Line Installers"
+    ],
+    "relevant_certifications": [
+     "Associate Electronics Technician (CETa)",
+     "Fiber Optics Installer (FOI)",
+     "Certified Satellite Installer (CSI)",
+     "Telecommunications Electronics Technician (TCM)",
+     "Computer Service Technician (CST)",
+     "Network Systems Technician (NST)",
+     "Fiber Optics Technician (FOT)",
+     "Senior Certified Electronics Technician (CETsr)"
+    ],
+    "total_credentials_in_cool": 72,
+    "estimated_civilian_salary_range_usd": [
+     50940,
+     70200
+    ],
+    "civilian_median_salary_usd": 61470,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 3 civilian occupations: Electrical and Electronics Installers and Repairers, Transportation Equipment, Security and Fire Alarm Systems Installers, Telecommunications Equipment Installers and Repairers, Except Line Installers. The training itself awards no civilian licence or certification. COOL lists 72 related credentials you would still have to earn separately."
+   }
+  },
+  {
+   "id": "navy-ln-legalman",
+   "code": "LN",
+   "name": "Legalman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "legal"
+   ],
+   "depth": "deep",
+   "what_it_is": "Minimum typing speed of 40 WPM required at time of enlistment (navycs.com, cross-corroborated this session).",
+   "entry_requirements": {
+    "asvab_line_score": "VE + MK \u2265 105, OR VE + MK + CS \u2265 157, with a minimum VE (Verbal Expression) of 52 \u2014 all listed composites must be met simultaneously (navycs.com/cogn-iq.org, cross-corroborated this session). Consistent with data/interest-taxonomy.json, which notes the Navy uses per-rating subtest sums rather than a single published line score for this cluster. UNVERIFIED at primary-source level \u2014 mynavyhr.navy.mil was not independently fetched this session; confirm with a recruiter or Navy COOL.",
+    "security_clearance": "Secret clearance is standard for legal-office access to case records; not independently re-confirmed for LN specifically this session \u2014 reasoned by analogy to the sourced Army 27D requirement.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "23-2011.00"
+    ],
+    "civilian_titles": [
+     "Paralegals and Legal Assistants"
+    ],
+    "relevant_certifications": [
+     "Certified Professional Contracts Manager (CPCM)",
+     "Certified Associate in Project Management (CAPM)",
+     "Certified Information Privacy Professional/United States (CIPP/US)"
+    ],
+    "total_credentials_in_cool": 19,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 52920,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Paralegals and Legal Assistants. The training itself awards no civilian licence or certification. COOL lists 19 related credentials you would still have to earn separately, including Certified Professional Contracts Manager (CPCM), Certified Associate in Project Management (CAPM), Certified Information Privacy Professional/United States (CIPP/US)."
+   }
+  },
+  {
+   "id": "navy-ls-logistics-specialist",
+   "code": "LS",
+   "name": "Logistics Specialist",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "logistics-supply"
+   ],
+   "depth": "deep",
+   "what_it_is": "Involves handling of Navy post office operations and financial/accounting systems as part of A-school curriculum.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR (Verbal Expression + Arithmetic Reasoning) combined score of 102 minimum, per navycs.com and corroborating sources; not independently confirmed by direct primary .mil fetch this session.",
+    "security_clearance": "Not confirmed as a blanket requirement; LS duties involving financial/postal systems may require some level of trust/clearance \u2014 not independently verified this session.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "43-3031.00",
+     "43-1011.00",
+     "43-9051.00",
+     "43-5051.00",
+     "43-5052.00",
+     "43-5053.00"
+    ],
+    "civilian_titles": [
+     "Bookkeeping, Accounting, and Auditing Clerks",
+     "First-Line Supervisors of Office and Administrative Support Workers",
+     "Mail Clerks and Mail Machine Operators, Except Postal Service",
+     "Postal Service Clerks",
+     "Postal Service Mail Carriers",
+     "Postal Service Mail Sorters, Processors, and Processing Machine Operators"
+    ],
+    "relevant_certifications": [
+     "Certified Materials and Resource Professional (CMRP)",
+     "Quality Auditor Certification (CQA)",
+     "Certified Reliability Engineer (CRE)",
+     "Certified Facility Manager (CFM)",
+     "Certified Professional Contracts Manager (CPCM)",
+     "Certified Associate in Project Management (CAPM)",
+     "Certified Professional in Supply Management (CPSM)",
+     "PMI Risk Management Professional (PMI-RMP)"
+    ],
+    "total_credentials_in_cool": 33,
+    "estimated_civilian_salary_range_usd": [
+     29190,
+     58450
+    ],
+    "civilian_median_salary_usd": 44740,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 9 civilian occupations: Bookkeeping, Accounting, and Auditing Clerks, First-Line Supervisors of Office and Administrative Support Workers, Mail Clerks and Mail Machine Operators, Except Postal Service, and 6 more. The training itself awards no civilian licence or certification. COOL lists 33 related credentials you would still have to earn separately, including Certified Materials and Resource Professional (CMRP), Quality Auditor Certification (CQA), Certified Reliability Engineer (CRE)."
+   }
+  },
+  {
+   "id": "navy-mr",
+   "code": "MR",
+   "name": "Machinery Repairman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Operates machine tools to fabricate replacement parts and repairs or overhauls a ship's engine auxiliary equipment such as evaporators, air compressors, and pumps.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+AS>=205 -OR- VE+AR+MK+MC>=205 -OR- AS+MK+AO>=148",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "51-2031.00",
+     "49-1011.00",
+     "51-4041.00"
+    ],
+    "civilian_titles": [
+     "Engine and Other Machine Assemblers",
+     "First-Line Supervisors of Mechanics, Installers, and Repairers",
+     "Machinists"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 34,
+    "estimated_civilian_salary_range_usd": [
+     45770,
+     70240
+    ],
+    "civilian_median_salary_usd": 45840,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 3 civilian occupations: Engine and Other Machine Assemblers, First-Line Supervisors of Mechanics, Installers, and Repairers, Machinists. The training itself awards no civilian licence or certification. COOL lists 34 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Maintenance and Reliability Professionals (CMRP), Certified Maintenance and Reliability Technician (CMRT)."
+   }
+  },
+  {
+   "id": "navy-mm-machinists-mate",
+   "code": "MM (Surface); MM (Submarine, distinct pipeline)",
+   "name": "Machinist's Mate",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "MM absorbed most of the Boiler Technician (BT) rating on October 1, 1996 (steam-plant operations) and, following a 2013 Navy rating realignment, absorbed roughly 2,000 Engineman (EN) sailors whose primary skills were in auxiliary-engineering systems \u2014 auxiliary shipboard machinery work now falls under MM. The EN rating itself was NOT eliminated: it continues to exist as a smaller, narrower rating focused specifically on diesel propulsion for amphibious ships and smaller craft. Correction to this project's taxonomy: data/interest-taxonomy.json lists EN as a separate example specialty for this cluster; this session's research indicates EN still exists but in a substantially narrowed scope post-2013, with most of its former auxiliary-machinery scope now under MM \u2014 flagged as a taxonomy nuance rather than silently reconciled. A separate, full EN SpecialtyRecord was not built this session given the 10-web-call budget; MM is the representative record for Navy shipboard mechanical/engineering work.",
+   "entry_requirements": {
+    "asvab_line_score": "UNVERIFIED \u2014 this session did not locate a specific MM ASVAB subtest-sum requirement (consistent with data/interest-taxonomy.json's note that the Navy uses per-rating subtest sums rather than a single published line score for most ratings in this cluster). navycs.com and mynavyhr.navy.mil pages exist but were not fetched to extract the exact composite this session. Confirm the current cutoff with a recruiter or the Navy COOL/MM rating page directly.",
+    "security_clearance": "Not typically required for surface-fleet MM; submarine-track assignments commonly involve additional screening given the closed operating environment, though this session did not independently confirm a formal clearance requirement.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [],
+   "confidence": "official"
+  },
+  {
+   "id": "navy-mc-mass-communication-specialist",
+   "code": "MC",
+   "name": "Mass Communication Specialist",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "music-media"
+   ],
+   "depth": "deep",
+   "what_it_is": "NO AUDITION IS REQUIRED \u2014 this is the media/journalism sub-family. A 60-month (5-year) minimum enlistment obligation is reported for this rating, longer than the Navy's typical 4-year initial contract \u2014 NOT independently re-confirmed against a primary source this session.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR composite of 115, and a standalone VE (Verbal Expression) score of 55 \u2014 per secondary-source corroboration (cogn-iq.org, ratemyasvab.com); NOT independently re-confirmed against a primary Navy source this session.",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "27-4031.00",
+     "27-3041.00",
+     "27-3023.00",
+     "27-3031.00"
+    ],
+    "civilian_titles": [
+     "Camera Operators, Television, Video, and Film",
+     "Editors",
+     "News Analysts, Reporters, and Journalists",
+     "Public Relations Specialists"
+    ],
+    "relevant_certifications": [
+     "Project Management Professional (PMP)"
+    ],
+    "total_credentials_in_cool": 19,
+    "estimated_civilian_salary_range_usd": [
+     49300,
+     63400
+    ],
+    "civilian_median_salary_usd": 62810,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 4 civilian occupations: Camera Operators, Television, Video, and Film, Editors, News Analysts, Reporters, and Journalists, and 1 more. The training itself awards no civilian licence or certification. COOL lists 19 related credentials you would still have to earn separately, including Project Management Professional (PMP)."
+   }
+  },
+  {
+   "id": "navy-ma-master-at-arms",
+   "code": "MA",
+   "name": "Master-at-Arms",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "law-enforcement-security"
+   ],
+   "depth": "deep",
+   "what_it_is": "Meeting the minimum line scores is necessary but not sufficient for assignment \u2014 available A-school seats, security-clearance eligibility, and the Navy's needs at the time also govern actual rating assignment (per cogn-iq.org).",
+   "entry_requirements": {
+    "asvab_line_score": "WK+AR \u2265 98 and WK \u2265 43 (both composites must be met simultaneously), per cogn-iq.org and ratemyasvab.com. UNVERIFIED at primary-source level \u2014 the official mynavyhr.navy.mil MA page returned HTTP 403 on fetch this session and was not independently confirmed. Consistent with data/interest-taxonomy.json's note that the Navy uses per-rating subtest sums rather than a single published line score for this cluster.",
+    "security_clearance": "Secret clearance typically required, per operationmilitarykids.org and navyenlisted.com. UNVERIFIED at primary-source level this session.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "33-9091.00",
+     "43-4061.00",
+     "33-1011.00",
+     "33-1012.00",
+     "43-4111.00",
+     "33-3051.00"
+    ],
+    "civilian_titles": [
+     "Crossing Guards and Flaggers",
+     "Eligibility Interviewers, Government Programs",
+     "First-Line Supervisors of Correctional Officers",
+     "First-Line Supervisors of Police and Detectives",
+     "Interviewers, Except Eligibility and Loan",
+     "Police and Sheriff's Patrol Officers"
+    ],
+    "relevant_certifications": [
+     "Certified Protection Professional (CPP)",
+     "Project Management Professional (PMP)",
+     "Professional Certified Investigator (PCI)",
+     "Certified Associate in Project Management (CAPM)"
+    ],
+    "total_credentials_in_cool": 53,
+    "estimated_civilian_salary_range_usd": [
+     30790,
+     92970
+    ],
+    "civilian_median_salary_usd": 47110,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 9 civilian occupations: Crossing Guards and Flaggers, Eligibility Interviewers, Government Programs, First-Line Supervisors of Correctional Officers, and 6 more. The training itself awards no civilian licence or certification. COOL lists 53 related credentials you would still have to earn separately, including Certified Protection Professional (CPP), Project Management Professional (PMP), Professional Certified Investigator (PCI)."
+   }
+  },
+  {
+   "id": "navy-mn",
+   "code": "MN",
+   "name": "Mineman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Tests, maintains, and repairs naval mines and mine-countermeasures equipment.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+MC>=210 -OR- VE+AR+MK+AO>=216",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-5032.00"
+    ],
+    "civilian_titles": [
+     "Explosives Workers, Ordnance Handling Experts, and Blasters"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 9,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 0,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Explosives Workers, Ordnance Handling Experts, and Blasters. The training itself awards no civilian licence or certification. COOL lists 9 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "navy-mt",
+   "code": "MT",
+   "name": "Missile Technician",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Operates and maintains the Trident II D5 strategic-missile weapon system aboard ballistic-missile submarines, including fire-control and guidance systems.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MK+MC+VE>=218 -OR- VE+AR+MK+AO>=218",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "55-3014.00",
+     "49-2093.00",
+     "49-2094.00",
+     "17-3024.00",
+     "49-1011.00"
+    ],
+    "civilian_titles": [
+     "Artillery and Missile Crew Members",
+     "Electrical and Electronics Installers and Repairers, Transportation Equipment",
+     "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+     "Electro-Mechanical and Mechatronics Technologists and Technicians",
+     "First-Line Supervisors of Mechanics, Installers, and Repairers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 21,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     70240
+    ],
+    "civilian_median_salary_usd": 62010,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 5 civilian occupations: Artillery and Missile Crew Members, Electrical and Electronics Installers and Repairers, Transportation Equipment, Electrical and Electronics Repairers, Commercial and Industrial Equipment, and 2 more. The training itself awards no civilian licence or certification. COOL lists 21 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Maintenance and Reliability Technician (CMRT), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "navy-mu-musician",
+   "code": "MU",
+   "name": "Musician",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "music-media"
+   ],
+   "depth": "deep",
+   "what_it_is": "Selection runs through the Navy Music Program (NMP) audition: performance of the National Anthem plus prepared repertoire across multiple styles, major/minor scales and arpeggios, sight-reading of standard sheet music, and (for vocalists) mic technique and stage presence. Per NMP materials, the large majority of successful candidates already hold a bachelor's degree or higher in music \u2014 the audition, not the ASVAB, is the real competitive barrier.",
+   "entry_requirements": {
+    "asvab_line_score": "A figure of '31 on QT' was reported by one secondary source (navycs.com) but could not be independently confirmed against a primary Navy source this session, and sits awkwardly against this project's general finding that Navy ratings are qualified by per-rating ASVAB subtest sums rather than named line scores (interest-taxonomy.json) \u2014 treat as UNVERIFIED. What IS confirmed: both the ASVAB and a live audition are required, and the audition is the substantive gate.",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "27-2042.00"
+    ],
+    "civilian_titles": [
+     "Musicians and Singers"
+    ],
+    "relevant_certifications": [
+     "Music Therapist - Board Certified (MT-BC)"
+    ],
+    "total_credentials_in_cool": 2,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 0,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Musicians and Singers. The training itself awards no civilian licence or certification. COOL lists 2 related credentials you would still have to earn separately, including Music Therapist - Board Certified (MT-BC)."
+   }
+  },
+  {
+   "id": "navy-aw",
+   "code": "AW",
+   "name": "Naval Aircrewman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation"
+   ],
+   "depth": "deep",
+   "what_it_is": "General rating for enlisted air crew who operate airborne radar/electronic equipment, act as helicopter rescue crewmen, and serve as flight crew on long- and intermediate-range aircraft; sailors specialize into AWO, AWF, AWV, AWS, or AWR service ratings, and the AWS/AWR track includes the Aircrew Rescue Swimmer (AIRR) qualification.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+MC>=210 -OR- VE+AR+MK+AS>=210",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [],
+   "confidence": "official"
+  },
+  {
+   "id": "navy-nd",
+   "code": "ND",
+   "name": "Navy Diver",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": "Performs underwater ship maintenance, construction, and rescue, and provides diving-technical support to submersible operations and Marine Corps units.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+VE>=105 AND MC>=51 OR AR+2MK+GS>=210 AND MC>=51 OR GS+MC+EI>=157 AND AR+MK>=100",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-9092.00"
+    ],
+    "civilian_titles": [
+     "Commercial Divers"
+    ],
+    "relevant_certifications": [
+     "Emergency Medical Technician (EMT)",
+     "National Registered Paramedic (NRP)"
+    ],
+    "total_credentials_in_cool": 6,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 54800,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Commercial Divers. The training itself awards no civilian licence or certification. COOL lists 6 related credentials you would still have to earn separately, including Emergency Medical Technician (EMT), National Registered Paramedic (NRP)."
+   }
+  },
+  {
+   "id": "navy-nuclear-field-enlisted",
+   "code": "MM(N) / EM(N) / ET(N) \u2014 Navy Nuclear Field (shipboard/submarine reactor-plant operation; entrants are assigned one of these three ratings, all trained through the same nuclear pipeline)",
+   "name": "Nuclear Field (Machinist's Mate, Electrician's Mate, and Electronics Technician \u2014 Nuclear)",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": "Entrants are assigned one of three ratings \u2014 Machinist's Mate (Nuclear, MM(N)), Electrician's Mate (Nuclear, EM(N)), or Electronics Technician (Nuclear, ET(N)) \u2014 based on program needs and candidate preference/aptitude, all of whom complete the same core nuclear-pipeline schools before diverging into rating-specific fleet duties. Nuclear Field also feeds Navy's submarine force specifically (a submarine-volunteer track requiring Basic Enlisted Submarine School) as well as nuclear-powered surface ships (aircraft carriers).",
+   "entry_requirements": {
+    "asvab_line_score": "Navy has no single named line score system; the Nuclear Field (NF) program instead uses ASVAB-derived composites that are, per this project's binding research brief, among the HIGHEST composite requirements in the entire U.S. military. Two qualification tracks (per navycs.com/Navy Advanced Programs Test materials, searched 2026-07-12): Alpha (NFA) \u2014 qualifies directly with one relevant composite (reported as VE+AR+MK+MC) \u2265 252, with AR+MK \u2265 110 also required, and no further testing needed. Bravo (NFB) \u2014 qualifies with the relevant composites \u2265 225 (rather than 252), but must additionally sit and pass the Navy Advanced Programs Test (NAPT), a 2-hour supplementary exam, with a minimum score of 50. UNVERIFIED at primary-source level \u2014 these figures are corroborated across multiple secondary/test-prep sources but were not independently confirmed via a direct fetch of a primary Navy/MyNavyHR nuclear-program page this session; confirm current cutoffs with a recruiter or Navy COOL before relying on them.",
+    "security_clearance": "Nuclear Field candidates undergo a rigorous background investigation and a personal interview process historically associated with Naval Reactors (the program with roots in Admiral Rickover's nuclear-propulsion program); a Secret clearance or higher is commonly reported as a practical requirement given access to reactor-plant technical data. Not independently confirmed to primary-source level this session \u2014 flagged as trained-knowledge/secondary-corroborated rather than freshly sourced.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [],
+   "confidence": "official"
+  },
+  {
+   "id": "navy-os",
+   "code": "OS",
+   "name": "Operations Specialist",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": "Operates radar, navigation, and communications equipment in the shipboard Combat Information Center, tracking ships, aircraft, and missiles.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+MK+CS>=148 -OR- AR+2MK+GS>=198",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "55-3015.00"
+    ],
+    "civilian_titles": [
+     "Command and Control Center Specialists"
+    ],
+    "relevant_certifications": [
+     "General Radiotelephone Operator License (PG)",
+     "GMDSS Radio Maintainer License (DM)",
+     "Air Traffic Control Tower Operator (CTO)",
+     "Aircraft Dispatcher",
+     "General Communications Technician - Level 1 (GCT1)",
+     "General Communications Technician - Level 2 (GCT2)",
+     "Transportation Worker Identification Credential (TWIC)",
+     "Amateur Radio Service Operator License - Amateur Extra Class"
+    ],
+    "total_credentials_in_cool": 8,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 0,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Command and Control Center Specialists. The training itself awards no civilian licence or certification. COOL lists 8 related credentials you would still have to earn separately."
+   }
+  },
+  {
+   "id": "navy-ps",
+   "code": "PS",
+   "name": "Personnel Specialist",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "business-admin"
+   ],
+   "depth": "deep",
+   "what_it_is": "Advises sailors on Navy jobs, education, training, and promotion requirements, and maintains personnel records and reports.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+MK>=103 -OR- VE+MK+CS>=148",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "11-3012.00",
+     "13-1141.00",
+     "43-1011.00",
+     "43-4161.00",
+     "43-6012.00",
+     "43-9061.00"
+    ],
+    "civilian_titles": [
+     "Administrative Services Managers",
+     "Compensation, Benefits, and Job Analysis Specialists",
+     "First-Line Supervisors of Office and Administrative Support Workers",
+     "Human Resources Assistants, Except Payroll and Timekeeping",
+     "Legal Secretaries and Administrative Assistants",
+     "Office Clerks, General"
+    ],
+    "relevant_certifications": [
+     "Fundamental Payroll Certification (FPC)",
+     "Certified Payroll Professional (CPP)",
+     "Professional in Human Resources (PHR)",
+     "Senior Professional in Human Resources (SPHR)",
+     "Certified Facility Manager (CFM)",
+     "Certified Federal Contract Manager (CFCM)",
+     "Certified Investment Management Analyst (CIMA)",
+     "SHRM - Senior Certified Professional (SHRM-SCP)"
+    ],
+    "total_credentials_in_cool": 32,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     67190
+    ],
+    "civilian_median_salary_usd": 43250,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 7 civilian occupations: Administrative Services Managers, Compensation, Benefits, and Job Analysis Specialists, First-Line Supervisors of Office and Administrative Support Workers, and 4 more. The training itself awards no civilian licence or certification. COOL lists 32 related credentials you would still have to earn separately, including Fundamental Payroll Certification (FPC), Certified Payroll Professional (CPP), Professional in Human Resources (PHR)."
+   }
+  },
+  {
+   "id": "navy-qm-quartermaster",
+   "code": "QM",
+   "name": "Quartermaster",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": "One secondary source (navyweek.org) reports a 4-6 year enlistment obligation for QM; not independently confirmed against a primary Navy source this session.",
+   "entry_requirements": {
+    "asvab_line_score": "Navy has no single named line score for this cluster \u2014 ratings sum raw ASVAB subtest standard scores. Search this session surfaced CONFLICTING secondary figures for QM: VE+AR \u2265 96 (cogn-iq.org); VE+AR+MK+AS = 210 (navyweek.org); VE+AR = 100 (operationmilitarykids.org); VE+AR \u2265 97 (navycs.com). UNVERIFIED and NOT reconciled against a primary Navy source this session (MyNavyHR returned HTTP 403 on a related BM fetch attempt; QM's MyNavyHR page was not separately fetched). Confirm the current cutoff with a recruiter before relying on any of these figures.",
+    "security_clearance": "Not required for the rating generally; access to certain navigation/mission-planning systems and spaces may carry incidental clearance requirements depending on the platform \u2014 not independently confirmed this session.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "53-5021.00"
+    ],
+    "civilian_titles": [
+     "Captains, Mates, and Pilots of Water Vessels"
+    ],
+    "relevant_certifications": [
+     "Certified Quality Engineer (CQE)"
+    ],
+    "total_credentials_in_cool": 28,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 77130,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Captains, Mates, and Pilots of Water Vessels. The training itself awards no civilian licence or certification. COOL lists 28 related credentials you would still have to earn separately, including Certified Quality Engineer (CQE)."
+   }
+  },
+  {
+   "id": "navy-rp",
+   "code": "RP",
+   "name": "Religious Program Specialist",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "business-admin"
+   ],
+   "depth": "deep",
+   "what_it_is": "Assists Navy chaplains with administrative and budgetary tasks, chapel-fund custody, religious educational materials, and volunteer-program coordination.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+MK>=105 -OR- VE+MK+CS>=157",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "21-2021.00",
+     "21-2099.00"
+    ],
+    "civilian_titles": [
+     "Directors, Religious Activities and Education",
+     "Religious Workers, All Other"
+    ],
+    "relevant_certifications": [
+     "Certified Facility Manager (CFM)",
+     "Project Management Professional (PMP)",
+     "Certified Associate in Project Management (CAPM)"
+    ],
+    "total_credentials_in_cool": 16,
+    "estimated_civilian_salary_range_usd": [
+     33530,
+     45110
+    ],
+    "civilian_median_salary_usd": 45110,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 2 civilian occupations: Directors, Religious Activities and Education, Religious Workers, All Other. The training itself awards no civilian licence or certification. COOL lists 16 related credentials you would still have to earn separately, including Certified Facility Manager (CFM), Project Management Professional (PMP), Certified Associate in Project Management (CAPM)."
+   }
+  },
+  {
+   "id": "navy-rs",
+   "code": "RS",
+   "name": "Retail Services Specialist",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "logistics-supply"
+   ],
+   "depth": "deep",
+   "what_it_is": "Manages Navy exchange retail operations \u2014 barber shops, tailor shops, uniform stores, laundries, and gas stations \u2014 ashore and aboard ship.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR>=83",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "39-5011.00",
+     "41-1011.00",
+     "51-6011.00",
+     "43-9051.00",
+     "41-2031.00",
+     "53-7065.00"
+    ],
+    "civilian_titles": [
+     "Barbers",
+     "First-Line Supervisors of Retail Sales Workers",
+     "Laundry and Dry-Cleaning Workers",
+     "Mail Clerks and Mail Machine Operators, Except Postal Service",
+     "Retail Salespersons",
+     "Stockers and Order Fillers"
+    ],
+    "relevant_certifications": [
+     "Certified Professional in Supply Management (CPSM)"
+    ],
+    "total_credentials_in_cool": 18,
+    "estimated_civilian_salary_range_usd": [
+     25470,
+     41580
+    ],
+    "civilian_median_salary_usd": 31920,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 6 civilian occupations: Barbers, First-Line Supervisors of Retail Sales Workers, Laundry and Dry-Cleaning Workers, and 3 more. The training itself awards no civilian licence or certification. COOL lists 18 related credentials you would still have to earn separately, including Certified Professional in Supply Management (CPSM)."
+   }
+  },
+  {
+   "id": "navy-sts",
+   "code": "STS",
+   "name": "Sonar Technician (Submarine)",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": "Operates and repairs submarine sonar systems for underwater surveillance, navigation, and undersea communications.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MK+EI+GS>=218 -OR- VE+AR+MK+MC>=218",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "51-2022.00",
+     "49-2094.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronic Equipment Assemblers",
+     "Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "CompTIA A+",
+     "CompTIA Network+",
+     "Systems Security Certified Practitioner (SSCP)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 27,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     62010
+    ],
+    "civilian_median_salary_usd": 62010,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 2 civilian occupations: Electrical and Electronic Equipment Assemblers, Electrical and Electronics Repairers, Commercial and Industrial Equipment. The training itself awards no civilian licence or certification. COOL lists 27 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), CompTIA A+, CompTIA Network+."
+   }
+  },
+  {
+   "id": "navy-stg",
+   "code": "STG",
+   "name": "Sonar Technician (Surface)",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": "Operates and repairs surface-ship sonar systems and antisubmarine-warfare fire-control equipment for underwater surveillance and detection. Source lists two accession-program variants with different minimums: an Advanced Electronics Field (AEF) track and a five-year-obligation (5YO) track.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MK+EI+GS>=222 (AEF track; source separately lists a 5YO track at AR+MK+EI+GS>=223 -OR- AR+MK+VE+AO>=228)",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2021.00"
+    ],
+    "civilian_titles": [
+     "Radio, Cellular, and Tower Equipment Installers and Repairers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 14,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 57720,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Radio, Cellular, and Tower Equipment Installers and Repairers. The training itself awards no civilian licence or certification. COOL lists 14 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "navy-sb",
+   "code": "SB",
+   "name": "Special Warfare Boat Operator",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": "Crews high-speed combatant craft (SWCC) to insert and extract special-operations forces and conduct maritime interdiction and coastal patrol.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+VE>=105 and MC>=51 -OR- AR+2MK+GS>=210 and MC>=51",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "53-5021.00",
+     "55-3018.00"
+    ],
+    "civilian_titles": [
+     "Captains, Mates, and Pilots of Water Vessels",
+     "Special Forces"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Hazardous Materials Manager (CHMM)",
+     "Emergency Medical Technician (EMT)",
+     "Certified Protection Professional (CPP)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 46,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     77130
+    ],
+    "civilian_median_salary_usd": 77130,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 2 civilian occupations: Captains, Mates, and Pilots of Water Vessels, Special Forces. The training itself awards no civilian licence or certification. COOL lists 46 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Hazardous Materials Manager (CHMM), Emergency Medical Technician (EMT)."
+   }
+  },
+  {
+   "id": "navy-so",
+   "code": "SO",
+   "name": "Special Warfare Operator",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": "Navy SEAL rating conducting unconventional warfare, direct-action raids, reconnaissance, and amphibious-beachhead operations across sea, air, and land.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR>=108 -AND- MC>=50 -AND- AR+MK>=100 --OR-- VE+MK+MC+CS>=216 -AND- AR+MK>=100 --OR-- GS+MC+EI>=167 -AND- AR+MK>=100 --OR-- VE+AR+MK+AO>=216 -AND- AR+MK>=100",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "55-3018.00"
+    ],
+    "civilian_titles": [
+     "Special Forces"
+    ],
+    "relevant_certifications": [
+     "Emergency Medical Technician (EMT)"
+    ],
+    "total_credentials_in_cool": 24,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 0,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Special Forces. The training itself awards no civilian licence or certification. COOL lists 24 related credentials you would still have to earn separately, including Emergency Medical Technician (EMT)."
+   }
+  },
+  {
+   "id": "navy-sw",
+   "code": "SW",
+   "name": "Steelworker",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Seabee rating that rigs, welds, and erects structural steel for bridges, piers, buildings, and storage tanks.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MC+AS>=145**",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-2211.00",
+     "47-2221.00",
+     "51-2041.00"
+    ],
+    "civilian_titles": [
+     "Sheet Metal Workers",
+     "Structural Iron and Steel Workers",
+     "Structural Metal Fabricators and Fitters"
+    ],
+    "relevant_certifications": [
+     "Certified Associate Welding Inspector (CAWI)",
+     "Certified Welding Inspector (CWI)",
+     "Certified Facility Manager (CFM)",
+     "Project Management Professional (PMP)",
+     "Certified Associate in Project Management (CAPM)",
+     "Construction Health and Safety Technician (CHST)"
+    ],
+    "total_credentials_in_cool": 44,
+    "estimated_civilian_salary_range_usd": [
+     41780,
+     54830
+    ],
+    "civilian_median_salary_usd": 51370,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 3 civilian occupations: Sheet Metal Workers, Structural Iron and Steel Workers, Structural Metal Fabricators and Fitters. The training itself awards no civilian licence or certification. COOL lists 44 related credentials you would still have to earn separately, including Certified Associate Welding Inspector (CAWI), Certified Welding Inspector (CWI), Certified Facility Manager (CFM)."
+   }
+  },
+  {
+   "id": "navy-tm",
+   "code": "TM",
+   "name": "Torpedoman's Mate",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Responsible for loading, unloading, and storing torpedoes, Tomahawk missiles, and countermeasure devices on submarines, and maintains high-pressure air and hydraulic launching systems.",
+   "entry_requirements": {
+    "asvab_line_score": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-5032.00",
+     "53-7041.00",
+     "49-9041.00",
+     "49-9071.00",
+     "49-9043.00"
+    ],
+    "civilian_titles": [
+     "Explosives Workers, Ordnance Handling Experts, and Blasters",
+     "Hoist and Winch Operators",
+     "Industrial Machinery Mechanics",
+     "Maintenance and Repair Workers, General",
+     "Maintenance Workers, Machinery"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 30,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     62610
+    ],
+    "civilian_median_salary_usd": 50100,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 5 civilian occupations: Explosives Workers, Ordnance Handling Experts, and Blasters, Hoist and Winch Operators, Industrial Machinery Mechanics, and 2 more. The training itself awards no civilian licence or certification. COOL lists 30 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Maintenance and Reliability Professionals (CMRP), Certified Maintenance and Reliability Technician (CMRT)."
+   }
+  },
+  {
+   "id": "navy-ut",
+   "code": "UT",
+   "name": "Utilitiesman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Seabee rating that installs and maintains plumbing, steam, compressed-air, fuel-storage, air-conditioning, refrigeration, and sewage systems.",
+   "entry_requirements": {
+    "asvab_line_score": "AR+MK+EI+GS>=205 -OR- AR+AS+MK>=145",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-3015.00",
+     "47-2152.00",
+     "51-8031.00"
+    ],
+    "civilian_titles": [
+     "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",
+     "Plumbers, Pipefitters, and Steamfitters",
+     "Water and Wastewater Treatment Plant and System Operators"
+    ],
+    "relevant_certifications": [
+     "Certified Facility Manager (CFM)",
+     "Project Management Professional (PMP)",
+     "Certified Associate in Project Management (CAPM)",
+     "Construction Health and Safety Technician (CHST)"
+    ],
+    "total_credentials_in_cool": 124,
+    "estimated_civilian_salary_range_usd": [
+     33590,
+     56330
+    ],
+    "civilian_median_salary_usd": 49090,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 3 civilian occupations: Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters, Plumbers, Pipefitters, and Steamfitters, Water and Wastewater Treatment Plant and System Operators. The training itself awards no civilian licence or certification. COOL lists 124 related credentials you would still have to earn separately, including Certified Facility Manager (CFM), Project Management Professional (PMP), Certified Associate in Project Management (CAPM)."
+   }
+  },
+  {
+   "id": "navy-yn-yeoman",
+   "code": "YN",
+   "name": "Yeoman",
+   "branch": "Navy",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "business-admin"
+   ],
+   "depth": "deep",
+   "what_it_is": null,
+   "entry_requirements": {
+    "asvab_line_score": "Navy ratings do not publish a single named 'line score' the way the Army does \u2014 data/interest-taxonomy.json documents this as 'no line score \u2014 per-rating subtest sums.' One secondary source (cogn-iq.org, retrieved 2026-07-12) reports a subtest-sum requirement of VE+MK+CS \u2265155 for YN. UNVERIFIED at primary-source level \u2014 mynavyhr.navy.mil returned HTTP 403 on direct fetch in this project's prior culinary-cluster research (data/specialties-culinary.json) and was not re-attempted this session given the ~10-web-call budget; confirm the current requirement with a recruiter or Navy COOL.",
+    "security_clearance": "Not typically required for general YN duty; UNVERIFIED whether assignments handling classified correspondence, military-justice/legal records, or flag-level staff work carry an elevated Secret-clearance requirement \u2014 not independently confirmed this session.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "11-3012.00",
+     "43-4021.00",
+     "43-6011.00",
+     "43-4071.00",
+     "43-1011.00",
+     "43-4161.00"
+    ],
+    "civilian_titles": [
+     "Administrative Services Managers",
+     "Correspondence Clerks",
+     "Executive Secretaries and Executive Administrative Assistants",
+     "File Clerks",
+     "First-Line Supervisors of Office and Administrative Support Workers",
+     "Human Resources Assistants, Except Payroll and Timekeeping"
+    ],
+    "relevant_certifications": [
+     "Certified Facility Manager (CFM)",
+     "Certified Professional Contracts Manager (CPCM)",
+     "Certified Associate in Project Management (CAPM)",
+     "PMI Risk Management Professional (PMI-RMP)"
+    ],
+    "total_credentials_in_cool": 24,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     63110
+    ],
+    "civilian_median_salary_usd": 38400,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 11 civilian occupations: Administrative Services Managers, Correspondence Clerks, Executive Secretaries and Executive Administrative Assistants, and 8 more. The training itself awards no civilian licence or certification. COOL lists 24 related credentials you would still have to earn separately, including Certified Facility Manager (CFM), Certified Professional Contracts Manager (CPCM), Certified Associate in Project Management (CAPM)."
+   }
+  }
+ ],
+ "unverified": []
+}

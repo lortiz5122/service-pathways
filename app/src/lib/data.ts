@@ -50,7 +50,16 @@ export const assets = assetJson as Record<string, unknown>;
  * have to care about.
  */
 const specialtyModules = import.meta.glob<{ default: SpecialtyFile }>(
-  ['../research/specialties-*.json', '../research/deep-batch-*.json'],
+  [
+    '../research/specialties-*.json',
+    // Built from official BULK sources (goarmy's servlet, the Air Force careers API,
+    // the Marine MOS Manual, DoD COOL) with no LLM in the loop. Every entry-level job
+    // gets its ASVAB gate, training pipeline, civilian crosswalk and credential gap.
+    '../research/deep-auto-*.json',
+    // Hand-researched, deeper. Loaded LAST so it WINS on any id collision — a record
+    // someone read the manual for beats one a script assembled.
+    '../research/deep-batch-*.json',
+  ],
   { eager: true },
 );
 

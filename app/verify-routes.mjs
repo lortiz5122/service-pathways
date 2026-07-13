@@ -142,15 +142,15 @@ for (const s of data.allSpecialties) {
       const entries = raw.specialties ?? [];
       if (!entries.length) continue;
       const branch = entries[0].branch;
+      // The real invariant is that NO JOB DISAPPEARS. It does not matter whether a
+      // job reaches the reader as a catalogue stub or a fully researched record —
+      // being researched is the GOAL, and a branch whose stubs have all been upgraded
+      // legitimately has zero catalogue entries left. What must never happen is a job
+      // vanishing, which is what an over-eager dedup does.
       const shown = cat.allJobs.filter((j) => j.branch === branch);
-      const fromCat = shown.filter((j) => j.depth === 'catalog').length;
-      if (fromCat === 0)
+      if (shown.length < entries.length)
         bad(
-          `${branch}: catalogue file holds ${entries.length} entries but ZERO reached the site — dedup ate the branch`,
-        );
-      if (shown.length < entries.length / 2)
-        bad(
-          `${branch}: ${entries.length} catalogued but only ${shown.length} shown — dedup is deleting jobs`,
+          `${branch}: catalogue file holds ${entries.length} jobs but only ${shown.length} reached the site — ${entries.length - shown.length} vanished`,
         );
     }
 

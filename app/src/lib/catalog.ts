@@ -83,7 +83,10 @@ const catalogEntries: CatalogEntry[] = Object.values(catalogModules)
 const slug = (s: string) =>
   s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
-function assignIds(entries: CatalogEntry[]): Map<CatalogEntry, string> {
+function assignIds(
+  entries: CatalogEntry[],
+  reserved: Set<string> = new Set(),
+): Map<CatalogEntry, string> {
   const base = new Map<CatalogEntry, string>();
   const counts = new Map<string, number>();
 
@@ -95,10 +98,13 @@ function assignIds(entries: CatalogEntry[]): Map<CatalogEntry, string> {
   }
 
   const out = new Map<CatalogEntry, string>();
-  const used = new Set<string>();
+  // Deep-record ids are RESERVED. A catalogue entry that survives dedup (because its
+  // deep record was already claimed by a different job) must not land on that record's
+  // id — two different jobs, one URL.
+  const used = new Set<string>(reserved);
   for (const e of entries) {
     let id = base.get(e)!;
-    if ((counts.get(id) ?? 0) > 1) id = slug(`${id}-${e.name}`);
+    if ((counts.get(id) ?? 0) > 1 || reserved.has(id)) id = slug(`${id}-${e.name}`);
     // Last resort: still colliding, so number it rather than merge two real jobs.
     let final = id;
     let n = 2;
@@ -161,28 +167,48 @@ const deepJobs: Job[] = allSpecialties.map((s) => ({
   record: s,
 }));
 
-/**
- * Fast key for "this exact job already exists as a deep record".
- *
- * A placeholder code is NOT an identity. "UNVERIFIED" is a statement that we do
- * not know the code — treating it as one collapses every unknown-code job in a
- * branch into a single job. That deleted all seven Space Force catalogue entries
- * once already, which is the silent-absence failure this file exists to prevent.
- */
-const deepKeys = new Set(
-  deepJobs
-    .filter((j) => !/UNVERIFIED/i.test(j.code))
-    .map((j) => `${j.branch}|${j.code.trim().toUpperCase()}`),
-);
+const catIds = assignIds(catalogEntries, new Set(deepJobs.map((j) => j.id)));
 
-const catIds = assignIds(catalogEntries);
+
+/**
+ * A deep record always wins — but it may absorb only ONE catalogue entry, ever.
+ *
+ * The match is fuzzy (a curated record's id and name rarely equal the catalogue's),
+ * and a fuzzy match applied greedily DELETES jobs. Three different Air Force nurse-
+ * practitioner specialties genuinely share code 46YX; one deep 46YX record swallowed
+ * all three and two real jobs vanished. An earlier fix still leaked, because a record
+ * could be claimed once by an exact-id match and AGAIN by a code match.
+ *
+ * So there is exactly one ledger, and every match path writes to it. A deep record is
+ * spoken for after its first catalogue entry. Anything left over is still shown. In
+ * the worst case a job appears twice; it may never be silently deleted.
+ */
+const claimedDeep = new Set<string>();
+
+/** The deep record this catalogue entry IS, if any — id, then code, then name. */
+function absorbedBy(e: CatalogEntry): SpecialtyRecord | undefined {
+  const id = catIds.get(e)!;
+  const byId = deepJobs.find((j) => j.id === id)?.record;
+  if (byId) return byId;
+
+  const code = e.code.trim().toUpperCase();
+  if (!/UNVERIFIED/i.test(code) && code.length >= 2) {
+    const byCode = allSpecialties.find(
+      (sp) => sp.branch === e.branch && String(sp.code).trim().toUpperCase() === code,
+    );
+    if (byCode) return byCode;
+  }
+
+  return deepMatch(e);
+}
 
 const catalogJobs: Job[] = catalogEntries
-  // A deep record always wins. Never show the same job twice at two depths.
   .filter((e) => {
-    const code = e.code.trim().toUpperCase();
-    if (!/UNVERIFIED/i.test(code) && deepKeys.has(`${e.branch}|${code}`)) return false;
-    return !deepMatch(e);
+    const deep = absorbedBy(e);
+    if (!deep) return true;              // no deep record — show the catalogue entry
+    if (claimedDeep.has(deep.id)) return true; // already absorbed one — keep this job
+    claimedDeep.add(deep.id);
+    return false;                        // the deep record represents this job
   })
   .map((e) => ({
     id: catIds.get(e)!,

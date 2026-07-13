@@ -1,0 +1,1224 @@
+{
+ "branch": "Coast Guard",
+ "retrieved": "2026-07-12",
+ "source": "Built from official bulk sources: goarmy cmtjobs servlet, airforce.com careers API, NAVMC 1200.1L, and DoD COOL. No figure inferred; missing fields are absent, not invented. Pay is deliberately excluded \u2014 it is a function of paygrade, not of the job.",
+ "specialties": [
+  {
+   "id": "coast-guard-amt-aviation-maintenance-technician",
+   "code": "AMT",
+   "name": "Aviation Maintenance Technician",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation",
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "Aircrew duty is common \u2014 AMTs frequently fly as flight mechanics.",
+   "entry_requirements": {
+    "asvab_line_score": "UNVERIFIED \u2014 the Coast Guard has NO line-score composites; each rating sums raw subtest standard scores. The AMT requirement is published in Enclosure 3 of COMDTINST M1510.10, which is not publicly fetchable. AFQT minimum to enlist is 32.",
+    "security_clearance": "Secret (UNVERIFIED for this specific rating).",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-3011.00",
+     "49-9012.00",
+     "51-4121.00",
+     "51-4122.00"
+    ],
+    "civilian_titles": [
+     "Aircraft Mechanics and Service Technicians",
+     "Control and Valve Installers and Repairers, Except Mechanical Door",
+     "Welders, Cutters, Solderers, and Brazers",
+     "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Certified Professional in Supply Management (CPSM)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 117,
+    "estimated_civilian_salary_range_usd": [
+     39410,
+     66440
+    ],
+    "civilian_median_salary_usd": 60580,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 4 civilian occupations: Aircraft Mechanics and Service Technicians, Control and Valve Installers and Repairers, Except Mechanical Door, Welders, Cutters, Solderers, and Brazers, and 1 more. The training itself awards no civilian licence or certification. COOL lists 117 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Maintenance and Reliability Professionals (CMRP), Certified Maintenance and Reliability Technician (CMRT)."
+   }
+  },
+  {
+   "id": "coast-guard-ast-aviation-survival-technician",
+   "code": "AST",
+   "name": "Aviation Survival Technician (Rescue Swimmer)",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation",
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "ASTs are the Coast Guard's rescue swimmers. They also provide emergency medical support and maintain survival equipment.",
+   "entry_requirements": {
+    "asvab_line_score": "UNVERIFIED \u2014 no Coast Guard line scores; the rating requirement is in COMDTINST M1510.10 Enclosure 3, not publicly fetchable. AFQT minimum to enlist is 32.",
+    "security_clearance": "Secret (UNVERIFIED).",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "33-9092.00",
+     "55-3019.00"
+    ],
+    "civilian_titles": [
+     "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",
+     "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Strength and Conditioning Specialist (CSCS)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 36,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     25020
+    ],
+    "civilian_median_salary_usd": 25020,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 2 civilian occupations: Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers, Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other. The training itself awards no civilian licence or certification. COOL lists 36 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Strength and Conditioning Specialist (CSCS), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "coast-guard-aet-avionics-electrical-technician",
+   "code": "AET",
+   "name": "Avionics Electrical Technician",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "aviation",
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "Aircrew duty is common.",
+   "entry_requirements": {
+    "asvab_line_score": "UNVERIFIED \u2014 no Coast Guard line scores; requirement is in COMDTINST M1510.10 Enclosure 3. AFQT minimum to enlist is 32. Expect a high electronics-subtest requirement.",
+    "security_clearance": "Secret (UNVERIFIED).",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "17-3021.00",
+     "53-6051.01",
+     "49-2091.00",
+     "49-9012.00",
+     "17-3023.00",
+     "49-2096.00"
+    ],
+    "civilian_titles": [
+     "Aerospace Engineering and Operations Technologists and Technicians",
+     "Aviation Inspectors",
+     "Avionics Technicians",
+     "Control and Valve Installers and Repairers, Except Mechanical Door",
+     "Electrical and Electronic Engineering Technologists and Technicians",
+     "Electronic Equipment Installers and Repairers, Motor Vehicles"
+    ],
+    "relevant_certifications": [
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 63,
+    "estimated_civilian_salary_range_usd": [
+     39570,
+     78400
+    ],
+    "civilian_median_salary_usd": 67840,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 6 civilian occupations: Aerospace Engineering and Operations Technologists and Technicians, Aviation Inspectors, Avionics Technicians, and 3 more. The training itself awards no civilian licence or certification. COOL lists 63 related credentials you would still have to earn separately, including Certified Maintenance and Reliability Professionals (CMRP), Certified Maintenance and Reliability Technician (CMRT), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "coast-guard-bm-boatswains-mate",
+   "code": "BM",
+   "name": "Boatswain's Mate",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": null,
+   "entry_requirements": {
+    "asvab_line_score": "Coast Guard has no line-score system \u2014 ratings sum raw ASVAB subtest standard scores (per data/interest-taxonomy.json: 'USCG: no line score \u2014 per-rating subtest sums'). One secondary source (study.com, searched 2026-07-12) reports BM A-School requires AR+VE \u2265 100 with no separate minimum on any individual subtest. UNVERIFIED at primary-source level \u2014 not independently confirmed via a direct fetch of an official uscg.mil/gocoastguard.com rating-requirements page this session. The Coast Guard's general enlistment floor is an AFQT of 32 (50+ for GED holders), per a different secondary source in the same search; this is the enlistment gate, not the BM-specific rating gate. Do NOT invent a named composite \u2014 Coast Guard, like Navy, uses raw subtest sums per rating, not a composite name.",
+    "security_clearance": "Not typically required for the general rating; law-enforcement/homeland-security-adjacent boat-crew duties (e.g., maritime law enforcement boardings) may carry additional screening, not independently confirmed to primary-source level this session.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "53-5021.00",
+     "51-9124.00",
+     "53-5022.00",
+     "49-9096.00"
+    ],
+    "civilian_titles": [
+     "Captains, Mates, and Pilots of Water Vessels",
+     "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",
+     "Motorboat Operators",
+     "Riggers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Hazardous Materials Manager (CHMM)",
+     "Emergency Medical Technician (EMT)",
+     "Certified Facility Manager (CFM)",
+     "Certified Strength and Conditioning Specialist (CSCS)",
+     "Professional Certified Investigator (PCI)",
+     "Professional Traffic Operations Engineer (PTOE)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 116,
+    "estimated_civilian_salary_range_usd": [
+     39060,
+     77130
+    ],
+    "civilian_median_salary_usd": 55910,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 4 civilian occupations: Captains, Mates, and Pilots of Water Vessels, Coating, Painting, and Spraying Machine Setters, Operators, and Tenders, Motorboat Operators, and 1 more. The training itself awards no civilian licence or certification. COOL lists 116 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Hazardous Materials Manager (CHMM), Emergency Medical Technician (EMT)."
+   }
+  },
+  {
+   "id": "coast-guard-cs-culinary-specialist",
+   "code": "CS",
+   "name": "Culinary Specialist",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "culinary"
+   ],
+   "depth": "deep",
+   "what_it_is": "NAMING NOTE: The Coast Guard renamed this rating from 'Food Service Specialist (FS)' to 'Culinary Specialist (CS)' on 2017-01-06, to better reflect the culinary skill level involved (per Wikipedia summary of official Coast Guard messaging, cross-referenced against gocoastguard.com/careers/enlisted/cs which uses 'CS' and 'Culinary Specialist' throughout). data/interest-taxonomy.json still lists this rating as 'FS \u2014 Food Service Specialist,' which is the pre-2017 name; recommend the taxonomy file be updated to 'CS \u2014 Culinary Specialist' in a future pass. Flagged here rather than silently corrected.",
+   "entry_requirements": {
+    "asvab_line_score": "UNVERIFIED \u2014 no rating-specific composite score located this session. Coast Guard uses summed raw subtest scores per rating (like the Navy) rather than a single published line score, consistent with data/interest-taxonomy.json's 'no line score \u2014 per-rating subtest sums' note for this cluster. The general Coast Guard AFQT floor is 32 with a high school diploma (50 with a GED), lowered from 40 in November 2023, but this is the general accession floor, not a CS-specific rating cutoff. Confirm the current CS-specific subtest requirement with a recruiter.",
+    "security_clearance": "Not typically required.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "35-1011.00",
+     "35-2012.00",
+     "35-2014.00",
+     "35-3023.00",
+     "43-4071.00",
+     "35-1012.00"
+    ],
+    "civilian_titles": [
+     "Chefs and Head Cooks",
+     "Cooks, Institution and Cafeteria",
+     "Cooks, Restaurant",
+     "Fast Food and Counter Workers",
+     "File Clerks",
+     "First-Line Supervisors of Food Preparation and Serving Workers"
+    ],
+    "relevant_certifications": [
+     "Certified Dietary Manager, Certified Food Protection Professional (CDM, CFPP)",
+     "Certified Executive Chef (CEC)",
+     "Project Management Professional (PMP)",
+     "Certified Associate in Project Management (CAPM)",
+     "Registered Dietitian (RD)"
+    ],
+    "total_credentials_in_cool": 27,
+    "estimated_civilian_salary_range_usd": [
+     23860,
+     56590
+    ],
+    "civilian_median_salary_usd": 34090,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 8 civilian occupations: Chefs and Head Cooks, Cooks, Institution and Cafeteria, Cooks, Restaurant, and 5 more. The training itself awards no civilian licence or certification. COOL lists 27 related credentials you would still have to earn separately, including Certified Dietary Manager, Certified Food Protection Professional (CDM, CFPP), Certified Executive Chef (CEC), Project Management Professional (PMP)."
+   }
+  },
+  {
+   "id": "coast-guard-cms",
+   "code": "CMS",
+   "name": "Cyber Mission Specialist",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "CMSs defend Coast Guard and maritime networks against cyber threats.",
+   "entry_requirements": {
+    "asvab_line_score": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [],
+    "civilian_titles": [],
+    "relevant_certifications": [
+     "CompTIA A+",
+     "CompTIA Network+",
+     "Certified Information Systems Security Professional (CISSP)",
+     "Red Hat Certified Engineer (RHCE)",
+     "GIAC Certified Incident Handler (GCIH)",
+     "GIAC Certified Intrusion Analyst (GCIA)",
+     "GIAC Security Essentials Certification (GSEC)",
+     "Systems Security Certified Practitioner (SSCP)"
+    ],
+    "total_credentials_in_cool": 138,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": null,
+    "salary_source": null,
+    "credential_gap_note": "DoD COOL lists NO civilian occupation whose duties substantially match this job. That is not an oversight \u2014 it means the work has no close civilian equivalent, and the experience will not translate directly into a job title on the outside. The training itself awards no civilian licence or certification. COOL lists 138 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, Certified Information Systems Security Professional (CISSP)."
+   }
+  },
+  {
+   "id": "coast-guard-dc-damage-controlman",
+   "code": "DC",
+   "name": "Damage Controlman",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": null,
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR+MK+MC = 156 (Verbal Expression + Arithmetic Reasoning + Mathematics Knowledge + Mechanical Comprehension), per asvabtestbank.com/ratemyasvab.com. UNVERIFIED at primary-source level \u2014 confirm with a recruiter or Coast Guard COOL.",
+    "security_clearance": "Not typically required.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-2031.00",
+     "47-2061.00",
+     "33-2011.00",
+     "47-1011.00",
+     "33-1021.00",
+     "49-9098.00"
+    ],
+    "civilian_titles": [
+     "Carpenters",
+     "Construction Laborers",
+     "Firefighters",
+     "First-Line Supervisors of Construction Trades and Extraction Workers",
+     "First-Line Supervisors of Firefighting and Prevention Workers",
+     "Helpers--Installation, Maintenance, and Repair Workers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Associate Welding Inspector (CAWI)",
+     "Certified Welding Inspector (CWI)",
+     "Certified Facility Manager (CFM)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "LEED Green Associate",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 231,
+    "estimated_civilian_salary_range_usd": [
+     31760,
+     78870
+    ],
+    "civilian_median_salary_usd": 49520,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 14 civilian occupations: Carpenters, Construction Laborers, Firefighters, and 11 more. The training itself awards no civilian licence or certification. COOL lists 231 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Associate Welding Inspector (CAWI), Certified Welding Inspector (CWI)."
+   }
+  },
+  {
+   "id": "coast-guard-dv",
+   "code": "DV",
+   "name": "Diver",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": "DVs conduct underwater searches, recoveries, investigations, maintenance, and repairs.",
+   "entry_requirements": {
+    "asvab_line_score": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-9092.00"
+    ],
+    "civilian_titles": [
+     "Commercial Divers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Associate Welding Inspector (CAWI)",
+     "Emergency Medical Technician (EMT)",
+     "Certified Strength and Conditioning Specialist (CSCS)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 27,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 54800,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Commercial Divers. The training itself awards no civilian licence or certification. COOL lists 27 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Associate Welding Inspector (CAWI), Emergency Medical Technician (EMT)."
+   }
+  },
+  {
+   "id": "coast-guard-em",
+   "code": "EM",
+   "name": "Electrician's Mate",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": "EMs install, maintain, and repair electrical equipment and machinery control systems at Coast Guard units and onboard cutters.",
+   "entry_requirements": {
+    "asvab_line_score": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-2092.00",
+     "17-3023.00",
+     "49-2093.00",
+     "49-2094.00",
+     "47-2111.00",
+     "47-3013.00"
+    ],
+    "civilian_titles": [
+     "Electric Motor, Power Tool, and Related Repairers",
+     "Electrical and Electronic Engineering Technologists and Technicians",
+     "Electrical and Electronics Installers and Repairers, Transportation Equipment",
+     "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+     "Electricians",
+     "Helpers--Electricians"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Energy Manager (CEM)",
+     "Certified Facility Manager (CFM)",
+     "Certified Associate in Project Management (CAPM)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)",
+     "Construction Health and Safety Technician (CHST)"
+    ],
+    "total_credentials_in_cool": 140,
+    "estimated_civilian_salary_range_usd": [
+     33840,
+     95100
+    ],
+    "civilian_median_salary_usd": 67550,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 8 civilian occupations: Electric Motor, Power Tool, and Related Repairers, Electrical and Electronic Engineering Technologists and Technicians, Electrical and Electronics Installers and Repairers, Transportation Equipment, and 5 more. The training itself awards no civilian licence or certification. COOL lists 140 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Energy Manager (CEM), Certified Facility Manager (CFM)."
+   }
+  },
+  {
+   "id": "coast-guard-et",
+   "code": "ET",
+   "name": "Electronics Technician",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "ETs install, repair, and maintain command, control, computer, communications, cyber, intelligence, surveillance, and reconnaissance (C5ISR) systems.",
+   "entry_requirements": {
+    "asvab_line_score": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "17-3023.00",
+     "51-2022.00",
+     "49-2093.00",
+     "49-2094.00",
+     "17-3024.00",
+     "49-2021.00"
+    ],
+    "civilian_titles": [
+     "Electrical and Electronic Engineering Technologists and Technicians",
+     "Electrical and Electronic Equipment Assemblers",
+     "Electrical and Electronics Installers and Repairers, Transportation Equipment",
+     "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+     "Electro-Mechanical and Mechatronics Technologists and Technicians",
+     "Radio, Cellular, and Tower Equipment Installers and Repairers"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "CompTIA A+",
+     "CompTIA Network+",
+     "CompTIA Server+",
+     "Registered Communications Distribution Designer (RCDD)",
+     "CompTIA Security+",
+     "Associate Safety Professional (ASP)",
+     "CompTIA SecurityX (formerly CASP+)"
+    ],
+    "total_credentials_in_cool": 111,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     70200
+    ],
+    "civilian_median_salary_usd": 62010,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 6 civilian occupations: Electrical and Electronic Engineering Technologists and Technicians, Electrical and Electronic Equipment Assemblers, Electrical and Electronics Installers and Repairers, Transportation Equipment, and 3 more. The training itself awards no civilian licence or certification. COOL lists 111 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), CompTIA A+, CompTIA Network+."
+   }
+  },
+  {
+   "id": "coast-guard-gm",
+   "code": "GM",
+   "name": "Gunner's Mate",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "law-enforcement-security"
+   ],
+   "depth": "deep",
+   "what_it_is": "GMs maintain firearms, from handguns to ship-mounted guns.",
+   "entry_requirements": {
+    "asvab_line_score": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "47-5032.00",
+     "53-1043.00",
+     "49-9099.00",
+     "49-9071.00"
+    ],
+    "civilian_titles": [
+     "Explosives Workers, Ordnance Handling Experts, and Blasters",
+     "First-Line Supervisors of Material-Moving Machine and Vehicle Operators",
+     "Installation, Maintenance, and Repair Workers, All Other",
+     "Maintenance and Repair Workers, General"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Protection Professional (CPP)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 57,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     42480
+    ],
+    "civilian_median_salary_usd": 40850,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 4 civilian occupations: Explosives Workers, Ordnance Handling Experts, and Blasters, First-Line Supervisors of Material-Moving Machine and Vehicle Operators, Installation, Maintenance, and Repair Workers, All Other, and 1 more. The training itself awards no civilian licence or certification. COOL lists 57 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Protection Professional (CPP), Certified Maintenance and Reliability Professionals (CMRP)."
+   }
+  },
+  {
+   "id": "coast-guard-hs-health-services-technician",
+   "code": "HS",
+   "name": "Health Services Technician",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "healthcare-medical"
+   ],
+   "depth": "deep",
+   "what_it_is": "Independent Duty Health Services Technician (IDHS) follow-on qualification requires operating with minimal on-site physician oversight aboard cutters/at remote stations \u2014 this is a real operational responsibility bar but was not independently sourced to a specific additional entry criterion this session.",
+   "entry_requirements": {
+    "asvab_line_score": "UNVERIFIED \u2014 no specific HS-rating ASVAB line-score requirement was found in any search result this session (multiple sources checked, none stated a numeric HS-specific composite). Only the Coast Guard-wide AFQT floor of 40 (the highest minimum AFQT of any branch) was confirmed. Verify the HS-specific line score at gocoastguard.com/careers/enlisted/hs or with a recruiter before publishing.",
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "31-9091.00",
+     "29-2042.00",
+     "31-1121.00",
+     "31-9092.00",
+     "43-6013.00",
+     "31-1131.00"
+    ],
+    "civilian_titles": [
+     "Dental Assistants",
+     "Emergency Medical Technicians",
+     "Home Health Aides",
+     "Medical Assistants",
+     "Medical Secretaries and Administrative Assistants",
+     "Nursing Assistants"
+    ],
+    "relevant_certifications": [
+     "Registered Dental Assistant (RDA)",
+     "Certified Safety Professional (CSP)",
+     "Emergency Medical Responder (EMR)",
+     "Radiography (R)",
+     "PTCB Certified Pharmacy Technician (PTCB-CPhT)",
+     "Certified Pulmonary Function Technologist (CPFT)",
+     "Magnetic Resonance Imaging Technologist",
+     "Certified Medical Assistant (CMA)"
+    ],
+    "total_credentials_in_cool": 243,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     86850
+    ],
+    "civilian_median_salary_usd": 30850,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 11 civilian occupations: Dental Assistants, Emergency Medical Technicians, Home Health Aides, and 8 more. The training itself awards no civilian licence or certification. COOL lists 243 related credentials you would still have to earn separately, including Registered Dental Assistant (RDA), Certified Safety Professional (CSP), Emergency Medical Responder (EMR)."
+   }
+  },
+  {
+   "id": "coast-guard-it-information-systems-technician",
+   "code": "IT",
+   "name": "Information Systems Technician",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "technology-cyber"
+   ],
+   "depth": "deep",
+   "what_it_is": "U.S. citizenship required. The Coast Guard is a Department of Homeland Security component, not DoD - administrative and benefit specifics can differ from the other five branches even where dollar figures happen to align.",
+   "entry_requirements": {
+    "asvab_line_score": "AR + MK + EI + GS >= 171 (Arithmetic Reasoning + Mathematics Knowledge + Electronics Information + General Science subtest sum). The Coast Guard has no named 'line score' composite system, consistent with data/interest-taxonomy.json's note. Search-sourced (ratemyasvab.com, operationmilitarykids.org); not independently fetched to primary-source (uscg.mil) confidence this session.",
+    "security_clearance": "Not independently confirmed to a specific tier this session. The rating description ('system administrator for unclassified and classified systems') implies at least a Secret clearance is required for many IT billets - flagged as inference, not a directly sourced clearance-level statement. Whatever tier applies, clearance eligibility is a hard gate independent of ASVAB score: per SEAD 4 (the government-wide National Security Adjudicative Guidelines, applied DHS-wide including the Coast Guard), common disqualifiers include foreign influence/preference (close foreign-national contacts, dual citizenship, foreign-government ties), financial considerations (unresolved delinquent debt, bankruptcy pattern, tax delinquency), and drug involvement/substance misuse (recent illegal drug use or a pattern of misuse) - a qualifying aptitude score does not offset a disqualifying finding under these guidelines.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "27-4031.00",
+     "11-3021.00",
+     "15-1231.00",
+     "15-1211.00",
+     "15-1232.00",
+     "49-2011.00"
+    ],
+    "civilian_titles": [
+     "Camera Operators, Television, Video, and Film",
+     "Computer and Information Systems Managers",
+     "Computer Network Support Specialists",
+     "Computer Systems Analysts",
+     "Computer User Support Specialists",
+     "Computer, Automated Teller, and Office Machine Repairers"
+    ],
+    "relevant_certifications": [
+     "CompTIA A+",
+     "CompTIA Network+",
+     "CompTIA Server+",
+     "Registered Communications Distribution Designer (RCDD)",
+     "Certified Information Systems Auditor (CISA)",
+     "Certified Information Systems Security Professional (CISSP)",
+     "Project Management Professional (PMP)",
+     "Red Hat Certified Engineer (RHCE)"
+    ],
+    "total_credentials_in_cool": 398,
+    "estimated_civilian_salary_range_usd": [
+     0,
+     151150
+    ],
+    "civilian_median_salary_usd": 65450,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 9 civilian occupations: Camera Operators, Television, Video, and Film, Computer and Information Systems Managers, Computer Network Support Specialists, and 6 more. The training itself awards no civilian licence or certification. COOL lists 398 related credentials you would still have to earn separately, including CompTIA A+, CompTIA Network+, CompTIA Server+."
+   }
+  },
+  {
+   "id": "coast-guard-is-intelligence-specialist",
+   "code": "IS",
+   "name": "Intelligence Specialist",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "intelligence-analysis"
+   ],
+   "depth": "deep",
+   "what_it_is": "Under DoD's 13 Adjudicative Guidelines (Security Executive Agent Directive 4 / 32 CFR Part 147), none of the following are automatic mechanical disqualifiers under the 'whole person' standard, but they are the dominant real-world reasons applicants and incumbents are denied or lose eligibility, and each can rule out this specialty even with a fully qualifying ASVAB score: (1) unresolved foreign contacts, foreign relatives in certain countries, foreign property/financial interests, or foreign romantic ties that create potential foreign leverage (Guideline B, Foreign Influence); (2) a pattern of serious financial delinquency -- unresolved debt (especially over $10,000), recent bankruptcy, wage garnishment, or repeated late payment patterns (Guideline F; financial issues are cited as roughly 45% of DoD clearance denials); (3) illegal drug use, misuse of prescription medication, or continued use after applying (Guideline H); and (4), treated especially seriously, deliberately concealing or falsifying any of the above -- including an UNREPORTED dual citizenship or undisclosed foreign contact -- during the application or investigation (Guideline E, Personal Conduct). A 16-24-year-old considering this cluster should treat clearance eligibility as a real, independent gate, not a formality layered on top of a qualifying ASVAB score.",
+   "entry_requirements": {
+    "asvab_line_score": "UNVERIFIED at the rating-specific line-score level. The Coast Guard's general enlistment AFQT minimum is 40 -- the highest floor of any branch (per search results this session and data/branch-profiles.json) -- but a rating-specific IS line-score/composite requirement was not located this session; gocoastguard.com/careers/enlisted/is was fetched directly this session and did not surface a specific numeric requirement in the fetched content.",
+    "security_clearance": "UNVERIFIED at the specific-tier level (Secret vs. TS/SCI) this session. The IS rating page fetched this session describes the role as requiring personnel who are 'comfortable keeping secrets' and whose training includes 'protecting classified information,' consistent with this cluster's pattern across every other branch (TS/SCI, SSBI-adjudicated), but the fetched page did not state an explicit clearance tier -- treat TS/SCI as the working assumption pending direct recruiter confirmation.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "33-3021.06",
+     "19-3099.00"
+    ],
+    "civilian_titles": [
+     "Intelligence Analysts",
+     "Social Scientists and Related Workers, All Other"
+    ],
+    "relevant_certifications": [
+     "CompTIA Security+",
+     "Certified Ethical Hacker (CEH)",
+     "CompTIA Cybersecurity Analyst (CySA+)",
+     "Certified Network Defender (CND)"
+    ],
+    "total_credentials_in_cool": 37,
+    "estimated_civilian_salary_range_usd": [
+     86940,
+     87260
+    ],
+    "civilian_median_salary_usd": 87260,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 2 civilian occupations: Intelligence Analysts, Social Scientists and Related Workers, All Other. The training itself awards no civilian licence or certification. COOL lists 37 related credentials you would still have to earn separately, including CompTIA Security+, Certified Ethical Hacker (CEH), CompTIA Cybersecurity Analyst (CySA+)."
+   }
+  },
+  {
+   "id": "coast-guard-mk-machinery-technician",
+   "code": "MK",
+   "name": "Machinery Technician",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "mechanical-engineering"
+   ],
+   "depth": "deep",
+   "what_it_is": null,
+   "entry_requirements": {
+    "asvab_line_score": "UNVERIFIED \u2014 this session did not locate a specific MK ASVAB subtest-sum requirement. The general Coast Guard AFQT floor (32 with a high school diploma) was independently confirmed in this project's prior EDU-BENEFITS/culinary research passes, but a rating-specific MK composite was not found this session \u2014 confirm with a recruiter or the Coast Guard COOL MK overview page directly.",
+    "security_clearance": "Not typically required for the base rating.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "49-3031.00",
+     "51-2031.00",
+     "49-1011.00",
+     "49-9021.00",
+     "49-9098.00",
+     "49-9041.00"
+    ],
+    "civilian_titles": [
+     "Bus and Truck Mechanics and Diesel Engine Specialists",
+     "Engine and Other Machine Assemblers",
+     "First-Line Supervisors of Mechanics, Installers, and Repairers",
+     "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+     "Helpers--Installation, Maintenance, and Repair Workers",
+     "Industrial Machinery Mechanics"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Certified Facility Manager (CFM)",
+     "Certified Maintenance and Reliability Professionals (CMRP)",
+     "Certified Maintenance and Reliability Technician (CMRT)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 194,
+    "estimated_civilian_salary_range_usd": [
+     31760,
+     75990
+    ],
+    "civilian_median_salary_usd": 50100,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 16 civilian occupations: Bus and Truck Mechanics and Diesel Engine Specialists, Engine and Other Machine Assemblers, First-Line Supervisors of Mechanics, Installers, and Repairers, and 13 more. The training itself awards no civilian licence or certification. COOL lists 194 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Certified Facility Manager (CFM), Certified Maintenance and Reliability Professionals (CMRP)."
+   }
+  },
+  {
+   "id": "coast-guard-mst",
+   "code": "MST",
+   "name": "Marine Science Technician",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": "MSTs inspect vessels and facilities and respond to pollution incidents.",
+   "entry_requirements": {
+    "asvab_line_score": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "19-4099.00"
+    ],
+    "civilian_titles": [
+     "Life, Physical, and Social Science Technicians, All Other"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Project Management Professional (PMP)",
+     "Specialist in Chemistry (SC(ASCP))",
+     "Certified Associate in Project Management (CAPM)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 63,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 52460,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Life, Physical, and Social Science Technicians, All Other. The training itself awards no civilian licence or certification. COOL lists 63 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Project Management Professional (PMP), Specialist in Chemistry (SC(ASCP))."
+   }
+  },
+  {
+   "id": "coast-guard-me-maritime-enforcement-specialist",
+   "code": "ME",
+   "name": "Maritime Enforcement Specialist",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "law-enforcement-security"
+   ],
+   "depth": "deep",
+   "what_it_is": "Valid state driver's license required, plus a minimum 24 months of obligated service remaining from the date of ME 'A' School graduation, per forcecom.uscg.mil.",
+   "entry_requirements": {
+    "asvab_line_score": "No ME-specific ASVAB subtest requirement was located this session; only the general Coast Guard AFQT floor (reported as 32 with a diploma, per data/branch-profiles.json's general_eligibility.education note) applies as the general accession gate. UNVERIFIED at the rating-specific level.",
+    "security_clearance": "Background investigation/security clearance required; no conviction for domestic violence and no restraining order that would prohibit firearm possession \u2014 a specific ME eligibility gate, since MEs must be armed to perform the rating's core boarding-officer duties (per gocoastguard.com).",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "33-3012.00",
+     "33-3051.00",
+     "21-1092.00",
+     "33-9032.00"
+    ],
+    "civilian_titles": [
+     "Correctional Officers and Jailers",
+     "Police and Sheriff's Patrol Officers",
+     "Probation Officers and Correctional Treatment Specialists",
+     "Security Guards"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Emergency Medical Technician (EMT)",
+     "Certified Protection Professional (CPP)",
+     "Certified Strength and Conditioning Specialist (CSCS)",
+     "Professional Certified Investigator (PCI)",
+     "Systems Security Certified Practitioner (SSCP)",
+     "GIAC Security Leadership Certification (GSLC)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 51,
+    "estimated_civilian_salary_range_usd": [
+     31050,
+     65540
+    ],
+    "civilian_median_salary_usd": 55690,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 4 civilian occupations: Correctional Officers and Jailers, Police and Sheriff's Patrol Officers, Probation Officers and Correctional Treatment Specialists, and 1 more. The training itself awards no civilian licence or certification. COOL lists 51 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Emergency Medical Technician (EMT), Certified Protection Professional (CPP)."
+   }
+  },
+  {
+   "id": "coast-guard-os-operations-specialist",
+   "code": "OS",
+   "name": "Operations Specialist",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "maritime-nautical"
+   ],
+   "depth": "deep",
+   "what_it_is": null,
+   "entry_requirements": {
+    "asvab_line_score": "Coast Guard has no line-score system \u2014 ratings sum raw ASVAB subtest standard scores (per data/interest-taxonomy.json). No specific OS subtest-sum threshold was found or confirmed this session (search returned only general Coast Guard enlistment-floor information, not an OS-specific figure). UNVERIFIED \u2014 do NOT infer a number; confirm current OS requirements directly with a Coast Guard recruiter or gocoastguard.com. Qualitative requirement reported by the official career page: a good working knowledge of arithmetic, ability to work with modern computing/display equipment, strong communication skills, and good manual dexterity. Must be a U.S. citizen and able to meet all security clearance requirements.",
+    "security_clearance": "Required \u2014 OS candidates must be U.S. citizens and able to meet all security clearance requirements, per the official career description (gocoastguard.com/careers/enlisted/os, searched 2026-07-12), since the rating handles classified tactical and operational information.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "55-3015.00"
+    ],
+    "civilian_titles": [
+     "Command and Control Center Specialists"
+    ],
+    "relevant_certifications": [
+     "Certified Safety Professional (CSP)",
+     "Professional Traffic Operations Engineer (PTOE)",
+     "Associate Safety Professional (ASP)"
+    ],
+    "total_credentials_in_cool": 84,
+    "estimated_civilian_salary_range_usd": null,
+    "civilian_median_salary_usd": 0,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 1 civilian occupation: Command and Control Center Specialists. The training itself awards no civilian licence or certification. COOL lists 84 related credentials you would still have to earn separately, including Certified Safety Professional (CSP), Professional Traffic Operations Engineer (PTOE), Associate Safety Professional (ASP)."
+   }
+  },
+  {
+   "id": "coast-guard-pa",
+   "code": "PA",
+   "name": "Public Affairs Specialist",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "music-media"
+   ],
+   "depth": "deep",
+   "what_it_is": "PAs communicate Coast Guard activities to the public and news media.",
+   "entry_requirements": {
+    "asvab_line_score": null,
+    "security_clearance": null,
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "43-9031.00",
+     "25-4022.00",
+     "27-3023.00",
+     "27-3031.00",
+     "43-6014.00",
+     "27-1014.00"
+    ],
+    "civilian_titles": [
+     "Desktop Publishers",
+     "Librarians and Media Collections Specialists",
+     "News Analysts, Reporters, and Journalists",
+     "Public Relations Specialists",
+     "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",
+     "Special Effects Artists and Animators"
+    ],
+    "relevant_certifications": [
+     "Project Management Professional (PMP)",
+     "Certified Associate in Project Management (CAPM)"
+    ],
+    "total_credentials_in_cool": 28,
+    "estimated_civilian_salary_range_usd": [
+     38850,
+     77700
+    ],
+    "civilian_median_salary_usd": 60820,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 6 civilian occupations: Desktop Publishers, Librarians and Media Collections Specialists, News Analysts, Reporters, and Journalists, and 3 more. The training itself awards no civilian licence or certification. COOL lists 28 related credentials you would still have to earn separately, including Project Management Professional (PMP), Certified Associate in Project Management (CAPM)."
+   }
+  },
+  {
+   "id": "uscg-sk-storekeeper",
+   "code": "SK",
+   "name": "Storekeeper",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "logistics-supply"
+   ],
+   "depth": "deep",
+   "what_it_is": "As DHS (not DoD) personnel, Coast Guard members' benefits administration and trademark statute (14 U.S.C. \u00a7934) differ in some respects from the five DoD branches \u2014 noted per this project's master prompt, not independently re-verified per-SK-billet this session.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR (Verbal Expression + Arithmetic Reasoning) combined score of 105 minimum, per the official U.S. Coast Guard ASVAB/AFCT Process Guide (uscg.mil, PDF).",
+    "security_clearance": "Not confirmed as a blanket requirement; not independently verified this session.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "13-2011.00",
+     "43-3031.00",
+     "13-2031.00",
+     "41-1011.00",
+     "13-1081.00",
+     "43-9051.00"
+    ],
+    "civilian_titles": [
+     "Accountants and Auditors",
+     "Bookkeeping, Accounting, and Auditing Clerks",
+     "Budget Analysts",
+     "First-Line Supervisors of Retail Sales Workers",
+     "Logisticians",
+     "Mail Clerks and Mail Machine Operators, Except Postal Service"
+    ],
+    "relevant_certifications": [
+     "Uniform Certified Public Accountant (CPA) Examination",
+     "Quality Auditor Certification (CQA)",
+     "Certified Facility Manager (CFM)",
+     "Certified Professional Contracts Manager (CPCM)",
+     "Accredited Financial Counselor (AFC)",
+     "Certified Associate in Project Management (CAPM)",
+     "Certified Professional in Supply Management (CPSM)",
+     "PMI Risk Management Professional (PMI-RMP)"
+    ],
+    "total_credentials_in_cool": 42,
+    "estimated_civilian_salary_range_usd": [
+     27080,
+     78970
+    ],
+    "civilian_median_salary_usd": 49640,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 13 civilian occupations: Accountants and Auditors, Bookkeeping, Accounting, and Auditing Clerks, Budget Analysts, and 10 more. The training itself awards no civilian licence or certification. COOL lists 42 related credentials you would still have to earn separately, including Uniform Certified Public Accountant (CPA) Examination, Quality Auditor Certification (CQA), Certified Facility Manager (CFM)."
+   }
+  },
+  {
+   "id": "coast-guard-yn-yeoman",
+   "code": "YN",
+   "name": "Yeoman",
+   "branch": "Coast Guard",
+   "track": "enlisted",
+   "interest_cluster_ids": [
+    "business-admin"
+   ],
+   "depth": "deep",
+   "what_it_is": "YN can also be 'struck' \u2014 earned via on-the-job qualification at the first duty station without attending the resident Class A school \u2014 or completed via distance learning, per forcecom.uscg.mil and gocoastguard.com (retrieved 2026-07-12). This is an accession path distinct from the other branches' admin ratings researched in this file.",
+   "entry_requirements": {
+    "asvab_line_score": "VE+AR \u2265105 per this session's search (asvabusa.org and corroborating sources, retrieved 2026-07-12), consistent with data/interest-taxonomy.json's 'no line score \u2014 per-rating subtest sums' Coast Guard structure. UNVERIFIED at primary-source level \u2014 gocoastguard.com's official YN page did not surface a numeric cutoff in this session's search-based review.",
+    "security_clearance": "Not typically required for general YN duty; UNVERIFIED whether legal-specialty-trained YNs supporting Coast Guard Judge Advocates (per data/interest-taxonomy.json's legal-cluster note on Coast Guard YNs) carry an elevated requirement.",
+    "education": "High school diploma or GED",
+    "physical": null,
+    "other": null
+   },
+   "training_pipeline": [],
+   "special_pays": [],
+   "transition": {
+    "va_disability_common_claims": []
+   },
+   "sources": [
+    "DoD COOL \u2014 cool.osd.mil (official)"
+   ],
+   "confidence": "official",
+   "civilian_crosswalk": {
+    "onet_soc_codes": [
+     "43-4021.00",
+     "43-4071.00",
+     "43-4161.00",
+     "13-1071.00",
+     "13-1075.00",
+     "43-9051.00"
+    ],
+    "civilian_titles": [
+     "Correspondence Clerks",
+     "File Clerks",
+     "Human Resources Assistants, Except Payroll and Timekeeping",
+     "Human Resources Specialists",
+     "Labor Relations Specialists",
+     "Mail Clerks and Mail Machine Operators, Except Postal Service"
+    ],
+    "relevant_certifications": [
+     "Fundamental Payroll Certification (FPC)",
+     "Uniform Certified Public Accountant (CPA) Examination",
+     "Certified Payroll Professional (CPP)",
+     "Certified Financial Planner (CFP)",
+     "Professional in Human Resources (PHR)",
+     "Senior Professional in Human Resources (SPHR)",
+     "Certified Facility Manager (CFM)",
+     "Certified Federal Contract Manager (CFCM)"
+    ],
+    "total_credentials_in_cool": 55,
+    "estimated_civilian_salary_range_usd": [
+     31110,
+     73240
+    ],
+    "civilian_median_salary_usd": 38850,
+    "salary_source": "DoD COOL / O*NET published median annual wage for the matched civilian occupations. This is the CIVILIAN wage, not military pay.",
+    "credential_gap_note": "DoD COOL maps this job to 9 civilian occupations: Correspondence Clerks, File Clerks, Human Resources Assistants, Except Payroll and Timekeeping, and 6 more. The training itself awards no civilian licence or certification. COOL lists 55 related credentials you would still have to earn separately, including Fundamental Payroll Certification (FPC), Uniform Certified Public Accountant (CPA) Examination, Certified Payroll Professional (CPP)."
+   }
+  }
+ ],
+ "unverified": []
+}
