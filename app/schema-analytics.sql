@@ -22,3 +22,12 @@ CREATE TABLE IF NOT EXISTS visitors (
   visitor_hash TEXT NOT NULL,
   PRIMARY KEY (day, visitor_hash)
 );
+
+-- Raw IP log: one row per distinct IP, with first/last seen and a hit count.
+-- Answers "how many unique IP addresses" and lists them.
+CREATE TABLE IF NOT EXISTS ip_log (
+  ip         TEXT    NOT NULL PRIMARY KEY,
+  first_seen TEXT    NOT NULL,
+  last_seen  TEXT    NOT NULL,
+  hits       INTEGER NOT NULL DEFAULT 1
+);

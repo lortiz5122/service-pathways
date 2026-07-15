@@ -172,6 +172,7 @@ export default {
       }
 
       const day = new Date().toISOString().slice(0, 10);
+      const now = new Date().toISOString();
       const ip = req.headers.get('cf-connecting-ip') ?? 'unknown';
       const visitor = await sha256(`${env.IP_SALT}:${ip}:${day}`);
 
@@ -183,6 +184,10 @@ export default {
         env.DB.prepare(
           `INSERT OR IGNORE INTO visitors (day, visitor_hash) VALUES (?, ?)`,
         ).bind(day, visitor),
+        env.DB.prepare(
+          `INSERT INTO ip_log (ip, first_seen, last_seen, hits) VALUES (?, ?, ?, 1)
+             ON CONFLICT (ip) DO UPDATE SET last_seen = ?, hits = hits + 1`,
+        ).bind(ip, now, now, now),
       ]);
 
       return json({ ok: true });
@@ -282,6 +287,13 @@ export default {
         env.DB.prepare('SELECT COUNT(*) AS n FROM visitors').bind(),
       ]);
 
+      const ipRows = await env.DB.batch([
+        env.DB.prepare('SELECT COUNT(*) AS n FROM ip_log'),
+        env.DB.prepare(
+          'SELECT ip, first_seen, last_seen, hits FROM ip_log ORDER BY last_seen DESC LIMIT 200',
+        ),
+      ]);
+
       const num = (r: D1Result, k = 'v') =>
         Number((r.results?.[0] as Record<string, unknown>)?.[k] ?? 0);
 
@@ -304,6 +316,8 @@ export default {
           },
           topPages: topPages.results ?? [],
           daily: daily.results ?? [],
+          uniqueIps: num(ipRows[0], 'n'),
+          ips: ipRows[1].results ?? [],
         },
         200,
         { 'cache-control': 'no-store' },

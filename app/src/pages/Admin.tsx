@@ -16,6 +16,8 @@ type Stats = {
   visitors: { today: number; weekDayCounted: number; allDayCounted: number };
   topPages: { path: string; views: number }[];
   daily: { day: string; views: number; visitors: number }[];
+  uniqueIps: number;
+  ips: { ip: string; first_seen: string; last_seen: string; hits: number }[];
 };
 
 type Item = {
@@ -230,8 +232,7 @@ function Traffic({ s }: { s: Stats }) {
       <div className="section-head">
         <h2>Visitors</h2>
         <p>
-          Page views and how many people they came from. No cookie, no session, no
-          IP address is stored — a reader is counted, never identified.
+          Page views and how many people they came from. No cookie, no session.
         </p>
       </div>
 
@@ -246,6 +247,7 @@ function Traffic({ s }: { s: Stats }) {
           label="People, all time"
           hint="Counted once per day"
         />
+        <Stat n={s.uniqueIps} label="Unique IPs" hint="Distinct IP addresses" />
       </div>
 
       <p className="stat-caveat">
@@ -284,6 +286,24 @@ function Traffic({ s }: { s: Stats }) {
                     <code>{p.path}</code>
                   </td>
                   <td>{p.views.toLocaleString()}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ) : null}
+
+      {s.ips.length ? (
+        <div className="card">
+          <h4 className="minihead">IP addresses</h4>
+          <table className="toppages">
+            <tbody>
+              {s.ips.map((r) => (
+                <tr key={r.ip}>
+                  <td>
+                    <code>{r.ip}</code>
+                  </td>
+                  <td>{r.hits.toLocaleString()}</td>
                 </tr>
               ))}
             </tbody>

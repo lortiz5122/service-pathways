@@ -165,7 +165,7 @@ export function Feedback() {
           <p className="fb-privacy">
             No account, no sign-up, no third party. This goes to one private inbox
             belonging to the person who built the site — <b>not to a recruiter</b>,
-            and not to any branch of the military. Your IP address is never stored.
+            and not to any branch of the military.
           </p>
         </div>
       </form>
