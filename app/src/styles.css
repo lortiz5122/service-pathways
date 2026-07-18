@@ -3344,3 +3344,26 @@ main a {
     padding-right: max(16px, env(safe-area-inset-right));
   }
 }
+
+/* ============================================================
+   MOBILE FIX — package calculator overflow ("Model your actual package")
+   The .calc-grid columns default to min-width:auto, so the 68px figure and the
+   long-option <select> pin a column wider than a phone and the whole section
+   scrolls sideways. Let the tracks shrink; scale the figure on small screens
+   (desktop is unchanged — 12vw only drops below 68px under ~567px wide).
+   ============================================================ */
+.calc-grid > div,
+.field2 > .field {
+  min-width: 0;
+}
+select {
+  max-width: 100%;
+}
+.readout .big {
+  font-size: clamp(38px, 12vw, 68px);
+  overflow-wrap: anywhere;
+}
+.readout .formula,
+.civeq .n {
+  overflow-wrap: anywhere;
+}
