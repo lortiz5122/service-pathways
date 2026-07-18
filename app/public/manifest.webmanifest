@@ -1,0 +1,19 @@
+{
+  "name": "Military Careers",
+  "short_name": "Mil Careers",
+  "description": "An independent, non-recruiting reference mapping interests to real U.S. military specialties across all six branches.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0e14",
+  "theme_color": "#0a0e14",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ]
+}

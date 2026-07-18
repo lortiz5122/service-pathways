@@ -3099,3 +3099,206 @@ table tr.hit td { color: var(--ink); }
 .paylist li b { font-variant-numeric: tabular-nums; white-space: nowrap; }
 ul.tight { margin: 8px 0; padding-left: 18px; }
 ul.tight li { margin-bottom: 6px; line-height: 1.55; }
+
+/* ============================================================
+   MOBILE — phone navigation, notch safe-areas, touch sizing
+   The server stamps <html data-device="mobile"> from the User-Agent; the app
+   also falls back to a max-width:720px viewport check. The drawer/toggle below
+   only exist in the DOM when the app is in mobile mode, so most rules here need
+   no media-query guard.
+   ============================================================ */
+
+/* --- notch / home-bar safe areas (no-ops on non-inset devices) --- */
+.topbar {
+  padding-top: max(12px, env(safe-area-inset-top));
+  padding-left: max(22px, env(safe-area-inset-left));
+  padding-right: max(22px, env(safe-area-inset-right));
+}
+.footer {
+  padding-bottom: max(60px, calc(40px + env(safe-area-inset-bottom)));
+}
+/* momentum scroll for the horizontally-scrolling tables on touch */
+.tablewrap {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* --- hamburger button --- */
+.navtoggle {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border: 1px solid var(--line-2);
+  border-radius: var(--radius-sm);
+  background: var(--panel-2);
+  color: var(--ink);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.navtoggle:hover {
+  border-color: var(--brand-accent);
+}
+.navtoggle-bars {
+  position: relative;
+  width: 20px;
+  height: 14px;
+}
+.navtoggle-bars span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--ink);
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease,
+    top 0.2s ease;
+}
+.navtoggle-bars span:nth-child(1) {
+  top: 0;
+}
+.navtoggle-bars span:nth-child(2) {
+  top: 6px;
+}
+.navtoggle-bars span:nth-child(3) {
+  top: 12px;
+}
+.navtoggle[aria-expanded='true'] .navtoggle-bars span:nth-child(1) {
+  top: 6px;
+  transform: rotate(45deg);
+}
+.navtoggle[aria-expanded='true'] .navtoggle-bars span:nth-child(2) {
+  opacity: 0;
+}
+.navtoggle[aria-expanded='true'] .navtoggle-bars span:nth-child(3) {
+  top: 6px;
+  transform: rotate(-45deg);
+}
+
+/* --- overlay + drawer (portalled to <body>) --- */
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(4, 7, 11, 0.62);
+  backdrop-filter: blur(2px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+.drawer-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 61;
+  height: 100%;
+  width: min(84vw, 340px);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: calc(16px + env(safe-area-inset-top)) max(18px, env(safe-area-inset-right))
+    calc(24px + env(safe-area-inset-bottom)) 18px;
+  background: var(--bg-2);
+  border-left: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  transform: translateX(100%);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.drawer.is-open {
+  transform: translateX(0);
+}
+
+.drawer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.drawer-title {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.drawer-close {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--ink-2);
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.drawer-close:hover {
+  color: var(--ink);
+  background: var(--panel);
+}
+
+.drawerlink {
+  display: block;
+  padding: 14px 12px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+  text-decoration: none;
+  font-family: var(--stencil);
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.drawerlink:hover {
+  background: var(--panel);
+}
+.drawerlink.is-active {
+  color: var(--brand-ink);
+  background: var(--brand);
+  border-color: color-mix(in srgb, var(--brand-accent) 55%, transparent);
+}
+
+/* --- phone layout tweaks --- */
+@media (max-width: 720px) {
+  .topbar {
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .brandmark strong {
+    font-size: 15px;
+  }
+  .brandmark span {
+    font-size: 9px;
+  }
+  .wrap {
+    padding: 22px 16px 72px;
+  }
+}
+@media (max-width: 360px) {
+  /* ultra-narrow: the tagline is the first thing to go */
+  .brandmark span {
+    display: none;
+  }
+}
+
+/* respect reduced-motion: no slide/fade, just show/hide */
+@media (prefers-reduced-motion: reduce) {
+  .drawer,
+  .drawer-overlay,
+  .navtoggle-bars span {
+    transition: none;
+  }
+}

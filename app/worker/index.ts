@@ -93,6 +93,26 @@ async function validSession(req: Request, env: Env): Promise<boolean> {
 const cookie = (value: string, maxAge: number) =>
   `mc_admin=${value}; HttpOnly; Secure; SameSite=Strict; Path=/; Max-Age=${maxAge}`;
 
+/**
+ * Server-side device detection. The reader's User-Agent is read on the document
+ * request and the verdict is stamped onto `<html data-device="…">` before a byte
+ * of JS runs — so the app boots straight into the mobile layout with no
+ * desktop-nav flash. The choice is made by the server from the device, not
+ * guessed later from the window size.
+ *
+ * Phones only. iPadOS ≥13 reports a desktop Safari UA on purpose and is treated
+ * as desktop; a tablet or an unrecognised UA also gets "desktop" and simply
+ * misses the hint — the responsive CSS still adapts it by viewport width on the
+ * client, so nothing is ever stranded.
+ */
+function detectDevice(ua: string): 'mobile' | 'desktop' {
+  const isPhone =
+    /iphone|ipod/i.test(ua) ||
+    (/android/i.test(ua) && /mobile/i.test(ua)) ||
+    /windows phone|iemobile|blackberry|bb10/i.test(ua);
+  return isPhone ? 'mobile' : 'desktop';
+}
+
 export default {
   async fetch(req: Request, env: Env): Promise<Response> {
     const url = new URL(req.url);
@@ -327,6 +347,24 @@ export default {
     // Anything under /api that we did not handle is a 404, not the SPA shell.
     if (p.startsWith('/api/')) return json({ error: 'Not found.' }, 404);
 
-    return env.ASSETS.fetch(req);
+    // Everything else is a static asset. For the HTML document itself, stamp the
+    // server's device verdict onto <html> so the SPA renders the right navigation
+    // on the very first paint. Non-HTML assets pass straight through untouched.
+    const res = await env.ASSETS.fetch(req);
+    if (!(res.headers.get('content-type') ?? '').includes('text/html')) return res;
+
+    const device = detectDevice(req.headers.get('user-agent') ?? '');
+    const transformed = new HTMLRewriter()
+      .on('html', {
+        element(el) {
+          el.setAttribute('data-device', device);
+        },
+      })
+      .transform(res);
+
+    // Fresh, mutable headers; note the response now varies by device.
+    const out = new Response(transformed.body, transformed);
+    out.headers.set('Vary', 'User-Agent');
+    return out;
   },
 };

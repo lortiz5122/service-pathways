@@ -16,6 +16,8 @@ import { usePageview } from './lib/hit';
 import { AppMark } from './branding/Emblem';
 import { SiteDisclaimer } from './components/Disclaimer';
 import { RESEARCH_DATE } from './lib/data';
+import { useIsMobile } from './lib/device';
+import MobileNav from './components/MobileNav';
 
 const NAV = [
   { to: '/', label: 'Interests', end: true },
@@ -38,6 +40,8 @@ function ScrollToTop() {
 }
 
 export default function App() {
+  const isMobile = useIsMobile();
+
   return (
     <>
       <ScrollToTop />
@@ -51,20 +55,24 @@ export default function App() {
           </div>
         </NavLink>
 
-        <nav className="navscroll">
-          {NAV.map((n) => (
-            <NavLink
-              key={n.to}
-              to={n.to}
-              end={n.end}
-              className={({ isActive }) =>
-                isActive ? 'navbtn is-active' : 'navbtn'
-              }
-            >
-              {n.label}
-            </NavLink>
-          ))}
-        </nav>
+        {isMobile ? (
+          <MobileNav items={NAV} />
+        ) : (
+          <nav className="navscroll">
+            {NAV.map((n) => (
+              <NavLink
+                key={n.to}
+                to={n.to}
+                end={n.end}
+                className={({ isActive }) =>
+                  isActive ? 'navbtn is-active' : 'navbtn'
+                }
+              >
+                {n.label}
+              </NavLink>
+            ))}
+          </nav>
+        )}
       </header>
 
       <main>
