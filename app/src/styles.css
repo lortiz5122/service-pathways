@@ -192,11 +192,12 @@ a {
 }
 
 .g2 {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* min(300px, 100%) so a single column can never exceed a narrow phone. */
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
 }
 
 .g3 {
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
 }
 
 .card {
@@ -3366,4 +3367,41 @@ select {
 .readout .formula,
 .civeq .n {
   overflow-wrap: anywhere;
+}
+
+/* ============================================================
+   MOBILE FIX — bare tables must not inherit table{min-width:560px}
+   .paybreak (pay calculator + military-vs-civilian) and .toppages (admin) sit
+   OUTSIDE a scrolling .tablewrap, so the base 560px floor forced the whole page
+   wider than a phone and required scrolling right. They are width:100% with short
+   content — let them shrink to the container.
+   ============================================================ */
+.paybreak,
+.toppages {
+  min-width: 0;
+}
+
+/* ============================================================
+   MOBILE FIX — remaining overflow sites (found by headless measurement)
+   ============================================================ */
+
+/* Jobs: tag chips take their own full-width line on phones and wrap, instead of
+   holding the row wider than the screen (flex-shrink:0 had pinned it open). */
+@media (max-width: 700px) {
+  .job-tags {
+    flex-basis: 100%;
+    justify-content: flex-start;
+    flex-shrink: 1;
+    min-width: 0;
+  }
+}
+
+/* Prep branch strip: cap the column min at the container and let the cards and
+   their text shrink/wrap, so two columns never exceed a narrow phone. */
+.branch-strip {
+  grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr));
+}
+.branch-mini,
+.branch-mini > div {
+  min-width: 0;
 }
