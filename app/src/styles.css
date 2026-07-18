@@ -3302,3 +3302,45 @@ ul.tight li { margin-bottom: 6px; line-height: 1.55; }
     transition: none;
   }
 }
+
+/* ============================================================
+   MOBILE FIXES — iOS text rendering + horizontal-overflow guards
+   ============================================================ */
+
+/* iOS Safari auto-inflates text on content-heavy pages, which reads as
+   "malformed" / inconsistently-sized text. Pin it to the authored size. */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* The confirmed page-widener: "Source: <url>" lines carry citation URLs up to
+   ~180 chars. Without a break opportunity a single URL is far wider than a phone
+   and forces the whole page to scroll sideways. Break them anywhere. */
+.srcline {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Belt-and-suspenders: any long token (a code, a URL, a hyphen-less name) in the
+   main content wraps instead of widening the viewport. Low specificity, so the
+   existing per-element rules still win where they set their own wrapping. */
+main h1,
+main h2,
+main h3,
+main h4,
+main p,
+main li,
+main dt,
+main dd,
+main a {
+  overflow-wrap: break-word;
+}
+
+/* Landscape: keep body text clear of the notch / rounded corners. */
+@media (max-width: 720px) {
+  .wrap {
+    padding-left: max(16px, env(safe-area-inset-left));
+    padding-right: max(16px, env(safe-area-inset-right));
+  }
+}
