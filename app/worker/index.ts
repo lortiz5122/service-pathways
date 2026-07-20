@@ -198,8 +198,15 @@ export default {
 
       // Approximate city/region Cloudflare attaches at the edge. Present in
       // production; may be absent locally or for some IPs, so default to null.
-      const city = req.cf?.city ?? null;
-      const region = req.cf?.region ?? null;
+      // Google's crawler has no meaningful "location" — its IP resolves to a
+      // datacenter city that means nothing, so label it as Google instead.
+      const ua = req.headers.get('user-agent') ?? '';
+      const isGoogleBot =
+        /googlebot|google-inspectiontool|storebot-google|googleother|mediapartners-google|apis-google/i.test(
+          ua,
+        );
+      const city = isGoogleBot ? 'Google (crawler)' : (req.cf?.city ?? null);
+      const region = isGoogleBot ? null : (req.cf?.region ?? null);
 
       await env.DB.batch([
         env.DB.prepare(
