@@ -17,7 +17,14 @@ type Stats = {
   topPages: { path: string; views: number }[];
   daily: { day: string; views: number; visitors: number }[];
   uniqueIps: number;
-  ips: { ip: string; first_seen: string; last_seen: string; hits: number }[];
+  ips: {
+    ip: string;
+    first_seen: string;
+    last_seen: string;
+    hits: number;
+    city: string | null;
+    region: string | null;
+  }[];
 };
 
 type Item = {
@@ -302,6 +309,9 @@ function Traffic({ s }: { s: Stats }) {
                 <tr key={r.ip}>
                   <td>
                     <code>{r.ip}</code>
+                  </td>
+                  <td>
+                    {[r.city, r.region].filter(Boolean).join(', ') || '—'}
                   </td>
                   <td>{r.hits.toLocaleString()}</td>
                 </tr>

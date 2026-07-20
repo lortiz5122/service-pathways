@@ -24,10 +24,13 @@ CREATE TABLE IF NOT EXISTS visitors (
 );
 
 -- Raw IP log: one row per distinct IP, with first/last seen and a hit count.
--- Answers "how many unique IP addresses" and lists them.
+-- Answers "how many unique IP addresses" and lists them, plus the approximate
+-- city and region (state) Cloudflare attaches to the request at the edge.
 CREATE TABLE IF NOT EXISTS ip_log (
   ip         TEXT    NOT NULL PRIMARY KEY,
   first_seen TEXT    NOT NULL,
   last_seen  TEXT    NOT NULL,
-  hits       INTEGER NOT NULL DEFAULT 1
+  hits       INTEGER NOT NULL DEFAULT 1,
+  city       TEXT,
+  region     TEXT
 );

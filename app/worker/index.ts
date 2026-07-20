@@ -196,6 +196,11 @@ export default {
       const ip = req.headers.get('cf-connecting-ip') ?? 'unknown';
       const visitor = await sha256(`${env.IP_SALT}:${ip}:${day}`);
 
+      // Approximate city/region Cloudflare attaches at the edge. Present in
+      // production; may be absent locally or for some IPs, so default to null.
+      const city = req.cf?.city ?? null;
+      const region = req.cf?.region ?? null;
+
       await env.DB.batch([
         env.DB.prepare(
           `INSERT INTO pageviews (day, path, views) VALUES (?, ?, 1)
@@ -205,9 +210,13 @@ export default {
           `INSERT OR IGNORE INTO visitors (day, visitor_hash) VALUES (?, ?)`,
         ).bind(day, visitor),
         env.DB.prepare(
-          `INSERT INTO ip_log (ip, first_seen, last_seen, hits) VALUES (?, ?, ?, 1)
-             ON CONFLICT (ip) DO UPDATE SET last_seen = ?, hits = hits + 1`,
-        ).bind(ip, now, now, now),
+          `INSERT INTO ip_log (ip, first_seen, last_seen, hits, city, region)
+             VALUES (?, ?, ?, 1, ?, ?)
+             ON CONFLICT (ip) DO UPDATE SET
+               last_seen = ?, hits = hits + 1,
+               city   = COALESCE(excluded.city, ip_log.city),
+               region = COALESCE(excluded.region, ip_log.region)`,
+        ).bind(ip, now, now, city, region, now),
       ]);
 
       return json({ ok: true });
@@ -310,7 +319,7 @@ export default {
       const ipRows = await env.DB.batch([
         env.DB.prepare('SELECT COUNT(*) AS n FROM ip_log'),
         env.DB.prepare(
-          'SELECT ip, first_seen, last_seen, hits FROM ip_log ORDER BY last_seen DESC LIMIT 200',
+          'SELECT ip, first_seen, last_seen, hits, city, region FROM ip_log ORDER BY last_seen DESC LIMIT 200',
         ),
       ]);
 
